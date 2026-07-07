@@ -1,0 +1,565 @@
+
+unit_sp_detail_animation_379_1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 1, 1021
+  size: 991, 1024
+  orig: 991, 1024
+  offset: 0, 0
+  index: -1
+BG_building
+  rotate: false
+  xy: 1, 16
+  size: 991, 1004
+  orig: 991, 1004
+  offset: 0, 0
+  index: -1
+BG_sky
+  rotate: false
+  xy: 993, 1551
+  size: 957, 494
+  orig: 957, 494
+  offset: 0, 0
+  index: -1
+arm_L
+  rotate: true
+  xy: 1836, 63
+  size: 116, 210
+  orig: 116, 210
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: true
+  xy: 1863, 295
+  size: 82, 175
+  orig: 82, 175
+  offset: 0, 0
+  index: -1
+backhair_03
+  rotate: true
+  xy: 1805, 66
+  size: 60, 27
+  orig: 60, 27
+  offset: 0, 0
+  index: -1
+candy_01
+  rotate: true
+  xy: 1861, 180
+  size: 114, 161
+  orig: 114, 161
+  offset: 0, 0
+  index: -1
+candy_01_aura
+  rotate: true
+  xy: 1873, 1234
+  size: 131, 164
+  orig: 131, 164
+  offset: 0, 0
+  index: -1
+candy_02
+  rotate: false
+  xy: 1951, 1498
+  size: 91, 108
+  orig: 91, 108
+  offset: 0, 0
+  index: -1
+candy_05
+  rotate: false
+  xy: 1805, 1
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+candy_06_aura
+  rotate: true
+  xy: 1873, 811
+  size: 159, 161
+  orig: 159, 161
+  offset: 0, 0
+  index: -1
+candy_08_aura
+  rotate: false
+  xy: 1951, 1607
+  size: 92, 89
+  orig: 92, 89
+  offset: 0, 0
+  index: -1
+candy_09
+  rotate: true
+  xy: 1870, 2
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+candy_10
+  rotate: true
+  xy: 1805, 183
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+candy_10_aura
+  rotate: false
+  xy: 1805, 306
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+candy_11
+  rotate: false
+  xy: 1805, 155
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+candy_11_aura
+  rotate: true
+  xy: 1873, 1502
+  size: 48, 58
+  orig: 48, 58
+  offset: 0, 0
+  index: -1
+candy_12
+  rotate: false
+  xy: 1805, 127
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+candy_12_aura
+  rotate: false
+  xy: 1805, 266
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1
+candy_13
+  rotate: true
+  xy: 1805, 223
+  size: 42, 47
+  orig: 42, 47
+  offset: 0, 0
+  index: -1
+ef_particle
+  rotate: true
+  xy: 993, 22
+  size: 842, 496
+  orig: 842, 496
+  offset: 0, 0
+  index: -1
+ef_sparkling
+  rotate: false
+  xy: 993, 865
+  size: 879, 685
+  orig: 879, 685
+  offset: 0, 0
+  index: -1
+ghost_01_aura
+  rotate: false
+  xy: 1490, 433
+  size: 372, 431
+  orig: 372, 431
+  offset: 0, 0
+  index: -1
+ghost_02_arm_L
+  rotate: false
+  xy: 1805, 371
+  size: 57, 61
+  orig: 57, 61
+  offset: 0, 0
+  index: -1
+ghost_02_arm_R
+  rotate: true
+  xy: 1873, 971
+  size: 135, 162
+  orig: 135, 162
+  offset: 0, 0
+  index: -1
+ghost_02_arm_R_aura
+  rotate: false
+  xy: 1873, 1107
+  size: 163, 126
+  orig: 163, 126
+  offset: 0, 0
+  index: -1
+pumpkin_01_flush
+  rotate: true
+  xy: 1863, 378
+  size: 191, 179
+  orig: 191, 179
+  offset: 0, 0
+  index: -1
+pumpkin_01_sub
+  rotate: true
+  xy: 1873, 1366
+  size: 131, 173
+  orig: 131, 173
+  offset: 0, 0
+  index: -1
+pumpkin_02_aura
+  rotate: false
+  xy: 1863, 570
+  size: 181, 192
+  orig: 181, 192
+  offset: 0, 0
+  index: -1
+pumpkin_04_flush
+  rotate: true
+  xy: 1951, 1955
+  size: 90, 96
+  orig: 90, 96
+  offset: 0, 0
+  index: -1
+pumpkin_05_flush
+  rotate: true
+  xy: 1951, 1790
+  size: 82, 93
+  orig: 82, 93
+  offset: 0, 0
+  index: -1
+ribbon
+  rotate: false
+  xy: 1951, 1697
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+sidehair_L
+  rotate: true
+  xy: 1863, 763
+  size: 47, 184
+  orig: 47, 184
+  offset: 0, 0
+  index: -1
+skirt
+  rotate: true
+  xy: 1490, 6
+  size: 426, 314
+  orig: 426, 314
+  offset: 0, 0
+  index: -1
+waist_ribbon
+  rotate: false
+  xy: 1951, 1873
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+
+unit_sp_detail_animation_379_12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_big_pumpkin
+  rotate: false
+  xy: 827, 1406
+  size: 658, 640
+  orig: 658, 640
+  offset: 0, 0
+  index: -1
+BG_moon
+  rotate: true
+  xy: 848, 754
+  size: 255, 267
+  orig: 255, 267
+  offset: 0, 0
+  index: -1
+BG_star
+  rotate: true
+  xy: 721, 859
+  size: 512, 126
+  orig: 512, 126
+  offset: 0, 0
+  index: -1
+backhair_01
+  rotate: false
+  xy: 1, 53
+  size: 437, 249
+  orig: 437, 249
+  offset: 0, 0
+  index: -1
+backhair_02
+  rotate: true
+  xy: 531, 314
+  size: 390, 111
+  orig: 390, 111
+  offset: 0, 0
+  index: -1
+bangs
+  rotate: true
+  xy: 732, 564
+  size: 146, 133
+  orig: 146, 133
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 1167, 1056
+  size: 349, 318
+  orig: 349, 318
+  offset: 0, 0
+  index: -1
+candy_02_aura
+  rotate: false
+  xy: 1116, 749
+  size: 105, 122
+  orig: 105, 122
+  offset: 0, 0
+  index: -1
+candy_03
+  rotate: false
+  xy: 637, 93
+  size: 105, 98
+  orig: 105, 98
+  offset: 0, 0
+  index: -1
+candy_03_aura
+  rotate: false
+  xy: 989, 634
+  size: 124, 119
+  orig: 124, 119
+  offset: 0, 0
+  index: -1
+candy_04
+  rotate: true
+  xy: 1624, 1025
+  size: 78, 123
+  orig: 78, 123
+  offset: 0, 0
+  index: -1
+candy_04_aura
+  rotate: false
+  xy: 643, 410
+  size: 86, 145
+  orig: 86, 145
+  offset: 0, 0
+  index: -1
+candy_05_aura
+  rotate: false
+  xy: 552, 1
+  size: 106, 91
+  orig: 106, 91
+  offset: 0, 0
+  index: -1
+candy_06
+  rotate: false
+  xy: 721, 711
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+candy_07
+  rotate: true
+  xy: 1202, 875
+  size: 72, 98
+  orig: 72, 98
+  offset: 0, 0
+  index: -1
+candy_07_aura
+  rotate: false
+  xy: 1114, 625
+  size: 104, 123
+  orig: 104, 123
+  offset: 0, 0
+  index: -1
+candy_08
+  rotate: false
+  xy: 1945, 1057
+  size: 81, 73
+  orig: 81, 73
+  offset: 0, 0
+  index: -1
+candy_09_aura
+  rotate: true
+  xy: 1222, 685
+  size: 76, 83
+  orig: 76, 83
+  offset: 0, 0
+  index: -1
+candy_13_aura
+  rotate: false
+  xy: 1219, 620
+  size: 66, 64
+  orig: 66, 64
+  offset: 0, 0
+  index: -1
+ef_aura_chara
+  rotate: false
+  xy: 1, 303
+  size: 529, 401
+  orig: 529, 401
+  offset: 0, 0
+  index: -1
+ef_aura_pumpkin
+  rotate: false
+  xy: 1, 705
+  size: 719, 666
+  orig: 719, 666
+  offset: 0, 0
+  index: -1
+ef_flare
+  rotate: false
+  xy: 1, 1372
+  size: 825, 674
+  orig: 825, 674
+  offset: 0, 0
+  index: -1
+ef_flush
+  rotate: false
+  xy: 1202, 948
+  size: 107, 107
+  orig: 146, 142
+  offset: 17, 18
+  index: -1
+ghost_01
+  rotate: true
+  xy: 1486, 1397
+  size: 308, 398
+  orig: 308, 398
+  offset: 0, 0
+  index: -1
+ghost_01_arm
+  rotate: true
+  xy: 643, 556
+  size: 148, 88
+  orig: 148, 88
+  offset: 0, 0
+  index: -1
+ghost_02
+  rotate: true
+  xy: 439, 93
+  size: 209, 197
+  orig: 209, 197
+  offset: 0, 0
+  index: -1
+ghost_02_aura
+  rotate: true
+  xy: 1767, 1131
+  size: 265, 243
+  orig: 265, 243
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 1222, 762
+  size: 112, 84
+  orig: 112, 84
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1885, 1407
+  size: 142, 144
+  orig: 142, 144
+  offset: 0, 0
+  index: -1
+legs
+  rotate: false
+  xy: 1486, 1706
+  size: 521, 340
+  orig: 521, 340
+  offset: 0, 0
+  index: -1
+pumpkin_01_aura
+  rotate: false
+  xy: 848, 1010
+  size: 318, 395
+  orig: 318, 395
+  offset: 0, 0
+  index: -1
+pumpkin_01_base
+  rotate: false
+  xy: 1486, 1104
+  size: 280, 292
+  orig: 280, 292
+  offset: 0, 0
+  index: -1
+pumpkin_02_base
+  rotate: true
+  xy: 1885, 1552
+  size: 153, 145
+  orig: 153, 145
+  offset: 0, 0
+  index: -1
+pumpkin_02_flush
+  rotate: true
+  xy: 637, 192
+  size: 119, 99
+  orig: 119, 99
+  offset: 0, 0
+  index: -1
+pumpkin_02_sub
+  rotate: true
+  xy: 1857, 1057
+  size: 73, 87
+  orig: 73, 87
+  offset: 0, 0
+  index: -1
+pumpkin_03
+  rotate: true
+  xy: 1310, 958
+  size: 97, 116
+  orig: 97, 116
+  offset: 0, 0
+  index: -1
+pumpkin_03_aura
+  rotate: false
+  xy: 866, 623
+  size: 122, 130
+  orig: 122, 130
+  offset: 0, 0
+  index: -1
+pumpkin_03_flush
+  rotate: true
+  xy: 643, 312
+  size: 97, 91
+  orig: 97, 91
+  offset: 0, 0
+  index: -1
+pumpkin_04
+  rotate: true
+  xy: 659, 4
+  size: 88, 104
+  orig: 88, 104
+  offset: 0, 0
+  index: -1
+pumpkin_04_aura
+  rotate: true
+  xy: 439, 12
+  size: 80, 112
+  orig: 80, 112
+  offset: 0, 0
+  index: -1
+pumpkin_05
+  rotate: true
+  xy: 1767, 1048
+  size: 82, 89
+  orig: 82, 89
+  offset: 0, 0
+  index: -1
+pumpkin_05_aura
+  rotate: true
+  xy: 866, 542
+  size: 80, 121
+  orig: 80, 121
+  offset: 0, 0
+  index: -1
+upperarm_L
+  rotate: false
+  xy: 1116, 872
+  size: 85, 137
+  orig: 85, 137
+  offset: 0, 0
+  index: -1
+upperarm_R
+  rotate: true
+  xy: 1486, 1029
+  size: 74, 137
+  orig: 74, 137
+  offset: 0, 0
+  index: -1

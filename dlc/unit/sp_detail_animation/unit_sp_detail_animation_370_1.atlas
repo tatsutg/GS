@@ -1,0 +1,313 @@
+
+unit_sp_detail_animation_370_1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_cloud_03
+  rotate: false
+  xy: 1, 1040
+  size: 1003, 347
+  orig: 1003, 347
+  offset: 0, 0
+  index: -1
+BG_sky
+  rotate: true
+  xy: 1036, 1051
+  size: 996, 1010
+  orig: 996, 1010
+  offset: 0, 0
+  index: -1
+arm_L
+  rotate: true
+  xy: 1211, 89
+  size: 272, 97
+  orig: 272, 97
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: true
+  xy: 1366, 609
+  size: 441, 674
+  orig: 441, 674
+  offset: 0, 0
+  index: -1
+bangs
+  rotate: false
+  xy: 1847, 444
+  size: 199, 164
+  orig: 199, 164
+  offset: 0, 0
+  index: -1
+bangs_sub
+  rotate: false
+  xy: 1366, 12
+  size: 110, 82
+  orig: 110, 82
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 442, 271
+  size: 436, 768
+  orig: 436, 768
+  offset: 0, 0
+  index: -1
+ef_aura_arm_R
+  rotate: false
+  xy: 879, 362
+  size: 443, 677
+  orig: 443, 677
+  offset: 0, 0
+  index: -1
+ef_aura_body
+  rotate: false
+  xy: 1, 268
+  size: 440, 771
+  orig: 440, 771
+  offset: 0, 0
+  index: -1
+ef_aura_hair_L
+  rotate: true
+  xy: 879, 271
+  size: 90, 113
+  orig: 90, 113
+  offset: 0, 0
+  index: -1
+ef_aura_head
+  rotate: true
+  xy: 789, 67
+  size: 203, 168
+  orig: 203, 168
+  offset: 0, 0
+  index: -1
+ef_aura_jacket_L
+  rotate: false
+  xy: 1, 4
+  size: 278, 263
+  orig: 278, 263
+  offset: 0, 0
+  index: -1
+ef_aura_jacket_R
+  rotate: true
+  xy: 1588, 19
+  size: 75, 150
+  orig: 75, 150
+  offset: 0, 0
+  index: -1
+ef_aura_neck
+  rotate: true
+  xy: 1477, 15
+  size: 79, 110
+  orig: 79, 110
+  offset: 0, 0
+  index: -1
+ef_aura_tie
+  rotate: true
+  xy: 993, 69
+  size: 292, 110
+  orig: 292, 110
+  offset: 0, 0
+  index: -1
+ef_sunflush_01
+  rotate: true
+  xy: 556, 18
+  size: 252, 232
+  orig: 252, 232
+  offset: 0, 0
+  index: -1
+ef_sunflush_02
+  rotate: false
+  xy: 1323, 95
+  size: 466, 513
+  orig: 466, 513
+  offset: 0, 0
+  index: -1
+ef_sunflush_rainbow
+  rotate: false
+  xy: 1790, 99
+  size: 153, 190
+  orig: 188, 222
+  offset: 0, 26
+  index: -1
+ef_sunlight_circle_flare
+  rotate: false
+  xy: 1847, 23
+  size: 75, 75
+  orig: 77, 77
+  offset: 1, 1
+  index: -1
+eye_L
+  rotate: false
+  xy: 1005, 1367
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+eye_R
+  rotate: true
+  xy: 1005, 1197
+  size: 36, 20
+  orig: 36, 20
+  offset: 0, 0
+  index: -1
+eyebrow_L
+  rotate: false
+  xy: 1005, 1358
+  size: 29, 8
+  orig: 29, 8
+  offset: 0, 0
+  index: -1
+eyebrow_R
+  rotate: true
+  xy: 1026, 1233
+  size: 42, 8
+  orig: 42, 8
+  offset: 0, 0
+  index: -1
+finger_L_03
+  rotate: false
+  xy: 1005, 1276
+  size: 25, 40
+  orig: 25, 40
+  offset: 0, 0
+  index: -1
+finger_L_04
+  rotate: false
+  xy: 1005, 1234
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+finger_L_05
+  rotate: false
+  xy: 1005, 1161
+  size: 18, 35
+  orig: 18, 35
+  offset: 0, 0
+  index: -1
+hair_L
+  rotate: true
+  xy: 1256, 2
+  size: 86, 109
+  orig: 86, 109
+  offset: 0, 0
+  index: -1
+hair_sub_L
+  rotate: false
+  xy: 1024, 1152
+  size: 11, 44
+  orig: 11, 44
+  offset: 0, 0
+  index: -1
+hair_sub_R
+  rotate: false
+  xy: 1005, 1317
+  size: 28, 40
+  orig: 28, 40
+  offset: 0, 0
+  index: -1
+inner_R
+  rotate: true
+  xy: 789, 19
+  size: 47, 318
+  orig: 47, 318
+  offset: 0, 0
+  index: -1
+jacket_L
+  rotate: false
+  xy: 280, 8
+  size: 275, 259
+  orig: 275, 259
+  offset: 0, 0
+  index: -1
+jacket_R
+  rotate: true
+  xy: 1108, 1
+  size: 71, 147
+  orig: 71, 147
+  offset: 0, 0
+  index: -1
+jacket_back
+  rotate: false
+  xy: 1, 1388
+  size: 1034, 659
+  orig: 1034, 659
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 1739, 19
+  size: 75, 107
+  orig: 75, 107
+  offset: 0, 0
+  index: -1
+tie
+  rotate: true
+  xy: 1104, 73
+  size: 288, 106
+  orig: 288, 106
+  offset: 0, 0
+  index: -1
+weapon_L
+  rotate: true
+  xy: 1847, 290
+  size: 153, 199
+  orig: 153, 199
+  offset: 0, 0
+  index: -1
+
+unit_sp_detail_animation_370_12.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_cloud_01
+  rotate: false
+  xy: 1, 130
+  size: 641, 374
+  orig: 641, 374
+  offset: 0, 0
+  index: -1
+BG_cloud_02
+  rotate: false
+  xy: 643, 30
+  size: 315, 172
+  orig: 315, 172
+  offset: 0, 0
+  index: -1
+ef_flush
+  rotate: false
+  xy: 416, 22
+  size: 107, 107
+  orig: 146, 142
+  offset: 17, 18
+  index: -1
+ef_sunlight
+  rotate: false
+  xy: 416, 22
+  size: 107, 107
+  orig: 146, 142
+  offset: 17, 18
+  index: -1
+ef_sword_light
+  rotate: true
+  xy: 643, 203
+  size: 301, 366
+  orig: 301, 366
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 299, 7
+  size: 116, 122
+  orig: 116, 122
+  offset: 0, 0
+  index: -1
+inner_L
+  rotate: true
+  xy: 1, 1
+  size: 128, 297
+  orig: 128, 297
+  offset: 0, 0
+  index: -1
