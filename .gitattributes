@@ -1,0 +1,14 @@
+# 1. Standardize line endings for all text files
+* text=auto
+
+# 2. Treat images and Spine exports as binary files to prevent Git lag and text diffs
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.atlas binary
+*.skel binary
+
+# 3. Prevent massive data files and the DLC folder from taking over your GitHub Language Bar
+*.json linguist-generated=true
+dlc/** linguist-generated=true
