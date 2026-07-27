@@ -1,0 +1,369 @@
+
+unit_sp_detail_animation_408_1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: false
+  xy: 393, 7
+  size: 242, 181
+  orig: 244, 183
+  offset: 1, 1
+  index: -1
+Leg_R_eff
+  rotate: true
+  xy: 767, 143
+  size: 325, 228
+  orig: 327, 230
+  offset: 1, 1
+  index: -1
+R_arm
+  rotate: true
+  xy: 767, 733
+  size: 306, 250
+  orig: 308, 252
+  offset: 1, 1
+  index: -1
+back_splash2
+  rotate: true
+  xy: 1, 189
+  size: 850, 765
+  orig: 852, 767
+  offset: 1, 1
+  index: -1
+ear
+  rotate: true
+  xy: 996, 407
+  size: 61, 21
+  orig: 63, 23
+  offset: 1, 1
+  index: -1
+ef_aura_L_arm
+  rotate: true
+  xy: 1985, 1967
+  size: 79, 61
+  orig: 81, 63
+  offset: 1, 1
+  index: -1
+ef_aura_body
+  rotate: false
+  xy: 868, 15
+  size: 98, 127
+  orig: 100, 129
+  offset: 1, 1
+  index: -1
+ef_aura_head
+  rotate: false
+  xy: 1637, 39
+  size: 103, 74
+  orig: 105, 76
+  offset: 1, 1
+  index: -1
+ef_aura_mant
+  rotate: false
+  xy: 636, 1
+  size: 231, 141
+  orig: 233, 143
+  offset: 1, 1
+  index: -1
+ef_aura_mimi
+  rotate: true
+  xy: 1985, 1890
+  size: 76, 54
+  orig: 78, 56
+  offset: 1, 1
+  index: -1
+ef_flush
+  rotate: false
+  xy: 1637, 114
+  size: 107, 107
+  orig: 146, 142
+  offset: 17, 18
+  index: -1
+ef_impact_blur
+  rotate: true
+  xy: 767, 469
+  size: 263, 246
+  orig: 265, 248
+  offset: 1, 1
+  index: -1
+hair_base
+  rotate: true
+  xy: 1756, 639
+  size: 395, 280
+  orig: 397, 282
+  offset: 1, 1
+  index: -1
+magic_2water
+  rotate: true
+  xy: 1018, 222
+  size: 812, 737
+  orig: 814, 739
+  offset: 1, 1
+  index: -1
+radiation1
+  rotate: true
+  xy: 1026, 1035
+  size: 1011, 958
+  orig: 1013, 960
+  offset: 1, 1
+  index: -1
+radiation2
+  rotate: false
+  xy: 1, 1040
+  size: 1024, 1006
+  orig: 1026, 1008
+  offset: 1, 1
+  index: -1
+splash3_03
+  rotate: true
+  xy: 1, 3
+  size: 185, 391
+  orig: 187, 393
+  offset: 1, 1
+  index: -1
+splash5_02
+  rotate: true
+  xy: 1756, 242
+  size: 396, 277
+  orig: 398, 279
+  offset: 1, 1
+  index: -1
+stars_01
+  rotate: false
+  xy: 1756, 32
+  size: 277, 209
+  orig: 279, 211
+  offset: 1, 1
+  index: -1
+stars_02
+  rotate: false
+  xy: 1375, 21
+  size: 261, 200
+  orig: 263, 202
+  offset: 1, 1
+  index: -1
+stars_05
+  rotate: false
+  xy: 996, 3
+  size: 378, 218
+  orig: 380, 220
+  offset: 1, 1
+  index: -1
+
+unit_sp_detail_animation_408_12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leg_L_eff
+  rotate: true
+  xy: 1913, 1718
+  size: 307, 128
+  orig: 309, 130
+  offset: 1, 1
+  index: -1
+back_splash1
+  rotate: false
+  xy: 1, 1480
+  size: 689, 545
+  orig: 691, 547
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 1, 1
+  size: 301, 396
+  orig: 303, 398
+  offset: 1, 1
+  index: -1
+ef_aura_R_arm
+  rotate: true
+  xy: 1751, 1265
+  size: 98, 80
+  orig: 100, 82
+  offset: 1, 1
+  index: -1
+ef_aura_leg_L
+  rotate: true
+  xy: 303, 38
+  size: 98, 91
+  orig: 100, 93
+  offset: 1, 1
+  index: -1
+ef_aura_leg_R
+  rotate: false
+  xy: 1451, 1043
+  size: 73, 64
+  orig: 75, 66
+  offset: 1, 1
+  index: -1
+ef_aura_sword
+  rotate: true
+  xy: 303, 137
+  size: 260, 88
+  orig: 262, 90
+  offset: 1, 1
+  index: -1
+ef_cam_flare_B
+  rotate: false
+  xy: 1751, 1189
+  size: 75, 75
+  orig: 77, 77
+  offset: 1, 1
+  index: -1
+hair_tabane
+  rotate: false
+  xy: 1837, 1392
+  size: 149, 65
+  orig: 151, 67
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 1573, 1177
+  size: 177, 186
+  orig: 179, 188
+  offset: 1, 1
+  index: -1
+leg_L
+  rotate: false
+  xy: 1163, 1331
+  size: 358, 299
+  orig: 360, 301
+  offset: 1, 1
+  index: -1
+leg_R
+  rotate: false
+  xy: 392, 167
+  size: 223, 190
+  orig: 225, 192
+  offset: 1, 1
+  index: -1
+mant
+  rotate: true
+  xy: 1, 729
+  size: 750, 449
+  orig: 752, 451
+  offset: 1, 1
+  index: -1
+mimi
+  rotate: true
+  xy: 1330, 580
+  size: 231, 155
+  orig: 233, 157
+  offset: 1, 1
+  index: -1
+splash0_03
+  rotate: false
+  xy: 691, 1631
+  size: 794, 394
+  orig: 796, 396
+  offset: 1, 1
+  index: -1
+splash1
+  rotate: false
+  xy: 723, 1059
+  size: 382, 307
+  orig: 384, 309
+  offset: 1, 1
+  index: -1
+splash2
+  rotate: false
+  xy: 1486, 1689
+  size: 426, 336
+  orig: 428, 338
+  offset: 1, 1
+  index: -1
+splash3_01
+  rotate: false
+  xy: 412, 358
+  size: 302, 276
+  orig: 304, 278
+  offset: 1, 1
+  index: -1
+splash3_04_A
+  rotate: false
+  xy: 1, 398
+  size: 410, 330
+  orig: 412, 332
+  offset: 1, 1
+  index: -1
+splash3_04_B
+  rotate: false
+  xy: 723, 1367
+  size: 439, 263
+  orig: 441, 265
+  offset: 1, 1
+  index: -1
+splash3_04_C
+  rotate: true
+  xy: 723, 648
+  size: 410, 269
+  orig: 412, 271
+  offset: 1, 1
+  index: -1
+splash4
+  rotate: true
+  xy: 993, 665
+  size: 393, 102
+  orig: 395, 104
+  offset: 1, 1
+  index: -1
+splash5_01
+  rotate: false
+  xy: 1106, 1037
+  size: 344, 293
+  orig: 346, 295
+  offset: 1, 1
+  index: -1
+splash5_03
+  rotate: true
+  xy: 1451, 1108
+  size: 222, 121
+  orig: 224, 123
+  offset: 1, 1
+  index: -1
+splash5_04
+  rotate: false
+  xy: 1096, 589
+  size: 233, 222
+  orig: 235, 224
+  offset: 1, 1
+  index: -1
+splash5_05
+  rotate: false
+  xy: 1522, 1364
+  size: 314, 324
+  orig: 316, 326
+  offset: 1, 1
+  index: -1
+stars_03
+  rotate: false
+  xy: 616, 141
+  size: 127, 216
+  orig: 129, 218
+  offset: 1, 1
+  index: -1
+stars_04
+  rotate: false
+  xy: 1096, 812
+  size: 327, 224
+  orig: 329, 226
+  offset: 1, 1
+  index: -1
+sword
+  rotate: true
+  xy: 451, 635
+  size: 844, 271
+  orig: 846, 273
+  offset: 1, 1
+  index: -1
+sword_txt_ray
+  rotate: true
+  xy: 1837, 1458
+  size: 230, 163
+  orig: 232, 165
+  offset: 1, 1
+  index: -1

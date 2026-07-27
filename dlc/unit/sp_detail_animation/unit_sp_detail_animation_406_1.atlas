@@ -1,0 +1,460 @@
+
+unit_sp_detail_animation_406_1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_cliff_R_01
+  rotate: false
+  xy: 719, 3
+  size: 285, 762
+  orig: 287, 764
+  offset: 1, 1
+  index: -1
+BG_fire_L_01
+  rotate: false
+  xy: 1619, 1165
+  size: 419, 575
+  orig: 421, 577
+  offset: 1, 1
+  index: -1
+BG_ground
+  rotate: false
+  xy: 1005, 335
+  size: 997, 333
+  orig: 999, 335
+  offset: 1, 1
+  index: -1
+BG_sky
+  rotate: true
+  xy: 614, 1036
+  size: 1010, 1004
+  orig: 1012, 1006
+  offset: 1, 1
+  index: -1
+BG_thunder_01
+  rotate: true
+  xy: 1619, 1741
+  size: 305, 425
+  orig: 307, 427
+  offset: 1, 1
+  index: -1
+collar
+  rotate: true
+  xy: 1005, 671
+  size: 94, 48
+  orig: 96, 50
+  offset: 1, 1
+  index: -1
+ef_blue_fire_L_01
+  rotate: false
+  xy: 1, 1022
+  size: 322, 1024
+  orig: 324, 1026
+  offset: 1, 1
+  index: -1
+ef_blue_fire_R_01
+  rotate: false
+  xy: 324, 1022
+  size: 289, 1024
+  orig: 291, 1026
+  offset: 1, 1
+  index: -1
+ef_blue_fire_R_02
+  rotate: true
+  xy: 1305, 689
+  size: 76, 272
+  orig: 78, 274
+  offset: 1, 1
+  index: -1
+ef_blue_fire_aura_L
+  rotate: false
+  xy: 1, 1
+  size: 337, 1020
+  orig: 339, 1022
+  offset: 1, 1
+  index: -1
+ef_blue_fire_aura_R
+  rotate: false
+  xy: 339, 8
+  size: 379, 1013
+  orig: 381, 1015
+  offset: 1, 1
+  index: -1
+ef_flame_02
+  rotate: true
+  xy: 1619, 669
+  size: 495, 397
+  orig: 497, 399
+  offset: 1, 1
+  index: -1
+ef_flame_04
+  rotate: true
+  xy: 1699, 50
+  size: 284, 257
+  orig: 286, 259
+  offset: 1, 1
+  index: -1
+ef_stone_01
+  rotate: true
+  xy: 1957, 279
+  size: 55, 57
+  orig: 57, 59
+  offset: 1, 1
+  index: -1
+ef_stone_02
+  rotate: true
+  xy: 2003, 404
+  size: 34, 35
+  orig: 36, 37
+  offset: 1, 1
+  index: -1
+ef_stone_03
+  rotate: false
+  xy: 2003, 612
+  size: 44, 56
+  orig: 46, 58
+  offset: 1, 1
+  index: -1
+ef_stone_04
+  rotate: false
+  xy: 2017, 960
+  size: 23, 23
+  orig: 25, 25
+  offset: 1, 1
+  index: -1
+ef_stone_05
+  rotate: true
+  xy: 2017, 1066
+  size: 22, 27
+  orig: 24, 29
+  offset: 1, 1
+  index: -1
+ef_stone_06
+  rotate: false
+  xy: 2017, 912
+  size: 18, 47
+  orig: 20, 49
+  offset: 1, 1
+  index: -1
+ef_stone_07
+  rotate: false
+  xy: 2003, 439
+  size: 37, 78
+  orig: 39, 80
+  offset: 1, 1
+  index: -1
+ef_stone_08
+  rotate: false
+  xy: 614, 1022
+  size: 9, 13
+  orig: 11, 15
+  offset: 1, 1
+  index: -1
+ef_stone_09
+  rotate: true
+  xy: 339, 1
+  size: 6, 5
+  orig: 8, 7
+  offset: 1, 1
+  index: -1
+ef_stone_10
+  rotate: false
+  xy: 1249, 676
+  size: 55, 89
+  orig: 57, 91
+  offset: 1, 1
+  index: -1
+ef_stone_11
+  rotate: false
+  xy: 2003, 557
+  size: 41, 54
+  orig: 43, 56
+  offset: 1, 1
+  index: -1
+ef_stone_12
+  rotate: true
+  xy: 2017, 1129
+  size: 35, 30
+  orig: 37, 32
+  offset: 1, 1
+  index: -1
+ef_stone_13
+  rotate: false
+  xy: 2003, 518
+  size: 41, 38
+  orig: 43, 40
+  offset: 1, 1
+  index: -1
+ef_stone_14
+  rotate: true
+  xy: 2017, 1041
+  size: 24, 26
+  orig: 26, 28
+  offset: 1, 1
+  index: -1
+ef_stone_15
+  rotate: false
+  xy: 2017, 1089
+  size: 29, 39
+  orig: 31, 41
+  offset: 1, 1
+  index: -1
+elbow_armor_L
+  rotate: false
+  xy: 2017, 984
+  size: 24, 56
+  orig: 26, 58
+  offset: 1, 1
+  index: -1
+elbow_armor_R
+  rotate: false
+  xy: 1699, 1
+  size: 57, 48
+  orig: 59, 50
+  offset: 1, 1
+  index: -1
+hair
+  rotate: false
+  xy: 1054, 674
+  size: 115, 91
+  orig: 117, 93
+  offset: 1, 1
+  index: -1
+head
+  rotate: true
+  xy: 1170, 676
+  size: 89, 78
+  orig: 91, 80
+  offset: 1, 1
+  index: -1
+sheath_L
+  rotate: true
+  xy: 719, 766
+  size: 269, 897
+  orig: 271, 899
+  offset: 1, 1
+  index: -1
+sheath_R
+  rotate: true
+  xy: 1005, 4
+  size: 330, 693
+  orig: 332, 695
+  offset: 1, 1
+  index: -1
+
+unit_sp_detail_animation_406_12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_cliff_L_01
+  rotate: false
+  xy: 1, 815
+  size: 432, 714
+  orig: 434, 716
+  offset: 1, 1
+  index: -1
+BG_cliff_L_02
+  rotate: false
+  xy: 434, 850
+  size: 295, 679
+  orig: 297, 681
+  offset: 1, 1
+  index: -1
+BG_cliff_R_02
+  rotate: false
+  xy: 1, 119
+  size: 302, 695
+  orig: 304, 697
+  offset: 1, 1
+  index: -1
+BG_fire_L_02
+  rotate: true
+  xy: 844, 1466
+  size: 322, 565
+  orig: 324, 567
+  offset: 1, 1
+  index: -1
+BG_fire_R_01
+  rotate: false
+  xy: 466, 306
+  size: 451, 442
+  orig: 453, 444
+  offset: 1, 1
+  index: -1
+BG_fire_R_02
+  rotate: false
+  xy: 1410, 1427
+  size: 308, 361
+  orig: 310, 363
+  offset: 1, 1
+  index: -1
+BG_thunder_02
+  rotate: true
+  xy: 1698, 1802
+  size: 224, 276
+  orig: 226, 278
+  offset: 1, 1
+  index: -1
+BG_thunder_03
+  rotate: true
+  xy: 458, 143
+  size: 162, 223
+  orig: 164, 225
+  offset: 1, 1
+  index: -1
+BG_thunder_04
+  rotate: false
+  xy: 1719, 1360
+  size: 264, 441
+  orig: 266, 443
+  offset: 1, 1
+  index: -1
+BG_thunder_05
+  rotate: false
+  xy: 1763, 741
+  size: 192, 366
+  orig: 194, 368
+  offset: 1, 1
+  index: -1
+arm_L
+  rotate: true
+  xy: 1248, 36
+  size: 115, 172
+  orig: 117, 174
+  offset: 1, 1
+  index: -1
+arm_R
+  rotate: false
+  xy: 1248, 152
+  size: 181, 112
+  orig: 183, 114
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 304, 114
+  size: 153, 195
+  orig: 155, 197
+  offset: 1, 1
+  index: -1
+ef_BG_white
+  rotate: false
+  xy: 1719, 1108
+  size: 252, 251
+  orig: 254, 253
+  offset: 1, 1
+  index: -1
+ef_blue_fire_L_02
+  rotate: false
+  xy: 304, 310
+  size: 161, 504
+  orig: 163, 506
+  offset: 1, 1
+  index: -1
+ef_chara_contrast
+  rotate: true
+  xy: 1277, 763
+  size: 286, 485
+  orig: 288, 487
+  offset: 1, 1
+  index: -1
+ef_flame_01
+  rotate: true
+  xy: 1285, 1050
+  size: 376, 433
+  orig: 378, 435
+  offset: 1, 1
+  index: -1
+ef_flame_03
+  rotate: false
+  xy: 730, 1072
+  size: 554, 393
+  orig: 556, 395
+  offset: 1, 1
+  index: -1
+ef_flame_05
+  rotate: true
+  xy: 682, 122
+  size: 183, 195
+  orig: 185, 197
+  offset: 1, 1
+  index: -1
+ef_flame_06
+  rotate: true
+  xy: 1277, 412
+  size: 350, 395
+  orig: 352, 397
+  offset: 1, 1
+  index: -1
+ef_flame_sub
+  rotate: true
+  xy: 730, 749
+  size: 322, 546
+  orig: 324, 567
+  offset: 2, 1
+  index: -1
+ef_flush
+  rotate: false
+  xy: 1430, 157
+  size: 107, 107
+  orig: 146, 142
+  offset: 17, 18
+  index: -1
+ef_sparkling
+  rotate: false
+  xy: 1, 1530
+  size: 842, 496
+  orig: 842, 496
+  offset: 0, 0
+  index: -1
+hem
+  rotate: false
+  xy: 918, 286
+  size: 355, 462
+  orig: 357, 464
+  offset: 1, 1
+  index: -1
+leg_L
+  rotate: true
+  xy: 1522, 275
+  size: 136, 205
+  orig: 138, 207
+  offset: 1, 1
+  index: -1
+leg_R
+  rotate: true
+  xy: 1274, 265
+  size: 146, 247
+  orig: 148, 249
+  offset: 1, 1
+  index: -1
+shoulder_armor
+  rotate: false
+  xy: 1, 1
+  size: 263, 117
+  orig: 265, 119
+  offset: 1, 1
+  index: -1
+sword
+  rotate: true
+  xy: 844, 1789
+  size: 237, 853
+  orig: 239, 855
+  offset: 1, 1
+  index: -1
+waist_armor_L
+  rotate: false
+  xy: 1117, 77
+  size: 130, 208
+  orig: 132, 210
+  offset: 1, 1
+  index: -1
+waist_armor_R
+  rotate: true
+  xy: 878, 146
+  size: 139, 238
+  orig: 141, 240
+  offset: 1, 1
+  index: -1
