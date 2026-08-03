@@ -1,0 +1,51 @@
+name: Sync Database from Google Sheets
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Automatically runs every 6 hours
+  workflow_dispatch: # Enables a manual "Run workflow" button in GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Generate Static JSON Files
+        run: |
+          node -e '
+          const fs = require("fs");
+          async function download(url, filename) {
+            console.log("Fetching " + filename + "...");
+            const res = await fetch(url, { redirect: "follow" });
+            if (!res.ok) throw new Error("HTTP Error " + res.status);
+            const text = await res.text();
+            const data = JSON.parse(text);
+            if (!Array.isArray(data) && !data.data && !data.items) {
+              throw new Error("Invalid payload structure for " + filename);
+            }
+            fs.writeFileSync(filename, JSON.stringify(data, null, 2));
+            console.log("Successfully saved " + filename);
+          }
+          async function main() {
+            await download("https://script.google.com/macros/s/AKfycby0fZ7aKD8VWPTr2xgZSiO8_c9Yd3-dC6YWr85m5XtGgycRp-_xSyOOe0YgxZu6pHlQ/exec", "units.json");
+            await download("https://script.google.com/macros/s/AKfycbxzR0SY69T_cnaWLPz249nSlsJnSvpR6UP-VVCfsLE0GGh1RI2b98TqDaJjcV8rKmuy/exec", "equips.json");
+          }
+          main().catch(err => { console.error(err); process.exit(1); });
+          '
+
+      - name: Commit and Push Updated Datasets to Repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add units.json equips.json
+          if git diff --staged --quiet; then
+            echo "No database changes detected."
+          else
+            git commit -m "Auto-sync database from Google Sheets [skip ci]"
+            git push
+          fi
