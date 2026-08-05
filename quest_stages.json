@@ -1,317 +1,497 @@
 [
   {
     "Stage Type": "Nova Crest Palace",
+    "ID": 4001800,
     "ENG Stage Name": "Shrine of Frigidity",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Wednesday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001800.png",
-    "ENG Stage Image Info": "dungeon_banner_top_4001800.png"
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001800.png",
+    "ENG Stage Image Info": "dungeon_banner_top_4001800.png",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Extreme Crest Palace",
+    "ID": 4001000,
     "ENG Stage Name": "Shrine of Diamond Dust",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Wednesday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001000.png",
-    "ENG Stage Image Info": "dungeon_banner_top_4001000.png"
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001000.png",
+    "ENG Stage Image Info": "dungeon_banner_top_4001000.png",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000400,
     "ENG Stage Name": "Shrine of the Azul Knight",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Wednesday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000400.png",
-    "ENG Stage Image Info": "dungeon_banner_top_4000400w.png"
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000400.png",
+    "ENG Stage Image Info": "dungeon_banner_top_4000400w.png",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000100,
     "ENG Stage Name": "Temple of Heavenly Light",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Every Day",
-    "ENG Stage Image": "dungeon_banner_4000100.png",
-    "ENG Stage Image Info": "-"
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000100.png",
+    "ENG Stage Image Info": "-",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000300,
     "ENG Stage Name": "Shrine of Aberration",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Thursday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000300.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000300.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4001100,
     "ENG Stage Name": "Shrine of Eternity",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Thursday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001100.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001100.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000600,
     "ENG Stage Name": "Shrine of Adamantine",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Friday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000600.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000600.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Nova Crest Palace",
+    "ID": 4001500,
     "ENG Stage Name": "Shrine of Caliginosity",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Friday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001500.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001500.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000700,
     "ENG Stage Name": "Shrine of Whirwind",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Saturday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000700.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000700.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4001200,
     "ENG Stage Name": "Shrine of Cursed Claw",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Saturday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001200.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001200.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000800,
     "ENG Stage Name": "Shrine of Discordia",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Sunday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000800.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000800.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4001400,
     "ENG Stage Name": "Shrine of Tribulation",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Sunday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001400.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001400.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Nova Crest Palace",
+    "ID": 4001600,
     "ENG Stage Name": "Shrine of Sagacity",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Sunday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001600.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001600.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000200,
     "ENG Stage Name": "Shrine of Oblivion",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Monday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000200.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000200.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4001300,
     "ENG Stage Name": "Shrine of Perdition",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Monday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001300.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001300.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000500,
     "ENG Stage Name": "Shrine of the Burning Chains",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Tuesday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000500.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000500.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Crest Palace",
+    "ID": 4000900,
     "ENG Stage Name": "Shrine of Crimson Sea",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Tuesday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4000900.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4000900.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Nova Crest Palace",
+    "ID": 4001700,
     "ENG Stage Name": "Shrine of Cinderplume",
+    "JP Stage Name": "",
     "Time (PDT Time)": "Tuesday 12am-11:59pm",
-    "ENG Stage Image": "dungeon_banner_4001700.png",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/eng_banner/dungeon_banner_4001700.png",
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Shadow of the God Eater",
+    "JP Stage Name": "",
     "Time (PDT Time)": "5/8 Wednesday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Sanctuary of the Divine Princess",
+    "JP Stage Name": "",
     "Time (PDT Time)": "5/8 Wednesday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Crimson Flames of the Phoenix - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "5/8 Wednesday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "The Crimson King - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "5/8 Wednesday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Clashing Thunder of the Emerald Bird",
+    "JP Stage Name": "",
     "Time (PDT Time)": "6/8 Thursday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Fortress of the Machine God",
+    "JP Stage Name": "",
     "Time (PDT Time)": "6/8 Thursday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Crimson Flames of the Phoenix",
+    "JP Stage Name": "",
     "Time (PDT Time)": "7/8 Friday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Shrine of Remembrance",
+    "JP Stage Name": "",
     "Time (PDT Time)": "7/8 Friday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Cry of the Azure Roc",
+    "JP Stage Name": "",
     "Time (PDT Time)": "8/8 Saturday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Glowing Sanctuary",
+    "JP Stage Name": "",
     "Time (PDT Time)": "8/8 Saturday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Cry of the Azure Roc - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "8/8 Saturday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "The Green Strikes Back",
+    "JP Stage Name": "",
     "Time (PDT Time)": "9/8 Sunday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Caverns of Dark",
+    "JP Stage Name": "",
     "Time (PDT Time)": "9/8 Sunday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "A Subzero Hellscape",
+    "JP Stage Name": "",
     "Time (PDT Time)": "10/8 Monday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "The Crimson King",
+    "JP Stage Name": "",
     "Time (PDT Time)": "10/8 Monday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "The Green Strikes Back - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "11/8 Tuesday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Sanctuary of the Divine Princess - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "14/8 Friday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Fortress of the Machine God - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "17/8 Monday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Awakening Cursed Armor X",
+    "JP Stage Name": "",
     "Time (PDT Time)": "17/8 Monday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Clashing Thunder of the Emerald Bird - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "20/8 Thursday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Ultra Giant Boss",
+    "ID": "",
     "ENG Stage Name": "Shrine of Remebrance - Ultra",
+    "JP Stage Name": "",
     "Time (PDT Time)": "23/8 Sunday 12am-11:59pm",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Rotating Boss",
+    "ID": "",
     "ENG Stage Name": "Frozen Calamity in the North",
+    "JP Stage Name": "",
     "Time (PDT Time)": "6-6:59am, 12-12:59pm, 6-6:59pm, 12-12:59am",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Rotating Boss",
+    "ID": "",
     "ENG Stage Name": "Life Draining Botanical Beast",
+    "JP Stage Name": "",
     "Time (PDT Time)": "7-7:59am, 1-1:59pm, 7-7:59pm, 1-1:59am",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Rotating Boss",
+    "ID": "",
     "ENG Stage Name": "Awakening Cursed Armor",
+    "JP Stage Name": "",
     "Time (PDT Time)": "8-8:59am, 2-2:59pm, 8-8:59pm, 2-2:59am",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Rotating Boss",
+    "ID": "",
     "ENG Stage Name": "Trials of the Flame God",
+    "JP Stage Name": "",
     "Time (PDT Time)": "9-9:59am, 3-3:59pm, 9-9:59pm, 3-3:59am",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Rotating Boss",
+    "ID": "",
     "ENG Stage Name": "Battle againts the Silent Holy Knight",
+    "JP Stage Name": "",
     "Time (PDT Time)": "10-10:59am, 4-4:59pm, 10-10:59pm, 4-4:59am",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   },
   {
     "Stage Type": "Rotating Boss",
+    "ID": "",
     "ENG Stage Name": "Sanctuary of the Bright Spirit",
+    "JP Stage Name": "",
     "Time (PDT Time)": "11-11:59am, 5-5:59pm, 11-11:59pm, 5-5:59am",
     "ENG Stage Image": "",
-    "ENG Stage Image Info": ""
+    "ENG Stage Image Info": "",
+    "JP Stage Image": "",
+    "JP Stage Image Info": ""
   }
 ]
