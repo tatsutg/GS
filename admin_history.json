@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1785889788073",
+    "timestamp": "2026-08-05T00:29:48.073Z",
+    "displayTime": "Aug 5, 2026, 8:29 AM",
+    "mode": "units",
+    "item": "Fen",
+    "reason": "replace the comma with period",
+    "diffs": [
+      {
+        "field": "Skill Detail",
+        "oldVal": "1850% Earth DMG (Physical), Increases all allies' Arts gauge by 4, Heals HP by 3% of unit with the lowest HP",
+        "newVal": "1850% Earth DMG (Physical). Increases all allies' Arts gauge by 4. Heals HP by 3% of unit with the lowest HP"
+      },
+      {
+        "field": "Arts Detail",
+        "oldVal": "13100% Earth DMG (Physical), Reduces all allies' Equipment CT by 25% for 20s",
+        "newVal": "13100% Earth DMG (Physical). Reduces all allies' Equipment CT by 25% for 20s"
+      },
+      {
+        "field": "True Arts Detail",
+        "oldVal": "21500% Earth DMG (Physical), Increases all allies' Arts gauge by 3 & Equipment DMG by 50% for 20s",
+        "newVal": "21500% Earth DMG (Physical). Increases all allies' Arts gauge by 3 & Equipment DMG by 50% for 20s"
+      }
+    ]
+  }
+]
