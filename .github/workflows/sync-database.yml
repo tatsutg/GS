@@ -34,6 +34,7 @@ jobs:
           async function main() {
             await download("https://script.google.com/macros/s/AKfycby0fZ7aKD8VWPTr2xgZSiO8_c9Yd3-dC6YWr85m5XtGgycRp-_xSyOOe0YgxZu6pHlQ/exec", "units.json");
             await download("https://script.google.com/macros/s/AKfycbxzR0SY69T_cnaWLPz249nSlsJnSvpR6UP-VVCfsLE0GGh1RI2b98TqDaJjcV8rKmuy/exec", "equips.json");
+            await download("https://script.google.com/macros/s/AKfycbwA2ZuAAn5lEGdgo5SOlO90cZvD2up6dZ42suTKAejxKSKUbK8lCy4ImBTfphTMavy9RA/exec", "quest_stages.json");
           }
           main().catch(err => { console.error(err); process.exit(1); });
           '
