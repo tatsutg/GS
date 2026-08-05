@@ -3,7 +3,7 @@ name: Sync Database from Google Sheets
 on:
   schedule:
     - cron: '0 */6 * * *' # Automatically runs every 6 hours
-  workflow_dispatch: # Enables a manual "Run workflow" button in GitHub
+  workflow_dispatch: # Enables manual "Run workflow" button in GitHub
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Fetch and Generate Static JSON Files
         run: |
@@ -39,11 +39,11 @@ jobs:
           main().catch(err => { console.error(err); process.exit(1); });
           '
 
-      - name: Commit and Push Updated Datasets to Repo
+      - name: Commit and Push Updated Datasets
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add units.json equips.json
+          git add units.json equips.json quest_stages.json
           if git diff --staged --quiet; then
             echo "No database changes detected."
           else
