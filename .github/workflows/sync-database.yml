@@ -120,8 +120,15 @@ jobs:
           node -e '
           async function purgeCdn() {
             const files = ["units.json", "equips.json", "quest_stages.json", "crests.json"];
-            await Promise.all(files.map(f => fetch(`https://purge.jsdelivr.net/gh/tatsutg/GS@main/${f}`).catch(() => {})));
-            console.log("jsDelivr CDN cache purge requested successfully.");
+            for (const f of files) {
+              try {
+                const res = await fetch(`https://purge.jsdelivr.net/gh/tatsutg/GS@main/${f}`);
+                const json = await res.json();
+                console.log(`[CDN PURGED] ${f}:`, json.status || "success");
+              } catch (e) {
+                console.warn(`[PURGE FAILED] ${f}:`, e.message);
+              }
+            }
           }
           purgeCdn();
           '
