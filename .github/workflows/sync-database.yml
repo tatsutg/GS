@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Fetch and Generate Static JSON Files
         run: |
@@ -33,29 +33,26 @@ jobs:
 
           async function download(url, filename, retries = 3) {
             const start = Date.now();
-            console.log(`[START] Fetching ${filename}...`);
+            console.log(`\n----------------------------------------`);
+            console.log(`[START] Downloading ${filename}...`);
 
             for (let attempt = 1; attempt <= retries; attempt++) {
               try {
-                const res = await fetch(url, {
-                  redirect: "follow",
-                  headers: {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                    "Accept": "application/json, text/plain, */*"
-                  }
-                });
+                const res = await fetch(url, { redirect: "follow" });
 
                 if (!res.ok) {
                   throw new Error(`HTTP ${res.status} ${res.statusText}`);
                 }
 
                 const text = await res.text();
+                
                 let data;
                 try {
                   data = JSON.parse(text);
                 } catch (parseErr) {
-                  console.error(`[ERROR] ${filename} returned non-JSON content: ${text.slice(0, 150)}...`);
-                  throw new Error(`Invalid JSON response. Please check Google Apps Script deployment/permissions for ${filename}`);
+                  console.error(`\n[RESPONSE ERROR] ${filename} returned non-JSON response:`);
+                  console.error(`>>> ${text.slice(0, 200)}...\n`);
+                  throw new Error(`Response is HTML/Text instead of JSON. Check Google Apps Script deployment permissions.`);
                 }
 
                 if (!Array.isArray(data) && !data.data && !data.items) {
@@ -63,14 +60,18 @@ jobs:
                 }
 
                 fs.writeFileSync(filename, JSON.stringify(data));
-                console.log(`[DONE] Saved ${filename} in ${((Date.now() - start) / 1000).toFixed(2)}s`);
-                return;
+                console.log(`[SUCCESS] Saved ${filename} in ${((Date.now() - start) / 1000).toFixed(2)}s`);
+                return true;
               } catch (err) {
-                console.warn(`[RETRY ${attempt}/${retries}] ${filename} failed: ${err.message}`);
-                if (attempt === retries) throw err;
-                await new Promise(r => setTimeout(r, 2000 * attempt));
+                console.warn(`[ATTEMPT ${attempt}/${retries} FAILED] ${filename}: ${err.message}`);
+                if (attempt < retries) {
+                  await new Promise(r => setTimeout(r, 1500 * attempt));
+                }
               }
             }
+
+            console.error(`[SKIP] Could not sync ${filename} after ${retries} attempts.`);
+            return false;
           }
 
           async function main() {
@@ -82,13 +83,20 @@ jobs:
               { url: "https://script.google.com/macros/s/AKfycbzbieBoaG3YJxGfSxwyfzh0SFC_1Wb2NvvdcwEQzGSS9sFNwpBHLA6kR8DaN2ujgwYDbg/exec", name: "crests.json" }
             ];
 
-            // Sequentially fetch with a 1s delay to respect Google Apps Script rate limits
+            let successCount = 0;
             for (const task of tasks) {
-              await download(task.url, task.name);
-              await new Promise(r => setTimeout(r, 1000));
+              const ok = await download(task.url, task.name);
+              if (ok) successCount++;
+              await new Promise(r => setTimeout(r, 1200));
             }
 
-            console.log(`[SUCCESS] All datasets synced in ${((Date.now() - startTime) / 1000).toFixed(2)}s total.`);
+            console.log(`\n========================================`);
+            console.log(`[SUMMARY] Synced ${successCount}/${tasks.length} datasets in ${((Date.now() - startTime) / 1000).toFixed(2)}s.`);
+
+            if (successCount === 0) {
+              console.error("[FATAL] All dataset downloads failed.");
+              process.exit(1);
+            }
           }
 
           main().catch(err => { console.error(err); process.exit(1); });
@@ -98,7 +106,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add units.json equips.json quest_stages.json crests.json
+          git add units.json equips.json quest_stages.json crests.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No database changes detected."
           else
