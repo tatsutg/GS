@@ -79,7 +79,7 @@ jobs:
               { url: "https://script.google.com/macros/s/AKfycby0fZ7aKD8VWPTr2xgZSiO8_c9Yd3-dC6YWr85m5XtGgycRp-_xSyOOe0YgxZu6pHlQ/exec", name: "units.json" },
               { url: "https://script.google.com/macros/s/AKfycbxzR0SY69T_cnaWLPz249nSlsJnSvpR6UP-VVCfsLE0GGh1RI2b98TqDaJjcV8rKmuy/exec", name: "equips.json" },
               { url: "https://script.google.com/macros/s/AKfycbwA2ZuAAn5lEGdgo5SOlO90cZvD2up6dZ42suTKAejxKSKUbK8lCy4ImBTfphTMavy9RA/exec", name: "quest_stages.json" },
-              { url: "https://script.google.com/macros/s/AKfycbxmWnB37-C23jNwzh95IZ2lBPaC2UM6niq7Qr7ILBnsKVp1879VD1ZJbDkSfyIkHmc5Tw/exec", name: "crests.json" }
+              { url: "https://script.google.com/macros/s/AKfycbzbieBoaG3YJxGfSxwyfzh0SFC_1Wb2NvvdcwEQzGSS9sFNwpBHLA6kR8DaN2ujgwYDbg/exec", name: "crests.json" }
             ];
 
             // Sequentially fetch with a 1s delay to respect Google Apps Script rate limits
