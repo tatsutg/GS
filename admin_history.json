@@ -48,5 +48,30 @@
         "newVal": "21500% Earth DMG (Physical). Increases all allies' Arts gauge by 3 & Equipment DMG by 50% for 20s"
       }
     ]
+  },
+  {
+    "id": "1786107307729",
+    "timestamp": "2026-08-07T12:55:07.729Z",
+    "displayTime": "Aug 7, 2026, 8:55 PM",
+    "mode": "units",
+    "item": "Arosdea",
+    "reason": "add stats",
+    "diffs": [
+      {
+        "field": "HP",
+        "oldVal": "(empty)",
+        "newVal": "7536"
+      },
+      {
+        "field": "ATK",
+        "oldVal": "(empty)",
+        "newVal": "3017"
+      },
+      {
+        "field": "DEF",
+        "oldVal": "(empty)",
+        "newVal": "2436"
+      }
+    ]
   }
 ]
