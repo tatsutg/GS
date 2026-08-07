@@ -5,6 +5,10 @@ on:
     - cron: '0 */6 * * *' # Automatically runs every 6 hours
   workflow_dispatch: # Enables manual "Run workflow" button in GitHub
 
+concurrency:
+  group: sync-database
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -13,29 +17,48 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: Fetch and Generate Static JSON Files
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Parallel Fetch and Generate Static JSON Files
         run: |
           node -e '
           const fs = require("fs");
+
           async function download(url, filename) {
-            console.log("Fetching " + filename + "...");
+            const start = Date.now();
+            console.log(`[START] Fetching ${filename}...`);
             const res = await fetch(url, { redirect: "follow" });
-            if (!res.ok) throw new Error("HTTP Error " + res.status);
+            if (!res.ok) throw new Error(`HTTP Error ${res.status} for ${filename}`);
             const text = await res.text();
             const data = JSON.parse(text);
+            
             if (!Array.isArray(data) && !data.data && !data.items) {
-              throw new Error("Invalid payload structure for " + filename);
+              throw new Error(`Invalid payload structure for ${filename}`);
             }
-            fs.writeFileSync(filename, JSON.stringify(data, null, 2));
-            console.log("Successfully saved " + filename);
+            
+            // Fast minified JSON write for smaller repository size and fast I/O
+            fs.writeFileSync(filename, JSON.stringify(data));
+            console.log(`[DONE] Saved ${filename} in ${((Date.now() - start) / 1000).toFixed(2)}s`);
           }
+
           async function main() {
-            await download("https://script.google.com/macros/s/AKfycby0fZ7aKD8VWPTr2xgZSiO8_c9Yd3-dC6YWr85m5XtGgycRp-_xSyOOe0YgxZu6pHlQ/exec", "units.json");
-            await download("https://script.google.com/macros/s/AKfycbxzR0SY69T_cnaWLPz249nSlsJnSvpR6UP-VVCfsLE0GGh1RI2b98TqDaJjcV8rKmuy/exec", "equips.json");
-            await download("https://script.google.com/macros/s/AKfycbwA2ZuAAn5lEGdgo5SOlO90cZvD2up6dZ42suTKAejxKSKUbK8lCy4ImBTfphTMavy9RA/exec", "quest_stages.json");
+            const startTime = Date.now();
+            // Parallel execution downloads all 3 datasets simultaneously
+            await Promise.all([
+              download("https://script.google.com/macros/s/AKfycby0fZ7aKD8VWPTr2xgZSiO8_c9Yd3-dC6YWr85m5XtGgycRp-_xSyOOe0YgxZu6pHlQ/exec", "units.json"),
+              download("https://script.google.com/macros/s/AKfycbxzR0SY69T_cnaWLPz249nSlsJnSvpR6UP-VVCfsLE0GGh1RI2b98TqDaJjcV8rKmuy/exec", "equips.json"),
+              download("https://script.google.com/macros/s/AKfycbwA2ZuAAn5lEGdgo5SOlO90cZvD2up6dZ42suTKAejxKSKUbK8lCy4ImBTfphTMavy9RA/exec", "quest_stages.json")
+            ]);
+            console.log(`[SUCCESS] All datasets synced in ${((Date.now() - startTime) / 1000).toFixed(2)}s total.`);
           }
+
           main().catch(err => { console.error(err); process.exit(1); });
           '
 
@@ -50,3 +73,15 @@ jobs:
             git commit -m "Auto-sync database from Google Sheets [skip ci]"
             git push
           fi
+
+      - name: Purge jsDelivr CDN Edge Cache
+        if: success()
+        run: |
+          node -e '
+          async function purgeCdn() {
+            const files = ["units.json", "equips.json", "quest_stages.json"];
+            await Promise.all(files.map(f => fetch(`https://purge.jsdelivr.net/gh/tatsutg/GS@main/${f}`).catch(() => {})));
+            console.log("jsDelivr CDN cache purge requested successfully.");
+          }
+          purgeCdn();
+          '
