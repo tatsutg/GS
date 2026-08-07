@@ -73,5 +73,20 @@
         "newVal": "2436"
       }
     ]
+  },
+  {
+    "id": "1786107797849",
+    "timestamp": "2026-08-07T13:03:17.849Z",
+    "displayTime": "Aug 7, 2026, 9:03 PM",
+    "mode": "units",
+    "item": "Arosdea",
+    "reason": "hp",
+    "diffs": [
+      {
+        "field": "HP",
+        "oldVal": "(empty)",
+        "newVal": "7536"
+      }
+    ]
   }
 ]
