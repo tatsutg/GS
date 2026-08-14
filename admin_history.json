@@ -118,5 +118,30 @@
         "newVal": "7000"
       }
     ]
+  },
+  {
+    "id": "1786719830792",
+    "timestamp": "2026-08-14T15:03:50.792Z",
+    "displayTime": "Aug 14, 2026, 11:03 PM",
+    "mode": "units",
+    "item": "Fen",
+    "reason": "add jp buff",
+    "diffs": [
+      {
+        "field": "JP Buff Skill Text",
+        "oldVal": "(empty)",
+        "newVal": "2000% Earth DMG (Physical). Increases all allies' Arts gauge by 4. Heals HP by 5% of unit with the lowest HP."
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "20000% Earth DMG (Physical). Reduces all allies' Equipment CT by 25% for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "65000% Earth DMG (Physical). Auto-fills all allies' Arts gauge by 4 & Equipment DMG by 50% for 20s."
+      }
+    ]
   }
 ]
