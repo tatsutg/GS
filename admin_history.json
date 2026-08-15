@@ -233,5 +233,20 @@
         "newVal": "24/04/2025"
       }
     ]
+  },
+  {
+    "id": "1786786741858",
+    "timestamp": "2026-08-15T09:39:01.858Z",
+    "displayTime": "Aug 15, 2026, 5:39 PM",
+    "mode": "units",
+    "item": "Hajime Saito",
+    "reason": "jp date",
+    "diffs": [
+      {
+        "field": "JP\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "2025"
+      }
+    ]
   }
 ]
