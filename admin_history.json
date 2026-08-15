@@ -293,5 +293,20 @@
         "newVal": "(empty)"
       }
     ]
+  },
+  {
+    "id": "1786793699776",
+    "timestamp": "2026-08-15T11:34:59.776Z",
+    "displayTime": "Aug 15, 2026, 7:34 PM",
+    "mode": "equips",
+    "item": "Monster Fang Charm",
+    "reason": "add global date (testing)",
+    "diffs": [
+      {
+        "field": "GL\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "2018"
+      }
+    ]
   }
 ]
