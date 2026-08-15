@@ -263,5 +263,35 @@
         "newVal": "2018"
       }
     ]
+  },
+  {
+    "id": "1786793605765",
+    "timestamp": "2026-08-15T11:33:25.765Z",
+    "displayTime": "Aug 15, 2026, 7:33 PM",
+    "mode": "units",
+    "item": "Clyde",
+    "reason": "jp date",
+    "diffs": [
+      {
+        "field": "JP\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "2016"
+      },
+      {
+        "field": "aa",
+        "oldVal": "Life-Cutting Sword: Slash of Nether Meditation",
+        "newVal": "(empty)"
+      },
+      {
+        "field": "ad",
+        "oldVal": "Butterfly Sign: Deadly Lance of the Swallowtail Crest",
+        "newVal": "(empty)"
+      },
+      {
+        "field": "aw",
+        "oldVal": "Are You Prepared to Have Everything Taken?",
+        "newVal": "(empty)"
+      }
+    ]
   }
 ]
