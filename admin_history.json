@@ -173,5 +173,20 @@
         "newVal": "17/7/2026"
       }
     ]
+  },
+  {
+    "id": "1786782560098",
+    "timestamp": "2026-08-15T08:29:20.098Z",
+    "displayTime": "Aug 15, 2026, 4:29 PM",
+    "mode": "units",
+    "item": "Kenshin Himura",
+    "reason": "global release date",
+    "diffs": [
+      {
+        "field": "GL\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "11/04/2025"
+      }
+    ]
   }
 ]
