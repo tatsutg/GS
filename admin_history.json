@@ -143,5 +143,20 @@
         "newVal": "65000% Earth DMG (Physical). Auto-fills all allies' Arts gauge by 4 & Equipment DMG by 50% for 20s."
       }
     ]
+  },
+  {
+    "id": "1786771524310",
+    "timestamp": "2026-08-15T05:25:24.310Z",
+    "displayTime": "Aug 15, 2026, 1:25 PM",
+    "mode": "units",
+    "item": "Simon the Eradicator",
+    "reason": "add release date",
+    "diffs": [
+      {
+        "field": "GL\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "17/7/2026"
+      }
+    ]
   }
 ]
