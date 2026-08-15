@@ -158,5 +158,20 @@
         "newVal": "17/7/2026"
       }
     ]
+  },
+  {
+    "id": "1786782083312",
+    "timestamp": "2026-08-15T08:21:23.312Z",
+    "displayTime": "Aug 15, 2026, 4:21 PM",
+    "mode": "units",
+    "item": "Simon the Eradicator",
+    "reason": "date",
+    "diffs": [
+      {
+        "field": "GL\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "17/7/2026"
+      }
+    ]
   }
 ]
