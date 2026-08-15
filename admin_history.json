@@ -308,5 +308,110 @@
         "newVal": "2018"
       }
     ]
+  },
+  {
+    "id": "1786797089023",
+    "timestamp": "2026-08-15T12:31:29.023Z",
+    "displayTime": "Aug 15, 2026, 8:31 PM",
+    "mode": "units",
+    "item": "Arosdea",
+    "reason": "add stats and japanese translations",
+    "diffs": [
+      {
+        "field": "HP",
+        "oldVal": "7000",
+        "newVal": "7536"
+      },
+      {
+        "field": "ATK",
+        "oldVal": "(empty)",
+        "newVal": "3017"
+      },
+      {
+        "field": "DEF",
+        "oldVal": "(empty)",
+        "newVal": "2436"
+      },
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1328"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "537"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "436"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "炎龍爪牙斬"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2300%の炎属性物理ダメージ。15%の確率で4秒間、敵を燃焼状態にする。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "覇炎龍爪牙斬・暴神狂乱"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "20000%の炎属性物理ダメージ。自身の奥義ゲージ30UP。20秒間、味方全体のブレイク中に与えるダメージ100%UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "竜装暴神・烈滅龍牙乱舞"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "44000%の炎属性物理ダメージ。15秒間、敵の被ダメージ50%UP。30秒間、自身の被ダメージを合計5000無効化。"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時、奥義ゲージが6ずつ自然回復する。"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "樹属性の耐性15%UP。"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "竜族に対してのダメージ100%UP。"
+      },
+      {
+        "field": "JP D.A. 1-1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クリティカル時のダメージ70%UP。"
+      },
+      {
+        "field": "JP D.A. 1-2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時にクリティカル率100%UP"
+      },
+      {
+        "field": "JP D.A. 2-1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "樹属性ユニットに対するブレイク力70%UP。"
+      },
+      {
+        "field": "JP D.A. 2-2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "奥義ゲージが2ずつ自然上昇。"
+      }
+    ]
   }
 ]
