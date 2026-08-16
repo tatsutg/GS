@@ -350,67 +350,67 @@
       {
         "field": "JP Skill",
         "oldVal": "(empty)",
-        "newVal": "çé¾çªçæ¬"
+        "newVal": "Ã§ÂÂÃ©Â¾ÂÃ§ÂÂªÃ§ÂÂÃ¦ÂÂ¬"
       },
       {
         "field": "JP Skill Detail",
         "oldVal": "(empty)",
-        "newVal": "2300%ã®çå±æ§ç©çãã¡ã¼ã¸ã15%ã®ç¢ºçã§4ç§éãæµãçç¼ç¶æã«ããã"
+        "newVal": "2300%Ã£ÂÂ®Ã§ÂÂÃ¥Â±ÂÃ¦ÂÂ§Ã§ÂÂ©Ã§ÂÂÃ£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸Ã£ÂÂ15%Ã£ÂÂ®Ã§Â¢ÂºÃ§ÂÂÃ£ÂÂ§4Ã§Â§ÂÃ©ÂÂÃ£ÂÂÃ¦ÂÂµÃ£ÂÂÃ§ÂÂÃ§ÂÂ¼Ã§ÂÂ¶Ã¦ÂÂÃ£ÂÂ«Ã£ÂÂÃ£ÂÂÃ£ÂÂ"
       },
       {
         "field": "JP Arts",
         "oldVal": "(empty)",
-        "newVal": "è¦çé¾çªçæ¬ã»æ´ç¥çä¹±"
+        "newVal": "Ã¨Â¦ÂÃ§ÂÂÃ©Â¾ÂÃ§ÂÂªÃ§ÂÂÃ¦ÂÂ¬Ã£ÂÂ»Ã¦ÂÂ´Ã§Â¥ÂÃ§ÂÂÃ¤Â¹Â±"
       },
       {
         "field": "JP Arts Detail",
         "oldVal": "(empty)",
-        "newVal": "20000%ã®çå±æ§ç©çãã¡ã¼ã¸ãèªèº«ã®å¥¥ç¾©ã²ã¼ã¸30UPã20ç§éãå³æ¹å¨ä½ã®ãã¬ã¤ã¯ä¸­ã«ä¸ãããã¡ã¼ã¸100%UPã"
+        "newVal": "20000%Ã£ÂÂ®Ã§ÂÂÃ¥Â±ÂÃ¦ÂÂ§Ã§ÂÂ©Ã§ÂÂÃ£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸Ã£ÂÂÃ¨ÂÂªÃ¨ÂºÂ«Ã£ÂÂ®Ã¥Â¥Â¥Ã§Â¾Â©Ã£ÂÂ²Ã£ÂÂ¼Ã£ÂÂ¸30UPÃ£ÂÂ20Ã§Â§ÂÃ©ÂÂÃ£ÂÂÃ¥ÂÂ³Ã¦ÂÂ¹Ã¥ÂÂ¨Ã¤Â½ÂÃ£ÂÂ®Ã£ÂÂÃ£ÂÂ¬Ã£ÂÂ¤Ã£ÂÂ¯Ã¤Â¸Â­Ã£ÂÂ«Ã¤Â¸ÂÃ£ÂÂÃ£ÂÂÃ£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸100%UPÃ£ÂÂ"
       },
       {
         "field": "JP TA",
         "oldVal": "(empty)",
-        "newVal": "ç«è£æ´ç¥ã»çæ»é¾çä¹±è"
+        "newVal": "Ã§Â«ÂÃ¨Â£ÂÃ¦ÂÂ´Ã§Â¥ÂÃ£ÂÂ»Ã§ÂÂÃ¦Â»ÂÃ©Â¾ÂÃ§ÂÂÃ¤Â¹Â±Ã¨ÂÂ"
       },
       {
         "field": "JP TA Detail",
         "oldVal": "(empty)",
-        "newVal": "44000%ã®çå±æ§ç©çãã¡ã¼ã¸ã15ç§éãæµã®è¢«ãã¡ã¼ã¸50%UPã30ç§éãèªèº«ã®è¢«ãã¡ã¼ã¸ãåè¨5000ç¡å¹åã"
+        "newVal": "44000%Ã£ÂÂ®Ã§ÂÂÃ¥Â±ÂÃ¦ÂÂ§Ã§ÂÂ©Ã§ÂÂÃ£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸Ã£ÂÂ15Ã§Â§ÂÃ©ÂÂÃ£ÂÂÃ¦ÂÂµÃ£ÂÂ®Ã¨Â¢Â«Ã£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸50%UPÃ£ÂÂ30Ã§Â§ÂÃ©ÂÂÃ£ÂÂÃ¨ÂÂªÃ¨ÂºÂ«Ã£ÂÂ®Ã¨Â¢Â«Ã£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸Ã£ÂÂÃ¥ÂÂÃ¨Â¨Â5000Ã§ÂÂ¡Ã¥ÂÂ¹Ã¥ÂÂÃ£ÂÂ"
       },
       {
         "field": "JP Passives 1 Detail",
         "oldVal": "(empty)",
-        "newVal": "çæ­»æãå¥¥ç¾©ã²ã¼ã¸ã6ãã¤èªç¶åå¾©ããã"
+        "newVal": "Ã§ÂÂÃ¦Â­Â»Ã¦ÂÂÃ£ÂÂÃ¥Â¥Â¥Ã§Â¾Â©Ã£ÂÂ²Ã£ÂÂ¼Ã£ÂÂ¸Ã£ÂÂ6Ã£ÂÂÃ£ÂÂ¤Ã¨ÂÂªÃ§ÂÂ¶Ã¥ÂÂÃ¥Â¾Â©Ã£ÂÂÃ£ÂÂÃ£ÂÂ"
       },
       {
         "field": "JP Passives 3 Detail",
         "oldVal": "(empty)",
-        "newVal": "æ¨¹å±æ§ã®èæ§15%UPã"
+        "newVal": "Ã¦Â¨Â¹Ã¥Â±ÂÃ¦ÂÂ§Ã£ÂÂ®Ã¨ÂÂÃ¦ÂÂ§15%UPÃ£ÂÂ"
       },
       {
         "field": "JP Passives 2 Detail",
         "oldVal": "(empty)",
-        "newVal": "ç«æã«å¯¾ãã¦ã®ãã¡ã¼ã¸100%UPã"
+        "newVal": "Ã§Â«ÂÃ¦ÂÂÃ£ÂÂ«Ã¥Â¯Â¾Ã£ÂÂÃ£ÂÂ¦Ã£ÂÂ®Ã£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸100%UPÃ£ÂÂ"
       },
       {
         "field": "JP D.A. 1-1 Detail",
         "oldVal": "(empty)",
-        "newVal": "ã¯ãªãã£ã«ã«æã®ãã¡ã¼ã¸70%UPã"
+        "newVal": "Ã£ÂÂ¯Ã£ÂÂªÃ£ÂÂÃ£ÂÂ£Ã£ÂÂ«Ã£ÂÂ«Ã¦ÂÂÃ£ÂÂ®Ã£ÂÂÃ£ÂÂ¡Ã£ÂÂ¼Ã£ÂÂ¸70%UPÃ£ÂÂ"
       },
       {
         "field": "JP D.A. 1-2 Detail",
         "oldVal": "(empty)",
-        "newVal": "çæ­»æã«ã¯ãªãã£ã«ã«ç100%UP"
+        "newVal": "Ã§ÂÂÃ¦Â­Â»Ã¦ÂÂÃ£ÂÂ«Ã£ÂÂ¯Ã£ÂÂªÃ£ÂÂÃ£ÂÂ£Ã£ÂÂ«Ã£ÂÂ«Ã§ÂÂ100%UP"
       },
       {
         "field": "JP D.A. 2-1 Detail",
         "oldVal": "(empty)",
-        "newVal": "æ¨¹å±æ§ã¦ãããã«å¯¾ãããã¬ã¤ã¯å70%UPã"
+        "newVal": "Ã¦Â¨Â¹Ã¥Â±ÂÃ¦ÂÂ§Ã£ÂÂ¦Ã£ÂÂÃ£ÂÂÃ£ÂÂÃ£ÂÂ«Ã¥Â¯Â¾Ã£ÂÂÃ£ÂÂÃ£ÂÂÃ£ÂÂ¬Ã£ÂÂ¤Ã£ÂÂ¯Ã¥ÂÂ70%UPÃ£ÂÂ"
       },
       {
         "field": "JP D.A. 2-2 Detail",
         "oldVal": "(empty)",
-        "newVal": "å¥¥ç¾©ã²ã¼ã¸ã2ãã¤èªç¶ä¸æã"
+        "newVal": "Ã¥Â¥Â¥Ã§Â¾Â©Ã£ÂÂ²Ã£ÂÂ¼Ã£ÂÂ¸Ã£ÂÂ2Ã£ÂÂÃ£ÂÂ¤Ã¨ÂÂªÃ§ÂÂ¶Ã¤Â¸ÂÃ¦ÂÂÃ£ÂÂ"
       }
     ]
   },
@@ -455,72 +455,72 @@
       {
         "field": "JP Skill",
         "oldVal": "(empty)",
-        "newVal": "ナーゲル・ヴァルツァー"
+        "newVal": "ãã¼ã²ã«ã»ã´ã¡ã«ãã¡ã¼"
       },
       {
         "field": "JP Skill Detail",
         "oldVal": "(empty)",
-        "newVal": "2,300%の樹属性物理ダメージ。自身の奥義ゲージ50UP。"
+        "newVal": "2,300%ã®æ¨¹å±æ§ç©çãã¡ã¼ã¸ãèªèº«ã®å¥¥ç¾©ã²ã¼ã¸50UPã"
       },
       {
         "field": "JP Arts",
         "oldVal": "(empty)",
-        "newVal": "ナーゲル・ブリッツ"
+        "newVal": "ãã¼ã²ã«ã»ããªãã"
       },
       {
         "field": "JP Arts Detail",
         "oldVal": "(empty)",
-        "newVal": "26,000%の樹属性物理ダメージ。20秒間、味方全体の命中率・装備CT速度40%UP。"
+        "newVal": "26,000%ã®æ¨¹å±æ§ç©çãã¡ã¼ã¸ã20ç§éãå³æ¹å¨ä½ã®å½ä¸­çã»è£åCTéåº¦40%UPã"
       },
       {
         "field": "JP TA",
         "oldVal": "(empty)",
-        "newVal": "ナーゲル・フライハイト"
+        "newVal": "ãã¼ã²ã«ã»ãã©ã¤ãã¤ã"
       },
       {
         "field": "JP TA Detail",
         "oldVal": "(empty)",
-        "newVal": "62,000%の樹属性物理ダメージ。自身の真奥義中、自身のスーパークリティカル率20%UP。20秒間、味方全体の奥義ゲージ4UP・クリティカル率100%UP。"
+        "newVal": "62,000%ã®æ¨¹å±æ§ç©çãã¡ã¼ã¸ãèªèº«ã®çå¥¥ç¾©ä¸­ãèªèº«ã®ã¹ã¼ãã¼ã¯ãªãã£ã«ã«ç20%UPã20ç§éãå³æ¹å¨ä½ã®å¥¥ç¾©ã²ã¼ã¸4UPã»ã¯ãªãã£ã«ã«ç100%UPã"
       },
       {
         "field": "JP SA",
         "oldVal": "(empty)",
-        "newVal": "クロイツ・デス・シャイン"
+        "newVal": "ã¯ã­ã¤ãã»ãã¹ã»ã·ã£ã¤ã³"
       },
       {
         "field": "JP SA Detail",
         "oldVal": "(empty)",
-        "newVal": "160,000%の樹属性物理ダメージ。自身の超奥義中、自身のクリティカル率100%UP・スーパークリティカル率40%UP。40秒間、自身の攻撃力120%UP。"
+        "newVal": "160,000%ã®æ¨¹å±æ§ç©çãã¡ã¼ã¸ãèªèº«ã®è¶å¥¥ç¾©ä¸­ãèªèº«ã®ã¯ãªãã£ã«ã«ç100%UPã»ã¹ã¼ãã¼ã¯ãªãã£ã«ã«ç40%UPã40ç§éãèªèº«ã®æ»æå120%UPã"
       },
       {
         "field": "JP Passives 1",
         "oldVal": "(empty)",
-        "newVal": "軍略"
+        "newVal": "è»ç¥"
       },
       {
         "field": "JP Passives 1 Detail",
         "oldVal": "(empty)",
-        "newVal": "クエスト開始時、味方全体の奥義ゲージ50UP(重複なし)"
+        "newVal": "ã¯ã¨ã¹ãéå§æãå³æ¹å¨ä½ã®å¥¥ç¾©ã²ã¼ã¸50UP(éè¤ãªã)"
       },
       {
         "field": "JP Passives 2",
         "oldVal": "(empty)",
-        "newVal": "渇いた獣"
+        "newVal": "æ¸ããç£"
       },
       {
         "field": "JP Passives 2 Detail",
         "oldVal": "(empty)",
-        "newVal": "HP50%以下の敵に対する味方全体のダメージ30%UP(重複なし)"
+        "newVal": "HP50%ä»¥ä¸ã®æµã«å¯¾ããå³æ¹å¨ä½ã®ãã¡ã¼ã¸30%UP(éè¤ãªã)"
       },
       {
         "field": "JP Passives 3",
         "oldVal": "(empty)",
-        "newVal": "軍神"
+        "newVal": "è»ç¥"
       },
       {
         "field": "JP Passives 3 Detail",
         "oldVal": "(empty)",
-        "newVal": "自身がリーダーのとき、クエスト開始から50秒間、味方全体の被ダメージ30%軽減(重複なし)"
+        "newVal": "èªèº«ããªã¼ãã¼ã®ã¨ããã¯ã¨ã¹ãéå§ãã50ç§éãå³æ¹å¨ä½ã®è¢«ãã¡ã¼ã¸30%è»½æ¸(éè¤ãªã)"
       },
       {
         "field": "JP Buff True Arts Text",
@@ -536,6 +536,141 @@
         "field": "_jp_buff_passive_3",
         "oldVal": "(empty)",
         "newVal": "If War Hero Fen is the leader. all allies' DMG taken 30% DOWN for first 50s of quest (Only Once)."
+      }
+    ]
+  },
+  {
+    "id": "1786898892810",
+    "timestamp": "2026-08-16T16:48:12.810Z",
+    "displayTime": "Aug 17, 2026, 12:48 AM",
+    "mode": "units",
+    "item": "Sublime Supernova Liza",
+    "reason": "Add JP buff, JP translation, Equip Slots",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1470"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "610"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "570"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "item_thumbnail_110851.png"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "item_thumbnail_107031.png, item_thumbnail_152181.png, item_thumbnail_108411.png, item_thumbnail_106901.png, item_thumbnail_107951.png"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "magical 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "magical 4, healing 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "スピラル・エーグル"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1,800%の光属性魔法ダメージ。自身の奥義ゲージ30UP。8秒間、味方全体の奥義ゲージ3UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "エール・ドゥ・アルバトロス"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "23,000%の光属性魔法ダメージ。30秒間、敵の魔法耐性60%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "オラクル・アマ・デトワール"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "70,000%の光属性魔法ダメージ。30秒間、味方全体の装備CT速度60%UP・味方光属性ユニットのダメージ150%UP。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "オレオル・エクラ・スプランドゥール"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "130,000%の光属性魔法ダメージ。超奥義発動時、自身の残りHPが多いほど、20秒間、味方全体の魔法ダメージUP(最大350%)。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "回復量UPLv4"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の回復量20%UP(吸収攻撃は除く)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "奥義ゲージUPLv5"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クエスト開始時、奥義ゲージ50UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "エーテル・リキャスト"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の使用済み装備を、各装備1度のみ使用可能にする"
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "23000% Light DMG (Magic). Reduces enemy's Magic resistance by 60% for 30s."
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "130000% Light DMG (Magic). The more HP Sublime Supernova Liza has when activating Super Arts. increases all allies' Magic DMG for 20s (MAX 350%)."
       }
     ]
   }
