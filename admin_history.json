@@ -350,67 +350,192 @@
       {
         "field": "JP Skill",
         "oldVal": "(empty)",
-        "newVal": "炎龍爪牙斬"
+        "newVal": "çé¾çªçæ¬"
       },
       {
         "field": "JP Skill Detail",
         "oldVal": "(empty)",
-        "newVal": "2300%の炎属性物理ダメージ。15%の確率で4秒間、敵を燃焼状態にする。"
+        "newVal": "2300%ã®çå±æ§ç©çãã¡ã¼ã¸ã15%ã®ç¢ºçã§4ç§éãæµãçç¼ç¶æã«ããã"
       },
       {
         "field": "JP Arts",
         "oldVal": "(empty)",
-        "newVal": "覇炎龍爪牙斬・暴神狂乱"
+        "newVal": "è¦çé¾çªçæ¬ã»æ´ç¥çä¹±"
       },
       {
         "field": "JP Arts Detail",
         "oldVal": "(empty)",
-        "newVal": "20000%の炎属性物理ダメージ。自身の奥義ゲージ30UP。20秒間、味方全体のブレイク中に与えるダメージ100%UP。"
+        "newVal": "20000%ã®çå±æ§ç©çãã¡ã¼ã¸ãèªèº«ã®å¥¥ç¾©ã²ã¼ã¸30UPã20ç§éãå³æ¹å¨ä½ã®ãã¬ã¤ã¯ä¸­ã«ä¸ãããã¡ã¼ã¸100%UPã"
       },
       {
         "field": "JP TA",
         "oldVal": "(empty)",
-        "newVal": "竜装暴神・烈滅龍牙乱舞"
+        "newVal": "ç«è£æ´ç¥ã»çæ»é¾çä¹±è"
       },
       {
         "field": "JP TA Detail",
         "oldVal": "(empty)",
-        "newVal": "44000%の炎属性物理ダメージ。15秒間、敵の被ダメージ50%UP。30秒間、自身の被ダメージを合計5000無効化。"
+        "newVal": "44000%ã®çå±æ§ç©çãã¡ã¼ã¸ã15ç§éãæµã®è¢«ãã¡ã¼ã¸50%UPã30ç§éãèªèº«ã®è¢«ãã¡ã¼ã¸ãåè¨5000ç¡å¹åã"
       },
       {
         "field": "JP Passives 1 Detail",
         "oldVal": "(empty)",
-        "newVal": "瀕死時、奥義ゲージが6ずつ自然回復する。"
+        "newVal": "çæ­»æãå¥¥ç¾©ã²ã¼ã¸ã6ãã¤èªç¶åå¾©ããã"
       },
       {
         "field": "JP Passives 3 Detail",
         "oldVal": "(empty)",
-        "newVal": "樹属性の耐性15%UP。"
+        "newVal": "æ¨¹å±æ§ã®èæ§15%UPã"
       },
       {
         "field": "JP Passives 2 Detail",
         "oldVal": "(empty)",
-        "newVal": "竜族に対してのダメージ100%UP。"
+        "newVal": "ç«æã«å¯¾ãã¦ã®ãã¡ã¼ã¸100%UPã"
       },
       {
         "field": "JP D.A. 1-1 Detail",
         "oldVal": "(empty)",
-        "newVal": "クリティカル時のダメージ70%UP。"
+        "newVal": "ã¯ãªãã£ã«ã«æã®ãã¡ã¼ã¸70%UPã"
       },
       {
         "field": "JP D.A. 1-2 Detail",
         "oldVal": "(empty)",
-        "newVal": "瀕死時にクリティカル率100%UP"
+        "newVal": "çæ­»æã«ã¯ãªãã£ã«ã«ç100%UP"
       },
       {
         "field": "JP D.A. 2-1 Detail",
         "oldVal": "(empty)",
-        "newVal": "樹属性ユニットに対するブレイク力70%UP。"
+        "newVal": "æ¨¹å±æ§ã¦ãããã«å¯¾ãããã¬ã¤ã¯å70%UPã"
       },
       {
         "field": "JP D.A. 2-2 Detail",
         "oldVal": "(empty)",
-        "newVal": "奥義ゲージが2ずつ自然上昇。"
+        "newVal": "å¥¥ç¾©ã²ã¼ã¸ã2ãã¤èªç¶ä¸æã"
+      }
+    ]
+  },
+  {
+    "id": "1786898227657",
+    "timestamp": "2026-08-16T16:37:07.657Z",
+    "displayTime": "Aug 17, 2026, 12:37 AM",
+    "mode": "units",
+    "item": "War Hero Fen",
+    "reason": "Add JP buff, JP translations, Equip slots",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "item_thumbnail_110601.png"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "item_thumbnail_108971.png, item_thumbnail_110591.png"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "physical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "support 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "support 4, defense 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ナーゲル・ヴァルツァー"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,300%の樹属性物理ダメージ。自身の奥義ゲージ50UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "ナーゲル・ブリッツ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "26,000%の樹属性物理ダメージ。20秒間、味方全体の命中率・装備CT速度40%UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "ナーゲル・フライハイト"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "62,000%の樹属性物理ダメージ。自身の真奥義中、自身のスーパークリティカル率20%UP。20秒間、味方全体の奥義ゲージ4UP・クリティカル率100%UP。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "クロイツ・デス・シャイン"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "160,000%の樹属性物理ダメージ。自身の超奥義中、自身のクリティカル率100%UP・スーパークリティカル率40%UP。40秒間、自身の攻撃力120%UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "軍略"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クエスト開始時、味方全体の奥義ゲージ50UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "渇いた獣"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "HP50%以下の敵に対する味方全体のダメージ30%UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "軍神"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身がリーダーのとき、クエスト開始から50秒間、味方全体の被ダメージ30%軽減(重複なし)"
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "62000% Earth DMG (Physical). Increases S-CRI Rate UP by 20% during True Arts. Auto-fills all allies' Arts gauges by 4 & increases all allies' CRI Rate UP by 100% for 20s."
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "160000% Earth DMG (Physical). Increases CRI Rate UP by 100% & S-CRI Rate UP by 40% during Super Arts. Increases ATK by 120% for 40s."
+      },
+      {
+        "field": "_jp_buff_passive_3",
+        "oldVal": "(empty)",
+        "newVal": "If War Hero Fen is the leader. all allies' DMG taken 30% DOWN for first 50s of quest (Only Once)."
       }
     ]
   }
