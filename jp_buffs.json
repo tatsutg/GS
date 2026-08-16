@@ -28,5 +28,11 @@
     "passives": {
       "3": "If War Hero Fen is the leader. all allies' DMG taken 30% DOWN for first 50s of quest (Only Once)."
     }
+  },
+  "103647412": {
+    "skill": "",
+    "arts": "23000% Light DMG (Magic). Reduces enemy's Magic resistance by 60% for 30s.",
+    "trueArts": "",
+    "superArts": "130000% Light DMG (Magic). The more HP Sublime Supernova Liza has when activating Super Arts. increases all allies' Magic DMG for 20s (MAX 350%)."
   }
 }
