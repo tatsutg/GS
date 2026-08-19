@@ -903,5 +903,101 @@
         "newVal": "Physical 6"
       }
     ]
+  },
+  {
+    "id": "1787159616937",
+    "timestamp": "2026-08-19T17:13:36.937Z",
+    "displayTime": "Aug 20, 2026, 1:13 AM",
+    "mode": "units",
+    "item": "Echidna",
+    "unitId": "108447312",
+    "reason": "add jp translations, equip slots, equip rec and true",
+    "diffs": [
+      {
+        "field": "Skill CT",
+        "oldVal": "(empty)",
+        "newVal": "15"
+      },
+      {
+        "field": "Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "800"
+      },
+      {
+        "field": "True Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1700"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "155721"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "113781, 155761, 155751, 106801, 150961, 104941"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "magical 5/6",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "healing 5",
+        "newVal": "Healing 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "support 4",
+        "newVal": "Support 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "support 4, healing 4",
+        "newVal": "Support 4, Healing 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "安息の茶会"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の状態異常(気絶・麻痺・封印・氷結以外)を回復。12秒間、自身の奥義ゲージ3自然上昇。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "魔女の災い"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "30,000%の樹属性魔法ダメージ。60秒間、敵の魔法耐性40%DOWN(重複あり)。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "風蝶の気まぐれ"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "100,000%の樹属性魔法ダメージ。真奥義を発動する度に、自身の魔法ダメージ50%UP(最大500%)。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "魔女の祝福"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "25秒間、味方全体の奥義ゲージ8自然上昇・HP8%自然回復。"
+      }
+    ]
   }
 ]
