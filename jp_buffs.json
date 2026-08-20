@@ -34,5 +34,14 @@
     "arts": "23000% Light DMG (Magic). Reduces enemy's Magic resistance by 60% for 30s.",
     "trueArts": "",
     "superArts": "130000% Light DMG (Magic). The more HP Sublime Supernova Liza has when activating Super Arts. increases all allies' Magic DMG for 20s (MAX 350%)."
+  },
+  "103827212": {
+    "skill": "",
+    "arts": "25000% Water DMG (Physical).\n80% chance of inflicting Ultimate Freeze for 7s.",
+    "trueArts": "",
+    "superArts": "180000% Water DMG (Physical).\nAuto-fills all allies' Arts gauges by 7 & increases all allies' Physical DMG by 160% for 20s.",
+    "passives": {
+      "1": "Paralysis resistance 100% UP."
+    }
   }
 }
