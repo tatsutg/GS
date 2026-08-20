@@ -999,5 +999,156 @@
         "newVal": "25秒間、味方全体の奥義ゲージ8自然上昇・HP8%自然回復。"
       }
     ]
+  },
+  {
+    "id": "1787244464087",
+    "timestamp": "2026-08-20T16:47:44.087Z",
+    "displayTime": "Aug 21, 2026, 12:47 AM",
+    "mode": "units",
+    "item": "Ultimate Paladin Roy",
+    "unitId": "103827212",
+    "reason": "add jp buff, equip slots, true and recommend equip, jp translations",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1410"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "670"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "590"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "112051"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "111801, 152481, 102411, 150651, 101821"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Healing 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "Healing 4, Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "連斬『牙狼』"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "3,000%の水属性物理ダメージ。自身の状態異常(気絶・麻痺・封印・氷結以外)を回復。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "蒼竜剣『瞬吼』"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "26,000%の水属性物理ダメージ。80%の確率で7秒間、敵を絶氷状態にする。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "裏蒼竜天翔剣『天威』"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "60,000%の水属性物理ダメージ。30秒間、味方水属性ユニットのブレイク力100%UP。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "極ノ閃『零』"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "180,000%の水属性物理ダメージ。20秒間、味方全体の奥義ゲージ7UP・物理ダメージ160%UP。超奥義カットイン中にバレットアイコン1回タップで「ファントム・バレット-Kr-」発動。"
+      },
+      {
+        "field": "JP SPECIAL SA",
+        "oldVal": "(empty)",
+        "newVal": "ファントム・バレット-Kr-"
+      },
+      {
+        "field": "JP SPECIAL SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "クエスト中、2回まで使用可能。250,000%の水属性物理ダメージ。100秒間、敵の物理耐性120%DOWN。1回目発動時、味方全体の奥義ゲージ200UP。2回目発動時、味方全体のHP100%回復。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "麻痺耐性Lv10"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "麻痺耐性100%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "聖痕の騎士"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身がリーダーのとき、クエスト開始から30秒間、味方全体の物理被ダメージ50%軽減(重複なし)"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "準快調時奥義ゲージUPLv4"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "HP80%以上の時、奥義ゲージ4自然上昇"
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "25000% Water DMG (Physical).\n80% chance of inflicting Ultimate Freeze for 7s."
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "180000% Water DMG (Physical).\nAuto-fills all allies' Arts gauges by 7 & increases all allies' Physical DMG by 160% for 20s."
+      },
+      {
+        "field": "_jp_buff_passive_1",
+        "oldVal": "(empty)",
+        "newVal": "Paralysis resistance 100% UP."
+      }
+    ]
   }
 ]
