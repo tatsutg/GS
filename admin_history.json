@@ -1150,5 +1150,21 @@
         "newVal": "Paralysis resistance 100% UP."
       }
     ]
+  },
+  {
+    "id": "1787499877971",
+    "timestamp": "2026-08-23T15:44:37.971Z",
+    "displayTime": "Aug 23, 2026, 11:44 PM",
+    "mode": "units",
+    "item": "Guild Master Rayas",
+    "unitId": "104247412",
+    "reason": "add tb tag (testing)",
+    "diffs": [
+      {
+        "field": "Team Build (Include)",
+        "oldVal": "(none)",
+        "newVal": "Light Team Support"
+      }
+    ]
   }
 ]
