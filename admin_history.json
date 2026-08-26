@@ -1166,5 +1166,151 @@
         "newVal": "Light Team Support"
       }
     ]
+  },
+  {
+    "id": "1787756012978",
+    "timestamp": "2026-08-26T14:53:32.978Z",
+    "displayTime": "Aug 26, 2026, 10:53 PM",
+    "mode": "units",
+    "item": "Isliid, Human Pinnacle",
+    "unitId": "103807412",
+    "reason": "add jp translations, jp buff, true equip, recommend equip",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "111971"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "107031, 106181, 111981, 105431"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "magical 5/6",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "defense 5",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "physical 5",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "アイゼン・ヴァルツァー"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,500%の光属性物理ダメージ。自身の奥義ゲージ20UP。8秒間、自身は怯まなくなる。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "ワイズ・フィア・ドライ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "27,000%の光属性物理ダメージ。編成位置で帝剣が変化。左からスカイライト、グランヴィス、ダークブリンガー、順番に使用。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "アレス・インデ・ヴンダー"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "60,000%の光属性物理ダメージ。8秒間、味方全体の奥義ゲージ10UP。20秒間、敵の被ダメージ60%UP。敵が人・神・魔族の場合、さらに60%UP。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "エンダー・ルーンマスター"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "160,000%の光属性魔法ダメージ。超奥義発動時、自身の使用済み装備の残りCTを全て半分にする。20秒間、状態異常でない味方ユニットの装備CT速度30%UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "ニルシャナルの魔眼"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身が状態異常でない場合、奥義ゲージ8自然上昇。"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "烈光のスカイライト"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "奥義でスカイライト使用時、25秒間、自身の神族に対するダメージ200%UP・味方全体の魔法攻撃装備のCT速度30%UP(重複なし)。"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "支配のグランヴィス"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "奥義でグランヴィス使用時、25秒間、自身の人族に対するダメージ200%UP・味方全体の援護装備のCT速度30%UP(重複なし)。"
+      },
+      {
+        "field": "JP Passives 4",
+        "oldVal": "(empty)",
+        "newVal": "降魔のダークブリンガー"
+      },
+      {
+        "field": "JP Passives 4 Detail",
+        "oldVal": "(empty)",
+        "newVal": "奥義でダークブリンガー使用時、25秒間、自身の魔族に対するダメージ200%UP・味方全体の物理攻撃装備のCT速度30%UP(重複なし)。"
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "60000% Light DMG (Physical).\nAuto-fills all allies' Arts gauges by 10 for 9s.\nIncreases DMG to enemy by 60% for 20s.\n60% more when enemy is Human, God, or Demon."
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "160000% Light DMG (Magic).\nReduces the remaining CT of used Equips by half when activating Super Arts.\nIncreases Equip CT speed by 30% for 20s for the units not in Status Ailment."
+      },
+      {
+        "field": "_jp_buff_passive_1",
+        "oldVal": "(empty)",
+        "newVal": "Auto-fills Arts gauge by 8 when Isliid, Human Pinnacle is not in Status Ailment."
+      },
+      {
+        "field": "_jp_buff_passive_2",
+        "oldVal": "(empty)",
+        "newVal": "DMG 200% UP to Gods & all allies' Magic Equip CT speed 30% UP for 25s when Sky Light is used during Arts (Only Once)."
+      },
+      {
+        "field": "_jp_buff_passive_3",
+        "oldVal": "(empty)",
+        "newVal": "DMG 200% UP to Humans & all allies' Support Equip CT speed 30% UP for 25s when Terra Master is used during Arts (Only Once)."
+      },
+      {
+        "field": "_jp_buff_passive_4",
+        "oldVal": "(empty)",
+        "newVal": "DMG 200% UP to Demons & all allies' Physical Equip CT speed 30% UP for 25s when Dark Bringer is used during Arts (Only Once)."
+      }
+    ]
   }
 ]
