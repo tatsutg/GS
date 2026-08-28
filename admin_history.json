@@ -1312,5 +1312,216 @@
         "newVal": "DMG 200% UP to Demons & all allies' Physical Equip CT speed 30% UP for 25s when Dark Bringer is used during Arts (Only Once)."
       }
     ]
+  },
+  {
+    "id": "1787929455851",
+    "timestamp": "2026-08-28T15:04:15.851Z",
+    "displayTime": "Aug 28, 2026, 11:04 PM",
+    "mode": "units",
+    "item": "Celesta",
+    "unitId": "",
+    "reason": "Update New Unit: Celesta",
+    "diffs": [
+      {
+        "field": "Unit Thumbnail",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/thumbnail/unit_thumbnail_104327112.png"
+      },
+      {
+        "field": "Tag / Tagging",
+        "oldVal": "(empty)",
+        "newVal": "与ダメージUP, 与ダメージDOWN, 炎属性耐性DOWN, 暗闇耐性, 奥義ゲージ自然上昇, 奥義ゲージ自然上昇B, 攻撃力DOWN, ブレイク耐性DOWN, サイバーマンシー・ロストピア, 破壊, 物攻★6, 物攻★5, 物攻★4, 防御★4, 人族"
+      },
+      {
+        "field": "Skill",
+        "oldVal": "(empty)",
+        "newVal": "Grandpa's Fist"
+      },
+      {
+        "field": "Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "3000% Fire DMG (Physical). Increases Arts gauge by 30."
+      },
+      {
+        "field": "Arts",
+        "oldVal": "(empty)",
+        "newVal": "Eternal Night Fist Fire-Summoning Form \"Rensensen\""
+      },
+      {
+        "field": "Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "23000% Fire DMG (Physical). Decreases enemy's ATK & DMG by 30% for 30s."
+      },
+      {
+        "field": "True Arts",
+        "oldVal": "(empty)",
+        "newVal": "Eternal Night Fist Secret Art \"Hachihogyokushin\""
+      },
+      {
+        "field": "True Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "56000% Fire DMG (Physical). Auto-fills all allies' Arts gauge by 6 & decreases enemy's Break RES by 60% for 25s."
+      },
+      {
+        "field": "Special Arts",
+        "oldVal": "(empty)",
+        "newVal": "Destruction Type"
+      },
+      {
+        "field": "Special Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "Doubles Leader unit's Break Power. Halves non-Leader units' Break Power."
+      },
+      {
+        "field": "Super Arts",
+        "oldVal": "(empty)",
+        "newVal": "Celesta Overdrive"
+      },
+      {
+        "field": "Super Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "150000% Fire DMG (Physical). Increases Skill CT speed & DMG by 50% & decreases enemy's Fire RES by 150% for 45s."
+      },
+      {
+        "field": "Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "Blind Resistance Lv10"
+      },
+      {
+        "field": "Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "Blind resistance 100% UP."
+      },
+      {
+        "field": "Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "Additional Attack Lv5"
+      },
+      {
+        "field": "Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "DMG 50% UP during Break."
+      },
+      {
+        "field": "Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "The Pen is as Strong as the Fist"
+      },
+      {
+        "field": "Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "Auto-fills all allies' Arts gauge by number of surviving allies' races x1 (MAX 4, Only Once)."
+      },
+      {
+        "field": "Awk★ Thumb",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/thumbnail/unit_thumbnail_104326112.png"
+      },
+      {
+        "field": "Awk★ Art",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/detail/unit_detail_104326112.png"
+      },
+      {
+        "field": "Asc★ Thumb",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/thumbnail/unit_thumbnail_104327112.png"
+      },
+      {
+        "field": "Asc★ Art",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/detail/unit_detail_104327112.png"
+      },
+      {
+        "field": "SP Art Thumb",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/detail/unit_detail_unit_sp_icon_432_1.png"
+      },
+      {
+        "field": "SP Art Art",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/detail/unit_detail_unit_sp_icon_432_1.png"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "おじいちゃんの拳"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "3,000%の炎属性物理ダメージ。自身の奥義ゲージ30UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "永夜拳召炎型『錬閃穿』"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "23,000%の炎属性物理ダメージ。30秒間、敵の攻撃力・ダメージ30%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "永夜拳秘奥『八崩玉震』"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "56,000%の炎属性物理ダメージ。25秒間、味方全体の奥義ゲージ6自然上昇・敵のブレイク耐性60%DOWN。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "セレスタ・オーバードライブ"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "150,000%の炎属性物理ダメージ。45秒間、自身のスキルCT速度・ダメージ50%UP・敵の炎属性耐性150%DOWN。"
+      },
+      {
+        "field": "JP SPECIAL Arts",
+        "oldVal": "(empty)",
+        "newVal": "破壊型"
+      },
+      {
+        "field": "JP SPECIAL Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "リーダーユニットのブレイク力を2倍にする。リーダー以外のユニットのブレイク力を半分にする。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "暗闇耐性Lv10"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "暗闇耐性100%UP。"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "追い打ちLv5"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵がブレイク中、ダメージ50%UP。"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "ペンは拳と同じぐらい強い"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方全体の奥義ゲージを倒れていない味方ユニットの種族数×1自然上昇(最大4・重複なし)。"
+      }
+    ]
   }
 ]
