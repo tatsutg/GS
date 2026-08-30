@@ -1523,5 +1523,21 @@
         "newVal": "味方全体の奥義ゲージを倒れていない味方ユニットの種族数×1自然上昇(最大4・重複なし)。"
       }
     ]
+  },
+  {
+    "id": "1788093866416",
+    "timestamp": "2026-08-30T12:44:26.416Z",
+    "displayTime": "Aug 30, 2026, 8:44 PM",
+    "mode": "units",
+    "item": "Celesta",
+    "unitId": "104327112",
+    "reason": "testing the sp art fields",
+    "diffs": [
+      {
+        "field": "SP Art Thumb 2",
+        "oldVal": "(empty)",
+        "newVal": "=IMAGE(\"https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/sp_icon/unit_sp_icon_432_1.png\")"
+      }
+    ]
   }
 ]
