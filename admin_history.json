@@ -1570,5 +1570,56 @@
         "newVal": "[cleared]"
       }
     ]
+  },
+  {
+    "id": "1788110369178",
+    "timestamp": "2026-08-30T17:19:29.178Z",
+    "displayTime": "Aug 31, 2026, 1:19 AM",
+    "mode": "equips",
+    "item": "GF-Funny type-R",
+    "unitId": "item_thumbnail_114191.png",
+    "reason": "add data",
+    "diffs": [
+      {
+        "field": "Unit Thumbnail",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_114191.png"
+      },
+      {
+        "field": "Tag / Tagging",
+        "oldVal": "(empty)",
+        "newVal": "与ダメージUP, ブレイク力UP, サイバーマンシー・ロストピア, BE出現量UP"
+      },
+      {
+        "field": "JP Description",
+        "oldVal": "(empty)",
+        "newVal": "6,000%の炎属性物理ダメージ。20秒間、自身の物理ダメージ・ブレイク力50%UP。"
+      },
+      {
+        "field": "JP Passives-1-Name",
+        "oldVal": "(empty)",
+        "newVal": "BE出現Lv1"
+      },
+      {
+        "field": "JP Passives-1",
+        "oldVal": "(empty)",
+        "newVal": "BE出現量5%UP"
+      },
+      {
+        "field": "SERVER",
+        "oldVal": "japan",
+        "newVal": "Japan"
+      },
+      {
+        "field": "Before Enhance",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114190.png"
+      },
+      {
+        "field": "After Enhance",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114191.png"
+      }
+    ]
   }
 ]
