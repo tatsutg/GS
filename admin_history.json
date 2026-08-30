@@ -1539,5 +1539,36 @@
         "newVal": "=IMAGE(\"https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/sp_icon/unit_sp_icon_432_1.png\")"
       }
     ]
+  },
+  {
+    "id": "1788107132828",
+    "timestamp": "2026-08-30T16:25:32.828Z",
+    "displayTime": "Aug 31, 2026, 12:25 AM",
+    "mode": "units",
+    "item": "Celesta",
+    "unitId": "104327112",
+    "reason": "test",
+    "diffs": [
+      {
+        "field": "SP Art 1 Thumbnail",
+        "oldVal": "unit_sp_icon_432_1.png",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "SP Art 1 Detail",
+        "oldVal": "unit_sp_detail_432_1.png",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "SP Art 2 Thumbnail",
+        "oldVal": "unit_sp_icon_432_1.png",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "SP Art 2 Detail",
+        "oldVal": "unit_sp_detail_432_1.png",
+        "newVal": "[cleared]"
+      }
+    ]
   }
 ]
