@@ -1621,5 +1621,111 @@
         "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114191.png"
       }
     ]
+  },
+  {
+    "id": "1788359315453",
+    "timestamp": "2026-09-02T14:28:35.453Z",
+    "displayTime": "Sep 2, 2026, 10:28 PM",
+    "mode": "units",
+    "item": "Summer Fen",
+    "unitId": "103737212",
+    "reason": "add jp translations, buff, and equips",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "112561"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "111801, 110121, 112391, 105911, 103581, 105701"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "気高き獣の憂鬱"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,400%の水属性物理ダメージ。味方全体のHP25%回復。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "ヴォーゲ・ランツェ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "17,000%の水属性物理ダメージ。25秒間、自身の回復装備のCT速度50%UP・回復量60%UP(吸収攻撃は除く)。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "大海原の一本釣り"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "75,000%の水属性物理ダメージ。30秒間、敵のクリティカル耐性100%DOWN・回避率50%DOWN。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "ヴォーゲ・ランツェ・ツヴァイ"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "170,000%の水属性物理ダメージ。30秒間、敵の水属性耐性170%DOWN。60秒間、自身の奥義ゲージ8自然上昇。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性Lv10"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性100%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "致命の一撃Lv15"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クリティカル時のダメージ150%UP"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "波乗りの神髄"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クエスト開始時、自身の奥義ゲージ100UP。攻撃を受ける度に、奥義ゲージ1UP"
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "15000% Water DMG (Physical). Increases Healing Equip CT speed by 50% & own HP heal effect by 60% for 20s (Except Lifesteal)."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "75000% Water DMG (Physical). Reduces enemy's CRI resistance by 100% & Evasion rate by 50% for 30s."
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "170000% Water DMG (Physical). Reduces enemy's Water resistance by 170% for 30s. Auto-fills Arts gauge by 8 for 60s."
+      }
+    ]
   }
 ]
