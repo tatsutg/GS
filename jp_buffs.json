@@ -35,6 +35,12 @@
     "trueArts": "",
     "superArts": "130000% Light DMG (Magic). The more HP Sublime Supernova Liza has when activating Super Arts. increases all allies' Magic DMG for 20s (MAX 350%)."
   },
+  "103727112": {
+    "skill": "",
+    "arts": "22000% Fire DMG (Magic). Increases all allies' Skill CT speed by 80% for 20s. Additional 50% for Fire units.",
+    "trueArts": "65000% Fire DMG (Magic). Reduces enemy's Magic resistance by 80% for 30s.",
+    "superArts": "175000% Fire DMG (Magic). Auto-fills Fire units' Arts gauges by 10 for 12s. The more HP Iris, Bursting Jubilation has when activating Super Arts. increases all allies' Arts DMG for 30s (MAX 300%)."
+  },
   "103737212": {
     "skill": "",
     "arts": "15000% Water DMG (Physical). Increases Healing Equip CT speed by 50% & own HP heal effect by 60% for 20s (Except Lifesteal).",
