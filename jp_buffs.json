@@ -35,6 +35,12 @@
     "trueArts": "",
     "superArts": "130000% Light DMG (Magic). The more HP Sublime Supernova Liza has when activating Super Arts. increases all allies' Magic DMG for 20s (MAX 350%)."
   },
+  "103737212": {
+    "skill": "",
+    "arts": "15000% Water DMG (Physical). Increases Healing Equip CT speed by 50% & own HP heal effect by 60% for 20s (Except Lifesteal).",
+    "trueArts": "75000% Water DMG (Physical). Reduces enemy's CRI resistance by 100% & Evasion rate by 50% for 30s.",
+    "superArts": "170000% Water DMG (Physical). Reduces enemy's Water resistance by 170% for 30s. Auto-fills Arts gauge by 8 for 60s."
+  },
   "103807412": {
     "skill": "",
     "arts": "",
