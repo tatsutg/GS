@@ -2577,5 +2577,96 @@
         "newVal": "レイドボスからの被ダメージ20%軽減"
       }
     ]
+  },
+  {
+    "id": "1788448046359",
+    "timestamp": "2026-09-03T15:07:26.359Z",
+    "displayTime": "Sep 3, 2026, 11:07 PM",
+    "mode": "units",
+    "item": "Thetis",
+    "unitId": "102506212",
+    "reason": "added jp text & equip",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "106001"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ブリンダー・シュラッグ"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1500%の水属性物理ダメージ。7秒間、敵のブレイク耐性15%DOWN。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "シタデル・アングリフ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "8000%の水属性物理ダメージ。防御力の1.5倍を奥義ダメージ倍率に追加。15秒間、味方全体のブレイク力30%UP。さらに味方を庇い、自身の被ダメージ10000無効化。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "グロスエルデ・アーテム"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "120秒間マギアドライブ状態になる。マギアドライブ状態の時使用すると45000%の水属性物理ダメージ。毒・燃焼を回復。30秒間、味方を庇い、自身の被ダメージ30000無効化。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "騎士道"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方が倒れた時に1度だけHP50%で蘇生する"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "クリティカル耐性Lv6"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クリティカル耐性60%UP"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "金剛の戒放"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "マギアドライブ発動時奥義ゲージ100UP。マギアドライブ状態の時攻撃を受けるたび奥義ゲージ1UP・被ダメージ25%軽減"
+      }
+    ]
   }
 ]
