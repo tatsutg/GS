@@ -2084,5 +2084,126 @@
         "newVal": "敵がブレイク中、ダメージ20%UP"
       }
     ]
+  },
+  {
+    "id": "1788435974093",
+    "timestamp": "2026-09-03T11:46:14.093Z",
+    "displayTime": "Sep 3, 2026, 7:46 PM",
+    "mode": "units",
+    "item": "Severing Light Demon Warrior Thetis",
+    "unitId": "",
+    "reason": "Adding New Unit: Severing Light Demon Warrior Thetis",
+    "diffs": [
+      {
+        "field": "Unit Thumbnail",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/thumbnail/unit_thumbnail_104347212.png"
+      },
+      {
+        "field": "Name",
+        "oldVal": "(empty)",
+        "newVal": "Severing Light Demon Warrior Thetis"
+      },
+      {
+        "field": "JP Name",
+        "oldVal": "(empty)",
+        "newVal": "断照の鬼武者セティス"
+      },
+      {
+        "field": "Rarity",
+        "oldVal": "(empty)",
+        "newVal": "Ascension"
+      },
+      {
+        "field": "Type",
+        "oldVal": "(empty)",
+        "newVal": "Water"
+      },
+      {
+        "field": "Race",
+        "oldVal": "(empty)",
+        "newVal": "Demon"
+      },
+      {
+        "field": "HP",
+        "oldVal": "(empty)",
+        "newVal": "7963"
+      },
+      {
+        "field": "ATK",
+        "oldVal": "(empty)",
+        "newVal": "2767"
+      },
+      {
+        "field": "DEF",
+        "oldVal": "(empty)",
+        "newVal": "3970"
+      },
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1450"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "572"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "723"
+      },
+      {
+        "field": "Server",
+        "oldVal": "(empty)",
+        "newVal": "Japan"
+      },
+      {
+        "field": "Skill",
+        "oldVal": "(empty)",
+        "newVal": "Skill Name"
+      },
+      {
+        "field": "Skill CT",
+        "oldVal": "(empty)",
+        "newVal": "10"
+      },
+      {
+        "field": "Skill BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1000"
+      },
+      {
+        "field": "Arts",
+        "oldVal": "(empty)",
+        "newVal": "Arts Name"
+      },
+      {
+        "field": "Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1800"
+      },
+      {
+        "field": "True Arts",
+        "oldVal": "(empty)",
+        "newVal": "True Arts Name"
+      },
+      {
+        "field": "True Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "3400"
+      },
+      {
+        "field": "Super Arts",
+        "oldVal": "(empty)",
+        "newVal": "Super Arts Name"
+      },
+      {
+        "field": "Super Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "4200"
+      }
+    ]
   }
 ]
