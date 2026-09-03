@@ -2388,5 +2388,41 @@
         "newVal": "Physical 4,Defense 4"
       }
     ]
+  },
+  {
+    "id": "1788446670476",
+    "timestamp": "2026-09-03T14:44:30.476Z",
+    "displayTime": "Sep 3, 2026, 10:44 PM",
+    "mode": "units",
+    "item": "Severing Light Demon Warrior Thetis",
+    "unitId": "104347212",
+    "reason": "update passives",
+    "diffs": [
+      {
+        "field": "Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2000% Water DMG (Physical).\nIncreases Arts gauge by 30."
+      },
+      {
+        "field": "Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "Additional Attack Lv2"
+      },
+      {
+        "field": "Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "DMG 20% UP during Break."
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "追い打ちLv2"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵がブレイク中、ダメージ20%UP"
+      }
+    ]
   }
 ]
