@@ -2668,5 +2668,106 @@
         "newVal": "マギアドライブ発動時奥義ゲージ100UP。マギアドライブ状態の時攻撃を受けるたび奥義ゲージ1UP・被ダメージ25%軽減"
       }
     ]
+  },
+  {
+    "id": "1788457412568",
+    "timestamp": "2026-09-03T17:43:32.569Z",
+    "displayTime": "Sep 4, 2026, 1:43 AM",
+    "mode": "units",
+    "item": "Chifuyu",
+    "unitId": "107646312",
+    "reason": "added jp text, equip slots, jp release date",
+    "diffs": [
+      {
+        "field": "5★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "千冬"
+      },
+      {
+        "field": "Awk★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "千冬"
+      },
+      {
+        "field": "JP\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "15/6/2022"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Magical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "かかってこい"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2000%の樹属性物理ダメージ。6秒間、自身のBE出現量30%UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "正面の敵だけ見てろ相棒"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "17000%の樹属性物理ダメージ。戦闘不能状態のユニットをHP100%で蘇生。蘇生発動後、50秒間、蘇生効果発動なし。10秒間、味方全体の全ステータス30%UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "背中はオレが守ってやる！"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "35000%の樹属性物理ダメージ。20秒間、味方全体の被ダメージを合計6000無効化・クリティカル耐性30%UP・被ダメージ20%軽減。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "氷結耐性Lv10"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "氷結耐性100%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "「東京卍會」壱番隊副隊長"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方全体の援護装備のCT速度10%UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "無効化強化Lv2"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身にダメージ無効化が付与されている場合、防御力20%UP"
+      }
+    ]
   }
 ]
