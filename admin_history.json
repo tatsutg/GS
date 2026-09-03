@@ -2440,5 +2440,21 @@
         "newVal": "gl"
       }
     ]
+  },
+  {
+    "id": "1788446919372",
+    "timestamp": "2026-09-03T14:48:39.372Z",
+    "displayTime": "Sep 3, 2026, 10:48 PM",
+    "mode": "units",
+    "item": "CELESTA",
+    "unitId": "104327112",
+    "reason": "japan",
+    "diffs": [
+      {
+        "field": "SERVER",
+        "oldVal": "gl",
+        "newVal": "Japan"
+      }
+    ]
   }
 ]
