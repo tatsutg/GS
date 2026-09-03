@@ -2424,5 +2424,21 @@
         "newVal": "敵がブレイク中、ダメージ20%UP"
       }
     ]
+  },
+  {
+    "id": "1788446855391",
+    "timestamp": "2026-09-03T14:47:35.391Z",
+    "displayTime": "Sep 3, 2026, 10:47 PM",
+    "mode": "units",
+    "item": "CELESTA",
+    "unitId": "104327112",
+    "reason": "test",
+    "diffs": [
+      {
+        "field": "SERVER",
+        "oldVal": "Japan",
+        "newVal": "gl"
+      }
+    ]
   }
 ]
