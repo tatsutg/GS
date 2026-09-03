@@ -2456,5 +2456,126 @@
         "newVal": "Japan"
       }
     ]
+  },
+  {
+    "id": "1788447812952",
+    "timestamp": "2026-09-03T15:03:32.952Z",
+    "displayTime": "Sep 3, 2026, 11:03 PM",
+    "mode": "units",
+    "item": "Gerald",
+    "unitId": "102006112",
+    "reason": "added jp text",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "999"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "328"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "463"
+      },
+      {
+        "field": "5★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "竜隊騎長ジェラルド"
+      },
+      {
+        "field": "Awk★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "竜軍将帥ジェラルド"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Magical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "フランメ・ランツェ"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2000%の炎属性物理ダメージ。5秒間、敵の攻撃力20%DOWN。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "シャルラハロート"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "15400%の炎属性魔法ダメージ。味方全体の奥義ゲージ10UP。20秒間、味方全体への攻撃を庇い、自身の被ダメージを合計8000無効化。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "シャルラハロート・ドライ"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "21600%の炎属性魔法ダメージ。味方全体の奥義ゲージ15UP。自身の状態異常回復。20秒間、味方全体への攻撃を庇い、自身の被ダメージを合計15000無効化。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性Lv5"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性50%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "守護"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方瀕死ユニットの被ダメージ10%軽減(重複なし)"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "犠牲と覚悟"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "戦闘中、一度だけHP1で生き残る。発動時、HP50%・奥義ゲージMAX分自然回復"
+      },
+      {
+        "field": "JP Passives 4",
+        "oldVal": "(empty)",
+        "newVal": "レイドウォールLv4"
+      },
+      {
+        "field": "JP Passives 4 Detail",
+        "oldVal": "(empty)",
+        "newVal": "レイドボスからの被ダメージ20%軽減"
+      }
+    ]
   }
 ]
