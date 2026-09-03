@@ -2322,5 +2322,71 @@
         "newVal": "魔血開眼状態の時、自身の被ダメージ40%軽減・クリティカル耐性60%UP・怯まなくなる。"
       }
     ]
+  },
+  {
+    "id": "1788442940950",
+    "timestamp": "2026-09-03T13:42:20.950Z",
+    "displayTime": "Sep 3, 2026, 9:42 PM",
+    "mode": "units",
+    "item": "Severing Light Demon Warrior Thetis",
+    "unitId": "104347212",
+    "reason": ".",
+    "diffs": [
+      {
+        "field": "Skill",
+        "oldVal": "(empty)",
+        "newVal": "Kazekiri"
+      },
+      {
+        "field": "Arts",
+        "oldVal": "(empty)",
+        "newVal": "Blue Lightning Shield that Severs Amaterasu"
+      },
+      {
+        "field": "True Arts",
+        "oldVal": "(empty)",
+        "newVal": "Steel-Clad Spear that Pierces the Battlefield"
+      },
+      {
+        "field": "Super Arts",
+        "oldVal": "(empty)",
+        "newVal": "Hundred Demons Summon Endless Mad Storm"
+      },
+      {
+        "field": "Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "Demon-Human Union"
+      },
+      {
+        "field": "Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "Demon Blood Trait [Commander]"
+      },
+      {
+        "field": "JP\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "31/8/2026"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4,Defense 4"
+      }
+    ]
   }
 ]
