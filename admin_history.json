@@ -1868,5 +1868,221 @@
         "newVal": "175000% Fire DMG (Magic). Auto-fills Fire units' Arts gauges by 10 for 12s. The more HP Iris, Bursting Jubilation has when activating Super Arts. increases all allies' Arts DMG for 30s (MAX 300%)."
       }
     ]
+  },
+  {
+    "id": "1788434040541",
+    "timestamp": "2026-09-03T11:14:00.541Z",
+    "displayTime": "Sep 3, 2026, 7:14 PM",
+    "mode": "units",
+    "item": "Severing Light Demon Warrior Thetis",
+    "unitId": "",
+    "reason": "Adding New Unit: Severing Light Demon Warrior Thetis",
+    "diffs": [
+      {
+        "field": "Unit Thumbnail",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/thumbnail/unit_thumbnail_104347212.png"
+      },
+      {
+        "field": "Name",
+        "oldVal": "(empty)",
+        "newVal": "Severing Light Demon Warrior Thetis"
+      },
+      {
+        "field": "JP Name",
+        "oldVal": "(empty)",
+        "newVal": "断照の鬼武者セティス"
+      },
+      {
+        "field": "Rarity",
+        "oldVal": "(empty)",
+        "newVal": "Ascension"
+      },
+      {
+        "field": "Type",
+        "oldVal": "(empty)",
+        "newVal": "Water"
+      },
+      {
+        "field": "Race",
+        "oldVal": "(empty)",
+        "newVal": "Demon"
+      },
+      {
+        "field": "HP",
+        "oldVal": "(empty)",
+        "newVal": "7963"
+      },
+      {
+        "field": "ATK",
+        "oldVal": "(empty)",
+        "newVal": "2767"
+      },
+      {
+        "field": "DEF",
+        "oldVal": "(empty)",
+        "newVal": "3970"
+      },
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1450"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "572"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "723"
+      },
+      {
+        "field": "Server",
+        "oldVal": "(empty)",
+        "newVal": "Global"
+      },
+      {
+        "field": "Skill CT",
+        "oldVal": "(empty)",
+        "newVal": "10"
+      },
+      {
+        "field": "Skill BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1000"
+      },
+      {
+        "field": "Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1800"
+      },
+      {
+        "field": "True Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "3400"
+      },
+      {
+        "field": "Super Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "4200"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "風切"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,000%の水属性物理ダメージ。自身の奥義ゲージ30UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "天照を断つ青雷の盾"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "10,000%の水属性物理ダメージ。35秒間、味方全体への攻撃を庇い、自身の被ダメージを合計35,000無効化。魔血開眼状態のとき、自身に付与されている被ダメージUP効果を1つ回復。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "戦場を穿ち拓く鋼纏の槍"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "57,000%の水属性物理ダメージ。20秒間、敵の水属性耐性・物理耐性60%DOWN。魔血開眼状態のとき、自身の魔血開眼の時間を40秒延長する。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "百鬼招来狂嵐無尽"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "120秒間、魔血開眼状態になる。魔血開眼状態のとき使用すると150,000%の水属性物理ダメージ。45秒間、味方全体のダメージ150%UP(重複あり)。"
+      },
+      {
+        "field": "Awk★ Thumb",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/thumbnail/unit_thumbnail_104346212.png"
+      },
+      {
+        "field": "Awk★ Art",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/detail/unit_detail_104346212.png"
+      },
+      {
+        "field": "Asc★ Thumb",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/thumbnail/unit_thumbnail_104347212.png"
+      },
+      {
+        "field": "Asc★ Art",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/unit/detail/unit_detail_104347212.png"
+      },
+      {
+        "field": "JP\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "31/8/2026"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4, Defense 4"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "魔人合一"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の奥義ゲージを倒れていない味方魔族ユニットの数×2自然上昇。クエスト開始時、自身の奥義ゲージを味方人族ユニットの数×50UP。"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "魔血特性【将星】"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "魔血開眼状態の時、自身の被ダメージ40%軽減・クリティカル耐性60%UP・怯まなくなる。"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "追い打ちLv2"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵がブレイク中、ダメージ20%UP"
+      }
+    ]
   }
 ]
