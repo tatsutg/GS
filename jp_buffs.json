@@ -20,6 +20,12 @@
     "arts": "18000% Earth DMG (Physical).\nIncreases Earth allies' DMG by 100% for 20s.",
     "trueArts": "40000% Earth DMG (Physical).\nArts gauge stops for 15s.\nReduces Skill CT by 400% & increases Break power by 30% for 15s.\nSkill effect changes after using True Arts."
   },
+  "103296412": {
+    "skill": "1600% Light DMG (Magic). Reduces enemy's Evasion rate by 10% for 7s.",
+    "arts": "17000% Light DMG (Magic). Heals Poison & Curse. Covers all allies & negates DMG taken for a total of 15000 for 20s.",
+    "trueArts": "45000% Light DMG (Magic). Increases all allies' Magic DMG by 30% (Stacks) for 30s. Covers all allies & negates DMG taken for a total of 30000 for 30s.",
+    "superArts": ""
+  },
   "103617312": {
     "skill": "",
     "arts": "",
