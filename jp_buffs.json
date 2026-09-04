@@ -83,5 +83,14 @@
     "passives": {
       "1": "Paralysis resistance 100% UP."
     }
+  },
+  "103867212": {
+    "skill": "2000% Water DMG (Physical). Recovers HP by 20%. Auto-fills Arts gauge by 6 for 10s.",
+    "arts": "17000% Water DMG (Physical). Increases all allies' Arts gauges by 25. Increases all allies' ATK & DEF by 60% for 20s.",
+    "trueArts": "",
+    "superArts": "100000% Water DMG (Physical). Reduces all allies' DMG taken & Magic DMG taken by 30% for 60s. Negates all allies' DMG taken for a total of 10000 for 60s.",
+    "passives": {
+      "1": "HP recovery by 100% when Near-Death (one-time only). DMG taken 30% DOWN for 20s when Near-Death (one-time only)."
+    }
   }
 }
