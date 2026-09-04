@@ -2769,5 +2769,116 @@
         "newVal": "自身にダメージ無効化が付与されている場合、防御力20%UP"
       }
     ]
+  },
+  {
+    "id": "1788488178846",
+    "timestamp": "2026-09-04T02:16:18.846Z",
+    "displayTime": "Sep 4, 2026, 10:16 AM",
+    "mode": "units",
+    "item": "Celia (Light)",
+    "unitId": "102046412",
+    "reason": "added jp text, stats, equip slots",
+    "diffs": [
+      {
+        "field": "HP",
+        "oldVal": "(empty)",
+        "newVal": "7104"
+      },
+      {
+        "field": "ATK",
+        "oldVal": "(empty)",
+        "newVal": "2424"
+      },
+      {
+        "field": "DEF",
+        "oldVal": "(empty)",
+        "newVal": "2808"
+      },
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "999"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "373"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "431"
+      },
+      {
+        "field": "Skill CT",
+        "oldVal": "(empty)",
+        "newVal": "8"
+      },
+      {
+        "field": "Skill BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1400"
+      },
+      {
+        "field": "Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "2900"
+      },
+      {
+        "field": "True Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "4500"
+      },
+      {
+        "field": "SERVER",
+        "oldVal": "(empty)",
+        "newVal": "Global"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Healing 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ルミエールフロール"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1800%の光属性物理ダメージ。5秒間、敵の攻撃力20%DOWN。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "エクラ・デ・ヴァーグ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "13800%の光属性物理ダメージ。味方全体の奥義ゲージ10UP。20秒間、味方全体への攻撃を庇い、自身の被ダメージを合計8000無効化。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "シランス・パルフェ"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "22800%の光属性物理ダメージ。味方全体の奥義ゲージ15UP。自身の状態異常回復。20秒間、味方全体への攻撃を庇い、自身の被ダメージを合計15000無効化。"
+      }
+    ]
   }
 ]
