@@ -4097,5 +4097,126 @@
         "newVal": "燃焼耐性70%UP"
       }
     ]
+  },
+  {
+    "id": "1788506031670",
+    "timestamp": "2026-09-04T07:13:51.670Z",
+    "displayTime": "Sep 4, 2026, 3:13 PM",
+    "mode": "units",
+    "item": "Beatrice",
+    "unitId": "107376512",
+    "reason": "added jp text, jp buff, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "999"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "399"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "443"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "150891"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Magical 6"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Healing 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "扉渡り"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の奥義ゲージ20UP・HP10%回復。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "喰らうかしら"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "15,000%の闇属性魔法ダメージ。20秒間、敵の全状態異常耐性60%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "お前、邪魔かしら"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "75,000%の闇属性魔法ダメージ。80%の確率で7秒間、敵を気絶状態にする。20秒間、敵の闇属性・魔法耐性60%DOWN。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "陰系統の極地"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身のダメージを敵の状態異常の数×33%UP。自身が状態異常でない場合、装備CT速度20%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "呪い耐性Lv3"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "呪い耐性30%UP"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時スキル速度アップLv3"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時スキル速度30%UP"
+      },
+      {
+        "field": "JP Buff Skill Text",
+        "oldVal": "(empty)",
+        "newVal": "Increases Arts gauge by 20 & recovers HP by 10%."
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "15000% Dark DMG (Magic). Reduces enemy's Status Ailment resistance by 60% for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "75000% Dark DMG (Magic). 80% chance of Fainting enemy. Reduces enemy's Dark & Magic resistance by 60% for 20s."
+      }
+    ]
   }
 ]
