@@ -3779,5 +3779,141 @@
         "newVal": "Covers all allies, reflects enemy's attack and inflicts it with extra, negates DMG taken for a total of 15000 & will not flinch for 15s."
       }
     ]
+  },
+  {
+    "id": "1788502748892",
+    "timestamp": "2026-09-04T06:19:08.892Z",
+    "displayTime": "Sep 4, 2026, 2:19 PM",
+    "mode": "units",
+    "item": "Milim",
+    "unitId": "107166112",
+    "reason": "added jp text, jp buff, stats, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1271"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "518"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "491"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152801"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "これで許してやるのだ！"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,500%の炎属性物理ダメージ。6秒間、自身の攻撃力30%UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "全反射"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "30,000%の炎属性魔法ダメージ。10秒間、敵の攻撃を反射してダメージを与える。15秒間、自身の奥義ゲージ4UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "竜星拡散爆"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "110,000%の炎属性魔法ダメージ。真奥義時、自身のブレイク中に与えるダメージ200%UP。20秒間、自身のクリティカル率100%UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "追い打ちLv5"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵がブレイク中、ダメージ50%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "闘争心Lv5"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "最大HPの10%ダメージを受けたとき奥義ゲージ5UP"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "最古の魔王"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "怯まなくなる。自身のHPが低下するほど、ダメージUP(最大100%)"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "クリティカル時のダメージ200%UP。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "奥義ゲージが2ずつ自然回復する"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "樹属性ユニットに対するブレイク力100%UP。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "BEを出現量10%UP"
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "30000% Fire DMG (Magic). Returns DMG to enemy for 10s. Auto-fills Arts gauge by 4 for 15s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "110000% Fire DMG (Magic). Increases DMG by 200% during Break when this True Arts is used. Increases CRI rate by 100% for 20s."
+      }
+    ]
   }
 ]
