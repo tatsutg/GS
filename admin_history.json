@@ -4633,5 +4633,141 @@
         "newVal": "152311"
       }
     ]
+  },
+  {
+    "id": "1788541510006",
+    "timestamp": "2026-09-04T17:05:10.006Z",
+    "displayTime": "Sep 5, 2026, 1:05 AM",
+    "mode": "batch",
+    "item": "Batch: 4 records (Chloe (Fate), Saber Alter, Summer Miyu...)",
+    "unitId": "4_queued_items",
+    "reason": "updated stats, equip slots, true equips",
+    "diffs": [
+      {
+        "field": "[units] Chloe (Fate) -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1434"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "630"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "574"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152511"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5/6"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "support 5"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "support 4"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "support 4, physical 4"
+      },
+      {
+        "field": "[units] Saber Alter -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1369"
+      },
+      {
+        "field": "[units] Saber Alter -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "691"
+      },
+      {
+        "field": "[units] Saber Alter -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "610"
+      },
+      {
+        "field": "[units] Saber Alter -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152521"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "physical 5/6"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "defense 5"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "physical 4"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "physical 4, defense 4"
+      },
+      {
+        "field": "[units] Summer Miyu -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1350"
+      },
+      {
+        "field": "[units] Summer Miyu -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "685"
+      },
+      {
+        "field": "[units] Summer Miyu -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "629"
+      },
+      {
+        "field": "[units] Summer Miyu -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "153411"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "physical 5/6"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "magical 5"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "physical 4"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "physical 4, defense 4"
+      },
+      {
+        "field": "[units] Summer Luvia & Rin -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "153431"
+      }
+    ]
   }
 ]
