@@ -4617,5 +4617,21 @@
         "newVal": "11"
       }
     ]
+  },
+  {
+    "id": "1788532370660",
+    "timestamp": "2026-09-04T14:32:50.660Z",
+    "displayTime": "Sep 4, 2026, 10:32 PM",
+    "mode": "units",
+    "item": "Illya",
+    "unitId": "107737412",
+    "reason": "true equip",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152311"
+      }
+    ]
   }
 ]
