@@ -4218,5 +4218,116 @@
         "newVal": "75000% Dark DMG (Magic). 80% chance of Fainting enemy. Reduces enemy's Dark & Magic resistance by 60% for 20s."
       }
     ]
+  },
+  {
+    "id": "1788506572480",
+    "timestamp": "2026-09-04T07:22:52.480Z",
+    "displayTime": "Sep 4, 2026, 3:22 PM",
+    "mode": "units",
+    "item": "Juno",
+    "unitId": "103226412",
+    "reason": "add jp text, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "108001"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "シュネル・シュトラール"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1500%の光属性魔法ダメージ。ダメージの5%HP吸収。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "メテオール・シュナイデン"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "16000%の光属性魔法ダメージ。10秒間、敵の被ダメージ30%UP・全状態異常耐性20%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "シュヴァルツ・ディ・ヴァーム"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "魔血真蝕状態になる。魔血真蝕状態のとき使用すると70000%の闇属性魔法ダメージ。20秒間、自身の最大HP2%ダメージ・味方全体の奥義ゲージ7UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "魔族強化Lv2"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方の魔族の全ステータス10%UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "魔血昇華"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "魔血真蝕状態の時、自身のダメージ・命中率100%UP・奥義ゲージ5自然上昇。HPが20%以下の場合、魔血真蝕状態を解除する"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "ガナルディア王女"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身以外の味方の魔族ユニット1体につき、自身の攻撃力・与ダメージ30%UP"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "シュヴァルツ・ディ・ヴァームのダメージ倍率を120000%にする。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "シュヴァルツ・ディ・ヴァームで自身が受けるダメージを自身の最大HP3%にする"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "味方の魔族の全ステータス30%UP(重複なし)。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "味方の魔族ユニットの奥義ゲージ1自然上昇(重複なし)"
+      }
+    ]
   }
 ]
