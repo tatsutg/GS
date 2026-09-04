@@ -3673,5 +3673,111 @@
         "newVal": "HP recovery by 100% when Near-Death (one-time only). DMG taken 30% DOWN for 20s when Near-Death (one-time only)."
       }
     ]
+  },
+  {
+    "id": "1788502069810",
+    "timestamp": "2026-09-04T06:07:49.810Z",
+    "displayTime": "Sep 4, 2026, 2:07 PM",
+    "mode": "units",
+    "item": "Duran",
+    "unitId": "101206412",
+    "reason": "added jp text, jp buff, equip slots, +stats",
+    "diffs": [
+      {
+        "field": "JP Name",
+        "oldVal": "(empty)",
+        "newVal": "デュラン"
+      },
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1198"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "426"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "498"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ソリッドストラーダ"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "3300%の光属性物理ダメージ。スキル攻撃中、自身の被ダメージ30%軽減。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "キャバレルデューロ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "10秒間、敵の攻撃を反射してダメージを与える。20秒間、味方全体のHP400自然回復・被ダメージを合計1200無効化。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "ヴェリタ・キャバレリア"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "15秒間、味方全体への攻撃を庇い、敵の攻撃を反射してダメージを与える・自身の被ダメージを合計15000無効化・怯まなくなる。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "騎士道"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方が倒れた時に1度だけHP50%で蘇生する"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "物理耐性Lv4"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵からの物理ダメージ20%DOWN"
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "Reflects enemy's attack and inflicts it with extra for 10s. All allies' HP auto-recovery by 400 & negates DMG taken for a total of 1200 for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "Covers all allies, reflects enemy's attack and inflicts it with extra, negates DMG taken for a total of 15000 & will not flinch for 15s."
+      }
+    ]
   }
 ]
