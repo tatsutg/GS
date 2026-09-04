@@ -3915,5 +3915,96 @@
         "newVal": "110000% Fire DMG (Magic). Increases DMG by 200% during Break when this True Arts is used. Increases CRI rate by 100% for 20s."
       }
     ]
+  },
+  {
+    "id": "1788503235697",
+    "timestamp": "2026-09-04T06:27:15.697Z",
+    "displayTime": "Sep 4, 2026, 2:27 PM",
+    "mode": "units",
+    "item": "Corsair",
+    "unitId": "100026211",
+    "reason": "added jp text, equip slots",
+    "diffs": [
+      {
+        "field": "MAX Luck",
+        "oldVal": "300",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "スノーブラッド"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1800%の水属性物理ダメージ。10%の確率で2秒間、敵を氷結状態にする。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "フリージングノヴァ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "14000%の水属性魔法ダメージ。蒼夢の場合、30秒間、敵の氷結耐性30%DOWNの効果が追加される。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "エターナルコキュートス"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "35000%の水属性魔法ダメージ。100%の確率で5秒間、敵を氷結状態にする。味方全体の奥義ゲージ20UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "水BE出現Lv4"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "水属性ユニットのBE出現量20%UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "水属性マスターLv3"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方全体の水属性ダメージ30%UP(重複なし)"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "奥義の効果に「30秒間、敵の氷結耐性30%DOWN」を追加"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "クエスト開始時、奥義ゲージ200UP"
+      }
+    ]
   }
 ]
