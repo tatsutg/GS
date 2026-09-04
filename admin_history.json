@@ -3542,5 +3542,136 @@
         "newVal": "Celesta"
       }
     ]
+  },
+  {
+    "id": "1788501769518",
+    "timestamp": "2026-09-04T06:02:49.518Z",
+    "displayTime": "Sep 4, 2026, 2:02 PM",
+    "mode": "units",
+    "item": "Valentine Cestina",
+    "unitId": "103867212",
+    "reason": "added jp text, jp buff, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "MAX Luck",
+        "oldVal": "300",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "113791"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4, Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "シュタールヘルツ"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,000%の水属性物理ダメージ。自身のHP20%回復。10秒間、自身の奥義ゲージ6自然上昇。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "ワルキューレタクト"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "17,000%の水属性物理ダメージ。味方全体の奥義ゲージ25UP。20秒間、味方全体の攻撃力・防御力60%UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "エンゲルクーペン"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "40,000%の水属性物理ダメージ。35秒間、味方全体への攻撃を庇い、自身の被ダメージを合計36,000無効化。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "ライデンシャフトリューゲ"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "100,000%の水属性物理ダメージ。60秒間、味方全体の被ダメージ・魔法被ダメージ30%軽減・被ダメージを合計10,000無効化。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "大切な日のシスター"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身が瀕死になった時、一度だけ自身のHP100%回復。さらに、20秒間、自身の被ダメージ30%軽減。"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "リベンジLv6"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時、奥義ゲージが6ずつ自然回復する"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "麻痺耐性Lv10"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "麻痺耐性100%UP"
+      },
+      {
+        "field": "JP Buff Skill Text",
+        "oldVal": "(empty)",
+        "newVal": "2000% Water DMG (Physical). Recovers HP by 20%. Auto-fills Arts gauge by 6 for 10s."
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "17000% Water DMG (Physical). Increases all allies' Arts gauges by 25. Increases all allies' ATK & DEF by 60% for 20s."
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "100000% Water DMG (Physical). Reduces all allies' DMG taken & Magic DMG taken by 30% for 60s. Negates all allies' DMG taken for a total of 10000 for 60s."
+      },
+      {
+        "field": "_jp_buff_passive_1",
+        "oldVal": "(empty)",
+        "newVal": "HP recovery by 100% when Near-Death (one-time only). DMG taken 30% DOWN for 20s when Near-Death (one-time only)."
+      }
+    ]
   }
 ]
