@@ -2981,5 +2981,116 @@
         "newVal": "自身にダメージ無効化が付与されている場合、防御力20%UP"
       }
     ]
+  },
+  {
+    "id": "1788492007193",
+    "timestamp": "2026-09-04T03:20:07.193Z",
+    "displayTime": "Sep 4, 2026, 11:20 AM",
+    "mode": "units",
+    "item": "Vultee-Lr",
+    "unitId": "103316312",
+    "reason": "added jp text, equip slots, true equip, recommend equip ish",
+    "diffs": [
+      {
+        "field": "MAX Luck",
+        "oldVal": "300",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "109731"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "111801"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Healing 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "アシッド・ペイン"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1,500%の樹属性物理ダメージ。自身の奥義ゲージ20UP。自身が状態異常でない場合、さらに20UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "アドヴァンスド・バースト"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "19,000%の樹属性物理ダメージ。自身の奥義ゲージ50UP。ファントム・バレットの同時発射弾数1UP(最大はファントム・バレットの残り弾数まで)。20秒間、自身の攻撃力50%UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "フォースド・ヴァンブレイス"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "40,000%の樹属性物理ダメージ。40秒間、味方全体の樹属性ダメージ30%UP(重複あり)。さらに味方全体への攻撃を庇い、自身の被ダメージを合計30,000無効化。"
+      },
+      {
+        "field": "JP SPECIAL TA",
+        "oldVal": "(empty)",
+        "newVal": "ファントム・バレット-Lr-"
+      },
+      {
+        "field": "JP SPECIAL TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "クエスト中、6発分まで使用可能。同時に発射するファントム・バレットの弾数×50,000%の樹属性物理ダメージ。同時発射弾数をリセットする。40秒間、自身の物理被ダメージ25%軽減・被ダメージを合計30,000無効化。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "物理耐性Lv4"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵からの物理ダメージ20%DOWN"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "黒鉄の裁定者"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身のHPが50%以上の時、攻撃力50%UP。HPが50%未満の時、被ダメージ20%軽減"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "無効化強化Lv2"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身にダメージ無効化が付与されている場合、防御力20%UP"
+      }
+    ]
   }
 ]
