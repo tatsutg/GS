@@ -4601,5 +4601,21 @@
         "newVal": "170000% Water DMG (Magic).\nIncreases Arts gauge by the number of Super Arts' activation x 25 (MAX 150).\nReduces enemy's Magic resistance by 150% for 40s (Stacks)."
       }
     ]
+  },
+  {
+    "id": "1788530994436",
+    "timestamp": "2026-09-04T14:09:54.436Z",
+    "displayTime": "Sep 4, 2026, 10:09 PM",
+    "mode": "units",
+    "item": "Summer Bazett",
+    "unitId": "108007212",
+    "reason": "skill ct speed",
+    "diffs": [
+      {
+        "field": "Skill CT",
+        "oldVal": "12",
+        "newVal": "11"
+      }
+    ]
   }
 ]
