@@ -4006,5 +4006,96 @@
         "newVal": "クエスト開始時、奥義ゲージ200UP"
       }
     ]
+  },
+  {
+    "id": "1788505605425",
+    "timestamp": "2026-09-04T07:06:45.425Z",
+    "displayTime": "Sep 4, 2026, 3:06 PM",
+    "mode": "units",
+    "item": "Melia (Water)",
+    "unitId": "102536212",
+    "reason": "added jp text, equip slots",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "991"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "408"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "376"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Magical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ネロ・ファントム"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1900%の水属性物理ダメージ。20%の確率で3秒間、敵を氷結状態にする。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "フェルム・レゾナンス"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "15000%の水属性物理ダメージ。10秒間、敵の水属性耐性・氷結耐性30%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "カルマ・タナトス"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "31200%の水属性物理ダメージ。11秒間、味方全体のクリティカル率100%UP。さらに味方の水属性ユニットのダメージ60%UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "炎属性キラーLv7"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "炎属性に対してのダメージ35%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性Lv7"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性70%UP"
+      }
+    ]
   }
 ]
