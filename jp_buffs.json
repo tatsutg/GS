@@ -98,5 +98,11 @@
     "passives": {
       "1": "HP recovery by 100% when Near-Death (one-time only). DMG taken 30% DOWN for 20s when Near-Death (one-time only)."
     }
+  },
+  "107166112": {
+    "skill": "",
+    "arts": "30000% Fire DMG (Magic). Returns DMG to enemy for 10s. Auto-fills Arts gauge by 4 for 15s.",
+    "trueArts": "110000% Fire DMG (Magic). Increases DMG by 200% during Break when this True Arts is used. Increases CRI rate by 100% for 20s.",
+    "superArts": ""
   }
 }
