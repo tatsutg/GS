@@ -26,6 +26,16 @@
     "trueArts": "45000% Light DMG (Magic). Increases all allies' Magic DMG by 30% (Stacks) for 30s. Covers all allies & negates DMG taken for a total of 30000 for 30s.",
     "superArts": ""
   },
+  "103527112": {
+    "skill": "",
+    "arts": "",
+    "trueArts": "",
+    "superArts": "70000% Fire DMG (Physical). Covers all allies & negates DMG taken for a total of 55000 for 40s. Restores up to 2 DMG taken UP effects during Third Eye.",
+    "passives": {
+      "1": "DMG taken 30% DOWN during Third Eye or True Third Eye. DMG taken from Burning enemy 25% DOWN (Only once).",
+      "3": "Arts Gauge 100 UP when quest starts (Only once)."
+    }
+  },
   "103617312": {
     "skill": "",
     "arts": "",
