@@ -3425,5 +3425,106 @@
         "newVal": "戦闘中、一度だけHP1で生き残り、5秒間、戦闘不能にならない。自身の奥義ゲージ100UP。さらに、25秒間、自身の攻撃力100%UP"
       }
     ]
+  },
+  {
+    "id": "1788496744289",
+    "timestamp": "2026-09-04T04:39:04.289Z",
+    "displayTime": "Sep 4, 2026, 12:39 PM",
+    "mode": "units",
+    "item": "Ira",
+    "unitId": "107957512",
+    "reason": "add jp text, equip slots",
+    "diffs": [
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4, Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "そらそら、喰らえ！"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "3000%の闇属性物理ダメージ。自身の奥義ゲージ40UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "俺が型にはめてやる！"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "25000%の闇属性物理ダメージ。15秒間、敵の闇属性耐性50%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "自縄自縛"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "50000%の闇属性物理ダメージ。30秒間、自身の最大HP2%ダメージ。40秒間、味方全体への攻撃を庇い、自身の被ダメージを合計35000無効化・物理被ダメージ30%軽減。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "我心開放"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "170,000%の闇属性物理ダメージ。自身の超奥義中、敵の防御力100%無視。50秒間、自身は怯まなくなる。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時軽減Lv5"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時に被ダメージ25%軽減"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "風紀部委員長"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の残りHPが低いほど、ダメージUP(最大250%)。戦闘中、一度だけHP1で生き残る。発動時、HP100%分自然回復"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時装備CT速度アップLv4"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時に装備スキルCT速度を20%UP"
+      }
+    ]
   }
 ]
