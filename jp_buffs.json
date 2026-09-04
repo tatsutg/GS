@@ -15,6 +15,12 @@
     "arts": "",
     "trueArts": ""
   },
+  "101206412": {
+    "skill": "",
+    "arts": "Reflects enemy's attack and inflicts it with extra for 10s. All allies' HP auto-recovery by 400 & negates DMG taken for a total of 1200 for 20s.",
+    "trueArts": "Covers all allies, reflects enemy's attack and inflicts it with extra, negates DMG taken for a total of 15000 & will not flinch for 15s.",
+    "superArts": ""
+  },
   "102266311": {
     "skill": "5000% Earth DMG (Physical).\nEvery time skill is used after True Arts, effects activate in order:\nMissile Mode - Increases this Skill's DMG by 100%.\nBlade Mode - 40% chance to paralyze enemy for 3s.\nLaser Mode - Increases this Skill's Break power by 100%.",
     "arts": "18000% Earth DMG (Physical).\nIncreases Earth allies' DMG by 100% for 20s.",
