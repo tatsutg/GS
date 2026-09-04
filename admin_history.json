@@ -3319,5 +3319,111 @@
         "newVal": "Arts Gauge 100 UP when quest starts (Only once)."
       }
     ]
+  },
+  {
+    "id": "1788496404078",
+    "timestamp": "2026-09-04T04:33:24.078Z",
+    "displayTime": "Sep 4, 2026, 12:33 PM",
+    "mode": "units",
+    "item": "Touma Kamijo",
+    "unitId": "108177212",
+    "reason": "add jp text, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "154331"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Support 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "Support 4, Defense 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "上条ラッシュ"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,300%の水属性物理ダメージ。自身の奥義ゲージ30UP。戦闘開始後、初回使用時はさらに70UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "その幻想をぶち壊す"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方全体の奥義ゲージ20UP。30秒間、味方を庇い、自身の被ダメージ25,000無効化・魔法被ダメージ35%軽減。発動毎に自身の超奥義ダメージ倍率に10,000%を追加(最大150,000%)。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "怒涛の折檻"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "45,000%の水属性物理ダメージ。30秒間、味方全体は炎・光・闇属性の敵に対してダメージ200%UP。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "最強崩し"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "150,000%の水属性物理ダメージ。自身の奥義ゲージ100UP。20秒間、敵の被ダメージ100%UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "不屈の闘志"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の氷結耐性・麻痺耐性100%UP。さらに被ダメージによってのけぞらない"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時スキル速度アップLv2"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時スキル速度20%UP"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "幻想殺し"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "戦闘中、一度だけHP1で生き残り、5秒間、戦闘不能にならない。自身の奥義ゲージ100UP。さらに、25秒間、自身の攻撃力100%UP"
+      }
+    ]
   }
 ]
