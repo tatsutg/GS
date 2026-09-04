@@ -104,5 +104,11 @@
     "arts": "30000% Fire DMG (Magic). Returns DMG to enemy for 10s. Auto-fills Arts gauge by 4 for 15s.",
     "trueArts": "110000% Fire DMG (Magic). Increases DMG by 200% during Break when this True Arts is used. Increases CRI rate by 100% for 20s.",
     "superArts": ""
+  },
+  "107376512": {
+    "skill": "Increases Arts gauge by 20 & recovers HP by 10%.",
+    "arts": "15000% Dark DMG (Magic). Reduces enemy's Status Ailment resistance by 60% for 20s.",
+    "trueArts": "75000% Dark DMG (Magic). 80% chance of Fainting enemy. Reduces enemy's Dark & Magic resistance by 60% for 20s.",
+    "superArts": ""
   }
 }
