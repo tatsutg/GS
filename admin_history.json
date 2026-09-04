@@ -2880,5 +2880,106 @@
         "newVal": "22800%の光属性物理ダメージ。味方全体の奥義ゲージ15UP。自身の状態異常回復。20秒間、味方全体への攻撃を庇い、自身の被ダメージを合計15000無効化。"
       }
     ]
+  },
+  {
+    "id": "1788491164709",
+    "timestamp": "2026-09-04T03:06:04.709Z",
+    "displayTime": "Sep 4, 2026, 11:06 AM",
+    "mode": "units",
+    "item": "Naofumi Iwatami",
+    "unitId": "107256411",
+    "reason": "added stats, jp text, equip slots",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "999"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "311"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "461"
+      },
+      {
+        "field": "5★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "岩谷尚文"
+      },
+      {
+        "field": "Awk★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "岩谷尚文"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Healing 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ソウルイーターシールド"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "12秒間、自身被ダメージの10%HP回復・怯まなくなる。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "エアストシールド"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "20秒間、味方全体のダメージ25%UP・味方全体への攻撃を庇い、自身の被ダメージを合計11000無効化。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "アイアンメイデン"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵を80%で7秒間気絶にし、気絶した場合その敵を中心に55000%の闇属性物理ダメージ・敵の防御力100%無視。気絶しなかった場合自身のHP60%回復・奥義ゲージ100UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "盾の勇者"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クエスト開始時、20秒間、味方全体の被ダメージを合計3000無効化。通常攻撃時、2秒間、自身の被ダメージ10%軽減(重複なし)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "無効化強化Lv2"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身にダメージ無効化が付与されている場合、防御力20%UP"
+      }
+    ]
   }
 ]
