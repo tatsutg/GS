@@ -4769,5 +4769,26 @@
         "newVal": "153431"
       }
     ]
+  },
+  {
+    "id": "1788542778698",
+    "timestamp": "2026-09-04T17:26:18.698Z",
+    "displayTime": "Sep 5, 2026, 1:26 AM",
+    "mode": "units",
+    "item": "Vultee-Lr",
+    "unitId": "103316312",
+    "reason": "add jp buffs",
+    "diffs": [
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "19000% Earth DMG (Physical). Increases Arts gauge by 50. Loads 1 Phantom Bullet (if available). Increases ATK by 50% for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "40000% Earth DMG (Physical). Increases all allies' Earth DMG by 30% for 40s (Stacks). Covers all allies & negates DMG taken for a total of 30000 for 40s."
+      }
+    ]
   }
 ]
