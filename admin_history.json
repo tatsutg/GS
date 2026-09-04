@@ -3526,5 +3526,21 @@
         "newVal": "瀕死時に装備スキルCT速度を20%UP"
       }
     ]
+  },
+  {
+    "id": "1788500828429",
+    "timestamp": "2026-09-04T05:47:08.429Z",
+    "displayTime": "Sep 4, 2026, 1:47 PM",
+    "mode": "units",
+    "item": "Celesta",
+    "unitId": "104327112",
+    "reason": "test",
+    "diffs": [
+      {
+        "field": "Name",
+        "oldVal": "CELESTA",
+        "newVal": "Celesta"
+      }
+    ]
   }
 ]
