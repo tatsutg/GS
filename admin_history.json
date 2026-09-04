@@ -3092,5 +3092,126 @@
         "newVal": "自身にダメージ無効化が付与されている場合、防御力20%UP"
       }
     ]
+  },
+  {
+    "id": "1788492432645",
+    "timestamp": "2026-09-04T03:27:12.645Z",
+    "displayTime": "Sep 4, 2026, 11:27 AM",
+    "mode": "units",
+    "item": "Miranda",
+    "unitId": "103296412",
+    "reason": "added jp text, stats, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1264"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "451"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "575"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "108671"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Magical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ライト・フェンサー"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1,600%の光属性魔法ダメージ。7秒間、敵の回避率10%DOWN。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "プリズム・ソード"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "17,000%の光属性魔法ダメージ。自身の毒・呪いを回復。20秒間、味方全体への攻撃を庇い、自身の被ダメージを合計15,000無効化。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "エンシェント・スペクトル"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "45,000%の光属性魔法ダメージ。30秒間、味方全体の魔法ダメージ30%UP(重複あり)。さらに味方全体への攻撃を庇い、自身の被ダメージを合計30,000無効化。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "騎士道"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方が倒れた時に1度だけHP50%で蘇生する"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "魔法耐性Lv10"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵からの魔法ダメージ50%DOWN"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "光の聖刻"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "庇う発動中に敵からのダメージによりHPが1以上減少した場合、庇うを解除して奥義ゲージ50UP"
+      },
+      {
+        "field": "JP Buff Skill Text",
+        "oldVal": "(empty)",
+        "newVal": "1600% Light DMG (Magic). Reduces enemy's Evasion rate by 10% for 7s."
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "17000% Light DMG (Magic). Heals Poison & Curse. Covers all allies & negates DMG taken for a total of 15000 for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "45000% Light DMG (Magic). Increases all allies' Magic DMG by 30% (Stacks) for 30s. Covers all allies & negates DMG taken for a total of 30000 for 30s."
+      }
+    ]
   }
 ]
