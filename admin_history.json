@@ -4465,5 +4465,141 @@
         "newVal": "60000% Earth DMG (Physical).\nCosts 30% of MAX HP.\nIncreases all allies' Physical DMG by 250% for 25s."
       }
     ]
+  },
+  {
+    "id": "1788530189646",
+    "timestamp": "2026-09-04T13:56:29.646Z",
+    "displayTime": "Sep 4, 2026, 9:56 PM",
+    "mode": "batch",
+    "item": "Batch: 3 records (Illya, Summer Illya, Summer Bazett)",
+    "unitId": "3_queued_items",
+    "reason": "add stats, jp text, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "[units] Illya -> JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "集束砲射"
+      },
+      {
+        "field": "[units] Illya -> JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,200%の光属性魔法ダメージ。自身の奥義ゲージ30UP。"
+      },
+      {
+        "field": "[units] Illya -> JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "散弾"
+      },
+      {
+        "field": "[units] Illya -> JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "20,000%の光属性魔法ダメージ。20秒間、敵の光属性耐性50%DOWN。"
+      },
+      {
+        "field": "[units] Illya -> JP TA",
+        "oldVal": "(empty)",
+        "newVal": "多元重奏飽和砲撃"
+      },
+      {
+        "field": "[units] Illya -> JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "60,000%の光属性魔法ダメージ。25秒間、味方全体のクリティカル率100%UP・HP50%以上の味方全体の奥義ゲージ6自然上昇。"
+      },
+      {
+        "field": "[units] Illya -> JP SA",
+        "oldVal": "(empty)",
+        "newVal": "約束された勝利の剣"
+      },
+      {
+        "field": "[units] Illya -> JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "170,000%の光属性魔法ダメージ。超奥義発動時、自身の残りHPが多いほど、20秒間、自身のダメージUP(最大400%)。"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "快調時命中率UPLv3"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "HPが90%以上の時、命中率30%UP"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "闇属性キラーLv4"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "闇属性に対してのダメージ20%UP"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "魔法少女"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の奥義・真奥義・超奥義発動時、自身のHPが80%以上であれば自身の奥義ゲージ50UP"
+      },
+      {
+        "field": "[units] Summer Illya -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1350"
+      },
+      {
+        "field": "[units] Summer Illya -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "685"
+      },
+      {
+        "field": "[units] Summer Illya -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "629"
+      },
+      {
+        "field": "[units] Summer Illya -> Skill",
+        "oldVal": "(empty)",
+        "newVal": "Fokussiertes Swimsuit Feuer"
+      },
+      {
+        "field": "[units] Summer Illya -> Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2500% Water DMG (Magic).\nAuto-fills Arts gauge by 6 for 7s."
+      },
+      {
+        "field": "[units] Summer Illya -> Arts",
+        "oldVal": "(empty)",
+        "newVal": "Summer Vacation Scraps"
+      },
+      {
+        "field": "[units] Summer Illya -> Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "25000% Water DMG (Magic).\nIncreases ATK by 150% & reduces enemy's Evasion rate by 50% for 25s."
+      },
+      {
+        "field": "[units] Summer Illya -> True Arts",
+        "oldVal": "(empty)",
+        "newVal": "Summertime is beach time!"
+      },
+      {
+        "field": "[units] Summer Illya -> True Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "70000% Water DMG (Magic).\nHeals all allies' Burn.\nIncreases all allies' Water DMG & Burn resistance by 100% for 45s."
+      },
+      {
+        "field": "[units] Summer Illya -> Super Arts",
+        "oldVal": "(empty)",
+        "newVal": "Summer only comes once a year."
+      },
+      {
+        "field": "[units] Summer Illya -> Super Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "170000% Water DMG (Magic).\nIncreases Arts gauge by the number of Super Arts' activation x 25 (MAX 150).\nReduces enemy's Magic resistance by 150% for 40s (Stacks)."
+      }
+    ]
   }
 ]
