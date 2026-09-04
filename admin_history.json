@@ -4329,5 +4329,141 @@
         "newVal": "味方の魔族ユニットの奥義ゲージ1自然上昇(重複なし)"
       }
     ]
+  },
+  {
+    "id": "1788525312391",
+    "timestamp": "2026-09-04T12:35:12.391Z",
+    "displayTime": "Sep 4, 2026, 8:35 PM",
+    "mode": "batch",
+    "item": "Batch: 9 records (Chloe (Fate), Miyu, Saber Alter...)",
+    "unitId": "9_queued_items",
+    "reason": "Update with Global Adjustments (Buffs)",
+    "diffs": [
+      {
+        "field": "[units] Chloe (Fate) -> Arts BREAK",
+        "oldVal": "3000",
+        "newVal": "4000"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> True Arts Detail",
+        "oldVal": "40000% Fire DMG (Physical).\nAuto-fills all allies' Arts gauges by 5 & increases all allies' Break power by 70% for 20s.",
+        "newVal": "40000% Fire DMG (Physical).\nAuto-fills all allies' Arts gauges by 5 & increases all allies' Break power by 100% for 20s."
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Super Arts Detail",
+        "oldVal": "100000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 100% for 25s.",
+        "newVal": "100000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 100% for 30s."
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Passives 2 Detail",
+        "oldVal": "All allies' Arts gauges 200 UP when Boss Breaks (Only Once).",
+        "newVal": "All allies' Arts gauges 300 UP when Boss Breaks (Only Once)."
+      },
+      {
+        "field": "[units] Miyu -> Skill Detail",
+        "oldVal": "4200% Dark DMG (Magic).\r\nAuto-fills Arts gauge by 3 for 10s.",
+        "newVal": "4200% Dark DMG (Magic).\nAuto-fills Arts gauge by 4 for 10s."
+      },
+      {
+        "field": "[units] Miyu -> Arts Detail",
+        "oldVal": "25000% Dark DMG (Magic).\r\nReduces enemy's Dark resistance by 50% for 20s.",
+        "newVal": "27000% Dark DMG (Magic).\nReduces enemy's Dark resistance by 50% for 20s."
+      },
+      {
+        "field": "[units] Miyu -> True Arts Detail",
+        "oldVal": "90000% Dark DMG (Magic).\r\nIncreases ATK & Accuracy by 150% for 30s.",
+        "newVal": "100000% Dark DMG (Magic).\nIncreases ATK & Accuracy by 180% for 30s."
+      },
+      {
+        "field": "[units] Miyu -> Super Arts Detail",
+        "oldVal": "190000% Dark DMG (Magic).\r\nAll allies ignore enemy's DEF by 100% & increases Human units' DMG by 200% for 20s.",
+        "newVal": "210000% Dark DMG (Magic).\nAll allies ignore enemy's DEF by 100% & increases Human units' DMG by 200% for 20s."
+      },
+      {
+        "field": "[units] Saber Alter -> Arts Detail",
+        "oldVal": "26000% Dark DMG (Physical). Increases all allies' all Status by 30% for 20s.",
+        "newVal": "30000% Dark DMG (Physical). Increases all allies' all Status by 30% for 20s."
+      },
+      {
+        "field": "[units] Saber Alter -> True Arts Detail",
+        "oldVal": "64000% Dark DMG (Physical). Increases DMG by 100% & reduces enemy's Dark resistance by 70% for 30s.",
+        "newVal": "70000% Dark DMG (Physical). Increases DMG by 100% & reduces enemy's Dark resistance by 80% for 35s."
+      },
+      {
+        "field": "[units] Saber Alter -> Super Arts Detail",
+        "oldVal": "185000% Dark DMG (Physical). Increases Super CRI rate by 60% during Super Arts.",
+        "newVal": "200000% Dark DMG (Physical). Increases Super CRI rate by 60% during Super Arts."
+      },
+      {
+        "field": "[units] Shirou Emiya -> True Arts Detail",
+        "oldVal": "40000% Water DMG (Physical). Reduces enemy's Physical resistance by 100% for 20s. Doubles True Arts DMG during Unlimited Blade Works.",
+        "newVal": "45000% Water DMG (Physical). Reduces enemy's Physical resistance by 100% for 25s. (During Unlimited Blade Works: 90000%)."
+      },
+      {
+        "field": "[units] Shirou Emiya -> Super Arts Detail",
+        "oldVal": "Activates Unlimited Blade Works for 180s. 165000% Physical Water DMG when used during Unlimited Blade Works. Increases ATK & DMG by 200% for 35s.",
+        "newVal": "Activates Unlimited Blade Works for 180s.\n170000% Physical Water DMG when used during Unlimited Blade Works. Increases ATK & DMG by 200% for 35s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Skill Detail",
+        "oldVal": "1300% Fire DMG (Magic). Auto-fills Fire units' Arts gauges by 4 for 8s.",
+        "newVal": "1300% Fire DMG (Magic).\nAuto-fills Fire units' Arts gauges by 4 for 8s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Arts Detail",
+        "oldVal": "18000% Fire DMG (Magic). 100% chance of Burning enemy for 20s. Reduces enemy's Fire resistance by 50% when it's Burning by this Arts for 25s.",
+        "newVal": "18000% Fire DMG (Magic).\n100% chance of Burning enemy for 20s.\nReduces enemy's Fire resistance by 60% when it's Burning by this Arts for 25s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> True Arts Detail",
+        "oldVal": "50000% Fire DMG (Magic). Increases DMG to enemy by 70% & reduces enemy's Burn resistance by 50% for 25s.",
+        "newVal": "50000% Fire DMG (Magic).\nIncreases DMG to enemy by 70% & reduces enemy's Burn resistance by 60% for 25s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Super Arts Detail",
+        "oldVal": "130000% Fire DMG (Magic). Increases all allies' Magic DMG by 160% & reduces enemy's Magic resistance by 100% for 40s.",
+        "newVal": "140000% Fire DMG (Magic).\nIncreases all allies' Magic DMG by 160% & reduces enemy's Magic resistance by 100% for 40s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Passives 3 Detail",
+        "oldVal": "All allies' DMG 30% UP every time the enemy is burn by \"Flame Storm\" (MAX 300%, Only Once).",
+        "newVal": "All allies' DMG 40% UP every time the enemy is burn by \"Flame Storm\" (MAX 400%, Only Once)."
+      },
+      {
+        "field": "[units] Summer Miyu -> Skill Detail",
+        "oldVal": "2000% Fire DMG (Physical).\nIncreases Accuracy by 30% for 7s.",
+        "newVal": "2000% Fire DMG (Physical).\nIncreases Accuracy by 30% for 8s."
+      },
+      {
+        "field": "[units] Summer Miyu -> Arts Detail",
+        "oldVal": "28000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 60% for 15s.",
+        "newVal": "30,000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 60% for 20s."
+      },
+      {
+        "field": "[units] Summer Miyu -> True Arts Detail",
+        "oldVal": "65000% Fire DMG (Physical).\nIncreases all allies' Arts gauges by 30. Increases all allies' Physical DMG by 80% for 50s (Stacks).",
+        "newVal": "70,000% Fire DMG (Physical).\nIncreases all allies' Arts gauges by 30.\nIncreases all allies' Physical DMG by 80% for 55s (Stacks)."
+      },
+      {
+        "field": "[units] Summer Chloe -> Arts Detail",
+        "oldVal": "22000% Light DMG (Physical).\r\nIncreases all allies' Status Ailment resistance by 100% (Except Faint) & reduces enemy's Light resistance by 50% for 15s.",
+        "newVal": "23,000% Light DMG (Physical).\nIncreases all allies' Status Ailment resistance by 100% (Except Faint) & reduces enemy's Light resistance by 50% for 15s."
+      },
+      {
+        "field": "[units] Summer Chloe -> True Arts Detail",
+        "oldVal": "50000% Light DMG (Physical).\r\nIncreases all allies' HP recovery amount by 100% for 20s.\r\nAuto-fills all allies' Arts gauges by 5 for 20s, additional 2 gauge for Light units.",
+        "newVal": "55,000% Light DMG (Physical).\nIncreases all allies' HP recovery amount by 120% for 20s.\nAuto-fills all allies' Arts gauges by 5 for 20s, additional 2 gauge for Light units."
+      },
+      {
+        "field": "[units] Summer Luvia & Rin -> Arts Detail",
+        "oldVal": "27000% Earth DMG (Physical).\nReduces all allies' Physical DMG taken by 20% & enemy's Physical resistance by 40% for 20s.",
+        "newVal": "30,000% Earth DMG (Physical).\nReduces all allies' Physical DMG taken by 20% & enemy's Physical resistance by 40% for 25s."
+      },
+      {
+        "field": "[units] Summer Luvia & Rin -> True Arts Detail",
+        "oldVal": "60000% Earth DMG (Physical).\nCosts 30% of MAX HP.\nIncreases all allies' Physical DMG by 220% for 25s.",
+        "newVal": "60000% Earth DMG (Physical).\nCosts 30% of MAX HP.\nIncreases all allies' Physical DMG by 250% for 25s."
+      }
+    ]
   }
 ]
