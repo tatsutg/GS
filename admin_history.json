@@ -3213,5 +3213,111 @@
         "newVal": "45000% Light DMG (Magic). Increases all allies' Magic DMG by 30% (Stacks) for 30s. Covers all allies & negates DMG taken for a total of 30000 for 30s."
       }
     ]
+  },
+  {
+    "id": "1788496180179",
+    "timestamp": "2026-09-04T04:29:40.179Z",
+    "displayTime": "Sep 4, 2026, 12:29 PM",
+    "mode": "units",
+    "item": "Kirisame",
+    "unitId": "103527112",
+    "reason": "added jp text, jp buff",
+    "diffs": [
+      {
+        "field": "MAX Luck",
+        "oldVal": "300",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "110621"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "刀舞「爆根」"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,200%の炎属性物理ダメージ。自身の奥義ゲージ30UP。8秒間、敵の燃焼耐性30%DOWN。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "刀舞「達磨落とし」"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "18,000%の炎属性物理ダメージ。70%の確率で12秒間、敵を燃焼状態にする。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "我式・刀舞「焦熱地獄」"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "180秒間、カイガン状態になる。カイガン状態のとき使用すると52,000%の炎属性物理ダメージ。25秒間、味方全体への攻撃を庇い、自身の被ダメージを合計35,000無効化。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "久遠・闘舞「天上天下」(未完成)"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "70,000%の炎属性物理ダメージ。40秒間、味方を庇い、自身の被ダメージを合計55,000無効化。カイガン状態の時、自身に付与されている被ダメージUP効果を最大2つまで回復。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "烽火連天"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "カイガン・シンカイガン状態の時、被ダメージ30%軽減。さらに、燃焼状態の敵からの被ダメージ25%軽減(重複なし)。"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "明王推参"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "カイガン発動時、味方に自分以外の人族がいる場合、シンカイガン状態になり、自身の物理被ダメージ20%軽減(重複なし)"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "奥義ゲージUPLv10"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "クエスト開始時、奥義ゲージ100UP(重複なし)"
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "70000% Fire DMG (Physical). Covers all allies & negates DMG taken for a total of 55000 for 40s. Restores up to 2 DMG taken UP effects during Third Eye."
+      },
+      {
+        "field": "_jp_buff_passive_1",
+        "oldVal": "(empty)",
+        "newVal": "DMG taken 30% DOWN during Third Eye or True Third Eye. DMG taken from Burning enemy 25% DOWN (Only once)."
+      },
+      {
+        "field": "_jp_buff_passive_3",
+        "oldVal": "(empty)",
+        "newVal": "Arts Gauge 100 UP when quest starts (Only once)."
+      }
+    ]
   }
 ]
