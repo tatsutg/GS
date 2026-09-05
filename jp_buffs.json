@@ -15,6 +15,12 @@
     "arts": "",
     "trueArts": ""
   },
+  "101206412": {
+    "skill": "",
+    "arts": "Reflects enemy's attack and inflicts it with extra for 10s. All allies' HP auto-recovery by 400 & negates DMG taken for a total of 1200 for 20s.",
+    "trueArts": "Covers all allies, reflects enemy's attack and inflicts it with extra, negates DMG taken for a total of 15000 & will not flinch for 15s.",
+    "superArts": ""
+  },
   "102266311": {
     "skill": "5000% Earth DMG (Physical).\nEvery time skill is used after True Arts, effects activate in order:\nMissile Mode - Increases this Skill's DMG by 100%.\nBlade Mode - 40% chance to paralyze enemy for 3s.\nLaser Mode - Increases this Skill's Break power by 100%.",
     "arts": "18000% Earth DMG (Physical).\nIncreases Earth allies' DMG by 100% for 20s.",
@@ -24,6 +30,12 @@
     "skill": "1600% Light DMG (Magic). Reduces enemy's Evasion rate by 10% for 7s.",
     "arts": "17000% Light DMG (Magic). Heals Poison & Curse. Covers all allies & negates DMG taken for a total of 15000 for 20s.",
     "trueArts": "45000% Light DMG (Magic). Increases all allies' Magic DMG by 30% (Stacks) for 30s. Covers all allies & negates DMG taken for a total of 30000 for 30s.",
+    "superArts": ""
+  },
+  "103316312": {
+    "skill": "",
+    "arts": "19000% Earth DMG (Physical). Increases Arts gauge by 50. Loads 1 Phantom Bullet (if available). Increases ATK by 50% for 20s.",
+    "trueArts": "40000% Earth DMG (Physical). Increases all allies' Earth DMG by 30% for 40s (Stacks). Covers all allies & negates DMG taken for a total of 30000 for 40s.",
     "superArts": ""
   },
   "103527112": {
@@ -83,5 +95,26 @@
     "passives": {
       "1": "Paralysis resistance 100% UP."
     }
+  },
+  "103867212": {
+    "skill": "2000% Water DMG (Physical). Recovers HP by 20%. Auto-fills Arts gauge by 6 for 10s.",
+    "arts": "17000% Water DMG (Physical). Increases all allies' Arts gauges by 25. Increases all allies' ATK & DEF by 60% for 20s.",
+    "trueArts": "",
+    "superArts": "100000% Water DMG (Physical). Reduces all allies' DMG taken & Magic DMG taken by 30% for 60s. Negates all allies' DMG taken for a total of 10000 for 60s.",
+    "passives": {
+      "1": "HP recovery by 100% when Near-Death (one-time only). DMG taken 30% DOWN for 20s when Near-Death (one-time only)."
+    }
+  },
+  "107166112": {
+    "skill": "",
+    "arts": "30000% Fire DMG (Magic). Returns DMG to enemy for 10s. Auto-fills Arts gauge by 4 for 15s.",
+    "trueArts": "110000% Fire DMG (Magic). Increases DMG by 200% during Break when this True Arts is used. Increases CRI rate by 100% for 20s.",
+    "superArts": ""
+  },
+  "107376512": {
+    "skill": "Increases Arts gauge by 20 & recovers HP by 10%.",
+    "arts": "15000% Dark DMG (Magic). Reduces enemy's Status Ailment resistance by 60% for 20s.",
+    "trueArts": "75000% Dark DMG (Magic). 80% chance of Fainting enemy. Reduces enemy's Dark & Magic resistance by 60% for 20s.",
+    "superArts": ""
   }
 }

@@ -3542,5 +3542,1253 @@
         "newVal": "Celesta"
       }
     ]
+  },
+  {
+    "id": "1788501769518",
+    "timestamp": "2026-09-04T06:02:49.518Z",
+    "displayTime": "Sep 4, 2026, 2:02 PM",
+    "mode": "units",
+    "item": "Valentine Cestina",
+    "unitId": "103867212",
+    "reason": "added jp text, jp buff, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "MAX Luck",
+        "oldVal": "300",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "113791"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4, Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "シュタールヘルツ"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,000%の水属性物理ダメージ。自身のHP20%回復。10秒間、自身の奥義ゲージ6自然上昇。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "ワルキューレタクト"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "17,000%の水属性物理ダメージ。味方全体の奥義ゲージ25UP。20秒間、味方全体の攻撃力・防御力60%UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "エンゲルクーペン"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "40,000%の水属性物理ダメージ。35秒間、味方全体への攻撃を庇い、自身の被ダメージを合計36,000無効化。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "ライデンシャフトリューゲ"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "100,000%の水属性物理ダメージ。60秒間、味方全体の被ダメージ・魔法被ダメージ30%軽減・被ダメージを合計10,000無効化。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "大切な日のシスター"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身が瀕死になった時、一度だけ自身のHP100%回復。さらに、20秒間、自身の被ダメージ30%軽減。"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "リベンジLv6"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時、奥義ゲージが6ずつ自然回復する"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "麻痺耐性Lv10"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "麻痺耐性100%UP"
+      },
+      {
+        "field": "JP Buff Skill Text",
+        "oldVal": "(empty)",
+        "newVal": "2000% Water DMG (Physical). Recovers HP by 20%. Auto-fills Arts gauge by 6 for 10s."
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "17000% Water DMG (Physical). Increases all allies' Arts gauges by 25. Increases all allies' ATK & DEF by 60% for 20s."
+      },
+      {
+        "field": "JP Buff Super Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "100000% Water DMG (Physical). Reduces all allies' DMG taken & Magic DMG taken by 30% for 60s. Negates all allies' DMG taken for a total of 10000 for 60s."
+      },
+      {
+        "field": "_jp_buff_passive_1",
+        "oldVal": "(empty)",
+        "newVal": "HP recovery by 100% when Near-Death (one-time only). DMG taken 30% DOWN for 20s when Near-Death (one-time only)."
+      }
+    ]
+  },
+  {
+    "id": "1788502069810",
+    "timestamp": "2026-09-04T06:07:49.810Z",
+    "displayTime": "Sep 4, 2026, 2:07 PM",
+    "mode": "units",
+    "item": "Duran",
+    "unitId": "101206412",
+    "reason": "added jp text, jp buff, equip slots, +stats",
+    "diffs": [
+      {
+        "field": "JP Name",
+        "oldVal": "(empty)",
+        "newVal": "デュラン"
+      },
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1198"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "426"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "498"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ソリッドストラーダ"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "3300%の光属性物理ダメージ。スキル攻撃中、自身の被ダメージ30%軽減。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "キャバレルデューロ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "10秒間、敵の攻撃を反射してダメージを与える。20秒間、味方全体のHP400自然回復・被ダメージを合計1200無効化。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "ヴェリタ・キャバレリア"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "15秒間、味方全体への攻撃を庇い、敵の攻撃を反射してダメージを与える・自身の被ダメージを合計15000無効化・怯まなくなる。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "騎士道"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方が倒れた時に1度だけHP50%で蘇生する"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "物理耐性Lv4"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵からの物理ダメージ20%DOWN"
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "Reflects enemy's attack and inflicts it with extra for 10s. All allies' HP auto-recovery by 400 & negates DMG taken for a total of 1200 for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "Covers all allies, reflects enemy's attack and inflicts it with extra, negates DMG taken for a total of 15000 & will not flinch for 15s."
+      }
+    ]
+  },
+  {
+    "id": "1788502748892",
+    "timestamp": "2026-09-04T06:19:08.892Z",
+    "displayTime": "Sep 4, 2026, 2:19 PM",
+    "mode": "units",
+    "item": "Milim",
+    "unitId": "107166112",
+    "reason": "added jp text, jp buff, stats, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1271"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "518"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "491"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152801"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Physical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "これで許してやるのだ！"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,500%の炎属性物理ダメージ。6秒間、自身の攻撃力30%UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "全反射"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "30,000%の炎属性魔法ダメージ。10秒間、敵の攻撃を反射してダメージを与える。15秒間、自身の奥義ゲージ4UP。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "竜星拡散爆"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "110,000%の炎属性魔法ダメージ。真奥義時、自身のブレイク中に与えるダメージ200%UP。20秒間、自身のクリティカル率100%UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "追い打ちLv5"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "敵がブレイク中、ダメージ50%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "闘争心Lv5"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "最大HPの10%ダメージを受けたとき奥義ゲージ5UP"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "最古の魔王"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "怯まなくなる。自身のHPが低下するほど、ダメージUP(最大100%)"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "クリティカル時のダメージ200%UP。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "奥義ゲージが2ずつ自然回復する"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "樹属性ユニットに対するブレイク力100%UP。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "BEを出現量10%UP"
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "30000% Fire DMG (Magic). Returns DMG to enemy for 10s. Auto-fills Arts gauge by 4 for 15s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "110000% Fire DMG (Magic). Increases DMG by 200% during Break when this True Arts is used. Increases CRI rate by 100% for 20s."
+      }
+    ]
+  },
+  {
+    "id": "1788503235697",
+    "timestamp": "2026-09-04T06:27:15.697Z",
+    "displayTime": "Sep 4, 2026, 2:27 PM",
+    "mode": "units",
+    "item": "Corsair",
+    "unitId": "100026211",
+    "reason": "added jp text, equip slots",
+    "diffs": [
+      {
+        "field": "MAX Luck",
+        "oldVal": "300",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Defense 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "スノーブラッド"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1800%の水属性物理ダメージ。10%の確率で2秒間、敵を氷結状態にする。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "フリージングノヴァ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "14000%の水属性魔法ダメージ。蒼夢の場合、30秒間、敵の氷結耐性30%DOWNの効果が追加される。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "エターナルコキュートス"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "35000%の水属性魔法ダメージ。100%の確率で5秒間、敵を氷結状態にする。味方全体の奥義ゲージ20UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "水BE出現Lv4"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "水属性ユニットのBE出現量20%UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "水属性マスターLv3"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方全体の水属性ダメージ30%UP(重複なし)"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "奥義の効果に「30秒間、敵の氷結耐性30%DOWN」を追加"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "クエスト開始時、奥義ゲージ200UP"
+      }
+    ]
+  },
+  {
+    "id": "1788505605425",
+    "timestamp": "2026-09-04T07:06:45.425Z",
+    "displayTime": "Sep 4, 2026, 3:06 PM",
+    "mode": "units",
+    "item": "Melia (Water)",
+    "unitId": "102536212",
+    "reason": "added jp text, equip slots",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "991"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "408"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "376"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Magical 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ネロ・ファントム"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1900%の水属性物理ダメージ。20%の確率で3秒間、敵を氷結状態にする。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "フェルム・レゾナンス"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "15000%の水属性物理ダメージ。10秒間、敵の水属性耐性・氷結耐性30%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "カルマ・タナトス"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "31200%の水属性物理ダメージ。11秒間、味方全体のクリティカル率100%UP。さらに味方の水属性ユニットのダメージ60%UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "炎属性キラーLv7"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "炎属性に対してのダメージ35%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性Lv7"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "燃焼耐性70%UP"
+      }
+    ]
+  },
+  {
+    "id": "1788506031670",
+    "timestamp": "2026-09-04T07:13:51.670Z",
+    "displayTime": "Sep 4, 2026, 3:13 PM",
+    "mode": "units",
+    "item": "Beatrice",
+    "unitId": "107376512",
+    "reason": "added jp text, jp buff, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "999"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "399"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "443"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "150891"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Magical 6"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Healing 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "扉渡り"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の奥義ゲージ20UP・HP10%回復。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "喰らうかしら"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "15,000%の闇属性魔法ダメージ。20秒間、敵の全状態異常耐性60%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "お前、邪魔かしら"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "75,000%の闇属性魔法ダメージ。80%の確率で7秒間、敵を気絶状態にする。20秒間、敵の闇属性・魔法耐性60%DOWN。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "陰系統の極地"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身のダメージを敵の状態異常の数×33%UP。自身が状態異常でない場合、装備CT速度20%UP"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "呪い耐性Lv3"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "呪い耐性30%UP"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時スキル速度アップLv3"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "瀕死時スキル速度30%UP"
+      },
+      {
+        "field": "JP Buff Skill Text",
+        "oldVal": "(empty)",
+        "newVal": "Increases Arts gauge by 20 & recovers HP by 10%."
+      },
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "15000% Dark DMG (Magic). Reduces enemy's Status Ailment resistance by 60% for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "75000% Dark DMG (Magic). 80% chance of Fainting enemy. Reduces enemy's Dark & Magic resistance by 60% for 20s."
+      }
+    ]
+  },
+  {
+    "id": "1788506572480",
+    "timestamp": "2026-09-04T07:22:52.480Z",
+    "displayTime": "Sep 4, 2026, 3:22 PM",
+    "mode": "units",
+    "item": "Juno",
+    "unitId": "103226412",
+    "reason": "add jp text, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "108001"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Magical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "Support 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "Support 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "シュネル・シュトラール"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1500%の光属性魔法ダメージ。ダメージの5%HP吸収。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "メテオール・シュナイデン"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "16000%の光属性魔法ダメージ。10秒間、敵の被ダメージ30%UP・全状態異常耐性20%DOWN。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "シュヴァルツ・ディ・ヴァーム"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "魔血真蝕状態になる。魔血真蝕状態のとき使用すると70000%の闇属性魔法ダメージ。20秒間、自身の最大HP2%ダメージ・味方全体の奥義ゲージ7UP。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "魔族強化Lv2"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方の魔族の全ステータス10%UP(重複なし)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "魔血昇華"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "魔血真蝕状態の時、自身のダメージ・命中率100%UP・奥義ゲージ5自然上昇。HPが20%以下の場合、魔血真蝕状態を解除する"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "ガナルディア王女"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身以外の味方の魔族ユニット1体につき、自身の攻撃力・与ダメージ30%UP"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "シュヴァルツ・ディ・ヴァームのダメージ倍率を120000%にする。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 1 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "シュヴァルツ・ディ・ヴァームで自身が受けるダメージを自身の最大HP3%にする"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-1",
+        "oldVal": "(empty)",
+        "newVal": "味方の魔族の全ステータス30%UP(重複なし)。"
+      },
+      {
+        "field": "JP DREAM AWAKEN 2 Detail-2",
+        "oldVal": "(empty)",
+        "newVal": "味方の魔族ユニットの奥義ゲージ1自然上昇(重複なし)"
+      }
+    ]
+  },
+  {
+    "id": "1788525312391",
+    "timestamp": "2026-09-04T12:35:12.391Z",
+    "displayTime": "Sep 4, 2026, 8:35 PM",
+    "mode": "batch",
+    "item": "Batch: 9 records (Chloe (Fate), Miyu, Saber Alter...)",
+    "unitId": "9_queued_items",
+    "reason": "Update with Global Adjustments (Buffs)",
+    "diffs": [
+      {
+        "field": "[units] Chloe (Fate) -> Arts BREAK",
+        "oldVal": "3000",
+        "newVal": "4000"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> True Arts Detail",
+        "oldVal": "40000% Fire DMG (Physical).\nAuto-fills all allies' Arts gauges by 5 & increases all allies' Break power by 70% for 20s.",
+        "newVal": "40000% Fire DMG (Physical).\nAuto-fills all allies' Arts gauges by 5 & increases all allies' Break power by 100% for 20s."
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Super Arts Detail",
+        "oldVal": "100000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 100% for 25s.",
+        "newVal": "100000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 100% for 30s."
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Passives 2 Detail",
+        "oldVal": "All allies' Arts gauges 200 UP when Boss Breaks (Only Once).",
+        "newVal": "All allies' Arts gauges 300 UP when Boss Breaks (Only Once)."
+      },
+      {
+        "field": "[units] Miyu -> Skill Detail",
+        "oldVal": "4200% Dark DMG (Magic).\r\nAuto-fills Arts gauge by 3 for 10s.",
+        "newVal": "4200% Dark DMG (Magic).\nAuto-fills Arts gauge by 4 for 10s."
+      },
+      {
+        "field": "[units] Miyu -> Arts Detail",
+        "oldVal": "25000% Dark DMG (Magic).\r\nReduces enemy's Dark resistance by 50% for 20s.",
+        "newVal": "27000% Dark DMG (Magic).\nReduces enemy's Dark resistance by 50% for 20s."
+      },
+      {
+        "field": "[units] Miyu -> True Arts Detail",
+        "oldVal": "90000% Dark DMG (Magic).\r\nIncreases ATK & Accuracy by 150% for 30s.",
+        "newVal": "100000% Dark DMG (Magic).\nIncreases ATK & Accuracy by 180% for 30s."
+      },
+      {
+        "field": "[units] Miyu -> Super Arts Detail",
+        "oldVal": "190000% Dark DMG (Magic).\r\nAll allies ignore enemy's DEF by 100% & increases Human units' DMG by 200% for 20s.",
+        "newVal": "210000% Dark DMG (Magic).\nAll allies ignore enemy's DEF by 100% & increases Human units' DMG by 200% for 20s."
+      },
+      {
+        "field": "[units] Saber Alter -> Arts Detail",
+        "oldVal": "26000% Dark DMG (Physical). Increases all allies' all Status by 30% for 20s.",
+        "newVal": "30000% Dark DMG (Physical). Increases all allies' all Status by 30% for 20s."
+      },
+      {
+        "field": "[units] Saber Alter -> True Arts Detail",
+        "oldVal": "64000% Dark DMG (Physical). Increases DMG by 100% & reduces enemy's Dark resistance by 70% for 30s.",
+        "newVal": "70000% Dark DMG (Physical). Increases DMG by 100% & reduces enemy's Dark resistance by 80% for 35s."
+      },
+      {
+        "field": "[units] Saber Alter -> Super Arts Detail",
+        "oldVal": "185000% Dark DMG (Physical). Increases Super CRI rate by 60% during Super Arts.",
+        "newVal": "200000% Dark DMG (Physical). Increases Super CRI rate by 60% during Super Arts."
+      },
+      {
+        "field": "[units] Shirou Emiya -> True Arts Detail",
+        "oldVal": "40000% Water DMG (Physical). Reduces enemy's Physical resistance by 100% for 20s. Doubles True Arts DMG during Unlimited Blade Works.",
+        "newVal": "45000% Water DMG (Physical). Reduces enemy's Physical resistance by 100% for 25s. (During Unlimited Blade Works: 90000%)."
+      },
+      {
+        "field": "[units] Shirou Emiya -> Super Arts Detail",
+        "oldVal": "Activates Unlimited Blade Works for 180s. 165000% Physical Water DMG when used during Unlimited Blade Works. Increases ATK & DMG by 200% for 35s.",
+        "newVal": "Activates Unlimited Blade Works for 180s.\n170000% Physical Water DMG when used during Unlimited Blade Works. Increases ATK & DMG by 200% for 35s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Skill Detail",
+        "oldVal": "1300% Fire DMG (Magic). Auto-fills Fire units' Arts gauges by 4 for 8s.",
+        "newVal": "1300% Fire DMG (Magic).\nAuto-fills Fire units' Arts gauges by 4 for 8s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Arts Detail",
+        "oldVal": "18000% Fire DMG (Magic). 100% chance of Burning enemy for 20s. Reduces enemy's Fire resistance by 50% when it's Burning by this Arts for 25s.",
+        "newVal": "18000% Fire DMG (Magic).\n100% chance of Burning enemy for 20s.\nReduces enemy's Fire resistance by 60% when it's Burning by this Arts for 25s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> True Arts Detail",
+        "oldVal": "50000% Fire DMG (Magic). Increases DMG to enemy by 70% & reduces enemy's Burn resistance by 50% for 25s.",
+        "newVal": "50000% Fire DMG (Magic).\nIncreases DMG to enemy by 70% & reduces enemy's Burn resistance by 60% for 25s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Super Arts Detail",
+        "oldVal": "130000% Fire DMG (Magic). Increases all allies' Magic DMG by 160% & reduces enemy's Magic resistance by 100% for 40s.",
+        "newVal": "140000% Fire DMG (Magic).\nIncreases all allies' Magic DMG by 160% & reduces enemy's Magic resistance by 100% for 40s."
+      },
+      {
+        "field": "[units] Rin & Luvia -> Passives 3 Detail",
+        "oldVal": "All allies' DMG 30% UP every time the enemy is burn by \"Flame Storm\" (MAX 300%, Only Once).",
+        "newVal": "All allies' DMG 40% UP every time the enemy is burn by \"Flame Storm\" (MAX 400%, Only Once)."
+      },
+      {
+        "field": "[units] Summer Miyu -> Skill Detail",
+        "oldVal": "2000% Fire DMG (Physical).\nIncreases Accuracy by 30% for 7s.",
+        "newVal": "2000% Fire DMG (Physical).\nIncreases Accuracy by 30% for 8s."
+      },
+      {
+        "field": "[units] Summer Miyu -> Arts Detail",
+        "oldVal": "28000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 60% for 15s.",
+        "newVal": "30,000% Fire DMG (Physical).\nReduces enemy's Fire resistance by 60% for 20s."
+      },
+      {
+        "field": "[units] Summer Miyu -> True Arts Detail",
+        "oldVal": "65000% Fire DMG (Physical).\nIncreases all allies' Arts gauges by 30. Increases all allies' Physical DMG by 80% for 50s (Stacks).",
+        "newVal": "70,000% Fire DMG (Physical).\nIncreases all allies' Arts gauges by 30.\nIncreases all allies' Physical DMG by 80% for 55s (Stacks)."
+      },
+      {
+        "field": "[units] Summer Chloe -> Arts Detail",
+        "oldVal": "22000% Light DMG (Physical).\r\nIncreases all allies' Status Ailment resistance by 100% (Except Faint) & reduces enemy's Light resistance by 50% for 15s.",
+        "newVal": "23,000% Light DMG (Physical).\nIncreases all allies' Status Ailment resistance by 100% (Except Faint) & reduces enemy's Light resistance by 50% for 15s."
+      },
+      {
+        "field": "[units] Summer Chloe -> True Arts Detail",
+        "oldVal": "50000% Light DMG (Physical).\r\nIncreases all allies' HP recovery amount by 100% for 20s.\r\nAuto-fills all allies' Arts gauges by 5 for 20s, additional 2 gauge for Light units.",
+        "newVal": "55,000% Light DMG (Physical).\nIncreases all allies' HP recovery amount by 120% for 20s.\nAuto-fills all allies' Arts gauges by 5 for 20s, additional 2 gauge for Light units."
+      },
+      {
+        "field": "[units] Summer Luvia & Rin -> Arts Detail",
+        "oldVal": "27000% Earth DMG (Physical).\nReduces all allies' Physical DMG taken by 20% & enemy's Physical resistance by 40% for 20s.",
+        "newVal": "30,000% Earth DMG (Physical).\nReduces all allies' Physical DMG taken by 20% & enemy's Physical resistance by 40% for 25s."
+      },
+      {
+        "field": "[units] Summer Luvia & Rin -> True Arts Detail",
+        "oldVal": "60000% Earth DMG (Physical).\nCosts 30% of MAX HP.\nIncreases all allies' Physical DMG by 220% for 25s.",
+        "newVal": "60000% Earth DMG (Physical).\nCosts 30% of MAX HP.\nIncreases all allies' Physical DMG by 250% for 25s."
+      }
+    ]
+  },
+  {
+    "id": "1788530189646",
+    "timestamp": "2026-09-04T13:56:29.646Z",
+    "displayTime": "Sep 4, 2026, 9:56 PM",
+    "mode": "batch",
+    "item": "Batch: 3 records (Illya, Summer Illya, Summer Bazett)",
+    "unitId": "3_queued_items",
+    "reason": "add stats, jp text, equip slots, true equip",
+    "diffs": [
+      {
+        "field": "[units] Illya -> JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "集束砲射"
+      },
+      {
+        "field": "[units] Illya -> JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2,200%の光属性魔法ダメージ。自身の奥義ゲージ30UP。"
+      },
+      {
+        "field": "[units] Illya -> JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "散弾"
+      },
+      {
+        "field": "[units] Illya -> JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "20,000%の光属性魔法ダメージ。20秒間、敵の光属性耐性50%DOWN。"
+      },
+      {
+        "field": "[units] Illya -> JP TA",
+        "oldVal": "(empty)",
+        "newVal": "多元重奏飽和砲撃"
+      },
+      {
+        "field": "[units] Illya -> JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "60,000%の光属性魔法ダメージ。25秒間、味方全体のクリティカル率100%UP・HP50%以上の味方全体の奥義ゲージ6自然上昇。"
+      },
+      {
+        "field": "[units] Illya -> JP SA",
+        "oldVal": "(empty)",
+        "newVal": "約束された勝利の剣"
+      },
+      {
+        "field": "[units] Illya -> JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "170,000%の光属性魔法ダメージ。超奥義発動時、自身の残りHPが多いほど、20秒間、自身のダメージUP(最大400%)。"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "快調時命中率UPLv3"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "HPが90%以上の時、命中率30%UP"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "闇属性キラーLv4"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "闇属性に対してのダメージ20%UP"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "魔法少女"
+      },
+      {
+        "field": "[units] Illya -> JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の奥義・真奥義・超奥義発動時、自身のHPが80%以上であれば自身の奥義ゲージ50UP"
+      },
+      {
+        "field": "[units] Summer Illya -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1350"
+      },
+      {
+        "field": "[units] Summer Illya -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "685"
+      },
+      {
+        "field": "[units] Summer Illya -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "629"
+      },
+      {
+        "field": "[units] Summer Illya -> Skill",
+        "oldVal": "(empty)",
+        "newVal": "Fokussiertes Swimsuit Feuer"
+      },
+      {
+        "field": "[units] Summer Illya -> Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2500% Water DMG (Magic).\nAuto-fills Arts gauge by 6 for 7s."
+      },
+      {
+        "field": "[units] Summer Illya -> Arts",
+        "oldVal": "(empty)",
+        "newVal": "Summer Vacation Scraps"
+      },
+      {
+        "field": "[units] Summer Illya -> Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "25000% Water DMG (Magic).\nIncreases ATK by 150% & reduces enemy's Evasion rate by 50% for 25s."
+      },
+      {
+        "field": "[units] Summer Illya -> True Arts",
+        "oldVal": "(empty)",
+        "newVal": "Summertime is beach time!"
+      },
+      {
+        "field": "[units] Summer Illya -> True Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "70000% Water DMG (Magic).\nHeals all allies' Burn.\nIncreases all allies' Water DMG & Burn resistance by 100% for 45s."
+      },
+      {
+        "field": "[units] Summer Illya -> Super Arts",
+        "oldVal": "(empty)",
+        "newVal": "Summer only comes once a year."
+      },
+      {
+        "field": "[units] Summer Illya -> Super Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "170000% Water DMG (Magic).\nIncreases Arts gauge by the number of Super Arts' activation x 25 (MAX 150).\nReduces enemy's Magic resistance by 150% for 40s (Stacks)."
+      }
+    ]
+  },
+  {
+    "id": "1788530994436",
+    "timestamp": "2026-09-04T14:09:54.436Z",
+    "displayTime": "Sep 4, 2026, 10:09 PM",
+    "mode": "units",
+    "item": "Summer Bazett",
+    "unitId": "108007212",
+    "reason": "skill ct speed",
+    "diffs": [
+      {
+        "field": "Skill CT",
+        "oldVal": "12",
+        "newVal": "11"
+      }
+    ]
+  },
+  {
+    "id": "1788532370660",
+    "timestamp": "2026-09-04T14:32:50.660Z",
+    "displayTime": "Sep 4, 2026, 10:32 PM",
+    "mode": "units",
+    "item": "Illya",
+    "unitId": "107737412",
+    "reason": "true equip",
+    "diffs": [
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152311"
+      }
+    ]
+  },
+  {
+    "id": "1788541510006",
+    "timestamp": "2026-09-04T17:05:10.006Z",
+    "displayTime": "Sep 5, 2026, 1:05 AM",
+    "mode": "batch",
+    "item": "Batch: 4 records (Chloe (Fate), Saber Alter, Summer Miyu...)",
+    "unitId": "4_queued_items",
+    "reason": "updated stats, equip slots, true equips",
+    "diffs": [
+      {
+        "field": "[units] Chloe (Fate) -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1434"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "630"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "574"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152511"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5/6"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "support 5"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "support 4"
+      },
+      {
+        "field": "[units] Chloe (Fate) -> Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "support 4, physical 4"
+      },
+      {
+        "field": "[units] Saber Alter -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1369"
+      },
+      {
+        "field": "[units] Saber Alter -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "691"
+      },
+      {
+        "field": "[units] Saber Alter -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "610"
+      },
+      {
+        "field": "[units] Saber Alter -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "152521"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "physical 5/6"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "defense 5"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "physical 4"
+      },
+      {
+        "field": "[units] Saber Alter -> Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "physical 4, defense 4"
+      },
+      {
+        "field": "[units] Summer Miyu -> HP+",
+        "oldVal": "(empty)",
+        "newVal": "1350"
+      },
+      {
+        "field": "[units] Summer Miyu -> ATK+",
+        "oldVal": "(empty)",
+        "newVal": "685"
+      },
+      {
+        "field": "[units] Summer Miyu -> DEF+",
+        "oldVal": "(empty)",
+        "newVal": "629"
+      },
+      {
+        "field": "[units] Summer Miyu -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "153411"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "physical 5/6"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "magical 5"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "physical 4"
+      },
+      {
+        "field": "[units] Summer Miyu -> Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "physical 4, defense 4"
+      },
+      {
+        "field": "[units] Summer Luvia & Rin -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "153431"
+      }
+    ]
+  },
+  {
+    "id": "1788542778698",
+    "timestamp": "2026-09-04T17:26:18.698Z",
+    "displayTime": "Sep 5, 2026, 1:26 AM",
+    "mode": "units",
+    "item": "Vultee-Lr",
+    "unitId": "103316312",
+    "reason": "add jp buffs",
+    "diffs": [
+      {
+        "field": "JP Buff Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "19000% Earth DMG (Physical). Increases Arts gauge by 50. Loads 1 Phantom Bullet (if available). Increases ATK by 50% for 20s."
+      },
+      {
+        "field": "JP Buff True Arts Text",
+        "oldVal": "(empty)",
+        "newVal": "40000% Earth DMG (Physical). Increases all allies' Earth DMG by 30% for 40s (Stacks). Covers all allies & negates DMG taken for a total of 30000 for 40s."
+      }
+    ]
   }
 ]
