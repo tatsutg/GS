@@ -4806,5 +4806,141 @@
         "newVal": "1"
       }
     ]
+  },
+  {
+    "id": "1789412054585",
+    "timestamp": "2026-09-14T18:54:14.585Z",
+    "displayTime": "Sep 15, 2026, 2:54 AM",
+    "mode": "batch",
+    "item": "Batch: 7 records (Rosetta, Forger of Fortitude, Summer Rosetta, Demon Edge Berwick...)",
+    "unitId": "7_queued_items",
+    "reason": "added jp text, equips slots, some true equips",
+    "diffs": [
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "112901"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "110431, 104961, 105601, 108411, 106901"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "流星剣アルス・ノヴァ"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Skill Detail",
+        "oldVal": "1",
+        "newVal": "2,800%の水属性魔法ダメージ。10秒間、敵の回避率30%DOWN。"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "彗星剣ブラスト・ノヴァ"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "20,000%の水属性魔法ダメージ。18秒間、敵の魔法耐性70%DOWN。アンリミテッド状態のとき使用すると、さらに100%DOWN。"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP TA",
+        "oldVal": "(empty)",
+        "newVal": "幻影剣ファントム・レイズ"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "60,000%の水属性魔法ダメージ。25秒間、味方全体の奥義ゲージ4自然上昇。マギアドライブ状態のとき使用すると、味方水属性ユニットの奥義ゲージ50UP。"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP SA",
+        "oldVal": "(empty)",
+        "newVal": "天翔剣β-アルテミス"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "アンリミテッド状態の時、魔血覚醒の代わりに以下の効果が発動。170,000%の水属性魔法ダメージ。超奥義を発動する度に味方全体の魔法ダメージ120%UP(最大360%)。"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "魔血覚醒"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "超奥義発動時、奥義ゲージ150UP。マギアドライブ状態になる。さらに自身のHPが85%以上の場合、アンリミテッド状態になる"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "碧紋の戒放"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "マギアドライブ状態の時、自身の奥義ゲージ7自然上昇。HP30%以下になった時、マギアドライブ状態を解除する"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "星海の界放"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "アンリミテッド状態の時、自身のCRI率・CRIダメージ100%UP。HP60%以下になった時、アンリミテッド状態を解除する"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 4",
+        "oldVal": "(empty)",
+        "newVal": "魔族強化Lv6"
+      },
+      {
+        "field": "[units] Rosetta, Forger of Fortitude -> JP Passives 4 Detail",
+        "oldVal": "(empty)",
+        "newVal": "味方の魔族の全ステータス30%UP(重複なし)"
+      },
+      {
+        "field": "[units] Summer Rosetta -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "112571"
+      },
+      {
+        "field": "[units] Summer Rosetta -> Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "108651, 105571, 152901, 111841"
+      },
+      {
+        "field": "[units] Summer Rosetta -> Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "healing 5/6"
+      },
+      {
+        "field": "[units] Summer Rosetta -> Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "support 5"
+      },
+      {
+        "field": "[units] Summer Rosetta -> Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "magical 4"
+      },
+      {
+        "field": "[units] Summer Rosetta -> Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "magical 4, support 4"
+      },
+      {
+        "field": "[units] Summer Rosetta -> JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "ブーストアップ"
+      }
+    ]
   }
 ]
