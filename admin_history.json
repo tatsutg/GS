@@ -4790,5 +4790,21 @@
         "newVal": "40000% Earth DMG (Physical). Increases all allies' Earth DMG by 30% for 40s (Stacks). Covers all allies & negates DMG taken for a total of 30000 for 40s."
       }
     ]
+  },
+  {
+    "id": "1789406309208",
+    "timestamp": "2026-09-14T17:18:29.208Z",
+    "displayTime": "Sep 15, 2026, 1:18 AM",
+    "mode": "units",
+    "item": "Rosetta, Forger of Fortitude",
+    "unitId": "104087212",
+    "reason": "text",
+    "diffs": [
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "1"
+      }
+    ]
   }
 ]
