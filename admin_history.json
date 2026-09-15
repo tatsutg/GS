@@ -4942,5 +4942,153 @@
         "newVal": "ブーストアップ"
       }
     ]
+  },
+  {
+    "id": "1789491462889",
+    "timestamp": "2026-09-15T16:57:42.889Z",
+    "displayTime": "Sep 16, 2026, 12:57 AM",
+    "mode": "batch",
+    "item": "Batch: 2 records (Severing Light Demon Warrior Thetis, Reinhard)",
+    "unitId": "2_queued_items",
+    "affectedItems": [
+      {
+        "mode": "units",
+        "id": "104347212",
+        "name": "severing light demon warrior thetis"
+      },
+      {
+        "mode": "units",
+        "id": "108437112",
+        "name": "reinhard"
+      }
+    ],
+    "reason": "updated",
+    "diffs": [
+      {
+        "field": "[units] Severing Light Demon Warrior Thetis -> Skill Detail",
+        "oldVal": "2000% Water DMG (Physical).\nIncreases Arts gauge by 30.",
+        "newVal": "2000% Water DMG (Physical).\nIncreases own Arts gauge by 30."
+      },
+      {
+        "field": "[units] Severing Light Demon Warrior Thetis -> Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "10000% Water DMG (Physical).\nCovers all allies & negates DMG taken for a total of 35000 for 35s.\nRestores 1 of own DMG taken UP effect during Demonblood Release."
+      },
+      {
+        "field": "[units] Severing Light Demon Warrior Thetis -> True Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "57000% Water DMG (Physical).\nReduces enemy's Water & Physical resistance by 60% for 20s.\nExtend the duration of Demonblood Release by 40s."
+      },
+      {
+        "field": "[units] Severing Light Demon Warrior Thetis -> Super Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "Activates Demonblood Release for 120s.\n150000% Physical Water DMG when used during Demonblood Release.\nIncreases all allies' DMG by 150% for 45s (Stacks)."
+      },
+      {
+        "field": "[units] Reinhard -> Skill",
+        "oldVal": "剣聖の手刀",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Skill Detail",
+        "oldVal": "5,000%の炎属性物理ダメージ。10秒間、敵の被ダメージ25%UP。",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Arts",
+        "oldVal": "旋回蹴撃破",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Arts Detail",
+        "oldVal": "23,000%の炎属性物理ダメージ。25秒間、味方全体のダメージ・スキルCT速度50%UP。",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> True Arts",
+        "oldVal": "月下の火柱",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> True Arts Detail",
+        "oldVal": "70,000%の炎属性物理ダメージ。20秒間、味方全体の奥義ゲージ3自然上昇。味方炎属性ユニットはさらに4自然上昇。",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Super Arts",
+        "oldVal": "疾風斬",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Super Arts Detail",
+        "oldVal": "200,000%の炎属性物理ダメージ。20秒間、味方全体の物理ダメージ250%UP。クエスト開始から90秒以内に発動時、味方全体の奥義ゲージ100UP。",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Passives 1",
+        "oldVal": "大型キラーLv2",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Passives 1 Detail",
+        "oldVal": "大型ボスに対してダメージ20%UP",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Passives 2",
+        "oldVal": "スーパーダッシュ",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Passives 2 Detail",
+        "oldVal": "戦闘開始時、自身の奥義ゲージ200UP",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Passives 3",
+        "oldVal": "歴代最強の剣聖",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> Passives 3 Detail",
+        "oldVal": "自身のHPが50%以上の時、攻撃力50%UP・奥義ゲージ2自然上昇・怯まなくなる",
+        "newVal": "[cleared]"
+      },
+      {
+        "field": "[units] Reinhard -> SERVER",
+        "oldVal": "japan",
+        "newVal": "Japan"
+      },
+      {
+        "field": "[units] Reinhard -> JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "剣聖の手刀"
+      },
+      {
+        "field": "[units] Reinhard -> JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "5,000%の炎属性物理ダメージ。10秒間、敵の被ダメージ25%UP。"
+      },
+      {
+        "field": "[units] Reinhard -> JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "旋回蹴撃破"
+      },
+      {
+        "field": "[units] Reinhard -> JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "23,000%の炎属性物理ダメージ。25秒間、味方全体のダメージ・スキルCT速度50%UP。"
+      },
+      {
+        "field": "[units] Reinhard -> JP TA",
+        "oldVal": "(empty)",
+        "newVal": "月下の火柱"
+      },
+      {
+        "field": "[units] Reinhard -> JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "70,000%の炎属性物理ダメージ。20秒間、味方全体の奥義ゲージ3自然上昇。味方炎属性ユニットはさらに4自然上昇。"
+      }
+    ]
   }
 ]
