@@ -5090,5 +5090,153 @@
         "newVal": "70,000%の炎属性物理ダメージ。20秒間、味方全体の奥義ゲージ3自然上昇。味方炎属性ユニットはさらに4自然上昇。"
       }
     ]
+  },
+  {
+    "id": "1789494971584",
+    "timestamp": "2026-09-15T17:56:11.584Z",
+    "displayTime": "Sep 16, 2026, 1:56 AM",
+    "mode": "batch",
+    "item": "Batch: 2 records (Godspeed Crusader Platina, Last Miracle Isliid)",
+    "unitId": "2_queued_items",
+    "affectedItems": [
+      {
+        "mode": "units",
+        "id": "104047412",
+        "name": "godspeed crusader platina"
+      },
+      {
+        "mode": "units",
+        "id": "104117412",
+        "name": "last miracle isliid"
+      }
+    ],
+    "reason": "added jp text",
+    "diffs": [
+      {
+        "field": "[units] Godspeed Crusader Platina -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "112651"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "トライアリア"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "2500%の光属性物理ダメージ。自身の奥義ゲージ40UP。スキル発動時、敵がブレイク中の場合、さらに160UP。"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "クレセント・ワルツ"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "21000%の光属性物理ダメージ。20秒間、味方全体の攻撃力100%UP・物理攻撃装備のCT速度30%UP。"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP TA",
+        "oldVal": "(empty)",
+        "newVal": "サイレンス・レクイエム"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "60000%の光属性物理ダメージ。30秒間、敵のブレイク耐性・物理耐性40%DOWN(重複あり)。"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP SA",
+        "oldVal": "(empty)",
+        "newVal": "ゼロス・ライトニング"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "140000%の光属性物理ダメージ。20秒間、味方全体のクリティカル率100%UP・ブレイク中の敵に対するダメージ200%UP。"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "威圧"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "バトル開始時に大型ボスのブレイク値を半分にする(重複なし)"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "深層共鳴"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身のHPが80%以上の時、怯まなくなる"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "ブレイクブーストLv2"
+      },
+      {
+        "field": "[units] Godspeed Crusader Platina -> JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "ブレイク力を攻撃力100につき2%UP"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> True Equip",
+        "oldVal": "(empty)",
+        "newVal": "113131"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "《旋》吹ク"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "3,000%の光属性物理ダメージ。自身の奥義ゲージ30UP。クエスト開始から90秒以内の場合、さらに70UP。"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "《時雨》降ル"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "22,000%の光属性物理ダメージ。20秒間、味方全体の全ステータス30%UP・敵の回避率30%DOWN。"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP TA",
+        "oldVal": "(empty)",
+        "newVal": "《雷光》ト成ル"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "80,000%の光属性物理ダメージ。50秒間、敵の被ダメージ50%UP・自身のスーパークリティカル率50%UP。"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP SA",
+        "oldVal": "(empty)",
+        "newVal": "《紫閃》ヲ闢ク"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "160,000%の光属性魔法ダメージ。味方全体の奥義ゲージ50UP。45秒間、味方光属性ユニットのダメージ150%UP・クエスト開始90秒以内に発動時さらに50%UP(重複あり)。"
+      },
+      {
+        "field": "[units] Last Miracle Isliid -> JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "魔法耐性Lv2"
+      }
+    ]
   }
 ]
