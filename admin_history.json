@@ -5238,5 +5238,68 @@
         "newVal": "魔法耐性Lv2"
       }
     ]
+  },
+  {
+    "id": "1789665927006",
+    "timestamp": "2026-09-17T17:25:27.006Z",
+    "displayTime": "Sep 18, 2026, 1:25 AM",
+    "mode": "batch",
+    "item": "Batch: 2 records (Miyu (Divine King Form), Illya (Emperor Form))",
+    "unitId": "2_queued_items",
+    "affectedItems": [
+      {
+        "mode": "units",
+        "id": "108487412",
+        "name": "miyu (divine king form)"
+      },
+      {
+        "mode": "units",
+        "id": "108477412",
+        "name": "illya (emperor form)"
+      }
+    ],
+    "reason": "update",
+    "diffs": [
+      {
+        "field": "[units] Miyu (Divine King Form) -> Skill Detail",
+        "oldVal": "2000% Light DMG (Magic). Reduces enemy's Magic RES by 20% for 7s.",
+        "newVal": "2000% Light DMG (Magic).\nReduces enemy's Magic resistance by 20% for 7s."
+      },
+      {
+        "field": "[units] Miyu (Divine King Form) -> True Arts Detail",
+        "oldVal": "65000% Light DMG (Magic). Increases all allies' Magic DMG by 150% for 30s. Light allies 100% more. Additionally if not affected by status ailments, increases Arts gauge by 50.",
+        "newVal": "65000% Light DMG (Magic).\nIncreases all allies' Magic DMG by 150% for 30s. Light allies 100% more. Additionally if not affected by status ailments, increases Arts gauge by 50."
+      },
+      {
+        "field": "[units] Miyu (Divine King Form) -> Super Arts Detail",
+        "oldVal": "200000% Light DMG (Magic). All allies ignore enemy's DEF by 100% & increase ATK by 180% for 25s.",
+        "newVal": "200000% Light DMG (Magic).\nAll allies ignore enemy's DEF by 100% & increase ATK by 180% for 25s."
+      },
+      {
+        "field": "[units] Miyu (Divine King Form) -> Passives 1 Detail",
+        "oldVal": "Makes own used equipment usable again (Once per equipment).",
+        "newVal": "Makes own used equip usable again (Once per equip)."
+      },
+      {
+        "field": "[units] Miyu (Divine King Form) -> SERVER",
+        "oldVal": "Japan",
+        "newVal": "Global"
+      },
+      {
+        "field": "[units] Illya (Emperor Form) -> Arts Detail",
+        "oldVal": "30000% Light DMG (Physical). Imperial Sword changes based on formation position. Uses Sky Light, Terra Master, and Dark Bringer in order from the left.",
+        "newVal": "30000% Light DMG (Physical). Imperial Sword changes based on formation position. Uses Sky Light, Terra Master, & Dark Bringer in order from the left."
+      },
+      {
+        "field": "[units] Illya (Emperor Form) -> True Arts Detail",
+        "oldVal": "70000% Light DMG (Physical). Increases all allies' CRI Rate by 100% and auto-fills Arts gauge by 5 for allies with 50% or more HP for 25s.",
+        "newVal": "70000% Light DMG (Physical). Increases all allies' CRI Rate by 100% & auto-fills Arts gauge by 5 for allies with 50% or more HP for 25s."
+      },
+      {
+        "field": "[units] Illya (Emperor Form) -> SERVER",
+        "oldVal": "Japan",
+        "newVal": "Global"
+      }
+    ]
   }
 ]
