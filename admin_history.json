@@ -5301,5 +5301,143 @@
         "newVal": "Global"
       }
     ]
+  },
+  {
+    "id": "1789712771723",
+    "timestamp": "2026-09-18T06:26:11.723Z",
+    "displayTime": "Sep 18, 2026, 2:26 PM",
+    "mode": "batch",
+    "item": "Batch: 5 records (Severing Light Mikazuchi Kai, True \"GF-Funny type-R\", True \"Severing Light Mikazuchi Kai\"...)",
+    "unitId": "5_queued_items",
+    "affectedItems": [
+      {
+        "mode": "equips",
+        "id": "114211",
+        "name": "severing light mikazuchi kai"
+      },
+      {
+        "mode": "equips",
+        "id": "114181",
+        "name": "true \"gf-funny type-r\""
+      },
+      {
+        "mode": "equips",
+        "id": "114201",
+        "name": "true \"severing light mikazuchi kai\""
+      },
+      {
+        "mode": "equips",
+        "id": "114231",
+        "name": "cage staff \"only lonely flower\""
+      },
+      {
+        "mode": "equips",
+        "id": "114221",
+        "name": "true \"only lonely flower\""
+      }
+    ],
+    "reason": "Added images + ID",
+    "diffs": [
+      {
+        "field": "[equips] Severing Light Mikazuchi Kai -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_114211.png"
+      },
+      {
+        "field": "[equips] Severing Light Mikazuchi Kai -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114210.png"
+      },
+      {
+        "field": "[equips] Severing Light Mikazuchi Kai -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114211.png"
+      },
+      {
+        "field": "[equips] Severing Light Mikazuchi Kai -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "114211"
+      },
+      {
+        "field": "[equips] True \"GF-Funny type-R\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_114181.png"
+      },
+      {
+        "field": "[equips] True \"GF-Funny type-R\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114180.png"
+      },
+      {
+        "field": "[equips] True \"GF-Funny type-R\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114181.png"
+      },
+      {
+        "field": "[equips] True \"GF-Funny type-R\" -> Equip ID",
+        "oldVal": "item_thumbnail_114181.png",
+        "newVal": "114181"
+      },
+      {
+        "field": "[equips] True \"Severing Light Mikazuchi Kai\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_114201.png"
+      },
+      {
+        "field": "[equips] True \"Severing Light Mikazuchi Kai\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114200.png"
+      },
+      {
+        "field": "[equips] True \"Severing Light Mikazuchi Kai\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114201.png"
+      },
+      {
+        "field": "[equips] True \"Severing Light Mikazuchi Kai\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "114201"
+      },
+      {
+        "field": "[equips] Cage Staff \"Only Lonely Flower\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_114231.png"
+      },
+      {
+        "field": "[equips] Cage Staff \"Only Lonely Flower\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114230.png"
+      },
+      {
+        "field": "[equips] Cage Staff \"Only Lonely Flower\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114231.png"
+      },
+      {
+        "field": "[equips] Cage Staff \"Only Lonely Flower\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "114231"
+      },
+      {
+        "field": "[equips] True \"Only Lonely Flower\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_114221.png"
+      },
+      {
+        "field": "[equips] True \"Only Lonely Flower\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114220.png"
+      },
+      {
+        "field": "[equips] True \"Only Lonely Flower\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114221.png"
+      },
+      {
+        "field": "[equips] True \"Only Lonely Flower\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "114221"
+      }
+    ]
   }
 ]
