@@ -5690,5 +5690,68 @@
         "newVal": "156001"
       }
     ]
+  },
+  {
+    "id": "1789833302973",
+    "timestamp": "2026-09-19T15:55:02.973Z",
+    "displayTime": "Sep 19, 2026, 11:55 PM",
+    "mode": "batch",
+    "item": "Batch: 2 records (True \"Aibo\", True \"The Ripper\")",
+    "unitId": "2_queued_items",
+    "affectedItems": [
+      {
+        "mode": "equips",
+        "id": "156061",
+        "name": "true \"aibo\""
+      },
+      {
+        "mode": "equips",
+        "id": "156071",
+        "name": "true \"the ripper\""
+      }
+    ],
+    "reason": "Added images + ID",
+    "diffs": [
+      {
+        "field": "[equips] True \"Aibo\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156061.png"
+      },
+      {
+        "field": "[equips] True \"Aibo\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156060.png"
+      },
+      {
+        "field": "[equips] True \"Aibo\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156061.png"
+      },
+      {
+        "field": "[equips] True \"Aibo\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "156061"
+      },
+      {
+        "field": "[equips] True \"The Ripper\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156071.png"
+      },
+      {
+        "field": "[equips] True \"The Ripper\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156070.png"
+      },
+      {
+        "field": "[equips] True \"The Ripper\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156071.png"
+      },
+      {
+        "field": "[equips] True \"The Ripper\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "156071"
+      }
+    ]
   }
 ]
