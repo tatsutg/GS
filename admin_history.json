@@ -5652,5 +5652,43 @@
         "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156041.png"
       }
     ]
+  },
+  {
+    "id": "1789832930197",
+    "timestamp": "2026-09-19T15:48:50.197Z",
+    "displayTime": "Sep 19, 2026, 11:48 PM",
+    "mode": "batch",
+    "item": "Batch: 1 records (3R)",
+    "unitId": "1_queued_items",
+    "affectedItems": [
+      {
+        "mode": "equips",
+        "id": "156001",
+        "name": "3r"
+      }
+    ],
+    "reason": "Added images + ID",
+    "diffs": [
+      {
+        "field": "[equips] 3R -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156001.png"
+      },
+      {
+        "field": "[equips] 3R -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156000.png"
+      },
+      {
+        "field": "[equips] 3R -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156001.png"
+      },
+      {
+        "field": "[equips] 3R -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "156001"
+      }
+    ]
   }
 ]
