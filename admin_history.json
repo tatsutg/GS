@@ -5439,5 +5439,218 @@
         "newVal": "114221"
       }
     ]
+  },
+  {
+    "id": "1789832488963",
+    "timestamp": "2026-09-19T15:41:28.963Z",
+    "displayTime": "Sep 19, 2026, 11:41 PM",
+    "mode": "batch",
+    "item": "Batch: 15 records (True \"Blaze Linker\", True \"3R\", True \"Unbreaker\"...)",
+    "unitId": "15_queued_items",
+    "affectedItems": [
+      {
+        "mode": "equips",
+        "id": "114241",
+        "name": "true \"blaze linker\""
+      },
+      {
+        "mode": "equips",
+        "id": "155981",
+        "name": "true \"3r\""
+      },
+      {
+        "mode": "equips",
+        "id": "155991",
+        "name": "true \"unbreaker\""
+      },
+      {
+        "mode": "equips",
+        "id": "156001",
+        "name": "3r"
+      },
+      {
+        "mode": "equips",
+        "id": "156021",
+        "name": "ludo's mask"
+      },
+      {
+        "mode": "equips",
+        "id": "156031",
+        "name": "unbreaker"
+      },
+      {
+        "mode": "equips",
+        "id": "156041",
+        "name": "enjin's uniform"
+      },
+      {
+        "mode": "equips",
+        "id": "156051",
+        "name": "enjin's mask"
+      },
+      {
+        "mode": "equips",
+        "id": "156011",
+        "name": "ludo's uniform"
+      },
+      {
+        "mode": "equips",
+        "id": "156081",
+        "name": "aibo"
+      },
+      {
+        "mode": "equips",
+        "id": "156091",
+        "name": "zanka's uniform"
+      },
+      {
+        "mode": "equips",
+        "id": "156101",
+        "name": "zanka's mask"
+      },
+      {
+        "mode": "equips",
+        "id": "156111",
+        "name": "the ripper"
+      },
+      {
+        "mode": "equips",
+        "id": "156131",
+        "name": "riyo's mask"
+      },
+      {
+        "mode": "equips",
+        "id": "156121",
+        "name": "riyo's uniform"
+      }
+    ],
+    "reason": "Added images + ID",
+    "diffs": [
+      {
+        "field": "[equips] True \"Blaze Linker\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_114241.png"
+      },
+      {
+        "field": "[equips] True \"Blaze Linker\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114240.png"
+      },
+      {
+        "field": "[equips] True \"Blaze Linker\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_114241.png"
+      },
+      {
+        "field": "[equips] True \"Blaze Linker\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "114241"
+      },
+      {
+        "field": "[equips] True \"3R\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_155981.png"
+      },
+      {
+        "field": "[equips] True \"3R\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_155980.png"
+      },
+      {
+        "field": "[equips] True \"3R\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_155981.png"
+      },
+      {
+        "field": "[equips] True \"3R\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "155981"
+      },
+      {
+        "field": "[equips] True \"Unbreaker\" -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_155991.png"
+      },
+      {
+        "field": "[equips] True \"Unbreaker\" -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_155990.png"
+      },
+      {
+        "field": "[equips] True \"Unbreaker\" -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_155991.png"
+      },
+      {
+        "field": "[equips] True \"Unbreaker\" -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "155991"
+      },
+      {
+        "field": "[equips] 3R -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156001.png"
+      },
+      {
+        "field": "[equips] 3R -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156000.png"
+      },
+      {
+        "field": "[equips] 3R -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156001.png"
+      },
+      {
+        "field": "[equips] 3R -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "156001"
+      },
+      {
+        "field": "[equips] Ludo's Mask -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156021.png"
+      },
+      {
+        "field": "[equips] Ludo's Mask -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156020.png"
+      },
+      {
+        "field": "[equips] Ludo's Mask -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156021.png"
+      },
+      {
+        "field": "[equips] Ludo's Mask -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "156021"
+      },
+      {
+        "field": "[equips] Unbreaker -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156031.png"
+      },
+      {
+        "field": "[equips] Unbreaker -> BEFORE ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156030.png"
+      },
+      {
+        "field": "[equips] Unbreaker -> AFTER ENHANCE (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/detail/item_detail_156031.png"
+      },
+      {
+        "field": "[equips] Unbreaker -> Equip ID",
+        "oldVal": "(empty)",
+        "newVal": "156031"
+      },
+      {
+        "field": "[equips] Enjin's Uniform -> EQUIP THUMBNAIL (IMAGE)",
+        "oldVal": "(empty)",
+        "newVal": "https://raw.githubusercontent.com/tatsutg/GS/main/dlc/item/thumbnail/item_thumbnail_156041.png"
+      }
+    ]
   }
 ]
