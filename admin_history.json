@@ -5753,5 +5753,256 @@
         "newVal": "156071"
       }
     ]
+  },
+  {
+    "id": "1791211625584",
+    "timestamp": "2026-10-05T14:47:05.584Z",
+    "displayTime": "Oct 5, 2026, 10:47 PM",
+    "mode": "units",
+    "item": "Atra",
+    "unitId": "104187312",
+    "reason": "Update jp text, added equip slots, stats, some translations for global release - 06/10/2026",
+    "diffs": [
+      {
+        "field": "Name",
+        "oldVal": "Atla",
+        "newVal": "Atra"
+      },
+      {
+        "field": "JP Name",
+        "oldVal": "(empty)",
+        "newVal": "アトラ"
+      },
+      {
+        "field": "Race",
+        "oldVal": "(empty)",
+        "newVal": "Beast"
+      },
+      {
+        "field": "HP",
+        "oldVal": "(empty)",
+        "newVal": "7029"
+      },
+      {
+        "field": "ATK",
+        "oldVal": "(empty)",
+        "newVal": "3696"
+      },
+      {
+        "field": "DEF",
+        "oldVal": "(empty)",
+        "newVal": "3055"
+      },
+      {
+        "field": "HP+",
+        "oldVal": "(empty)",
+        "newVal": "1328"
+      },
+      {
+        "field": "ATK+",
+        "oldVal": "(empty)",
+        "newVal": "641"
+      },
+      {
+        "field": "DEF+",
+        "oldVal": "(empty)",
+        "newVal": "632"
+      },
+      {
+        "field": "Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "4000% Earth DMG (Physical). Increases own Accuracy by 30% for 8s."
+      },
+      {
+        "field": "Skill CT",
+        "oldVal": "(empty)",
+        "newVal": "12"
+      },
+      {
+        "field": "Skill BREAK",
+        "oldVal": "(empty)",
+        "newVal": "700"
+      },
+      {
+        "field": "Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "20000% Earth DMG (Physical). Increases all allies' Max HP by 30% & CRI DMG by 50% per own Arts used for 25s (Max 300%)."
+      },
+      {
+        "field": "Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1000"
+      },
+      {
+        "field": "True Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "52000% Earth DMG (Magic). Reduces enemy's CRI & Earth resistance by 100% for 30s."
+      },
+      {
+        "field": "True Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "1800"
+      },
+      {
+        "field": "Super Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "170000% Earth DMG (Physical). Increases enemy's DMG taken (Max 200%) & reduces all allies' DMG taken (Max 50%) the lower the enemy's remaining HP is for 25s."
+      },
+      {
+        "field": "Super Arts BREAK",
+        "oldVal": "(empty)",
+        "newVal": "2400"
+      },
+      {
+        "field": "Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "Auto-fills own Arts gauge by 2 per race among surviving allies (Only Once)."
+      },
+      {
+        "field": "Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "Auto-fills Arts gauge by 3."
+      },
+      {
+        "field": "Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "Poison Resistance Lv10"
+      },
+      {
+        "field": "Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "Poison resistance 100% UP."
+      },
+      {
+        "field": "SERVER",
+        "oldVal": "Japan",
+        "newVal": "Global"
+      },
+      {
+        "field": "Awk★ Name",
+        "oldVal": "(empty)",
+        "newVal": "Fanged Deitychild Atra"
+      },
+      {
+        "field": "Awk★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "命樹神の狩巫女アトラ"
+      },
+      {
+        "field": "Asc★ Name",
+        "oldVal": "(empty)",
+        "newVal": "Fanged Deitychild Atra"
+      },
+      {
+        "field": "Asc★ JP Name",
+        "oldVal": "(empty)",
+        "newVal": "命樹神の狩巫女アトラ"
+      },
+      {
+        "field": "GL\ndd/mm/yy",
+        "oldVal": "(empty)",
+        "newVal": "06/10/2026"
+      },
+      {
+        "field": "True Equip",
+        "oldVal": "(empty)",
+        "newVal": "113441"
+      },
+      {
+        "field": "Rec Equip",
+        "oldVal": "(empty)",
+        "newVal": "112751, 153961, 108221, 104501, 112131, 151011"
+      },
+      {
+        "field": "Equip 1",
+        "oldVal": "(empty)",
+        "newVal": "Physical 5/6"
+      },
+      {
+        "field": "Equip 2",
+        "oldVal": "(empty)",
+        "newVal": "defense 5"
+      },
+      {
+        "field": "Equip 3",
+        "oldVal": "(empty)",
+        "newVal": "physical 4"
+      },
+      {
+        "field": "Equip 3 LB7 ONLY",
+        "oldVal": "(empty)",
+        "newVal": "physical 4, healing 4"
+      },
+      {
+        "field": "JP Skill",
+        "oldVal": "(empty)",
+        "newVal": "チャージシュート"
+      },
+      {
+        "field": "JP Skill Detail",
+        "oldVal": "(empty)",
+        "newVal": "4,000%の樹属性物理ダメージ。8秒間、自身の命中率30%UP。"
+      },
+      {
+        "field": "JP Arts",
+        "oldVal": "(empty)",
+        "newVal": "アサルトコンボ"
+      },
+      {
+        "field": "JP Arts Detail",
+        "oldVal": "(empty)",
+        "newVal": "20,000%の樹属性物理ダメージ。25秒間、味方全体の最大HP30%UP・味方全体のクリティカルダメージを、自身の奥義発動回数×50%UP(最大300%)。"
+      },
+      {
+        "field": "JP TA",
+        "oldVal": "(empty)",
+        "newVal": "デュアルハウリング"
+      },
+      {
+        "field": "JP TA Detail",
+        "oldVal": "(empty)",
+        "newVal": "52,000%の樹属性魔法ダメージ。30秒間、敵のクリティカル耐性・樹属性耐性100%DOWN。"
+      },
+      {
+        "field": "JP SA",
+        "oldVal": "(empty)",
+        "newVal": "オーバーネイチャーグレア"
+      },
+      {
+        "field": "JP SA Detail",
+        "oldVal": "(empty)",
+        "newVal": "170,000%の樹属性物理ダメージ。25秒間、敵の残りHPが少ないほど、敵の被ダメージUP(最大200%)・味方全体の被ダメージ軽減(最大50%)。"
+      },
+      {
+        "field": "JP Passives 1",
+        "oldVal": "(empty)",
+        "newVal": "命樹神の末裔"
+      },
+      {
+        "field": "JP Passives 1 Detail",
+        "oldVal": "(empty)",
+        "newVal": "自身の奥義ゲージを倒れていない味方ユニットの種族数×2自然上昇(重複なし)"
+      },
+      {
+        "field": "JP Passives 2",
+        "oldVal": "(empty)",
+        "newVal": "奥義自然回復Lv3"
+      },
+      {
+        "field": "JP Passives 2 Detail",
+        "oldVal": "(empty)",
+        "newVal": "奥義ゲージが3ずつ自然回復する"
+      },
+      {
+        "field": "JP Passives 3",
+        "oldVal": "(empty)",
+        "newVal": "毒耐性Lv10"
+      },
+      {
+        "field": "JP Passives 3 Detail",
+        "oldVal": "(empty)",
+        "newVal": "毒耐性100%UP"
+      }
+    ]
   }
 ]
