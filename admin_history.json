@@ -6092,5 +6092,28 @@
         "newVal": "All allies' DMG 60% x number of races in party UP (MAX 240%, Only Once)."
       }
     ]
+  },
+  {
+    "id": "1793282706266",
+    "timestamp": "2026-10-29T14:05:06.266Z",
+    "displayTime": "Oct 29, 2026, 10:05 PM",
+    "mode": "batch",
+    "item": "Batch: 1 records (Halloween Forte)",
+    "unitId": "1_queued_items",
+    "affectedItems": [
+      {
+        "mode": "units",
+        "id": "103797512",
+        "name": "halloween forte"
+      }
+    ],
+    "reason": "update Halloween forte buffs",
+    "diffs": [
+      {
+        "field": "[units] Halloween Forte -> _jp_buff_passive_3",
+        "oldVal": "(empty)",
+        "newVal": "All allies' DMG 60% x number of races in party UP (MAX 240%, Only Once)."
+      }
+    ]
   }
 ]
