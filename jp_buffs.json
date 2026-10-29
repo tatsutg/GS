@@ -78,8 +78,11 @@
   "103777112": {
     "skill": "2200% Fire DMG (Physical). Increases Arts gauge by 40 & 40 more when casting CRI Skill (Only 1 HIT).",
     "arts": "23000% Fire DMG (Physical). Increases CRI DMG by 180% for 60s.",
+    "trueArts": "90000% Fire DMG (Physical). 100% chance of Bleeding enemy. 100% chance of increasing Bleed Lv by 1 when enemy is Bleeding (Up to Lv3).",
     "superArts": "250000% Fire DMG (Physical). Reduces enemy's Physical resistance by 100% for 20s. Reduces extra 100% per Bleed Lv.",
-    "trueArts": "90000% Fire DMG (Physical). 100% chance of Bleeding enemy. 100% chance of increasing Bleed Lv by 1 when enemy is Bleeding (Up to Lv3)."
+    "passives": {
+      "3": "Accuracy 180% UP to enemy with Bleed Lv3."
+    }
   },
   "103787212": {
     "skill": "1700% Water DMG (Magic). Increases Arts gauge by 30. When Mighty Magical Valerie is not in Status Ailment, 30 more.",
@@ -88,10 +91,13 @@
     "superArts": "200000% Water DMG (Magic). Increases DMG by 250% & ignores enemy's DEF by 100% for 25s. Fills up own Magic Equip gauges when this Super Arts is used (MAX 2 times per quest)."
   },
   "103797512": {
-    "arts": "16000% Dark DMG (Magic). Increases all allies' ATK & Equip CT speed by 40% for 35s.",
-    "superArts": "150000% Dark DMG (Magic). Increases Dark units' DMG & Break power by 250% for 20s.",
     "skill": "",
-    "trueArts": ""
+    "arts": "16000% Dark DMG (Magic). Increases all allies' ATK & Equip CT speed by 40% for 35s.",
+    "trueArts": "",
+    "superArts": "150000% Dark DMG (Magic). Increases Dark units' DMG & Break power by 250% for 20s.",
+    "passives": {
+      "3": "All allies’ DMG 60% x number of races in party UP (MAX 240%, Only Once)."
+    }
   },
   "103807412": {
     "skill": "",
