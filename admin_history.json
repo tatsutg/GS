@@ -6115,5 +6115,38 @@
         "newVal": "All allies' DMG 60% x number of races in party UP (MAX 240%, Only Once)."
       }
     ]
+  },
+  {
+    "id": "1793285109415",
+    "timestamp": "2026-10-29T14:45:09.415Z",
+    "displayTime": "Oct 29, 2026, 10:45 PM",
+    "mode": "batch",
+    "item": "Batch: 2 records (Halloween Forte, Halloween Charlotte)",
+    "unitId": "2_queued_items",
+    "affectedItems": [
+      {
+        "mode": "units",
+        "id": "103797512",
+        "name": "halloween forte"
+      },
+      {
+        "mode": "units",
+        "id": "103777112",
+        "name": "halloween charlotte"
+      }
+    ],
+    "reason": "*update again bcs some minor issues",
+    "diffs": [
+      {
+        "field": "[units] Halloween Forte -> _jp_buff_passive_3",
+        "oldVal": "(empty)",
+        "newVal": "All allies’ DMG 60% x number of races in party UP (MAX 240%, Only Once)."
+      },
+      {
+        "field": "[units] Halloween Charlotte -> _jp_buff_passive_3",
+        "oldVal": "(empty)",
+        "newVal": "Accuracy 180% UP to enemy with Bleed Lv3."
+      }
+    ]
   }
 ]
