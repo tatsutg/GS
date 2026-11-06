@@ -1,0 +1,184 @@
+id,group_id,comment,voice,weight,name,next_id
+1,1,What do you need?,2112_VOICE_BULIVISIT_NORMAL_1,50,,0
+2,1,You can't fight without good equipment!,2112_VOICE_BULIVISIT_NORMAL_2,50,,0
+3,1,"I'm busy, so if you need something make it quick.",2112_VOICE_BULIVISIT_NORMAL_3,50,,0
+4,1,"I really should think about settling down and...Hey, what are you doing here?! How long have you been there?!",2112_VOICE_BULIVISIT_RARE_1,10,,0
+5,1,"Why don't you take a 
+break sometime? Let 
+me hear some of your 
+big adventure stories 
+sometime!",2112_VOICE_BULIVISIT_RARE_2,10,,0
+6,2,Now I can make something!,2112_VOICE_BULIVISIT_NEW_1,50,,0
+7,2,"I got something I want you to use, take a look?",2112_VOICE_BULIVISIT_NEW_2,50,,0
+8,3,You want something?,2112_VOICE_BUIL_TOP_1,50,,0
+10,4,I'll hammer it out!,2112_VOICE_BUIL_TOP_2,50,,0
+12,5,Put some fire in it if you're gonna do it.,2112_VOICE_BUIL_TOP_3,100,,0
+13,6,At least try to understand your equipment.,2112_VOICE_BUIL_TOP_4,100,,0
+14,7,You got to get the materials you need!,2112_VOICE_BUIL_TOP_5,100,,0
+15,8,Shut up and watch.,2112_VOICE_BUIL_FUNCTION_1_01,100,,0
+16,11,That's about it...,2112_VOICE_BUIL_FUNCTION_1_02,100,,0
+17,9,"Stand back, this could be dangerous...",2112_VOICE_BUIL_FUNCTION_2_01,100,,0
+18,12,This is a good one.,2112_VOICE_BUIL_FUNCTION_2_02,100,,0
+19,10,"Sorry, but could you quiet down?",2112_VOICE_BUIL_FUNCTION_3_01,100,,0
+20,13,Now that is workmanship!,2112_VOICE_BUIL_FUNCTION_3_02,100,,0
+21,14,Lemme at it!,2112_VOICE_BUIL_FUNCTION_4_01,100,,0
+22,17,That should do it!,2112_VOICE_BUIL_FUNCTION_4_02,100,,0
+23,20,Isn't that something?,2112_VOICE_BUIL_FUNCTION_4_03,100,,0
+24,15,That took a good temper...,2112_VOICE_BUIL_FUNCTION_5_01,100,,0
+25,18,"Oh, that looks decent!",2112_VOICE_BUIL_FUNCTION_5_02,100,,0
+26,21,Can you feel that spirit?,2112_VOICE_BUIL_FUNCTION_5_03,100,,0
+27,16,Put some spirit in it!,2112_VOICE_BUIL_FUNCTION_6_01,100,,0
+28,19,Watch... It's shining up!,2112_VOICE_BUIL_FUNCTION_6_02,100,,0
+29,22,Not much more to say about that...,2112_VOICE_BUIL_FUNCTION_6_03,100,,0
+30,23,You got to trust me!,2112_VOICE_BUIL_FUNCTION_7,100,,0
+31,24,"Armor's pretty amazing, right?",2112_VOICE_BUIL_FUNCTION_8,100,,0
+32,25,Take care of your equipment!,2112_VOICE_BUILLEAVE_01,50,,0
+33,25,Don't forget to keep it clean!,2112_VOICE_BUILLEAVE_02,50,,0
+34,25,There's always good work waiting...,2112_VOICE_BUILLEAVE_03,50,,0
+35,26,Hey! You back again?,2112_VOICE_BUILLLEAVEALONE,100,,0
+36,27,Good to have you!,2113_VOICE_BULIVISIT_NORMAL_1,50,,0
+37,27,"Welcome, 
+weary traveler.",2113_VOICE_BULIVISIT_NORMAL_2,50,,0
+38,27,"Tell me what brings you
+to us today.",2113_VOICE_BULIVISIT_NORMAL_3,50,,0
+39,27,"Ah! You're...*Ahem* 
+I have long awaited 
+your coming.",2113_VOICE_BULIVISIT_RARE_1,10,,0
+40,27,I look forward to your stories today!,2113_VOICE_BULIVISIT_RARE_2,10,,0
+42,28,Your records certainly are growing!♪,2113_VOICE_BULIVISIT_NEW_1,50,,0
+43,28,You are working so hard!,2113_VOICE_BULIVISIT_NEW_2,50,,0
+44,29,"The Tomes, yes?♪",2113_VOICE_BUIL_TOP_1,50,,0
+46,30,"Your records, yes?",2113_VOICE_BUIL_TOP_2,50,,0
+48,31,"Ah, history!♪",2113_VOICE_BUIL_TOP_3,50,,0
+50,32,Here are the records of your Heroes.,2113_VOICE_BUIL_FUNCTION_1,100,,0
+51,33,This is the Monster Data.,2113_VOICE_BUIL_FUNCTION_2,100,,0
+52,34,There are so many fantastic items.,2113_VOICE_BUIL_FUNCTION_3,50,,0
+54,35,I wonder what could be within?,2113_VOICE_BUIL_FUNCTION_4,100,,0
+55,36,What a wonderful adventure!,2113_VOICE_BUIL_FUNCTION_5,50,,0
+57,37,May you enjoy divine protection...,2113_VOICE_BUILLEAVE_01,50,,0
+58,37,Please do come again!♪,2113_VOICE_BUILLEAVE_02,50,,0
+59,37,Accept my prayers for your success!♪,2113_VOICE_BUILLEAVE_03,50,,0
+60,38,Wh-why aren't you answering?!,2113_VOICE_BUILLLEAVEALONE,100,,0
+61,39,Welcome!,2115_VOICE_BULIVISIT_NORMAL_1,50,,0
+62,39,"Oh, it's you.",2115_VOICE_BULIVISIT_NORMAL_2,50,,0
+63,39,Do what you want.,2115_VOICE_BULIVISIT_NORMAL_3,50,,0
+64,39,It looks like you're getting better...,2115_VOICE_BULIVISIT_RARE_1,10,,0
+65,39,"So, what are you making today?",2115_VOICE_BULIVISIT_RARE_2,10,,0
+66,40,"Hey, you found some new recipes!",2115_VOICE_BULIVISIT_NEW_1,50,,0
+67,40,You going to try something new?,2115_VOICE_BULIVISIT_NEW_2,50,,0
+68,41,Let's see what you've got!,2115_VOICE_BUIL_TOP_1,50,,0
+69,41,"You made it, you eat it!",2115_VOICE_BUIL_TOP_2,50,,0
+70,42,You've got to check it yourself!,2115_VOICE_BUIL_TOP_3,50,,0
+71,42,You'll never get better if you don't find more recipes.,2115_VOICE_BUIL_TOP_4,50,,0
+72,43,"I'll watch, OK?",2115_VOICE_BUIL_FUNCTION_1,50,,0
+74,44,That's nothing to be happy about!,2115_VOICE_BUIL_FUNCTION_2_01,50,,0
+75,44,That's nothing special...,2115_VOICE_BUIL_FUNCTION_2_02,50,,0
+76,45,"Hey, you're getting better than I thought...",2115_VOICE_BUIL_FUNCTION_3_01,50,,0
+77,45,That was...not just luck.,2115_VOICE_BUIL_FUNCTION_3_02,50,,0
+78,46,Yeah... Good job...!,2115_VOICE_BUIL_FUNCTION_4_01,50,,0
+79,46,"Oh, I bet you're getting hungry!",2115_VOICE_BUIL_FUNCTION_4_02,50,,0
+80,47,"No, no, NO!",2115_VOICE_BUIL_FUNCTION_5,100,,0
+81,48,"Oh, come on! Let me teach you...",2115_VOICE_BUIL_FUNCTION_6,100,,0
+82,49,"Well, I guess you are trying...",2115_VOICE_BUIL_FUNCTION_7,100,,0
+83,50,You've got to practice!,2115_VOICE_BUILLEAVE_01,50,,0
+84,50,Come back when you've gotten better!,2115_VOICE_BUILLEAVE_02,50,,0
+85,50,"Oh, you're going? S-see you!",2115_VOICE_BUILLEAVE_03,50,,0
+86,51,Are you...free?,2115_VOICE_BUILLLEAVEALONE,100,,0
+87,52,"Welcome to every 
+fighter's holy land!",2114_VOICE_BULIVISIT_NORMAL_1,50,,0
+88,52,"Oh, it's you!",2114_VOICE_BULIVISIT_NORMAL_2,50,,0
+89,52,"Come, your audience awaits!",2114_VOICE_BULIVISIT_NORMAL_3,50,,0
+90,52,"We've been waiting! Come, let me see your skill.",2114_VOICE_BULIVISIT_RARE_1,10,,0
+91,52,"Heehee, I knew... It was only a matter of time before you returned.",2114_VOICE_BULIVISIT_RARE_2,10,,0
+92,53,Battle knows no end!,2114_VOICE_BULIVISIT_NEW_1,50,,0
+93,53,"Your eyes turn ever upward, don't they?",2114_VOICE_BULIVISIT_NEW_2,50,,0
+94,54,Here's your current record.,2114_VOICE_BUIL_TOP_1,100,,0
+95,55,Rewards are this way.,2114_VOICE_BUIL_TOP_2,100,,0
+96,56,Give us a real show!,2114_VOICE_BUIL_TOP_3,100,,0
+97,57,Congratulations.,2114_VOICE_BUIL_FUNCTION_1,50,,0
+99,58,I look forward to what comes next...,2114_VOICE_BUIL_FUNCTION_2,50,,0
+101,59,Congratulations!♪,2114_VOICE_BUIL_FUNCTION_3,50,,0
+102,59,Keep moving upward...,2114_VOICE_BUIL_FUNCTION_4,50,,0
+103,63,How unfortunate.,2114_VOICE_BUIL_FUNCTION_5,50,,0
+104,63,Pride comes before a fall...,2114_VOICE_BUIL_FUNCTION_6,50,,0
+105,60,Good work today. That's all for today.,2114_VOICE_BUIL_FUNCTION_7,50,,0
+106,60,"Warriors need rest, too. Please get some rest today.",2114_VOICE_BUIL_FUNCTION_8,50,,0
+107,61,Do come again.,2114_VOICE_BUILLEAVE_01,50,,0
+108,61,I'm looking forward to next time...,2114_VOICE_BUILLEAVE_02,50,,0
+109,61,I look forward to your next attempt!,2114_VOICE_BUILLEAVE_03,50,,0
+110,62,You're quiet today...,2114_VOICE_BUILLLEAVEALONE,100,,0
+111,64,"Hey, good to see you!",2111_VOICE_BULIVISIT_NORMAL_1,50,,0
+112,64,"Hey hey. There's good
+work today!",2111_VOICE_BULIVISIT_NORMAL_2,50,,0
+113,64,What's up today?,2111_VOICE_BULIVISIT_NORMAL_3,50,,0
+114,64,"Ugh, that guy... Agh! Don't sneak up on me!",2111_VOICE_BULIVISIT_RARE_1,10,,0
+116,65,"Oh, hey, perfect timing!",2111_VOICE_BULIVISIT_NEW_1,50,,0
+117,65,"There's a pretty big job just come in, you interested?",2111_VOICE_BULIVISIT_NEW_2,50,,0
+118,66,This is what we've got.,2111_VOICE_BUIL_TOP_1,50,,0
+120,67,This is it.,2111_VOICE_BUIL_TOP_2,50,,0
+122,68,Are you feeling that one?,2111_VOICE_BUIL_TOP_3,50,,0
+124,69,Go get it done!,2111_VOICE_BUIL_FUNCTION_1,100,,0
+125,70,"Don't get cocky, OK?",2111_VOICE_BUIL_FUNCTION_2,100,,0
+126,71,Keep your head on.,2111_VOICE_BUIL_FUNCTION_3,100,,0
+127,72,"Gahahaha, no challenge there, right?",2111_VOICE_BUIL_FUNCTION_4,100,,0
+128,73,"Oh, nice work there! I think you might be able to handle more...",2111_VOICE_BUIL_FUNCTION_5,100,,0
+129,74,No complaints here. I'll have more later!,2111_VOICE_BUIL_FUNCTION_6,100,,0
+130,75,"Hmph, OK then.",2111_VOICE_BUIL_FUNCTION_7,50,,0
+131,75,"Oh, for crying out loud...",2111_VOICE_BUIL_FUNCTION_8,50,,0
+132,76,See you later.,2111_VOICE_BUILLEAVE_01,50,,0
+133,76,Don't forget your training!,2111_VOICE_BUILLEAVE_02,50,,0
+134,76,Good job.,2111_VOICE_BUILLEAVE_03,50,,0
+135,77,"OK then, now maybe a drink? Agh, it was a joke, just a joke! So, what do you want?",2111_VOICE_BUILLLEAVEALONE,100,,0
+136,78,Welcome...,2116_VOICE_BULIVISIT_NORMAL_1,50,,0
+137,78,What would you like?,2116_VOICE_BULIVISIT_NORMAL_2,50,,0
+138,78,What is your desire?,2116_VOICE_BULIVISIT_NORMAL_4,50,,0
+139,78,"Ah, and here you are again...",2116_VOICE_BULIVISIT_NORMAL_3,50,,0
+140,78,"Very good...yes, take your time.",2116_VOICE_BULIVISIT_RARE_1,10,,0
+141,78,"Ah, I was just putting on
+the kettle. Would you 
+like some?",2116_VOICE_BULIVISIT_RARE_2,10,,0
+142,79,Ahhh...It's you.,2116_VOICE_BULIVISIT_NEW_1,50,,0
+143,79,Have you come to see me?,2116_VOICE_BULIVISIT_NEW_2,50,,0
+144,80,"Now, just relax...",2116_VOICE_BUIL_TOP_1,50,,0
+146,81,I won't say no...,2116_VOICE_BUIL_TOP_2,50,,0
+148,82,I'll gladly take it off your hands.,2116_VOICE_BUIL_TOP_3,50,,0
+150,83,Is that what you want to sell?,2116_VOICE_BUIL_TOP_4,50,,0
+152,84,You have good taste.,2116_VOICE_BUIL_FUNCTION_1,50,,0
+154,85,"Well, let's get started...",2116_VOICE_BUIL_FUNCTION_2_01,50,,0
+155,85,Don't get carried away.,2116_VOICE_BUIL_FUNCTION_2_02,50,,0
+156,86,A new spirit...,2116_VOICE_BUIL_FUNCTION_3,50,,0
+158,87,That's no mere tool!,2116_VOICE_BUIL_FUNCTION_4,50,,0
+160,88,How rare!,2116_VOICE_BUIL_FUNCTION_5,50,,0
+162,92,"The powers resisted, perhaps...",2116_VOICE_BUIL_FUNCTION_6,50,,0
+164,89,Heehee...thank you.,2116_VOICE_BUIL_FUNCTION_7,50,,0
+167,90,You're welcome any time.,2116_VOICE_BUILLEAVE_01,50,,0
+168,90,Let's do meet again!,2116_VOICE_BUILLEAVE_02,50,,0
+169,90,Even if you only come to see me...,2116_VOICE_BUILLEAVE_03,50,,0
+170,91,"I'm taking it easy today. Oh, because it's just us two?",2116_VOICE_BUILLLEAVEALONE,100,,0
+171,93,"Hello, the library is open.",2117_VOICE_BULIVISIT_CLOSE_1,100,Serah,0
+172,93,"Welcome, the Professor is out right now.",2117_VOICE_BULIVISIT_CLOSE_2,100,Serah,0
+173,93,Oh yes? What can I do for you?,2117_VOICE_BULIVISIT_CLOSE_3,100,Serah,0
+174,93,The information about the monsters of the Mines are all in the library.,2117_VOICE_BULIVISIT_CLOSE_4,100,Serah,0
+175,93,Did you come to meet me?,2117_VOICE_BULIVISIT_CLOSE_5,100,Serah,0
+176,94,"The tunnels are complicated, and you'll easily get lost.
+Be careful.",2117_VOICE_BULIVISIT_OPEN_ARCANA_2,100,Arcana,177
+177,94,"The Professor himself often gets lost, too.",2117_VOICE_BULIVISIT_OPEN_SERA_2,0,Serah,0
+178,94,"Dangerous things are to happen when you're mining.
+Don't lower your guard!",2117_VOICE_BULIVISIT_OPEN_ARCANA_3,100,Arcana,179
+179,94,Look who's talking...,2117_VOICE_BULIVISIT_OPEN_SERA_3,0,Serah,0
+180,95,Heading back home? See you soon!,2117_VOICE_BUILLEAVE_1,100,Serah,0
+181,95,Nice work! See you!,2117_VOICE_BUILLEAVE_2,100,Serah,0
+182,96,Heading back home? See you soon!,2117_VOICE_BUILLEAVE_1,100,Serah,0
+183,96,Nice work! See you!,2117_VOICE_BUILLEAVE_2,100,Serah,0
+184,96,Great work.,2117_VOICE_BUILLEAVE_3,100,Arcana,0
+185,97,"There you are.
+Have some snacks, if you
+can pay for them.",2392_VOICE_FREE_A,100,,0
+186,97,What are we making today?,2392_VOICE_FREE_B,100,,0
+187,97,I was just about to get bored. Take a seat.,2392_VOICE_FREE_C,100,,0
+188,97,"Once is enough to get you hooked, eh?",2392_VOICE_FREE_D,100,,0
+190,98,"You came empty-handed?
+Where's your sense of etiquette?",2392_VOICE_FREE_E,100,,0
+191,99,What are we making today?,2392_VOICE_FREE_B,100,,0
+192,100,"Sorry, you need to prove yourself in Grand Crusade first.",,100,,0
+193,101,Here's a complete catalog of Fusion Equips. I'll give you a special peek.,,100,,0

@@ -1,0 +1,131 @@
+id,content_id,name,disp_frame_value,group_type,priority
+101,1,Tower of Initiation,1,0,99
+201,2,Normal,1,0,199
+202,2,Melia's Past,3,0,198
+203,2,The Magical Plant's Target,3,0,197
+204,2,"Giaveil, the Grand Prince of Sin",3,0,196
+205,2,Guardian of Time,3,0,195
+206,2,Shadowy Pall,3,0,194
+207,2,Borne by Wishes,3,0,193
+208,2,Sinful Puppet,3,0,192
+209,2,Minced Words,3,0,191
+210,2,The Blade Awakens,3,0,190
+211,2,The Sword's Will,3,0,189
+212,2,The Fated Clash,3,0,188
+213,2,Through the Night,3,0,187
+214,2,Meet the Scout,3,0,186
+215,2,Master of Crimson,3,0,185
+216,2,Memories of the Comet,3,0,184
+217,2,Darklight Dragon,3,0,183
+218,2,Ring of Time,3,0,182
+219,2,Defier of Fate,3,0,181
+220,2,Apostate Paladin,3,0,180
+221,2,Their Promise,3,0,179
+222,2,Blooming Intensity,3,0,178
+223,2,Beyond the Ages,3,0,177
+224,2,Prima Ether Blades,3,0,176
+225,2,Opposing Blades,3,0,175
+226,2,Following the Crest,3,0,174
+227,2,Dead Howling,3,0,173
+301,3,Ryude Granza,2,0,299
+304,3,Phantom Snipers,2,0,296
+305,3,Forbidden Ninja Scroll,2,0,295
+306,3,Cross the Blaze,2,0,294
+307,3,Knights of Blood,2,0,293
+308,3,The Five Freedom Fighters,2,0,292
+309,3,Main Story,2,0,291
+401,4,Temple of Heavenly Light,1,8,399
+402,4,Shrine of Oblivion,3,2,398
+403,4,Shrine of Aberration,3,5,397
+404,4,Shrine of the Azul Knight,3,4,396
+405,4,Shrine of the Burning Chains,3,3,395
+406,4,Shrine of Adamantine,3,6,394
+407,4,Shrine of Whirlwind,3,7,393
+408,4,Shrine of Discordia,3,1,392
+409,4,Shrine of Crimson Sea,3,3,391
+410,4,Shrine of Diamond Dust,3,4,390
+411,4,Shrine of Eternity,3,5,389
+412,4,Shrine of Cursed Claw,3,7,388
+413,4,Shrine of Perdition,3,2,387
+414,4,Shrine of Tribulation,3,1,386
+415,4,Shrine of Caliginosity,3,6,385
+416,4,Shrine of Sagacity,3,1,384
+417,4,Shrine of Cinderplume,3,3,383
+418,4,Shrine of Frigidity,3,4,382
+420,4,Shrine of Subspace,3,2,380
+501,5,Pride of the Warrior,3,9,499
+502,5,The Master Chef's Test,3,9,498
+503,5,The Demon's Pride,3,9,497
+504,5,Legendary Blacksmith,3,9,496
+505,5,Guardian of the Lonely Woods,3,9,495
+506,5,The Demon's Dream,3,9,494
+507,5,Echoes of Invasion,3,9,493
+508,5,Ravage of the Azure Swordsman,3,9,492
+509,5,The Dragon General's Sword,3,9,491
+510,5,Pierrot of Flames,3,9,490
+511,5,Weapon with a Heart,3,9,489
+512,5,Misson of the Sacred Sword,3,9,488
+513,5,The Beast's Rampage,3,9,487
+514,5,The Guardian Giant,3,9,486
+515,5,Mask of Madness,3,9,485
+516,5,Wrath of the Dragon Slayer,3,9,484
+517,5,The Crescent Dancer,3,9,483
+518,5,The Vengeful Spear of Ice,3,10,482
+519,5,Fangs of Remorse,3,10,481
+520,5,The Azure Monarch,3,10,480
+521,5,The Servant Who Defied,3,10,479
+522,5,Blade of Ginzo,3,10,478
+523,5,Soul of Imari,3,10,477
+601,6,Crimson Flames of the Phoenix,3,11,599
+602,6,Cry of the Azure Roc,3,11,598
+603,6,Clashing Thunder of the Emerald Bird,3,11,597
+604,6,The Crimson King,3,11,596
+605,6,A Subzero Hellscape,3,11,595
+606,6,The Green Strikes Back,3,11,594
+607,6,Glowing Sanctuary,3,11,593
+608,6,Shadow of the God Eater,3,11,592
+609,6,Caverns of Dark,3,11,591
+610,6,Shrine of Remembrance,3,11,590
+611,6,Sanctuary of the Divine Princess,3,11,589
+612,6,Fortress of the Machine God,3,11,588
+613,6,Trials of the Flame God,3,12,587
+614,6,Battle against the Silent Holy Knight,3,12,586
+615,6,Frozen Calamity in the North,3,12,585
+616,6,Life Draining Botanical Beast,3,12,584
+617,6,Sanctuary of the Bright Spirit,3,12,583
+618,6,Awakening Cursed Armor,3,12,582
+701,7,Shrine of Remembrance [Ultra],3,0,699
+702,7,Sanctuary of the Divine Princess [Ultra],3,0,698
+703,7,The Crimson King [Ultra],3,0,697
+704,7,Caverns of Dark [Ultra],3,0,696
+705,7,The Green Strikes Back [Ultra],3,0,695
+706,7,Fortress of the Machine God [Ultra],3,0,694
+707,7,Cry of the Azure Roc [Ultra],3,0,693
+708,7,Clashing Thunder of the Emerald Bird [Ultra],3,0,692
+709,7,Crimson Flames of the Phoenix [Ultra],3,0,691
+711,7,Awakening Cursed Armor X,3,0,689
+712,7,Frozen Calamity in the North [Ultra],3,0,688
+801,8,Flametail Mountain,2,0,799
+802,8,Frostsprite Tundra,2,0,798
+803,8,Smogdragon Island,2,0,797
+804,8,Eternaglint Summit,2,0,796
+805,8,Sinflow Cavern,2,0,795
+806,8,Sealed Holy Land,2,0,794
+901,9,Dungeon of Trials,1,0,899
+1001,10,Inferno Ruins,2,0,999
+1002,10,Aqua Ruins,2,0,998
+1003,10,Forest Ruins,2,0,997
+1004,10,Luminous Ruins,2,0,996
+1005,10,Shadow Ruins,2,0,995
+1101,11,Mankind Ruins,2,0,1099
+1102,11,Divinity Ruins,2,0,1098
+1103,11,Infernal Ruins,2,0,1097
+1201,12,Episode 1,1,0,1199
+1202,12,Episode 2,2,0,1198
+1203,12,Episode 3,2,0,1197
+1204,12,Episode 4,2,0,1196
+1301,13,Mine Boss,1,0,1299
+1302,13,Omega Mine Boss,1,0,1298
+1401,14,Beginners Class,1,0,1399
+1402,14,Fighters Class,1,0,1398
+1403,14,Masters Class,1,0,1397

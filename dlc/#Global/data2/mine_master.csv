@@ -1,0 +1,2 @@
+id,max_floor,boss_magic_stone_rate,stamina_function,drop_user_exp_function,first_rare_boss_battle_floor,high_magic_stone_floor,rare_boss_up_rate,floor_change_interval,floor_change_time,floor_change_start,start_max_floor
+1,-1,80,math.atan(a*0.05)*2/math.pi*5+10,(math.atan(a*0.05)*2/math.pi*5+10)*123,5,10,300,5,30,10,10

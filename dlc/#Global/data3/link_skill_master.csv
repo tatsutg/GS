@@ -1,0 +1,23 @@
+id,base_unit_1_id,base_unit_2_id,base_unit_1_cutin_direction,base_unit_2_cutin_direction,skill_1_id,skill_2_id,skill_name,description
+109110,109,110,0,1,20109800,20110800,Unlimited Desire,"Can be activated with Grad & Nier.
+66666% Dark DMG (Physical).
+Increases DMG by 66% & CRI DMG by 99% for both units for 99s ."
+298299,298,299,0,1,20298800,20299800,Cross the Blaze,"Can be activated with Cestina (Earth) & Radak.
+100000% Fire & Earth DMG (Physical).
+Increases both units' DMG by 200% for 25s.
+Auto-fills Fire units' Arts gauges by 7 &
+increases Earth units' DMG by 200% for 25s."
+300301,300,301,0,1,20300800,20301800,Thunderstorm Domination,"Can be activated with Liza & Cygnet.
+77000% Light DMG (Magic).
+Heals both unit's HP by 50% of DMG taken during Cross Arts.
+Increases all allies' DMG to Weak-Element enemy by 250% for 60s."
+302303,302,303,0,1,20302800,20303800,Jugement Dernier,"Can be activated with Orvell (Light) & Virago.
+150000% Water (Magic) & Light (Physical) DMG.
+Cross Arts units' Arts gauge UP by 50.
+Adds 150000% to Cross Arts DMG scaling factor
+when ""Testament of the King"" and ""Overlord's squire"" are MAX."
+304305,304,305,0,1,20304800,20305800,Soul Destiny,"Can be activated with Luahn & Chloe (Dark).
+100000% Dark DMG (Physical).
+Increases Arts gauge by 100 for both units.
+Costs Chloe (Dark)'s HP by 50% of MAX HP.
+Auto-fills Luahn's Arts gauge by 6, also increases Skill CT speed & ATK by 100% for 120s."

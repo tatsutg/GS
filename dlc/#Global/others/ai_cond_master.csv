@@ -1,0 +1,160 @@
+id,name,cond_info,icon,icon_type,description,param_types,base_unit_ids,group_id,lua_key,priority
+1,対象のHP,対象のHPの値を条件にして発動,ai_cond_icon_1.png,302,When the HP of{}is{}{},"[4, 7, 3]",,0,,27
+2,対象の奥義ゲージ,対象の奥義ゲージの値を条件にして発動,ai_cond_icon_2.png,301,When the Arts gauge of{}is{}{},"[13, 8, 3]",,0,,26
+3,対象のスキルCT,対象のスキルCTの値を条件にして発動,ai_cond_icon_3.png,302,When the Skill CT of{}is{}{},"[2, 7, 3]",,0,,25
+4,対象の装備CT,対象の装備CTの値を条件にして発動,ai_cond_icon_4.png,401,When the CT of{}'s{}is{}{},"[2, 14, 7, 3]",,0,,24
+5,対象の状態異常,対象の状態異常を条件にして発動,ai_cond_icon_5.png,1201,When{}{}{},"[4, 10, 5]",,0,,5
+6,ボスがブレイク中,ボスがブレイク中を条件にして発動,ai_cond_icon_6.png,101,When the Boss{}Break status,[1002],,0,,22
+7,Wave数,Wave数を条件にして発動,ai_cond_icon_7.png,202,When the current wave is{}{},"[6, 9]",,0,,21
+8,ラストWave,ラストWaveを条件にして発動,ai_cond_icon_8.png,101,When{}the last wave,[1004],,0,,20
+9,スキル発動回数,スキル発動回数を条件にして発動,ai_cond_icon_9.png,203,When this unit's Skill has been used{}time(s){},"[15, 3]",,0,,19
+10,奥義発動回数,奥義発動回数を条件にして発動,ai_cond_icon_10.png,203,When this unit's Arts has been used{}time(s){},"[15, 3]",,0,,18
+11,真奥義発動回数,真奥義発動回数を条件にして発動,ai_cond_icon_11.png,203,When this unit's True Arts has been used{}time(s){},"[15, 3]",,0,,17
+12,連携奥義発動回数,連携奥義発動回数を条件にして発動,ai_cond_icon_12.png,203,When this unit has used Cross Arts{}time(s){},"[15, 3]","[109, 110, 298, 299, 300, 301, 302, 303, 304, 305]",0,,15
+13,ファントム・バレット発動回数,ファントム・バレット発動回数を条件にして発動,ai_cond_icon_13.png,203,When this unit has fired{}{}Phantom Bullet(s),"[15, 3]","[328, 330,331,341,382,430]",0,,14
+14,奥義発動回数の偶奇,奥義発動回数の偶奇/奇数を条件にして発動,ai_cond_icon_14.png,101,When this unit has used Arts an{}number of times,[12],,0,,12
+15,真奥義発動回数の偶奇,真奥義発動回数の偶奇/奇数を条件にして発動,ai_cond_icon_15.png,101,When this unit has used True Arts an{}number of times,[12],,0,,11
+16,ボスが奥義発動中,ボスが奥義発動中を条件にして発動,ai_cond_icon_16.png,101,When the Boss{}Arts,[1003],,0,,4
+17,対象の属性が〇属性,対象の属性を条件にして発動,ai_cond_icon_4.png,303,When the Element of{}{}{},"[4,10,17]",,0,,3
+18,対象の種族が〇族,対象の種族を条件にして発動,ai_cond_icon_4.png,303,When the Race of{}{}{},"[4,10,18]",,0,,2
+19,ボスのBREAKゲージ,ボスのBREAKゲージの値を条件にして発動,ai_cond_icon_19.png,205,When the Boss' Break gauge is{}{},"[7,3]",,0,,23
+20,クエスト開始からの時間,クエスト開始からの時間経過を条件にして発動,ai_cond_icon_20.png,203,When{}seconds{}have passed since the start of the Quest,"[8,3]",,0,,1
+21,敵の数,敵の数を条件にして発動,ai_cond_icon_21.png,203,When there are{}foe(s){},"[6,3]",,0,,0
+22,特殊スキル発動回数,特殊スキル発動回数を条件にして発動,ai_cond_icon_22.png,304,When this unit has used{}{}time(s){},"[19,15, 3]","[324,325]",0,,13
+23,特殊スキル発動回数の偶奇,特殊スキル発動回数の偶奇/奇数を条件にして発動,ai_cond_icon_23.png,201,When this unit has used{}an{}number of times,"[19,12]","[324,325]",0,,6
+25,超奥義発動回数,超奥義発動回数を条件にして発動,ai_cond_icon_25.png,203,When this unit's Super Arts has been used{}time(s){},"[15, 3]",,0,,16
+26,超奥義発動回数の偶奇,超奥義発動回数の偶奇/奇数を条件にして発動,ai_cond_icon_26.png,101,When this unit has used Super Arts an{}number of times,[12],,0,,10
+27,奥義・真奥義の合計発動回数の偶数,奥義・真奥義の合計発動回数の偶数/奇数を条件にして発動,ai_cond_icon_27.png,101,When this unit has used Arts and True Arts in total an{}number of times,[12],,0,,9
+28,奥義・真奥義・超奥義発動回数を3で割った時の余り,奥義・真奥義・超奥義発動回数を3で割った時の余りを条件にして発動,ai_cond_icon_28.png,102,"When the remainder after dividing the total
+number of times this unit has used Arts,
+True Arts, and Super Arts by 3 is{}",[31],,0,,7
+29,奥義・真奥義・超奥義発動回数,奥義・真奥義・超奥義発動回数を条件にして発動,ai_cond_icon_29.png,101,"When this unit has used Arts, True Arts, and Super Arts in total an{}number of times",[12],,0,,8
+30,特定の行動の数秒後に発動,特定の行動を行ってからの時間経過を条件にして発動,ai_cond_icon_30.png,402,When{}last used{}{}{}second(s) ago,"[2,34,41,35]",,0,,120
+31,レガリアゲージ,レガリアゲージの値を条件にして発動,ai_cond_icon_31.png,203,When the Regalia gauge is{}{},"[8, 3]",[391],0,,50001
+32,選択した行動の発動回数,選択した行動の発動回数を条件にして発動,ai_param_icon_base.png,1401,When {} has used {} {} time(s) {},"[33,34,15,3]",,0,,30
+33,選択した行動の発動回数を割った時の余り,選択した行動の発動回数を3で割った時の余りを条件にして発動,ai_param_icon_base.png,1402,When the remainder of the number of times {} has used {} divided by {} is {},"[33,34,39,40]",,0,,29
+47,対象の主人公状態,主人公状態説明,ai_param_icon_base.png,303,If {}{}{},"[2, 10, 52]",,0,,141
+48,発動中の主人公タイプ,主人公タイプ判定,ai_param_icon_base.png,303,If the active Protag type on the {}{}{},"[54,10,53]",,0,,140
+50001,マギアドライブ,マギアドライブ説明,ai_cond_icon_50001.png,101,When Magia Drive{}active,[10],"[248, 249, 250, 251, 252, 266, 267, 344, 357, 358,363,408,849]",0,CALL2_MAGIADRIVE(),50001
+50002,アンリミテッド,アンリミテッド説明,ai_cond_icon_50002.png,101,When Unlimited mode{}active,[10],"[344,357,358,363,408]",0,CALL2_MAGIAUNLIMITED(),50002
+50003,カイガン,カイガン説明,ai_cond_icon_50003.png,101,When Third Eye{}active,[10],"[282,283,284,285,286,287,288,349,350, 351,352,354,356]",0,CALL2_KAIGAN(),50003
+50004,シンカイガン,シンカイガン説明,ai_cond_icon_50004.png,101,When True Third Eye{}active,[10],"[349,350,351,352,354,356]",0,CALL2_SHINKAIGAN(),50004
+50005,魔血真蝕,魔血真蝕説明,ai_cond_icon_50005.png,101,When Demonic True Eclipse{}active,[10],[268],0,CALL2_MAKETHUKAKUSEI(),50005
+50006,リベレイション,リベレイション説明,ai_cond_icon_50006.png,101,When Revelation{}active,[10],[324],0,USE_TIMER_1,50006
+50007,エクスフォーゼ,エクスフォーゼ説明,ai_cond_icon_50007.png,101,When Ex-Force{}active,[10],[101],0,USE_TIMER_2,50007
+50008,戦鬼モード,戦鬼モード説明,ai_cond_icon_50008.png,101,When Berserk Mode{}active,[10],[111],0,111_Senki,50008
+50009,雷帝モード,雷帝モード説明,ai_cond_icon_50009.png,101,When Ruler of Thunder Mode{}active,[10],[135],0,135_Raitei,50009
+50010,天牙モード,天牙モード説明,ai_cond_icon_50010.png,101,When Heavenly Fang Mode{}active,[10],[335],0,335_Tenga,50010
+50011,アベンジャーモード,アベンジャーモード説明,ai_cond_icon_50011.png,101,When Avenger Mode{}active,[10],[307],0,307_Avenger,50011
+50012,ゴッドレイジ,ゴッドレイジ説明,ai_cond_icon_50012.png,101,When God Rage{}at max effect,[10],[178],0,178_GodRage,50012
+50013,ヒットカウント,ヒットカウント説明,ai_cond_icon_50013.png,203,When the HIT count is{}{},"[21,3]",[179],0,179_HitCounter,50013
+50014,クリティカルヒットカウント,クリティカルヒットカウント説明,ai_cond_icon_50013.png,203,When the Critical HIT count is{}{},"[21,3]",[301],0,301_CriHitCounter,50014
+50015,王者の証,王者の証説明,ai_cond_icon_50015.png,203,When Testament of the King has been used{}time(s){},"[22,3]",[302],0,302_King,50015
+50016,覇王の従者,覇王の従者説明,ai_cond_icon_50016.png,203,When Overlord's Squire has been used{}time(s){},"[22,3]",[303],0,303_Squire,50016
+50017,聖楔,聖楔説明,ai_cond_icon_50017.png,203,When{}{}vectors have been driven into the enemy,"[23,3]",[320],0,320_Kusabi,50017
+50018,古代種の血,古代種の血説明,ai_cond_icon_50018.png,203,When Ancient Blood has been used{}time(s){},"[22,3]",[254],0,254_AncientCount,50018
+50019,波動装甲,波動装甲説明,ai_cond_icon_50019.png,203,When Undulating Armor is Lv{}{},"[24,3]",[59],0,59_Armor,50019
+50020,リベリオン,リベリオン説明,ai_cond_icon_50020.png,203,When Rebellion is Lv{}{},"[22,3]",[189],0,189_Rebellion,50020
+50021,死霊使い,死霊使い説明,ai_cond_icon_50021.png,203,When{}{}enemies/allies have been KOed,"[25,3]",[247],0,247_DeadCount,50021
+50022,集中力,集中力説明,ai_cond_icon_50013.png,203,When Deep Focus is{}{},"[21,3]",[279],0,279_HitCounter,50022
+50023,竜炎,竜炎説明,ai_cond_icon_50023.png,203,When{}{}Dragon Flames are active,"[26,3]",[306],0,306_Dragon,50023
+50024,魔法陣,魔法陣説明,ai_cond_icon_50024.png,101,While the Magic Circle{}active,[10],[323],0,323_Magic,50024
+50026,出血Lv,出血Lv説明,ai_cond_icon_50026.png,203,When the enemy's Bleed Lv is{}{},"[24,3]","[304,328,355,377,390]",0,304_Blood,50026
+50027,喝采,喝采説明,ai_cond_icon_50027.png,203,When there have been{}{}round(s) of applause,"[15,3]",[315],0,315_Applause,50027
+50028,黄金宙艇,黄金宙艇説明,ai_cond_icon_50028.png,203,When Golden Machinas has been used{}time(s){},"[26,3]",[185],0,185_Bit,50028
+50029,零ノ刃,零ノ刃説明,ai_cond_icon_50029.png,203,When Zero no Yaiba has been used{}time(s){},"[23,3]",[321],0,321_Blade,50029
+50030,狐魂,狐魂説明,ai_cond_icon_50030.png,203,When{}{}Spirit Fox(es) are out,"[27,3]",[311],0,311_foxSoul,50030
+50031,ファントム・バレット同時発射弾数,ファントム・バレット同時発射弾数説明,ai_cond_icon_50031.png,203,When{}{}Phantom Bullets are loaded,"[23,3]",[331],0,331_PB,50031
+50032,努力がくれたもの,努力がくれたもの説明,ai_cond_icon_50032.png,203,When Effort's Reward has been earned{}time(s){},"[27,3]",[314],0,314_Effort,50032
+50033,分身,分身説明,ai_cond_icon_50033.png,101,While a duplicate{}active,[10],"[229,771]",0,229_myShadow,50033
+50034,魔血真蝕,魔血真蝕説明,ai_cond_icon_50034.png,101,When Demonic True Eclipse{}active,[10],[322],0,322_Maketsu,50034
+50035,神装解放,神装解放説明,ai_cond_icon_50035.png,101,When Liberation{}active,[10],[345],0,USE_TIMER_5,50035
+50036,神装解放,神装解放説明,ai_cond_icon_50036.png,101,When Liberation{}active,[10],[346],0,USE_TIMER_5,50036
+50037,リベレイション,リベレイション説明,ai_cond_icon_50037.png,101,When Revelation{}active,[10],[325],0,USE_TIMER_1,50037
+50039,水モード,水モード説明,ai_cond_icon_50039.png,101,While{}Mode is active,[28],[138],0,138_WaterTree,50039
+50041,攻撃モード,攻撃モード説明,ai_cond_icon_50041.png,101,While{}Mode is active,[29],[113],0,113_HealAttack,50041
+50042,献身,献身説明,ai_cond_icon_50042.png,203,When Devotion is Lv{}{},"[22,3]",[225],0,225_Devote,50042
+50043,クナイ,クナイ説明,ai_cond_icon_50043.png,203,"per Kunai driven{},{}","[23,3]",[351],0,351_Kunai,50043
+50044,ギルティ・チェイン発動数,ギルティ・チェイン発動数説明,ai_cond_icon_50044.png,203,When Sinner's Prison has been used{}time(s){},"[26,3]",[330],0,330_Chain,50044
+50045,ギルティ・チェイン発動時間,ギルティ・チェイン発動時間説明,ai_cond_icon_50045.png,203,When the effect of Sinner's Prison has{}second(s){}left,"[15,3]",[330],0,330_ChainTime,50045
+50047,Unlimited Blade Works,無限の剣製説明,ai_cond_icon_50047.png,101,When Unlimited Blade Works{}active,[10],[777],0,CALL2_USETIMER(),50047
+50049,眷属の召喚数,眷属の召喚数,ai_cond_icon_50049.png,203,With {} {} active servants,"[38,3]",[376],0,376_Followers,50049
+50050,Liberation,"1st slot's Equip changes to Super ""Cross of Gran Verge"" when Super Arts is activated.",ai_cond_icon_50050.png,101,When Liberation mode {} active,[10],[406],0,USE_TIMER_5,50050
+80001,Royal Reinforcement,Summons Wyrms that only take DMG from matching Element attacks. They use Status Ailment-inflicting Arts then vanish.,ai_cond_icon_80001.png,204,When{}{}active,"[16,10]",,14000100,USE_ENEMY_EXIST_0,6
+80002,Wyrm's Shell (Battle Start),Starts with boosted Evasion rate and a shield that nullifies a set amount of DMG.,ai_cond_icon_boss_special_01.png,101,When the starting Wyrm's Shell{}active,[10],,14000100,USE_CONDITION_40001171,3
+80003,Fallen Light,Paralyzes units and deals extra DMG to Dark units.,ai_cond_icon_boss_arts_01.png,101,When Fallen Light{}active,[10],,14000100,"USE_SKILL_93430800,93440800,93450800,93460800",5
+80004,"Heaven's Shadow Needle ""Rinne""",Curses units and deals extra DMG to Light units.,ai_cond_icon_boss_arts_02.png,101,When Rinne{}active,[10],,14000100,"USE_SKILL_93431000,93441000,93451000,93461000",4
+80005,Violent Shaking,Reduces the unit with the most HP to 1.,ai_cond_icon_boss_arts_01.png,101,When Violent Shaking{}active,[10],,14000200,"USE_SKILL_83725600,83726600,83727600,83728600",3
+80006,Sengoku Resonance,Poisons units.,ai_cond_icon_boss_arts_02.png,101,When Sengoku Resonance{}active,[10],,14000200,"USE_SKILL_83725500,83726500,83727500,83728500",2
+80007,Fog,Increases Evasion rate. Disappears with Break.,ai_cond_icon_boss_special.png,101,When the fog{}active,[10],,14000200,USE_CONDITION_31,1
+80008,Chewing Rose,Steals HP from units.,ai_cond_icon_boss_arts_01.png,101,When Chewing Rose{}active,[10],,14000300,"USE_SKILL_83736600,83737600,83738600,83739700",10
+80009,Grand Cry,Reduces units' ATK.,ai_cond_icon_boss_arts_02.png,101,When Grand Cry{}active,[10],,14000300,"USE_SKILL_83736700,83737700,83738700,83739800",9
+80010,Servant Summon (60% HP),"When its HP reaches 60%, it will call seven different kinds of back-up helpers.",ai_cond_icon_boss_special_01.png,101,When the 60%-HP Servant Summon{}active,[10],,14000300,USE_CONDITION_40003521,7
+80011,"Divine Silent Sword ""Quiet Finisher""",Cancels DMG negation and Faints units along with boosting her HP recovery.,ai_cond_icon_boss_arts_06.png,101,When Quiet Finisher{}active,[10],,14000400,"USE_SKILL_83771000,83781000,83791000,83802000",1
+80012,"Divine Silent Sword ""Saints""","Cancels DMG negation, increases DMG taken, and lowers action speed for units as well as boosting her HP recovery.",ai_cond_icon_boss_arts_05.png,101,When Saints{}active,[10],,14000400,"USE_SKILL_83771100,83781100,83791100,83802100",2
+80013,Vulcan Knuckle,Reduces units' Fire resistance.,ai_cond_icon_boss_arts_01.png,101,When Vulcan Knuckle{}active,[10],,14000500,"USE_SKILL_83805500,83806500,83807500,83808500",3
+80014,Loggis Rage,Burns units.,ai_cond_icon_boss_arts_02.png,101,When Loggis Rage{}active,[10],,14000500,"USE_SKILL_83805600,83806600,83807600,83808600",2
+80015,Latios Chain,Burns units.,ai_cond_icon_boss_arts_03.png,101,When Latios Chain{}active,[10],,14000500,"USE_SKILL_83805700,83806700,83807700,83808700",1
+80016,"Judgement Breath (50％ HP, 20% HP)","Reduces units' Arts gauges, drains them further, and Faints.",ai_cond_icon_boss_arts_02.png,101,When the 50%-/20%-HP Judgement Breath{}active,[10],,14000600,"USE_SKILL_83814700,83815700,83816700,83817700",2
+80017,Shining Cry,Reduces units' Accuracy.,ai_cond_icon_boss_arts_01.png,101,When Shining Cry{}active,[10],,14000600,"USE_SKILL_83814800,83815800,83816800,83817800",3
+80018,Gaul: Heat Spin,Reduces units' DEF.,ai_cond_icon_enemy_arts_01.png,101,When a Gaul's Heat Spin{}active,[10],,14000700,USE_SKILL_93803100,2
+80019,Somersault,Reduces units' Arts gauges.,ai_cond_icon_boss_arts_01.png,101,When Somersault{}active,[10],,14000700,"USE_SKILL_83824600,83825600,83826600,83827600",4
+80020,Roar,Drains units' Arts gauges.,ai_cond_icon_boss_arts_02.png,101,When Roar{}active,[10],,14000700,"USE_SKILL_83824700,83825700,83826700,83827700",3
+80021,Mad Blader,Reduces units' Arts gauges and ATK.,ai_cond_icon_boss_arts.png,101,When Mad Blader{}active,[10],,14000800,"USE_SKILL_83848500,83847500,83846500,83845500",2
+80023,Boss Boost (50% HP),"When its HP reaches 50%, its DMG and action speed will be boosted.",ai_cond_icon_hp_marker_50.png,101,When the 50%-HP Boss Boost{}active,[10],,14000800,USE_MARKER_50,1
+80024,Inferno Blast,Reduces units' Fire resistance.,ai_cond_icon_boss_arts_01.png,101,When Inferno Blast{}active,[10],,14000900,USE_SKILL_88003200,3
+80025,Blazing Impact,Boosts DMG and CRI rate.,ai_cond_icon_boss_arts_02.png,101,When Blazing Impact{}active,[10],,14000900,USE_SKILL_88003300,2
+80026,Boss Boost (30% HP),"When its HP reaches 30%, its DMG will be boosted, and it will gain HP regen.",ai_cond_icon_hp_marker_30.png,101,When the 30%-HP Boss Boost{}active,[10],,14000900,USE_MARKER_30,1
+80029,Blau Vortex,Inflicts Ultimate Freezing on units.,ai_cond_icon_boss_arts_01.png,101,When Blau Vortex{}active,[10],,14001000,USE_SKILL_93964100,7
+80030,Dart Wing,Poisons units.,ai_cond_icon_boss_arts_02.png,101,When Dart Wing{}active,[10],,14001000,USE_SKILL_93964200,6
+80031,Boss Boost (70% HP),"When its HP reaches 70%, its action speed will increase, and it will instantly use Arts. If in Storm Mode, it will use Dart Wing for high Physical Water DMG.",ai_cond_icon_hp_marker_70.png,101,When the 70%-HP Boss Boost{}active,[10],,14001000,USE_CONDITION_23870,4
+80032,Storm Mode,Boosts Evasion rate and nullifies Break DMG. Dealing enough DMG with Status Ailments will cancel it.,ai_cond_icon_boss_special.png,101,When Storm Mode{}active,[10],,14001000,USE_CONDITION_5000031,8
+80033,Boss Boost (50% HP),"When its HP reaches 50%, it enters Storm Mode.",ai_cond_icon_hp_marker_50.png,101,When the 50%-HP Boss Boost{}active,[10],,14001000,USE_CONDITION_23850,3
+80034,Gale Breath,Increases DMG and ATK as well as calls Dark Corocs.,ai_cond_icon_boss_arts_01.png,101,When Gale Breath{}active,[10],,14001100,USE_SKILL_88116100,6
+80035,Gaia Grief,Increases DMG and ATK as well as calls Dark Corocs.,ai_cond_icon_boss_arts_02.png,101,When Gaia Grief{}active,[10],,14001100,USE_SKILL_88116200,5
+80036,Mad Predator,Units take more DMG and Boss' Arts gauge speed increases.,ai_cond_icon_boss_arts_01.png,101,When Mad Predator{}active,[10],,14001200,USE_SKILL_88324100,5
+80037,Crimson Beating,Increases DMG dealt.,ai_cond_icon_boss_arts_02.png,101,When Crimson Beating{}active,[10],,14001200,USE_SKILL_88324200,4
+80038,Shadow Lightning (Last Resort),"When its HP reaches 0%, it will deal high Magic Dark DMG after a short delay.",ai_cond_icon_boss_arts_01.png,101,When the Shadow Lightning{}active,[10],,14001300,USE_SKILL_88383100,6
+80039,Roar of Ruin,Paralyzes units and calls two helpers (Grangarod or Cyclops chosen at random).,ai_cond_icon_boss_arts_02.png,101,When Roar of Ruin{}active,[10],,14001300,USE_SKILL_88383200,5
+80131,"Wyrm's Shell (80% HP, 50% HP)","When her HP reaches 80% and 50%, she gains boosted Evasion rate, HP regen, and a shield that nullifies a set amount of DMG.",ai_cond_icon_boss_special_02.png,101,When the 80%-/50%-HP Wyrm's Shell{}active,[10],,14000100,USE_CONDITION_4000117,2
+80132,Boss Boost (30% HP),"When her HP reaches 30%, her DMG and action speed will be boosted.",ai_cond_icon_hp_marker_30.png,101,When the 30%-HP Boss Boost{}active,[10],,14000100,USE_MARKER_30,1
+80133,Phantasm Lock,"Locks one unlocked unit. Lock inflicts Faint, deals continuous DMG, and sets Arts gauge, Skill CT, and Equip CT to 0.",ai_cond_icon_boss_arts_01.png,101,When Phantasm Lock{}active,[10],,14001400,USE_SKILL_88469200,4
+80134,Commanding Roar (Break Recovery),Faints units and reduces ATK.,ai_cond_icon_boss_arts_02.png,101,When Commanding Roar (Break Recovery){}active,[10],,14001400,USE_SKILL_88469000,3
+80135,Magna Lance (50% HP),"When his HP reaches 50%, he will increase his action speed, change his Skill, and boost his CRI rate as long as Magna Lance is active.",ai_cond_icon_hp_marker_50.png,101,When Magna Lance (50% HP){}active,[10],,14001400,USE_SKILL_88469100,2
+80136,Shining Dark Explosion (Last Resort),"When his HP reaches 0%, he will use Arts that makes units take more DMG.",ai_cond_icon_hp_marker_00.png,101,When Shining Dark Explosion (Last Resort){}active,[10],,14001400,USE_SKILL_88469300,1
+80269,Grangarrod: Gaia Impulse,Reduces units' Paralysis resistance.,ai_cond_icon_enemy_arts_01.png,101,When a Grangarrod's Gaia Impulse{}active,[10],,14001300,USE_SKILL_88383300,4
+80270,Cyclops: Barbarian Jet,Reduces units' Arts gauges.,ai_cond_icon_enemy_arts_02.png,101,When a Cyclops' Barbarian Jet{}active,[10],,14001300,USE_SKILL_88383400,3
+80271,Boss Boost (70% HP),"When its HP reaches 70%, its DMG and action speed will be boosted, and its Arts gauge will immediately fill up.",ai_cond_icon_hp_marker_70.png,101,When the 70%-HP Boss Boost{}active,[10],,14001300,USE_MARKER_70,2
+80272,Boss Boost (30% HP),"When its HP reaches 30%, its DMG and action speed will be boosted, and its Arts gauge will immediately fill up.",ai_cond_icon_hp_marker_30.png,101,When the 30%-HP Boss Boost{}active,[10],,14001300,USE_MARKER_30,1
+80273,Moldora: Poison Breath,Poisons units.,ai_cond_icon_enemy_arts_01.png,101,When a Moldora's Poison Breath{}active,[10],,14000300,USE_SKILL_82281200,5
+80274,Ragvelon: Claws and Fangs Flash Gust Blade,Absorbs units' Arts gauges.,ai_cond_icon_enemy_arts_02.png,101,When a Ragvelon's Claws and Fangs Flash Gust Blade{}active,[10],,14000300,USE_SKILL_83740400,4
+80275,Boss Boost (30% HP),"When its HP reaches 30%, its DMG and action speed will be boosted.",ai_cond_icon_hp_marker_30.png,101,When the 30%-HP Boss Boost{}active,[10],,14000300,USE_MARKER_30,8
+80276,Logbord: Ground Spark,Reduces units' DEF.,ai_cond_icon_enemy_arts_03.png,101,When a Logbord's Ground Spark{}active,[10],,14000300,USE_SKILL_83740200,3
+80277,Dulah: Emerald Leaf,Seals units.,ai_cond_icon_enemy_arts_04.png,101,When a Dulah's Emerald Leaf{}active,[10],,14000300,USE_SKILL_83740500,2
+80278,King Mokyuon: Wind Tempest,Curses units.,ai_cond_icon_enemy_arts_05.png,101,When a King Mokyuon's Wind Tempest{}active,[10],,14000300,USE_SKILL_83740600,1
+80279,Servant Summon (30% HP),"When its HP reaches 30%, it calls two Moldoras and a Ragvelon as back-up.",ai_cond_icon_boss_special_02.png,101,When the 30%-HP Servant Summon{}active,[10],,14000300,USE_CONDITION_40003522,6
+80280,Heavenly Water Stance,"When units use a Skill or Equip, she will counter with Heavenly Aqua Slash. Using Arts or True Arts will cancel this stance.",ai_cond_icon_boss_arts_01.png,101,When Heavenly Water Stance{}active,[10],,14000400,USE_CONDITION_40004172,6
+80281,Heavenly Aqua Slash,Reduces units' ATK and DEF.,ai_cond_icon_boss_arts_02.png,101,When Heavenly Aqua Slash{}active,[10],,14000400,"USE_SKILL_83771200,83781200,83791200,83802200",5
+80282,Protective Water Stance,"When units uses a Skill or Equip, she will counter with Heavenly Aqua Barrier. Using Arts or True Arts will cancel this stance.",ai_cond_icon_boss_arts_03.png,101,When Protective Water Stance{}active,[10],,14000400,USE_CONDITION_40004171,4
+80283,Heavenly Aqua Barrier,Reduces units' Arts gauges and Accuracy.,ai_cond_icon_boss_arts_04.png,101,When Heavenly Aqua Barrier{}active,[10],,14000400,"USE_SKILL_83771300,83781300,83791300,83802300",3
+80285,Boss Boost (50% HP),"When its HP reaches 50%, its DMG and action speed will be boosted, and DMG from all elements except Dark will be reduced.",ai_cond_icon_hp_marker_50.png,101,When the 50%-HP Boss Boost{}active,[10],,14000600,USE_CONDITION_40075,1
+80286,"Corogran: Keep going, everyone!",Reduces units' ATK.,ai_cond_icon_enemy_arts_02.png,101,"When a Corogran's Keep going, everyone!{}active",[10],,14000700,USE_SKILL_83832200,1
+80287,Boss Boost (40% HP),"When its HP reaches 40%, its action speed will increase, and it will instantly use Arts. If in Storm Mode, it will use Dart Wing which makes units take more DMG.",ai_cond_icon_hp_marker_40.png,101,When the 40%-HP Boss Boost{}active,[10],,14001000,USE_CONDITION_23840,2
+80288,Boss Boost (20% HP),"When its HP reaches 20%, its Arts gauge will build faster.",ai_cond_icon_hp_marker_20.png,101,When the 20%-HP Boss Boost{}active,[10],,14001000,USE_MARKER_20,1
+80289,Dark Coroc: Everyone's Anger,Lowers units' Status Ailment resistance.,ai_cond_icon_enemy_arts.png,101,When a Dark Coroc's Everyone's Anger{}active,[10],,14001100,USE_SKILL_88116400,1
+80290,Boss Boost (70% HP),"When its HP reaches 70%, its CRI rate and HP regen will be boosted.",ai_cond_icon_hp_marker_70.png,101,When the 70%-HP Boss Boost{}active,[10],,14001100,USE_MARKER_70,4
+80291,Boss Boost (50% HP),"When its HP reaches 50%, its CRI rate and HP regen will be boosted.",ai_cond_icon_hp_marker_50.png,101,When the 50%-HP Boss Boost{}active,[10],,14001100,USE_MARKER_50,3
+80292,Boss Boost (30% HP),"When its HP reaches 30%, its action speed and HP regen will be boosted.",ai_cond_icon_hp_marker_30.png,101,When the 30%-HP Boss Boost{}active,[10],,14001100,USE_MARKER_30,2
+80293,Grab & Toss,Targets the unit with the highest Arts gauge. Has a chance to inflict Freeze & drain the Arts gauge.,ai_cond_icon_boss_arts_03.png,101,When Grab & Toss{}active,[10],,14001200,"USE_SKILL_98324400,98324800",3
+80294,Rage Mode (50% HP),"When its HP reaches 50%, its CRI rate will be boosted, and it calls a blizzard which has a chance of Freezing units.",ai_cond_icon_boss_rage_50.png,101,When the 50%-HP Rage Mode{}active,[10],,14001200,USE_MARKER_50,2
+80295,Rage Mode (25% HP),"When its HP reaches 25%, its CRI rate will be boosted, and it calls a blizzard which has a chance of Freezing units.",ai_cond_icon_boss_rage_25.png,101,When the 25%-HP Rage Mode{}active,[10],,14001200,USE_MARKER_25,1
+80529,Raging Blizzard,Deals high Physical Water DMG.,ai_cond_icon_boss_arts_03.png,101,When Raging Blizzard{}active,[10],,14001000,USE_SKILL_93964300,5
+80544,"Shadow Sword ""Judgement""",Boosts Regulus' CRI rate while active.,ai_cond_icon_enemy_arts.png,101,"When Shadow Sword ""Judgement""{}active",[10],,14001500,USE_SKILL_88516500,9
+80545,"Deep Shadow Sword ""Hades Emperor"" (50% HP)","When Regulus' HP reaches 50%, he will change his Arts and boost his DMG as long as it is active.",ai_cond_icon_hp_marker_50.png,101,"When the 50%-HP Deep Shadow Sword ""Hades Emperor""{}active",[10],,14001500,"CALL2_HP_SKILL(4001514,50)",8
+80546,"Deep Shadow Sword ""Hades Emperor""",Boosts Regulus' CRI rate while active and all units DMG taken.,ai_cond_icon_enemy_arts_02.png,101,"When Deep Shadow Sword ""Hades Emperor""{}active",[10],,14001500,USE_SKILL_88516600,7
+80547,Finale Spada (50% HP),"When Feena's HP reaches 50%, she will change her Arts and boost her DMG as long as it is active.",ai_cond_icon_hp_marker_50.png,101,When the 50%-HP Finale Spada{}active,[10],,14001500,"CALL2_HP_SKILL(4001516,50)",6
+80548,Finale Spada,Cancels DMG Negation for all units.,ai_cond_icon_enemy_arts.png,101,When Finale Spada{}active,[10],,14001500,USE_SKILL_88516800,5
+80549,Prophecy,Lowers all units' HP recovery with each use.,ai_cond_icon_boss_arts_01.png,101,When Prophecy{}active,[10],,14001500,USE_SKILL_88516900,4
+80550,Endless (50% HP),"When Celia's HP reaches 50%, her CRI resistance will be boosted, she will change her Arts, and boost her CRI rate as long as it is active.",ai_cond_icon_hp_marker_50.png,101,When the 50%-HP Endless{}active,[10],,14001500,"CALL2_HP_SKILL(4001517,50)",3
+80551,Endless,Boosts Celia's CRI rate while active. Boosts DEF with each use.,ai_cond_icon_boss_arts_02.png,101,When Endless{}active,[10],,14001500,USE_SKILL_88517000,2
+80552,Apocalypse,Boosts Celia's CRI rate while active.,ai_cond_icon_boss_arts_03.png,101,When Apocalypse{}active,[10],,14001500,USE_SKILL_88517100,1

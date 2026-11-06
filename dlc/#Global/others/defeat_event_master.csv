@@ -1,0 +1,2 @@
+id,dungeon_id,target_quest_ids,start_at,end_at,target_enemy_ids,reward_at,bg_image_file,bg_image_file_pos_x,bg_image_file_pos_y,fg_image_file,fg_image_file_pos_x,fg_image_file_pos_y,animation_file_list,acquisition_frequency,display_interval
+1,2039900,"[2039913, 2039914,2039915]",2022-08-16 18:00:00-08:00,2022-08-25 17:59:59-08:00,"[2039961,2039971,2039981]",2022-08-25 23:00:00-08:00,bg_battle_10100.png,320,1082,fg_logo_10100.png,140,80,"[107616111,500031113]",30,3

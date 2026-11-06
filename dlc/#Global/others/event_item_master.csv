@@ -1,0 +1,939 @@
+id,event_id,name,rarity,limit_value,trade_notice_flag,priority
+2,2061100,Tribal Ruins Equip Summon Ticket,1,5000,None,None
+1001,1,Relic Shard,1,50000,None,None
+100101,1001,Ultimate Hero Redeem Ticket,1,99999,None,None
+100201,1002,★5 Equipment Redeem Ticket,1,99999,None,None
+100301,1003,★4 Equipment Redeem Ticket,1,99999,None,None
+100501,1005,True Equipment Redeem Ticket,1,99999,None,None
+100601,1006,GC Pass Ticket,1,9999,None,None
+100701,1007,Crossover True Equip Exchange Ticket,1,50000,None,None
+100801,1008,Crossover True Equip Exchange Ticket,1,50000,None,None
+100901,1009,Crossover True Equip Exchange Ticket,1,50000,None,None
+101001,1010,Classic Protag Select Ticket,1,50000,None,None
+101101,1011,Crossover True Equip Exchange Ticket,1,50000,None,None
+101201,1012,Crossover True Equip Exchange Ticket,1,50000,None,None
+101301,1013,Crossover True Equip Exchange Ticket,1,50000,None,None
+101401,1014,Crossover True Equip Exchange Ticket,1,50000,None,None
+101501,1015,Crossover True Equip Exchange Ticket,1,99999,None,None
+101601,1016,Max Power Phys Equip Exchange Ticket,1,99999,None,None
+101701,1017,Max Power Mag Equip Exchange Ticket,1,99999,None,None
+101801,1018,Max Power Def Equip Exchange Ticket,1,99999,None,None
+101901,1019,Max Power Heal Equip Exchange Ticket,1,99999,None,None
+102001,1020,Max Power Sup Equip Exchange Ticket,1,99999,None,None
+102101,1021,Crossover True Equip Exchange Ticket,1,99999,None,None
+102201,1022,Crossover True Equip Exchange Ticket,1,99999,None,None
+102301,1023,Crossover True Equip Exchange Ticket,1,99999,None,None
+102401,1024,Crossover True Equip Exchange Ticket,1,99999,None,None
+102501,1025,Classic Protag Select Ticket,1,50000,None,None
+102601,1026,Swimsuit Protag Select Ticket,1,50000,None,None
+102701,1027,Crossover True Equip Exchange Ticket,1,99999,None,None
+102801,1028,Crossover True Equip Exchange Ticket,1,99999,None,None
+102901,1029,Crossover True Equip Exchange Ticket,1,99999,None,None
+103001,1030,Crossover True Equip Exchange Ticket,1,99999,None,None
+103101,1031,Classic Protag Select Ticket DX,1,50000,None,None
+103201,1032,Crossover True Equip Exchange Ticket,1,99999,None,None
+103301,1033,Crossover True Equip Exchange Ticket,1,99999,None,None
+103401,1034,Crossover True Equip Exchange Ticket,1,99999,None,None
+109001,1090,Sp. Art Exchange Ticket,1,50000,None,None
+1000101,10001,"Hero Gem 
+(Supernova exclusive)",1,50000,None,None
+1000201,10002,"Hero Gem 
+(Galaxy exclusive)",1,50000,None,None
+1000301,10003,"Hero Gem 
+(Great Awaking)",1,50000,None,None
+1000401,10004,"Hero Gem 
+(Super Nova)",1,50000,None,None
+1000501,10005,"Hero Gem 
+(Super Nova)",1,50000,None,None
+1000601,10006,"Hero Gem 
+（Galaxy exclusive）",1,50000,None,None
+1000801,10008,"Hero Gem 
+（infinity exclusive）",1,50000,None,None
+1000901,10009,"Hero Gem 
+（Galaxy sp exclusive）",1,50000,None,None
+1001001,10010,"Hero Gem 
+（infinity ex exclusive）",1,50000,None,None
+1001101,10011,"Hero Gem 
+（infinity ex exclusive）",1,50000,None,None
+1001201,10012,"Hero Gem 
+（infinity ex exclusive）",1,50000,None,None
+1001301,10013,"Hero Gem 
+（infinity ex exclusive）",1,50000,None,None
+1001401,10014,"Hero Gem 
+（destiny exclusive）",1,50000,None,None
+1001501,10015,"Hero Gem 
+（infinity exclusive）",1,50000,None,None
+1001601,10016,"Hero Gem 
+(Crossover exclusive)",1,50000,None,None
+1001701,10017,"Hero Gem 
+（infinity EX exclusive）",1,50000,None,None
+1001801,10018,"Hero Gem 
+（Supernova exclusive）",1,99999,None,None
+1001901,10019,"Hero Gem 
+（ignition exclusive）",1,99999,None,None
+1002001,10020,"Hero Gem 
+（Supernova exclusive）",1,99999,None,None
+1002101,10021,"Hero Gem 
+（destiny exclusive）",1,99999,None,None
+1002201,10022,"Hero Gem 
+（Crossover exclusive）",1,50000,None,None
+1002301,10023,Hero Gem（KoB I exclusive）,1,99999,None,None
+1002401,10024,Hero Gem（SAKUARA exclusive）,1,99999,None,None
+1002501,10025,Hero Gem（Galaxy exclusive）,1,99999,None,None
+1002601,10026,Hero Gem（KoB Ⅱ exclusive）,1,99999,None,None
+1002701,10027,"Hero Gem 
+（Crossover exclusive）",1,50000,None,None
+1002801,10028,"Hero Gem（Summoner's Choice
+exclusive）",1,99999,None,None
+1002901,10029,"Hero Gem 
+（Galaxy exclusive）",1,99999,None,None
+1003001,10030,"Hero Gem 
+（Infinity exclusive）",1,99999,None,None
+1003101,10031,"Hero Gem 
+（Galaxy exclusive）",1,99999,None,None
+1003201,10032,Hero Gem（KoB Ⅲ exclusive）,1,99999,None,None
+1003301,10033,"Hero Gem 
+（Suprenova exclusive）",1,99999,None,None
+1003401,10034,"Hero Gem 
+（Destiny exclusive）",1,99999,None,None
+1003501,10040,"Hero Gem 
+（Galaxy exclusive）",1,99999,None,None
+1003601,10036,"Hero Gem 
+(KoB Ⅳ Exclusive) ",1,99999,None,None
+1003701,10037,"Hero Gem 
+（Crossover exclusive）",1,99999,None,None
+1003801,10038,"Hero Gem 
+（Destiny exclusive）",1,99999,None,None
+1003901,10039,"Hero Gem 
+（Infinity exclusive）",1,99999,None,None
+1004001,10035,"Hero Gem 
+（Crossover exclusive）",1,99999,None,None
+1004101,10041,"Hero Gem 
+（Drakfall exclusive）",1,99999,None,None
+1004201,10042,"Hero Gem 
+（KoB Legendary 
+summon exclusive）",1,99999,None,None
+1004301,10043,"Hero Gem 
+（Crossover Exclusive）",1,99999,None,None
+1004401,10044,"Hero Gem 
+（Darkfall exclusive）",1,99999,None,None
+1004501,10045,"Hero Gem 
+（Ignition exclusive）",1,99999,None,None
+1004601,10046,"Hero Gem 
+（Splash exclusive）",1,99999,None,None
+1008901,10089,"Hero Gem 
+（Destiny Exclusive）",1,99999,None,None
+1009001,10090,"Hero Gem 
+（KoB Ⅴ Exclusive）",1,99999,None,None
+1009101,10091,"Hero Gem 
+（KoB Ⅵ Exclusive）",1,99999,None,None
+1009201,10092,"Hero Gem 
+（Destiny Exclusive）",1,99999,None,None
+1009301,10093,"Hero Gem 
+（Infinity Exclusive）",1,99999,None,None
+1009401,10094,"Hero Gem 
+（Galaxy Exclusive）",1,99999,None,None
+1009501,10095,"Hero Gem 
+（KoBⅦ Exclusive）",1,99999,None,None
+1009701,10097,"Hero Gem 
+（KoBⅧ Exclusive）",1,99999,None,None
+1009801,10098,"Hero Gem 
+（Destiny Exclusive）",1,99999,None,None
+1009901,10099,"Hero Gem 
+（Crossover exclusive）",1,50000,None,None
+1010001,10100,"Hero Gem 
+（Infinity Exclusive）",1,99999,None,None
+1010101,10101,"Hero Gem 
+（SAKURA Exclusive）",1,99999,None,None
+1010201,10102,Hero Gem （KoB Legendary summon exclusive）,1,99999,None,None
+1010301,10103,Hero Gem (Darkfall exclusive),1,99999,None,None
+1010401,10104,Hero Gem (Darkfall Fen exclusive),1,50000,None,None
+1010501,10105,Hero Gem (Darkfall Celia exclusive),1,50000,None,None
+1010601,10106,Hero Gem (Absolute Daki),1,99999,None,None
+1010701,10107,Hero Gem (Absolute Raki),1,99999,None,None
+1010801,10108,Hero Gem (Darkfall Kane Exclusive),1,99999,None,None
+1010901,10109,Hero Gem（Crossover Exclusive）,1,99999,None,None
+1011001,10110,Hero Gem (SHINOBI Mizuki Exclusive) ,1,99999,None,None
+1011101,10111,"Hero Gem 
+(SHINOBI Kisaragi Exclusive) ",1,99999,None,None
+1011201,10112,Hero Gem (Infinity Exclusive),1,99999,None,None
+1011301,10113,Hero Gem (Supernova Exclusive),1,99999,None,None
+1011401,10114,Hero Gem (Destiny Exclusive),1,99999,None,None
+1011501,10115,Hero Gem (Infinity Exclusive),1,99999,None,None
+1011601,10116,Hero Gem (Crossover Exclusive),1,99999,None,None
+1011701,10117,Hero Gem (SHINOBI Mizuki Exclusive) ,1,99999,None,None
+1011801,10118,"Hero Gem 
+(SHINOBI Kisaragi Exclusive) ",1,99999,None,None
+1011901,10119,Hero Gem (SHINOBI Shuri Exclusive) ,1,99999,None,None
+1012001,10120,"Hero Gem
+(SHINOBI Shiki Exclusive) ",1,99999,None,None
+1012101,10121,Hero Gem (Destiny Exclusive),1,99999,None,None
+1012201,10122,Hero Gem (Infinity Celia  Exclusive),1,99999,None,None
+1012301,10123,Hero Gem (Absolute  Exclusive),1,99999,None,None
+1012401,10124,Hero Gem (Infinity Norn  Exclusive),1,99999,None,None
+1012501,10125,Hero Gem (Crossover Exclusive),1,99999,None,None
+1012601,10126,Hero Gem （Summoners' Choice! KoB）,1,99999,None,None
+1012701,10127,Hero Gem (Destiny Exclusive),1,99999,None,None
+1012801,10128,Hero Gem (Summoners' Choice! SUPER NEWBIE),1,99999,None,None
+1012901,10129,Hero Gem (CtB Exclusive),1,99999,None,None
+1013001,10130,Hero Gem (Crossover Exclusive),1,99999,None,None
+1013101,10131,Hero Gem (Attackers: Power Unleashed),1,99999,None,None
+1013201,10132,Hero Gem（Darkfall Exclusive）,1,99999,None,None
+1013301,10133,Hero Gem (CtB Exclusive),1,99999,None,None
+1013401,10134,Hero Gem (CtB Exclusive),1,99999,None,None
+1013501,10135,Hero Gem (Crossover Exclusive),1,99999,None,None
+1013601,10136,Hero Gem (Absolute Exclusive),1,99999,None,None
+1013701,10137,Hero Gem (SHINOBI I Exclusive),1,99999,None,None
+1013801,10138,Hero Gem (SHINOBI ⅡExclusive),1,99999,None,None
+1013901,10139,Hero Gem (Darkfall Exclusive),1,99999,None,None
+1014001,10140,Hero Gem (Halloween Inferno Exclusive),1,99999,None,None
+1014101,10141,Hero Gem (CtB Exclusive),1,99999,None,None
+1014201,10142,Hero Gem (Crossover Exclusive),1,99999,None,None
+1014301,10143,Hero Gem (Absolute Exclusive),1,99999,None,None
+1014401,10144,Hero Gem (Crossover I Exclusive),1,99999,None,None
+1014501,10145,Hero Gem (Crossover II Exclusive),1,99999,None,None
+1014601,10146,Hero Gem (CtB Exclusive),1,99999,None,None
+1014701,10147,Hero Gem (Ten-Sura Crossover Revival),1,99999,None,None
+1014801,10148,Hero Gem (Ten-Sura Crossover Xmas),1,99999,None,None
+1014901,10149,Hero Gem (Ten-Sura Crossover New Years!),1,99999,None,None
+1015001,10150,Hero Gem (RoR Exclusive),1,99999,None,None
+1015101,10151,Hero Gem (Fireborn Exclusive),1,99999,None,None
+1015201,10152,Hero Gem (Radiant Exclusive),1,99999,None,None
+1015301,10153,Hero Gem (Crossover Exclusive),1,99999,None,None
+1015401,10154,Hero Gem (Midnight Exclusive),1,99999,None,None
+1015501,10155,Hero Gem (Summoners' Choice Exclusive),1,99999,None,None
+1015601,10156,Hero Gem (Crossover Exclusive),1,99999,None,None
+1015701,10157,Hero Gem (FoF Exclusive),1,99999,None,None
+1015801,10158,Hero Gem (Crossover I Exclusive),1,99999,None,None
+1015901,10159,Hero Gem (Crossover II Exclusive),1,99999,None,None
+1016001,10160,Hero Gem (SHINOBI Exclusive),1,99999,None,None
+1016101,10161,Hero Gem (Crossover Exclusive),1,99999,None,None
+1016201,10162,Hero Gem (CtB Exclusive),1,99999,None,None
+1016301,10163,Hero Gem (PSS Exclusive),1,99999,None,None
+1016401,10164,Hero Gem (Heroic Exclusive),1,99999,None,None
+1016501,10165,Hero Gem (Absolute Exclusive),1,99999,None,None
+1016601,10166,Hero Gem (Crossover Exclusive),1,99999,None,None
+1016701,10167,Hero Gem (Midnight Exclusive),1,99999,None,None
+1016801,10168,Hero Gem (Heroic Exclusive),1,99999,None,None
+1016901,10169,Hero Gem (PSS Exclusive),1,99999,None,None
+1017001,10170,Hero Gem (Heroic Exclusive),1,99999,None,None
+1017101,10171,Hero Gem (Crossover Exclusive),1,99999,None,None
+1017201,10172,Hero Gem (Paradise Exclusive),1,99999,None,None
+1017301,10173,Hero Gem (PSS Exclusive),1,99999,None,None
+1017401,10174,Hero Gem (Absolute Exclusive),1,99999,None,None
+1017501,10175,Hero Gem (Rookies Exclusive),1,99999,None,None
+1017601,10176,Hero Gem (Crossover Exclusive),1,99999,None,None
+1017701,10177,Hero Gem (Infinity Exclusive),1,99999,None,None
+1017801,10178,Hero Gem (Darkfall Exclusive),1,99999,None,None
+1017901,10179,Hero Gem (PSS Exclusive),1,99999,None,None
+1018001,10180,Hero Gem (Summoners' Choice Exclusive),1,99999,None,None
+1018101,10181,Hero Gem (Crossover Exclusive),1,99999,None,None
+1018201,10182,Hero Gem (Infinity Exclusive),1,99999,None,None
+1018301,10183,Hero Gem (Heroic Exclusive),1,99999,None,None
+1018401,10184,Hero Gem (Absolute Exclusive),1,99999,None,None
+1018501,10185,Hero Gem (Blazing Exclusive),1,99999,None,None
+1018601,10186,Hero Gem (Crossover Exclusive),1,99999,None,None
+1018701,10187,Hero Gem (Paradise Exclusive),1,99999,None,None
+1018801,10188,Hero Gem (Absolute Exclusive),1,99999,None,None
+1018901,10189,Hero Gem (Infinity Exclusive),1,99999,None,None
+1019001,10190,Hero Gem (Crossover Exclusive),1,99999,None,None
+1019101,10191,Hero Gem (PSS Exclusive),1,99999,None,None
+1019201,10192,Hero Gem (Crossover Exclusive),1,99999,None,None
+1019301,10193,Hero Gem (Heroes of the Hill Exclusive),1,99999,None,None
+1019401,10194,Hero Gem (Infinity Exclusive),1,99999,None,None
+1019501,10195,Hero Gem (PSS Exclusive),1,99999,None,None
+1019601,10196,Hero Gem (Ryude Granza Exclusive),1,99999,None,None
+1019701,10197,Hero Gem (Crossover Exclusive),1,99999,None,None
+1019801,10198,Hero Gem (CtB Exclusive),1,99999,None,None
+1019901,10199,Hero Gem (PSS Exclusive),1,99999,None,None
+1020001,10200,Hero Gem (Crossover Exclusive),1,99999,None,None
+1020101,10201,Hero Gem (Paradise Exclusive),1,99999,None,None
+1020201,10202,Hero Gem (Infinity Exclusive),1,99999,None,None
+1020301,10203,Hero Gem (Holiday Exclusive),1,99999,None,None
+1020401,10204,Hero Gem (PSS Exclusive),1,99999,None,None
+1020501,10205,Hero Gem (Infinity Exclusive),1,99999,None,None
+1020601,10206,Hero Gem (Ten-Sura Crossover Revival),1,99999,None,None
+1020701,10207,HeroGem (Ten-Sura Crossover Xmas),1,99999,None,None
+1020801,10208,HeroGem (Ten-Sura Crossover New Years!),1,99999,None,None
+1020901,10209,HeroGem(Infinity Exclusive),1,99999,None,None
+1021001,10210,HeroGem (Crossover Exclusive),1,99999,None,None
+1021101,10211,HeroGem (Infinity Exclusive),1,99999,None,None
+1021201,10212,HeroGem (SHINOBI Exclusive),1,99999,None,None
+1021301,10213,HeroGem (Crossover Exclusive),1,99999,None,None
+1021401,10214,HeroGem (SHINOBI Ⅱ Exclusive),1,99999,None,None
+1021501,10215,HeroGem (Infinity Exclusive),1,99999,None,None
+1021601,10216,Hero Gem (Ryude Granza Exclusive),1,99999,None,None
+1021701,10217,HeroGem (Advent Exclusive),1,99999,None,None
+1021801,10218,HeroGem (Crossover Exclusive),1,99999,None,None
+1021901,10219,HeroGem (Crossover Exclusive),1,99999,None,None
+1022001,10220,Hero Gem (SHINOBI Exclusive),1,99999,None,None
+1022101,10221,HeroGem (Stella Exclusive),1,99999,None,None
+1022201,10222,HeroGem(Infinity Exclusive),1,99999,None,None
+1022301,10223,HeroGem (Crossover Exclusive),1,99999,None,None
+1022401,10224,Hero Gem (SHINOBI Exclusive),1,99999,None,None
+1022501,10225,HeroGem (Crossover Exclusive),1,99999,None,None
+1022601,10226,Hero Gem (Advent Exclusive),1,99999,None,None
+1022701,10227,Hero Gem (KoB Exclusive),1,99999,None,None
+1022801,10228,Hero Gem (Shadow Exclusive),1,99999,None,None
+1022901,10229,HeroGem (Crossover Exclusive),1,99999,None,None
+1023001,10230,HeroGem (Crossover Exclusive),1,99999,None,None
+1023101,10231,HeroGem (Valentine Exclusive),1,99999,None,None
+1023201,10232,Hero Gem (Advent Exclusive),1,99999,None,None
+1023301,10233,Hero Gem (Crossover Exclusive),1,99999,None,None
+1023401,10234,Hero Gem (Stella Exclusive),1,99999,None,None
+1023501,10235,Hero Gem (Advent Exclusive),1,99999,None,None
+1023601,10236,Hero Gem (CA Exclusive),1,99999,None,None
+1023701,10237,Hero Gem (Crossover Exclusive),1,99999,None,None
+1023801,10238,Hero Gem (Advent Exclusive),1,99999,None,None
+1023901,10239,Hero Gem (SHINOBI Exclusive),1,99999,None,None
+1024001,10240,Hero Gem (Advent Exclusive),1,99999,None,None
+1024101,10241,Hero Gem (Crossover Exclusive),1,99999,None,None
+1024201,10242,Hero Gem (Stella Exclusive),1,99999,None,None
+1024301,10243,Hero Gem (Advent Exclusive),1,99999,None,None
+1024401,10244,Hero Gem (SHINOBI Exclusive),1,99999,None,None
+1024501,10245,Hero Gem (Paradise Exclusive),1,99999,None,None
+1024601,10246,HeroGem (Crossover Exclusive),1,99999,None,None
+1024701,10247,Hero Gem (Seaside Exclusive),1,99999,None,None
+1024801,10248,Hero Gem (Advent Exclusive),1,99999,None,None
+1024901,10249,HeroGem (Crossover Exclusive),1,99999,None,None
+1025001,10250,HeroGem (Halloween Exclusive),1,99999,None,None
+1025101,10251,Hero Gem (Advent Exclusive),1,99999,None,None
+1025201,10252,Hero Gem (Crossover Exclusive),1,99999,None,None
+1025301,10253,Hero Gem (Advent Exclusive),1,99999,None,None
+1025401,10254,HeroGem (Crossover Exclusive),1,99999,None,None
+1025501,10255,Hero Gem (Valentine Exclusive),1,99999,None,None
+1025601,10256,Hero Gem (Advent Exclusive),1,99999,None,None
+1025701,10257,HeroGem (Crossover Exclusive),1,99999,None,None
+1025801,10258,Hero Gem (Advent Exclusive),1,99999,None,None
+1025901,10259,Hero Gem (Advent Exclusive),1,99999,None,None
+1026001,10260,Hero Gem (Crossover Exclusive),1,99999,None,None
+1026101,10261,Hero Gem (Revival Exclusive),1,99999,None,None
+1026201,10262,Hero Gem (Jacket Exclusive),1,99999,None,None
+1026401,10264,Hero Gem (Advent Exclusive),1,99999,None,None
+1026501,10265,HeroGem (Crossover Exclusive),1,99999,None,None
+1026601,10266,Hero Gem (Advent Exclusive),1,99999,None,None
+1026701,10267,Hero Gem (Crossover Exclusive),1,99999,None,None
+1026801,10268,Hero Gem (Stella Exclusive),1,99999,None,None
+1026901,10269,Hero Gem (Seaside Exclusive),1,99999,None,None
+1027001,10270,Hero Gem (Advent Exclusive),1,99999,None,None
+1027101,10271,HeroGem (Crossover Exclusive),1,99999,None,None
+1027201,10272,Hero Gem (Vacation Exclusive),1,99999,None,None
+1027301,10273,HeroGem (Crossover Exclusive),1,99999,None,None
+1027401,10274,Hero Gem (Halloween Exclusive),1,99999,None,None
+1027501,10275,Hero Gem (Thanksgiving Exclusive),1,99999,None,None
+1027601,10276,Hero Gem (Sky Light Exclusive),1,99999,None,None
+1027701,10277,Hero Gem (Crossover Exclusive),1,99999,None,None
+1027801,10278,Hero Gem (Jacket Exclusive),1,99999,None,None
+1027901,10279,Hero Gem (Advent Exclusive),1,99999,None,None
+1028101,10281,Hero Gem (Crossover Exclusive),1,99999,None,None
+1028201,10282,Hero Gem (All Star Exclusive),1,99999,None,None
+1028301,10283,Hero Gem (Stella Exclusive),1,99999,None,None
+1028401,10284,Hero Gem (Advent Exclusive),1,99999,None,None
+1028501,10285,Hero Gem (Crossover Exclusive),1,99999,None,None
+1028601,10286,Hero Gem (Valentine Exclusive),1,99999,None,None
+1028701,10287,Hero Gem (Rabbit Exclusive),1,99999,None,None
+1028801,10288,Hero Gem (Crossover Exclusive),1,99999,None,None
+1028901,10289,Hero Gem (Stella Exclusive),1,99999,None,None
+1029001,10290,Hero Gem (Crossover Exclusive),1,99999,None,None
+1029101,10291,Hero Gem (Legacy Exclusive),1,99999,None,None
+1029201,10292,Hero Gem (Advent Exclusive),1,99999,None,None
+1029301,10293,Hero Gem (Crossover Exclusive),1,99999,None,None
+1029401,10294,Hero Gem (Convocation Exclusive),1,99999,None,None
+1029501,10295,Hero Gem (Advent Exclusive),1,99999,None,None
+1029601,10296,Hero Gem (PSS Exclusive),1,99999,None,None
+1029701,10297,Hero Gem (Simon Exclusive),1,99999,None,None
+1029801,10298,Hero Gem (Crossover Exclusive),1,99999,None,None
+1029901,10299,Hero Gem (Mena Exclusive),1,99999,None,None
+1030001,10300,Hero Gem (Rabbit Exclusive),1,99999,None,None
+1030101,10301,Hero Gem (Seaside Exclusive),1,99999,None,None
+1030201,10302,Hero Gem (Crossover Exclusive),1,99999,None,None
+1030301,10303,Hero Gem (Simon Exclusive),1,99999,None,None
+1030401,10304,Hero Gem (Rabbit Exclusive),1,99999,None,None
+1030501,10305,Hero Gem (Crossover Exclusive),1,99999,None,None
+1030601,10306,Hero Gem (Advent Exclusive),1,99999,None,None
+1030701,10307,Hero Gem (Crossover Exclusive),1,99999,None,None
+1088501,10885,"Hero Gem 
+（Hime Exclusive）",1,99999,None,None
+2000101,20001,"Equipment Gem
+(Crossover exclusive)",1,50000,None,None
+2000201,20002,"Equipment Gem
+(Crossover exclusive)",1,50000,None,None
+2000301,20003,"Equipment Gem
+(Crossover exclusive)",1,50000,None,None
+2000701,20007,"Equipment Gem 
+（Crossover exclusive）",1,99999,None,None
+2000801,20008,"Equipment Gem 
+（Crossover exclusive）",1,99999,None,None
+2000901,20009,"Equipment Gem 
+（KoB Legendary 
+summon exclusive）",1,99999,None,None
+2001001,20010,"Equipment Gem 
+（Crossover Exclusive）",1,99999,None,None
+2001101,20011,Equipment Gem (Last Summer Fest),1,50000,None,None
+2001201,20012,Equipment Gem (Halloween Exclusive) ,1,50000,None,None
+2001301,20013,"Equipment Gem
+(Crossover exclusive)",1,50000,None,None
+2001401,20014,"Equipment Gem
+(Last Summer Exclusive)",1,50000,None,None
+2001501,20015,"Equipment Gem
+(Xmas Exclusive)",1,50000,None,None
+2001601,20016,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2001701,20017,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2001801,20018,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2001901,20019,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2002001,20020,Equipment Gem (KoB Summer Summon),1,99999,None,None
+2002101,20021,Equipment Gem (Divine Knights Summer Summon),1,50000,None,None
+2002201,20022,Equipment Gem (Super Swimwear 2020),1,50000,None,None
+2002301,20023,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2002401,20024,Equipment Gem (Halloween Exclusive) ,1,50000,None,None
+2002501,20025,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2002601,20026,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2002701,20027,"Equipment Gem
+(Xmas Exclusive)",1,99999,None,None
+2002801,20028,"Equipment Gem
+(Ten-Sura Crossover Revival)",1,99999,None,None
+2002901,20029,"Equipment Gem
+(Ten-Sura Crossover Xmas)",1,99999,None,None
+2003001,20030,"Equipment Gem
+(Ten-Sura Crossover New Years!)",1,99999,None,None
+2003101,20031,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2003201,20032,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2003301,20033,Equipment Gem(KoB Holiday Exclusive),1,99999,None,None
+2003401,20034,"Equipment Gem
+(Godzilla Exclucive)",1,99999,None,None
+2003501,20035,"Equipment Gem
+(King Ghidorah Exclucive)",1,99999,None,None
+2003601,20036,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2003701,20037,"Equipment Gem
+(Super Swimwear 2021)",1,99999,None,None
+2003801,20038,Equipment Gem (Super Swimwear Revival),1,50000,None,None
+2003901,20039,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2004001,20040,Equipment Gem (Halloween Exclusive) ,1,50000,None,None
+2004101,20041,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2004201,20042,Equipment Gem (Vacation Exclusive),1,99999,None,None
+2004301,20043,Equipment Gem (Xmas Exclusive),1,99999,None,None
+2004401,20044,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2004501,20045,Equipment Gem (Xmas Exclusive),1,99999,None,None
+2004601,20046,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2004701,20047,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2004801,20048,Equipment Gem (Vacation Exclusive),1,99999,None,None
+2004901,20049,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2005001,20050,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2005101,20051,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2005201,20052,Equipment Gem (Halloween Exclusive) ,1,50000,None,None
+2005301,20053,"Equipment Gem
+(Crossover Exclusive)",1,99999,None,None
+2005401,20054,Equipment Gem (Vacation Exclusive),1,50000,None,None
+2005501,20055,Equipment Gem (Holiday Exclusive),1,50000,None,None
+2005601,20056,Equipment Gem (Xmas Exclusive),1,50000,None,None
+2005701,20057,"Equipment Gem
+(Ten-Sura Crossover Revival)",1,99999,None,None
+2005801,20058,Equipment Gem (Ten-Sura Crossover Xmas),1,99999,None,None
+2005901,20059,Equipment Gem (Ten-Sura Crossover New Years!),1,99999,None,None
+2006001,20060,"
+Equipment Gem (Vacation Exclusive)",1,50000,None,None
+2006101,20061,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2006201,20062,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2006301,20063,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2006401,20064,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2006501,20065,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2006601,20066,Equipment Gem (Halloween Exclusive) ,1,50000,None,None
+2006701,20067,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2006801,20068,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2006901,20069,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2007001,20070,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2007101,20071,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2007201,20072,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2007301,20073,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2007401,20074,Equipment Gem (Swimwear Exclusive),1,99999,None,None
+2007501,20075,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2007601,20076,Equipment Gem (Halloween Exclusive),1,99999,None,None
+2007701,20077,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2007801,20078,Equipment Gem (Holiday Exclusive),1,99999,None,None
+2007901,20079,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2008001,20080,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2008101,20081,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2008201,20082,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2008301,20083,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2008401,20084,Equipment Gem (Sizzling Exclusive),1,99999,None,None
+2008501,20085,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2008601,20086,Equipment Gem (Sunset Exclusive),1,99999,None,None
+2008701,20087,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2008801,20088,Equipment Gem (Halloween Exclusive),1,99999,None,None
+2008901,20089,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009001,20090,Equipment Gem (Holiday Exclusive),1,99999,None,None
+2009101,20091,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009201,20092,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009301,20093,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009401,20094,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009501,20095,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009601,20096,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009701,20097,Equipment Gem (Sizzling Exclusive),1,99999,None,None
+2009801,20098,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2009901,20099,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2010001,20100,Equipment Gem (Crossover Exclusive),1,99999,None,None
+2019601,20196,"Equipment Gem 
+（Hime Exclusive）",1,99999,None,None
+3000001,30000,Special Art Ticket,1,50000,None,None
+3000101,30001,Special Art Ticket,1,50000,None,None
+3000201,30002,Special Art Ticket,1,50000,None,None
+3010001,30100,Ascension Material Exchange Ticket,1,50000,None,None
+3020001,30200,Ascension Material Exchange Ticket,1,50000,None,None
+3030001,30300,Ascension Material Exchange Ticket,1,50000,None,None
+3040001,30400,Ascension Material Exchange Ticket,1,50000,None,None
+3050001,30500,Ascension Material Exchange Ticket,1,50000,None,None
+6000101,60001,Fallen Beast God's Wings,1,99999,None,None
+6000301,60003,Fallen Beast God's Wings,1,99999,None,None
+6000401,60004,Fallen Beast God's Wings,1,99999,None,None
+6000501,60005,Fallen Beast God's Wings,1,99999,None,None
+6000601,60006,Fallen Beast God's Wings,1,99999,None,None
+6001001,60010,Fallen Beast God's Wings,1,99999,None,None
+6001201,60012,Fallen Beast God's Wings,1,99999,None,None
+6001301,60013,Fallen Beast God's Wings,1,99999,None,None
+6001501,60015,Evil Pumpkin,1,99999,None,None
+6001601,60016,Fallen Beast God's Wings,1,99999,None,None
+6001701,60017,Fallen Beast God's Wings,1,99999,None,None
+6001801,60018,Fallen Beast God's Wings,1,99999,None,None
+6001901,60019,Fallen Beast God's Wings,1,99999,None,None
+6002001,60020,Fallen Beast God's Wings,1,99999,None,None
+6002101,60021,Evil Pumpkin,1,99999,None,None
+6002201,60023,Phantom Demon Beast's Wings,1,99999,None,None
+6002401,60024,Fallen Beast God's Wings,1,99999,None,None
+6002501,60025,Fallen Beast God's Wings,1,99999,None,None
+6002601,60026,Fallen Beast God's Wings,1,99999,None,None
+6002701,60027,Fallen Beast God's Wings,1,99999,None,None
+6002801,60028,Fallen Beast God's Wings,1,99999,None,None
+6002901,60029,Fallen Beast God's Wings,1,99999,None,None
+6003001,60030,Phantom Demon Beast's Wings,1,99999,None,None
+6003101,60031,Fallen Beast God's Wings,1,99999,None,None
+6003201,60032,Fallen Beast God's Wings,1,99999,None,None
+6003301,60033,Fallen Beast God's Wings,1,99999,None,None
+6003401,60034,Fallen Beast God's Wings,1,999999,None,None
+6003501,60035,Fallen Beast God's Wings,1,999999,None,None
+6003601,60036,Fallen Beast God's Wings,1,999999,None,None
+100030001,1000300,Mark of the Knights,1,50000,None,None
+100031001,1000310,Mark of the Knights,1,99999,None,None
+100032001,1000320,Mark of the Knights,1,99999,None,None
+100033001,1000330,Mark of the Knights,1,999999,None,None
+100100001,1001000,Relic Shard,1,50000,None,None
+100160001,1001600,Mark of the Knights,1,50000,None,None
+200030001,2000300,Feather of Flame,1,50000,None,None
+200031001,2000310,Feather of Flame,1,99999,None,None
+200032001,2000320,Feather of Flame,1,999999,None,None
+200070001,2000700,Dreg of the Dark Soul,1,50000,None,None
+200110001,2001100,Fragment of Divine Armor,1,99999,None,None
+200110101,2001101,Fragment of Divine Armor,1,99999,None,None
+200111001,2001110,Fragment of Divine Armor,1,99999,None,None
+200112001,2001120,Fragment of Divine Armor,1,99999,None,None
+200113001,2001130,Fragment of Divine Armor,1,99999,None,None
+200130001,2001300,Feather of Flame,1,50000,None,None
+200140001,2001400,Charlotte's Bunny,1,50000,None,None
+200210001,2002100,Clever Gem Chip,1,50000,None,None
+200240001,2002400,Mark of the Knights,1,50000,None,None
+200250001,2002500,Remnant of a Cursed Soul,1,99999,None,None
+200270001,2002700,Feather of Flame,1,50000,None,None
+200280001,2002800,Arena Medal,1,50000,None,None
+200320001,2003200,Spirit's Jewelry,1,50000,None,None
+200330001,2003300,Chaos Pumpkin,1,99999,None,None
+200330101,2003301,Chaos Pumpkin,1,99999,None,None
+200331001,2003310,Chaos Pumpkin,1,99999,None,None
+200333001,2003330,Chaos Pumpkin,1,99999,None,None
+200334001,2003340,Chaos Pumpkin,1,99999,None,None
+200335001,2003350,Chaos Pumpkin,1,999999,None,None
+200341001,2003410,Shards of Knowledge,1,99999,None,None
+200342001,2003420,Shards of Knowledge,1,99999,None,None
+200343001,2003430,Shards of Knowledge,1,99999,None,None
+200344001,2003440,Shards of Knowledge,1,99999,None,None
+200345001,2003450,Shards of Knowledge,1,999999,None,None
+200360001,2003600,Ancient Fragment,1,99999,None,None
+200370001,2003700,Memories of the Crow,1,99999,None,None
+200400001,2004000,Holy Night Miracle,1,99999,None,None
+200401001,2004010,Holy Night Miracle,1,99999,None,None
+200402001,2004020,Holy Night Miracle,1,99999,None,None
+200403001,2004030,Holy Night Miracle,1,99999,None,None
+200404001,2004040,Holy Night Miracle,1,99999,None,None
+200405001,2004050,Holy Night Miracle,1,99999,None,None
+200406001,2004060,Holy Night Miracle,1,999999,None,None
+200407001,2004070,Holy Night Miracle,1,999999,None,None
+200460001,2004600,Strategic Pawn,1,99999,None,None
+200490001,2004900,Crest of Principality,1,99999,None,None
+200491001,2004910,Crest of Principality,1,99999,None,None
+200492001,2004920,Crest of Principality,1,99999,None,None
+200493001,2004930,Crest of Principality,1,99999,None,None
+200494001,2004940,Crest of Principality,1,999999,None,None
+200510001,2005100,Knight of Intrigue,1,99999,None,None
+200520001,2005200,Cerulean Shard,1,99999,None,None
+200521001,2005210,Cerulean Shard,1,99999,None,None
+200560001,2005600,Service Medal,1,99999,None,None
+200580001,2005800,Fragment of Divine Armor,1,50000,None,None
+200590001,2005900,One-Star,1,50000,None,None
+200600001,2006000,Spirit's Jewelry,1,99999,None,None
+200610001,2006100,Flower of Bonds,1,99999,None,None
+200611001,2006110,Flower of Bonds,1,99999,None,None
+200620001,2006200,Charlotte's Rabbit,1,50000,None,None
+200640001,2006400,Mark of the Knights,1,99999,None,None
+200650001,2006500,Water Spirit Relief,1,99999,None,None
+200651001,2006510,Water Spirit Relief,1,99999,None,None
+200652001,2006520,Water Spirit Relief,1,99999,None,None
+200653001,2006530,Water Spirit Relief,1,999999,None,None
+200660001,2006600,Memories of the Crow,1,99999,None,None
+200680001,2006800,Shards of knowledge,1,50000,None,None
+200701001,2007010,Demon Dame's Ribbon,1,99999,None,None
+200702001,2007020,Demon Dame's Ribbon,1,99999,None,None
+200710001,2007100,Arena Medal,1,50000,None,None
+200730001,2007300,Remnant of a Cursed Soul,1,50000,None,None
+200780001,2007800,Fake Rose,1,50000,None,None
+200790001,2007900,Silent Azure Feather,1,99999,None,None
+200800001,2008000,Napa Cabbage,1,50000,None,None
+200810001,2008100,Charlotte's Rabbit,1,50000,None,None
+200820001,2008200,Spirit's Flower,1,99999,None,None
+200821001,2008210,Spirit's Flower,1,99999,None,None
+200822001,2008220,Spirit's Flower,1,99999,None,None
+200830001,2008300,Feather of Flame,1,50000,None,None
+200840001,2008400,Dark Monster's Fang,1,99999,None,None
+200841001,2008410,Dark Monster's Fang,1,99999,None,None
+200842001,2008420,Dark Monster's Fang,1,99999,None,None
+200870001,2008700,Crest of Principality,1,50000,None,None
+200880001,2008800,Sakura Petal,1,99999,None,None
+200881001,2008810,Sakura Petal,1,99999,None,None
+200882001,2008820,Sakura Petal,1,99999,None,None
+200890001,2008900,Remnant of a Cursed Soul,1,50000,None,None
+200900001,2009000,Mana Token,1,99999,None,None
+200901001,2009010,Mana Token,1,99999,None,None
+200910001,2009100,Shards of Knowledge,1,99999,None,None
+200960001,2009600,Snowy Feather,1,50000,None,None
+200961001,2009610,Snowy Feather,1,99999,None,None
+200980001,2009800,Cursed shard,1,99999,None,None
+200981001,2009810,Cursed shard,1,99999,None,None
+200982001,2009820,Cursed shard,1,99999,None,None
+200985001,2009850,Cursed shard,1,99999,None,None
+200986001,2009860,Cursed shard,1,999999,None,None
+201010001,2010100,Unforgettable Flower,1,99999,None,None
+201030001,2010300,Charlotte's Rabbit,1,99999,None,None
+201031001,2010310,Charlotte's Rabbit,1,99999,None,None
+201040001,2010400,Frozen Dragon Scale,1,99999,None,None
+201040101,2010401,Frozen Dragon Scale,1,99999,None,None
+201050001,2010500,One-Star,1,99999,None,None
+201060001,2010600,Fake Rose,1,99999,None,None
+201070001,2010700,Skeleton Piece,1,99999,None,None
+201070101,2010701,Skeleton Piece,1,99999,None,None
+201090001,2010900,Chaos Pumpkin,1,99999,None,None
+201100001,2011000,Demon Dame's Ribbon,1,99999,None,None
+201160001,2011600,Sharp Diamond Piece,1,99999,None,None
+201160101,2011601,Sharp Diamond Piece,1,99999,None,None
+201190001,2011900,Silent Azure Feather,1,99999,None,None
+201191001,2011910,Silent Azure Feather,1,99999,None,None
+201192001,2011920,Silent Azure Feather,1,99999,None,None
+201200001,2012000,Fulfilling Feather,1,99999,None,None
+201200101,2012001,Fulfilling Feather,1,99999,None,None
+201240001,2012400,Aqua Spirit Gem,1,99999,None,None
+201241001,2012410,Aqua Spirit Gem,1,99999,None,None
+201242001,2012420,Aqua Spirit Gem,1,99999,None,None
+201243001,2012430,Aqua Spirit Gem,1,99999,None,None
+201244001,2012440,Aqua Spirit Gem,1,999999,None,None
+201245001,2012450,Aqua Spirit Gem,1,999999,None,None
+201250001,2012500,Crest of Principality,1,99999,None,None
+201270001,2012700,Remnant of a Cursed Soul,1,99999,None,None
+201271001,2012710,Remnant of a Cursed Soul,1,99999,None,None
+201272001,2012720,Remnant of a Cursed Soul,1,99999,None,None
+201273001,2012730,Remnant of a Cursed Soul,1,99999,None,None
+201274001,2012740,Remnant of a Cursed Soul,1,99999,None,None
+201275001,2012750,Remnant of a Cursed Soul,1,99999,None,None
+201276001,2012760,Remnant of a Cursed Soul,1,99999,None,None
+201277001,2012770,Remnant of a Cursed Soul,1,999999,None,None
+201300001,2013000,Memories of the Crow,1,99999,None,None
+201310001,2013100,Crest Duplicate,1,99999,None,None
+201320001,2013200,Shards of Knowledge,1,99999,None,None
+201340001,2013400,Ribbon of Friendship,1,99999,None,None
+201350001,2013500,Relic Shard,1,99999,None,None
+201360001,2013600,Medal of Peace,1,99999,None,None
+201361001,2013610,Medal of Peace,1,99999,None,None
+201362001,2013620,Medal of Peace,1,99999,None,None
+201363001,2013630,Medal of Peace,1,99999,None,None
+201390001,2013900,Medal of Honor,1,99999,None,None
+201391001,2013910,Medal of Honorl,1,99999,None,None
+201392001,2013920,Medal of Honor,1,99999,None,None
+201393001,2013930,Medal of Honor,1,99999,None,None
+201410001,2014100,Quest Journal,1,99999,None,None
+201411001,2014110,Quest Journal,1,99999,None,None
+201412001,2014120,Quest Journal,1,99999,None,None
+201413001,2014130,Quest Journal,1,99999,None,None
+201430001,2014300,Unforgettable Flower,1,99999,None,None
+201431001,2014310,Unforgettable Flower,1,99999,None,None
+201432001,2014320,Unforgettable Flower,1,99999,None,None
+201450001,2014500,Calling Card,1,99999,None,None
+201451001,2014510,Calling Card,1,99999,None,None
+201480001,2014800,Templar Crest,1,99999,None,None
+201500001,2015000,Straw Man,1,99999,None,None
+201501001,2015010,Straw Man,1,99999,None,None
+201502001,2015020,Straw Man,1,99999,None,None
+201503001,2015030,Straw Man,1,99999,None,None
+201520001,2015200,Imari Medicinal Tea,1,99999,None,None
+201521001,2015210,Imari Medicinal Tea,1,99999,None,None
+201522001,2015220,Imari Medicinal Tea,1,99999,None,None
+201523001,2015230,Imari Medicinal Tea,1,99999,None,None
+201530001,2015300,Spirit's Jewelry,1,99999,None,None
+201531001,2015310,Spirit's Jewelry,1,99999,None,None
+201532001,2015320,Spirit's Jewelry,1,99999,None,None
+201533001,2015330,Spirit's Jewelry,1,99999,None,None
+201534001,2015340,Spirit's Jewelry,1,99999,None,None
+201535001,2015350,Spirit's Jewelry,1,999999,None,None
+201540001,2015400,Beef Rice Bowl,1,99999,None,None
+201541001,2015410,Beef Rice Bowl,1,99999,None,None
+201542001,2015420,Beef Rice Bowl,1,999999,None,None
+201543001,2015430,Beef Rice Bow,1,999999,None,None
+201550001,2015500,Napa Cabbage,1,99999,None,None
+201551001,2015510,Napa Cabbage,1,99999,None,None
+201552001,2015520,Napa Cabbage,1,999999,None,None
+201553001,2015530,Napa Cabbage,1,999999,None,None
+201570001,2015700,Cilinder of Sorcery,1,99999,None,None
+201600001,2016000,Soul of the Dead,1,99999,None,None
+201601001,2016010,Soul of the Dead,1,99999,None,None
+201602001,2016020,Soul of the Dead,1,99999,None,None
+201620001,2016200,Luna Globe,1,99999,None,None
+201621001,2016210,Luna Globe,1,99999,None,None
+201622001,2016220,Luna Globe,1,99999,None,None
+201630001,2016300,Red Spider Lily,1,99999,None,None
+201631001,2016310,Red Spider Lily,1,99999,None,None
+201632001,2016320, Red Spider Lily,1,99999,None,None
+201640001,2016400,Arena Medal,1,99999,None,None
+201650001,2016500,One-Star,1,99999,None,None
+201651001,2016510,One-Star,1,99999,None,None
+201652001,2016520,One-Star,1,99999,None,None
+201653001,2016530,One-Star,1,999999,None,None
+201654001,2016540,One-Star,1,999999,None,None
+201655001,2016550,One-Star,1,999999,None,None
+201660001,2016600,Memories of the Crow,1,99999,None,None
+201661001,2016610,Memories of the Crow,1,99999,None,None
+201670001,2016700,Sakura Petal,1,99999,None,None
+201690001,2016900,Deserter's Clues,1,99999,None,None
+201691001,2016910,Deserter's Clues,1,99999,None,None
+201692001,2016920,Deserter's Clues,1,999999,None,None
+201810001,2018100,Stardust Berry,1,99999,None,None
+201811001,2018110,Stardust Berry,1,99999,None,None
+201812001,2018120,Stardust Berry,1,99999,None,None
+201840001,2018400,Magic Fireworks,1,99999,None,None
+201841001,2018410,Magic Fireworks,1,99999,None,None
+201842001,2018420,Magic Fireworks,1,99999,None,None
+201890001,2018900,Adelite Obsidian,1,99999,None,None
+201891001,2018910,Adelite Obsidian,1,99999,None,None
+201892001,2018920,Adelite Obsidian,1,99999,None,None
+201940001,2019400,Piece of the Maze,1,99999,None,None
+201942001,2019420,Piece of the Maze,1,99999,None,None
+201950001,2019500,Book of Providence,1,99999,None,None
+201951001,2019510,Piece of the Maze,1,99999,None,None
+201952001,2019520,Book of Providence,1,99999,None,None
+201953001,2019530,Book of Providence,1,99999,None,None
+201980001,2019800,"""At Love's End"" Script",1,999999,None,None
+202000001,2020000,Painted Fervor,1,999999,None,None
+202020001,2020200,Filolial Feather,1,99999,None,None
+202021001,2020210,Filolial Feather,1,99999,None,None
+202022001,2020220,Filolial Feather,1,99999,None,None
+202060001,2020600,Jasper Plume,1,99999,None,None
+202061001,2020610,Jasper Plume,1,99999,None,None
+202070001,2020700,Jeweled Dagger,1,99999,None,None
+202071001,2020710,Jeweled Dagger,1,99999,None,None
+202130001,2021300,Monster's Soul,1,99999,None,None
+202160001,2021600,Travel Records,1,99999,None,None
+202170001,2021700,Scarlet Moon Tears,1,99999,None,None
+202171001,2021710,Scarlet Moon Tears,1,99999,None,None
+202180001,2021800,Magic Compass,1,99999,None,None
+202181001,2021810,Magic Compass,1,99999,None,None
+202300001,2023000,Crest of Guidance,1,99999,None,None
+202301001,2023010,Crest of Guidance,1,99999,None,None
+202360001,2023600,Travel Records,1,99999,None,None
+202520001,2025200,Magical Mindspeak Tool,1,99999,None,None
+202521001,2025210,Magical Mindspeak Tool,1,99999,None,None
+202522001,2025220,Magical Mindspeak Tool,1,999999,None,None
+202540001,2025400,Blossoms of Life,1,99999,None,None
+202541001,2025410,Blossoms of Life,1,99999,None,None
+202580001,2025800,Detective Tools,1,99999,None,None
+202581001,2025810,Detective Tools,1,99999,None,None
+202740001,2027400,Rangers' Secret,1,99999,None,None
+202820001,2028200,Demon's Horn,1,99999,None,None
+202821001,2028210,Demon's Horn,1,99999,None,None
+202822001,2028220,Demon's Horn,1,99999,None,None
+202823001,2028230,Demon's Horn,1,999999,None,None
+202824001,2028240,Demon's Horn,1,999999,None,None
+202840001,2028400,Eternal Stone Life Beryl,1,99999,None,None
+202841001,2028410,Eternal Stone Life Beryl,1,99999,None,None
+202842001,2028420,Eternal Stone Life Beryl,1,99999,None,None
+202850001,2028500,Blood Rose Painting,1,99999,None,None
+202930001,2029300,Travel Records,1,99999,None,None
+202950001,2029500,Kiss of Spring,1,99999,None,None
+202951001,2029510,Kiss of Spring,1,99999,None,None
+202980001,2029800,E-Factor Gauge,1,99999,None,None
+203010001,2030100,Precious Memento,1,99999,None,None
+203030001,2030300,Course Credentials,1,99999,None,None
+203031001,2030310,Course Credentials,1,99999,None,None
+203090001,2030900,Energy Cylinder,1,99999,None,None
+203130001,2031300,Terra Crystal,1,99999,None,None
+203131001,2031310,Terra Crystal,1,99999,None,None
+203150001,2031500,Aether Crystal,1,99999,None,None
+203151001,2031510,Aether Crystal,1,99999,None,None
+203180001,2031800,Shiny Seashell,1,99999,None,None
+203181001,2031810,Shiny Seashell,1,99999,None,None
+203280001,2032800,Prima Code,1,99999,None,None
+203300001,2033000,Umbral Seed,1,99999,None,None
+203330001,2033300,Travel Records,1,99999,None,None
+203360001,2033600,Rayas' Canteen,1,99999,None,None
+203390001,2033900,Model Airship,1,99999,None,None
+203440001,2034400,Worn Bandage,1,99999,None,None
+203480001,2034800,Travel Records,1,99999,None,None
+203500001,2035000,Wicked Seed,1,99999,None,None
+203540001,2035400,Travel Records,1,99999,None,None
+203680001,2036800,Travel Records,1,99999,None,None
+203710001,2037100,Flame Beast Shard,1,99999,None,None
+203711001,2037110,Flame Beast Shard,1,99999,None,None
+203712001,2037120,Flame Beast Shard,1,99999,None,None
+203740001,2037400,Glacial Beast Shard,1,99999,None,None
+203741001,2037410,Glacial Beast Shard,1,99999,None,None
+203742001,2037420,Glacial Beast Shard,1,99999,None,None
+203770001,2037700,Heroic Medal,1,99999,None,None
+203800001,2038000,Travel Records,1,99999,None,None
+203860001,2038600,Demonic Seal Copy,1,99999,None,None
+203930001,2039300,Travel Records,1,99999,None,None
+203950001,2039500,Bone Arrow,1,99999,None,None
+203990001,2039900,Monster Index,1,99999,None,None
+204020001,2040200,Demonic Seal Copy,1,99999,None,None
+204090001,2040900,Metalith,1,99999,None,None
+204140001,2041400,Bunny Doll,1,99999,None,None
+204320001,2043200,Travel Records,1,99999,None,None
+204360001,2043600,Demonic Seal Copy,1,99999,None,None
+204400001,2044000,Travel Records,1,99999,None,None
+204420001,2044200,Demonic Seal Copy,1,99999,None,None
+204450001,2044500,Travel Records,1,99999,None,None
+204510001,2045100,Ocarina of Command,1,99999,None,None
+204511001,2045110,Ocarina of Command,1,99999,None,None
+204550001,2045500,Heretical Index,1,99999,None,None
+204551001,2045510,Heretical Index,1,99999,None,None
+204590001,2045900,Demonic Seal Copy,1,99999,None,None
+204620001,2046200,Dark Matter,1,99999,None,None
+204630001,2046300,Romance Potion,1,99999,None,None
+204631001,2046310,Romance Potion,1,999999,None,None
+204632001,2046320,Romance Potion,1,999999,None,None
+204670001,2046700,Travel Records,1,99999,None,None
+204690001,2046900,Prima Code,1,99999,None,None
+204720001,2047200,Demonic Seal Copy,1,999999,None,None
+204760001,2047600,Sunlight Flower,1,99999,None,None
+204761001,2047610,Sunlight Flower,1,999999,None,None
+204762001,2047620,Sunlight Flower,1,999999,None,None
+204790001,2047900,Ransom Note,1,999999,None,None
+204820001,2048200,Pink Peony Core Card,1,99999,None,None
+204821001,2048210,Pink Peony Core Card,1,999999,None,None
+204822001,2048220,Pink Peony Core Card,1,999999,None,None
+204823001,2048230,Pink Peony Core Card,1,999999,None,None
+204860001,2048600,Bellflower Core Card,1,99999,None,None
+204890001,2048900,Red Peony Core Card,1,99999,None,None
+204940001,2049400,Travel Records,1,99999,None,None
+205020001,2050200,Magical Air Tank,1,999999,None,None
+205021001,2050210,Magical Air Tank,1,999999,None,None
+205022001,2050220,Magical Air Tank,1,999999,None,None
+205040001,2050400,Underwater Jetski,1,999999,None,None
+205041001,2050410,Underwater Jetski,1,999999,None,None
+205042001,2050420,Underwater Jetski,1,999999,None,None
+205060001,2050600,Immortality Secret,1,99999,None,None
+205090001,2050900,Viscera Gem,1,99999,None,None
+205130001,2051300,Captain's Symbol,1,999999,None,None
+205131001,2051310,Captain's Symbol,1,999999,None,None
+205150001,2051500,Ship's Helm,1,999999,None,None
+205151001,2051510,Ship's Helm,1,999999,None,None
+205180001,2051800,Courtney's Makeup,1,999999,None,None
+205260001,2052600,Travel Records,1,999999,None,None
+205290001,2052900,Spooky Lantern,1,999999,None,None
+205291001,2052910,Spooky Lantern,1,999999,None,None
+205320001,2053200,Travel Records,1,999999,None,None
+205350001,2053500,Prima Code,1,999999,None,None
+205380001,2053800,Travel Records,1,999999,None,None
+205420001,2054200,Multiverse Eye,1,99999,None,None
+205421001,2054210,Multiverse Eye,1,999999,None,None
+205460001,2054600,Empress' Eye,1,99999,None,None
+205461001,2054610,Empress' Eye,1,999999,None,None
+205510001,2055100,Drake's Ledger,1,999999,None,None
+205530001,2055300,Travel Records,1,999999,None,None
+205550001,2055500,Sisterly Chocolate,1,999999,None,None
+205551001,2055510,Sisterly Chocolate,1,999999,None,None
+205640001,2056400,Romantic Champeri,1,99999,None,None
+205650001,2056500,Dreamy Champeri,1,99999,None,None
+205700001,2057000,Kimchi Pork Bun,1,999999,None,None
+205760001,2057600,Prima Code,1,999999,None,None
+205880001,2058800,Travel Records,1,999999,None,None
+205930001,2059300,Lemon Ice Pop,1,999999,None,None
+205931001,2059310,Lemon Ice Pop,1,999999,None,None
+205932001,2059320,Lemon Ice Pop,1,999999,None,None
+205970001,2059700,Berry Ice Pop,1,999999,None,None
+206000001,2060000,Ramune Ice Pop,1,999999,None,None
+206060001,2060600,Travel Records,1,999999,None,None
+206100001,2061000,Merfolk Necklace,1,999999,None,None
+206150001,2061500,Elements Bulletin #1 Issue,1,999999,None,None
+206180001,2061800,Secret Elixir,1,999999,None,None
+206181001,2061810,Secret Elixir,1,999999,None,None
+206220001,2062200,Top-Secret Elixir,1,999999,None,None
+206221001,2062210,Top-Secret Elixir,1,999999,None,None
+206320001,2063200,Travel Records,1,999999,None,None
+206350001,2063500,Elements Bulletin #2 Issue,1,999999,None,None
+206400001,2064000,Travel Records,1,999999,None,None
+206440001,2064400,Hothead Emblem,1,999999,None,None
+206490001,2064900,Guntark's Rope,1,999999,None,None
+206491001,2064910,Guntark's Rope,1,999999,None,None
+206540001,2065400,Borderline Rope,1,999999,None,None
+206630001,2066300,Returning Memories,1,999999,None,None
+206650001,2066500,Travel Records,1,999999,None,None
+206700001,2067000,Prima Code,1,999999,None,None
+206730001,2067300,Research Log,1,999999,None,None
+206760001,2067600,Research Report,1,999999,None,None
+206830001,2068300,Prima Code,1,999999,None,None
+206850001,2068500,Hothead Emblem,1,999999,None,None
+206880001,2068800,Mystery Meat,1,999999,None,None
+206920001,2069200,Imperial Records,1,999999,None,None
+206921001,2069210,Imperial Records,1,999999,None,None
+206950001,2069500,Rose Ring,1,999999,None,None
+206980001,2069800,Marine Ring,1,999999,None,None
+207040001,2070400,Travel Records,1,999999,None,None
+207060001,2070600,Back-Itching Spell,1,999999,None,None
+207080001,2070800,Back-Healing Spell,1,999999,None,None
+207250001,2072500,Taiko Drum,1,999999,None,None
+207280001,2072800,Clear Bracelet,1,999999,None,None
+207410001,2074100,Elements Bulletin #3 Issue,1,999999,None,None
+207600001,2076000,Wormhole Sensor,1,999999,None,None
+207630001,2076300,Gravity Gauge,1,999999,None,None
+207800001,2078000,Red Memory Stone,1,999999,None,None
+207830001,2078300,Blue Memory Stone,1,999999,None,None
+207860001,2078600,Lepus Lapis,1,999999,None,None
+207880001,2078800,Lucky Lapis,1,999999,None,None
+207920001,2079200,Guild Guidebook,1,999999,None,None
+207980001,2079800,Guild Handbook,1,999999,None,None
+208130001,2081300,Red Knight Stone,1,999999,None,None
+208170001,2081700,Seaside Painting,1,999999,None,None
+208270001,2082700,Volleyball,1,999999,None,None
+208300001,2083000,Emperor Class Card,1,999999,None,None
+208340001,2083400,Monarch Class Card,1,999999,None,None
+210010001,2100100,Fake Rose,1,99999,None,None
+210011001,2100110,Fake Rose,1,99999,None,None
+350000101,3500001,Buccaneer Medal,1,999999,None,None
+350000301,3500003,Buccaneer Medal,1,999999,None,None
+350000401,3500004,Buccaneer Medal,1,999999,None,None
+504090001,5040900,Island Treasure,1,999999,None,None
+504100001,5041000,Mountain Treasure,1,999999,None,None
+504110001,5041100,Summit Treasure,1,999999,None,None
+504120001,5041200,Cavern Treasure,1,999999,None,None
+504130001,5041300,Tundra Treasure,1,999999,None,None
+504140001,5041400,Holy Treasure,1,999999,None,None

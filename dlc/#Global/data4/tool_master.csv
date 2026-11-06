@@ -1,0 +1,388 @@
+id,name,description,type,effect1,effect1_type,effect2,effect2_type,start_at,end_at,first_visible,tab_no,count_limit,priority,is_quest_item,is_beginner,gb_world_id,mini_game_event_id
+110030000,S Potion,Restore 30% of maximum Energy.,1,30,1,0,0,None,None,1,2,9999,40070,0,0,0,0
+110030001,Limited: S Potion,Restore 30% of maximum Energy.,1,30,1,0,0,2017-06-30 13:00:00-08:00,2017-07-31 22:59:59-08:00,0,2,9999,70000,0,0,0,0
+110030002,Limited: S Potion,Restore 30% of maximum Energy.,1,30,1,0,0,2017-07-31 13:00:00-08:00,2017-08-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030003,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PST),1,30,1,0,0,2018-03-07 18:00:00-08:00,2020-08-07 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030004,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PST),1,30,1,0,0,2018-04-18 18:00:00-08:00,2018-05-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030005,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PST),1,30,1,0,0,2018-05-16 18:00:00-08:00,2018-06-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030006,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 12/01 0:59(PST),1,30,1,0,0,2018-10-24 18:00:00-08:00,2018-12-01 00:59:59-08:00,0,2,9999,70030,0,0,0,0
+110030007,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PST),1,30,1,0,0,2018-06-13 18:00:00-08:00,2018-07-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030008,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PST),1,30,1,0,0,2018-07-03 18:00:00-08:00,2018-08-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030009,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PST),1,30,1,0,0,2018-08-22 18:00:00-08:00,2018-09-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030010,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PST),1,30,1,0,0,2018-08-29 18:00:00-08:00,2018-10-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030011,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/01 0:59(PST),1,30,1,0,0,2018-10-04 18:00:00-08:00,2020-08-07 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030012,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2018-11-08 18:00:00-08:00,2018-12-31 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030013,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 1/31 23:59(PST),1,30,1,0,0,2018-12-10 18:00:00-08:00,2019-01-31 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030014,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 2/28 23:59(PST),1,30,1,0,0,2019-01-09 18:00:00-08:00,2019-02-28 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030015,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PDT),1,30,1,0,0,2019-02-13 18:00:00-08:00,2019-04-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030016,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PDT),1,30,1,0,0,2019-04-03 18:00:00-08:00,2020-08-07 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030017,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 3/31 23:59(PDT),1,30,1,0,0,2019-02-20 18:00:00-08:00,2020-08-07 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030021,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PDT),1,30,1,0,0,2019-03-25 18:00:00-08:00,2019-06-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030022,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PDT),1,30,1,0,0,2019-06-05 18:00:00-08:00,2019-07-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030023,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PDT),1,30,1,0,0,2019-06-05 18:00:00-08:00,2019-08-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030024,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PDT),1,30,1,0,0,2019-07-31 18:00:00-08:00,2020-08-07 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030025,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PDT),1,30,1,0,0,2019-07-31 18:00:00-08:00,2019-10-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030026,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2019-09-04 18:00:00-08:00,2019-11-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030033,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2019-10-30 18:00:00-08:00,2019-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110030034,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2020-10-21 18:00:00-08:00,2020-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110030035,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2021-10-21 18:00:00-08:00,2021-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110030036,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2022-10-24 18:00:00-08:00,2022-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110030037,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2023-10-19 18:00:00-08:00,2023-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110030038,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2024-10-01 04:00:00-08:00,2024-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110030039,Pumpkin Cookies,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2025-10-29 04:00:00-08:00,2025-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110030041,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 1/31 23:59(PST),1,30,1,0,0,2019-11-04 19:00:00-08:00,2020-01-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030042,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2019-11-04 19:00:00-08:00,2019-12-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030043,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 2/29 23:59(PST),1,30,1,0,0,2020-01-23 18:00:00-08:00,2020-02-29 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030044,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PDT),1,30,1,0,0,2020-02-04 18:00:00-08:00,2020-04-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030045,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 3/31 23:59(PDT),1,30,1,0,0,2020-02-16 18:00:00-08:00,2020-03-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030046,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PDT),1,30,1,0,0,2020-04-09 18:00:00-08:00,2020-06-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030047,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PDT),1,30,1,0,0,2020-04-20 18:00:00-08:00,2020-05-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030048,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PDT),1,30,1,0,0,2020-06-01 18:00:00-08:00,2020-08-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030049,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PDT),1,30,1,0,0,2020-07-01 18:00:00-08:00,2020-07-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030050,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PDT),1,30,1,0,0,2020-07-01 18:00:00-08:00,2020-10-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030051,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PDT),1,30,1,0,0,2020-08-01 18:00:00-08:00,2020-09-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030052,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2020-08-01 18:00:00-08:00,2020-11-30 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030053,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2020-10-31 23:00:00-08:00,2020-12-31 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030054,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 1/31 23:59(PST),1,30,1,0,0,2020-10-31 23:00:00-08:00,2021-01-31 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030055,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 2/28 23:59(PST),1,30,1,0,0,2020-12-01 00:00:00-08:00,2021-02-28 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030056,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PDT),1,30,1,0,0,2021-01-01 00:00:00-08:00,2021-04-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030057,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 3/31 23:59(PDT),1,30,1,0,0,2021-02-01 00:00:00-08:00,2021-03-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030058,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PDT),1,30,1,0,0,2021-03-01 00:00:00-08:00,2021-05-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030059,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PDT),1,30,1,0,0,2021-04-30 23:00:00-08:00,2021-06-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030060,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PDT),1,30,1,0,0,2021-05-31 23:00:00-08:00,2021-07-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030061,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PDT),1,30,1,0,0,2021-05-31 23:00:00-08:00,2021-08-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030062,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PDT),1,30,1,0,0,2021-06-30 23:00:00-08:00,2021-10-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030063,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PDT),1,30,1,0,0,2021-06-30 23:00:00-08:00,2021-09-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030064,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2021-08-31 23:00:00-08:00,2021-12-31 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030065,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 02/28 23:59(PST),1,30,1,0,0,2021-11-18 18:00:00-08:00,2022-02-28 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030066,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 01/31 23:59(PST),1,30,1,0,0,2021-11-18 18:00:00-08:00,2022-01-31 23:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030067,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 03/31 23:59(PDT),1,30,1,0,0,2022-02-01 18:00:00-08:00,2022-03-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030068,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 04/30 23:59(PDT),1,30,1,0,0,2022-02-01 18:00:00-08:00,2022-04-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030069,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 05/31 23:59(PDT),1,30,1,0,0,2022-03-01 18:00:00-08:00,2022-05-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030070,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 06/30 23:59(PDT),1,30,1,0,0,2022-04-01 17:00:00-08:00,2022-06-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030071,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 07/31 23:59(PDT),1,30,1,0,0,2022-05-01 18:00:00-08:00,2022-07-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030073,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 08/31 23:59(PDT),1,30,1,0,0,2022-07-01 18:00:00-08:00,2022-08-31 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030074,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 09/30 23:59(PDT),1,30,1,0,0,2022-07-01 18:00:00-08:00,2022-09-30 22:59:59-08:00,0,2,9999,70010,0,0,0,0
+110030075,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PDT),1,30,1,0,0,2022-07-01 18:00:00-08:00,2022-10-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030076,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2022-09-01 18:00:00-08:00,2022-11-30 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030077,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2022-11-03 18:00:00-08:00,2022-12-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030078,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 1/31 23:59(PST),1,30,1,0,0,2022-11-03 18:00:00-08:00,2023-01-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030079,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 2/28 23:59(PST),1,30,1,0,0,2022-12-15 18:00:00-08:00,2023-02-28 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030080,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 3/31 23:59(PDT),1,30,1,0,0,2023-01-01 18:00:00-08:00,2023-03-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030081,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PDT),1,30,1,0,0,2023-03-02 18:00:00-08:00,2023-04-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030082,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PDT),1,30,1,0,0,2023-03-23 18:00:00-08:00,2023-05-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030083,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PDT),1,30,1,0,0,2023-04-06 18:00:00-08:00,2023-06-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030084,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PDT),1,30,1,0,0,2023-04-20 18:00:00-08:00,2023-07-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030085,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PDT),1,30,1,0,0,2023-04-20 18:00:00-08:00,2023-08-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030086,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PDT),1,30,1,0,0,2023-04-20 18:00:00-08:00,2023-09-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030087,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PDT),1,30,1,0,0,2023-04-20 18:00:00-08:00,2023-10-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030088,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2023-09-20 18:00:00-08:00,2023-11-30 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030089,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2023-10-18 18:00:00-08:00,2023-12-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030090,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 1/31 23:59(PST),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-01-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030091,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 2/29 23:59(PST),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-02-29 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030092,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 3/31 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-03-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030093,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-04-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030094,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-05-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030095,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-06-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030096,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-07-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030097,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-08-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030098,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-09-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030099,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PDT),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-10-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030100,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-11-30 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030101,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2023-11-28 18:00:00-08:00,2024-12-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030102,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 2/28 23:59(PST),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-02-28 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030103,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 1/31 23:59(PST),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-01-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030104,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 3/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-03-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030105,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-04-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030106,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-05-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030107,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-06-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030108,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-07-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030109,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-08-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030110,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-09-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030111,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 10/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-10-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030112,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 11/30 23:59(PST),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-11-30 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030113,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 12/31 23:59(PST),1,30,1,0,0,2023-11-21 18:00:00-08:00,2025-12-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030114,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 1/31 23:59(PST),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-01-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030115,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 2/28 23:59(PST),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-02-28 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030116,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 3/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-03-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030117,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 4/30 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-04-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030118,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 5/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-05-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030119,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 6/30 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-06-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030120,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 7/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-07-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030121,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 8/31 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-08-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030122,Limited: S Potion,Restore 30% of maximum Energy. Good Until: 9/30 23:59(PDT),1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-09-30 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030123,Limited: S Potion,Restore 30% of maximum Energy.,1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-10-31 22:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030124,Limited: S Potion,Restore 30% of maximum Energy.,1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-11-30 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030125,Limited: S Potion,Restore 30% of maximum Energy.,1,30,1,0,0,2023-11-21 18:00:00-08:00,2026-12-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110030126,Limited: S Potion,Restore 30% of maximum Energy.,1,30,1,0,0,2023-11-21 18:00:00-08:00,2027-01-31 23:59:59-08:00,0,2,9999,70055,0,0,0,0
+110050000,M Potion,Restore 50% of maximum Energy.,1,50,1,0,0,None,None,1,2,9999,40050,0,0,0,0
+110050001,Sweet Rice Ball,Restore 50% of maximum Energy.,1,50,1,0,0,2017-07-16 23:00:00-08:00,2017-07-31 22:59:59-08:00,0,2,9999,70001,0,0,0,0
+110050002,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 12/01 0:59(PST),1,50,1,0,0,2018-10-24 18:00:00-08:00,2018-12-01 00:59:59-08:00,0,2,9999,70040,0,0,0,0
+110050004,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 11/30 23:59(PST),1,50,1,0,0,2019-10-30 18:00:00-08:00,2019-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110050005,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 11/30 23:59(PST),1,50,1,0,0,2020-10-21 18:00:00-08:00,2020-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110050006,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 11/30 23:59(PST),1,50,1,0,0,2021-10-21 18:00:00-08:00,2021-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110050007,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 11/30 23:59(PST),1,50,1,0,0,2022-10-24 18:00:00-08:00,2022-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110050008,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 11/30 23:59(PST),1,50,1,0,0,2023-10-19 18:00:00-08:00,2023-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110050009,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 11/30 23:59(PST),1,50,1,0,0,2024-10-01 04:00:00-08:00,2024-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110050010,Pumpkin Cake,Restore 50% of maximum Energy. Good Until: 11/30 23:59(PST),1,50,1,0,0,2025-10-29 04:00:00-08:00,2025-11-30 23:59:59-08:00,0,2,9999,70050,0,0,0,0
+110100000,L Potion,Restore 100% of maximum Energy.,1,100,1,0,0,None,None,1,2,9999,40000,0,0,0,0
+110100100,Mikyuon Cupcake,A special cupcake themed after a Mikyuon. Probably restores 100% of max Energy.,1,100,1,0,0,2024-03-31 23:00:00-08:00,None,0,2,9999,39000,0,0,0,0
+110100200,Rekyuon Cupcake,A special cupcake themed after a Rekyuon. Almost certainly restores 100% of max Energy.,1,100,1,0,0,2026-03-31 23:00:00-08:00,None,0,2,9999,39000,0,0,0,0
+110100502,Health Tonic,Doubles the EXP gain of Health Regalia for 30 minutes,14,40001,None,None,None,None,None,0,2,9999,40598,0,0,3,0
+110100503,Health Tonic,Doubles the EXP gain of Health Regalia for 30 minutes,14,40001,None,None,None,None,None,0,2,9999,40597,0,0,4,0
+110100602,Power Tonic,Doubles the EXP gain of Power Regalia for 30 minutes,14,40002,None,None,None,None,None,0,2,9999,40498,0,0,3,0
+110100603,Power Tonic,Doubles the EXP gain of Power Regalia for 30 minutes,14,40002,None,None,None,None,None,0,2,9999,40497,0,0,4,0
+110100702,Guard Tonic,Doubles the EXP gain of Guard Regalia for 30 minutes,14,40003,None,None,None,None,None,0,2,9999,40398,0,0,3,0
+110100703,Guard Tonic,Doubles the EXP gain of Guard Regalia for 30 minutes,14,40003,None,None,None,None,None,0,2,9999,40397,0,0,4,0
+110100802,Resist Tonic,Doubles the EXP gain of Resist Regalia for 30 minutes,14,40004,None,None,None,None,None,0,2,9999,40298,0,0,3,0
+110100803,Resist Tonic,Doubles the EXP gain of Resist Regalia for 30 minutes,14,40004,None,None,None,None,None,0,2,9999,40297,0,0,4,0
+110100902,Break Tonic,Doubles the EXP gain of Break Regalia for 30 minutes,14,40005,None,None,None,None,None,0,2,9999,40198,0,0,3,0
+110100903,Break Tonic,Doubles the EXP gain of Break Regalia for 30 minutes,14,40005,None,None,None,None,None,0,2,9999,40197,0,0,4,0
+110101002,Mind Tonic,Doubles the EXP gain of Mind Regalia for 30 minutes,14,40006,None,None,None,None,None,0,2,9999,40098,0,0,3,0
+110101003,Mind Tonic,Doubles the EXP gain of Mind Regalia for 30 minutes,14,40006,None,None,None,None,None,0,2,9999,40097,0,0,4,0
+110201000,AP Potion S,Restores 1 AP,10,1,2,0,0,None,None,0,2,9999,41200,0,0,0,0
+110201001,AP Potion M,Restores 5 AP,10,5,2,0,0,None,None,0,2,9999,41199,0,0,0,0
+110201002,AP Potion L,Restores 10 AP,10,10,2,0,0,None,None,0,2,9999,41198,0,0,0,0
+110202000,Limited AP Potion S,Restores 1 AP,10,1,2,0,0,2025-01-01 19:00:00-08:00,2025-01-31 18:59:59-08:00,0,2,9999,41300,0,0,0,0
+110202001,Limited AP Potion M,Restores 5 AP,10,5,2,0,0,2025-01-01 19:00:00-08:00,2025-01-31 18:59:59-08:00,0,2,9999,41299,0,0,0,0
+110202002,Limited AP Potion L,Restores 10 AP,10,10,2,0,0,2025-01-01 19:00:00-08:00,2025-01-31 18:59:59-08:00,0,2,9999,41298,0,0,0,0
+110202003,Limited AP Potion L,Restores 10 AP,10,10,2,0,0,2025-05-01 18:00:00-08:00,2025-05-31 22:59:59-08:00,0,2,9999,41297,0,0,0,0
+110203000,Stamina Charge,Fully restores a unit's Stamina in Episode 1,11,10,3,0,0,None,None,0,2,9999,40800,0,0,1,0
+110203001,Stamina Charge,Fully restores a unit's Stamina in Episode 2,11,10,3,0,0,None,None,0,2,9999,40799,0,0,2,0
+110203002,Limited Stamina Charge,Fully restores a unit's Stamina in Episode 1,11,10,3,0,0,2025-01-01 19:00:00-08:00,2025-01-31 18:59:59-08:00,0,2,9999,41000,0,0,1,0
+110203003,Limited Stamina Charge,Fully restores a unit's Stamina in Episode 2,11,10,3,0,0,2025-01-01 19:00:00-08:00,2025-01-31 18:59:59-08:00,0,2,9999,40999,0,0,2,0
+110203004,Stamina Charge,Fully restores a unit's Stamina in Episode 3,11,10,3,0,0,None,None,0,2,9999,40798,0,0,3,0
+110203005,Stamina Charge,Fully restores a unit's Stamina in Episode 4,11,10,3,0,0,None,None,0,2,9999,40797,0,0,4,0
+110204000,Super Stamina Charge,Fully restores all units' Stamina in Episode 1,12,10,3,0,0,None,None,0,2,9999,40900,0,0,1,0
+110204001,Super Stamina Charge,Fully restores all units' Stamina in Episode 2,12,10,3,0,0,None,None,0,2,9999,40899,0,0,2,0
+110204002,Limited Stamina Charge,Fully restores all units' Stamina in Episode 1,12,10,3,0,0,2025-01-01 19:00:00-08:00,2025-01-31 18:59:59-08:00,0,2,9999,41100,0,0,1,0
+110204003,Limited Stamina Charge,Fully restores all units' Stamina in Episode 2,12,10,3,0,0,2025-01-01 19:00:00-08:00,2025-01-31 18:59:59-08:00,0,2,9999,41099,0,0,2,0
+110204004,Super Stamina Charge,Fully restores all units' Stamina in Episode 3,12,10,3,0,0,None,None,0,2,9999,40898,0,0,3,0
+110204005,Super Stamina Charge,Fully restores all units' Stamina in Episode 4,12,10,3,0,0,None,None,0,2,9999,40897,0,0,4,0
+110205000,Quick Stone,Fully restores a unit's Stamina and increases their CT Speed Lv by 1,13,1,2,0,0,None,None,0,2,9999,40700,0,0,1,0
+110205001,Quick Stone,Fully restores a unit's Stamina and increases their CT Speed Lv by 1,13,1,2,0,0,None,None,0,2,9999,40699,0,0,2,0
+110205002,Quick Stone,Fully restores a unit's Stamina and increases their CT Speed Lv by 1,13,1,2,0,0,None,None,0,2,9999,40698,0,0,3,0
+110205003,Quick Stone,Fully restores a unit's Stamina and increases their CT Speed Lv by 1,13,1,2,0,0,None,None,0,2,9999,40697,0,0,4,0
+220002000,Lucky Apple,Double all quest drops.,2,2,2,0,0,None,None,1,3,9999,30080,1,0,0,0
+220003000,Super Apple,Triple all quest drops.,2,3,2,0,0,None,None,1,3,9999,30079,1,0,0,0
+400000001,Flux Drop,"Use Flux Drop to randomly change Crest effect. 
+*Crest Level will not change.",4,0,0,0,0,None,None,0,2,9999,20000,0,0,0,0
+400000002,Burst Core,Burst the Crest you have equipped.,7,0,0,0,0,None,None,0,2,9999,20002,0,0,0,0
+400000003,Beckon Stone,Boost high-Lv Crest drops & halve Palace Energy for 30 min.,8,30,3,2,2,None,None,0,3,9999,30081,1,0,0,0
+400000004,Max Elixir,Raises a unit to its highest form and Level.,9,0,0,0,0,None,None,0,2,9999,20001,0,0,0,0
+510001000,★5 Hero Summon Ticket,A ticket for a ★5 Hero Summon,5,1,1,0,0,2018-08-01 18:00:00-08:00,None,1,5,9999,0,0,0,0,0
+510001002,Crossover Summon Ticket,A ticket to a Crossover Summon,5,1,1,0,0,2018-08-29 18:00:00-08:00,2018-10-04 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001003,Crossover Summon Ticket,A ticket to a Crossover Summon,5,1,1,0,0,2018-10-04 18:00:00-08:00,2018-11-29 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001004,Crossover Summon Ticket,A ticket to a Crossover Summon,5,1,1,0,0,2019-02-13 18:00:00-08:00,2019-06-01 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001005,Crossover Summon Ticket,A ticket to a Crossover Summon,5,1,1,0,0,2019-06-05 18:00:00-08:00,2019-08-01 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001006,Crossover Summon Ticket,A ticket to a Crossover Summon,5,1,1,0,0,2019-07-15 18:00:00-08:00,2019-11-01 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001007,UR Crossover Ticket,A Ticket to a Crossover Summon.,5,1,1,0,0,2019-09-04 18:00:00-08:00,2019-11-01 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001008,Crossover Summon Ticket,A ticket to a Crossover Summon,5,1,1,0,0,2019-11-04 18:00:00-08:00,2020-01-07 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001009,Dream Ticket,A ticket to a Dream Summon,5,1,1,0,0,2019-12-31 07:00:00-08:00,2020-02-04 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001010,Crossover Summon Ticket,A ticket to a Crossover Summon,5,1,1,0,0,2020-02-04 07:00:00-08:00,2020-04-10 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001011,Crossover Summon Ticket,"A ticket to ""The Shield Hero"" Crossover Summon",5,1,1,0,0,2020-03-24 18:00:00-08:00,2020-06-19 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001012,Crossover Summon Ticket,"A ticket to ""YU YU HAKUSHO"" Crossover Summon Until: 8/6 18:59(PDT)",5,1,1,0,0,2020-06-17 23:00:00-08:00,2020-08-06 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001013,Crossover ★5 Ticket,"A ticket to ""YU YU HAKUSHO"" ★5 Ticket Summon!! Until: 7/31 4:59(PDT)",5,1,1,0,0,2020-06-17 23:00:00-08:00,2020-07-31 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001014,Crossover Summon Ticket,"A ticket to ""Golden Kamuy"" Crossover Summon Until: 9/18 4:59(PDT)",5,1,1,0,0,2020-07-26 04:00:00-08:00,2020-09-18 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001016,Hero Fest Summon Ticket,A ticket to Hero Fest Ticket Summon                          Until: 9/24 18:59(PDT),5,1,1,0,0,2020-09-08 18:00:00-08:00,2020-09-24 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001017,Crossover Summon Ticket,"A ticket to ""ONE PUNCH MAN"" Crossover Summon Until: 11/19 17:59(PST)",5,1,1,0,0,2020-09-10 04:00:00-08:00,2020-11-19 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001018,Crossover ★5 Ticket,"A ticket to ""ONE PUNCH MAN"" ★5 Ticket Summon!! Until: 11/13 3:59(PST)",5,1,1,0,0,2020-09-17 18:00:00-08:00,2020-11-13 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001019,Crossover Summon Ticket,"A ticket to ""Goblin Slayer"" Crossover Summon Until: 12/17 17:59(PST)",5,1,1,0,0,2020-11-12 04:00:00-08:00,2020-12-17 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001020,Crossover Summon Ticket,"A ticket to ""Re:ZERO"" Crossover Summon",5,1,1,0,0,2020-12-10 04:00:00-08:00,2021-02-04 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001021,Crossover ★5 Ticket,"A ticket to ""Re:ZERO"" Crossover ★5 Ticket Summon!!",5,1,1,0,0,2020-12-10 04:00:00-08:00,2021-01-29 03:59:59-08:00,1,5,9999,0,0,0,0,0
+510001022,Dream Ticket,A ticket to a Dream Summon,5,1,1,0,0,2020-12-27 18:00:00-08:00,2021-01-12 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001023,Hero Fest Summon Ticket,A ticket to Hero Fest Ticket Summon Until: 3/22 18:59(PDT),5,1,1,0,0,2021-01-12 18:00:00-08:00,2021-03-22 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001024,Revival Summon Ticket,"A ticket for ""Ten-Sura Revival"" Crossover Summon",5,1,1,0,0,2020-12-10 04:00:00-08:00,2021-03-11 17:59:59-08:00,1,5,9999,1,0,0,0,0
+510001025,Crossover Revival exclusive ★5 Ticket,"A ticket for ""Ten-Sura Revival"" Crossover ★5 Ticket Summon!!",5,1,1,0,0,2020-12-10 04:00:00-08:00,2021-03-04 17:59:59-08:00,1,5,9999,2,0,0,0,0
+510001026,Xmas Summon Ticket,"A ticket for ""Ten-Sura Xmas"" Crossover Summon",5,1,1,0,0,2021-02-05 04:00:00-08:00,2021-03-11 17:59:59-08:00,1,5,9999,3,0,0,0,0
+510001027,New Years! Summon Ticket,"A ticket for ""Ten-Sura New Years!"" Crossover Summon",5,1,1,0,0,2021-02-15 04:00:00-08:00,2021-03-11 17:59:59-08:00,1,5,9999,4,0,0,0,0
+510001028,Crossover Summon Ticket,"A ticket for ""Hatsune Miku"" Crossover Summon",5,1,1,0,0,2021-03-25 04:00:00-08:00,2021-05-13 17:59:59-08:00,1,5,9999,4,0,0,0,0
+510001029,Crossover Summon Ticket,"A ticket for ""KILL la KILL"" Crossover Summon",5,1,1,0,0,2021-05-06 18:00:00-08:00,2021-06-10 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001030,Banner ★5 Ticket,A ticket for Banner ★5 Ticket Summon,5,1,1,0,0,2021-05-06 18:00:00-08:00,2021-06-03 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001031,Unit Summon Ticket,"A ticket for ""GODZILLA"" Crossover Ticket Summon",5,1,1,0,0,2021-06-03 18:00:00-08:00,2021-07-15 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001032,Equip Summon Ticket #1,"A ticket for ""GODZILLA"" Crossover Equip Summon",5,1,1,0,0,2021-06-03 18:00:00-08:00,2021-07-15 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001033,Equip Summon Ticket #2,"A ticket for ""GODZILLA"" Crossover Equip Summon",5,1,1,0,0,2021-06-16 18:00:00-08:00,2021-07-15 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001034,Crossover Summon Ticket,"A ticket to ""The Shield Hero"" Crossover Summon",5,1,1,0,0,2021-07-04 23:00:00-08:00,2021-09-23 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001035,Banner ★5 Ticket,A ticket for Banner ★5 Ticket Summon,5,1,1,0,0,2021-07-15 18:00:00-08:00,2021-09-16 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001036,Crossover ★5 Ticket,A ticket for Crossover ★5 Ticket Summon,5,1,1,0,0,2021-07-15 18:00:00-08:00,2021-09-16 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001037,Hero Fest Summon Ticket,A ticket to Hero Fest Ticket Summon Until: 8/24 18:59(PDT),5,1,1,0,0,2021-07-27 18:00:00-08:00,2021-08-24 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001038,Crossover Summon Ticket #1,"A ticket for ""SHAMAN KING"" Crossover Ticket Summon",5,1,1,0,0,2021-09-17 04:00:00-08:00,2021-11-17 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001039,Crossover Summon Ticket #2,"A ticket for ""SHAMAN KING"" Crossover Ticket Summon",5,1,1,0,0,2021-10-06 04:00:00-08:00,2021-11-17 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001040,Crossover Summon Ticket #1,"A ticket for ""Mushoku Tensei"" Crossover Ticket Summon",5,1,1,0,0,2021-11-11 04:00:00-08:00,2022-01-27 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001041,Crossover Summon Ticket #2,"A ticket for ""Mushoku Tensei"" Crossover Ticket Summon",5,1,1,0,0,2021-12-06 04:00:00-08:00,2022-01-27 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001042,Crossover ★5 Ticket,A ticket for Crossover ★5 Ticket Summon,5,1,1,0,0,2021-12-20 18:00:00-08:00,2022-01-20 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001043,Dream Ticket,A ticket to a Dream Summon,5,1,1,0,0,2021-12-31 07:00:00-08:00,2022-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001044,Dream Equip Ticket,A ticket to a Dream Summon Equip Edition,5,1,1,0,0,2021-12-31 07:00:00-08:00,2022-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001045,Crossover Summon Ticket,"A ticket for ""Hatsune Miku"" Crossover Summon",5,1,1,0,0,2022-02-03 18:00:00-08:00,2022-03-24 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001046,Top-20 Unit Summon Ticket,A ticket for Top-20 High Luck Unit Summon,5,1,1,0,0,2022-02-07 00:00:00-08:00,2022-04-07 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001047,Banner ★5 Ticket,A ticket for Banner ★5 Ticket Summon,5,1,1,0,0,2022-02-15 18:00:00-08:00,2022-03-17 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001048,Crossover ★5 Ticket,A ticket for Crossover ★5 Ticket Summon,5,1,1,0,0,2022-02-15 18:00:00-08:00,2022-03-17 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001049,4-Year Gratitude Ticket,A ticket for 4th Anniversary Gratitude Summon,5,1,1,0,0,2022-03-05 04:00:00-08:00,2022-05-19 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001050,Crossover Summon Ticket #1,"A ticket for ""FAIRY TAIL"" Crossover Ticket Summon",5,1,1,0,0,2022-04-01 04:00:00-08:00,2022-06-02 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001051,Crossover Summon Ticket #2,"A ticket for ""FAIRY TAIL"" Crossover Ticket Summon",5,1,1,0,0,2022-04-18 04:00:00-08:00,2022-06-02 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001052,Crossover Summon Ticket,"A ticket for ""KILL la KILL"" Crossover Ticket Summon",5,1,1,0,0,2022-05-19 04:00:00-08:00,2022-07-14 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001053,Crossover Summon Ticket,"A ticket to ""The Shield Hero"" Crossover Summon",5,1,1,0,0,2022-07-01 04:00:00-08:00,2022-08-11 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001054,Crossover ★5 Ticket,A ticket for Crossover ★5 Ticket Summon,5,1,1,0,0,2022-07-14 23:00:00-08:00,2022-08-04 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001055,Crossover Summon Ticket #1,For the TOKYO REVENGERS Crossover Ticket Summon ending 9/22 18:59,5,1,1,0,0,2022-07-29 04:00:00-08:00,2022-09-22 17:59:59-08:00,1,5,9999,10020,0,0,0,0
+510001056,Crossover Equip Summon Ticket #1,For the TOKYO REVENGERS Crossover Equip Ticket Summon ending 9/22 18:59,5,1,1,0,0,2022-07-29 04:00:00-08:00,2022-09-22 17:59:59-08:00,1,5,9999,10010,0,0,0,0
+510001057,Crossover Summon Ticket #2,For the TOKYO REVENGERS Crossover Ticket Summon ending 9/22 18:59,5,1,1,0,0,2022-08-12 04:00:00-08:00,2022-09-22 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001058,Crossover Equip Summon Ticket #2,For the TOKYO REVENGERS Crossover Equip Ticket Summon ending 9/22 18:59,5,1,1,0,0,2022-08-12 04:00:00-08:00,2022-09-22 17:59:59-08:00,1,5,9999,10030,0,0,0,0
+510001059,Crossover Summon Ticket,"For the Black Rock Shooter Crossover Ticket Summon 
+ending 11/10 17:59",5,1,1,0,0,2022-09-23 04:00:00-08:00,2022-11-10 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001060,Crossover ★5 Ticket,"For the ★5 Crossover Ticket Summon
+ending 11/3 18:59",5,1,1,0,0,2022-09-29 18:00:00-08:00,2022-11-03 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001061,Crossover Summon Ticket,"For the SHAMAN KING Crossover Ticket Summon 
+ending 12/22 17:59",5,1,1,0,0,2022-10-28 04:00:00-08:00,2022-12-22 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001062,Dream Ticket,A ticket to a Dream Summon,5,1,1,0,0,2022-12-31 07:00:00-08:00,2023-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001063,Dream Equip Ticket,A ticket to a Dream Summon Equip Edition,5,1,1,0,0,2022-12-31 07:00:00-08:00,2023-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001064,Crossover Revival exclusive ★5 Ticket,"A ticket for ""Ten-Sura Revival"" Crossover ★5 Ticket Summon!!",5,1,1,0,0,2023-01-12 18:00:00-08:00,2023-03-09 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001065,Crossover Summon Ticket,"A ticket for ""Ten-Sura Revival"" Crossover Summon",5,1,1,0,0,2023-01-12 18:00:00-08:00,2023-03-09 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001066,Xmas Summon Ticket,"A ticket for ""Ten-Sura Xmas"" Crossover Summon",5,1,1,0,0,2023-01-23 18:00:00-08:00,2023-03-09 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001067,New Years! Summon Ticket,"A ticket for ""Ten-Sura New Years!"" Crossover Summon",5,1,1,0,0,2023-02-02 18:00:00-08:00,2023-03-09 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001068,Top-20 Unit Summon Ticket,A ticket for Top-20 High Luck Unit Summon,5,1,1,0,0,2023-02-07 04:00:00-08:00,2023-04-06 17:59:59-08:00,1,5,9999,0,0,0,0,0
+510001070,Crossover Summon Ticket,"A ticket for ""Re:ZERO"" Crossover Summon",5,1,1,0,0,2023-02-24 04:00:00-08:00,2023-04-13 17:59:59-08:00,1,5,9999,10041,0,0,0,0
+510001071,Crossover ★5 Ticket,"A ticket for ""Re:ZERO"" Crossover ★5 Ticket Summon!!",5,1,1,0,0,2023-03-02 18:00:00-08:00,2023-04-13 17:59:59-08:00,1,5,9999,10041,0,0,0,0
+510001072,5-Year Gratitude Ticket,A ticket for 5th Anniversary Gratitude Summon,5,1,1,0,0,2023-03-02 18:00:00-08:00,2023-04-13 17:59:59-08:00,1,5,9999,10040,0,0,0,0
+510001073,Crossover Summon Ticket,"A ticket for ""FAIRY TAIL"" Crossover Summon",5,1,1,0,0,2023-03-31 04:00:00-08:00,2023-06-01 17:59:59-08:00,1,5,9999,10041,0,0,0,0
+510001074,Crossover Summon Ticket #1,"A ticket for ""OVERLORD"" Crossover Summon",5,1,1,0,0,2023-05-19 04:00:00-08:00,2023-07-20 17:59:59-08:00,1,5,9999,10060,0,0,0,0
+510001075,Crossover Equip Summon Ticket #1,"A ticket for ""OVERLORD"" Crossover Equip Summon",5,1,1,0,0,2023-05-19 04:00:00-08:00,2023-07-20 17:59:59-08:00,1,5,9999,10050,0,0,0,0
+510001076,Crossover Summon Ticket #2,"A ticket for ""OVERLORD"" Crossover Summon",5,1,1,0,0,2023-06-02 04:00:00-08:00,2023-07-20 17:59:59-08:00,1,5,9999,10080,0,0,0,0
+510001077,Crossover Equip Summon Ticket #2,"A ticket for ""OVERLORD"" Crossover Equip Summon",5,1,1,0,0,2023-06-02 04:00:00-08:00,2023-07-20 17:59:59-08:00,1,5,9999,10070,0,0,0,0
+510001078,Crossover Summon Ticket #1,"A ticket for ""PRISMA☆ILLYA"" Crossover Summon",5,1,1,0,0,2023-07-02 04:00:00-08:00,2023-09-14 17:59:59-08:00,1,5,9999,10090,0,0,0,0
+510001079,Crossover Equip Summon Ticket #1,"A ticket for ""PRISMA☆ILLYA"" Crossover Equip Summon",5,1,1,0,0,2023-07-02 04:00:00-08:00,2023-09-14 17:59:59-08:00,1,5,9999,10085,0,0,0,0
+510001080,Crossover Summon Ticket #2,"A ticket for ""PRISMA☆ILLYA"" Crossover Summon",5,1,1,0,0,2023-07-21 04:00:00-08:00,2023-09-14 17:59:59-08:00,1,5,9999,10100,0,0,0,0
+510001081,Crossover Equip Summon Ticket #2,"A ticket for ""PRISMA☆ILLYA"" Crossover Equip Summon",5,1,1,0,0,2023-07-21 04:00:00-08:00,2023-09-14 17:59:59-08:00,1,5,9999,10095,0,0,0,0
+510001082,Crossover Summon Ticket #3,"A ticket for ""PRISMA☆ILLYA"" Crossover Summon",5,1,1,0,0,2023-08-03 04:00:00-08:00,2023-09-14 17:59:59-08:00,1,5,9999,10110,0,0,0,0
+510001083,Crossover Equip Summon Ticket #3,"A ticket for ""PRISMA☆ILLYA"" Crossover Equip Summon",5,1,1,0,0,2023-08-03 04:00:00-08:00,2023-09-14 17:59:59-08:00,1,5,9999,10105,0,0,0,0
+510001084,Crossover Summon Ticket #1,"A ticket for ""Hell's Paradise"" Crossover Summon",5,1,1,0,0,2023-09-16 04:00:00-08:00,2023-10-26 17:59:59-08:00,1,5,9999,10090,0,0,0,0
+510001085,Crossover Equip Summon Ticket #1,"A ticket for ""Hell's Paradise"" Crossover Equip Summon",5,1,1,0,0,2023-09-16 04:00:00-08:00,2023-10-26 17:59:59-08:00,1,5,9999,10085,0,0,0,0
+510001086,Crossover Summon Ticket #2,"A ticket for ""Hell's Paradise"" Crossover Summon",5,1,1,0,0,2023-09-29 04:00:00-08:00,2023-10-26 17:59:59-08:00,1,5,9999,10090,0,0,0,0
+510001087,Crossover Equip Summon Ticket #2,"A ticket for ""Hell's Paradise"" Crossover Equip Summon",5,1,1,0,0,2023-09-29 04:00:00-08:00,2023-10-26 17:59:59-08:00,1,5,9999,10085,0,0,0,0
+510001088,Crossover Summon Ticket,"A ticket for ""Goblin Slayer"" Crossover Summon",5,1,1,0,0,2023-10-27 04:00:00-08:00,2023-12-14 17:59:59-08:00,1,5,9999,10090,0,0,0,0
+510001089,Crossover Equip Summon Ticket,"A ticket for ""Goblin Slayer"" Crossover Equip Summon",5,1,1,0,0,2023-11-01 04:00:00-08:00,2023-12-14 17:59:59-08:00,1,5,9999,10090,0,0,0,0
+510001091,Crossover Unit Summon Ticket IV,A ticket for the Ten-Sura New Unit Crossover Summon,5,1,1,0,0,2023-12-08 04:00:00-08:00,2024-02-08 17:59:59-08:00,1,5,9999,10092,0,0,0,0
+510001092,Crossover Unit Summon Ticket I,A ticket for the Ten-Sura Original Unit Crossover Summon,5,1,1,0,0,2023-12-08 04:00:00-08:00,2024-02-08 17:59:59-08:00,1,5,9999,10095,0,0,0,0
+510001093,Crossover Unit Summon Ticket II,A ticket for the Ten-Sura Xmas Unit Crossover Summon,5,1,1,0,0,2023-12-08 04:00:00-08:00,2024-02-08 17:59:59-08:00,1,5,9999,10094,0,0,0,0
+510001094,Crossover Unit Summon Ticket III,A ticket for the Ten-Sura New Years! Unit Crossover Summon,5,1,1,0,0,2023-12-08 04:00:00-08:00,2024-02-08 17:59:59-08:00,1,5,9999,10093,0,0,0,0
+510001095,Crossover Equip Summon Ticket,A ticket for Ten-Sura Crossover Equip Summon,5,1,1,0,0,2023-12-08 04:00:00-08:00,2024-02-08 17:59:59-08:00,1,5,9999,10091,0,0,0,0
+510001096,Classic Crossover Gift Ticket,A ticket for the Classic Ten-Sura Crossover ★5 Unit Ticket Summon.,5,1,1,0,0,2023-12-14 04:00:00-08:00,2024-02-08 17:59:59-08:00,1,5,9999,10096,0,0,0,0
+510001097,Dream Ticket,A ticket to a Dream Summon,5,1,1,0,0,2023-12-31 07:00:00-08:00,2024-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001098,Dream Equip Ticket,A ticket to a Dream Summon Equip Edition,5,1,1,0,0,2023-12-31 07:00:00-08:00,2024-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001099,Crossover Summon Ticket #1,"A ticket for SLF Crossover 
+Summon",5,1,1,0,0,2024-01-27 04:00:00-08:00,2024-03-27 17:59:59-08:00,1,5,9999,10099,0,0,0,0
+510001100,Crossover Equip Summon Ticket #1,"A ticket for SLF Crossover 
+Equip Summon",5,1,1,0,0,2024-01-27 04:00:00-08:00,2024-03-27 17:59:59-08:00,1,5,9999,10098,0,0,0,0
+510001101,Crossover Summon Ticket #2,A ticket for SLF Crossover Summon,5,1,1,0,0,2024-02-09 04:00:00-08:00,2024-03-27 17:59:59-08:00,1,5,9999,10099,0,0,0,0
+510001102,Crossover Equip Summon Ticket #2,A ticket for SLF Crossover Equip Summon,5,1,1,0,0,2024-02-09 04:00:00-08:00,2024-03-27 17:59:59-08:00,1,5,9999,10098,0,0,0,0
+510001103,Crossover Summon Ticket,"A ticket for ""FAIRY TAIL"" Crossover Summon",5,1,1,0,0,2024-03-29 04:00:00-08:00,2024-05-16 17:59:59-08:00,1,5,9999,10090,0,0,0,0
+510001104,Crossover Summon Ticket,"A ticket for ""OVERLORD"" Crossover Summon",5,1,1,0,0,2024-05-10 04:00:00-08:00,2024-07-11 17:59:59-08:00,1,5,9999,10091,0,0,0,0
+510001105,Crossover Equip Summon Ticket,"A ticket for ""OVERLORD"" Crossover Equip Summon",5,1,1,0,0,2024-05-10 04:00:00-08:00,2024-07-11 17:59:59-08:00,1,5,9999,10092,0,0,0,0
+510001106,Classic Crossover Gift Ticket,"A ticket for the Classic ""OVERLORD"" Crossover ★5 Unit Ticket Summon.",5,1,1,0,0,2024-05-16 04:00:00-08:00,2024-07-11 17:59:59-08:00,1,5,9999,10093,0,0,0,0
+510001107,Crossover Summon Ticket,"A ticket for ""ONE PUNCH MAN"" Crossover Summon",5,1,1,0,0,2024-06-28 04:00:00-08:00,2024-08-15 17:59:59-08:00,1,5,9999,10094,0,0,0,0
+510001108,Crossover Equip Summon Ticket,"A ticket for ""ONE PUNCH MAN"" Crossover Equip Summon",5,1,1,0,0,2024-07-04 18:00:00-08:00,2024-08-15 17:59:59-08:00,1,5,9999,10095,0,0,0,0
+510001109,Crossover ★5 Ticket,"A ticket for ""ONE PUNCH MAN"" ★5 Ticket Summon",5,1,1,0,0,2024-07-04 18:00:00-08:00,2024-08-15 17:59:59-08:00,1,5,9999,10096,0,0,0,0
+510001110,Crossover Summon Ticket #1,A ticket for KILL la KILL Crossover Summon,5,1,1,0,0,2024-08-03 04:00:00-08:00,2024-09-26 17:59:59-08:00,1,5,9999,10097,0,0,0,0
+510001111,Crossover Equip Summon Ticket #1,A ticket for KILL la KILL Crossover Equip Summon,5,1,1,0,0,2024-08-03 04:00:00-08:00,2024-09-26 17:59:59-08:00,1,5,9999,10098,0,0,0,0
+510001112,Classic Crossover Gift Ticket,A ticket for the Classic KILL la KILL Crossover ★5 Unit Ticket Summon.,5,1,1,0,0,2024-08-08 04:00:00-08:00,2024-09-26 17:59:59-08:00,1,5,9999,10099,0,0,0,0
+510001113,Crossover Summon Ticket #2,A ticket for KILL la KILL Crossover Summon,5,1,1,0,0,2024-08-20 04:00:00-08:00,2024-09-26 17:59:59-08:00,1,5,9999,10097,0,0,0,0
+510001114,Crossover Equip Summon Ticket #2,A ticket for KILL la KILL Crossover Equip Summon,5,1,1,0,0,2024-08-20 18:00:00-08:00,2024-09-26 17:59:59-08:00,1,5,9999,10098,0,0,0,0
+510001115,Crossover Summon Ticket I,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2024-09-14 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10099,0,0,0,0
+510001116,Crossover Equip Summon Ticket I,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2024-09-14 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10100,0,0,0,0
+510001117,Crossover Summon Ticket Ⅱ,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2024-10-10 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10101,0,0,0,0
+510001118,Crossover Equip Summon Ticket Ⅱ,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2024-10-10 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10102,0,0,0,0
+510001119,Crossover Summon Ticket Ⅲ,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2024-10-21 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10103,0,0,0,0
+510001120,Crossover Equip Summon Ticket Ⅲ,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2024-10-21 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10104,0,0,0,0
+510001121,Crossover Summon Ticket Ⅳ,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2024-10-31 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10105,0,0,0,0
+510001122,Crossover Equip Summon Ticket Ⅳ,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2024-10-31 04:00:00-08:00,2024-11-28 17:59:59-08:00,1,5,9999,10106,0,0,0,0
+510001123,Crossover Summon Ticket #1,A ticket for The Eminence in Shadow Crossover Summon,5,1,1,0,0,2024-11-16 04:00:00-08:00,2025-01-16 17:59:59-08:00,1,5,9999,10107,0,0,0,0
+510001124,Crossover Equip Summon Ticket #1,A ticket for The Eminence in Shadow Crossover Equip Summon until 1/16 17:59,5,1,1,0,0,2024-11-21 04:00:00-08:00,2025-01-16 17:59:59-08:00,1,5,9999,10108,0,0,0,0
+510001125,Crossover Summon Ticket #2,A ticket for The Eminence in Shadow Crossover Summon,5,1,1,0,0,2024-12-04 18:00:00-08:00,2025-01-16 17:59:59-08:00,1,5,9999,10109,0,0,0,0
+510001126,Crossover Equip Summon Ticket #2,A ticket for The Eminence in Shadow Crossover Equip Summon until 1/16 17:59,5,1,1,0,0,2024-12-04 18:00:00-08:00,2025-01-16 17:59:59-08:00,1,5,9999,10110,0,0,0,0
+510001127,Dream Ticket,A ticket to a Dream Summon,5,1,1,0,0,2024-12-26 18:00:00-08:00,2025-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001128,Dream Equip Ticket,A ticket to a Dream Summon Equip Edition,5,1,1,0,0,2024-12-26 18:00:00-08:00,2025-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001129,Crossover Summon Ticket,A ticket for SLF Crossover Summon,5,1,1,0,0,2025-01-03 04:00:00-08:00,2025-02-20 17:59:59-08:00,1,5,9999,10113,0,0,0,0
+510001130,Crossover Equip Summon Ticket,A ticket for SLF Crossover Equip Summon,5,1,1,0,0,2025-01-03 04:00:00-08:00,2025-02-20 17:59:59-08:00,1,5,9999,10114,0,0,0,0
+510001131,Revival Unit Summon Ticket,A ticket for Ten-Sura Revival Unit Summon,5,1,1,0,0,2025-02-08 04:00:00-08:00,2025-04-17 17:59:59-08:00,1,5,9999,10115,0,0,0,0
+510001132,Revival Equip Summon Ticket,A ticket for Ten-Sura Revival Equip Summon,5,1,1,0,0,2025-02-08 04:00:00-08:00,2025-04-17 17:59:59-08:00,1,5,9999,10116,0,0,0,0
+510001133,Crossover Summon Ticket #1,A ticket for Ten-Sura Crossover Summon,5,1,1,0,0,2025-02-08 04:00:00-08:00,2025-04-17 17:59:59-08:00,1,5,9999,10117,0,0,0,0
+510001134,Crossover Equip Summon Ticket #1,A ticket for Ten-Sura Crossover Equip Summon,5,1,1,0,0,2025-02-08 04:00:00-08:00,2025-04-17 17:59:59-08:00,1,5,9999,10118,0,0,0,0
+510001135,Crossover Summon Ticket #2,A ticket for Ten-Sura Crossover Summon,5,1,1,0,0,2025-03-06 04:00:00-08:00,2025-04-17 17:59:59-08:00,1,5,9999,10119,0,0,0,0
+510001136,Crossover Equip Summon Ticket #2,A ticket for Ten-Sura Crossover Equip Summon,5,1,1,0,0,2025-03-06 04:00:00-08:00,2025-04-17 17:59:59-08:00,1,5,9999,10120,0,0,0,0
+510001137,Crossover Summon Ticket #1,A ticket for Rurouni Kenshin Crossover Summon,5,1,1,0,0,2025-04-05 04:00:00-08:00,2025-06-05 17:59:59-08:00,1,5,9999,10121,0,0,0,0
+510001138,Crossover Equip Summon Ticket #1,A ticket for Rurouni Kenshin Crossover Equip Summon,5,1,1,0,0,2025-04-05 04:00:00-08:00,2025-06-05 17:59:59-08:00,1,5,9999,10122,0,0,0,0
+510001139,Crossover Summon Ticket #2,A ticket for Rurouni Kenshin Crossover Summon,5,1,1,0,0,2025-04-23 04:00:00-08:00,2025-06-05 17:59:59-08:00,1,5,9999,10123,0,0,0,0
+510001140,Crossover Equip Summon Ticket #2,A ticket for Rurouni Kenshin Crossover Equip Summon,5,1,1,0,0,2025-04-23 04:00:00-08:00,2025-06-05 17:59:59-08:00,1,5,9999,10124,0,0,0,0
+510001141,Revival Unit Summon Ticket,A ticket for One Punch Man Revival Unit Summon,5,1,1,0,0,2025-05-24 04:00:00-08:00,2025-07-02 17:59:59-08:00,1,5,9999,10125,0,0,0,0
+510001142,Revival Equip Summon Ticket,A ticket for One Punch Man Revival Equip Summon,5,1,1,0,0,2025-05-24 04:00:00-08:00,2025-07-02 17:59:59-08:00,1,5,9999,10126,0,0,0,0
+510001143,Crossover Summon Ticket,A ticket for ONE PUNCH MAN Crossover Summon,5,1,1,0,0,2025-05-29 04:00:00-08:00,2025-07-02 17:59:59-08:00,1,5,9999,10127,0,0,0,0
+510001144,Crossover Equip Summon Ticket,A ticket for ONE PUNCH MAN Crossover Equip Summon,5,1,1,0,0,2025-05-29 04:00:00-08:00,2025-07-02 17:59:59-08:00,1,5,9999,10128,0,0,0,0
+510001145,Return Equip Summon Ticket,A ticket for Return Equip Summon,5,1,1,0,0,2025-06-10 18:00:00-08:00,2025-07-02 17:59:59-08:00,1,5,9999,10129,0,0,0,0
+510001146,Crossover Summon Ticket #1,A ticket for Frieren Crossover Summon,5,1,1,0,0,2025-06-26 04:00:00-08:00,2025-09-11 17:59:59-08:00,1,5,9999,10130,0,0,0,0
+510001147,Crossover Equip Summon Ticket #1,A ticket for Frieren Crossover Equip Summon,5,1,1,0,0,2025-06-26 04:00:00-08:00,2025-09-11 17:59:59-08:00,1,5,9999,10131,0,0,0,0
+510001148,Crossover Summon Ticket #2,A ticket for Frieren Crossover Summon,5,1,1,0,0,2025-07-15 04:00:00-08:00,2025-09-11 17:59:59-08:00,1,5,9999,10132,0,0,0,0
+510001149,Crossover Equip Summon Ticket #2,A ticket for Frieren Crossover Equip Summon,5,1,1,0,0,2025-07-15 04:00:00-08:00,2025-09-11 17:59:59-08:00,1,5,9999,10133,0,0,0,0
+510001150,Crossover Summon Ticket #1,A ticket for DAN DA DAN Crossover Summon,5,1,1,0,0,2025-08-30 04:00:00-08:00,2025-10-23 17:59:59-08:00,1,5,9999,10135,0,0,0,0
+510001151,Crossover Equip Summon Ticket #1,A ticket for DAN DA DAN Crossover Equip Summon,5,1,1,0,0,2025-08-30 04:00:00-08:00,2025-10-23 17:59:59-08:00,1,5,9999,10136,0,0,0,0
+510001152,Crossover Summon Ticket #2,A ticket for DAN DA DAN Crossover Summon,5,1,1,0,0,2025-09-16 04:00:00-08:00,2025-10-23 17:59:59-08:00,1,5,9999,10137,0,0,0,0
+510001153,Crossover Equip Summon Ticket #2,A ticket for DAN DA DAN Crossover Equip Summon,5,1,1,0,0,2025-09-16 04:00:00-08:00,2025-10-23 17:59:59-08:00,1,5,9999,10138,0,0,0,0
+510001154,Crossover Summon Ticket #1,A ticket for A Certain Magical Index III Crossover Summon. until 12/4 17:59,5,1,1,0,0,2025-10-10 04:00:00-08:00,2025-12-04 17:59:59-08:00,1,5,9999,10139,0,0,0,0
+510001155,Crossover Equip Summon Ticket #1,A ticket for A Certain Magical Index III Crossover Equip Summon. until 12/4 17:59,5,1,1,0,0,2025-10-10 04:00:00-08:00,2025-12-04 17:59:59-08:00,1,5,9999,10140,0,0,0,0
+510001156,Crossover Summon Ticket #2,A ticket for A Certain Magical Index III Crossover Summon. until 12/4 17:59,5,1,1,0,0,2025-10-29 04:00:00-08:00,2025-12-04 17:59:59-08:00,1,5,9999,10141,0,0,0,0
+510001157,Crossover Equip Summon Ticket #2,A ticket for A Certain Magical Index III Crossover Equip Summon. until 12/4 17:59,5,1,1,0,0,2025-10-29 04:00:00-08:00,2025-12-04 17:59:59-08:00,1,5,9999,10142,0,0,0,0
+510001158,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2025-11-18 18:00:00-08:00,2025-12-04 17:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001159,Crossover Summon Ticket,A ticket for KILL la KILL Crossover Summon,5,1,1,0,0,2025-11-22 04:00:00-08:00,2026-01-01 17:59:59-08:00,1,5,9999,10201,0,0,0,0
+510001160,Crossover Equip Summon Ticket,A ticket for KILL la KILL Crossover Equip Summon,5,1,1,0,0,2025-11-22 04:00:00-08:00,2026-01-01 17:59:59-08:00,1,5,9999,10201,0,0,0,0
+510001161,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2025-12-11 00:00:00-08:00,2025-12-27 23:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001162,Crossover Summon Ticket #1,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2025-12-21 04:00:00-08:00,2026-02-19 17:59:59-08:00,1,5,9999,10231,0,0,0,0
+510001163,Crossover Equip Summon Ticket #1,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2025-12-21 04:00:00-08:00,2026-02-19 17:59:59-08:00,1,5,9999,10230,0,0,0,0
+510001164,Dream Ticket,A ticket to a Dream Summon,5,1,1,0,0,2026-01-01 00:00:00-08:00,2026-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001165,Dream Equip Ticket,A ticket to a Dream Summon Equip Edition,5,1,1,0,0,2026-01-01 00:00:00-08:00,2026-01-31 23:59:59-08:00,1,5,9999,0,0,0,0,0
+510001166,Crossover Summon Ticket #2,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2026-01-08 04:00:00-08:00,2026-02-19 17:59:59-08:00,1,5,9999,10233,0,0,0,0
+510001167,Crossover Equip Summon Ticket #2,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2026-01-08 04:00:00-08:00,2026-02-19 17:59:59-08:00,1,5,9999,10232,0,0,0,0
+510001168,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-01-11 00:00:00-08:00,2026-01-27 23:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001169,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-02-11 00:00:00-08:00,2026-02-27 23:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001170,Crossover Summon Ticket #1,A ticket for Puella Magi Madoka Magica Crossover Summon.,5,1,1,0,0,2026-02-07 04:00:00-08:00,2026-04-02 17:59:59-08:00,1,5,9999,10241,0,0,0,0
+510001171,Crossover Equip Summon Ticket #1,A ticket for Puella Magi Madoka Magica Crossover Equip Summon. until 4/2 18:59,5,1,1,0,0,2026-02-07 04:00:00-08:00,2026-04-02 17:59:59-08:00,1,5,9999,10240,0,0,0,0
+510001172,Crossover Summon Ticket #2,A ticket for Puella Magi Madoka Magica Crossover Summon.,5,1,1,0,0,2026-02-23 04:00:00-08:00,2026-04-02 17:59:59-08:00,1,5,9999,10243,0,0,0,0
+510001173,Crossover Equip Summon Ticket #2,A ticket for Puella Magi Madoka Magica Crossover Equip Summon. until 4/2 18:59,5,1,1,0,0,2026-02-23 04:00:00-08:00,2026-04-02 17:59:59-08:00,1,5,9999,10242,0,0,0,0
+510001174,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-03-10 23:00:00-08:00,2026-03-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001175,Revival Unit Summon Ticket,A ticket for Ten-Sura Revival Unit Summon,5,1,1,0,0,2026-03-20 04:00:00-08:00,2026-05-14 17:59:59-08:00,1,5,9999,10251,0,0,0,0
+510001176,Revival Equip Summon Ticket,A ticket for Ten-Sura Revival Equip Summon,5,1,1,0,0,2026-03-20 04:00:00-08:00,2026-05-14 17:59:59-08:00,1,5,9999,10250,0,0,0,0
+510001177,Unit Summon Ticket,A ticket for Ten-Sura Unit Summon *Usable from 4/14,5,1,1,0,0,2026-04-06 18:00:00-08:00,2026-05-14 17:59:59-08:00,1,5,9999,10253,0,0,0,0
+510001178,Equip Summon Ticket,A ticket for Ten-Sura Equip Summon *Usable from 4/14,5,1,1,0,0,2026-04-06 18:00:00-08:00,2026-05-14 17:59:59-08:00,1,5,9999,10252,0,0,0,0
+510001179,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-04-10 23:00:00-08:00,2026-04-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001180,Crossover Summon Ticket #1,A ticket for Touhou LostWord Crossover Summon,5,1,1,0,0,2026-05-02 04:00:00-08:00,2026-06-18 17:59:59-08:00,1,5,9999,10255,0,0,0,0
+510001181,Crossover Equip Summon Ticket #1,A ticket for Touhou LostWord Crossover Equip Summon,5,1,1,0,0,2026-05-02 04:00:00-08:00,2026-06-18 17:59:59-08:00,1,5,9999,10254,0,0,0,0
+510001182,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-05-10 23:00:00-08:00,2026-05-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001183,Crossover Summon Ticket #2,A ticket for Touhou LostWord Crossover Summon,5,1,1,0,0,2026-05-20 18:00:00-08:00,2026-06-18 17:59:59-08:00,1,5,9999,10257,0,0,0,0
+510001184,Crossover Equip Summon Ticket #2,A ticket for Touhou LostWord Crossover Equip Summon,5,1,1,0,0,2026-05-20 18:00:00-08:00,2026-06-18 17:59:59-08:00,1,5,9999,10256,0,0,0,0
+510001185,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-06-10 23:00:00-08:00,2026-06-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001186,Crossover Summon Ticket #1,A ticket for Solo Leveling Crossover Summon,5,1,1,0,0,2026-06-06 04:00:00-08:00,2026-08-06 17:59:59-08:00,1,5,9999,10259,0,0,0,0
+510001187,Crossover Equip Summon Ticket #1,A ticket for Solo Leveling Crossover Equip Summon,5,1,1,0,0,2026-06-06 04:00:00-08:00,2026-08-06 17:59:59-08:00,1,5,9999,10258,0,0,0,0
+510001188,Crossover Summon Ticket #2,A ticket for Solo Leveling Crossover Summon,5,1,1,0,0,2026-06-11 18:00:00-08:00,2026-08-06 17:59:59-08:00,1,5,9999,10261,0,0,0,0
+510001189,Crossover Equip Summon Ticket #2,A ticket for Solo Leveling Crossover Equip Summon,5,1,1,0,0,2026-06-23 04:00:00-08:00,2026-08-06 17:59:59-08:00,1,5,9999,10260,0,0,0,0
+510001190,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-07-10 23:00:00-08:00,2026-07-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001191,Crossover Summon Ticket #1,A ticket for The Eminence in Shadow Crossover Summon. until 9/10 18:59,5,1,1,0,0,2026-07-25 04:00:00-08:00,2026-09-10 17:59:59-08:00,1,5,9999,10263,0,0,0,0
+510001192,Crossover Equip Summon Ticket #1,A ticket for The Eminence in Shadow Crossover Equip Summon. until 9/10 18:59,5,1,1,0,0,2026-07-25 04:00:00-08:00,2026-09-10 17:59:59-08:00,1,5,9999,10262,0,0,0,0
+510001193,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-08-10 23:00:00-08:00,2026-08-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001194,Crossover Summon Ticket #2,A ticket for The Eminence in Shadow Crossover Summon. until 9/10 18:59,5,1,1,0,0,2026-08-11 18:00:00-08:00,2026-09-10 17:59:59-08:00,1,5,9999,10266,0,0,0,0
+510001195,Crossover Equip Summon Ticket #2,A ticket for The Eminence in Shadow Crossover Equip Summon. until 9/10 18:59,5,1,1,0,0,2026-08-11 18:00:00-08:00,2026-09-10 17:59:59-08:00,1,5,9999,10265,0,0,0,0
+510001196,Revival Unit Summon Ticket,A ticket for PRISMA☆ILLYA Revival Unit Summon,5,1,1,0,0,2026-08-29 04:00:00-08:00,2026-10-22 17:59:59-08:00,1,5,9999,10268,0,0,0,0
+510001197,Revival Equip Summon Ticket,A ticket for PRISMA☆ILLYA Revival Equip Summon,5,1,1,0,0,2026-08-29 04:00:00-08:00,2026-10-22 17:59:59-08:00,1,5,9999,10267,0,0,0,0
+510001198,Crossover Summon Ticket #1,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2026-08-29 04:00:00-08:00,2026-10-22 17:59:59-08:00,1,5,9999,10270,0,0,0,0
+510001199,Crossover Equip Summon Ticket #1,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2026-08-29 04:00:00-08:00,2026-10-22 17:59:59-08:00,1,5,9999,10269,0,0,0,0
+510001200,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-09-10 23:00:00-08:00,2026-09-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001201,Crossover Summon Ticket #2,A ticket for PRISMA☆ILLYA Crossover Summon,5,1,1,0,0,2026-09-24 18:00:00-08:00,2026-10-22 17:59:59-08:00,1,5,9999,10272,0,0,0,0
+510001202,Crossover Equip Summon Ticket #2,A ticket for PRISMA☆ILLYA Crossover Equip Summon,5,1,1,0,0,2026-09-24 18:00:00-08:00,2026-10-22 17:59:59-08:00,1,5,9999,10271,0,0,0,0
+510001203,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-10-10 23:00:00-08:00,2026-10-27 22:59:59-08:00,1,5,9999,10200,0,0,0,0
+510001204,Crossover Summon Ticket,A ticket for KILL la KILL Crossover Summon,5,1,1,0,0,2026-10-09 04:00:00-08:00,2026-11-12 17:59:59-08:00,1,5,9999,10274,0,0,0,0
+510001205,Crossover Equip Summon Ticket,A ticket for KILL la KILL Crossover Equip Summon,5,1,1,0,0,2026-10-09 04:00:00-08:00,2026-11-12 17:59:59-08:00,1,5,9999,10273,0,0,0,0
+510001206,Classic Crossover Gift Ticket,A ticket for the Classic KILL la KILL Crossover ★5 Unit Ticket Summon.,5,1,1,0,0,2026-10-05 04:00:00-08:00,2026-11-12 17:59:59-08:00,1,5,9999,10099,0,0,0,0
+510001207,Guaranteed Revival Crossover Unit Ticket,A ticket for the Classic Re:ZERO Crossover ★5 Unit Ticket Summon,5,1,1,0,0,2026-11-05 18:00:00-08:00,2026-12-31 17:59:59-08:00,1,5,9999,10275,0,0,0,0
+510001208,Guaranteed Revival Crossover Equip Ticket,"A ticket for the Classic Re:ZERO Crossover ★5 Equip Ticket Summon. until 12/31 17:59
+",5,1,1,0,0,2026-11-05 18:00:00-08:00,2026-12-31 17:59:59-08:00,1,5,9999,10274,0,0,0,0
+510001209,Revival Unit Summon Ticket,A ticket for Re:ZERO Revival Unit Summon,5,1,1,0,0,2026-10-30 04:00:00-08:00,2026-12-31 17:59:59-08:00,1,5,9999,10277,0,0,0,0
+510001210,Revival Equip Summon Ticket,A ticket for Re:ZERO Revival Equip Summon,5,1,1,0,0,2026-10-30 04:00:00-08:00,2026-12-31 17:59:59-08:00,1,5,9999,10276,0,0,0,0
+510001211,Crossover Summon Ticket #1,A ticket for Re:ZERO Crossover Summon,5,1,1,0,0,2026-10-30 04:00:00-08:00,2026-12-31 17:59:59-08:00,1,5,9999,10279,0,0,0,0
+510001212,Crossover Equip Summon Ticket #1,A ticket for Re:ZERO Crossover Equip Summon,5,1,1,0,0,2026-10-30 04:00:00-08:00,2026-12-31 17:59:59-08:00,1,5,9999,10278,0,0,0,0
+510001213,★4+ Equip Summon Ticket,A ticket for a ★4+ Equip Ticket Summon,5,1,1,0,0,2026-11-11 00:00:00-08:00,2026-11-27 23:59:59-08:00,1,5,9999,10200,0,0,0,0

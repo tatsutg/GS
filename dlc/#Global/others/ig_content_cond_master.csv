@@ -1,0 +1,567 @@
+id,content_group_id,name,cond_type,cond_id,cond_value,idle_game_grow_id1,grow_value1,idle_game_grow_id2,grow_value2,idle_game_grow_id3,grow_value3
+1010001,101,Clear 1st Initiation in Tower of Initiation.,1,2007201,1,32012001,1,0,0,0,0
+1010002,101,Clear 2nd Initiation in Tower of Initiation.,1,2007202,1,32012001,1,0,0,0,0
+1010003,101,Clear 3rd Initiation in Tower of Initiation.,1,2007203,1,32012001,1,0,0,0,0
+1010004,101,Clear 4th Initiation in Tower of Initiation.,1,2007204,1,32012001,1,0,0,0,0
+1010005,101,Clear 5th Initiation in Tower of Initiation.,1,2007205,1,32012001,1,0,0,0,0
+1010006,101,Clear 6th Initiation in Tower of Initiation.,1,2007206,1,32012001,1,0,0,0,0
+1010007,101,Clear 7th Initiation in Tower of Initiation.,1,2007207,1,32012001,1,0,0,0,0
+1010008,101,Clear 8th Initiation in Tower of Initiation.,1,2007208,1,32012001,1,0,0,0,0
+1010009,101,Clear 9th Initiation in Tower of Initiation.,1,2007209,1,32012001,1,0,0,0,0
+1010010,101,Clear 10th Initiation in Tower of Initiation.,1,2007210,1,32012001,1,0,0,0,0
+1010011,101,Clear 11th Initiation in Tower of Initiation.,1,2007211,1,32112001,1,32212001,1,32312001,1
+1010012,101,Clear 12th Initiation in Tower of Initiation.,1,2007212,1,32112001,1,32212001,1,32312001,1
+1010013,101,Clear 13th Initiation in Tower of Initiation.,1,2007213,1,32112001,1,32212001,1,32312001,1
+1010014,101,Clear 14th Initiation in Tower of Initiation.,1,2007214,1,32112001,1,32212001,1,32312001,1
+1010015,101,Clear 15th Initiation in Tower of Initiation.,1,2007215,1,32112001,1,32212001,1,32312001,1
+2010001,201,Clear Chapter 1 in Main Story.,1,10705,1,21111001,1,0,0,0,0
+2010002,201,Clear Chapter 2 in Main Story.,1,20605,1,21010001,1,0,0,0,0
+2010003,201,Clear Chapter 3 in Main Story.,1,30705,1,21010001,1,0,0,0,0
+2010004,201,Clear Chapter 4 in Main Story.,1,40605,1,21010001,1,0,0,0,0
+2010005,201,Clear Chapter 5 in Main Story.,1,50705,1,21010001,1,0,0,0,0
+2010006,201,Clear Chapter 6 in Main Story.,1,60605,1,32112001,1,32212001,1,32312001,1
+2010007,201,Clear Chapter 7 in Main Story.,1,70605,1,32112001,1,32212001,1,32312001,1
+2010008,201,Clear Chapter 8 in Main Story.,1,80605,1,32112001,1,32212001,1,32312001,1
+2010009,201,Clear Chapter 9 in Main Story.,1,90606,1,32112001,1,32212001,1,32312001,1
+2010010,201,Clear Chapter 10 in Main Story.,1,100706,1,21211001,1,0,0,0,0
+2010011,201,Clear Chapter 11 in Main Story.,1,110505,1,21312001,1,0,0,0,0
+2010012,201,Clear Chapter 12 in Main Story.,1,120505,1,21312001,1,0,0,0,0
+2010013,201,Clear Chapter 13 in Main Story.,1,130509,1,21312001,1,0,0,0,0
+2010014,201,Clear Chapter 14 in Main Story.,1,140505,1,21312001,1,0,0,0,0
+2010015,201,Clear Chapter 15 in Main Story.,1,150505,1,21312001,1,0,0,0,0
+2010016,201,Clear Chapter 16 in Main Story.,1,160509,1,32012001,1,0,0,0,0
+2010017,201,Clear Chapter 17 in Main Story.,1,170505,1,32012001,1,0,0,0,0
+2010018,201,Clear Chapter 18 in Main Story.,1,180505,1,32012001,1,0,0,0,0
+2010019,201,Clear Chapter 19 in Main Story.,1,190505,1,32012001,1,0,0,0,0
+2010020,201,Clear Chapter 20 in Main Story.,1,200505,1,32012001,1,0,0,0,0
+2010021,201,Clear Chapter 21 in Main Story.,1,210505,1,21010001,1,0,0,0,0
+2010022,201,Clear Chapter 22 in Main Story.,1,220505,1,21010001,1,0,0,0,0
+2010023,201,Clear Chapter 23 in Main Story.,1,230505,1,21010001,1,0,0,0,0
+2010024,201,Clear Chapter 24 in Main Story.,1,240505,1,21010001,1,0,0,0,0
+2010025,201,Clear Chapter 25 in Main Story.,1,250505,1,21010001,1,0,0,0,0
+2010026,201,Clear Chapter 26 in Main Story.,1,260505,1,21010001,1,0,0,0,0
+2010027,201,Clear Chapter 27 in Main Story.,1,270505,1,21010001,1,0,0,0,0
+2010028,201,Clear Chapter 28 in Main Story.,1,280505,1,21010001,1,0,0,0,0
+2010029,201,Clear Chapter 29 in Main Story.,1,290305,1,21010001,1,0,0,0,0
+2010030,201,Clear Chapter 30 in Main Story.,1,300505,1,21010001,1,0,0,0,0
+2010031,201,Clear Chapter 31 in Main Story.,1,310505,1,21010001,1,0,0,0,0
+2010032,201,Clear Chapter 32 in Main Story.,1,320505,1,21010001,1,0,0,0,0
+2010033,201,Clear Chapter 33 in Main Story.,1,330505,1,21010001,1,0,0,0,0
+2010034,201,Clear Chapter 34 in Main Story.,1,340505,1,21010001,1,0,0,0,0
+2020001,202,Clear [Challenge] Melia's Past.,1,70503,1,32812001,1,0,0,0,0
+2030001,203,Clear [Challenge] The Magical Plant's Target.,1,80305,1,32812001,1,0,0,0,0
+2040001,204,"Clear [Challenge] Giaveil, the Grand Prince of Sin.",1,90605,1,32812001,1,0,0,0,0
+2050001,205,Clear [Challenge] Guardian of Time.,1,100605,1,32812001,1,0,0,0,0
+2060001,206,Clear [Challenge] Shadowy Pall.,1,100704,1,32812001,1,0,0,0,0
+2070001,207,Clear [Challenge] Borne by Wishes.,1,100705,1,32812001,1,0,0,0,0
+2080001,208,Clear [Challenge] Sinful Puppet.,1,120305,1,32812001,1,0,0,0,0
+2090001,209,Clear [Challenge] Minced Words.,1,130505,1,32812001,1,0,0,0,0
+2100001,210,Clear [Challenge] The Blade Awakens.,1,140405,1,32812001,1,0,0,0,0
+2110001,211,Clear [Challenge] The Sword's Will.,1,150405,1,32812001,1,0,0,0,0
+2120001,212,Clear [Challenge] The Fated Clash.,1,160405,1,32812001,1,0,0,0,0
+2130001,213,Clear [Challenge] Through the Night.,1,160505,1,32812001,1,0,0,0,0
+2140001,214,Clear [Challenge] Meet the Scout.,1,180306,1,32812001,1,0,0,0,0
+2150001,215,Clear [Challenge] Master of Crimson.,1,190406,1,32812001,1,0,0,0,0
+2160001,216,Clear [Challenge] Memories of the Comet.,1,210406,1,32812001,1,0,0,0,0
+2170001,217,Clear [Challenge] Darklight Dragon.,1,240406,1,32812001,1,0,0,0,0
+2180001,218,Clear [Challenge] Ring of Time.,1,250406,1,32812001,1,0,0,0,0
+2190001,219,Clear [Challenge] Defier of Fate.,1,260406,1,21111001,1,0,0,0,0
+2200001,220,Clear [Challenge] Apostate Paladin.,1,270406,1,32812001,1,0,0,0,0
+2210001,221,Clear [Challenge] Their Promise.,1,280506,1,32812001,1,0,0,0,0
+2220001,222,Clear [Challenge] Blooming Intensity.,1,290306,1,32812001,1,0,0,0,0
+2230001,223,Clear [Challenge] Beyond the Ages.,1,300506,1,32812001,1,0,0,0,0
+2240001,224,Clear [Challenge] Prima Ether Blades.,1,310406,1,32812001,1,0,0,0,0
+2250001,225,Clear [Challenge] Opposing Blades.,1,320406,1,32812001,1,0,0,0,0
+2260001,226,Clear [Challenge] Following the Crest.,1,330406,1,32812001,1,0,0,0,0
+2270001,227,Clear [Challenge] Dead Howling.,1,340406,1,32812001,1,0,0,0,0
+3010001,301,Clear Ryude Granza Part 1.,1,2037713,1,32012001,1,0,0,0,0
+3010002,301,Clear Ryude Granza Part 2.,1,2041414,1,32012001,1,0,0,0,0
+3040001,304,Clear PHANTOM SNIPERS Episode 1.,1,2027414,1,43112001,1,0,0,0,0
+3040002,304,Clear PHANTOM SNIPERS Episode 2.,1,2028514,1,43112001,1,0,0,0,0
+3040003,304,Clear PHANTOM SNIPERS Episode 3.,1,2029814,1,43112001,1,0,0,0,0
+3040004,304,Clear PHANTOM SNIPERS Episode 4.,1,2030114,1,43112001,1,0,0,0,0
+3040005,304,Clear PHANTOM SNIPERS Episode 5.,1,2030914,1,43112001,1,0,0,0,0
+3040006,304,Clear PHANTOM SNIPERS Episode 6.,1,2033014,1,43112001,1,0,0,0,0
+3040007,304,Clear PHANTOM SNIPERS Episode 7.,1,2034414,1,43112001,1,0,0,0,0
+3040008,304,Clear PHANTOM SNIPERS Episode 8.,1,2035014,1,43112001,1,0,0,0,0
+3050001,305,Clear Legend of the Forbidden Ninja Scroll -Act 1.,1,2015013,1,32112001,1,32212001,1,32312001,1
+3050002,305,Clear Legend of the Forbidden Ninja Scroll -Act 2.,1,2015213,1,32112001,1,32212001,1,32312001,1
+3050003,305,Clear Legend of the Forbidden Ninja Scroll -Act 3.,1,2016013,1,32112001,1,32212001,1,32312001,1
+3050004,305,Clear Legend of the Forbidden Ninja Scroll -Act 4.,1,2016213,1,32112001,1,32212001,1,32312001,1
+3060001,306,Clear CROSS THE BLAZE Prologue.,1,2018004,1,43112001,1,0,0,0,0
+3060002,306,Clear CROSS THE BLAZE Episode 1.,1,2018115,1,43112001,1,0,0,0,0
+3060003,306,Clear CROSS THE BLAZE Episode 2.,1,2018415,1,43112001,1,0,0,0,0
+3060004,306,Clear CROSS THE BLAZE Episode 3.,1,2019413,1,43112001,1,0,0,0,0
+3060005,306,Clear CROSS THE BLAZE Episode 4.,1,2019513,1,43112001,1,0,0,0,0
+3060006,306,Clear CROSS THE BLAZE Episode 5.,1,2020615,1,43112001,1,0,0,0,0
+3060007,306,Clear CROSS THE BLAZE Episode 6.,1,2020715,1,43112001,1,0,0,0,0
+3060008,306,Clear CROSS THE BLAZE Episode 7.,1,2021715,1,43112001,1,0,0,0,0
+3060009,306,Clear CROSS THE BLAZE Episode 8.,1,2021815,1,43112001,1,0,0,0,0
+3070001,307,Clear Knights of Blood I.,1,2010413,1,43112001,1,0,0,0,0
+3070002,307,Clear Knights of Blood Il.,1,2010713,1,43112001,1,0,0,0,0
+3070003,307,Clear Knights of Blood Ill.,1,2011613,1,43112001,1,0,0,0,0
+3070004,307,Clear Knights of Blood IV.,1,2012013,1,43112001,1,0,0,0,0
+3070005,307,Clear Knights of Blood V.,1,2013313,1,43112001,1,0,0,0,0
+3070006,307,Clear Knights of Blood Vl.,1,2013413,1,43112001,1,0,0,0,0
+3070007,307,Clear Knights of Blood Vll.,1,2014613,1,43112001,1,0,0,0,0
+3070008,307,Clear Knights of Blood Vlll.,1,2014813,1,43112001,1,0,0,0,0
+3070009,307,Clear Knights of Blood: Zero -Part 1.,1,2023015,1,43112001,1,0,0,0,0
+3070010,307,Clear Knights of Blood: Zero -Part 2.,1,2025414,1,43112001,1,0,0,0,0
+3080001,308,Clear The Five Freedom Fighters The Dawn of Raktehelm.,1,2004613,1,32112001,1,32212001,1,32312001,1
+3080002,308,Clear The Five Freedom Fighters Last Wishes Passed to the Future.,1,2005113,1,32112001,1,32212001,1,32312001,1
+3090001,309,Clear Awakening Power.,1,6015,1,32112001,1,32212001,1,32312001,1
+3090002,309,Clear Feelings I Want to Share.,1,6026,1,32112001,1,32212001,1,32312001,1
+3090003,309,Clear Crossed Hearts,1,6035,1,32112001,1,32212001,1,32312001,1
+3090004,309,"Clear My Will, My Rage.",1,6045,1,32112001,1,32212001,1,32312001,1
+4010001,401,Clear [BGN] in Temple of Heavenly Light.,1,4000101,1,21211001,1,0,0,0,0
+4010002,401,Clear [INT] in Temple of Heavenly Light.,1,4000102,1,21111001,1,0,0,0,0
+4010003,401,Clear [ADV] in Temple of Heavenly Light.,1,4000103,1,21010001,1,0,0,0,0
+4010004,401,Clear [PRO] in Temple of Heavenly Light.,1,4000104,1,32712001,1,0,0,0,0
+4020001,402,Clear [BGN] in Shrine of Oblivion.,1,4000201,1,32112001,1,32212001,1,32312001,1
+4020002,402,Clear [INT] in Shrine of Oblivion.,1,4000202,1,32712001,1,0,0,0,0
+4020003,402,Clear [ADV] in Shrine of Oblivion.,1,4000203,1,32712001,1,0,0,0,0
+4020004,402,Clear [PRO] in Shrine of Oblivion.,1,4000204,1,32712001,1,0,0,0,0
+4030001,403,Clear [BGN] in the Shrine of Aberration.,1,4000301,1,32112001,1,32212001,1,32312001,1
+4030002,403,Clear [INT] in Shrine of Aberration.,1,4000302,1,32712001,1,0,0,0,0
+4030003,403,Clear [ADV] in Shrine of Aberration.,1,4000303,1,32712001,1,0,0,0,0
+4030004,403,Clear [PRO] in Shrine of Aberration.,1,4000304,1,32712001,1,0,0,0,0
+4040001,404,Clear [BGN] in Shrine of the Azul Knight.,1,4000401,1,32112001,1,32212001,1,32312001,1
+4040002,404,Clear [INT] in Shrine of the Azul Knight.,1,4000402,1,32712001,1,0,0,0,0
+4040003,404,Clear [ADV] in Shrine of the Azul Knight.,1,4000403,1,32712001,1,0,0,0,0
+4040004,404,Clear [PRO] in Shrine of the Azul Knight.,1,4000404,1,32712001,1,0,0,0,0
+4050001,405,Clear [BGN] in Shrine of the Burning Chains.,1,4000501,1,32112001,1,32212001,1,32312001,1
+4050002,405,Clear [INT] in Shrine of the Burning Chains.,1,4000502,1,32712001,1,0,0,0,0
+4050003,405,Clear [ADV] in Shrine of the Burning Chains.,1,4000503,1,32712001,1,0,0,0,0
+4050004,405,Clear [PRO] in Shrine of the Burning Chains.,1,4000504,1,32712001,1,0,0,0,0
+4060001,406,Clear [BGN] in Shrine of Adamantine.,1,4000601,1,32112001,1,32212001,1,32312001,1
+4060002,406,Clear [INT] in Shrine of Adamantine.,1,4000602,1,32712001,1,0,0,0,0
+4060003,406,Clear [ADV] in Shrine of Adamantine.,1,4000603,1,32712001,1,0,0,0,0
+4060004,406,Clear [PRO] in Shrine of Adamantine.,1,4000604,1,32712001,1,0,0,0,0
+4070001,407,Clear [BGN] in Shrine of Whirlwind.,1,4000701,1,32112001,1,32212001,1,32312001,1
+4070002,407,Clear [INT] in Shrine of Whirlwind.,1,4000702,1,32712001,1,0,0,0,0
+4070003,407,Clear [ADV] in .The Shrine of Whirlwind,1,4000703,1,32712001,1,0,0,0,0
+4070004,407,Clear [PRO] in Shrine of Whirlwind.,1,4000704,1,32712001,1,0,0,0,0
+4080001,408,Clear [BGN] in Shrine of Discordia.,1,4000801,1,32112001,1,32212001,1,32312001,1
+4080002,408,Clear [INT] in Shrine of Discordia.,1,4000802,1,32712001,1,0,0,0,0
+4080003,408,Clear [ADV] in Shrine of Discordia.,1,4000803,1,32712001,1,0,0,0,0
+4080004,408,Clear [PRO] in Shrine of Discordia.,1,4000804,1,32712001,1,0,0,0,0
+4090001,409,Clear [Extreme] in Shrine of Crimson Sea.,1,4000901,1,32712001,1,0,0,0,0
+4100001,410,Clear [Extreme] in Shrine of Diamond Dust.,1,4001001,1,32712001,1,0,0,0,0
+4110001,411,Clear [Extreme] in Shrine of Eternity.,1,4001101,1,32712001,1,0,0,0,0
+4120001,412,Clear [Extreme] in Shrine of Cursed Claw.,1,4001201,1,32712001,1,0,0,0,0
+4130001,413,Clear [Extreme] in Shrine of Perdition.,1,4001301,1,32712001,1,0,0,0,0
+4140001,414,Clear [Extreme] in Shrine of Tribulation.,1,4001401,1,32712001,1,0,0,0,0
+4150001,415,Clear [Nova] in Shrine of Caliginosity.,1,4001501,1,32712001,1,0,0,0,0
+4160001,416,Clear [Nova] in Shrine of Sagacity.,1,4001601,1,32712001,1,0,0,0,0
+4170001,417,Clear [Nova] in Shrine of Cinderplume.,1,4001701,1,32712001,1,0,0,0,0
+4180001,418,Clear [Nova] in Shrine of Frigidity.,1,4001801,1,32712001,1,0,0,0,0
+4200001,420,Clear [Nova] in Shrine of Subspace.,1,4002001,1,32712001,1,0,0,0,0
+5010001,501,Clear [EX1] in Pride of the Warrior.,1,1000206,1,21010001,1,0,0,0,0
+5010002,501,Clear [EX2] in Pride of the Warrior.,1,1000207,1,21010001,1,0,0,0,0
+5010003,501,Clear [SPEX] in Pride of the Warrior.,1,1000208,1,21010001,1,0,0,0,0
+5010004,501,Clear [AWK] in Pride of the Warrior.,1,1000209,1,21010001,1,0,0,0,0
+5010005,501,Clear [DREAM] in Pride of the Warrior.,1,1000210,1,21010001,1,0,0,0,0
+5020001,502,Clear [EX1] in The Master Chef's Test.,1,2000206,1,21010001,1,0,0,0,0
+5020002,502,Clear [EX2] in The Master Chef's Test.,1,2000207,1,21010001,1,0,0,0,0
+5020003,502,Clear [SPEX] in The Master Chef's Test.,1,2000208,1,21010001,1,0,0,0,0
+5020004,502,Clear [AWK] in The Master Chef's Test.,1,2000209,1,21010001,1,0,0,0,0
+5020005,502,Clear [DREAM] in The Master Chef's Test.,1,2000210,1,21010001,1,0,0,0,0
+5030001,503,Clear [SPEX] in The Demon's Pride.,1,2000406,1,21010001,1,0,0,0,0
+5030002,503,Clear [SPEX Hyper] in The Demon's Pride.,1,2000407,1,21010001,1,0,0,0,0
+5030003,503,Clear [AWK] in The Demon's Pride.,1,2000408,1,21010001,1,0,0,0,0
+5030004,503,Clear [DREAM] in The Demon's Pride.,1,2000409,1,21010001,1,0,0,0,0
+5040001,504,Clear [EX] in Legendary Blacksmith.,1,2000807,1,21010001,1,0,0,0,0
+5040002,504,Clear [SPEX] in Legendary Blacksmith.,1,2000808,1,21010001,1,0,0,0,0
+5040003,504,Clear [AWK] in Legendary Blacksmith.,1,2000809,1,21010001,1,0,0,0,0
+5040004,504,Clear [DREAM] in Legendary Blacksmith.,1,2000810,1,21010001,1,0,0,0,0
+5050001,505,Clear [EX] in Guardian of the Lonely Woods.,1,2002301,1,32012001,1,0,0,0,0
+5050002,505,Clear [SPEX] in Guardian of the Lonely Woods.,1,2002302,1,32012001,1,0,0,0,0
+5050003,505,Clear [AWK] in Guardian of the Lonely Woods.,1,2002303,1,32012001,1,0,0,0,0
+5060001,506,Clear [EX] in The Demon's Dream.,1,2002606,1,21010001,1,0,0,0,0
+5060002,506,Clear [SPEX] in The Demon's Dream.,1,2002607,1,21010001,1,0,0,0,0
+5060003,506,Clear [SPEX Hyper] in The Demon's Dream.,1,2002608,1,21010001,1,0,0,0,0
+5060004,506,Clear [AWK] in The Demon's Dream.,1,2002609,1,21010001,1,0,0,0,0
+5070001,507,Clear [EX1] in Echoes of Invasion.,1,2003101,1,32012001,1,0,0,0,0
+5070002,507,Clear [EX2] in Echoes of Invasion.,1,2003102,1,32012001,1,0,0,0,0
+5070003,507,Clear [SPEX] in Echoes of Invasion.,1,2003103,1,32012001,1,0,0,0,0
+5070004,507,Clear [AWK] in Overdrive,1,2003104,1,32012001,1,0,0,0,0
+5080001,508,Clear [EX1] in Ravage of the Azure Swordsman.,1,2003501,1,32012001,1,0,0,0,0
+5080002,508,Clear [EX2] in Ravage of the Azure Swordsman.,1,2003502,1,32012001,1,0,0,0,0
+5080003,508,Clear [SPEX] in Ravage of the Azure Swordsman.,1,2003503,1,32012001,1,0,0,0,0
+5080004,508,Clear [AWK] in Ravage of the Azure Swordsman.,1,2003504,1,32012001,1,0,0,0,0
+5080005,508,Clear [DREAM] in Ravage of the Azure Swordsman.,1,2003505,1,32012001,1,0,0,0,0
+5090001,509,Clear [EX] in The Dragon General's Sword.,1,2005701,1,32012001,1,0,0,0,0
+5090002,509,Clear [SPEX] in The Dragon General's Sword.,1,2005702,1,32012001,1,0,0,0,0
+5090003,509,Clear [AWK] in The Dragon General's Sword.,1,2005703,1,32012001,1,0,0,0,0
+5100001,510,Clear [EX] in Pierrot of Flames.,1,2006301,1,32012001,1,0,0,0,0
+5100002,510,Clear [SPEX] in Pierrot of Flames.,1,2006302,1,32012001,1,0,0,0,0
+5100003,510,Clear [AWK] in Pierrot of Flames.,1,2006303,1,32012001,1,0,0,0,0
+5110001,511,Clear [EX] in Weapon with a Heart.,1,2006901,1,32012001,1,0,0,0,0
+5110002,511,Clear [SPEX] in Weapon with a Heart.,1,2006902,1,32012001,1,0,0,0,0
+5110003,511,Clear [AWK] in Weapon with a Heart.,1,2006903,1,32012001,1,0,0,0,0
+5120001,512,Clear [EX] in Misson of the Sacred Sword.,1,2007701,1,32012001,1,0,0,0,0
+5120002,512,Clear [SPEX] in Misson of the Sacred Sword.,1,2007702,1,32012001,1,0,0,0,0
+5120003,512,Clear [AWK] in Misson of the Sacred Sword.,1,2007703,1,32012001,1,0,0,0,0
+5130001,513,Clear [EX] in The Beast's Rampage.,1,2008601,1,32012001,1,0,0,0,0
+5130002,513,Clear [SPEX] in The Beast's Rampage.,1,2008602,1,32012001,1,0,0,0,0
+5130003,513,Clear [AWK] in The Beast's Rampage.,1,2008603,1,32012001,1,0,0,0,0
+5140001,514,Clear [EX] in The Guardian Giant.,1,2009401,1,32012001,1,0,0,0,0
+5140002,514,Clear [SPEX] in The Guardian Giant.,1,2009402,1,32012001,1,0,0,0,0
+5140003,514,Clear [AWK] in The Guardian Giant.,1,2009403,1,32012001,1,0,0,0,0
+5150001,515,Clear [EX] in Mask of Madness.,1,2010001,1,32012001,1,0,0,0,0
+5150002,515,Clear [SPEX] in Mask of Madness.,1,2010002,1,32012001,1,0,0,0,0
+5150003,515,Clear [AWK] in Mask of Madness.,1,2010003,1,32012001,1,0,0,0,0
+5160001,516,Clear [EX] in Wrath of the Dragon Slayer.,1,2011501,1,32012001,1,0,0,0,0
+5160002,516,Clear [SPEX] in Wrath of the Dragon Slayer.,1,2011502,1,32012001,1,0,0,0,0
+5160003,516,Clear [AWK] in Wrath of the Dragon Slayer.,1,2011503,1,32012001,1,0,0,0,0
+5170001,517,Clear [EX] in The Crescent Dancer.,1,2017901,1,32012001,1,0,0,0,0
+5170002,517,Clear [SPEX] in The Crescent Dancer.,1,2017902,1,32012001,1,0,0,0,0
+5170003,517,Clear [AWK] in The Crescent Dancer.,1,2017903,1,32012001,1,0,0,0,0
+5180001,518,Clear [SPEX Hyper] in The Vengeful Spear of Ice.,1,2011801,1,32612001,1,0,0,0,0
+5190001,519,Clear [SPEX Hyper] in Fangs of Remorse.,1,2013701,1,32612001,1,0,0,0,0
+5200001,520,Clear [SPEX] in The Azure Monarch.,1,2019301,1,32612001,1,0,0,0,0
+5200002,520,Clear [SPEX Hyper] in The Azure Monarch.,1,2019302,1,32612001,1,0,0,0,0
+5210001,521,Clear [SPEX] in The Servant Who Defied.,1,2022101,1,32612001,1,0,0,0,0
+5210002,521,Clear [SPEX Hyper] in The Servant Who Defied.,1,2022102,1,32612001,1,0,0,0,0
+5220001,522,Clear [SPEX] in Blade of Ginzo.,1,2037801,1,32612001,1,0,0,0,0
+5220002,522,Clear [SPEX Hyper] in Blade of Ginzo.,1,2037802,1,32612001,1,0,0,0,0
+5230001,523,Clear [SPEX] in Soul of Imari.,1,2043411,1,32612001,1,0,0,0,0
+5230002,523,Clear [SPEX Hyper] in Soul of Imari.,1,2043412,1,32612001,1,0,0,0,0
+6010001,601,Clear [INT] in Crimson Flames of the Phoenix.,1,4880001,1,32512001,1,0,0,0,0
+6010002,601,Clear [ADV] in Crimson Flames of the Phoenix.,1,4880002,1,32512001,1,0,0,0,0
+6010003,601,Clear [PRO] in Crimson Flames of the Phoenix.,1,4880003,1,32512001,1,0,0,0,0
+6010004,601,Clear [AWK] in Crimson Flames of the Phoenix.,1,4880004,1,32512001,1,0,0,0,0
+6020001,602,Clear [INT] in Cry of the Azure Roc.,1,5000901,1,32512001,1,0,0,0,0
+6020002,602,Clear [ADV] in Cry of the Azure Roc.,1,5000902,1,32512001,1,0,0,0,0
+6020003,602,Clear [PRO] in Cry of the Azure Roc.,1,5000903,1,32512001,1,0,0,0,0
+6020004,602,Clear [AWK] in Cry of the Azure Roc.,1,5000904,1,32512001,1,0,0,0,0
+6030001,603,Clear [INT] in Clashing Thunder of the Emerald Bird.,1,5001201,1,32512001,1,0,0,0,0
+6030002,603,Clear [ADV] in Clashing Thunder of the Emerald Bird.,1,5001202,1,32512001,1,0,0,0,0
+6030003,603,Clear [PRO] in Clashing Thunder of the Emerald Bird.,1,5001203,1,32512001,1,0,0,0,0
+6030004,603,Clear [AWK] in Clashing Thunder of the Emerald Bird.,1,5001204,1,32512001,1,0,0,0,0
+6040001,604,Clear [INT] in The Crimson King.,1,993201,1,32412001,1,0,0,0,0
+6040002,604,Clear [ADV] in The Crimson King.,1,993202,1,32412001,1,0,0,0,0
+6040003,604,Clear [PRO] in The Crimson King.,1,993203,1,32412001,1,0,0,0,0
+6040004,604,Clear [AWK] in The Crimson King.,1,993204,1,32412001,1,0,0,0,0
+6050001,605,Clear [INT] in A Subzero Hellscape.,1,4900001,1,32412001,1,0,0,0,0
+6050002,605,Clear [ADV] in A Subzero Hellscape.,1,4900002,1,32412001,1,0,0,0,0
+6050003,605,Clear [PRO] in A Subzero Hellscape.,1,4900003,1,32412001,1,0,0,0,0
+6050004,605,Clear [AWK] in A Subzero Hellscape.,1,4900004,1,32412001,1,0,0,0,0
+6060001,606,Clear [INT] in The Green Strikes Back.,1,5000701,1,32412001,1,0,0,0,0
+6060002,606,Clear [ADV] in The Green Strikes Back.,1,5000702,1,32412001,1,0,0,0,0
+6060003,606,Clear [PRO] in The Green Strikes Back.,1,5000703,1,32412001,1,0,0,0,0
+6060004,606,Clear [AWK] in The Green Strikes Back.,1,5000704,1,32412001,1,0,0,0,0
+6070001,607,Clear [INT] in Glowing Sanctuary.,1,5000501,1,32412001,1,0,0,0,0
+6070002,607,Clear [ADV] in Glowing Sanctuary.,1,5000502,1,32412001,1,0,0,0,0
+6070003,607,Clear [PRO] in Glowing Sanctuary.,1,5000503,1,32412001,1,0,0,0,0
+6070004,607,Clear [AWK] in Glowing Sanctuary.,1,5000504,1,32412001,1,0,0,0,0
+6080001,608,Clear [INT] in Shadow of the God Eater.,1,5001101,1,32412001,1,0,0,0,0
+6080002,608,Clear [ADV] in Shadow of the God Eater.,1,5001102,1,32412001,1,0,0,0,0
+6080003,608,Clear [PRO] in Shadow of the God Eater.,1,5001103,1,32412001,1,0,0,0,0
+6080004,608,Clear [AWK] in Shadow of the God Eater.,1,5001104,1,32412001,1,0,0,0,0
+6090001,609,Clear [INT] in Caverns of Dark.,1,5000601,1,32412001,1,0,0,0,0
+6090002,609,Clear [ADV] in Caverns of Dark.,1,5000602,1,32412001,1,0,0,0,0
+6090003,609,Clear [PRO] in Caverns of Dark.,1,5000603,1,32412001,1,0,0,0,0
+6090004,609,Clear [AWK] in Caverns of Dark.,1,5000604,1,32412001,1,0,0,0,0
+6100001,610,Clear [INT] in Shrine of Remembrance.,1,993001,1,32412001,1,0,0,0,0
+6100002,610,Clear [ADV] in Shrine of Remembrance.,1,993002,1,32412001,1,0,0,0,0
+6100003,610,Clear [PRO] in Shrine of Remembrance.,1,993003,1,32412001,1,0,0,0,0
+6100004,610,Clear [AWK] in Shrine of Remembrance.,1,993004,1,32412001,1,0,0,0,0
+6110001,611,Clear [INT] in Sanctuary of the Divine Princess.,1,993101,1,32412001,1,0,0,0,0
+6110002,611,Clear [ADV] in Sanctuary of the Divine Princess.,1,993102,1,32412001,1,0,0,0,0
+6110003,611,Clear [PRO] in Sanctuary of the Divine Princess.,1,993103,1,32412001,1,0,0,0,0
+6110004,611,Clear [AWK] in Sanctuary of the Divine Princess.,1,993104,1,32412001,1,0,0,0,0
+6120001,612,Clear [INT] in Fortress of the Machine God.,1,5000801,1,32412001,1,0,0,0,0
+6120002,612,Clear [ADV] in Fortress of the Machine God.,1,5000802,1,32412001,1,0,0,0,0
+6120003,612,Clear [PRO] in Fortress of the Machine God.,1,5000803,1,32412001,1,0,0,0,0
+6120004,612,Clear [AWK] in Fortress of the Machine God.,1,5000804,1,32412001,1,0,0,0,0
+6130001,613,Clear [INT] in Trials of the Flame God.,1,5001001,1,43012001,1,0,0,0,0
+6130002,613,Clear [ADV] in Trials of the Flame God.,1,5001002,1,43012001,1,0,0,0,0
+6130003,613,Clear [PRO] in Trials of the Flame God.,1,5001003,1,43012001,1,0,0,0,0
+6130004,613,Clear [AWK] in Trials of the Flame God.,1,5001004,1,43012001,1,0,0,0,0
+6140001,614,Clear [INT] in Battle against the Silent Holy Knight.,1,5002001,1,43012001,1,0,0,0,0
+6140002,614,Clear [ADV] in Battle against the Silent Holy Knight.,1,5002002,1,43012001,1,0,0,0,0
+6140003,614,Clear [PRO] in Battle against the Silent Holy Knight.,1,5002003,1,43012001,1,0,0,0,0
+6140004,614,Clear [AWK] in Battle against the Silent Holy Knight.,1,5002004,1,43012001,1,0,0,0,0
+6150001,615,Clear [PRO] in Frozen Calamity in the North.,1,4890002,1,43012001,1,0,0,0,0
+6150002,615,Clear [AWK] in Frozen Calamity in the North.,1,4890001,1,43012001,1,0,0,0,0
+6160001,616,Clear [PRO] in Life Draining Botanical Beast.,1,4910002,1,43012001,1,0,0,0,0
+6160002,616,Clear [AWK] in Life Draining Botanical Beast.,1,4910001,1,43012001,1,0,0,0,0
+6170001,617,Clear [BGN] in Sanctuary of the Bright Spirit.,1,4871001,1,43012001,1,0,0,0,0
+6170002,617,Clear [INT] in Sanctuary of the Bright Spirit.,1,4871002,1,43012001,1,0,0,0,0
+6170003,617,Clear [PRO] in Sanctuary of the Bright Spirit.,1,4871003,1,43012001,1,0,0,0,0
+6170004,617,Clear [AWK] in Sanctuary of the Bright Spirit.,1,4871004,1,43012001,1,0,0,0,0
+6180001,618,Clear [PRO] in Awakening Cursed Armor.,1,4920002,1,43012001,1,0,0,0,0
+6180002,618,Clear [AWK] in Awakening Cursed Armor.,1,4920001,1,43012001,1,0,0,0,0
+7010001,701,Clear [Ultra] in Shrine of Remembrance [Ultra].,1,2024801,1,43112001,1,0,0,0,0
+7020001,702,Clear [Ultra] in Sanctuary of the Princess [Ultra].,1,2022501,1,43112001,1,0,0,0,0
+7030001,703,Clear [Ultra] in The Crimson King [Ultra].,1,2022201,1,43112001,1,0,0,0,0
+7040001,704,Clear [Ultra] in Caverns of Dark [Ultra].,1,2036001,1,43112001,1,0,0,0,0
+7050001,705,Clear [Ultra] in The Green Strikes Back [Ultra].,1,2022401,1,43112001,1,0,0,0,0
+7060001,706,Clear [Ultra] in Fortress of the Machine God [Ultra].,1,2024601,1,43112001,1,0,0,0,0
+7070001,707,Clear [Ultra] in Cry of the Azure Roc [Ultra].,1,2022301,1,43112001,1,0,0,0,0
+7080001,708,Clear [Ultra] in Clashing Thunder of the Emerald Bird [Ultra].,1,2024701,1,43112001,1,0,0,0,0
+7090001,709,Clear [Ultra] in Crimson Flames of the Phoenix [Ultra].,1,2040701,1,43112001,1,0,0,0,0
+7110001,711,Clear [BGN] in Awakening Cursed Armor X.,1,2027001,1,43112001,1,0,0,0,0
+7110002,711,Clear [INT] in Awakening Cursed Armor X.,1,2027002,1,43112001,1,0,0,0,0
+7110003,711,Clear [ADV] in Awakening Cursed Armor X.,1,2027003,1,43112001,1,0,0,0,0
+7110004,711,Clear [PRO] in Awakening Cursed Armor X.,1,2027004,1,43112001,1,0,0,0,0
+7110005,711,Clear [Ultra] in Awakening Cursed Armor X.,1,2027005,1,43112001,1,0,0,0,0
+7120001,712,Clear [Ultra] in Frozen Calamity in the North [Ultra].,1,2035901,1,43112001,1,0,0,0,0
+8010001,801,Clear Stage 1 in Flametail Mountain.,1,5041001,1,32612001,1,0,0,0,0
+8010002,801,Clear Stage 2 in Flametail Mountain.,1,5041002,1,32612001,1,0,0,0,0
+8010003,801,Clear Stage 3 in Flametail Mountain.,1,5041003,1,32612001,1,0,0,0,0
+8010004,801,Clear Stage 4 in Flametail Mountain.,1,5041004,1,32612001,1,0,0,0,0
+8010005,801,Clear Stage 5 in Flametail Mountain.,1,5041005,1,32612001,1,0,0,0,0
+8020001,802,Clear Stage 1 in Frostsprite Tundra.,1,5041301,1,32612001,1,0,0,0,0
+8020002,802,Clear Stage 2 in Frostsprite Tundra.,1,5041302,1,32612001,1,0,0,0,0
+8020003,802,Clear Stage 3 in Frostsprite Tundra.,1,5041303,1,32612001,1,0,0,0,0
+8020004,802,Clear Stage 4 in Frostsprite Tundra.,1,5041304,1,32612001,1,0,0,0,0
+8020005,802,Clear Stage 5 in Frostsprite Tundra.,1,5041305,1,32612001,1,0,0,0,0
+8030001,803,Clear Stage 1 in Smogdragon Island.,1,5040901,1,32612001,1,0,0,0,0
+8030002,803,Clear Stage 2 in Smogdragon Island.,1,5040902,1,32612001,1,0,0,0,0
+8030003,803,Clear Stage 3 in Smogdragon Island.,1,5040903,1,32612001,1,0,0,0,0
+8030004,803,Clear Stage 4 in Smogdragon Island.,1,5040904,1,32612001,1,0,0,0,0
+8030005,803,Clear Stage 5 in Smogdragon Island.,1,5040905,1,32612001,1,0,0,0,0
+8040001,804,Clear Stage 1 in Eternaglint Summit.,1,5041101,1,32612001,1,0,0,0,0
+8040002,804,Clear Stage 2 in Eternaglint Summit.,1,5041102,1,32612001,1,0,0,0,0
+8040003,804,Clear Stage 3 in Eternaglint Summit.,1,5041103,1,32612001,1,0,0,0,0
+8040004,804,Clear Stage 4 in Eternaglint Summit.,1,5041104,1,32612001,1,0,0,0,0
+8040005,804,Clear Stage 5 in Eternaglint Summit.,1,5041105,1,32612001,1,0,0,0,0
+8050001,805,Clear Stage 1 in Sinflow Cavern.,1,5041201,1,32612001,1,0,0,0,0
+8050002,805,Clear Stage 2 in Sinflow Cavern.,1,5041202,1,32612001,1,0,0,0,0
+8050003,805,Clear Stage 3 in Sinflow Cavern.,1,5041203,1,32612001,1,0,0,0,0
+8050004,805,Clear Stage 4 in Sinflow Cavern.,1,5041204,1,32612001,1,0,0,0,0
+8050005,805,Clear Stage 5 in Sinflow Cavern.,1,5041205,1,32612001,1,0,0,0,0
+8060001,806,Clear Stage 1 in Sealed Holy Land.,1,5041401,1,32612001,1,0,0,0,0
+8060002,806,Clear Stage 2 in Sealed Holy Land.,1,5041402,1,32612001,1,0,0,0,0
+8060003,806,Clear Stage 3 in Sealed Holy Land.,1,5041403,1,32612001,1,0,0,0,0
+8060004,806,Clear Stage 4 in Sealed Holy Land.,1,5041404,1,32612001,1,0,0,0,0
+8060005,806,Clear Stage 5 in Sealed Holy Land.,1,5041405,1,32612001,1,0,0,0,0
+9010001,901,Clear 1F in Dungeon of Trials.,1,2000501,1,43012001,1,0,0,0,0
+9010002,901,Clear 2F in Dungeon of Trials.,1,2000502,1,43012001,1,0,0,0,0
+9010003,901,Clear 3F in Dungeon of Trials.,1,2000503,1,43012001,1,0,0,0,0
+9010004,901,Clear 4F in Dungeon of Trials.,1,2000504,1,43012001,1,0,0,0,0
+9010005,901,Clear 5F in Dungeon of Trials.,1,2000505,1,43012001,1,0,0,0,0
+9010006,901,Clear 6F in Dungeon of Trials.,1,2000506,1,43012001,1,0,0,0,0
+9010007,901,Clear 7F in Dungeon of Trials.,1,2000507,1,43012001,1,0,0,0,0
+9010008,901,Clear 8F in Dungeon of Trials.,1,2000508,1,43012001,1,0,0,0,0
+9010009,901,Clear 9F in Dungeon of Trials.,1,2000509,1,43012001,1,0,0,0,0
+9010010,901,Clear 10F in Dungeon of Trials.,1,2000510,1,43012001,1,0,0,0,0
+9010011,901,Clear 11F in Dungeon of Trials.,1,2000511,1,21312001,1,0,0,0,0
+9010012,901,Clear 12F in Dungeon of Trials.,1,2000512,1,21312001,1,0,0,0,0
+9010013,901,Clear 13F in Dungeon of Trials.,1,2000513,1,21312001,1,0,0,0,0
+9010014,901,Clear 14F in Dungeon of Trials.,1,2000514,1,21312001,1,0,0,0,0
+9010015,901,Clear 15F in Dungeon of Trials.,1,2000515,1,21312001,1,0,0,0,0
+9010016,901,Clear 16F in Dungeon of Trials.,1,2000516,1,21312001,1,0,0,0,0
+9010017,901,Clear 17F in Dungeon of Trials.,1,2000517,1,21312001,1,0,0,0,0
+9010018,901,Clear 18F in Dungeon of Trials.,1,2000518,1,21312001,1,0,0,0,0
+9010019,901,Clear 19F in Dungeon of Trials.,1,2000519,1,21312001,1,0,0,0,0
+9010020,901,Clear 20F in Dungeon of Trials.,1,2000520,1,21312001,1,0,0,0,0
+9010021,901,Clear 21F in Dungeon of Trials.,1,2000521,1,32812001,1,0,0,0,0
+9010022,901,Clear 22F in Dungeon of Trials.,1,2000522,1,32812001,1,0,0,0,0
+9010023,901,Clear 23F in Dungeon of Trials.,1,2000523,1,32812001,1,0,0,0,0
+9010024,901,Clear 24F in Dungeon of Trials.,1,2000524,1,32812001,1,0,0,0,0
+9010025,901,Clear 25F in Dungeon of Trials.,1,2000525,1,32812001,1,0,0,0,0
+9010026,901,Clear 26F in Dungeon of Trials.,1,2000526,1,32812001,1,0,0,0,0
+9010027,901,Clear 27F in Dungeon of Trials.,1,2000527,1,32812001,1,0,0,0,0
+9010028,901,Clear 28F in Dungeon of Trials.,1,2000528,1,32812001,1,0,0,0,0
+9010029,901,Clear 29F in Dungeon of Trials.,1,2000529,1,32812001,1,0,0,0,0
+9010030,901,Clear 30F in Dungeon of Trials.,1,2000530,1,32812001,1,0,0,0,0
+9010031,901,Clear 31F in Dungeon of Trials.,1,2000531,1,32812001,1,0,0,0,0
+9010032,901,Clear 32F in Dungeon of Trials.,1,2000532,1,32812001,1,0,0,0,0
+9010033,901,Clear 33F in Dungeon of Trials.,1,2000533,1,32812001,1,0,0,0,0
+10010001,1001,Clear Area 1 in Inferno Ruins.,1,2004301,1,43012001,1,0,0,0,0
+10010002,1001,Clear Area 2 in Inferno Ruins.,1,2004302,1,43012001,1,0,0,0,0
+10010003,1001,Clear Area 3 in Inferno Ruins.,1,2004303,1,43012001,1,0,0,0,0
+10010004,1001,Clear Area 4 in Inferno Ruins.,1,2004304,1,43012001,1,0,0,0,0
+10010005,1001,Clear Area 5 in Inferno Ruins.,1,2004305,1,43012001,1,0,0,0,0
+10010006,1001,Clear Area 6 in Inferno Ruins.,1,2004306,1,32512001,1,0,0,0,0
+10010007,1001,Clear Area 7 in Inferno Ruins.,1,2004307,1,32512001,1,0,0,0,0
+10010008,1001,Clear Area 8 in Inferno Ruins.,1,2004308,1,32512001,1,0,0,0,0
+10010009,1001,Clear Area 9 in Inferno Ruins.,1,2004309,1,32512001,1,0,0,0,0
+10010010,1001,Clear Area 10 in Inferno Ruins.,1,2004310,1,32512001,1,0,0,0,0
+10010011,1001,Clear Area 11 in Inferno Ruins.,1,2004311,1,21312001,1,0,0,0,0
+10010012,1001,Clear Area 12 in Inferno Ruins.,1,2004312,1,21312001,1,0,0,0,0
+10010013,1001,Clear Area 13 in Inferno Ruins.,1,2004313,1,21312001,1,0,0,0,0
+10010014,1001,Clear Area 14 in Inferno Ruins.,1,2004314,1,21312001,1,0,0,0,0
+10010015,1001,Clear Area 15 in Inferno Ruins.,1,2004315,1,21312001,1,0,0,0,0
+10010016,1001,Clear Area 16 in Inferno Ruins.,1,2004316,1,32812001,1,0,0,0,0
+10010017,1001,Clear Area 17 in Inferno Ruins.,1,2004317,1,32812001,1,0,0,0,0
+10020001,1002,Clear Area 1 in Aqua Ruins.,1,2004401,1,43012001,1,0,0,0,0
+10020002,1002,Clear Area 2 in Aqua Ruins.,1,2004402,1,43012001,1,0,0,0,0
+10020003,1002,Clear Area 3 in Aqua Ruins.,1,2004403,1,43012001,1,0,0,0,0
+10020004,1002,Clear Area 4 in Aqua Ruins.,1,2004404,1,43012001,1,0,0,0,0
+10020005,1002,Clear Area 5 in Aqua Ruins.,1,2004405,1,43012001,1,0,0,0,0
+10020006,1002,Clear Area 6 in Aqua Ruins.,1,2004406,1,32512001,1,0,0,0,0
+10020007,1002,Clear Area 7 in Aqua Ruins.,1,2004407,1,32512001,1,0,0,0,0
+10020008,1002,Clear Area 8 in Aqua Ruins.,1,2004408,1,32512001,1,0,0,0,0
+10020009,1002,Clear Area 9 in Aqua Ruins.,1,2004409,1,32512001,1,0,0,0,0
+10020010,1002,Clear Area 10 in Aqua Ruins.,1,2004410,1,32512001,1,0,0,0,0
+10020011,1002,Clear Area 11 in Aqua Ruins.,1,2004411,1,21312001,1,0,0,0,0
+10020012,1002,Clear Area 12 in Aqua Ruins.,1,2004412,1,21312001,1,0,0,0,0
+10020013,1002,Clear Area 13 in Aqua Ruins.,1,2004413,1,21312001,1,0,0,0,0
+10020014,1002,Clear Area 14 in Aqua Ruins.,1,2004414,1,21312001,1,0,0,0,0
+10020015,1002,Clear Area 15 in Aqua Ruins.,1,2004415,1,21312001,1,0,0,0,0
+10020016,1002,Clear Area 16 in Aqua Ruins.,1,2004416,1,32812001,1,0,0,0,0
+10020017,1002,Clear Area 17 in Aqua Ruins.,1,2004417,1,32812001,1,0,0,0,0
+10030001,1003,Clear Area 1 in Forest Ruins.,1,2004501,1,43012001,1,0,0,0,0
+10030002,1003,Clear Area 2 in Forest Ruins.,1,2004502,1,43012001,1,0,0,0,0
+10030003,1003,Clear Area 3 in Forest Ruins.,1,2004503,1,43012001,1,0,0,0,0
+10030004,1003,Clear Area 4 in Forest Ruins.,1,2004504,1,43012001,1,0,0,0,0
+10030005,1003,Clear Area 5 in Forest Ruins.,1,2004505,1,43012001,1,0,0,0,0
+10030006,1003,Clear Area 6 in Forest Ruins.,1,2004506,1,32512001,1,0,0,0,0
+10030007,1003,Clear Area 7 in Forest Ruins.,1,2004507,1,32512001,1,0,0,0,0
+10030008,1003,Clear Area 8 in Forest Ruins.,1,2004508,1,32512001,1,0,0,0,0
+10030009,1003,Clear Area 9 in Forest Ruins.,1,2004509,1,32512001,1,0,0,0,0
+10030010,1003,Clear Area 10 in Forest Ruins.,1,2004510,1,32512001,1,0,0,0,0
+10030011,1003,Clear Area 11 in Forest Ruins.,1,2004511,1,21312001,1,0,0,0,0
+10030012,1003,Clear Area 12 in Forest Ruins.,1,2004512,1,21312001,1,0,0,0,0
+10030013,1003,Clear Area 13 in Forest Ruins.,1,2004513,1,21312001,1,0,0,0,0
+10030014,1003,Clear Area 14 in Forest Ruins.,1,2004514,1,21312001,1,0,0,0,0
+10030015,1003,Clear Area 15 in Forest Ruins.,1,2004515,1,21312001,1,0,0,0,0
+10030016,1003,Clear Area 16 in Forest Ruins.,1,2004516,1,32812001,1,0,0,0,0
+10030017,1003,Clear Area 17 in Forest Ruins.,1,2004517,1,32812001,1,0,0,0,0
+10040001,1004,Clear Area 1 in Luminous Ruins.,1,2005401,1,43012001,1,0,0,0,0
+10040002,1004,Clear Area 2 in Luminous Ruins.,1,2005402,1,43012001,1,0,0,0,0
+10040003,1004,Clear Area 3 in Luminous Ruins.,1,2005403,1,43012001,1,0,0,0,0
+10040004,1004,Clear Area 4 in Luminous Ruins.,1,2005404,1,43012001,1,0,0,0,0
+10040005,1004,Clear Area 5 in Luminous Ruins.,1,2005405,1,43012001,1,0,0,0,0
+10040006,1004,Clear Area 6 in Luminous Ruins.,1,2005406,1,32512001,1,0,0,0,0
+10040007,1004,Clear Area 7 in Luminous Ruins.,1,2005407,1,32512001,1,0,0,0,0
+10040008,1004,Clear Area 8 in Luminous Ruins.,1,2005408,1,32512001,1,0,0,0,0
+10040009,1004,Clear Area 9 in Luminous Ruins.,1,2005409,1,32512001,1,0,0,0,0
+10040010,1004,Clear Area 10 in Luminous Ruins.,1,2005410,1,32512001,1,0,0,0,0
+10040011,1004,Clear Area 11 in Luminous Ruins.,1,2005411,1,21312001,1,0,0,0,0
+10040012,1004,Clear Area 12 in Luminous Ruins.,1,2005412,1,21312001,1,0,0,0,0
+10040013,1004,Clear Area 13 in Luminous Ruins.,1,2005413,1,21312001,1,0,0,0,0
+10040014,1004,Clear Area 14 in Luminous Ruins.,1,2005414,1,21312001,1,0,0,0,0
+10040015,1004,Clear Area 15 in Luminous Ruins.,1,2005415,1,21312001,1,0,0,0,0
+10040016,1004,Clear Area 16 in Luminous Ruins.,1,2005416,1,32812001,1,0,0,0,0
+10040017,1004,Clear Area 17 in Luminous Ruins.,1,2005417,1,32812001,1,0,0,0,0
+10050001,1005,Clear Area 1 in Shadow Ruins.,1,2005501,1,43012001,1,0,0,0,0
+10050002,1005,Clear Area 2 in Shadow Ruins.,1,2005502,1,43012001,1,0,0,0,0
+10050003,1005,Clear Area 3 in Shadow Ruins.,1,2005503,1,43012001,1,0,0,0,0
+10050004,1005,Clear Area 4 in Shadow Ruins.,1,2005504,1,43012001,1,0,0,0,0
+10050005,1005,Clear Area 5 in Shadow Ruins.,1,2005505,1,43012001,1,0,0,0,0
+10050006,1005,Clear Area 6 in Shadow Ruins.,1,2005506,1,32512001,1,0,0,0,0
+10050007,1005,Clear Area 7 in Shadow Ruins.,1,2005507,1,32512001,1,0,0,0,0
+10050008,1005,Clear Area 8 in Shadow Ruins.,1,2005508,1,32512001,1,0,0,0,0
+10050009,1005,Clear Area 9 in Shadow Ruins.,1,2005509,1,32512001,1,0,0,0,0
+10050010,1005,Clear Area 10 in Shadow Ruins.,1,2005510,1,32512001,1,0,0,0,0
+10050011,1005,Clear Area 11 in Shadow Ruins.,1,2005511,1,21312001,1,0,0,0,0
+10050012,1005,Clear Area 12 in Shadow Ruins.,1,2005512,1,21312001,1,0,0,0,0
+10050013,1005,Clear Area 13 in Shadow Ruins.,1,2005513,1,21312001,1,0,0,0,0
+10050014,1005,Clear Area 14 in Shadow Ruins.,1,2005514,1,21312001,1,0,0,0,0
+10050015,1005,Clear Area 15 in Shadow Ruins.,1,2005515,1,21312001,1,0,0,0,0
+10050016,1005,Clear Area 16 in Shadow Ruins.,1,2005516,1,32812001,1,0,0,0,0
+10050017,1005,Clear Area 17 in Shadow Ruins.,1,2005517,1,32812001,1,0,0,0,0
+11010001,1101,Clear in Mankind Ruins - Area 1,1,2061101,1,32112001,1,32212001,1,32312001,1
+11010002,1101,Clear in Mankind Ruins - Area 2,1,2061102,1,32112001,1,32212001,1,32312001,1
+11010003,1101,Clear in Mankind Ruins - Area 3,1,2061103,1,32112001,1,32212001,1,32312001,1
+11010004,1101,Clear in Mankind Ruins - Area 4,1,2061104,1,32112001,1,32212001,1,32312001,1
+11010005,1101,Clear in Mankind Ruins - Area 5,1,2061105,1,32112001,1,32212001,1,32312001,1
+11010006,1101,Clear in [Challenge] Mankind Ruins - Area 5,1,2061106,1,32812001,1,0,0,0,0
+11010007,1101,Clear in Mankind Ruins - Area 6,1,2061107,1,32112001,1,32212001,1,32312001,1
+11010008,1101,Clear in [Challenge] Mankind Ruins - Area 6,1,2061108,1,32812001,1,0,0,0,0
+11010009,1101,Clear in Mankind Ruins - Area 7,1,2061109,1,32112001,1,32212001,1,32312001,1
+11010010,1101,Clear in [Challenge] Mankind Ruins - Area 7,1,2061110,1,32812001,1,0,0,0,0
+11010011,1101,Clear in Mankind Ruins - Area 8,1,2061111,1,32112001,1,32212001,1,32312001,1
+11010012,1101,Clear in [Challenge] Mankind Ruins - Area 8,1,2061112,1,32812001,1,0,0,0,0
+11010013,1101,Clear in Mankind Ruins - Area 9,1,2061113,1,32112001,1,32212001,1,32312001,1
+11010014,1101,Clear in [Challenge] Mankind Ruins - Area 9,1,2061114,1,32812001,1,0,0,0,0
+11020001,1102,Clear in Divinity Ruins - Area 1,1,2063901,1,32112001,1,32212001,1,32312001,1
+11020002,1102,Clear in Divinity Ruins - Area 2,1,2063902,1,32112001,1,32212001,1,32312001,1
+11020003,1102,Clear in Divinity Ruins - Area 3,1,2063903,1,32112001,1,32212001,1,32312001,1
+11020004,1102,Clear in Divinity Ruins - Area 4,1,2063904,1,32112001,1,32212001,1,32312001,1
+11020005,1102,Clear in Divinity Ruins - Area 5,1,2063905,1,32112001,1,32212001,1,32312001,1
+11020006,1102,Clear in [Challenge] Divinity Ruins - Area 5,1,2063906,1,32812001,1,0,0,0,0
+11020007,1102,Clear in Divinity Ruins - Area 6,1,2063907,1,32112001,1,32212001,1,32312001,1
+11020008,1102,Clear in [Challenge] Divinity Ruins - Area 6,1,2063908,1,32812001,1,0,0,0,0
+11020009,1102,Clear in Divinity Ruins - Area 7,1,2063909,1,32112001,1,32212001,1,32312001,1
+11020010,1102,Clear in [Challenge] Divinity Ruins - Area 7,1,2063910,1,32812001,1,0,0,0,0
+11020011,1102,Clear in Divinity Ruins - Area 8,1,2063911,1,32112001,1,32212001,1,32312001,1
+11020012,1102,Clear in [Challenge] Divinity Ruins - Area 8,1,2063912,1,32812001,1,0,0,0,0
+11030001,1103,Clear in Infernal Ruins - Area 1,1,2064501,1,32112001,1,32212001,1,32312001,1
+11030002,1103,Clear in Infernal Ruins - Area 2,1,2064502,1,32112001,1,32212001,1,32312001,1
+11030003,1103,Clear in Infernal Ruins - Area 3,1,2064503,1,32112001,1,32212001,1,32312001,1
+11030004,1103,Clear in Infernal Ruins - Area 4,1,2064504,1,32112001,1,32212001,1,32312001,1
+11030005,1103,Clear in Infernal Ruins - Area 5,1,2064505,1,32112001,1,32212001,1,32312001,1
+11030006,1103,Clear in [Challenge] Infernal Ruins - Area 5,1,2064506,1,32812001,1,0,0,0,0
+11030007,1103,Clear in Infernal Ruins - Area 6,1,2064507,1,32112001,1,32212001,1,32312001,1
+11030008,1103,Clear in [Challenge] Infernal Ruins - Area 6,1,2064508,1,32812001,1,0,0,0,0
+11030009,1103,Clear in Infernal Ruins - Area 7,1,2064509,1,32112001,1,32212001,1,32312001,1
+11030010,1103,Clear in [Challenge] Infernal Ruins - Area 7,1,2064510,1,32812001,1,0,0,0,0
+11030011,1103,Clear in Infernal Ruins - Area 8,1,2064511,1,32112001,1,32212001,1,32312001,1
+11030012,1103,Clear in [Challenge] Infernal Ruins - Area 8,1,2064512,1,32812001,1,0,0,0,0
+12010001,1201,Clear Area 2 in Episode 1.,7,1,2,21211001,1,0,0,0,0
+12020001,1202,Clear EX1 in Phoenix of the Volcano.,2,5001,1,21010001,1,0,0,0,0
+12020002,1202,Clear EX2 in Phoenix of the Volcano.,2,10001,1,21010001,1,0,0,0,0
+12020003,1202,Clear EX3 in Phoenix of the Volcano.,2,20001,1,21010001,1,0,0,0,0
+12020004,1202,Clear EX4 in Phoenix of the Volcano.,2,50001,1,32812001,1,0,0,0,0
+12020005,1202,Clear EX5 in Phoenix of the Volcano.,2,100001,1,32812001,1,0,0,0,0
+12030001,1203,Clear EX1 in Rampage on the Twin Isles.,2,8001,1,21010001,1,0,0,0,0
+12030002,1203,Clear EX2 in Rampage on the Twin Isles.,2,13001,1,21010001,1,0,0,0,0
+12030003,1203,Clear EX3 in Rampage on the Twin Isles.,2,23001,1,21010001,1,0,0,0,0
+12030004,1203,Clear EX4 in Rampage on the Twin Isles.,2,53001,1,32812001,1,0,0,0,0
+12030005,1203,Clear EX5 in Rampage on the Twin Isles.,2,103001,1,32812001,1,0,0,0,0
+12040001,1204,Clear EX1 in Submerged Remnants.,2,9001,1,21010001,1,0,0,0,0
+12040002,1204,Clear EX2 in Submerged Remnants.,2,14001,1,21010001,1,0,0,0,0
+12040003,1204,Clear EX3 in Submerged Remnants.,2,24001,1,21010001,1,0,0,0,0
+12040004,1204,Clear EX4 in Submerged Remnants.,2,54001,1,32812001,1,0,0,0,0
+12040005,1204,Clear EX5 in Submerged Remnants.,2,104001,1,32812001,1,0,0,0,0
+13010001,1301,Defeat Inferno Dragon Degilmagna.,3,50001,1,21312001,1,0,0,0,0
+13010002,1301,"Defeat Palamicia, the Silent Divine.",3,50002,1,21312001,1,0,0,0,0
+13010003,1301,Defeat Tonetaurus.,3,50003,1,21312001,1,0,0,0,0
+13010004,1301,"Defeat Oldeus, the Burier.",3,50004,1,21312001,1,0,0,0,0
+13010005,1301,Defeat Subject β-3.,3,50005,1,21312001,1,0,0,0,0
+13010006,1301,Defeat Radiant Dragon Fosradius.,3,50006,1,21312001,1,0,0,0,0
+13010008,1301,Defeat Azure Phoenix Freydal.,3,50016,1,21312001,1,0,0,0,0
+13010009,1301,Defeat Verdant Dragon Elpneumas.,3,50017,1,21312001,1,0,0,0,0
+13010010,1301,Defeat Demon Fox Ugetsu.,3,50012,1,21312001,1,0,0,0,0
+13010011,1301,Defeat Soulthirster Mohldora.,3,50013,1,21312001,1,0,0,0,0
+13010012,1301,Defeat Ice Fortress Geo Zagnus.,3,50019,1,21312001,1,0,0,0,0
+13010013,1301,Defeat Zwiber Z.,3,50022,1,21312001,1,0,0,0,0
+13010014,1301,Defeat Villakurz.,3,50014,1,21312001,1,0,0,0,0
+13010015,1301,Defeat Bright Sphere Spirit Wilkes.,3,50018,1,21312001,1,0,0,0,0
+13010016,1301,Defeat Stiria.,3,50021,1,21312001,1,0,0,0,0
+13010017,1301,Defeat Marzex.,3,50023,1,21312001,1,0,0,0,0
+13010018,1301,Defeat Inferno God Ifrit.,3,50007,1,21312001,1,0,0,0,0
+13010019,1301,Defeat Garm the Two-Headed Hound.,3,50011,1,21312001,1,0,0,0,0
+13010020,1301,Defeat Phantom Ragsherum.,3,50020,1,21312001,1,0,0,0,0
+13010021,1301,Defeat Insect Princess Radachne.,3,50008,1,21312001,1,0,0,0,0
+13010022,1301,Defeat Arbor Spirit Raydis.,3,50009,1,21312001,1,0,0,0,0
+13010023,1301,Defeat Code XTF: Eraser.,3,50010,1,21312001,1,0,0,0,0
+13020001,1302,Defeat Oldeus Ω.,4,60002,1,32712001,1,0,0,0,0
+13020002,1302,Defeat Palamicia Ω.,4,60001,1,32712001,1,0,0,0,0
+13020004,1302,Defeat Tonetaurus Ω.,4,60003,1,32712001,1,0,0,0,0
+13020005,1302,Defeat Subject Ω.,4,60012,1,32712001,1,0,0,0,0
+13020006,1302,Defeat Freydal Ω.,4,60014,1,32712001,1,0,0,0,0
+13020007,1302,Defeat Ugetsu Ω.,4,60009,1,32712001,1,0,0,0,0
+13020008,1302,Defeat Mohldora Ω.,4,60010,1,32712001,1,0,0,0,0
+13020009,1302,Defeat Degilmagna Ω.,4,60016,1,32712001,1,0,0,0,0
+13020010,1302,Defeat Geo Zagnus Ω,4,60018,1,32712001,1,0,0,0,0
+13020011,1302,Defeat Zwiber Z Ω,4,60021,1,32712001,1,0,0,0,0
+13020012,1302,Defeat Villakurz Ω.,4,60011,1,32712001,1,0,0,0,0
+13020013,1302,Defeat Wilkes Ω.,4,60017,1,32712001,1,0,0,0,0
+13020014,1302,Defeat Stiria Ω.,4,60020,1,32712001,1,0,0,0,0
+13020015,1302,Defeat Marzex Ω.,4,60022,1,32712001,1,0,0,0,0
+13020016,1302,Defeat Ifrit Ω.,4,60004,1,32712001,1,0,0,0,0
+13020017,1302,Defeat Garm Ω.,4,60008,1,32712001,1,0,0,0,0
+13020018,1302,Defeat Phantom Ragsherum Ω.,4,60019,1,32712001,1,0,0,0,0
+13020019,1302,Defeat Radachne Ω.,4,60005,1,32712001,1,0,0,0,0
+13020020,1302,Defeat Raydis Ω.,4,60006,1,32712001,1,0,0,0,0
+13020021,1302,Defeat Elpneumas Ω.,4,60015,1,32712001,1,0,0,0,0
+13020022,1302,Defeat Code XTF: Eraser Ω.,4,60007,1,32712001,1,0,0,0,0
+14010001,1401,Win a battle in the Beginners Class.,5,0,1,32012001,1,0,0,0,0
+14020001,1402,Win a battle in the Fighters H Class.,5,1,1,32012001,1,0,0,0,0
+14020002,1402,Win a battle in the Fighters G Class.,5,2,1,32012001,1,0,0,0,0
+14020003,1402,Win a battle in the Fighters F Class.,5,3,1,32012001,1,0,0,0,0
+14020004,1402,Win a battle in the Fighters E Class.,5,4,1,32012001,1,0,0,0,0
+14020005,1402,Win a battle in the Fighters D Class.,5,5,1,32012001,1,0,0,0,0
+14020006,1402,Win a battle in the Fighters C Class.,5,6,1,32012001,1,0,0,0,0
+14020007,1402,Win a battle in the Fighters B Class.,5,7,1,32012001,1,0,0,0,0
+14020008,1402,Win a battle in the Fighters A Class.,5,8,1,32012001,1,0,0,0,0
+14020009,1402,Win a battle in the Fighters S Class.,5,9,1,32012001,1,0,0,0,0
+14020010,1402,Win a battle in the Fighters SS Class.,5,10,1,32012001,1,0,0,0,0
+14030001,1403,Win a battle in the Masters Class.,5,11,1,32012001,1,0,0,0,0

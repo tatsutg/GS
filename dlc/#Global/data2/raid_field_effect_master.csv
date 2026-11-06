@@ -1,0 +1,33 @@
+id,skill_type,target,effect_value,script_id,value_1,value_2,value_3,description
+17001,17,2,50,12,1,0,0,Fire Units' DMG 50% UP
+17002,17,2,50,12,2,0,0,"Water Unit's 
+DMG by 50%"
+17003,17,2,50,12,3,0,0,Earth Unit's DMG by 50% UP
+17004,17,2,50,12,4,0,0,Light Units' DMG 50% UP
+17005,17,2,50,12,5,0,0,Dark Units' DMG 50% UP
+17006,17,2,50,16,1,0,0,Human Units' DMG 50% UP
+17007,17,2,50,16,2,0,0,Beast Units' DMG 50% UP
+17008,17,2,50,16,3,0,0,Spirits Unit's DMG by 50% UP
+17009,17,2,50,16,4,0,0,Giants Unit's DMG by 50% UP
+17010,17,2,50,16,5,0,0,Machines Unit's DMG by 50% UP
+17011,17,2,50,16,6,0,0,Dragons Unit's DMG by 50% UP
+17012,17,2,50,16,7,0,0,God Unit's DMG by 50% UP
+17013,17,2,50,16,8,0,0,Demon Units' DMG 50% UP
+17014,17,2,50,12,1,0,0,Fire Unit's DMG by 50% UP
+17015,17,2,50,12,2,0,0,Water Units' DMG 50% UP
+17016,17,2,50,12,3,0,0,Earth Units' DMG 50% UP
+17018,17,2,50,12,5,0,0,Dark Units' DMG 50% UP
+17019,17,2,50,16,1,0,0,Human Unit's DMG by 50% UP
+17021,17,2,50,16,3,0,0,Spirit Units' DMG 50% UP
+17024,17,2,50,16,6,0,0,Dragon Units' DMG 50% UP
+17025,17,2,50,16,7,0,0,God Units' DMG 50% UP
+17026,17,2,50,16,8,0,0,Demon units' DMG by 50% UP
+17027,17,2,30,16,1,0,0,Human Units' DMG 30% UP
+17028,17,2,30,16,7,0,0,God Units' DMG 30% UP
+17029,17,2,30,16,3,0,0,Spirit Units' DMG 30% UP
+17030,17,2,30,16,8,0,0,Demon Units' DMG 30% UP
+17031,13,2,15,12,5,0,0,Dark Units' DMG 15% UP
+17032,17,2,30,16,1,0,0,Human Units' DMG 30% UP
+17033,17,2,30,16,7,0,0,God Units' DMG 30% UP
+17034,17,2,30,16,5,0,0,Machine Units' DMG 30% UP
+17035,17,2,30,12,5,0,0,Dark Unit's DMG by 30% UP

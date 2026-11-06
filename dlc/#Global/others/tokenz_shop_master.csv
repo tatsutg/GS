@@ -1,0 +1,2282 @@
+id,name,price,currency,product_type,description,purchase_limit,value,value_free,message_title,message_content,image_url,bonus_id_list,bonus_id_list_rand,rand_value,token_id,shop_description,start_at,end_at
+1,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_001_thumbnail.png,[8540],,0,900001,,2025-04-02 02:00:00-08:00,2025-07-04 01:59:59-08:00
+2,Sp. Art Ticket Pack,9.99,USD,0,Sp. Art Ticket Pack,3,10,0,Sp. Art Ticket Pack,{name}×{num},shop/img/product_002_thumbnail.png,[30448],,0,900002,"What is the Sp. Art Ticket Pack?
+Receive a Ticket that gives you the Special Art of your choice along with Crystals at a great price!
+Please note that you can only purchase it 3 times!
+*Unit not included.
+
+■ Items included in Sp. Art Pack
+- Crystal x10
+- Sp. Art Exchange Ticket x1
+
+■Sp. Art Exchange Ticket
+Regular Special Art requires 1 Exchange Ticket,
+while Animated Special Art requires 2.
+
+■ Special Art
+- Can be set as Home screen or Super Arts cut-in illustration.
+- Owning it gives extra Abilities to Unit.
+- Provides 20% bonus Event Item drops in the matching Event.
+*Unit not required.
+- All Special Art owned appears under Items on the Home screen.
+
+■ Special Abilities
+Unit EXP UP Lv2
+Unit EXP from quest 20% UP (Only Once).
+Arts gauge UP Lv1
+Arts gauge 10 UP when quest starts (Only Once).
+
+*Crystals will be added to your inventory upon purchase.
+Ticket will be sent to the Gift Box.",2025-04-02 02:00:00-08:00,2026-01-29 17:59:59-08:00
+3,Double Sp. Art Ticket Pack,19.99,USD,0,Double Sp. Art Ticket Pack,1,50,0,Double Sp. Art Ticket Pack,{name}×{num},shop/img/product_003_thumbnail.png,[30449],,0,900003,"What is the Double Sp. Art Ticket Pack?
+Receive a Ticket that gives you the Special Art of your choice along with Crystals at a great price!
+Please note that you can only purchase it once!
+*Unit not included.
+
+■ Items included in Double Sp. Art Ticket Pack
+- Crystal x50
+- Sp. Art Exchange Ticket x2
+
+■Sp. Art Exchange Ticket
+Regular Special Art requires 1 Exchange Ticket,
+while Animated Special Art requires 2.
+
+■ Special Art
+- Can be set as Home screen or Super Arts cut-in illustration.
+- Owning it gives extra Abilities to Unit.
+- Provides 20% bonus Event Item drops in the matching Event.
+*Unit not required.
+- All Special Art owned appears under Items on the Home screen.
+
+■ Special Abilities
+Unit EXP UP Lv2
+Unit EXP from quest 20% UP (Only Once).
+Arts gauge UP Lv1
+Arts gauge 10 UP when quest starts (Only Once).
+
+*Crystals will be added to your inventory upon purchase.
+Ticket will be sent to the Gift Box.",2025-04-02 02:00:00-08:00,2026-01-29 17:59:59-08:00
+4,Crystals XS,3.99,USD,0,Crystals XS,-1,7,0,Crystals XS,{name}×{num},shop/img/product_004_thumbnail.png,[0],,0,900004,,2025-04-02 02:00:00-08:00,2031-01-01 07:59:59-08:00
+5,Crystals S,29.99,USD,0,Crystals S,-1,70,0,Crystals S,{name}×{num},shop/img/product_005_thumbnail.png,[0],,0,900005,,2025-04-02 02:00:00-08:00,2031-01-01 07:59:59-08:00
+6,Crystals L,99.99,USD,0,Crystals L,-1,250,0,Crystals L,{name}×{num},shop/img/product_006_thumbnail.png,[0],,0,900006,,2025-04-02 02:00:00-08:00,2031-01-01 07:59:59-08:00
+7,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900007,,2025-07-04 02:00:00-08:00,2025-09-05 01:59:59-08:00
+8,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900008,,2025-07-04 02:00:00-08:00,2025-09-05 01:59:59-08:00
+9,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_009_thumbnail.png,[2413],,0,900009,,2025-07-04 02:00:00-08:00,2025-08-05 01:59:59-08:00
+10,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_010_thumbnail.png,"[2415,1307]",,0,900010,,2025-07-04 02:00:00-08:00,2025-08-05 01:59:59-08:00
+11,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_011_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900011,,2025-07-04 02:00:00-08:00,2025-08-05 01:59:59-08:00
+12,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900012,,2025-07-04 02:00:00-08:00,2025-08-05 01:59:59-08:00
+13,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_009_thumbnail.png,[2413],,0,900013,,2025-08-05 02:00:00-08:00,2025-09-05 01:59:59-08:00
+14,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_010_thumbnail.png,"[2415,1307]",,0,900014,,2025-08-05 02:00:00-08:00,2025-09-05 01:59:59-08:00
+15,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_011_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900015,,2025-08-05 02:00:00-08:00,2025-09-05 01:59:59-08:00
+16,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900016,,2025-08-05 02:00:00-08:00,2025-09-05 01:59:59-08:00
+17,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900017,,2025-09-05 02:00:00-08:00,2025-10-17 01:59:59-08:00
+18,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_018_thumbnail.png,[2413],,0,900018,,2025-09-05 02:00:00-08:00,2025-09-26 01:59:59-08:00
+19,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_019_thumbnail.png,"[2415,1307]",,0,900019,,2025-09-05 02:00:00-08:00,2025-09-26 01:59:59-08:00
+20,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_020_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900020,,2025-09-05 02:00:00-08:00,2025-09-26 01:59:59-08:00
+21,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900021,,2025-09-05 02:00:00-08:00,2025-09-26 01:59:59-08:00
+22,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_012_thumbnail.png,[8540],,0,900022,,2025-09-05 02:00:00-08:00,2025-10-17 01:59:59-08:00
+23,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_018_thumbnail.png,[2413],,0,900023,,2025-09-26 02:00:00-08:00,2025-10-17 01:59:59-08:00
+24,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_019_thumbnail.png,"[2415,1307]",,0,900024,,2025-09-26 02:00:00-08:00,2025-10-17 01:59:59-08:00
+25,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_020_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900025,,2025-09-26 02:00:00-08:00,2025-10-17 01:59:59-08:00
+26,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900026,,2025-09-26 02:00:00-08:00,2025-10-17 01:59:59-08:00
+27,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900027,"10/17 0:00* ~ 11/27 17:59 PST
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-10-17 02:00:00-08:00,2025-11-28 01:59:59-08:00
+28,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_021_thumbnail.png,[2413],,0,900028,"10/17 0:00* ~ 11/27 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystal x5
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-10-17 02:00:00-08:00,2025-11-28 01:59:59-08:00
+29,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_022_thumbnail.png,"[2415,1307]",,0,900029,"10/17 0:00* ~ 11/27 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystal x15
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-10-17 02:00:00-08:00,2025-11-28 01:59:59-08:00
+30,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_023_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900030,"10/17 0:00* ~ 11/27 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only 5-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystal x225
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-10-17 02:00:00-08:00,2025-11-28 01:59:59-08:00
+31,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900031,"10/17 0:00* ~ 11/27 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-10-17 02:00:00-08:00,2025-11-28 01:59:59-08:00
+32,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900032,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2025-10-17 02:00:00-08:00,2025-11-27 17:59:59-08:00
+33,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_021_thumbnail.png,[2413],,0,900033,,2025-11-10 18:00:00-08:00,2025-11-27 17:59:59-08:00
+34,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_022_thumbnail.png,"[2415,1307]",,0,900034,,2025-11-10 18:00:00-08:00,2025-11-27 17:59:59-08:00
+35,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_023_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900035,,2025-11-10 18:00:00-08:00,2025-11-27 17:59:59-08:00
+36,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900036,,2025-11-10 04:00:00-08:00,2025-11-27 17:59:59-08:00
+37,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900037,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-11-24 18:00:00-08:00,2025-12-25 17:59:59-08:00
+38,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_PSS_xs_thumbnail.png,[2413],,0,900038,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystal x5
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-11-24 18:00:00-08:00,2025-12-17 17:59:59-08:00
+39,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_PSS_s_thumbnail.png,"[2415,1307]",,0,900039,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystal x15
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-11-24 18:00:00-08:00,2025-12-17 17:59:59-08:00
+40,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_PSS_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900040,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only 5-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystal x225
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-11-24 18:00:00-08:00,2025-12-17 17:59:59-08:00
+41,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900041,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-11-24 18:00:00-08:00,2025-12-17 17:59:59-08:00
+42,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900042,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2025-11-24 18:00:00-08:00,2025-12-25 17:59:59-08:00
+43,Jolly Holiday Pack,2.99,USD,0,Jolly Holiday Pack,1,0,10,Jolly Holiday Pack,{name}×{num},shop/img/product_043_thumbnail.png,[2420],"[30539,30538,30537,30536,30535,30534,8578,8577,8576,8575,8574,8564,8563,8562,8561,8560,30397,8567,30373,8566,30377,8565,8390,8389,8388,8387,30380,8385,8573,8572,8571,8570,8569,8568,8458,2595,2594,8504,30389,2591,8515,2589,859,858,857,8513]",1,5111,"12/18 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Jolly Holiday Pack?
+This bundle gives lots of items at a great price!
+Please note that you can only purchase it 1 time between Shops!
+
+■ Items included in the Jolly Holiday Pack
+- Random ★5 Holiday Equip x1
+- Crystal x10 (Free)
+- L Potion x10
+
+■ Available Equips
+★5 Physical Joining Blades ""Snow-city""
+★5 Magic Holy Sovereign
+★5 Magic Santa Bunny Luana
+★5 Defence Fluffy Santa Venna
+★5 Defence Wild Santa Azel
+★5 Physical Ordinary Reindeer Firyl
+★5 Defence Watchful Reindeer Canaria
+★5 Heal Hunting Santa Jay
+★5 Defence Loving Snow Princess
+★5 Support Perfect Santa Emperor
+★5 Physical Resolute Reindeer Noel
+★5 Support Restless Reindeer Arcana
+★5 Heal Serving Serah Doll
+★5 Magic Lethargic Snow Marika
+★5 Physical Thoughtful Santa Valerie
+★5 Physical Innocent Santa Lotte
+★5 Magic Dreaming Luana Doll
+★5 Physical Nostalgic Santa Simon
+★5 Defence Warm Santa Miranda
+★5 Magic Dauntless Reindeer Vultee
+★5 Magic Sweet Snow Priscilla
+★5 Support Joyful Santa Hart
+★5 Heal Jolly Bakoo Doll
+★5 Defence Reindeer Eagle, Dutiful Defender
+★5 Magic Reindeer Luahn, Finding Bravery
+★5 Physical Santa Orvell, Standing Firm
+★5 Support Santa Liza, Seeking Wisdom
+★5 Physical Santa Ces, Gifting Justice
+★5 Support Giftbox Leone Plushie
+★5 Support Strawberry Cake Rosetta Plushie
+★5 Physical Dauntless Reindeer Duke Plushie
+★5 Physical Devoted Reindeer Thetis Plushie
+★5 Magic Sexy Santa Riviera Plushie
+★5 Magic Santa Wizard Berwick Plushie
+★5 Support Loyal Santa Vox Plushie
+★5 Heal Merry Liese Doll
+★5 Physical Ganan Tree Doll
+★5 Support Santa Fen Doll
+★5 Magic Snow-lady Mira Doll
+★5 Defence Red-Nosed Roy Doll
+★5 Magic Santa Iris Doll
+★5 Defence Red-Nosed Rayas Doll
+★5 Magic ""Basilisk"" Wreath
+★5 Physical Holy Night Sword ""Charlotte""
+★5 Heal Liese' Santa Dress
+★5 Defence Iris' Santa Dress
+
+■ L Potion
+- This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2025-12-17 18:00:00-08:00,2025-12-25 17:59:59-08:00
+44,Holly-Jolly Holiday Pack,5.99,USD,0,Holly-Jolly Holiday Pack,1,0,20,Holly-Jolly Holiday Pack,{name}×{num},shop/img/product_044_thumbnail.png,[2598],"[30539,30538,30537,30536,30535,30534,8578,8577,8576,8575,8574,8564,8563,8562,8561,8560,30397,8567,30373,8566,30377,8565,8390,8389,8388,8387,30380,8385,8573,8572,8571,8570,8569,8568,8458,2595,2594,8504,30389,2591,8515,2589,859,858,857,8513]",2,5112,"12/18 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Holly-Jolly Holiday Pack?
+This bundle gives lots of items at a great price!
+Please note that you can only purchase it 1 time between Shops!
+
+■ Items included in the Holly-Jolly Holiday Pack
+- Random ★5 Holiday Equip x2
+- Crystal x20 (Free)
+- L Potion x20
+
+■ Available Equips
+★5 Physical Joining Blades ""Snow-city""
+★5 Magic Holy Sovereign
+★5 Magic Santa Bunny Luana
+★5 Defence Fluffy Santa Venna
+★5 Defence Wild Santa Azel
+★5 Physical Ordinary Reindeer Firyl
+★5 Defence Watchful Reindeer Canaria
+★5 Heal Hunting Santa Jay
+★5 Defence Loving Snow Princess
+★5 Support Perfect Santa Emperor
+★5 Physical Resolute Reindeer Noel
+★5 Support Restless Reindeer Arcana
+★5 Heal Serving Serah Doll
+★5 Magic Lethargic Snow Marika
+★5 Physical Thoughtful Santa Valerie
+★5 Physical Innocent Santa Lotte
+★5 Magic Dreaming Luana Doll
+★5 Physical Nostalgic Santa Simon
+★5 Defence Warm Santa Miranda
+★5 Magic Dauntless Reindeer Vultee
+★5 Magic Sweet Snow Priscilla
+★5 Support Joyful Santa Hart
+★5 Heal Jolly Bakoo Doll
+★5 Defence Reindeer Eagle, Dutiful Defender
+★5 Magic Reindeer Luahn, Finding Bravery
+★5 Physical Santa Orvell, Standing Firm
+★5 Support Santa Liza, Seeking Wisdom
+★5 Physical Santa Ces, Gifting Justice
+★5 Support Giftbox Leone Plushie
+★5 Support Strawberry Cake Rosetta Plushie
+★5 Physical Dauntless Reindeer Duke Plushie
+★5 Physical Devoted Reindeer Thetis Plushie
+★5 Magic Sexy Santa Riviera Plushie
+★5 Magic Santa Wizard Berwick Plushie
+★5 Support Loyal Santa Vox Plushie
+★5 Heal Merry Liese Doll
+★5 Physical Ganan Tree Doll
+★5 Support Santa Fen Doll
+★5 Magic Snow-lady Mira Doll
+★5 Defence Red-Nosed Roy Doll
+★5 Magic Santa Iris Doll
+★5 Defence Red-Nosed Rayas Doll
+★5 Magic ""Basilisk"" Wreath
+★5 Physical Holy Night Sword ""Charlotte""
+★5 Heal Liese' Santa Dress
+★5 Defence Iris' Santa Dress
+
+■ L Potion
+- This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2025-12-17 18:00:00-08:00,2025-12-25 17:59:59-08:00
+45,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_PSS_xs_thumbnail.png,[2413],,0,900045,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystal x5
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-17 18:00:00-08:00,2025-12-25 17:59:59-08:00
+46,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_PSS_s_thumbnail.png,"[2415,1307]",,0,900046,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystal x15
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-17 18:00:00-08:00,2025-12-25 17:59:59-08:00
+47,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_PSS_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900047,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only 5-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystal x225
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-17 18:00:00-08:00,2025-12-25 17:59:59-08:00
+48,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900048,"11/28 0:00* ~ 12/25 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-17 18:00:00-08:00,2025-12-25 17:59:59-08:00
+49,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900049,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-25 18:00:00-08:00,2026-02-12 17:59:59-08:00
+50,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_KOB_xs_thumbnail.png,[2413],,0,900050,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystal x5
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-25 18:00:00-08:00,2026-01-19 17:59:59-08:00
+51,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_KOB_s_thumbnail.png,"[2415,1307]",,0,900051,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystal x15
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-25 18:00:00-08:00,2026-01-19 17:59:59-08:00
+52,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_KOB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900052,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only 5-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystal x225
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-25 18:00:00-08:00,2026-01-19 17:59:59-08:00
+53,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900053,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2025-12-25 18:00:00-08:00,2026-01-19 17:59:59-08:00
+54,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900054,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2025-12-25 18:00:00-08:00,2026-02-12 17:59:59-08:00
+55,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,0,Crossover Pack XS,{name}×{num},shop/img/product_KOB_xs_thumbnail.png,[2413],,0,900055,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystal x5
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-01-19 18:00:00-08:00,2026-02-12 17:59:59-08:00
+56,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,0,Crossover Pack S,{name}×{num},shop/img/product_KOB_s_thumbnail.png,"[2415,1307]",,0,900056,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystal x15
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-01-19 18:00:00-08:00,2026-02-12 17:59:59-08:00
+57,Crossover Pack L,99.99,USD,0,Crossover Pack L,5,225,0,Crossover Pack L,{name}×{num},shop/img/product_KOB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,900057,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Only 5-per-person during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystal x225
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-01-19 18:00:00-08:00,2026-02-12 17:59:59-08:00
+58,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900058,"12/26 0:00* ~ 2/12 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-01-19 18:00:00-08:00,2026-02-12 17:59:59-08:00
+59,Super Jump-Start Pack,29.99,USD,0,Super Jump-Start Pack,3,90,9,Super Jump-Start Pack,{name}×{num},shop/img/product_059_thumbnail.png,"[159,2501,2447]",,0,3210,"What's the ""Super Jump-Start Pack""?
+This is a limited item pack.
+Please note that you can purchase it 3 times between Shops!
+
+■ Items included in the Super Jump-Start Pack
+- Crystals x90 (Paid)
+- Crystals x9 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+- Rainbow Gem x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you 
+to increase the upper limits of unit stats and 
+the maximum rarity of Equip used. 
+
+■ ★5 Hero Summon Ticket 
+This is a ticket you can use
+to summon a ★5 Evolution Unit
+(guaranteed) in ""★5 Hero Summon"".
+
+■ Rainbow Gem
+This is an item that can be exchanged for powerful
+""True Equip"" at the Alchemist.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of three between Shops.",2026-01-09 18:00:00-08:00,2030-12-31 07:59:59-08:00
+60,Ultra Jump-Start Pack,79.99,USD,0,Ultra Jump-Start Pack,6,200,20,Ultra Jump-Start Pack,{name}×{num},shop/img/product_060_thumbnail.png,"[160,599,1811,1811,2502]",,0,3211,"What's the ""Ultra Jump-Start Pack""?
+This is a limited item pack.
+Please note that you can purchase it 6 times between Shops!
+
+■ Items included in the Ultra Jump-Start Pack
+- Crystals x200 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x2
+- Awoken soul x75
+- Alch Stone x2000
+- Rainbow Gem x2
+
+■ Unit LB Stone
+This powerful enhancement item allows you 
+to increase the upper limits of unit stats and 
+the maximum rarity of Equip used. 
+
+■ Awoken Soul
+Awoken Soul is used to evolve ★5 units to
+""Awoken"" status.
+
+■ Alch Stone
+Alch Stones can be used to summon rare units 
+or to exchange for various items at the Alchemist.
+
+■ Rainbow Gem
+This is an item that can be exchanged for powerful
+""True Equip"" at the Alchemist.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of six between Shops.",2026-01-09 18:00:00-08:00,2030-12-31 07:59:59-08:00
+61,Sp. Art Ticket Pack,9.99,USD,0,Sp. Art Ticket Pack,3,10,0,Sp. Art Ticket Pack,{name}×{num},shop/img/product_002_thumbnail.png,[30448],,0,900061,"What is the Sp. Art Ticket Pack?
+Receive a Ticket that gives you the Special Art of your choice along with Crystals at a great price!
+Please note that you can only purchase it 3 times!
+*Unit not included.
+
+■ Items included in Sp. Art Pack
+- Crystal x10
+- Sp. Art Exchange Ticket x1
+
+■Sp. Art Exchange Ticket
+Regular Special Art requires 1 Exchange Ticket,
+while Animated Special Art requires 2.
+
+■ Special Art
+- Can be set as Home screen or Super Arts cut-in illustration.
+- Owning it gives extra Abilities to Unit.
+- Provides 20% bonus Event Item drops in the matching Event.
+*Unit not required.
+- All Special Art owned appears under Items on the Home screen.
+
+■ Special Abilities
+Unit EXP UP Lv2
+Unit EXP from quest 20% UP (Only Once).
+Arts gauge UP Lv1
+Arts gauge 10 UP when quest starts (Only Once).
+
+*Crystals will be added to your inventory upon purchase.
+Ticket will be sent to the Gift Box.",2026-01-29 18:00:00-08:00,2030-12-31 07:59:59-08:00
+62,Double Sp. Art Ticket Pack,19.99,USD,0,Double Sp. Art Ticket Pack,1,50,0,Double Sp. Art Ticket Pack,{name}×{num},shop/img/product_003_thumbnail.png,[30449],,0,900062,"What is the Double Sp. Art Ticket Pack?
+Receive a Ticket that gives you the Special Art of your choice along with Crystals at a great price!
+Please note that you can only purchase it once!
+*Unit not included.
+
+■ Items included in Double Sp. Art Ticket Pack
+- Crystal x50
+- Sp. Art Exchange Ticket x2
+
+■Sp. Art Exchange Ticket
+Regular Special Art requires 1 Exchange Ticket,
+while Animated Special Art requires 2.
+
+■ Special Art
+- Can be set as Home screen or Super Arts cut-in illustration.
+- Owning it gives extra Abilities to Unit.
+- Provides 20% bonus Event Item drops in the matching Event.
+*Unit not required.
+- All Special Art owned appears under Items on the Home screen.
+
+■ Special Abilities
+Unit EXP UP Lv2
+Unit EXP from quest 20% UP (Only Once).
+Arts gauge UP Lv1
+Arts gauge 10 UP when quest starts (Only Once).
+
+*Crystals will be added to your inventory upon purchase.
+Ticket will be sent to the Gift Box.",2026-01-29 18:00:00-08:00,2030-12-31 07:59:59-08:00
+63,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900063,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-02-12 18:00:00-08:00,2026-03-26 17:59:59-08:00
+64,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_CTB_xs_thumbnail.png,[2413],,0,5147,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-02-12 18:00:00-08:00,2026-03-16 17:59:59-08:00
+65,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_CTB_s_thumbnail.png,"[2415,1307]",,0,5148,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-02-12 18:00:00-08:00,2026-03-16 17:59:59-08:00
+66,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_CTB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5149,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-02-12 18:00:00-08:00,2026-03-16 17:59:59-08:00
+67,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900067,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-02-12 18:00:00-08:00,2026-03-16 17:59:59-08:00
+68,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900068,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-02-12 18:00:00-08:00,2026-03-26 17:59:59-08:00
+69,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_CTB_xs_thumbnail.png,[2413],,0,5147,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-03-16 18:00:00-08:00,2026-03-26 17:59:59-08:00
+70,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_CTB_s_thumbnail.png,"[2415,1307]",,0,5148,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-03-16 18:00:00-08:00,2026-03-26 17:59:59-08:00
+71,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_CTB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5149,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-03-16 18:00:00-08:00,2026-03-26 17:59:59-08:00
+72,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900072,"2/13 0:00* ~ 3/26 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-03-16 18:00:00-08:00,2026-03-26 17:59:59-08:00
+73,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900073,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-03-26 18:00:00-08:00,2026-05-07 17:59:59-08:00
+74,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_PSS_xs_thumbnail.png,[2413],,0,5176,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-03-26 18:00:00-08:00,2026-05-07 17:59:59-08:00
+75,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_PSS_s_thumbnail.png,"[2415,1307]",,0,5177,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-03-26 18:00:00-08:00,2026-05-07 17:59:59-08:00
+76,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_PSS_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5178,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-03-26 18:00:00-08:00,2026-05-07 17:59:59-08:00
+77,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900077,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-03-26 18:00:00-08:00,2026-05-07 17:59:59-08:00
+78,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900078,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-03-26 18:00:00-08:00,2026-05-07 17:59:59-08:00
+79,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_PSS_xs_thumbnail.png,[2413],,0,5176,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-04-23 18:00:00-08:00,2026-05-07 17:59:59-08:00
+80,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_PSS_s_thumbnail.png,"[2415,1307]",,0,5177,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-04-23 18:00:00-08:00,2026-05-07 17:59:59-08:00
+81,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_PSS_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5178,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-04-23 18:00:00-08:00,2026-05-07 17:59:59-08:00
+82,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900077,"3/27 0:00* ~ 5/7 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-04-23 18:00:00-08:00,2026-05-07 17:59:59-08:00
+83,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900083,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-05-07 18:00:00-08:00,2026-06-11 17:59:59-08:00
+84,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_KOB_xs_thumbnail.png,[2413],,0,5206,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-04-07 18:00:00-08:00,2026-06-01 17:59:59-08:00
+85,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_KOB_s_thumbnail.png,"[2415,1307]",,0,5207,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-04-07 18:00:00-08:00,2026-06-01 17:59:59-08:00
+86,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_KOB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5208,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-04-07 18:00:00-08:00,2026-06-01 17:59:59-08:00
+87,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900087,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-04-07 18:00:00-08:00,2026-06-01 17:59:59-08:00
+88,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900088,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-04-07 18:00:00-08:00,2026-06-11 17:59:59-08:00
+89,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_KOB_xs_thumbnail.png,[2413],,0,5206,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-06-01 18:00:00-08:00,2026-06-11 17:59:59-08:00
+90,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_KOB_s_thumbnail.png,"[2415,1307]",,0,5207,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-06-01 18:00:00-08:00,2026-06-11 17:59:59-08:00
+91,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_KOB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5208,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-06-01 18:00:00-08:00,2026-06-11 17:59:59-08:00
+92,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900092,"5/8 0:00* ~ 6/11 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-06-01 18:00:00-08:00,2026-06-11 17:59:59-08:00
+93,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900093,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-06-11 18:00:00-08:00,2026-07-30 17:59:59-08:00
+94,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_CTB_xs_thumbnail.png,[2413],,0,5229,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-06-11 18:00:00-08:00,2026-07-06 17:59:59-08:00
+95,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_CTB_s_thumbnail.png,"[2415,1307]",,0,5230,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-06-11 18:00:00-08:00,2026-07-06 17:59:59-08:00
+96,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_CTB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5231,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-06-11 18:00:00-08:00,2026-07-06 17:59:59-08:00
+97,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900097,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-06-11 18:00:00-08:00,2026-07-06 17:59:59-08:00
+98,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900098,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-06-11 18:00:00-08:00,2026-07-30 17:59:59-08:00
+99,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_CTB_xs_thumbnail.png,[2413],,0,5229,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-07-06 18:00:00-08:00,2026-07-30 17:59:59-08:00
+100,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_CTB_s_thumbnail.png,"[2415,1307]",,0,5230,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-07-06 18:00:00-08:00,2026-07-30 17:59:59-08:00
+101,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_CTB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5231,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-07-06 18:00:00-08:00,2026-07-30 17:59:59-08:00
+102,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900102,"6/12 0:00* ~ 7/30 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-07-06 18:00:00-08:00,2026-07-30 17:59:59-08:00
+103,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900103,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-07-30 18:00:00-08:00,2026-09-03 17:59:59-08:00
+104,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_PSS_xs_thumbnail.png,[2413],,0,5259,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-07-30 18:00:00-08:00,2026-08-24 17:59:59-08:00
+105,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_PSS_s_thumbnail.png,"[2415,1307]",,0,5260,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-07-30 18:00:00-08:00,2026-08-24 17:59:59-08:00
+106,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_PSS_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5261,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-07-30 18:00:00-08:00,2026-08-24 17:59:59-08:00
+107,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900107,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-07-30 18:00:00-08:00,2026-08-24 17:59:59-08:00
+108,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900108,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-07-30 18:00:00-08:00,2026-09-03 17:59:59-08:00
+109,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_PSS_xs_thumbnail.png,[2413],,0,5259,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-08-24 18:00:00-08:00,2026-09-03 17:59:59-08:00
+110,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_PSS_s_thumbnail.png,"[2415,1307]",,0,5260,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-08-24 18:00:00-08:00,2026-09-03 17:59:59-08:00
+111,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_PSS_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5261,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-08-24 18:00:00-08:00,2026-09-03 17:59:59-08:00
+112,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900112,"7/31 0:00* ~ 9/3 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-08-24 18:00:00-08:00,2026-09-03 17:59:59-08:00
+113,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900113,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-09-03 18:00:00-08:00,2026-10-15 17:59:59-08:00
+114,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_KOB_xs_thumbnail.png,[2413],,0,5286,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-09-03 18:00:00-08:00,2026-10-05 17:59:59-08:00
+115,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_KOB_s_thumbnail.png,"[2415,1307]",,0,5287,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-09-03 18:00:00-08:00,2026-10-05 17:59:59-08:00
+116,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_KOB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5288,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-09-03 18:00:00-08:00,2026-10-05 17:59:59-08:00
+117,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900117,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-09-03 18:00:00-08:00,2026-10-05 17:59:59-08:00
+118,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900118,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-09-03 18:00:00-08:00,2026-10-15 17:59:59-08:00
+119,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_KOB_xs_thumbnail.png,[2413],,0,5286,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-10-05 18:00:00-08:00,2026-10-15 17:59:59-08:00
+120,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_KOB_s_thumbnail.png,"[2415,1307]",,0,5287,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-10-05 18:00:00-08:00,2026-10-15 17:59:59-08:00
+121,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_KOB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5288,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-10-05 18:00:00-08:00,2026-10-15 17:59:59-08:00
+122,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900122,"9/4 0:00* ~ 10/15 18:59 PDT
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-10-05 18:00:00-08:00,2026-10-15 17:59:59-08:00
+123,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900123,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-10-15 18:00:00-08:00,2026-11-05 17:59:59-08:00
+124,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_CTB_xs_thumbnail.png,[2413],,0,5323,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-10-15 18:00:00-08:00,2026-10-26 17:59:59-08:00
+125,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_CTB_s_thumbnail.png,"[2415,1307]",,0,5324,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-10-15 18:00:00-08:00,2026-10-26 17:59:59-08:00
+126,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_CTB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5325,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-10-15 18:00:00-08:00,2026-10-26 17:59:59-08:00
+127,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900127,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-10-15 18:00:00-08:00,2026-10-26 17:59:59-08:00
+128,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900128,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-10-15 18:00:00-08:00,2026-11-05 17:59:59-08:00
+129,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_CTB_xs_thumbnail.png,[2413],,0,5323,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-10-26 18:00:00-08:00,2026-11-05 17:59:59-08:00
+130,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_CTB_s_thumbnail.png,"[2415,1307]",,0,5324,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-10-26 18:00:00-08:00,2026-11-05 17:59:59-08:00
+131,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_CTB_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5325,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-10-26 18:00:00-08:00,2026-11-05 17:59:59-08:00
+132,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900132,"10/16 0:00* ~ 11/5 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-10-26 18:00:00-08:00,2026-11-05 17:59:59-08:00
+133,Initiate Summoner Pack,0.99,USD,0,Initiate Summoner Pack,1,5,95,Initiate Summoner Pack,{name}×{num},shop/img/product_008_thumbnail.png,"[159,2447]",,0,900133,"11/6 0:00* ~ 12/24 17:59 PST
+*Time is subject to change.
+
+What's the Initiate Summoner Pack?
+Please note: You can only buy this amazing deal once!
+
+■ Items included in the Initiate Summoner Pack
+- Crystals x5 (Paid)
+- Crystals x95 (Free)
+- Unit LB Stone x1
+- ★5 Hero Summon Ticket x1
+
+■ Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ ★5 Hero Summon Ticket
+This is a ticket you can use to summon a ★5 Evolution Unit (guaranteed) in ★5 Hero Summon.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00
+134,Crossover Pack XS,0.99,USD,0,Crossover Pack XS,1,5,1,Crossover Pack XS,{name}×{num},shop/img/product_PSS_xs_thumbnail.png,[2413],,0,5344,"11/6 0:00* ~ 12/24 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack XS?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack XS
+- Crystals x5 (Paid)
+- Crystals x1 (Free)
+- L Potion x3
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00
+135,Crossover Pack S,7.99,USD,0,Crossover Pack S,1,15,2,Crossover Pack S,{name}×{num},shop/img/product_PSS_s_thumbnail.png,"[2415,1307]",,0,5345,"11/6 0:00* ~ 12/24 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack S?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can only purchase it 1 time between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack S
+- Crystals x15 (Paid)
+- Crystals x2 (Free)
+- L Potion x5
+- Rainbow Drop x5
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+■ Rainbow Drop
+This is a food that increases the RANK EXP by 300%.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of one between Shops.",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00
+136,Crossover Pack L,99.99,USD,0,Crossover Pack L,10,225,20,Crossover Pack L,{name}×{num},shop/img/product_PSS_l_thumbnail.png,"[159,1611,1612,1613,1614,1615]",,0,5346,"11/6 0:00* ~ 12/24 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Pack L?
+This is a reasonable item pack that makes playing Grand Summoners easier!
+Please note that you can purchase it 10 times between Shops during the Crossover event.
+
+■ Items included in the Crossover Pack L
+- Crystals x225 (Paid)
+- Crystals x20 (Free)
+- Unit LB Stone x1
+- Equip LB Stone [Physical] x1
+- Equip LB Stone [Magic] x1
+- Equip LB Stone [Defense] x1
+- Equip LB Stone [Heal] x1
+- Equip LB Stone [Support] x1
+
+■Unit LB Stone
+This powerful enhancement item allows you to increase the upper limits of unit stats and the maximum rarity of Equip used.
+
+■ Equip LB Stone
+Use it to Limit Break any Equip without needing a duplicate!
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.
+*Pack has a purchase limit of ten between Shops.",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00
+137,Crossover Expert Pack,99.99,USD,0,Crossover Expert Pack,1,225,0,Crossover Expert Pack,{name}×{num},shop/img/product_012_thumbnail.png,[30382],,0,900137,"11/6 0:00* ~ 12/24 17:59 PST
+*Time is subject to change.
+
+What is the Crossover Expert Pack?
+Receive 225 Crystals and an Expert LB Stone, able to Limit Break an Ascended unit beyond LB Level 5, at a great price! 
+Only one-per-person during the Crossover event.
+
+■ Items included in the Crossover Expert Pack
+- Crystal x225
+- Expert LB Stone x1
+
+■ Expert LB Stone
+This item increases the LB Level of any Ascended unit from 5 to 6 or 6 to 7. Along with raising the stat limit cap, LB Level 6 units can use ★6 Equips and LB Level 7 units can set two different kinds of Equips in the last slot.
+
+*Crystals will be added to your inventory upon purchase.
+Pack contents will be sent to the Gift Box.",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00
+138,100-Potion Pack,15.99,USD,0,100-Potion Pack,3,0,0,100-Potion Pack,{name}×{num},shop/img/product_007_thumbnail.png,[8540],,0,900138,"What is the 100-Potion Pack?
+Receive tons of L Potions to help you play more Grand Summoners Quests!
+Please note that you can only purchase it 3 times!
+
+■ Items included in the 100-Potion Pack
+- L Potion x100
+
+■ L Potion
+This is an item that restores 100% of your energy.
+
+*Pack contents will be sent to the Gift Box.",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00

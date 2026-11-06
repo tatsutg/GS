@@ -1,0 +1,82 @@
+id,name,created_item_id,material_1_type,material_1_item_id,material_1_item_value,material_2_type,material_2_item_id,material_2_item_value,material_3_type,material_3_item_id,material_3_item_value,material_4_type,material_4_item_id,material_4_item_value,material_5_type,material_5_item_id,material_5_item_value,need_coin,description
+100014100,Heal Ring Recipe,100014100,5,103720,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Heal Ring
+100024100,Antidote Ring Recipe,100024100,5,103720,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make an Antidote Ring
+100034100,Brilliant Ring Recipe,100034100,5,103720,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Brilliant Ring
+100044100,Lively Ring Recipe,100044100,5,103720,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Lively Ring 
+100051100,Monster Fang Charm Recipe,100051100,5,103520,6,5,101115,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Monster Fang Charm 
+100063100,Battle Shield Recipe,100063100,5,103920,6,5,100913,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Giant's Battle Shield 
+100071100,Fishman Trident Recipe,100071100,5,103520,6,5,100812,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Fishman Trident 
+100082100,Staff of Rebirth Recipe,100082100,5,103320,6,5,100913,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Staff of Rebirth 
+100093100,Saint's Medal Recipe,100093100,5,103920,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Saint's Medal 
+100102100,Blitztree Baton Recipe,100102100,5,103320,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Blitztree Baton 
+100113100,Abyss Scarf Recipe,100113100,5,103920,6,5,100812,9,None,0,0,None,0,0,None,0,0,900,The recipe to make an Abyss Scarf 
+100125100,Gale Crown Recipe,100125100,5,103220,6,5,100913,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Gale Crown 
+100135100,Sacred Pipe,100135100,5,103220,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Sacred Pipe
+100145100,Mystic Earring Recipe,100145100,5,103220,6,5,101115,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Mystic Earring 
+100154200,Solace Necklace Recipe,100154200,5,103720,19,5,101014,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Solace Necklace 
+100161200,Soul Recovery Recipe,100161200,5,103520,19,5,100812,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Soul Recovery 
+100172200,Fairy Tale Recipe,100172200,5,103320,19,5,100913,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Fairy Tale 
+100181300,Dragon Blade Recipe,100181300,5,103520,34,5,100711,21,None,0,0,None,0,0,None,0,0,18500,The recipe to make a Dragon Blade 
+100203200,Sword Breaker Recipe,100203200,5,103920,19,5,100711,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Sword Breaker 
+100225200,Hercules Bracelet Recipe,100225200,5,103220,19,5,100711,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Hercules Bracelet 
+100233200,Crimson Mantle Recipe,100233200,5,103920,19,5,100711,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Crimson Mantle 
+100244100,Tranquil Ring Recipe,100244100,5,103720,6,5,101014,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Tranquil Ring 
+100255200,Winged Boots Recipe,100255200,5,103220,19,5,100913,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Winged Boots 
+100261200,Berserker Gloves Recipe,100261200,5,103520,19,5,100711,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Berserker Gloves 
+100275100,Steel Goggles Recipe,100275100,5,103220,6,5,100711,9,None,0,0,None,0,0,None,0,0,900,The recipe to make a Steel Goggles 
+100294200,Great Tree Sap Recipe,100294200,5,103720,19,5,100913,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Sap of the Great Tree 
+100312200,Pen of Creation Recipe,100312200,5,103320,19,5,101115,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Pen of Creation 
+100354200,Oracle Flower Recipe,100354200,5,103720,19,5,100913,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make an Oracle Flower 
+100405200,Thief's Pouch Recipe,100405200,5,103220,19,5,100913,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Thief's Pouch 
+100412300,Tome of Ideas Recipe,100412300,5,103320,34,5,101115,21,None,0,0,None,0,0,None,0,0,18500,The recipe to make a Tome of Ideas 
+100473300,Shield Core Recipe,100473300,5,103920,34,5,100913,21,None,0,0,None,0,0,None,0,0,18500,The recipe to make a Shield Core 
+100481200,Enlil's Scythe Recipe,100481200,5,103520,19,5,100913,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make an Enlil's Scythe 
+100495200,Oracular Flute Recipe,100495200,5,103220,19,5,101014,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make an Oracular Flute 
+100515200,Mask of Flame Recipe,100515200,5,103220,19,5,100711,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Mask of Flame 
+100535300,Collar of Cerberus Recipe,100535300,5,103220,34,5,100711,21,None,0,0,None,0,0,None,0,0,18500,The recipe to make a Collar of Cerberus 
+100635200,Kokutos Arc Recipe,100635200,5,103220,19,5,101115,15,None,0,0,None,0,0,None,0,0,6500,The recipe to make a Kokutos Arc
+100714300,Blue Saint Staff Recipe,100714300,5,103720,34,5,100812,21,None,0,0,None,0,0,None,0,0,18500,The recipe to make a Staff of the Blue Saint 
+100751500,Regracia Recipe,100751500,5,102054,2,5,104544,1,5,105034,50,5,105524,100,None,0,0,100000,The recipe to make a Brilliant Blade Regracia 
+100763500,Sacred Crown Raaz Recipe,100763500,5,102054,2,5,109744,1,5,105034,50,5,105524,100,None,0,0,100000,The recipe to make a Sacred Crown Raaz 
+100821500,Surahart Recipe,100821500,5,104641,180,5,101751,1,5,101231,10,None,0,0,None,0,0,100000,The recipe to make a War Devil's Axe Surahart 
+109014510,Silent Ritual EV Recipe,109014510,8,109004510,1,5,127742,100,0,0,0,0,0,0,0,0,0,100000,Silent Ritual EV Recipe
+109313410,Halos Pragma EV Recipe,109313410,8,109303410,1,5,128445,100,0,0,0,0,0,0,0,0,0,100000,Halos Pragma EV Recipe
+109563510,Jack-O-Sherum's Cape EV Recipe,109563510,8,107153510,1,5,129145,100,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Jack-O-Sherum's Cape EV Recipe
+109942510,Genocider's Helm EV Recipe,109942510,8,109902510,1,5,129445,100,0,0,0,0,0,0,0,0,0,100000,"Recipe for ""Genocider's Helm EV"""
+110060010,"Recipe for ""Magnigate EV""",110062410,8,110052410,1,5,130041,100,0,0,0,0,0,0,0,0,0,100000,"Recipe for ""Magnigate EV"""
+111961510,Jack-O-Sherum Plushie EV Recipe,111961510,8,108431510,1,5,129145,100,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Jack-O-Sherum Plushie EV Recipe
+150872510,"True ""Emilia's Cape"" Recipe",150872510,8,150862510,1,5,126042,10,5,126445,30,0,0,0,0,0,0,100000,"The recipe to make a True ""Emilia's Cape"""
+150895510,"True ""Beatrice's Ribbon"" Recipe",150895510,8,150885510,1,5,126145,10,5,126445,30,0,0,0,0,0,0,100000,"The recipe to make a True ""Beatrice's Ribbon"""
+150911510,"True ""Rem's Morningstar"" Recipe",150911510,8,150901510,1,5,126242,10,5,126445,30,0,0,0,0,0,0,100000,"The recipe to make a True ""Rem's Morningstar"""
+150932510,"True ""Ram's Mop"" Recipe",150932510,8,150922510,1,5,126343,10,5,126445,30,0,0,0,0,0,0,100000,"The recipe to make a True ""Ram's Mop"" Recipe"
+151302510,Yoh's Necklace EV Recipe,151302510,8,151232510,1,5,128041,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Yoh's Necklace EV
+151311510,Basontou EV Recipe,151311510,8,151241510,1,5,128145,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Basontou EV Recipe
+151433510,Ryuko's Motorbike EV Recipe,151433510,8,151383510,1,5,128545,50,0,0,0,0,0,0,0,0,0,100000,Ryuko's Motorbike EV Recipe
+151441410,Mako-Knuckle EV Recipe,151441410,8,150161410,1,5,128545,50,0,0,0,0,0,0,0,0,0,100000,Mako-Knuckle EV Recipe
+151453510,Senketsu EV Recipe,151453510,8,150173510,1,5,128545,50,0,0,0,0,0,0,0,0,0,100000,Senketsu EV Recipe
+151463510,Junketsu EV Recipe,151463510,8,150183510,1,5,128545,50,0,0,0,0,0,0,0,0,0,100000,Junketsu EV Recipe
+151471510,Spiked Bat Missile EV Recipe,151471510,8,150321510,1,5,128545,50,0,0,0,0,0,0,0,0,0,100000,Spiked Bat Missile EV Recipe
+151522510,Roxy's Hat EV Recipe,151522510,8,151512510,1,5,128942,50,0,0,0,0,0,0,0,0,0,100000,極『ロキシーの帽子』のレシピ
+151541510,Eris' Sword EV Recipe,151541510,8,151531510,1,5,129041,50,0,0,0,0,0,0,0,0,0,100000,極『エリスの剣』のレシピ
+151641510,Natsu's Scarf EV Recipe,151641510,8,151631510,1,5,129741,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Natsu's Scarf EV
+151665410,Miku's Headphones EV Recipe,151665410,8,151125410,1,5,127752,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Miku's Headphones EV
+151674510,Rin Plushie EV Recipe,151674510,8,151144510,1,5,127752,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Rin Plushie EV
+151683510,Erza's Armor EV Recipe,151683510,8,151653510,1,5,129844,50,0,0,0,0,0,0,0,0,0,100000,Erza's Armor EV Recipe
+151782410,Nui's Parasol EV Recipe,151782410,8,151722410,1,5,128545,50,0,0,0,0,0,0,0,0,0,100000,Nui's Parasol EV Recipe
+152065410,Empress' Outfit EV Recipe,152065410,8,151995410,1,5,130442,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Empress' Outfit EV
+152135510,Subaru's Cell Phone EV Recipe,152135510,8,152125510,1,5,131144,50,0,0,0,0,0,0,0,0,0,100000,Subaru's Cell Phone EV Recipe
+152212510,Wooden Stick EV Recipe,152212510,8,152142510,1,5,131545,200,0,0,0,0,0,0,0,0,0,100000,Wooden Stick EV Recipe
+152305510,Jealousy Mask EV Recipe,152305510,8,152295510,1,5,131645,200,0,0,0,0,0,0,0,0,0,100000,Jealousy Mask EV Recipe
+152312410,Rimuru's Clothes EV Recipe,152312410,8,150422410,1,5,131752,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Rimuru's Clothes EV
+152325510,Magic-seal Mask EV Recipe,152325510,8,150435510,1,5,131752,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Magic-seal Mask EV
+152331510,Gourikimaru EV Recipe,152331510,8,151031510,1,5,131845,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Gourikimaru EV
+152341510,Rimuru's Scarf EV Recipe,152341510,8,151091510,1,5,131945,50,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Rimuru's Scarf EV
+152645410,Gabimaru's Mask EV Recipe,152645410,8,152635410,1,5,133141,200,0,0,0,0,0,0,0,0,0,100000,Gabimaru's Mask EV Recipe
+152781510,Chobe's Necklace EV Recipe,152781510,8,152771510,1,5,133244,200,0,0,0,0,0,0,0,0,0,100000,Chobe's Necklace EV Recipe
+152971510,Vorpal Chopper EV Recipe,152971510,8,152961510,1,5,133941,200,0,0,0,0,0,0,0,0,0,100000,Vorpal Chopper EV Recipe
+153025510,Pencilgon's Earrings EV Recipe,153025510,8,153015510,1,5,134045,200,0,0,0,0,0,0,0,0,0,100000,Pencilgon's Earrings EV Recipe
+153241510,Ira's Hot Rod EV Recipe,153241510,8,153231510,1,5,128545,50,0,0,0,0,0,0,0,0,0,100000,Ira's Hot Rod EV Recipe
+154051410,Kenshin's Kimono EV Recipe,154051410,8,154041410,1,5,135344,200,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Kenshin's Kimono EV
+154163410,Saito's Uniform EV Recipe,154163410,8,154153410,1,5,135445,200,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Saito's Uniform EV Recipe
+155611410,Knight Killer EV Recipe,155611410,8,155471410,1,5,136845,100,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Knight Killer EV Recipe
+155623410,Iron's Shield EV Recipe,155623410,8,155593410,1,5,136945,100,0,0,0,0,0,0,0,0,0,100000,The recipe to make a Iron's Shield EV Recipe

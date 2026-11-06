@@ -1,0 +1,73 @@
+id,dungeon_id,drop_type,drop_id,custom_parameter,value_max,value_min,box_rarity,visibility,description,priority
+5040899,5040900,8,111173600,,1,1,3,2,"★6 Defense Equip
+Earth DMG taken DOWN",9
+5040900,5040900,8,110581600,,1,1,3,2,"★6 Physical Equip 
+Earth DMG (Physical)",8
+5040901,5040900,16,6,,1,1,3,2,Limit Breaks a ★6 Physical Equip by 1,7
+5040902,5040900,16,7,,1,1,3,2,Limit Breaks a ★6 Magic Equip by 1,6
+5040903,5040900,16,8,,1,1,3,2,Limit Breaks a ★6 Defense Equip by 1,5
+5040904,5040900,16,9,,1,1,3,2,Limit Breaks a ★6 Heal Equip by 1,4
+5040905,5040900,16,10,,1,1,3,2,Limit Breaks a ★6 Support Equip by 1,3
+5040906,5040900,5,130653,,100,100,3,2,Material needed for Unit ascension,2
+5040907,5040900,5,130653,,200,200,3,0,,1
+5041000,5041000,8,111133600,,1,1,3,2,"★6 Defense Equip
+Fire DMG taken DOWN",9
+5041001,5041000,8,110661600,,1,1,3,2,"★6 Physical Equip 
+Fire DMG (Physical)",8
+5041002,5041000,16,6,,1,1,3,2,Limit Breaks a ★6 Physical Equip by 1,7
+5041003,5041000,16,7,,1,1,3,2,Limit Breaks a ★6 Magic Equip by 1,6
+5041004,5041000,16,8,,1,1,3,2,Limit Breaks a ★6 Defense Equip by 1,5
+5041005,5041000,16,9,,1,1,3,2,Limit Breaks a ★6 Heal Equip by 1,4
+5041006,5041000,16,10,,1,1,3,2,Limit Breaks a ★6 Support Equip by 1,3
+5041007,5041000,5,130853,,100,100,3,2,Material needed for Unit ascension,2
+5041008,5041000,5,130853,,200,200,3,0,,1
+5041100,5041100,8,111264600,,1,1,3,2,"★6 Healing Equip
+Auto-recovers target's HP",9
+5041101,5041100,8,110832600,,1,1,3,2,"★6 Magic Equip 
+Light DMG (Magic)",8
+5041102,5041100,16,6,,1,1,3,2,Limit Breaks a ★6 Physical Equip by 1,7
+5041103,5041100,16,7,,1,1,3,2,Limit Breaks a ★6 Magic Equip by 1,6
+5041104,5041100,16,8,,1,1,3,2,Limit Breaks a ★6 Defense Equip by 1,5
+5041105,5041100,16,9,,1,1,3,2,Limit Breaks a ★6 Heal Equip by 1,4
+5041106,5041100,16,10,,1,1,3,2,Limit Breaks a ★6 Support Equip by 1,3
+5041107,5041100,5,131354,,100,100,3,2,Material needed for Unit ascension,2
+5041108,5041100,5,131354,,200,200,3,0,,1
+5041200,5041200,8,111285600,,1,1,3,2,"★6 Support Equip
+Auto-fills all allies' Arts gauges",9
+5041201,5041200,8,110982600,,1,1,3,2,"★6 Magic Equip 
+Dark DMG (Magic)",8
+5041202,5041200,16,6,,1,1,3,2,Limit Breaks a ★6 Physical Equip by 1,7
+5041203,5041200,16,7,,1,1,3,2,Limit Breaks a ★6 Magic Equip by 1,6
+5041204,5041200,16,8,,1,1,3,2,Limit Breaks a ★6 Defense Equip by 1,5
+5041205,5041200,16,9,,1,1,3,2,Limit Breaks a ★6 Heal Equip by 1,4
+5041206,5041200,16,10,,1,1,3,2,Limit Breaks a ★6 Support Equip by 1,3
+5041207,5041200,5,131455,,100,100,3,2,Material needed for Unit ascension,2
+5041208,5041200,5,131455,,200,200,3,0,,1
+5041300,5041300,8,111153600,,1,1,3,2,"★6 Defense Equip
+Water DMG taken DOWN",9
+5041301,5041300,8,111071600,,1,1,3,2,"★6 Physical Equip 
+Water DMG (Physical)",8
+5041302,5041300,16,6,,1,1,3,2,Limit Breaks a ★6 Physical Equip by 1,7
+5041303,5041300,16,7,,1,1,3,2,Limit Breaks a ★6 Magic Equip by 1,6
+5041304,5041300,16,8,,1,1,3,2,Limit Breaks a ★6 Defense Equip by 1,5
+5041305,5041300,16,9,,1,1,3,2,Limit Breaks a ★6 Heal Equip by 1,4
+5041306,5041300,16,10,,1,1,3,2,Limit Breaks a ★6 Support Equip by 1,3
+5041307,5041300,5,132152,,100,100,3,2,Material needed for Unit ascension,2
+5041308,5041300,5,132152,,200,200,3,0,,1
+5041401,5041400,8,111624600,,1,1,3,2,"★6 Healing Equip
+Auto-recovers target's HP",16
+5041402,5041400,16,6,,1,1,3,2,Limit Breaks a ★6 Physical Equip by 1,15
+5041403,5041400,16,7,,1,1,3,2,Limit Breaks a ★6 Magic Equip by 1,14
+5041404,5041400,16,8,,1,1,3,2,Limit Breaks a ★6 Defense Equip by 1,13
+5041405,5041400,16,9,,1,1,3,2,Limit Breaks a ★6 Heal Equip by 1,12
+5041406,5041400,16,10,,1,1,3,2,Limit Breaks a ★6 Support Equip by 1,11
+5041407,5041400,5,130853,,100,100,3,2,Material needed for Unit ascension,10
+5041408,5041400,5,132152,,100,100,3,2,Material needed for Unit ascension,9
+5041409,5041400,5,130653,,100,100,3,2,Material needed for Unit ascension,8
+5041410,5041400,5,131354,,100,100,3,2,Material needed for Unit ascension,7
+5041411,5041400,5,131455,,100,100,3,2,Material needed for Unit ascension,6
+5041412,5041400,5,130853,,200,200,3,0,,5
+5041413,5041400,5,132152,,200,200,3,0,,4
+5041414,5041400,5,130653,,200,200,3,0,,3
+5041415,5041400,5,131354,,200,200,3,0,,2
+5041416,5041400,5,131455,,200,200,3,0,,1

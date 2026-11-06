@@ -1,0 +1,271 @@
+id,name,difficulty,requirement_type,requirement_value_1,requirement_value_2,requirement_description,description,present_type,present_id,present_value,custam_parameter,start_at,end_at,status,story
+1001,First Step Of Summoning,1,10,0,1,Enhance A Unit.,"New Summoner!
+You mustn't neglect the basics!
+I'll show you the ropes!
+Client: Mysterious Old Man",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1002,Knowledge Of Armour,1,2,0,1,Enhance A Piece Of Equipment,"You new adventurers don't make it easy to look after you.
+The Guild will help you at first,
+so get some decent equipment before you set out!
+Client: Guild Master Ganan",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1003,Reigrad Branch,1,4,100062025,1,Defeat 1 King Recuon,"Dreaming and longing doesn't do anything.
+You have to complete the job first.
+We'll talk again after that!
+Client: Guild Master Ganan
+Area: Isliid Empire
+Quest: Agrana Volcano ""The Journey Begins""",5,895205,5,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1004,Exterminating Gobuls,1,4,100161030,5,Defeat 5 Gobling,"Eliminate the Gobuls in the Agrana Volcano. Working for the sake of people and for the world is an adventurer's first duty!
+Client: Guild Master Ganan
+Area: Isliid Empire
+Dungeon: Agrana Volcano",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1005,Rumours Volcano,1,7,100711,10,Collect 10 Fire Ore,"I found a good source of 'Fire Ore'.
+I'd like to get it before the rumours spread.
+Will you help me?
+Client: Mash",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1006,The Girl's Feelings,1,6,1020,1,Collect 1 Seafood Soup,"I heard there's a wonderful soup dish on the Ribnald Snow Field. I'll share it with anyone who helps me.
+Client: Sylphy",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1007,Forest Production,1,7,100913,10,Collect 10 Earth Ore,"You'll find Earth Ore in the forest. Do you know where you can find it? Thanks again.
+Client: Mash",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1008,The Miraculous Guardian,1,4,100131070,5,Defeat 5 Megarock Dohmal,"Surveying ruins is romance to an adventurer. You'll die if you get too ahead of yourself, though. Why? ...Because there are traps everywhere!
+Client: Guild Master Ganan
+Area: Isliid Empire
+Dungeon: Ruins of Selunia",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1009,A Mysterious Light,1,7,101115,10,Collect 10 Dark Ore,"Apparently everyone collecting Dark Ore was defeated in battle, and their loot went everywhere. There's only one thing for us to do, right?
+Client: Mash",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1101,"Fight, Adventurer!",1,16,0,1,Clear Multiplayer Mode 1 Time,"Do you always fight alone? Sometimes competing, sometimes cooperating. That's also part of being an adventurer!
+Client: Guild Master Ganan",11,0,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1102,A Knight's Feelings 1,1,4,100171040,3,Defeat 3 Sardines,"Why did they appear at such a busy time? They'd be fish in a barrel for us usually. If only I was in good health...
+Client:  Ribald
+Area: Isliid Empire
+Quest: Ribnald Snow Field",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1103,A Knight's Feelings 2,2,4,100201080,5,Defeat 5 Skeletons,"Being a proud soldier in the Isliid Empire's army isn't something we'd usually ask adventurers to do. However, that and people's safety are two different things...
+Client: Ribald
+Area: Isliid Empire
+Quest: Fort Goldoa",5,895205,5,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1104,Dawn Of A Young Adventurer,1,7,101014,8,Collect 8 Light Ore,"I hate being weak! I want to fight and get stronger! But I need to prepare to be able to.
+Client: Lute",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1105,Dawn Of A Young Cook,1,6,1007,3,Collect 3 Fish Fillets,"Become an adventurer... Why should I go and put myself in danger? I have to sort myself out!
+Client: Sylphy",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1106,In The Footsteps Of Heroes,1,8,0,1,Evolve A Unit,"New Summoners, don't get comfortable just yet! Your lack of ambition is pathetic... I'll help you out just this once!
+Client: Mysterious Old Man",11,0,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1107,Don't Underestimate Poison,2,15,2,3,Enhance A Ring Of Poison To Lv3,"Are you safe from poison? Poison can really hurt you if you underestimate it. Be prepared!
+Client: Guild Master Ganan",17,3,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1108,A Gift At The Coast,2,7,100812,10,Collect 10 Water Ore,"You went all the way to the coast? Why didn't you tell me? I thought we were friends! I expect a souvenir next time.
+Client: Mash",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1109,Monster On The Promenade,2,4,100181110,5,Defeat 5 Corocs,"I was thinking about going to Coroc Road sometime soon... But it seems dangerous with the high numbers of Corocs recently.
+Client: Albert
+Area: Republic of Gramenia
+Dungeon: ""Coroc Road""",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1110,An Invigorating Stone,2,7,101014,10,Collect 10 Light Ore,"I just can't seem to cheer up... Aren't there any items that can make me feel better by looking at them? Ooh, like a Light Ore!
+Client: Mash",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1111,Items To Remove A Curse,2,6,1027,2,Collect 2 Black Mushrooms,"""Black Mushrooms"" from Loguno Marsh are necessities for us priests. Holy water can't break curses on its own.
+Client: Andrei",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1201,Ganan's Troubles,2,4,100352170,3,Defeat 3 Wyverns,"We have a request from the Royal Knights. They want us to defeat a Wyvern. I'm looking for someone who can go immediately!
+Client: Guild Master Ganan
+Area: West Famelle
+Dungeon: Magic Cave of Valdan",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1202,Knowledge Of Adventurers,1,5,10104,1,"Clear ""The Little Adventurer"" 1 Time","If you're with me, brother, I won't be scared on any adventure I go on! Let's go on our next adventure right now!
+Client: Lute
+Area: Isliid Empire
+Quest: Plains of Isliid 
+""The Little Adventurer""",11,0,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1203,The Merchant 1,3,7,101115,10,Collect 10 Dark Ore,"Demand and supply is interesting, isn't it? You never have a supply of things when you need them... But that's when it's time for me to make some money.
+Client: Mash",17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1204,The Girl's Debt,1,6,1020,3,Collect 3 Seafood Soup,"Grandpa, Grandma. Thank you for everything. Can I do anything for you?
+Client: Sylphy",17,1,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1205,The Knight's Stubbornness,3,4,100112150,10,Defeat 10 Hellbeast Gillius,"I'm just a Knight of the Kingdom of Famelle... But I have to defeat the Dark Beast Gillius! Please lend me your strength!
+Client: Raymond
+Area: West Famelle
+Dungeon: Famelle Rock",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1206,A Cowardly Knight,3,4,100172150,10,Defeat 10 Sardion,"I could complete this mission easily on my own, of course. But I'm a cautious man. Would you accompany me? ...You're not scared of ghosts, are you?
+Client: Raymond
+Area: West Famelle
+Dungeon: Ghost Ship",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1207,Time Waits For No Man,3,15,12,3,Enhance Battering Gale To Lv3,"It's nice to be able to travel leisurely, but time waits for no man in this world. Adventurer, know that time speed is essential!
+Client: Guild Master Ganan",17,3,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1208,Making Alcohol is Risky,3,6,1028,5,Collect 5 Silver Lychee,"Drinking too much shortens your life. But the people who make alcohol are deadly serious about it, too! I don't want to sleep when the birds are just waking...
+Client: Dan",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1209,A Growing Knight,3,4,100152170,10,Defeat 10 Bloody Bats,"There are time when a Knight of the Kingdom of Famelle must dive into the dead ground. But I am reassured to have you by my side.
+Client: Raymond
+Area: West Famelle
+Dungeon: Magic Cave of Valdan",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1301,On The Road Again 1,2,5,20306,1,"Clear ""On The Road Again"" 1 Time","Coroc Road...
+I want to take someone there. I hope everything goes well.
+Client: Albert
+Area: Republic of Gramenia
+Quest: Coroc Road ""On The Road Again""",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1302,On The Road Again 2,2,5,20307,1,"Clear ""The Ecosystem of the Road"" 1 Time","Coroc Road...
+I want to take someone there. I hope everything goes well.
+Client: Albert
+Area: Republic of Gramenia
+Quest: Coroc Road 
+""The Ecosystem of the Road""",5,898203,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1303,On The Road Again 3,3,5,20308,1,"Clear ""The End of the Road"" 1 Time","Coroc Road...
+I want to take someone there. I hope everything goes well.
+Client: Albert
+Area: Republic of Gramenia
+Quest: Coroc Road 
+""The End of the Road""",11,0,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1304,The Merchant 2,4,7,101231,5,Collect 5 Fire Crystals,"I'm looking for Fire Crystals at the moment.
+I often judge people based on how they react to such sudden requests.
+Client: Mash",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1305,Stop The Giant Weapon!,2,4,100633215,1,Defeat 1 Mechanical Soldier Vaid,"We have a request from the Royal Knights. They want us to defeat ""Mecha Vaido"". I'm looking for someone who can go immediately!
+Client: Guild Master Ganan
+Area: East Famelle
+Quest: Nomoris Underground Lake 
+""The Master of Nomoris""",17,3,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1306,Master Of The Inn 1,2,6,1017,5,Collect 5 Pilaf,"I have a request for you, Ganan.
+I need this for my shop,
+and it's not a bad deal for you too, right?
+Client: Gloria",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1307,"I'm A Girl, Too",4,6,1003,1,Collect 1 Butter Brioche,"I word hard day in, day out.
+Sometimes I want a bit of relaxation. Something sweet wouldn't hurt, would it?
+Client: Liese",17,2,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1308,A Hero's Limit?,3,9,0,1,Limit Break A Unit,"Limit, you say?
+What kind of half-baked summoner are you?
+Do this, and you're sorted!
+Client: Mysterious Old Man",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1309,Equipment Isn't Just A Tool,3,11,0,1,Limit Break A Piece Of Equipment,"You're finally shaping up to be an adventurer.
+But you still don't understand some of the basics.
+Here, take this.
+Client: Guild Master Ganan",17,3,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1310,A Knight's False Pride,4,4,100212210,15,Defeat 15 Gronus,"Never falter, break or yield.
+That's what it means to be a Royal Knight!
+But... No one said anything about asking for help. Please accompany me.
+Client: Raymond
+Area: East Famelle
+Dungeon: Moguro Sand Sea
+",17,1,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1311,Preparedness Stops Tears,4,15,16,3,Enhance Soul Recovery To Lv3,"Adventurers always work alone, with no insurance... You have to be prepared at all times, but preparing for the unlikely is an iron-clad rule for adventurers.
+Client: Guild Master Ganan",17,3,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1312,Adventurer-The Good Customer,4,7,101433,20,Collect 20 Earth Crystals,"You've begun journeying quite far now.
+If you've gone that far, perhaps you've
+come across some ""Earth Crystals""?
+Client: Mash",17,2,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1313,The Knight's Promotion,4,4,100342210,15,Defeat 15 Oglos,"I’ve been tasked to explore the ruins of the gods... This is a true honor for a Knight of the Kingdom of Famelle. Care to share this honor with me?
+Client: Raymond
+Area: East Famelle
+Dungeon: Ancient Ruins of Lerocque",17,1,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1314,A Little Won't Show,4,7,101635,20,Collect 20 Dark Crystals,"There are rumours that ""Dark Crystals""
+are being stored in the Sorcerous Fort. Could you go fetch some for me?
+Client: Mash",17,2,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1401,Soldier Of The People 1,3,4,100564275,3,Defeat 3 ★4 Dargeon,"The monsters are enraged... What's going on?
+There's no time to lose!
+Peoples' livelihoods are at stake here!
+Client: Ribalt
+Area: Sealed Fortress Gormarey
+Quest: Ogrone Volcano 
+""Bursting Magma""",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1402,Soldier Of The People 2,4,4,100503325,3,Defeat 3 Afradohl,"Another mission to defeat monsters, with no time to rest!
+I can't be seen to back down now!
+Please lend me your strength!
+Client: Ribalt
+Area: Sealed Fortress Gormarey
+Quest: Demon Fortress Gormarey
+""Storming the Demon Castle""",11,0,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1403,Master Of The Inn 2,3,6,1018,1,Collect 1 Mixed Pilaf,"Ganan, this young man of yours
+might be quite reliable in the future.
+I've got something else you can help the shop with.
+Client: Gloria",17,3,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1404,The Secret Arts,3,7,101953,1,Collect 1 Great Earth Spirit Stone,"Our daily research never ends...
+Not until our objective has been fulfilled.
+That reminds me though, I could ask him to help me.
+Client: Rem",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1405,Courage And Mercantilism,5,7,101231,20,Collect 20 Fire Crystals,"To think you've actually gone as far as Ogrone Volcano...
+Your courage astounds me!
+So... How many ""Fire Crystals"" did you find?
+Client: Mash",17,2,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1406,Rather Than Sleeping,5,7,101332,20,Collect 20 Water Crystals,"It's wrong to take things from the temple, you say?
+I'm sure the ""Water Crystals"" would
+much rather be used than sit there collecting dust.
+Client: Mash",17,2,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1407,Incompatible Existence,5,4,100282270,15,Defeat 15 Bandit Crows,"Adventurers and thieves are like oil and water.
+No one can forgive the things a thief does.
+If you see one, show it who's boss!
+Client: Guild Master Ganan
+Area: Sealed Fortress Gormarey
+Dungeon: Egol The Tree Sea",17,1,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1408,Another Type Of Crystal,5,7,101534,20,Collect 20 Light Crystals,"I'm missing one... Just one more kind...
+You know what I'm talking about, don't you?
+That's right. Bring me some ""Light Crystals""
+Client: Mash",17,2,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1409,Slay The Demonic Dragon!,5,4,100353290,15,Defeat 15 Fafnirs,"It will be a fierce battle...
+But we must be victorious.
+Don't say anything, just lend me your strength!
+Client: Ribalt
+Area: Sealed Fortress Gormarey
+Dungeon: Black Gate",17,1,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1410,Challenging The Crimson King,3,5,993202,1,"Clear ""The Crimson King"" ADV","There's a Fire Dragon sleeping near the seal, huh?
+It looks like you're ready.
+I won't try to talk you out of it. Just come home safely.
+Client: Guild Master Ganan
+*Can only be completed by the creator of the Lobby.",5,117141,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1411,Challenging The Withered Princess,3,5,993102,1,"Clear ""Sanctuary of the Princess"" ADV","The feeling when you face the unknown.
+That's what keeps driving you forward.
+I believe in you.
+Client: Guild Master Ganan
+*Can only be completed by the creator of the Lobby.",5,117343,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1412,Challenging The God Of Death,3,5,993002,1,"Clear ""Shrine of Remembrance"" ADV","I never thought anyone would be stupid enough to take themselves to visit the Reaper.
+You just can't stop exploring, I guess.
+Just don't die, you hear?
+Client: Guild Master Ganan
+*Can only be completed by the creator of the Lobby.",5,117242,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1501,The Party Suddenly…,4,6,1006,3,Collect 3 Dragon Steaks,"Work just keeps coming in when you're busy, doesn't it?
+I don't want to give in though...
+I need your help.
+Client: Sophie",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1502,Who To Ask In Hard Times,4,7,101751,2,Collect 2 Volcano Spirit Stones,"A ""Volcano Spirit Stone"" huh?
+They're very difficult to acquire.
+Well... We could ask him to help.
+Client: Giliam",17,2,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1503,Adventurer's Development 1,4,5,10606,1,"Clear ""An Adventurer Grows Up"" 1 Time","I see... This quest is...
+Hahaha, it's perfect!
+I'll bring him out to play then, shall I?
+Client: Guild Master Ganan
+Area: Isliid Empire
+Quest: Fort Goldoa 
+""An Adventurer Grows Up""",17,2,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1504,Adventurer's Development 2,4,5,10607,1,"Clear ""Various Rewards"" 1 Time","I see... This quest is...
+Hahaha, it's perfect!
+I'll bring him out to play then, shall I?
+Client: Guild Master Ganan
+Area: Isliid Empire
+Quest: Fort Goldoa 
+""Various Rewards""",14,10,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1505,The Merchant 3,4,7,102054,3,Collect 3 Brilliance Spirit Stones,"My information network tells me that strange things
+have been happening all over the world recently.
+But a merchant has only one job in the end!
+Client: Mash",17,2,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1506,Youth Adventure Group 1,1,5,10105,1,"Clear ""The Boy Adventurers"" 1 Time","This is a nice place.
+We've finally advanced to the city outskirts!
+But there's something that worries me...
+Client: Lute
+Area: Isliid Empire
+Quest: Plains of Isliid ""Youth Adventure Group""",17,1,2,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1507,Youth Adventure Group 2,1,5,10106,1,"Clear ""Keep it Secret"" 1 Time","This is a nice place.
+We've finally advanced to the city outskirts!
+But there's something that worries me...
+Client: Lute
+Area: Isliid Empire
+Quest: Plains of Isliid ""To The Secret Spot""",17,3,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1508,Youth Adventure Group 3,5,5,10107,1,"Clear ""Danger Comes to the Plain"" 1 Time","This is a nice place.
+We've finally advanced to the city outskirts!
+But there's something that worries me...
+Client: Lute
+Area: Isliid Empire
+Quest: Plains of Isliid ""Shadow Over The Plains""",14,14,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+1509,A Man Who Loves His City,5,4,500191049,1,Defeat 1 Soulthirster Mohldora,"The city is sometimes threatened by monster attacks.
+We can't wait for the knights to arrive...
+I've got it! We can ask him for help!
+Client: Albert
+Area: Isliid Empire
+Quest:Greenlay Forest",17,3,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2001,Clear In Multiplayer,1,18,0,1,Multiplayer As Host - Clear 1 Time,*Can only be completed by the creator of the Lobby.,17,2,1,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2002,Clear In Multiplayer,1,18,0,3,Multiplayer As Host - Clear 3 Times,*Can only be completed by the creator of the Lobby.,17,1,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2003,Clear In Multiplayer,1,18,0,3,Multiplayer As Host - Clear 3 Times,*Can only be completed by the creator of the Lobby.,17,2,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2004,Clear In Multiplayer,1,18,0,3,Multiplayer As Host - Clear 3 Times,*Can only be completed by the creator of the Lobby.,17,1,5,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2005,Clear In Multiplayer,1,18,0,5,Multiplayer As Host - Clear 5 Times,*Can only be completed by the creator of the Lobby.,17,3,3,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2006,Clear In Multiplayer,1,18,0,5,Multiplayer As Host - Clear 5 Times,*Can only be completed by the creator of the Lobby.,17,2,5,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2007,Clear In Multiplayer,1,18,0,5,Multiplayer As Host - Clear 5 Times,*Can only be completed by the creator of the Lobby.,17,1,5,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2008,Clear In Multiplayer,1,18,0,5,Multiplayer As Host - Clear 5 Times,*Can only be completed by the creator of the Lobby.,17,2,7,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2009,Clear In Multiplayer,1,18,0,5,Multiplayer As Host - Clear 5 Times,*Can only be completed by the creator of the Lobby.,17,1,7,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0
+2010,Clear In Multiplayer,1,18,0,10,Multiplayer As Host - Clear 10 Times,*Can only be completed by the creator of the Lobby.,17,3,7,,2015-09-10 13:14:11-08:00,2030-09-10 13:14:11-08:00,1,0

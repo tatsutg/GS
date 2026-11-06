@@ -1,0 +1,987 @@
+id,mine_id,start_floor_num,info_image_name,battle_bgm_name,battle_bg_name,mine_enemy_type,mine_enemy_id0,mine_enemy_id1,mine_enemy_id2,mine_enemy_id3,mine_enemy_id4,mine_enemy_id5,mine_enemy_id6,weight,description,mine_fortune_drop_id,drop_table_function,album_icon_name,album_priority,name,element,race,field_setting_id
+50001,1,1,mine_boss_50001.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5001,1000,"[                    
+                    {
+                        ""text"":""Degilmagna is a Fire Elemental Dragon. <br>Be careful because it has a high critical rate <br>and gives massive critical damage."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Having a high critical resistance <br>or being able to paralyze <br>or freeze it is the key to victory."",
+                        ""expression"":""240""
+                    }
+]",10001,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50001.png,1,Inferno Dragon Degilmagna,1,6,None
+50002,1,1,mine_boss_50002.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5002,1000,"[                    
+                    {
+                        ""text"":""Palamicia is a Water Elemental God. <br>It'll be easier to give her damage <br>when she's paralyzed."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Units with attacks that paralyze or reduce <br>her paralyze resistance are the key to victory!"",
+                        ""expression"":""250""
+                    }
+]",10002,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50002.png,2,"Palamicia, the Silent Divine",2,7,None
+50003,1,1,mine_boss_50003.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5003,1000,"[                    
+                    {
+                        ""text"":""Tonetaurus is an Earth Elemental Beast. <br>It's difficult to give damage to it during <br>Storm mode."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""You'll definitely need to increase your <br>Accuracy rate. <br>You can cancel Storm mode by breaking, <br>so use attacks with high Break power."",
+                        ""expression"":""250""
+                    }
+]",10003,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50003.png,3,Tonetaurus,3,2,None
+50004,1,1,mine_boss_50004.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5004,1000,"[                    
+                    {
+                        ""text"":""Oldeus is a Dark Elemental Demon. <br>It's difficult to give Physical damage, <br>so don't forget to use Magic attacks."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""When you are cursed, you won't be able <br>to use equipment, so you'll need to prepare <br>for that."",
+                        ""expression"":""210""
+                    }
+]",10004,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50004.png,4,"Oldeus, the Burier",5,8,None
+50005,1,1,mine_boss_50005.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5005,1000,"[                    
+                    {
+                        ""text"":""Subject β-3 is a Non-Elemental Machine."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""It gives massive damage to Light and Dark <br>units, and it is hard to damage with Fire, <br>Water, and Earth Elements."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Be careful of its Throw Attack! <br>Don't forget to bring damage resistance <br>equipment, too!"",
+                        ""expression"":""210""
+                    }
+]",10005,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50005.png,5,Subject β-3,0,5,None
+50006,1,1,mine_boss_50006.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5006,1000,"[                    
+                    {
+                        ""text"":""Fosradius is a Light Elemental Dragon."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Arts won't deal much damage to it, <br>so rely on Skills and Equips instead."",
+                        ""expression"":""220""
+                    }
+]",10008,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50006.png,6,Radiant Dragon Fosradius,4,6,None
+50007,1,30,mine_boss_50007.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5007,1000,"[                    
+                    {
+                        ""text"":""Ifrit is a Fire Element God. <br>Magic damage isn't very effective against him, <br>so focus on Physical attacks instead."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""He takes Critical damage while frozen, <br>but be careful <br>because that also increases reflected damage."",
+                        ""expression"":""250""
+                    }
+]",10010,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50007.png,7,Inferno God Ifrit,1,7,101
+50008,1,35,mine_boss_50008.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5008,1000,"[                    
+                    {
+                        ""text"":""Radachne is a Light Elemental God. <br>Be prepared to deal <br>with her powerful CRI strikes."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""However, your own CRI attacks <br>won't be very effective. <br>Try DEF-ignoring ones instead."",
+                        ""expression"":""250""
+                    },
+ {
+                        ""text"":""Units take more damage <br>while they're covering allies, too!"",
+                        ""expression"":""250""
+                    }
+
+]",10012,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50008.png,8,Insect Princess Radachne,4,7,None
+50009,1,40,mine_boss_50009.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5009,1000,"[                    
+                    {
+                        ""text"":""Raydis is an Earth Elemental Spirit."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Her defense will drop while she's Burning."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""However, being Poisoned will turn her attacks<br>into Critical hits, so be careful."",
+                        ""expression"":""250""
+                    }
+]",10014,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50009.png,9,Arbor Spirit Raydis,3,3,None
+50010,1,45,mine_boss_50010.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5010,1000,"[                    
+                    {
+                        ""text"":""Code XTF: Eraser is a Machine <br>that periodically changes its Element."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""The kind of damage <br>you deal affects how it transforms."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""After a mode switch, <br>units in the matching Element <br>will take more damage <br>while their attacks will become ineffective."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""I recommend bringing a well-rounded party <br>to take it down faster."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""It also self-destructs when it runs out of HP, <br>and the energy leftover <br>from changing Elements determines <br>the blast force."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""If it only switches a few times, <br>that last explosion will be extremely powerful, <br>so watch out."",
+                        ""expression"":""260""
+                    }
+]",10016,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50010.png,10,Code XTF: Eraser,0,5,None
+50011,1,30,mine_boss_50011.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5011,1000,"[                    
+                    {
+                        ""text"":""Garm is a Fire Elemental Beast."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""You can dampen his blazing offense<br>for a short time <br>with a strong attack of your own."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""It might also be a good idea<br>to have Burn-relieving measures."",
+                        ""expression"":""250""
+                    }
+]",10001,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50011.png,11,Garm the Two-Headed Hound,1,2,None
+50012,1,20,mine_boss_50012.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5012,1000,"[                    
+                    {
+                        ""text"":""Ugetsu is a Demon that will switch <br>between Dark and Fire Elements <br>whenever she uses Arts."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Disease and Freeze will make it <br>easier to damage her."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Be sure to prepare <br>a party focused on that strategy."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Her Critical hits will become much stronger <br>in the second half, <br>so don't relax until the end."",
+
+                        ""expression"":""210""
+                    }
+]",10001,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50012.png,12,Demon Fox Ugetsu,1,8,None
+50013,1,20,mine_boss_50013.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5013,1000,"[                    
+                    {
+                        ""text"":""Mohldora is an Earth Elemental Spirit."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""It'll summon minions, <br>and the more it has, <br>the stronger its attacks will be."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Only Poison and Burn can damage the minions."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Be sure to plan your party accordingly."",
+                        ""expression"":""250""
+                    },
+                     {
+                        ""text"":""Keeping their numbers as low as possible is key."",
+                        ""expression"":""200""
+                    }
+]",10014,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50013.png,13,Soulthirster Mohldora,3,3,None
+50014,1,25,mine_boss_50014.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5014,1000,"[                    
+                    {
+                        ""text"":""Villakurz is a Dark Elemental Dragon. <br>He has nasty strikes that can inflict <br>Status Ailments like Poison and Blind."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Blinded units will take extra damage, <br>so be sure to heal as soon as possible."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""On the other hand, being Poisoned makes <br>attacks against him more effective. <br>Maybe you can use that to your advantage."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Watch out in the later half of the fight, <br>since his CRI rate will skyrocket."",
+                        ""expression"":""210""
+                    }
+]",10007,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50014.png,14,Villakurz,5,6,None
+50016,1,1,mine_boss_50016.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5016,1000,"[                    
+                    {
+                        ""text"":""Freydal is a Water Elemental Beast."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Water attacks won't even make it<br>bat an eye, so bring other units."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""It'll also constantly increase its Evasion <br>during battle."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Counter that by boosting your Accuracy <br>or Burning away its buffs."",
+                        ""expression"":""210""
+                    },
+                   {
+                        ""text"":""It'll also annoy you with Freezing attacks,<br>so make sure to prepare for those, too."",
+                        ""expression"":""250""
+                    }
+]",10006,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50016.png,16,Azure Phoenix Freydal,2,2,None
+50017,1,1,mine_boss_50017.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5017,1000,"[                    
+                    {
+                        ""text"":""Elpneumas is an Earth Elemental Dragon. "",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Earth attacks won't do a thing, <br>so make sure your party has other units."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Don't forget to prepare against its frequent <br>Paralyzing attacks, since the stun will last<br>longer the deeper into the Mines you go."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""But the scariest thing is <br>how it can Envenom you."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""While Envenomed, units take more and <br>more damage until they fall."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""On top of that, Poison-healing effects <br>won't work, and it doesn't go away <br>on its own."",
+                        ""expression"":""220""
+                    },
+                   {
+                        ""text"":""All you can do is keep recovering HP, <br>so slay it before it slays you."",
+                        ""expression"":""200""
+                    }
+]",10003,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50017.png,17,Verdant Dragon Elpneumas,3,6,None
+50018,1,25,mine_boss_50018.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5018,1000,"[                    
+                    {
+                        ""text"":""Wilkes is a Light Elemental Spirit."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Humans can't hurt her much at all.<br>I suggest using other types."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""And make sure to bring units and Equips<br>that can inflict Blind, "",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Since that's the only way she can take<br>serious damage."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""She also likes to use an attack that<br>disables the Arts gauge auto-fill effect."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""You'll have more luck with instant boosts instead."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Plus, watch out when her HP gets low. She'll<br>counter with a one-time Arts gauge reduction."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""Her attacks will become fiercer after that<br>as well, so respond likewise and finish the job<br>quickly."",
+                        ""expression"":""210""
+                    }
+]",10008,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50018.png,18,Bright Sphere Spirit Wilkes,4,3,None
+50019,1,20,mine_boss_50019.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5019,1000,"[                    
+                    {
+                        ""text"":""Geo Zagnus is a Water Elemental Giant."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Humans, Gods, and Demons will take <br>more damage and hurt him less."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""I suggest bringing other types of units."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Many of his attacks will also inflict <br>Poison, so be ready for that as well."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Finally, his CRI rate will dramatically <br>increase when his HP gets low."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Finish him off before he can do <br>the same to you!"",
+                        ""expression"":""260""
+                    }
+
+]",10002,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50019.png,19,Ice Fortress Geo Zagnus,2,4,None
+50020,1,30,mine_boss_50020.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5020,1000,"[                    
+                    {
+                        ""text"":""Phantom Ragsherum is a Dark Elemental Demon."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""He tears through shields. <br>I recommend a focus on DMG reduction and <br>HP recovery instead."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""His own defenses are tough until you Break him, <br>so make sure to have a Breaker unit."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Poison will also take him down a notch <br>if you're still struggling."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Be sure to keep an eye out for his <br>True Nightmare attack!"",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""He'll grab an ally with the highest HP and deal <br>fatal DMG! Don't let them go down easy!"",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""You can cancel it while he's charging with enough <br>Physical DMG. Just magic won't shake him."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""If you're successful, he'll Faint! <br>Take that chance to unleash a coup de grâce!"",
+                        ""expression"":""200""
+                    }
+]",10005,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50020.png,20,Phantom Ragsherum,5,8,None
+50021,1,25,mine_boss_50021.png,GS201_SENTOU,996000,0,0,0,0,0,0,0,5021,1000,"[                    
+                    {
+                        ""text"":""Stiria is a Water Elemental Spirit."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Each time your Break her, she will<br>take more damage."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""However, she won't take Break damage<br>at all without inflicting Burn or Disease."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Since Fire DMG won't affect her, focus on<br>the Status Ailment than sheer power from Fire units."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Frozen allies can't do much of anything..."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""So watch out of her freezing and<br>Freeze resistance-lowering moves!"",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""When she's low on HP, she'll gain<br>CRI resistance as well."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Make sure you have some other way<br>to mount an offense."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""It's a lot to remember, but experiencing<br>the fight for yourself is the best way to learn!"",
+                        ""expression"":""260""
+                    }
+]",10002,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50021.png,21,Stiria,2,3,None
+50022,1,20,mine_boss_50022.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5022,1000,"[
+    {
+        ""text"":""Zwiber Z is a Water Elemental Machine."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""It resists CRI attacks, so bringing<br>units that ignore DEF might be wise."",
+        ""expression"":""250""
+    },
+    {
+        ""text"":""Being able to to shrug off its<br>Paralyzing strikes is also a must."",
+        ""expression"":""210""
+    },
+    {
+        ""text"":""Above all, watch out for its spear-like<br>weapon!"",
+        ""expression"":""220""
+    },
+    {
+        ""text"":""It'll absorb DMG when driven into<br>the ground, so focus your offense on that."",
+        ""expression"":""250""
+    },
+    {
+        ""text"":""Destroying that will also slow it down,<br>giving you a golden opportunity!"",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""Send this metal monster to<br>the scrap heap!"",
+        ""expression"":""260""
+    }
+]",10002,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50022.png,22,Zwiber Z,2,5,None
+50023,1,25,mine_boss_50023.png,GS201_SENTOU,996020,0,0,0,0,0,0,0,5023,1000,"[
+    {
+        ""text"":""Marzex is a Light Elemental God."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""Neither Light nor Dark attacks will work on him, <br>so make sure your offense is based on other <br>Elements."",
+        ""expression"":""240""
+    },
+    {
+        ""text"":""You might want to bring some strong Breakers, too."",
+        ""expression"":""250""
+    },
+    {
+        ""text"":""Not only is he invincible until you Break him, <br>that can also interrupt his attack when he reaches <br>half HP."",
+        ""expression"":""240""
+    },
+    {
+        ""text"":""Also, be mindful of Burn, Poison, and Freeze."",
+        ""expression"":""210""
+    },
+    {
+        ""text"":""Since he takes more damage from low-HP allies..."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""Maybe you can use Burn and Poison against him."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""Just get ready when he reaches low HP <br>since he becomes harder to hit."",
+        ""expression"":""210""
+    },
+    {
+        ""text"":""And never forget it isn't over until it's over..."",
+        ""expression"":""250""
+    },
+    {
+        ""text"":""If you catch my drift."",
+        ""expression"":""220""
+    }
+]",10008,math.atan((a-40)*0.07)*2/math.pi*168+132,mine_boss_thumbnail_50023.png,23,Marzex,4,7,None
+60001,1,15,mine_boss_60001.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6001,250,"[                    
+                    {
+                        ""text"":""Palamicia Ω is a Water Elemental God."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""It'll be difficult to give damage unless <br>you paralyze her, so it's essential to <br>paralyze her."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""She seems to be very strong... <br>Please be careful..."",
+                        ""expression"":""230""
+                    }
+]",10006,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60001.png,1006,Palamicia Ω,2,7,None
+60002,1,5,mine_boss_60002.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6002,250,"[                    
+                    {
+                        ""text"":""Oldeus Ω is a Dark Elemental Demon. <br>You can't give physical damage, so use <br>magical attacks!"",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""It'll inflict Instant Death attacks to units <br>who are cursed, so you'll need to prepare <br>for that."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""It's strong, but you can do it!"",
+                        ""expression"":""200""
+                    }
+]",10007,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60002.png,1007,Oldeus Ω,5,8,None
+60003,1,20,mine_boss_60003.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6003,200,"[                    
+                    {
+                        ""text"":""Tonetaurus Ω is an Earth Element Beast. <br>It can only take DMG during Break, <br>so plan your team accordingly."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Lowering its Break resistance <br>should help make your life a little easier."",
+                        ""expression"":""250""
+                    }
+]",10009,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60003.png,1008,Tonetaurus Ω,3,2,None
+60004,1,30,mine_boss_60004.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6004,200,"[                    
+                    {
+                        ""text"":""Ifrit Ω is a Fire Element God. <br>Use Physical attacks, <br>because Magic hardly hurts him at all!"",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""He can lower your Fire resistance, <br>so make sure you have ways <br>to keep your defenses up."",
+                        ""expression"":""250""
+                    }
+]",10011,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60004.png,1009,Ifrit Ω,1,7,102
+60005,1,35,mine_boss_60005.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6005,200,"[                    
+                    {
+                        ""text"":""Radachne Ω is a Light Elemental God. <br>Defanging her CRI strikes is essential."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""She has high DEF as well, <br>so better have attacks that ignore <br>as much of it as possible."",
+                        ""expression"":""200""
+                    },
+{
+                        ""text"":""Units covering allies will also take extra damage! <br>Use with caution!"",
+                        ""expression"":""250""
+                    },
+{
+                        ""text"":""I know you can pull through!"",
+                        ""expression"":""260""
+                    }
+]",10013,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60005.png,1010,Radachne Ω,4,7,None
+60006,1,40,mine_boss_60006.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6006,200,"[                    
+                    {
+                        ""text"":""Raydis Ω is an Earth Elemental Spirit."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""An ounce of prevention is worth <br>much less than a pound of cure here!"",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Bring units and Equips that can revive <br>since she'll unleash a powerful combination <br>of attacks at the start."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Negating and shielding damage won't work<br>against her; focus on healing instead."",
+                        ""expression"":""260""
+                    }
+]",10015,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60006.png,1011,Raydis Ω,3,3,None
+60007,1,45,mine_boss_60007.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6007,200,"[                    
+                    {
+                        ""text"":""Code XTF: Eraser Ω is a Machine <br>that periodically changes its Element."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Though it's not much different <br>from the original version..."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""The Elemental adaptations will last <br>through multiple changes."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""It'll be a tough fight, but with a balanced party, <br>careful control of its transformations..."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""And Non-Elemental attacks <br>to deal consistent damage, <br>you can win."",
+                        ""expression"":""200""
+                    }
+]",10016,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60007.png,1012,Code XTF: Eraser Ω,0,5,None
+60008,1,30,mine_boss_60008.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6008,200,"[                    
+                    {
+                        ""text"":""Garm Ω is a Fire Elemental Beast."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""It'll reduce your Burn Resistance <br>before lashing out with its flames."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""That's doubly dangerous as Burning units<br>will take Critical damage, <br>so make sure you're ready with an extinguisher."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""Especially strong attacks<br>will weaken it temporarily,"",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""but Resistance to that Element will be boosted<br>when it recovers."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""I suggest bringing a multi-Element party."",
+                        ""expression"":""210""
+                    }
+]",10001,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60008.png,1013,Garm Ω,1,2,None
+60009,1,20,mine_boss_60009.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6009,200,"[                    
+                    {
+                        ""text"":""Ugetsu Ω is a Demon that will switch <br>between Dark and Fire Elements <br>whenever she uses Arts."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Her attacks absorb HP, <br>so a party that can quickly  <br>inflict Disease will reduce that advantage."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""That along with Freeze should <br>also make it easier to deal damage."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Her Critical hits will become much stronger <br>in the second half, <br>so don't relax until the end."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""It'll be a tough fight, but hang in there!"",
+                        ""expression"":""260""
+                    }
+]",10001,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60009.png,1014,Ugetsu Ω,1,8,None
+60010,1,20,mine_boss_60010.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6010,200,"[                    
+                    {
+                        ""text"":""Mohldora Ω is an Earth Elemental Spirit."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Watch out for the Ragveloth that are summoned <br>with the small Mohldoras."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""They'll get in the way of your attacks, <br>so don't ignore them!"",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""Unfortunately, they have high DEF."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""In addition to Poison and Burning damage <br>for the Mohldoras..."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Your party should ideally be able to do <br>lots of Critical hits."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Try your best to break through the defenses!"",
+                        ""expression"":""260""
+                    }
+]",10014,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60010.png,1015,Mohldora Ω,3,3,None
+60011,1,25,mine_boss_60011.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6011,200,"[                    
+                    {
+                        ""text"":""Villakurz Ω is a Dark Elemental Dragon <br>that can inflict many different Status Ailments."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Blinded units will take CRI damage <br>from his attacks, so recovery measures <br>are a must."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""On the other hand, you can only hurt him <br>with Poisoned units. Keep your HP up<br>without curing the ailment itself."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Also, be prepared to deal with Curse <br>and Disease on top of everything else."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""He's a tricky foe, but very much beatable. <br>Good luck!"",
+                        ""expression"":""260""
+                    }
+]",10007,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60011.png,1016,Villakurz Ω,5,6,None
+60012,1,20,mine_boss_60012.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6012,200,"[                    
+                    {
+                        ""text"":""Subject Ω is a Non-elemental Machine."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""It might be wise to counteract its <br>Skill CT-slowing effect."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""It also has powerful Disease-inflicting attacks <br>that prevent you from recovering HP, <br>so I suggest preparing cures."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Absolutely do not bring covering units. <br>The combined damage will be devastating."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""And stay alert for its fixed-damage attack! <br>If that catches you off-guard, <br>it'll wipe out the whole party."",
+                        ""expression"":""210""
+                    },
+                   {
+                        ""text"":""The battle won't be easy, <br>but I know you'll prevail!"",
+                        ""expression"":""260""
+                    }
+]",10007,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60012.png,1017,Subject Ω,0,5,None
+60014,1,20,mine_boss_60014.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6014,200,"[                    
+                    {
+                        ""text"":""Freydal Ω is a Water Elemental Beast."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""It shares all of the same qualities <br>as the original Freydal."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Immunity to Water, likes to Freeze your units, <br>and boosted Evasion that can be <br>cancelled by Burning."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Now, you also have to be careful <br>how you set up your defenses."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Shielding units will take extra punishment, <br>so use skills that negate DMG <br>individually."",
+                        ""expression"":""220""
+                    },
+                   {
+                        ""text"":""And bring recovery for those vicious blows <br>that can't be absorbed!"",
+                        ""expression"":""210""
+                    }
+]",10006,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60014.png,1019,Freydal Ω,2,2,None
+60015,1,40,mine_boss_60015.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6015,200,"[                    
+                    {
+                        ""text"":""Elpneumas Ω is a Earth Elemental Dragon."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Just like the regular Elpneumas, <br>it's immune to Earth attacks and <br>will use Paralysis-inflicting attacks."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""It also can Envenom your units, <br>which ramps up the damage until they drop."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""However, this one will use Envenom twice: <br>once early on, then again later."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Conditions will grow punishing <br>by the second half of the fight, <br>so have a steady flow of recovery going <br>before then."",
+                        ""expression"":""220""
+                    },
+                   {
+                        ""text"":""It's a race against time, <br>but I know you'll come out ahead."",
+                        ""expression"":""200""
+                    }
+]",10003,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60015.png,1020,Elpneumas Ω,3,6,None
+60016,1,20,mine_boss_60016.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6016,200,"[                    
+                    {
+                        ""text"":""Degilmagna Ω is a Fire Elemental Dragon."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""It takes more DMG with frequent Breaks..."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""So prepare attacks with high Break Power."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Its attacks will start to penetrate your barriers <br>when its HP is low, so be careful."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Either hang on with DMG reduction and healing, <br>or finish it off with a huge burst of DMG."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Practice proper fire safety, too!"",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""Smother any sign of flames <br>since its CRI Rate skyrockets while Burning!"",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Oh, and Earth attacks <br>will combust before they can land, <br>so base your offense around other Elements."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""This is one demanding foe, <br>but stand strong and prove your courage."",
+                        ""expression"":""260""
+                    }
+]",10001,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60016.png,1021,Degilmagna Ω,1,6,None
+60017,1,25,mine_boss_60017.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6017,200,"[                    
+                    {
+                        ""text"":""Wilkes Ω is a Light Elemental Spirit."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""Not only are her defenses strong against <br>Humans and when not Blinded, "",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""But her Arts gauge auto-fill cancelling <br>effect has been upgraded to an Arts gauge<br>draining effect!"",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""On top of that, she can empty the whole party's<br>gauges when her HP gets low,"",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""So be very careful with your timing."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""She'll get even tougher once she's cornered,"",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Including the ability to nullify CRI attacks.<br>Rely on DEF-cancelling techniques to finish<br>her off. "",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""This fight takes a fair amount of planning, <br>but it's certainly winnable."",
+                        ""expression"":""260""
+                    }
+]",10008,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60017.png,1022,Wilkes Ω,4,3,None
+60018,1,20,mine_boss_60018.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6018,200,"[                    
+                    {
+                        ""text"":""Geo Zagnus Ω is a Water Elemental Giant."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Humans, Gods, and Demons are still <br>at a disadvantage, and he still gets "",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""a higher CRI rate at low HP."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""His Poison is also devastating if left ignored."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""He's strong enough to make <br>the normal Geo Zagnus look puny, "",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""but give it your all!<br>I'll be sure to inform your next of kin."",
+                        ""expression"":""260""
+                    }
+
+]",10002,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60018.png,1023,Geo Zagnus Ω,2,4,None
+60019,1,30,mine_boss_60019.png,GS508_KOUZAN,996030,1,0,0,0,0,0,0,6019,200,"[                    
+                    {
+                        ""text"":""Phantom Ragsherum Ω is a Dark Elemental <br>Demon."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Like his normal form, shields don't stop him, <br>Breaking him is a must..."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""And he has the potential to instantly KO your <br>highest HP unit."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""However, this time you can't deal appreciable <br>DMG without Poisoning him."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""That means both a Breaker and a Poison-capable <br>unit are required."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""CRI attacks also become less effective when <br>his HP gets low."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""Oh, I almost forgot! Light units will take serious <br>DMG from him, so consider leaving them on the <br>bench!"",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""*ahem* Quite the demanding enemy, <br>but you can beat him with a sound strategy."",
+                        ""expression"":""240""
+                    }
+]",10007,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60019.png,1024,Phantom Ragsherum Ω,5,8,None
+60020,1,25,mine_boss_60020.png,GS508_KOUZAN,996000,1,0,0,0,0,0,0,6020,200,"[                    
+                    {
+                        ""text"":""Stiria Ω is a Water Elemental Spirit."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""The basic strategy is the same as<br>the original version."",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""Focus on Status Ailments and Breaking<br>while staying warm."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""However, resisting Freeze is even more<br>important now."",
+                        ""expression"":""210""
+                    },
+                    {
+                        ""text"":""Frozen allies will take extra DMG from<br>her attacks."",
+                        ""expression"":""240""
+                    },
+                    {
+                        ""text"":""CRI hits are also less reliable than before<br>when her HP is low."",
+                        ""expression"":""220""
+                    },
+                    {
+                        ""text"":""Prepare an alternate means of attack<br>for the final stretch."",
+                        ""expression"":""200""
+                    },
+                    {
+                        ""text"":""Hmm, that should be everything.<br>Were you taking notes?"",
+                        ""expression"":""250""
+                    },
+                    {
+                        ""text"":""All that's left is to put your tactics into<br>practice. Good luck!"",
+                        ""expression"":""260""
+                    }
+]",10002,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60020.png,1025,Stiria Ω,2,3,None
+60021,1,20,mine_boss_60021.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6021,200,"[
+    {
+        ""text"":""Zwiber Z Ω is a Water Elemental Machine."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""It has CRI resistance and Paralyzing<br>attacks like the original model..."",
+        ""expression"":""250""
+    },
+    {
+        ""text"":""But that spear-like doohickey is<br>even more threatening."",
+        ""expression"":""210""
+    },
+    {
+        ""text"":""Besides channeling most of its<br>DMG taken into the ground..."",
+        ""expression"":""240""
+    },
+    {
+        ""text"":""Its own CRI attacks will become<br>even more painful!"",
+        ""expression"":""220""
+    },
+    {
+        ""text"":""It can't handle Paralysis though, so<br>give it a taste of its own medicine."",
+        ""expression"":""210""
+    },
+    {
+        ""text"":""Fight like your life depends on it..."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""Because it does."",
+        ""expression"":""260""
+    }
+]",10002,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60021.png,1026,Zwiber Z Ω,2,5,None
+60022,1,25,mine_boss_60022.png,GS508_KOUZAN,996010,1,0,0,0,0,0,0,6022,200,"[
+    {
+        ""text"":""Marzex Ω is a Light Elemental God."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""As usual, he blocks Light and Dark attacks <br>and is strong against high-HP units..."",
+        ""expression"":""240""
+    },
+    {
+        ""text"":""Not to mention the need to Break him and his <br>proclivity for annoying Status Ailments are as true <br>as ever."",
+        ""expression"":""250""
+    },
+    {
+        ""text"":""You might be tempted to keep your HP low <br>with Burn and Poison..."",
+        ""expression"":""200""
+    },
+    {
+        ""text"":""But keep in mind Status Ailments will <br>make you take extra DMG now."",
+        ""expression"":""210""
+    },
+    {
+        ""text"":""He also becomes much more evasive when his HP <br>is low, so try raising your Accuracy."",
+        ""expression"":""240""
+    },
+    {
+        ""text"":""Then just before he goes down, he makes his last <br>stand."",
+        ""expression"":""210""
+    },
+    {
+        ""text"":""You know what I'm talking about..."",
+        ""expression"":""220""
+    },
+    {
+        ""text"":""With that big wall of text and all."",
+        ""expression"":""260""
+    }
+]",10008,math.atan((a-50)*0.05)*2/math.pi*1600+1205,mine_boss_thumbnail_60022.png,1027,Marzex Ω,4,7,None

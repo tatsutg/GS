@@ -1,0 +1,475 @@
+id,dungeon_id,mission_type,mission_id,mission_value,name,description,reward_type,reward_id,reward_value,priority
+504090001,5040900,5,None,200,Clear 200 dungeon Stages,"Clear a total of 200 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,1
+504090002,5040900,5,None,190,Clear 190 dungeon Stages,"Clear a total of 190 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,2
+504090003,5040900,5,None,180,Clear 180 dungeon Stages,"Clear a total of 180 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,3
+504090005,5040900,5,None,170,Clear 170 dungeon Stages,"Clear a total of 170 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,5
+504090006,5040900,5,None,160,Clear 160 dungeon Stages,"Clear a total of 160 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,6
+504090007,5040900,5,None,150,Clear 150 dungeon Stages,"Clear a total of 150 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,7
+504090008,5040900,5,None,140,Clear 140 dungeon Stages,"Clear a total of 140 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,8
+504090009,5040900,5,None,130,Clear 130 dungeon Stages,"Clear a total of 130 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,9
+504090010,5040900,5,None,120,Clear 120 dungeon Stages,"Clear a total of 120 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,10
+504090011,5040900,5,None,110,Clear 110 dungeon Stages,"Clear a total of 110 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,11
+504090012,5040900,5,None,100,Clear 100 dungeon Stages,"Clear a total of 100 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,12
+504090013,5040900,5,None,90,Clear 90 dungeon Stages,"Clear a total of 90 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,13
+504090014,5040900,5,None,80,Clear 80 dungeon Stages,"Clear a total of 80 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,14
+504090015,5040900,5,None,70,Clear 70 dungeon Stages,"Clear a total of 70 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,15
+504090016,5040900,5,None,60,Clear 60 dungeon Stages,"Clear a total of 60 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,16
+504090017,5040900,5,None,50,Clear 50 dungeon Stages,"Clear a total of 50 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,17
+504090018,5040900,5,None,40,Clear 40 dungeon Stages,"Clear a total of 40 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,18
+504090019,5040900,5,None,30,Clear 30 dungeon Stages,"Clear a total of 30 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,19
+504090020,5040900,5,None,20,Clear 20 dungeon Stages,"Clear a total of 20 Stages in the Smogdragon Island dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,20
+504090021,5040900,5,None,10,Clear 10 dungeon Stages,"Clear a total of 10 Stages in the Smogdragon Island dungeon.
+Reward: Island Treasure x1000",22,504090001,1000,21
+504090022,5040900,3,None,100,Reach 100% on the Lucky Gauge,"Fill the Smogdragon Island Lucky Gauge to 100%
+Reward: Island Treasure x1000",22,504090001,1000,22
+504090023,5040900,3,None,50,Reach 50% on the Lucky Gauge,"Fill the Smogdragon Island Lucky Gauge to 50%
+Reward: Shadow Spirit Stone x200",5,102155,200,23
+504090024,5040900,3,None,40,Reach 40% on the Lucky Gauge,"Fill the Smogdragon Island Lucky Gauge to 40%
+Reward: Brilliance Spirit Stone x200",5,102054,200,24
+504090025,5040900,3,None,30,Reach 30% on the Lucky Gauge,"Fill the Smogdragon Island Lucky Gauge to 30%
+Reward: Great Oak Spirit Stone x200",5,101953,200,25
+504090026,5040900,3,None,20,Reach 20% on the Lucky Gauge,"Fill the Smogdragon Island Lucky Gauge to 20%
+Reward: Glacier Spirit Stone x200",5,101852,200,26
+504090027,5040900,3,None,10,Reach 10% on the Lucky Gauge,"Fill the Smogdragon Island Lucky Gauge to 10%
+Reward: Volcano Spirit Stone x200",5,101751,200,27
+504090028,5040900,2,None,200,Clear any Stage with a Party of 200 total LUCK,"Clear any Stage in the Smogdragon Island dungeon with a Party that has 200 LUCK or higher.
+Reward: Island Treasure x1000",22,504090001,1000,28
+504090029,5040900,2,None,100,Clear any Stage with a Party of 100 total LUCK,"Clear any Stage in the Smogdragon Island dungeon with a Party that has 100 LUCK or higher.
+Reward: Great Oak Spirit Stone x200",5,101953,200,29
+504090030,5040900,2,None,50,Clear any Stage with a Party of 50 total LUCK,"Clear any Stage in the Smogdragon Island dungeon with a Party that has 50 LUCK or higher.
+Reward: Smogdragon Soulgem x10",5,130653,10,30
+504090031,5040900,4,5040905,50,Clear Stage 5 50 times,"Clear the ""Domain of Green Death"" Stage of Smogdragon Island 50 times.
+Reward: ★6 Equip LB Stone [Support] x1",16,10,1,31
+504090032,5040900,4,5040905,40,Clear Stage 5 40 times,"Clear the ""Domain of Green Death"" Stage of Smogdragon Island 40 times.
+Reward: ★6 Equip LB Stone [Heal] x1",16,9,1,32
+504090033,5040900,4,5040905,30,Clear Stage 5 30 times,"Clear the ""Domain of Green Death"" Stage of Smogdragon Island 30 times.
+Reward: ★6 Equip LB Stone [Defense] x1",16,8,1,33
+504090034,5040900,4,5040905,20,Clear Stage 5 20 times,"Clear the ""Domain of Green Death"" Stage of Smogdragon Island 20 times.
+Reward: ★6 Equip LB Stone [Magic] x1",16,7,1,34
+504090035,5040900,4,5040905,10,Clear Stage 5 10 times,"Clear the ""Domain of Green Death"" Stage of Smogdragon Island 10 times.
+Reward: ★6 Equip LB Stone [Physical] x1",16,6,1,35
+504090036,5040900,4,5040905,5,Clear Stage 5 5 times,"Clear the ""Domain of Green Death"" Stage of Smogdragon Island 5 times.
+Reward: Smogdragon Soulgem x10",5,130653,10,36
+504090037,5040900,1,5040905,1,Clear Stage 5,"Clear the ""Domain of Green Death"" Stage of Smogdragon Island.
+Reward: Smogdragon Soulgem x50",5,130653,50,37
+504090038,5040900,1,5040904,1,Clear Stage 4,"Clear the ""Insane Poison Essense"" Stage of Smogdragon Island.
+Reward: Smogdragon Soulgem x50",5,130653,50,38
+504090039,5040900,1,5040903,1,Clear Stage 3,"Clear the ""Poison Thorn Cradle"" Stage of Smogdragon Island.
+Reward: Smogdragon Soulgem x50",5,130653,50,39
+504090040,5040900,1,5040902,1,Clear Stage 2,"Clear the ""Pouring Poison Chalice"" Stage of Smogdragon Island.
+Reward: Smogdragon Soulgem x50",5,130653,50,40
+504090041,5040900,1,5040901,1,Clear Stage 1,"Clear the ""Savage Poison Fangs"" Stage of Smogdragon Island.
+Reward: Island Treasure x1000",22,504090001,1000,41
+504100001,5041000,5,None,200,Clear 200 dungeon Stages,"Clear a total of 200 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,1
+504100002,5041000,5,None,190,Clear 190 dungeon Stages,"Clear a total of 190 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,2
+504100003,5041000,5,None,180,Clear 180 dungeon Stages,"Clear a total of 180 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,3
+504100005,5041000,5,None,170,Clear 170 dungeon Stages,"Clear a total of 170 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,5
+504100006,5041000,5,None,160,Clear 160 dungeon Stages,"Clear a total of 160 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,6
+504100007,5041000,5,None,150,Clear 150 dungeon Stages,"Clear a total of 150 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,7
+504100008,5041000,5,None,140,Clear 140 dungeon Stages,"Clear a total of 140 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,8
+504100009,5041000,5,None,130,Clear 130 dungeon Stages,"Clear a total of 130 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,9
+504100010,5041000,5,None,120,Clear 120 dungeon Stages,"Clear a total of 120 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,10
+504100011,5041000,5,None,110,Clear 110 dungeon Stages,"Clear a total of 110 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,11
+504100012,5041000,5,None,100,Clear 100 dungeon Stages,"Clear a total of 100 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,12
+504100013,5041000,5,None,90,Clear 90 dungeon Stages,"Clear a total of 90 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,13
+504100014,5041000,5,None,80,Clear 80 dungeon Stages,"Clear a total of 80 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,14
+504100015,5041000,5,None,70,Clear 70 dungeon Stages,"Clear a total of 70 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,15
+504100016,5041000,5,None,60,Clear 60 dungeon Stages,"Clear a total of 60 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,16
+504100017,5041000,5,None,50,Clear 50 dungeon Stages,"Clear a total of 50 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,17
+504100018,5041000,5,None,40,Clear 40 dungeon Stages,"Clear a total of 40 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,18
+504100019,5041000,5,None,30,Clear 30 dungeon Stages,"Clear a total of 30 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,19
+504100020,5041000,5,None,20,Clear 20 dungeon Stages,"Clear a total of 20 Stages in the Flametail Mountain dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,20
+504100021,5041000,5,None,10,Clear 10 dungeon Stages,"Clear a total of 10 Stages in the Flametail Mountain dungeon.
+Reward: Mountain Treasure x1000",22,504100001,1000,21
+504100022,5041000,3,None,100,Reach 100% on the Lucky Gauge,"Fill the Flametail Mountain Lucky Gauge to 100%
+Reward: Mountain Treasure x1000",22,504100001,1000,22
+504100023,5041000,3,None,50,Reach 50% on the Lucky Gauge,"Fill the Flametail Mountain Lucky Gauge to 50%
+Reward: Shadow Spirit Stone x200",5,102155,200,23
+504100024,5041000,3,None,40,Reach 40% on the Lucky Gauge,"Fill the Flametail Mountain Lucky Gauge to 40%
+Reward: Brilliance Spirit Stone x200",5,102054,200,24
+504100025,5041000,3,None,30,Reach 30% on the Lucky Gauge,"Fill the Flametail Mountain Lucky Gauge to 30%
+Reward: Great Oak Spirit Stone x200",5,101953,200,25
+504100026,5041000,3,None,20,Reach 20% on the Lucky Gauge,"Fill the Flametail Mountain Lucky Gauge to 20%
+Reward: Glacier Spirit Stone x200",5,101852,200,26
+504100027,5041000,3,None,10,Reach 10% on the Lucky Gauge,"Fill the Flametail Mountain Lucky Gauge to 10%
+Reward: Volcano Spirit Stone x200",5,101751,200,27
+504100028,5041000,2,None,200,Clear any Stage with a Party of 200 total LUCK,"Clear any Stage in the Flametail Mountain dungeon with a Party that has 200 LUCK or higher.
+Reward: Mountain Treasure x1000",22,504100001,1000,28
+504100029,5041000,2,None,100,Clear any Stage with a Party of 100 total LUCK,"Clear any Stage in the Flametail Mountain dungeon with a Party that has 100 LUCK or higher.
+Reward: Volcano Spirit Stone x200",5,101751,200,29
+504100030,5041000,2,None,50,Clear any Stage with a Party of 50 total LUCK,"Clear any Stage in the Flametail Mountain dungeon with a Party that has 50 LUCK or higher.
+Reward: Flametail Soulgem x10",5,130853,10,30
+504100031,5041000,4,5041005,50,Clear Stage 5 50 times,"Clear the ""Hellish Foxfire"" Stage of Flametail Mountain 50 times.
+Reward: ★6 Equip LB Stone [Support] x1",16,10,1,31
+504100032,5041000,4,5041005,40,Clear Stage 5 40 times,"Clear the ""Hellish Foxfire"" Stage of Flametail Mountain 40 times.
+Reward: ★6 Equip LB Stone [Heal] x1",16,9,1,32
+504100033,5041000,4,5041005,30,Clear Stage 5 30 times,"Clear the ""Hellish Foxfire"" Stage of Flametail Mountain 30 times.
+Reward: ★6 Equip LB Stone [Defense] x1",16,8,1,33
+504100034,5041000,4,5041005,20,Clear Stage 5 20 times,"Clear the ""Hellish Foxfire"" Stage of Flametail Mountain 20 times.
+Reward: ★6 Equip LB Stone [Magic] x1",16,7,1,34
+504100035,5041000,4,5041005,10,Clear Stage 5 10 times,"Clear the ""Hellish Foxfire"" Stage of Flametail Mountain 10 times.
+Reward: ★6 Equip LB Stone [Physical] x1",16,6,1,35
+504100036,5041000,4,5041005,5,Clear Stage 5 5 times,"Clear the ""Hellish Foxfire"" Stage of Flametail Mountain 5 times.
+Reward: Flametail Soulgem x10",5,130853,10,36
+504100037,5041000,1,5041005,1,Clear Stage 5,"Clear the ""Hellish Foxfire"" Stage of Flametail Mountain.
+Reward: Flametail Soulgem x50",5,130853,50,37
+504100038,5041000,1,5041004,1,Clear Stage 4,"Clear the ""Scarlet-Robed Vixen"" Stage of Flametail Mountain.
+Reward: Flametail Soulgem x50",5,130853,50,38
+504100039,5041000,1,5041003,1,Clear Stage 3,"Clear the ""Dual Conflagration"" Stage of Flametail Mountain.
+Reward: Flametail Soulgem x50",5,130853,50,39
+504100040,5041000,1,5041002,1,Clear Stage 2,"Clear the ""Extinguishing Jade Gust"" Stage of Flametail Mountain.
+Reward: Flametail Soulgem x50",5,130853,50,40
+504100041,5041000,1,5041001,1,Clear Stage 1,"Clear the ""Rampaging Fangs"" Stage of Flametail Mountain.
+Reward: Mountain Treasure x1000",22,504100001,1000,41
+504110001,5041100,5,None,200,Clear 200 dungeon Stages,"Clear a total of 200 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,1
+504110002,5041100,5,None,190,Clear 190 dungeon Stages,"Clear a total of 190 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,2
+504110003,5041100,5,None,180,Clear 180 dungeon Stages,"Clear a total of 180 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,3
+504110005,5041100,5,None,170,Clear 170 dungeon Stages,"Clear a total of 170 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,5
+504110006,5041100,5,None,160,Clear 160 dungeon Stages,"Clear a total of 160 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,6
+504110007,5041100,5,None,150,Clear 150 dungeon Stages,"Clear a total of 150 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,7
+504110008,5041100,5,None,140,Clear 140 dungeon Stages,"Clear a total of 140 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,8
+504110009,5041100,5,None,130,Clear 130 dungeon Stages,"Clear a total of 130 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,9
+504110010,5041100,5,None,120,Clear 120 dungeon Stages,"Clear a total of 120 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,10
+504110011,5041100,5,None,110,Clear 110 dungeon Stages,"Clear a total of 110 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,11
+504110012,5041100,5,None,100,Clear 100 dungeon Stages,"Clear a total of 100 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,12
+504110013,5041100,5,None,90,Clear 90 dungeon Stages,"Clear a total of 90 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,13
+504110014,5041100,5,None,80,Clear 80 dungeon Stages,"Clear a total of 80 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,14
+504110015,5041100,5,None,70,Clear 70 dungeon Stages,"Clear a total of 70 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,15
+504110016,5041100,5,None,60,Clear 60 dungeon Stages,"Clear a total of 60 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,16
+504110017,5041100,5,None,50,Clear 50 dungeon Stages,"Clear a total of 50 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,17
+504110018,5041100,5,None,40,Clear 40 dungeon Stages,"Clear a total of 40 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,18
+504110019,5041100,5,None,30,Clear 30 dungeon Stages,"Clear a total of 30 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,19
+504110020,5041100,5,None,20,Clear 20 dungeon Stages,"Clear a total of 20 Stages in the Eternaglint Summit dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,20
+504110021,5041100,5,None,10,Clear 10 dungeon Stages,"Clear a total of 10 Stages in the Eternaglint Summit dungeon.
+Reward: Summit Treasure x1000",22,504110001,1000,21
+504110022,5041100,3,None,100,Reach 100% on the Lucky Gauge,"Fill the Eternaglint Summit Lucky Gauge to 100%
+Reward: Summit Treasure x1000",22,504110001,1000,22
+504110023,5041100,3,None,50,Reach 50% on the Lucky Gauge,"Fill the Eternaglint Summit Lucky Gauge to 50%
+Reward: Shadow Spirit Stone x200",5,102155,200,23
+504110024,5041100,3,None,40,Reach 40% on the Lucky Gauge,"Fill the Eternaglint Summit Lucky Gauge to 40%
+Reward: Brilliance Spirit Stone x200",5,102054,200,24
+504110025,5041100,3,None,30,Reach 30% on the Lucky Gauge,"Fill the Eternaglint Summit Lucky Gauge to 30%
+Reward: Great Oak Spirit Stone x200",5,101953,200,25
+504110026,5041100,3,None,20,Reach 20% on the Lucky Gauge,"Fill the Eternaglint Summit Lucky Gauge to 20%
+Reward: Glacier Spirit Stone x200",5,101852,200,26
+504110027,5041100,3,None,10,Reach 10% on the Lucky Gauge,"Fill the Eternaglint Summit Lucky Gauge to 10%
+Reward: Volcano Spirit Stone x200",5,101751,200,27
+504110028,5041100,2,None,200,Clear any Stage with a Party of 200 total LUCK,"Clear any Stage in the Eternaglint Summit dungeon with a Party that has 200 LUCK or higher.
+Reward: Summit Treasure x1000",22,504110001,1000,28
+504110029,5041100,2,None,100,Clear any Stage with a Party of 100 total LUCK,"Clear any Stage in the Eternaglint Summit dungeon with a Party that has 100 LUCK or higher.
+Reward: Brilliance Spirit Stone x200",5,102054,200,29
+504110030,5041100,2,None,50,Clear any Stage with a Party of 50 total LUCK,"Clear any Stage in the Eternaglint Summit dungeon with a Party that has 50 LUCK or higher.
+Reward: Eternaglint Soulgem x10",5,131354,10,30
+504110031,5041100,4,5041105,50,Clear Stage 5 50 times,"Clear the ""Cage of the Elder Phoenix"" Stage of Eternaglint Summit 50 times.
+Reward: ★6 Equip LB Stone [Support] x1",16,10,1,31
+504110032,5041100,4,5041105,40,Clear Stage 5 40 times,"Clear the ""Cage of the Elder Phoenix"" Stage of Eternaglint Summit 40 times.
+Reward: ★6 Equip LB Stone [Heal] x1",16,9,1,32
+504110033,5041100,4,5041105,30,Clear Stage 5 30 times,"Clear the ""Cage of the Elder Phoenix"" Stage of Eternaglint Summit 30 times.
+Reward: ★6 Equip LB Stone [Defense] x1",16,8,1,33
+504110034,5041100,4,5041105,20,Clear Stage 5 20 times,"Clear the ""Cage of the Elder Phoenix"" Stage of Eternaglint Summit 20 times.
+Reward: ★6 Equip LB Stone [Magic] x1",16,7,1,34
+504110035,5041100,4,5041105,10,Clear Stage 5 10 times,"Clear the ""Cage of the Elder Phoenix"" Stage of Eternaglint Summit 10 times.
+Reward: ★6 Equip LB Stone [Physical] x1",16,6,1,35
+504110036,5041100,4,5041105,5,Clear Stage 5 5 times,"Clear the ""Cage of the Elder Phoenix"" Stage of Eternaglint Summit 5 times.
+Reward: Eternaglint Soulgem x10",5,131354,10,36
+504110037,5041100,1,5041105,1,Clear Stage 5,"Clear the ""Cage of the Elder Phoenix"" Stage of Eternaglint Summit.
+Reward: Eternaglint Soulgem x50",5,131354,50,37
+504110038,5041100,1,5041104,1,Clear Stage 4,"Clear the ""Restricting Spirit"" Stage of Eternaglint Summit.
+Reward: Eternaglint Soulgem x50",5,131354,50,38
+504110039,5041100,1,5041103,1,Clear Stage 3,"Clear the ""Thunderflash Roar"" Stage of Eternaglint Summit.
+Reward: Eternaglint Soulgem x50",5,131354,50,39
+504110040,5041100,1,5041102,1,Clear Stage 2,"Clear the ""Electromagnetic Field"" Stage of Eternaglint Summit.
+Reward: Eternaglint Soulgem x50",5,131354,50,40
+504110041,5041100,1,5041101,1,Clear Stage 1,"Clear the ""Numbing Wingbeats"" Stage of Eternaglint Summit.
+Reward: Summit Treasure x1000",22,504110001,1000,41
+504120001,5041200,5,None,200,Clear 200 dungeon Stages,"Clear a total of 200 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,1
+504120002,5041200,5,None,190,Clear 190 dungeon Stages,"Clear a total of 190 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,2
+504120003,5041200,5,None,180,Clear 180 dungeon Stages,"Clear a total of 180 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,3
+504120005,5041200,5,None,170,Clear 170 dungeon Stages,"Clear a total of 170 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,5
+504120006,5041200,5,None,160,Clear 160 dungeon Stages,"Clear a total of 160 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,6
+504120007,5041200,5,None,150,Clear 150 dungeon Stages,"Clear a total of 150 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,7
+504120008,5041200,5,None,140,Clear 140 dungeon Stages,"Clear a total of 140 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,8
+504120009,5041200,5,None,130,Clear 130 dungeon Stages,"Clear a total of 130 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,9
+504120010,5041200,5,None,120,Clear 120 dungeon Stages,"Clear a total of 120 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,10
+504120011,5041200,5,None,110,Clear 110 dungeon Stages,"Clear a total of 110 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,11
+504120012,5041200,5,None,100,Clear 100 dungeon Stages,"Clear a total of 100 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,12
+504120013,5041200,5,None,90,Clear 90 dungeon Stages,"Clear a total of 90 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,13
+504120014,5041200,5,None,80,Clear 80 dungeon Stages,"Clear a total of 80 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,14
+504120015,5041200,5,None,70,Clear 70 dungeon Stages,"Clear a total of 70 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,15
+504120016,5041200,5,None,60,Clear 60 dungeon Stages,"Clear a total of 60 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,16
+504120017,5041200,5,None,50,Clear 50 dungeon Stages,"Clear a total of 50 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,17
+504120018,5041200,5,None,40,Clear 40 dungeon Stages,"Clear a total of 40 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,18
+504120019,5041200,5,None,30,Clear 30 dungeon Stages,"Clear a total of 30 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,19
+504120020,5041200,5,None,20,Clear 20 dungeon Stages,"Clear a total of 20 Stages in the Sinflow Cavern dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,20
+504120021,5041200,5,None,10,Clear 10 dungeon Stages,"Clear a total of 10 Stages in the Sinflow Cavern dungeon.
+Reward: Cavern Treasure x1000",22,504120001,1000,21
+504120022,5041200,3,None,100,Reach 100% on the Lucky Gauge,"Fill the Sinflow Cavern Lucky Gauge to 100%
+Reward: Cavern Treasure x1000",22,504120001,1000,22
+504120023,5041200,3,None,50,Reach 50% on the Lucky Gauge,"Fill the Sinflow Cavern Lucky Gauge to 50%
+Reward: Shadow Spirit Stone x200",5,102155,200,23
+504120024,5041200,3,None,40,Reach 40% on the Lucky Gauge,"Fill the Sinflow Cavern Lucky Gauge to 40%
+Reward: Brilliance Spirit Stone x200",5,102054,200,24
+504120025,5041200,3,None,30,Reach 30% on the Lucky Gauge,"Fill the Sinflow Cavern Lucky Gauge to 30%
+Reward: Great Oak Spirit Stone x200",5,101953,200,25
+504120026,5041200,3,None,20,Reach 20% on the Lucky Gauge,"Fill the Sinflow Cavern Lucky Gauge to 20%
+Reward: Glacier Spirit Stone x200",5,101852,200,26
+504120027,5041200,3,None,10,Reach 10% on the Lucky Gauge,"Fill the Sinflow Cavern Lucky Gauge to 10%
+Reward: Volcano Spirit Stone x200",5,101751,200,27
+504120028,5041200,2,None,200,Clear any Stage with a Party of 200 total LUCK,"Clear any Stage in the Sinflow Cavern dungeon with a Party that has 200 LUCK or higher.
+Reward: Cavern Treasure x1000",22,504120001,1000,28
+504120029,5041200,2,None,100,Clear any Stage with a Party of 100 total LUCK,"Clear any Stage in the Sinflow Cavern dungeon with a Party that has 100 LUCK or higher.
+Reward: Shadow Spirit Stone x200",5,102155,200,29
+504120030,5041200,2,None,50,Clear any Stage with a Party of 50 total LUCK,"Clear any Stage in the Sinflow Cavern dungeon with a Party that has 50 LUCK or higher.
+Reward: Sinflow Soulgem x10",5,131455,10,30
+504120031,5041200,4,5041205,50,Clear Stage 5 50 times,"Clear the ""Abyss of Iniquity"" Stage of Sinflow Cavern 50 times.
+Reward: ★6 Equip LB Stone [Support] x1",16,10,1,31
+504120032,5041200,4,5041205,40,Clear Stage 5 40 times,"Clear the ""Abyss of Iniquity"" Stage of Sinflow Cavern 40 times.
+Reward: ★6 Equip LB Stone [Heal] x1",16,9,1,32
+504120033,5041200,4,5041205,30,Clear Stage 5 30 times,"Clear the ""Abyss of Iniquity"" Stage of Sinflow Cavern 30 times.
+Reward: ★6 Equip LB Stone [Defense] x1",16,8,1,33
+504120034,5041200,4,5041205,20,Clear Stage 5 20 times,"Clear the ""Abyss of Iniquity"" Stage of Sinflow Cavern 20 times.
+Reward: ★6 Equip LB Stone [Magic] x1",16,7,1,34
+504120035,5041200,4,5041205,10,Clear Stage 5 10 times,"Clear the ""Abyss of Iniquity"" Stage of Sinflow Cavern 10 times.
+Reward: ★6 Equip LB Stone [Physical] x1",16,6,1,35
+504120036,5041200,4,5041205,5,Clear Stage 5 5 times,"Clear the ""Abyss of Iniquity"" Stage of Sinflow Cavern 5 times.
+Reward: Sinflow Soulgem x10",5,131455,10,36
+504120037,5041200,1,5041205,1,Clear Stage 5,"Clear the ""Abyss of Iniquity"" Stage of Sinflow Cavern.
+Reward: Sinflow Soulgem x50",5,131455,50,37
+504120038,5041200,1,5041204,1,Clear Stage 4,"Clear the ""Glimmering Resentment"" Stage of Sinflow Cavern.
+Reward: Sinflow Soulgem x50",5,131455,50,38
+504120039,5041200,1,5041203,1,Clear Stage 3,"Clear the ""Infernal Blaze"" Stage of Sinflow Cavern.
+Reward: Sinflow Soulgem x50",5,131455,50,39
+504120040,5041200,1,5041202,1,Clear Stage 2,"Clear the ""Looming Clouds"" Stage of Sinflow Cavern.
+Reward: Sinflow Soulgem x50",5,131455,50,40
+504120041,5041200,1,5041201,1,Clear Stage 1,"Clear the ""Winged Eclipse"" Stage of Sinflow Cavern.
+Reward: Cavern Treasure x1000",22,504120001,1000,41
+504130001,5041300,5,None,200,Clear 200 dungeon Stages,"Clear a total of 200 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,1
+504130002,5041300,5,None,190,Clear 190 dungeon Stages,"Clear a total of 190 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,2
+504130003,5041300,5,None,180,Clear 180 dungeon Stages,"Clear a total of 180 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,3
+504130005,5041300,5,None,170,Clear 170 dungeon Stages,"Clear a total of 170 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,5
+504130006,5041300,5,None,160,Clear 160 dungeon Stages,"Clear a total of 160 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,6
+504130007,5041300,5,None,150,Clear 150 dungeon Stages,"Clear a total of 150 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,7
+504130008,5041300,5,None,140,Clear 140 dungeon Stages,"Clear a total of 140 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,8
+504130009,5041300,5,None,130,Clear 130 dungeon Stages,"Clear a total of 130 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,9
+504130010,5041300,5,None,120,Clear 120 dungeon Stages,"Clear a total of 120 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,10
+504130011,5041300,5,None,110,Clear 110 dungeon Stages,"Clear a total of 110 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,11
+504130012,5041300,5,None,100,Clear 100 dungeon Stages,"Clear a total of 100 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,12
+504130013,5041300,5,None,90,Clear 90 dungeon Stages,"Clear a total of 90 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,13
+504130014,5041300,5,None,80,Clear 80 dungeon Stages,"Clear a total of 80 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,14
+504130015,5041300,5,None,70,Clear 70 dungeon Stages,"Clear a total of 70 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,15
+504130016,5041300,5,None,60,Clear 60 dungeon Stages,"Clear a total of 60 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,16
+504130017,5041300,5,None,50,Clear 50 dungeon Stages,"Clear a total of 50 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,17
+504130018,5041300,5,None,40,Clear 40 dungeon Stages,"Clear a total of 40 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,18
+504130019,5041300,5,None,30,Clear 30 dungeon Stages,"Clear a total of 30 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,19
+504130020,5041300,5,None,20,Clear 20 dungeon Stages,"Clear a total of 20 Stages in the Frostsprite Tundra dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,20
+504130021,5041300,5,None,10,Clear 10 dungeon Stages,"Clear a total of 10 Stages in the Frostsprite Tundra dungeon.
+Reward: Tundra Treasure x1000",22,504130001,1000,21
+504130022,5041300,3,None,100,Reach 100% on the Lucky Gauge,"Fill the Frostsprite Tundra Lucky Gauge to 100%
+Reward: Tundra Treasure x1000",22,504130001,1000,22
+504130023,5041300,3,None,50,Reach 50% on the Lucky Gauge,"Fill the Frostsprite Tundra Lucky Gauge to 50%
+Reward: Shadow Spirit Stone x200",5,102155,200,23
+504130024,5041300,3,None,40,Reach 40% on the Lucky Gauge,"Fill the Frostsprite Tundra Lucky Gauge to 40%
+Reward: Brilliance Spirit Stone x200",5,102054,200,24
+504130025,5041300,3,None,30,Reach 30% on the Lucky Gauge,"Fill the Frostsprite Tundra Lucky Gauge to 30%
+Reward: Great Oak Spirit Stone x200",5,101953,200,25
+504130026,5041300,3,None,20,Reach 20% on the Lucky Gauge,"Fill the Frostsprite Tundra Lucky Gauge to 20%
+Reward: Glacier Spirit Stone x200",5,101852,200,26
+504130027,5041300,3,None,10,Reach 10% on the Lucky Gauge,"Fill the Frostsprite Tundra Lucky Gauge to 10%
+Reward: Volcano Spirit Stone x200",5,101751,200,27
+504130028,5041300,2,None,200,Clear any Stage with a Party of 200 total LUCK,"Clear any Stage in the Frostsprite Tundra dungeon with a Party that has 200 LUCK or higher.
+Reward: Tundra Treasure x1000",22,504130001,1000,28
+504130029,5041300,2,None,100,Clear any Stage with a Party of 100 total LUCK,"Clear any Stage in the Frostsprite Tundra dungeon with a Party that has 100 LUCK or higher.
+Reward: Glacier Spirit Stone x200",5,101852,200,29
+504130030,5041300,2,None,50,Clear any Stage with a Party of 50 total LUCK,"Clear any Stage in the Frostsprite Tundra dungeon with a Party that has 50 LUCK or higher.
+Reward: Frostsprite Soulgem x10",5,132152,10,30
+504130031,5041300,4,5041305,50,Clear Stage 5 50 times,"Clear the ""Realm of Icicles"" Stage of Frostsprite Tundra 50 times.
+Reward: ★6 Equip LB Stone [Support] x1",16,10,1,31
+504130032,5041300,4,5041305,40,Clear Stage 5 40 times,"Clear the ""Realm of Icicles"" Stage of Frostsprite Tundra 40 times.
+Reward: ★6 Equip LB Stone [Heal] x1",16,9,1,32
+504130033,5041300,4,5041305,30,Clear Stage 5 30 times,"Clear the ""Realm of Icicles"" Stage of Frostsprite Tundra 30 times.
+Reward: ★6 Equip LB Stone [Defense] x1",16,8,1,33
+504130034,5041300,4,5041305,20,Clear Stage 5 20 times,"Clear the ""Realm of Icicles"" Stage of Frostsprite Tundra 20 times.
+Reward: ★6 Equip LB Stone [Magic] x1",16,7,1,34
+504130035,5041300,4,5041305,10,Clear Stage 5 10 times,"Clear the ""Realm of Icicles"" Stage of Frostsprite Tundra 10 times.
+Reward: ★6 Equip LB Stone [Physical] x1",16,6,1,35
+504130036,5041300,4,5041305,5,Clear Stage 5 5 times,"Clear the ""Realm of Icicles"" Stage of Frostsprite Tundra 5 times.
+Reward: Frostsprite Soulgem x10",5,132152,10,36
+504130037,5041300,1,5041305,1,Clear Stage 5,"Clear the ""Realm of Icicles"" Stage of Frostsprite Tundra.
+Reward: Frostsprite Soulgem x50",5,132152,50,37
+504130038,5041300,1,5041304,1,Clear Stage 4,"Clear the ""Furious Biting Chill"" Stage of Frostsprite Tundra.
+Reward: Frostsprite Soulgem x50",5,132152,50,38
+504130039,5041300,1,5041303,1,Clear Stage 3,"Clear the ""Corrosive Bellow"" Stage of Frostsprite Tundra.
+Reward: Frostsprite Soulgem x50",5,132152,50,39
+504130040,5041300,1,5041302,1,Clear Stage 2,"Clear the ""Giant of the Sand Field"" Stage of Frostsprite Tundra.
+Reward: Frostsprite Soulgem x50",5,132152,50,40
+504130041,5041300,1,5041301,1,Clear Stage 1,"Clear the ""Giant of the Snow Field"" Stage of Frostsprite Tundra.
+Reward: Tundra Treasure x1000",22,504130001,1000,41
+504140001,5041400,5,None,200,Clear 200 dungeon Stages,"Clear a total of 200 Stages in the Sealed Holy Land dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,1
+504140002,5041400,5,None,190,Clear 190 dungeon Stages,"Clear a total of 190 Stages in the Sealed Holy Land dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,2
+504140003,5041400,5,None,180,Clear 180 dungeon Stages,"Clear a total of 180 Stages in the Sealed Holy Land dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,3
+504140004,5041400,5,None,170,Clear 170 dungeon Stages,"Clear a total of 170 Stages in the Sealed Holy Land dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,4
+504140005,5041400,5,None,160,Clear 160 dungeon Stages,"Clear a total of 160 Stages in the Sealed Holy Land dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,5
+504140006,5041400,5,None,150,Clear 150 dungeon Stages,"Clear a total of 150 Stages in the Sealed Holy Land dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,6
+504140007,5041400,5,None,140,Clear 140 dungeon Stages,"Clear a total of 140 Stages in the Sealed Holy Land dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,7
+504140008,5041400,5,None,130,Clear 130 dungeon Stages,"Clear a total of 130 Stages in the Sealed Holy Land dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,8
+504140009,5041400,5,None,120,Clear 120 dungeon Stages,"Clear a total of 120 Stages in the Sealed Holy Land dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,9
+504140010,5041400,5,None,110,Clear 110 dungeon Stages,"Clear a total of 110 Stages in the Sealed Holy Land dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,10
+504140011,5041400,5,None,100,Clear 100 dungeon Stages,"Clear a total of 100 Stages in the Sealed Holy Land dungeon.
+Reward: Sinflow Soulgem x10",5,131455,10,11
+504140012,5041400,5,None,90,Clear 90 dungeon Stages,"Clear a total of 90 Stages in the Sealed Holy Land dungeon.
+Reward: Eternaglint Soulgem x10",5,131354,10,12
+504140013,5041400,5,None,80,Clear 80 dungeon Stages,"Clear a total of 80 Stages in the Sealed Holy Land dungeon.
+Reward: Smogdragon Soulgem x10",5,130653,10,13
+504140014,5041400,5,None,70,Clear 70 dungeon Stages,"Clear a total of 70 Stages in the Sealed Holy Land dungeon.
+Reward: Frostsprite Soulgem x10",5,132152,10,14
+504140015,5041400,5,None,60,Clear 60 dungeon Stages,"Clear a total of 60 Stages in the Sealed Holy Land dungeon.
+Reward: Flametail Soulgem x10",5,130853,10,15
+504140016,5041400,5,None,50,Clear 50 dungeon Stages,"Clear a total of 50 Stages in the Sealed Holy Land dungeon.
+Reward: Holy Treasure x500",22,504140001,500,16
+504140017,5041400,5,None,40,Clear 40 dungeon Stages,"Clear a total of 40 Stages in the Sealed Holy Land dungeon.
+Reward: Holy Treasure x500",22,504140001,500,17
+504140018,5041400,5,None,30,Clear 30 dungeon Stages,"Clear a total of 30 Stages in the Sealed Holy Land dungeon.
+Reward: Holy Treasure x500",22,504140001,500,18
+504140019,5041400,5,None,20,Clear 20 dungeon Stages,"Clear a total of 20 Stages in the Sealed Holy Land dungeon.
+Reward: Holy Treasure x500",22,504140001,500,19
+504140020,5041400,5,None,10,Clear 10 dungeon Stages,"Clear a total of 10 Stages in the Sealed Holy Land dungeon.
+Reward: Holy Treasure x500",22,504140001,500,20
+504140021,5041400,3,None,100,Reach 100% on the Lucky Gauge,"Fill the Sealed Holy Land Lucky Gauge to 100%
+Reward: Holy Treasure x1000",22,504140001,1000,21
+504140022,5041400,3,None,50,Reach 50% on the Lucky Gauge,"Fill the Sealed Holy Land Lucky Gauge to 50%
+Reward: Shadow Spirit Stone x200",5,102155,200,22
+504140023,5041400,3,None,40,Reach 40% on the Lucky Gauge,"Fill the Sealed Holy Land Lucky Gauge to 40%
+Reward: Brilliance Spirit Stone x200",5,102054,200,23
+504140024,5041400,3,None,30,Reach 30% on the Lucky Gauge,"Fill the Sealed Holy Land Lucky Gauge to 30%
+Reward: Great Oak Spirit Stone x200",5,101953,200,24
+504140025,5041400,3,None,20,Reach 20% on the Lucky Gauge,"Fill the Sealed Holy Land Lucky Gauge to 20%
+Reward: Glacier Spirit Stone x200",5,101852,200,25
+504140026,5041400,3,None,10,Reach 10% on the Lucky Gauge,"Fill the Sealed Holy Land Lucky Gauge to 10%
+Reward: Volcano Spirit Stone x200",5,101751,200,26
+504140027,5041400,4,5041405,50,Clear Stage 5 50 times,"Clear the ""Merciless Divinity"" Stage of Sealed Holy Land 50 times.
+Reward: ★6 Equip LB Stone [Support] x1",16,10,1,27
+504140028,5041400,4,5041405,40,Clear Stage 5 40 times,"Clear the ""Merciless Divinity"" Stage of Sealed Holy Land 40 times.
+Reward: ★6 Equip LB Stone [Heal] x1",16,9,1,28
+504140029,5041400,4,5041405,30,Clear Stage 5 30 times,"Clear the ""Merciless Divinity"" Stage of Sealed Holy Land 30 times.
+Reward: ★6 Equip LB Stone [Defense] x1",16,8,1,29
+504140030,5041400,4,5041405,20,Clear Stage 5 20 times,"Clear the ""Merciless Divinity"" Stage of Sealed Holy Land 20 times.
+Reward: ★6 Equip LB Stone [Magic] x1",16,7,1,30
+504140031,5041400,4,5041405,10,Clear Stage 5 10 times,"Clear the ""Merciless Divinity"" Stage of Sealed Holy Land 10 times.
+Reward: ★6 Equip LB Stone [Physical] x1",16,6,1,31
+504140032,5041400,4,5041405,5,Clear Stage 5 5 times,"Clear the ""Merciless Divinity"" Stage of Sealed Holy Land 5 times.
+Reward: Sinflow Soulgem x50",5,131455,50,32
+504140033,5041400,1,5041405,1,Clear Stage 5,"Clear the ""Merciless Divinity"" Stage of Sealed Holy Land.
+Reward: Eternaglint Soulgem x50",5,131354,50,33
+504140034,5041400,1,5041404,1,Clear Stage 4,"Clear the ""Unleashed Ruination"" Stage of Sealed Holy Land.
+Reward: Smogdragon Soulgem x50",5,130653,50,34
+504140035,5041400,1,5041403,1,Clear Stage 3,"Clear the ""Tyrant of the Labyrinth"" Stage of Sealed Holy Land.
+Reward: Frostsprite Soulgem x50",5,132152,50,35
+504140036,5041400,1,5041402,1,Clear Stage 2,"Clear the ""Flame Ridge Lord"" Stage of Sealed Holy Land.
+Reward: Flametail Soulgem x50",5,130853,50,36
+504140037,5041400,1,5041401,1,Clear Stage 1,"Clear the ""Burial at Sea"" Stage of Sealed Holy Land.
+Reward: Holy Treasure x1000",22,504140001,1000,37

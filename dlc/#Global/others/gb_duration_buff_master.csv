@@ -1,0 +1,12 @@
+id,buff_type,buff_param1,buff_param2,buff_param3,buff_sec,name,description,icon_name
+10001,1,200,0,0,600,100% Regalia EXP Boost,Boosts Regalia EXP by 100% for 600s,bonus_buff.png
+10002,1,300,0,0,600,200% Regalia EXP Boost,Boosts Regalia EXP by 200% for 600s,bonus_buff.png
+20001,2,200,0,0,600,100% Treasure Boost,Boosts Treasure items by 100% for 600s,bonus_material.png
+20002,2,300,0,0,600,200% Treasure Boost,Boosts Treasure items by 200% for 600s,bonus_material.png
+30001,3,0,0,0,0,Free AP,Recovers all units' AP and removes AP cost,bonus_stamina.png
+40001,4,200,1,0,1800,Health Tonic,Doubles the EXP gain of Health Regalia for 30 minutes,bonus_material.png
+40002,4,200,2,0,1800,Power Tonic,Doubles the EXP gain of Power Regalia for 30 minutes,bonus_material.png
+40003,4,200,3,0,1800,Guard Tonic,Doubles the EXP gain of Guard Regalia for 30 minutes,bonus_material.png
+40004,4,200,4,0,1800,Resist Tonic,Doubles the EXP gain of Resist Regalia for 30 minutes,bonus_material.png
+40005,4,200,6,0,1800,Break Tonic,Doubles the EXP gain of Break Regalia for 30 minutes,bonus_material.png
+40006,4,200,5,0,1800,Mind Tonic,Doubles the EXP gain of Mind Regalia for 30 minutes,bonus_material.png

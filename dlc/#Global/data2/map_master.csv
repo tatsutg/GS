@@ -1,0 +1,115 @@
+id,name,map_no,icon_position_x,icon_position_y,is_special,view_type,event_title,event_description,start_at,end_at,status,area_type
+10000,Isliid Empire,10000,412,1190,0,0,Meeting in Isliid,"Rayas, aspiring to be a first-class adventurer,
+takes the Guild's initiation exam but is
+interrupted when he finds a girl with amnesia 
+named Iris.",None,None,1,1
+20000,Republic of Gramenia,20000,890,762,0,0,Intrigue in Gramenia,"After driving away Grad from the Demonseal 
+Tower, Roy takes Rayas and Iris to Gramenia
+in search of someone who can help their quest.",None,None,1,1
+30000,West Famelle,30000,832,330,0,0,Search in Famelle,"Rayas' group learns the Towers are the key
+to releasing the sealed Demons. Together
+with Fen, they head to the Royal Library 
+of Lagan.",None,None,1,1
+40000,East Famelle,40000,1360,368,0,0,Hero of Famelle,"Rayas is stunned when he sees a girl that 
+resembles Iris. However, he soon recovers 
+his determination and hurries for Liima to stop 
+the Demons' plot.",None,None,1,1
+50000,Sealed Fortress Gormarey,50000,1620,656,0,0,Clash in Gormarey,"No matter what happens, Rayas wants to 
+protect his allies. He lets that intent guide 
+him into Gormarey in order to end the battle
+with Ragsherum.",None,None,1,1
+60000,Principality of Bamint,60000,1200,1500,0,1,Missing from Bamint,"To ascertain the truth of Mira's imprisonment,
+Rayas and Iris head for Bamint, praying for
+her safety along the way.",None,None,1,1
+70000,Magus Empire of La Riiz,70000,1700,1020,0,1,Battle in La Riiz,"Mira vanishes, leaving behind ominous words.
+Rayas' group continues to La Riiz to stop the 
+cult there with the help of Melia.",None,None,1,1
+80000,"Aerial City, La Riiz",80000,1600,1600,0,1,Destiny of La Riiz,"As Melia's consciousness fades, she whispers
+that she does not want to lose anyone else.
+Rayas goes to the floating city, shouldering 
+her will.",None,None,1,1
+90000,Isliid Underground Cavern,90000,700,1250,0,1,Secret of Isliid,"Determined to protect Humanity from
+the revived threats of Giaveil and Za'remnah,
+Rayas and his allies hurry back to Isliid.",None,None,1,1
+100000,The Sealed Holy Land,100000,412,860,0,1,In the Sealed Holy Land,"Celia is the enemy. The world is turned 
+upside-down. The Ancients. Iris' memories. 
+His allies. Celia herself. As countless emotions 
+flood his mind, he nears the conclusion.",None,None,1,1
+110000,North Famelle,110000,1110,520,0,1,Escape from Famelle,"A new adventure in Raktehelm begins!
+The Cult has invaded every country with 
+a Demonseal Tower However, those are not 
+their only targets...",None,None,1,1
+120000,Central Gramenia,120000,880,978,0,1,The Gramenian Gauntlet,"Rayas and the Zero Guard
+have sworn to return Iris to Isliid safely.
+However, they need more than determination
+to overcome what looms before them...",None,None,1,1
+130000,South Bamint,130000,1100,1240,0,1,The Defense of Bamint,"Fen has identified an Ancient leading
+the Cult's forces. He takes Rayas' party
+to Bamint in order to retrieve the weapon
+which once defeated Celia, Grand Scale.",None,None,1,1
+140000,North La Riiz,140000,1600,1400,0,1,Clash in La Riiz,"The Ancients have finally taken Iris.
+Though wrestling with their own regrets,
+everyone decides to turn the chase around
+and attack the Cult's base: La Riiz.",None,None,1,1
+150000,South La Riiz,150000,1500,1000,0,1,Battle in La Riiz,"Rayas pushes ever onward,
+no matter what pushes back.
+With an indomitable spirit,
+he traverses the Magus Empire.",None,None,1,1
+160000,North Isliid,160000,670,1450,0,1,Showdown in Isliid,"""Are you my enemy?""
+As promise and hate mingle,
+Rayas reaches for
+the sword of hope.",None,None,1,1
+170000,West Isliid,170000,320,1370,0,1,Survey of Isliid,"The Imperial Blades
+have shattered the binds.
+As two worlds reconverge,
+a new age dawns on Raktehelm.",None,None,1,1
+180000,West Gramenia,180000,700,700,0,1,Crossing in Gramenia,"Two worlds gradually converge,
+rejoining the Eight Great Races.
+The children of Gran Verge swear to reclaim
+their sword and their kingdom.",None,None,1,1
+190000,East Gramenia,190000,1150,890,0,1,Wanderers of Gramenia,"The World Drops quietly hum.
+As a former servant dives into the abyss,
+her friend charges to the rescue.",None,None,1,1
+200000,South Gramenia,200000,1100,700,0,1,Memories of Gramenia,"Irrationality must be resisted.
+At the end of his long journey,
+the solitary strategist finds himself...",None,None,1,1
+210000,West La Riiz,210000,1450,1230,0,1,Wishes in La Riiz,"By the meteor impact site in La Riiz,
+two old comrades determine which
+of them gave up on their desires.",None,None,1,1
+220000,East La Riiz,220000,1730,1200,0,1,Supernova in La Riiz,"When the meteors fell, one gave rise to a star of hope.",None,None,1,1
+230000,West Bamint,230000,950,1430,0,1,Flight over Bamint,"Beneath the ivy-covered walls, 
+two sisters clash blades.
+Between past and future, her heart burns bright.",None,None,1,1
+240000,South Iscator,240000,1930,890,0,1,Daybreak at Iscator,"Carried by hope and remorse,
+Hart the Bulletmancer arrives on
+Iscator. There, he is surprised to see
+a familiar face far from home.",None,None,1,1
+250000,Central Iscator,250000,2050,1100,0,1,Stirrings in Iscator,"On the new continent of Iscator
+where numerous hopes meet,
+a single-minded ruler faces them all.",None,None,1,1
+260000,East Iscator,260000,2150,1270,0,1,Juncture in Iscator,"Two shadows overlap after
+countless years, giving rise
+to a new miracle.",None,None,1,1
+270000,North Iscator,270000,1970,1300,0,1,Horizon in Iscator,"With a swing of Rune Sovereign,
+Emperor Isliid splits the sky
+to pry open the door to a new world.",None,None,1,1
+280000,Iscator Skies,280000,2100,1470,0,1,Pledge in Iscator,"One started with despair, the other with hope.
+Beneath the World Tree in the skies above,
+Rayas clashes with his former friend.",2024-02-05 16:00:00-08:00,None,1,1
+290000,Northeast La Riiz,290000,1800,1380,0,1,Moonlight in La Riiz,"Those words would eventually bring doom.
+On the day the stars fell upon Raktehelm,
+a new life and a new world began to stir.",2024-05-31 13:00:00-08:00,None,1,1
+300000,Deus Gate,300000,480,700,0,1,Seeking the Deus Gate,"Awaiting beyond is
+the aerial realm of Altohelm.
+Here, Rayas meets with a new fate.",2024-08-21 13:00:00-08:00,None,1,2
+310000,Central Deus Gate,310000,750,765,0,1,Echoes of the Deus Gate,"On Altohelm's floating landmasses,
+Rayas and his allies are caught
+in the scheme between Gods and Demons.",2025-12-17 18:00:00-08:00,None,1,2
+320000,Inner Deus Gate,320000,840,580,0,1,Meeting at the Deus Gate,"While battling the Divine Knights,
+Rayas encounters another
+wielder of the Kingdom Blade.",2024-11-30 16:00:00-08:00,None,1,2
+330000,North Falfania,330000,1260,620,0,1,Reception in Falfania,"Light pours, and the qualified gather. The Great Seal Banquet begins.",2025-01-31 15:00:00-08:00,None,1,2
+340000,Central Falfania,340000,1580,540,0,1,Roar of Falfania,"Rayas' party enters the forest.
+They head further eastward,
+towards the former site of Granadia.",2025-06-23 14:00:00-08:00,None,1,2
+990000,Exploring,990000,0,0,1,1,,,None,None,1,0

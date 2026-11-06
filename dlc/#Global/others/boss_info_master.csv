@@ -1,0 +1,1333 @@
+id,boss_type,quest_id,enemy_id,priority,description,status_json,boss_icon_image
+1,1,5040901,5040900,5,"Island Belgiras
+- Physical resistance
+- Skill: Has a chance to inflict Poison
+- Arts: Roar - Lowers enemy DEF
+
+Increases Evasion rate at 50% HP.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""◎""},{""name"":""Seal Res."",""value"":""◎""},{""name"":""Paralyze Res."",""value"":""○""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""○""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""◎""}]}",boss_icon_5040900.png
+2,1,5040902,5040905,4,"Island Palamicia
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Increased DMG from Machines
+- Increased DMG from Spirits
+- Reduced DMG from Poisoned units
+- Skill: Lowers enemy Poison resistance & has a chance to inflict Poison
+
+High CRI rate counterattack.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""△""},{""name"":""Seal Res."",""value"":""◎""},{""name"":""Paralyze Res."",""value"":""△""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""△""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5040905.png
+3,1,5040903,5040910,3,"Corogran (Earth/Spirit)
+- CRI resistance
+
+Mohldora (Earth/Spirit)
+- CRI resistance
+
+Island Goldora
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Earth resistance
+- Shield killer
+- Arts: Chewing Rose - Deals fixed DMG with extra DMG to Poisoned enemies
+- Arts: Grand Cry - More DMG with each use
+
+Reduces all DMG taken except CRI hits. 
+Increased DMG taken when Poisoned. 
+Increased Poison resistance at 50% HP. 
+Increased CRI resistance at 30% HP.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5040910.png
+4,1,5040904,5040915,2,"Gernorse (Water/Dragon)
+- Nullifies CRI DMG
+- Skill: Has a chance to inflict Freeze
+- Arts: Sky Tremble - Has a chance to inflict Freeze
+
+Blue Skeleton (Water/Demon)
+- Nullifies all DMG except Poison
+- Arts: Cold Slasher - Lowers CRI resistance
+
+Herck (Water/Giant)
+- Reflect resistance
+- Water resistance
+- Cancels DMG nullification
+- Arts: Calamity Wave - Lowers enemy Accuracy
+- Arts: Chaos Disaster - Has a chance to inflict Poison
+
+Island Subject γ-2
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- HP Auto-recovery killer
+- Arts: Mad Predator - Deals more DMG with each use & has a chance to inflict Poison
+- Arts: Crimson Beating - Boosts CRI rate
+
+Units deal more DMG according to the number of active Poison instances.
+At 30% HP, deals DMG according to a unit's number of active Poison instances.","{""status"":[{""name"":""Poison Res."",""value"":""×""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5040915.png
+5,1,5040905,5040920,1,"Dohla (Earth/God)
+- Arts: Emerald Leaf - Reduces allies' Magic DMG
+
+Dark Coroc: (Dark/Spirit)
+- Nullifies CRI DMG
+- Takes more DMG and increases BE output when Poisoned
+- When allies are present, only 1 takes damage per attack
+- Skill: Has a chance to inflict Disease
+- Arts: Everyone's Anger - Lowers enemy Status Ailment resistance
+
+Island Elpneumas
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Cancels DMG nullification
+- Spirit killer
+- Arts: Gale Breath - Deals more DMG with each use
+- Arts: Gaia Grief - Auto-recovers HP & prioritizes Fainting the rightmost unit
+
+Deals the advanced Status Ailment Envenom to all party members.
+Envenom deals increased DMG over time and cannot be cured.","{""status"":[{""name"":""Poison Res."",""value"":""×""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""〇""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5040920.png
+6,1,5041001,5041000,5,"Mountain Degilmagna
+- Magic resistance
+- Skill: Has a chance to inflict Burn
+- Arts: Crimson Breath - Has a chance to inflict Burn
+
+At 30% HP, boosts ATK.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""○""},{""name"":""封印耐性"",""value"":""◎""},{""name"":""麻痺耐性"",""value"":""○""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""○""},{""name"":""氷結耐性"",""value"":""◎""},{""name"":""燃焼耐性"",""value"":""▲""}]}",boss_icon_5041000.png
+7,1,5041002,5041005,4,"Mountain Tonetaurus
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Magic resistance
+- Skill: Has a chance to inflict Paralysis
+- Arts: Neposufortuna - Boosts DMG dealt
+- Arts: Ptera Bolt - Has a chance to inflict Paralysis
+- Arts: Chunosubrante - Boosts CRI rate
+  & has a chance to inflict Paralysis
+
+Deals reduced DMG while Burning.
+At 80%/30% HP, enters Flight.
+Activates Storm mode which boosts Evasion
+when using Chunosubrante or entering Flight.
+Storm mode ends with Break.","{""status"":[{""name"":""毒耐性"",""value"":""△""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_5041005.png
+8,1,5041003,5041010,3,"Mountain Garm
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Magic resistance
+- Shield killer
+- Skill: Has a chance to inflict Burn
+- Arts: Inferno Charge - Lowers enemy Burn resistance
+- Arts: Megido Flame - Cancels DMG nullification
+
+Takes reduced DMG from Burning units.
+Takes increased Break DMG while Frozen.
+Takes increased DMG during Break.
+At 0% HP, uses Megido Flame.","{""status"":[{""name"":""毒耐性"",""value"":""△""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""△""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""◎""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_5041010.png
+9,1,5041004,5041015,2,"Samarro (Fire/Giant)
+- Takes increased DMG while Frozen
+- Skill: Has a chance to inflict Burn
+- Arts: Full Force Punch - Has a chance to inflict Burn
+
+Grovogg (Fire/Dragon)
+- Takes increased DMG while Frozen
+- Skill: Lowers enemy Burn resistance
+- Arts: Crimson Burn - Lowers enemy Burn resistance
+
+Fatewyrm Dargeon (Fire/Dragon)
+- Reflect resistance
+- Fire resistance
+- Cancels DMG nullification
+- Arts: Inferno Burst - Has a chance to inflict Burn
+
+At 70%/30% HP, uses Inferno Burst
+& boosts ATK speed.
+
+Mountain Ugetsu
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Status Ailment resistance
+- Demon killer
+- Skill: Lowers enemy Skill CT speed & inflicts Burn
+- Arts: Cursed Absorption - Recovers HP
+- Arts: Wrath of the Jaw - Boosts CRI rate
+
+Takes increased DMG with each Break.
+Uses only Wrath of the Jaw when below 50% HP.
+
+At 80% HP, uses Wrath of the Jaw.
+At 50% HP, uses Wrath of the Jaw
+& boosts Evasion rate/Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_5041015.png
+10,1,5041005,5041020,1,"Cremator Dragon Teriodos (Fire/Dragon)
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- CRI resistance
+- Shield killer
+- Earth killer
+- Arts: Calamity Flame - Boosts DMG dealt
+- Arts: Gate of the Apocalypse -
+  Lowers enemy Burn resistance & inflicts Burn
+
+Mountain Ugetsu
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Magic resistance
+- Shield killer
+- Arts: Awakening of the Dead -
+  Lowers enemy Max HP by 1000 with each use
+- Arts: Chant of Doom -
+  Boosts enemy DMG taken with each use
+
+Increased CRI rate against unit
+that deals the greatest total DMG.
+Takes increased DMG with each Break.
+Periodically lowers enemy Skill CT speed.
+
+The first Chant of Doom temporarily halts
+the rightmost unit.
+The second Chant of Doom temporarily halts
+the leftmost unit.","{""status"":[{""name"":""毒耐性"",""value"":""〇""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""〇""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_5041020.png
+11,1,5041101,5041100,5,"Summit Valzandeth
+- Skill: Has a chance to inflict Paralysis
+- Arts: Shadow Lightning - Lowers enemy Paralysis resistance
+- Arts: Roar of Ruin - Has a chance to inflict Paralysis
+
+At 50% HP, uses Roar of Ruin & boosts Evasion rate.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""〇""},{""name"":""Seal Res."",""value"":""◎""},{""name"":""Paralyze Res."",""value"":""◎""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""〇""},{""name"":""Freeze Res."",""value"":""◎""},{""name"":""Burn Res."",""value"":""◎""}]}",boss_icon_5041100.png
+12,1,5041102,5041105,4,"Summit Code XTF: Eraser
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Lowers enemy Paralysis resistance
+  & has a chance to inflict Paralysis/Burn
+- Arts: Crash Commitment - Boosts DMG dealt
+- Arts: Eraser Cannon - Has a chance to inflict Paralysis
+- Arts: Exist = Banira - Has a chance to inflict Paralysis
+- Arts: Finis = Makina - Boosts CRI rate
+
+Takes reduced DMG during Shield mode.
+Shield mode ends with Break.
+Action speed UP during Attack mode.
+At 50% HP, uses Crash Commitment if in Shield mode
+or Exist = Banira if in Attack mode.
+At 30% HP, uses Eraser Cannon if in Shield mode
+or Yuri = Banira if in Attack mode.
+At 0% HP, uses Finis = Makina.","{""status"":[{""name"":""Poison Res."",""value"":""△""},{""name"":""Blind Res."",""value"":""△""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""◎""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041105.png
+13,1,5041103,5041110,3,"Summit Fosradius
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Increased CRI rate against Humans/Spirits
+- Skill: Boosts enemy DMG taken & has a chance to inflict Paralysis/Faint
+- Arts: Judgement Breath - Has a chance to inflict Paralysis
+- Arts: Shining Cry - Boosts DMG dealt
+
+Skill: ""Knock Down Breath"" lowers enemy recovery amount with each use.
+Shining Cry lowers enemy Accuracy with each use.
+At 70% HP, uses Photon Breath
+& boosts CRI resistance/Arts gauge fill speed.
+At 30% HP, uses Photon Breath
+& boosts CRI resistance/Arts gauge fill speed.","{""status"":[{""name"":""Poison Res."",""value"":""〇""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""△""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""△""},{""name"":""Freeze Res."",""value"":""△""},{""name"":""Burn Res."",""value"":""〇""}]}",boss_icon_5041110.png
+14,1,5041104,5041115,2,"Dark Coroc (Dark/Spirit)
+- Takes increased DMG while Blind
+- Skill: Has a chance to inflict Blind
+- Arts: Everyone's Anger - Lowers enemy Status Ailment resistance
+
+Light Coroc (Light/Spirit)
+- Takes increased DMG while Paralyzed
+- Skill: Has a chance to inflict Paralysis
+- Arts: Everybody's Shine - Recovers HP
+
+Summit Wilkes
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Shield killer
+- Skill: Has a chance to inflict Paralysis
+- Arts: Santa Rovina - Lowers enemy Max HP with each use
+- Arts: Treamaltia - Cancels DMG nullification
+
+DMG lowered by number of Dark Corocs and Light Corocs active.
+Takes reduced DMG until Break.
+At 80% HP, uses Treamaltia & boosts DMG dealt.
+At 50% HP, uses Treamaltia, boosts Arts gauge fill speed
+& lowers own CRI resistance.
+At 20% HP, uses Treamaltia
+& boosts DEF/Arts gauge fill speed.","{""status"":[{""name"":""Poison Res."",""value"":""△""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""△""}]}",boss_icon_5041115.png
+15,1,5041105,5041120,1,"Crimson Knight Mirza (Fire/God)
+- DMG UP after taking CRI hits
+- Skill: Has a chance to inflict Burn
+- Arts: Scarlet Sonic - Lowers enemy Burn resistance
+
+EDEN-type Ω (Light/Machine)
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- CRI resistance
+- Arts: Cosmos Soul - Lowers enemy ATK with each use
+
+The lower unit's HP, the more DMG dealt.
+At 50% HP, uses Force Distortion & boosts DEF.
+At 30% HP, uses Force Distortion & boosts Arts gauge fill speed.
+
+Summit Fongion
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Auto-recovery killer
+- Skill: Has a chance to inflict Paralysis
+- Arts: Endless - Boosts CRI rate
+
+Increased CRI rate against unit that deals the greatest total DMG.
+Periodically inflicts Faint and significantly lowers Arts gauges for a unit.
+Gate of Kairos & Endless inflicts Faint and forces units to move.
+Dark Ray inflicts Faint and lowers Accuracy for the unit
+that deals the greatest total DMG.
+
+At 100% HP, uses Gate of Kairos.
+At 60% HP, uses Chronos Reversal & recovers HP,
+then uses Gate of Kairos & boosts CRI resistance.
+At 40% HP, uses Chronos Reversal & recovers HP,
+then uses Gate of Kairos & boosts DMG dealt.
+At 20% HP, uses Chronos Reversal & recovers HP,
+then uses Gate of Kairos & boosts DEF/Arts gauge fill speed.
+At 0% HP, uses Endless.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""◎""}]}",boss_icon_5041120.png
+16,1,5041201,5041200,5,"Cavern Villakurz
+- Skill: Has a chance to inflict Blind
+- Arts: Invisible Cannon - Lowers enemy Blind resistance
+- Arts: Kurzen Roar - Boosts DMG dealt
+  & has a chance to inflict Blind
+
+Takes increased DMG with Break.
+At 50% HP, uses Kurzen Roar & boosts ATK.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""◎""},{""name"":""Seal Res."",""value"":""◎""},{""name"":""Paralyze Res."",""value"":""〇""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""〇""},{""name"":""Freeze Res."",""value"":""〇""},{""name"":""Burn Res."",""value"":""◎""}]}",boss_icon_5041200.png
+17,1,5041202,5041205,4,"Cavern Agnophobos
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Arts: Ill Desire - Has a chance to boost DMG dealt
+  & inflict Paralysis/Blind
+
+Summons monsters at set intervals.
+Increased ATK & CRI rate for all monsters over time.
+Takes reduced DMG until Break.
+At 50% HP, uses Ill Desire, boosts CRI resistance,
+& boosts Arts gauge fill speed.","{""status"":[{""name"":""Poison Res."",""value"":""△""},{""name"":""Blind Res."",""value"":""△""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""◎""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041205.png
+18,1,5041203,5041210,3,"Cavern Ifrit
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Faint
+- Arts: Vulcan Knuckle - Boosts CRI rate
+- Arts: Loggis Rage - Has a chance to inflict Burn
+- Arts: Latios Chain - Has a chance to inflict Burn
+  & lowers enemy recovery amount with each use
+
+Takes reduced DMG except during Break.
+Takes increased DMG while Status Ailment is active.
+At 0% HP, uses Vulcan Knuckle.","{""status"":[{""name"":""Poison Res."",""value"":""△""},{""name"":""Blind Res."",""value"":""◎""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""△""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041210.png
+19,1,5041204,5041215,2,"Dark Magical Empress Mizyna (Dark/Demon)
+- Arts: Schneid Plur - Boosts DMG dealt 
+  & lowers enemy Skill CT Speed with each use
+
+Increased CRI rate towards unit that deals the most total DMG.
+At 50% HP, uses Val Lanze & boosts Arts gauge fill speed.
+
+Cavern Pluto
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Shield killer
+- Skill: Has a chance to inflict Blind/Faint
+- Arts: Gamma Void - Deals continuous DMG over a set time
+- Arts: Murderous Eclipse - Deals more DMG with each use
+
+Takes reduced DMG except during Break Status.
+At 70% HP, uses Murderous Eclipse & lowers enemy Blind resistance.
+At 50% HP, uses Murderous Eclipse, lowers enemy Blind resistance,
+& boosts CRI resistance.
+At 20% HP, uses Murderous Eclipse, lowers enemy Blind resistance,
+& boosts Break resistance.","{""status"":[{""name"":""Poison Res."",""value"":""△""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""△""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041215.png
+20,1,5041205,5041220,1,"Bloodybat (Dark/Demon)
+- Reduces CRI DMG taken
+- When allies are present, only 1 takes damage per attack
+- Arts: Horrid Wave - Halves enemy Arts gauges
+
+God Destroyer Abaddon (Dark/Demon)
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- CRI resistance
+- Light killer
+- Arts: Crypt - Misfortune and Misery - Boosts DMG dealt
+
+Takes more DMG while Status Ailment is active.
+At 70%/30% HP, uses Mausoleum - Dance of Destruction
+& boosts Evasion rate/Arts gauge fill speed.
+
+Cavern Giaveil
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Dark resistance
+- Shield killer
+- Skill: Has a chance to inflict Paralysis/Burn/Freeze/Disease
+- Arts: Darkness Shift - Lowers Status Ailment resistance
+- Arts: Execution - Boosts CRI rate
+- Arts: Explosion - Boosts CRI rate & DMG dealt
+
+At 60% HP, uses Execution & boosts CRI resistance.
+At 30% HP, uses Execution & boosts Arts gauge fill speed.
+At 0% HP, uses Darkness Shift, changes form, recovers HP,
+& boosts Arts gauge fill speed.","{""status"":[{""name"":""Poison Res."",""value"":""×""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralyze Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041220.png
+1000,1,5001,900050011,1,"Flogassa
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts enemy DMG taken and has a chance to inflict Burn
+- Arts: Fire Tornado - Boosts Evasion rate
+- Arts: Flame Feather - Has a chance to inflict Burn
+
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Flight mode canceled by Break.
+Changes to Ground mode after recovering from Break.
+During Ground mode, Arts gauge fill speed reduced.
+When Flight mode resumes, boosts Arts gauge fill speed.
+
+The Arts gauges of all Fire units are completely filled 
+when entering Break and when recovering from Break.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""◎""},{""name"":""封印耐性"",""value"":""○""},{""name"":""麻痺耐性"",""value"":""○""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""○""},{""name"":""氷結耐性"",""value"":""○""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900050011.png
+1001,2,0,101601,1,"Demon Wing Valzandeth
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Faint
+- Arts: Millennium Curse - Boosts Evasion rate
+- Arts: Dragon Roar - Inflicts Faint and lowers enemy ATK with each use
+
+Millennium Curse deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+At 60%/30% HP, begins charging power.
+While charging, takes reduced DMG and boosts Arts gauge fill speed.
+Uses Dragon Roar when Arts gauge is full.
+Charging is canceled when Paralyzed, Frozen, Fainted, or put in Break status.
+Faint induced after canceling.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""△""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""△""},{""name"":""燃焼耐性"",""value"":""○""}]}",boss_icon_101601.png
+1002,2,0,102601,1,"Demon Beast Belgiras
+- Reflect resistance
+- Arts gauge DOWN resistance
+- HP auto-recovery
+- Skill: Boosts enemy DMG taken and has a chance to lower Accuracy
+- Arts: Somersault - Boosts CRI rate
+- Arts: Beast Roar - Deals continuous DMG
+
+Beast Roar deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Takes increased DMG while inflicted with Disease.
+
+At 60% HP, uses Beast Roar and boosts Physical resistance.
+At 30% HP, uses Beast Roar and boosts CRI resistance & Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""▲""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_102601.png
+1003,2,0,103601,1,"Insect Princess Radachne
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts enemy DMG taken and has a chance to inflict Paralysis/Blind
+- Arts: Incarnation Burst - Boosts CRI rate and has a chance to inflict Seal
+- Arts: Heaven's Shadow Needle ""Rinne"" - Boosts CRI rate
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Fallen Light and Incarnation Burst deal more DMG with each use.
+Fallen Light sets a barrier when used.
+The barrier reduces DMG and CRI DMG along with boosting Arts gauge fill speed.
+When Arts gauge fills during active barrier,
+uses Incarnation Burst and removes barrier.
+Barrier can also be removed with DMG taken, which then induces Faint.
+
+At 0% HP, uses Heaven's Shadow Needle ""Rinne"".","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""○""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_103601.png
+1004,2,0,104601,1,"Flogassa
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts enemy DMG taken and has a chance to Burn/Faint
+- Arts: Flame Feather - Has a chance to inflict Burn
+- Arts: Dive Attack - Lowers enemy Burn resistance
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Increased CRI rate against Burning units.
+Fire Tornado and Flame Feather deal more DMG with each use.
+
+Flight mode boosts Evasion rate.
+Flight mode canceled when Frozen.
+Canceling Flight mode induces Faint.
+During Ground mode, Evasion rate and Arts gauge fill speed reduced.
+When Flight mode resumes, boosts Freeze resistance, Evasion rate,
+and Arts gauge fill speed.
+
+At 60% HP, uses Dive Attack and boosts Magic resistance.
+At 30% HP, uses Dive Attack and boosts CRI resistance & Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""▲""},{""name"":""氷結耐性"",""value"":""◎""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_104601.png
+1005,2,0,105601,1,"Aerugraxes, The Frozen Overlord
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Cancels DMG nullification
+- Skill: Boosts enemy DMG taken and has a chance to inflict Freeze
+- Arts: Hellfrost - Has a chance to inflict Freeze
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Iceblue Wren and Hellfrost deal more DMG with each use.
+
+At 60% HP, uses Diamond Breath if not in Break status, inflicting Freeze 
+and greatly reducing the Arts gauge of the right-most surviving unit.
+At 30% HP, uses Diamond Breath if not in Break status, inflicting Freeze 
+and greatly reducing the Arts gauge of the second right-most surviving unit.","{""status"":[{""name"":""毒耐性"",""value"":""○""},{""name"":""暗闇耐性"",""value"":""▲""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""△""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_105601.png
+1006,1,10001,900100011,1,"Flogassa
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts enemy DMG taken and has a chance to inflict Burn
+- Arts: Fire Tornado - Boosts Evasion rate
+- Arts: Flame Feather - Has a chance to inflict Burn
+
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Takes reduced Water DMG.
+
+Flight mode boosts CRI resistance.
+Flight mode canceled by Break.
+Changes to Ground mode after recovering from Break.
+During Ground mode, CRI resistance and Arts gauge fill speed reduced.
+When Flight mode resumes, boosts CRI resistance and Arts gauge fill speed.
+
+The Arts gauges of all Fire units are completely filled
+when entering Break and when recovering from Break.
+
+At 50% HP, uses Dive Attack and boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""○""},{""name"":""封印耐性"",""value"":""△""},{""name"":""麻痺耐性"",""value"":""△""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""△""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900100011.png
+1007,1,20001,900200011,1,"Flogassa
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts enemy DMG taken and has a chance to inflict Burn
+- Arts: Fire Tornado - Boosts Evasion rate
+- Arts: Flame Feather - Has a chance to inflict Burn
+- Arts: Dive Attack - Boosts CRI rate
+
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Takes reduced Water DMG.
+
+Flight mode boosts CRI resistance.　
+Flight mode canceled by Break.
+Changes to Ground mode after recovering from Break.
+During Ground mode, CRI resistance and Arts gauge fill speed reduced.
+When Flight mode resumes, boosts CRI resistance and Arts gauge fill speed.
+
+The Arts gauges of all Fire units are completely filled
+when entering Break and when recovering from Break.
+
+At 50% HP, uses Dive Attack and boosts Arts gauge fill speed.
+At 0% HP, uses Dive Attack.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900200011.png
+1008,1,50001,900500011,1,"Flogassa
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts enemy DMG taken and has a chance to inflict Burn
+- Arts: Fire Tornado - Boosts Evasion rate
+- Arts: Flame Feather - Has a chance to inflict Burn
+- Arts: Dive Attack - Boosts CRI rate
+
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Takes reduced Water DMG.
+
+Flight mode boosts CRI resistance.　
+Flight mode canceled by Break.
+Changes to Ground mode after recovering from Break.
+During Ground mode, CRI resistance and Arts gauge fill speed reduced.
+When Flight mode resumes, boosts CRI resistance and Arts gauge fill speed.
+
+The Arts gauges of all Fire units are completely filled
+when entering Break and when recovering from Break.
+
+At 50% HP, uses Dive Attack and boosts Arts gauge fill speed.
+At 0% HP, uses Dive Attack.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""▲""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900500011.png
+1009,1,100001,901000011,1,"Flogassa
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts enemy DMG taken and has a chance to inflict Burn
+- Arts: Fire Tornado - Boosts Evasion rate
+- Arts: Flame Feather - Has a chance to inflict Burn
+- Arts: Dive Attack - Boosts CRI rate
+
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Takes reduced Water DMG.
+
+Flight mode boosts CRI resistance.　
+Flight mode canceled by Break.
+Changes to Ground mode after recovering from Break.
+During Ground mode, CRI resistance and Arts gauge fill speed reduced.
+When Flight mode resumes, boosts CRI resistance and Arts gauge fill speed.
+
+The Arts gauges of all Fire units are completely filled
+when entering Break and when recovering from Break.
+
+At 50% HP, uses Dive Attack and boosts Arts gauge fill speed.
+At 0% HP, uses Dive Attack, recovers HP, and boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_901000011.png
+1010,2,0,121601,1,"Demon Beast Belgiras
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Evasion rate UP
+
+Somersault deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Takes increased DMG while inflicted with Disease.
+
+At 60% HP, uses Beast Roar and boosts Physical resistance.
+At 30% HP, uses Beast Roar and boosts CRI resistance & Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""▲""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_102601.png
+1016,2,0,301601,1,"Frost Fortress O'zagun
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Shield Killer
+- Intimidate: Lowers enemy ATK
+- Skill: Has a chance to inflict Poison, Blind, & Freeze
+- Arts: Pounce - Lowers enemy Status Ailment resistance
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Pounce deals more DMG with each use.
+
+At 40% HP, boosts Arts gauge fill speed.
+
+Takes reduced DMG from enemies with Poison/Blind.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""▲""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_301601.png
+1017,2,0,302601,1,"Arthropoddess Radachne
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Intimidate: Lowers enemy ATK
+- Skill: Boosts enemy DMG taken and has a chance to inflict Paralysis/Blind
+- Arts: Incarnation Burst - Boosts CRI rate and has a chance to inflict Seal
+- Arts: Heaven's Shadow Needle ""Rinne"" - Boosts CRI rate
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Fallen Light and Incarnation Burst deal more DMG with each use.
+Fallen Light sets a barrier when used.
+The barrier reduces DMG and Magic DMG along with boosting Arts gauge fill speed.
+When Arts gauge fills during active barrier, uses Incarnation Burst and removes barrier.
+Barrier can also be removed with DMG taken, which then induces Faint.
+
+At 0% HP, uses Heaven's Shadow Needle ""Rinne"".","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""○""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_302601.png
+1018,2,0,303601,1,"Rapidslash Belgiras
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Intimidate: Lowers enemy ATK
+- Skill: Boosts enemy DMG taken and has a chance to lower Accuracy
+- Arts: Somersault - Boosts CRI rate
+- Arts: Beast Roar - Deals continuous DMG
+
+Somersault deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Takes increased DMG while inflicted with Poison.
+
+At 50% HP, uses Beast Roar and boosts CRI rate.
+At 20% HP, uses Beast Roar and boosts CRI resistance & Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""▲""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_303601.png
+1019,2,0,304601,1,"Blightwing Valzandeth
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Intimidate: Lowers enemy ATK
+- Skill: Has a chance to inflict Faint
+- Arts: Millennium Curse - Deals continuous DMG
+- Arts: Dragon Roar - Inflicts Faint and lowers enemy Accuracy with each use
+
+Millennium Curse deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+At 60%/30% HP, begins charging power.
+While charging, takes reduced DMG and boosts Arts gauge fill speed.
+Uses Dragon Roar when Arts gauge is full.
+Charging is canceled when Fainted or put in Break status. Faint induced after canceling.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""○""}]}",boss_icon_304601.png
+1020,2,0,305601,1,"Soulthirster Mohldora
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Cancels DMG nullification
+- Intimidate: Lowers enemy ATK
+- Skill: Has a chance to inflict Paralysis
+- Arts: Deadly Poison Wind - Has a chance to inflict Poison
+- Arts: Body Fluid Spray - Has a chance to inflict Disease
+- Arts: Over Rose - Absorbs enemy HP
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Poisoned/Diseased enemy takes more DMG.
+Deadly Poison Wind and Body Fluid Spray deals more DMG with each use.
+
+At 70% HP, uses Deadly Poison Wind and boosts Physical resistance.
+At 30% HP, uses Body Fluid Spray and boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""▲""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_305601.png
+1022,1,8001,900080011,1,"Frost Fortress O'zagun
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Poison, Faint, & Freeze
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Hammer attack deals more DMG with each use.
+
+Grab & Slam inflicts Faint and lowers target's Arts gauge with each use.
+Uses Pounce when Arts gauge is full, lowering units' Max HP.
+
+Regularly attacks with Poison Bottle.
+When using Grab, targets in a cycle starting with the unit furthest left in the Party.
+
+Enters Rage mode after using Pounce, boosting attack frequency and lowering Faint/Paralysis resistance.
+Only attacks with the hammer during Rage mode.
+Rage mode canceled when Fainted, Paralyzed, or put in Break status.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""◎""},{""name"":""封印耐性"",""value"":""○""},{""name"":""麻痺耐性"",""value"":""○""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""○""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900080011.png
+1023,1,13001,900130011,1,"Frost Fortress O'zagun
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Poison, Faint, & Freeze
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes reduced Dark DMG.
+
+Hammer attack deals more DMG with each use.
+
+Grab & Slam inflicts Faint and lowers target's Arts gauge with each use.
+Uses Pounce when Arts gauge is full, lowering units' Max HP.
+
+Regularly attacks with Poison Bottle.
+When using Grab, targets in a cycle starting with the unit furthest left in the Party.
+
+Enters Rage mode after using Pounce, boosting attack frequency and lowering Faint/Paralysis resistance.
+Only attacks with the hammer during Rage mode.
+Rage mode canceled when Fainted, Paralyzed, or put in Break status.
+
+At 60% HP, uses Pounce and boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""○""},{""name"":""封印耐性"",""value"":""△""},{""name"":""麻痺耐性"",""value"":""△""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900130011.png
+1024,1,23001,900230011,1,"Frost Fortress O'zagun
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts CRI rate and has a chance to inflict Poison, Faint, & Freeze
+- Arts: Pounce - Boosts CRI rate (only at 0% HP)
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes reduced Dark DMG.
+
+Hammer attack deals more DMG with each use.
+
+Grab & Slam inflicts Faint and lowers target's Arts gauge with each use.
+Uses Pounce when Arts gauge is full, lowering units' Max HP.
+
+Regularly attacks with Poison Bottle.
+When using Grab, targets in a cycle starting with the unit furthest left in the Party.
+
+Enters Rage mode after using Pounce, boosting attack frequency and lowering Faint/Paralysis resistance.
+Only attacks with the hammer during Rage mode.
+Rage mode canceled when Fainted, Paralyzed, or put in Break status.
+
+At 60% HP, uses Pounce and boosts Arts gauge fill speed.
+At 20% HP, uses Pounce and boosts CRI resistance.
+At 0% HP, uses Pounce, boosts CRI rate, and heals Status Ailment.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900230011.png
+1025,1,53001,900530011,1,"Frost Fortress O'zagun
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts CRI rate and has a chance to inflict Poison, Faint, & Freeze
+- Arts: Pounce - Boosts CRI rate (only at 0% HP)
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes reduced Dark DMG.
+
+Hammer attack deals more DMG with each use.
+
+Grab & Slam inflicts Faint and lowers target's Arts gauge with each use.
+Uses Pounce when Arts gauge is full, lowering units' Max HP.
+
+Regularly attacks with Poison Bottle.
+When using Grab, targets in a cycle starting with the unit furthest left in the Party.
+
+Enters Rage mode after using Pounce, boosting attack frequency and lowering Faint/Paralysis resistance.
+Only attacks with the hammer during Rage mode.
+Rage mode canceled when Fainted, Paralyzed, or put in Break status.
+
+At 60% HP, uses Pounce and boosts Arts gauge fill speed.
+At 20% HP, uses Pounce and boosts CRI resistance.
+At 0% HP, uses Pounce, boosts CRI rate, and heals Status Ailment.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""▲""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_900530011.png
+1026,1,103001,901030011,1,"Frost Fortress O'zagun
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Boosts CRI rate and has a chance to inflict Poison, Faint, & Freeze
+- Arts: Pounce - Boosts CRI rate (at 60%, 20% and 0% HP)
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes reduced Dark DMG.
+
+Hammer attack deals more DMG with each use.
+
+Grab & Slam inflicts Faint and lowers target's Arts gauge with each use.
+Uses Pounce when Arts gauge is full, lowering units' Max HP.
+
+Regularly attacks with Poison Bottle.
+When using Grab, targets in a cycle starting with the unit furthest left in the Party.
+
+Enters Rage mode after using Pounce, boosting attack frequency and lowering Faint/Paralysis resistance.
+Only attacks with the hammer during Rage mode.
+Rage mode canceled when Fainted, Paralyzed, or put in Break status.
+
+At 60% HP, uses Pounce, and boosts CRI rate and Arts gauge fill speed.
+At 20% HP, uses Pounce, and boosts CRI rate and CRI resistance.
+At 0% HP, uses Pounce, boosts CRI rate and Arts gauge fill speed, heals Status Ailments, & recovers HP.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_901030011.png
+1027,2,0,401601,1,"Zwiber Z
+- Reflect resistance
+- Arts gauge DOWN resistance
+- CRI resistance
+- Disease resistance
+- HP auto-recovery
+
+- Skill: Boosts enemy DMG taken and has a chance to inflict Paralysis
+- Arts: Karlsnaut - Boosts CRI rate
+
+Dáinsleif and Karlsnaut deal more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+If the spear is not present during Dáinsleif or Karlsnaut,
+uses Grásiða and pierces the ground. 
+
+At that time, Faints the enemy with the most Arts gauge and
+Grásiða takes reduced DMG of that enemy's Element.
+
+While the spear is out, Zwiber Z takes reduced DMG and boosts Arts gauge fill speed.
+
+Grásiða takes increased DMG while it is inflicted with Blind.
+Zwiber Z faints when Grásiða is destroyed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""▲""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_401601.png
+1028,2,0,402601,1,"Verdant Dragon Elpneumas
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Disease resistance
+- HP auto-recovery
+- Cancels DMG nullification
+
+- Skill: Boosts enemy DMG taken and has a chance to inflict Poison/Faint
+- Arts: Gale Breath - Lowers enemy Poison resistance
+- Arts: Gaia Grief - Has a chance to inflict Poison
+
+Gale Breath deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Boosts DMG and lowers HP recovery amount/Accuracy
+while using Dive Underground. 
+
+Lowers HP recovery amount/Accuracy and Boosts DMG
+when spending Arts gauge to use Dive Underground.
+
+At 50% HP, uses Dive Underground and boosts Arts gauge fill speed.
+Changes attack pattern. Breakthrough possible.
+At 25% HP, uses Dive Underground and boosts Action speed.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""▲""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_402601.png
+1029,2,0,403601,1,"Bright Sphere Spirit Wilkes
+- Reflect resistance
+- Arts gauge DOWN resistance
+- HP auto-recovery
+
+- Skill: Boosts enemy DMG taken and has a chance to inflict Paralysis/Blind
+- Arts: Santa Rovina - Has a chance to inflict Blind
+- Arts: Treamaltia - Cancels DMG nullification
+
+Santa Rovina deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+
+Santa Rovina adds one orb with each use. Orb count reduced by 1 when Fainted.
+Boosts Physical resistance, CRI resistance, and CRI rate by number of orbs.
+Boosts faint resistance whenever Fainted.
+
+At 0% HP, uses Treamaltia.","{""status"":[{""name"":""毒耐性"",""value"":""△""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""◎""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""△""}]}",boss_icon_403601.png
+1030,2,0,404601,1,"Ice Fortress Geo Zagnus
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Disease resistance
+- HP auto-recovery
+
+- Skill: Boosts enemy DMG taken and has a chance to inflict Poison.
+Deals continuous DMG over time to enemies for a set duration
+- Arts: Pounce - Cancels DMG nullification
+
+Pounce deals more DMG with each use.
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Reduces Break resistance while in Status Ailment.
+
+When using Grab, targets unit with highest Arts gauge.
+Grab & Slam inflicts Faint and lowers target's Arts gauge with each use.
+
+At 60% HP, uses Pounce and boosts Arts gauge fill speed. Breakthrough possible.
+At 30% HP, uses Pounce and boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""○""},{""name"":""暗闇耐性"",""value"":""◎""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""○""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""△""}]}",boss_icon_404601.png
+1031,2,0,405601,1,"Hadean Dragon Mavroskia
+- Reflect resistance
+- Arts gauge DOWN resistance
+- CRI resistance
+- Disease resistance
+- HP auto-recovery
+
+- Skill: Boosts enemy DMG taken and has a chance to inflict Poison
+- Arts: Dark Schneider -  Has a chance to inflict Disease
+- Arts: Evil End Roa - Lowers enemy Status Ailment resistance
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Dark Schneider deals more DMG with each use.
+
+Takes reduced DMG from enemies with Poison/Diseased.
+
+At 50% HP, uses Evil End Roa & boosts Arts gauge fill speed. Breakthrough possible.
+At 30% HP, uses Evil End Roa & boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""◎""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""▲""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""▲""},{""name"":""氷結耐性"",""value"":""▲""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_405601.png
+1032,1,9001,900090011,1,"Zwiber Z
+- Reflect resistance 
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+
+- Skill: Deals continuous DMG over time to enemies for a set duration
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes increased DMG and action speed is reduced while Burned.
+
+Targets the unit with highest hate. 
+
+If the spear is not present during Dáinsleif or Karlsnaut,
+uses Grásiða and pierces the ground. 
+
+At that time, Faints a target and Grásiða takes reduced DMG of that enemy's Element.
+
+While the spear is out, Zwiber Z takes reduced DMG and boosts Burn resistance.
+
+Grásiða takes increased DMG while it is inflicted with Diseased.
+Zwiber Z faints when Grásiða is destroyed.
+
+At 50% HP, uses Karlsnaut, and boosts Burn resistance.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""○""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""○""},{""name"":""氷結耐性"",""value"":""◎""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_900090011.png
+1033,1,14001,900140011,1,"Grangarrod (Earth/Machine)
+- Magic resistance
+- CRI resistance
+- Raises party Arts gauges on enemy defeat
+- One takes DMG when allies are present
+
+- Skill: Has a chance to inflict Paralysis
+
+Zwiber Z
+- Reflect resistance 
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+
+- Skill: Deals continuous DMG over time to enemies for a set duration
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes increased DMG and action speed is reduced while Burned.
+
+Targets the unit with highest hate. 
+
+If the spear is not present during Dáinsleif or Karlsnaut,
+uses Grásiða and pierces the ground. 
+
+At that time, Faints a target and Grásiða takes reduced DMG of that enemy's Element.
+
+While the spear is out, Zwiber Z takes reduced DMG and boosts Burn resistance.
+
+Grásiða takes increased DMG while it is inflicted with Diseased.
+Zwiber Z faints when Grásiða is destroyed.
+
+At 50% HP, uses Karlsnaut, and boosts Burn resistance.
+Summons a Grangarrod.
+
+When HP is less than 50%, summons a Grangarrod if the Arts activated
+with the spear on the ground or Grásiða was used.
+
+Units may not always be summoned when the boss activates
+its Arts while the spear is present.
+
+Auto-recovers Zwiber Z HP while Grangarrod is present.　
+Zwiber Z Auto-Recovery increases based on the number of Grangarrods.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""△""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""○""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_900140011.png
+1034,1,24001,900240011,1,"Model SX-602 Limited (Dark/Machine)
+- Physical resistance
+- CRI resistance
+- Raises party Arts gauges on enemy defeat
+- One takes DMG when allies are present
+
+- Skill: Has a chance to inflict Blind
+
+Grangarrod (Earth/Machine)
+- Magic resistance
+- CRI resistance
+- Raises party Arts gauges on enemy defeat
+- One takes DMG when allies are present
+
+- Skill: Has a chance to inflict Paralysis
+
+Zwiber Z
+- Reflect resistance 
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+
+- Skill: Deals continuous DMG over time to enemies for a set duration
+- Arts: Karlsnaut - Cancels DMG nullification
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes increased DMG and action speed is reduced while Burned.
+
+Targets the unit with highest hate. 
+
+If the spear is not present during Dáinsleif or Karlsnaut,
+uses Grásiða and pierces the ground. 
+
+At that time, Faints a target and Grásiða takes reduced DMG of that enemy's Element.
+
+While the spear is out, Zwiber Z takes reduced DMG and boosts Burn resistance.
+
+Grásiða takes increased DMG while it is inflicted with Diseased.
+Zwiber Z faints when Grásiða is destroyed.
+
+At 50% HP, uses Karlsnaut, and boosts Burn resistance.
+Summons a Model SX-602 Limited or a Grangarrod.
+
+When HP is less than 50%, summons a Model SX-602 Limited or
+a Grangarrod if the Arts activated with the spear on the ground or Grásiða was used.
+
+Units may not always be summoned when the boss activates
+its Arts while the spear is present.
+
+Zwiber Z Evasion rate increases based on the number of Model SX-602 Limited.
+Auto-recovers Zwiber Z HP while Grangarrod is present.　
+Zwiber Z Auto-Recovery increases based on the number of Grangarrods.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""△""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_900240011.png
+1035,1,54001,900540011,1,"Model SX-602 Limited (Dark/Machine)
+- Physical resistance
+- CRI resistance
+- Raises party Arts gauges on enemy defeat
+- One takes DMG when allies are present
+
+- Skill: Has a chance to inflict Blind
+
+Grangarrod (Earth/Machine)
+- Magic resistance
+- CRI resistance
+- Raises party Arts gauges on enemy defeat
+- One takes DMG when allies are present
+
+- Skill: Has a chance to inflict Paralysis
+
+Zwiber Z
+- Reflect resistance 
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+
+- Skill: Deals continuous DMG over time to enemies for a set duration
+- Arts: Karlsnaut - Cancels DMG nullification
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes increased DMG and action speed is reduced while Burned.
+
+Targets the unit with highest hate. 
+Boosts CRI rate to a target.
+
+If the spear is not present during Dáinsleif or Karlsnaut,
+uses Grásiða and pierces the ground. 
+
+At that time, Faints a target and Grásiða takes reduced DMG of that enemy's Element.
+
+While the spear is out, Zwiber Z takes reduced DMG and boosts Burn resistance.
+
+Grásiða takes increased DMG while it is inflicted with Diseased.
+Zwiber Z faints when Grásiða is destroyed.
+
+At 50% HP, uses Karlsnaut, and boosts Burn resistance.
+Summons a Model SX-602 Limited or a Grangarrod.
+
+When HP is less than 50%, summons a Model SX-602 Limited or
+a Grangarrod if the Arts activated with the spear on the ground or Grásiða was used.
+
+Units may not always be summoned when the boss activates
+its Arts while the spear is present.
+
+Zwiber Z Evasion rate increases based on the number of Model SX-602 Limited.
+Auto-recovers Zwiber Z HP while Grangarrod is present.　
+Zwiber Z Auto-Recovery increases based on the number of Grangarrods.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_900540011.png
+1036,1,104001,901040011,1,"Model SX-602 Limited (Dark/Machine)
+- Physical resistance
+- CRI resistance
+- Raises party Arts gauges on enemy defeat
+- One takes DMG when allies are present
+
+- Skill: Has a chance to inflict Blind
+
+Grangarrod (Earth/Machine)
+- Magic resistance
+- CRI resistance
+- Raises party Arts gauges on enemy defeat
+- One takes DMG when allies are present
+
+- Skill: Has a chance to inflict Paralysis
+
+Zwiber Z
+- Reflect resistance 
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+
+- Skill: Deals continuous DMG over time to enemies for a set duration
+- Arts: Karlsnaut - Cancels DMG nullification
+
+Hate builds with DMG dealt by each enemy. More Hate boosts enemy DMG taken.
+Party's Arts gauges only increase from Regalia and DMG taken.
+
+Takes increased DMG and action speed is reduced while Burned.
+
+Targets the unit with highest hate. 
+Boosts CRI rate to a target.
+
+If the spear is not present during Dáinsleif or Karlsnaut,
+uses Grásiða and pierces the ground. 
+
+At that time, Faints a target and Grásiða takes reduced DMG of that enemy's Element.
+
+While the spear is out, Zwiber Z takes reduced DMG and boosts Burn resistance.
+
+Grásiða takes increased DMG while it is inflicted with Diseased.
+Zwiber Z faints when Grásiða is destroyed.
+
+At 50% HP, uses Karlsnaut, and boosts Burn resistance.
+Summons a Model SX-602 Limited or a Grangarrod.
+
+When HP is less than 50%, summons a Model SX-602 Limited or
+a Grangarrod if the Arts activated with the spear on the ground or Grásiða was used.
+
+Units may not always be summoned when the boss activates
+its Arts while the spear is present.
+
+Zwiber Z Evasion rate increases based on the number of Model SX-602 Limited.
+Auto-recovers Zwiber Z HP while Grangarrod is present.　
+Zwiber Z Auto-Recovery increases based on the number of Grangarrods.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""×""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""×""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""○""}]}",boss_icon_901040011.png
+5041301,1,5041301,5041300,5,"Tundra O'zagun
+- Skill: Has a chance to inflict Poison
+- Skill: Has a chance to inflict Freeze
+- Arts: Pounce - Deals more DMG with each use
+
+At 50% HP, boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""◎""},{""name"":""封印耐性"",""value"":""◎""},{""name"":""麻痺耐性"",""value"":""◎""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""◎""},{""name"":""氷結耐性"",""value"":""〇""},{""name"":""燃焼耐性"",""value"":""◎""}]}",boss_icon_5041300.png
+5041302,1,5041302,5041305,4,"Tundra Golmag
+- Reflection resistance
+- Non-Water DMG reduction
+- Deals increased DMG to Burning enemies
+- Skill: Has a chance to inflict Poison
+- Skill: Has a chance to inflict Burn
+- Arts: Pounce - Deals more DMG with each use
+
+At 50% HP, boosts Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""◎""},{""name"":""封印耐性"",""value"":""◎""},{""name"":""麻痺耐性"",""value"":""◎""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""◎""},{""name"":""氷結耐性"",""value"":""△""},{""name"":""燃焼耐性"",""value"":""△""}]}",boss_icon_5041305.png
+5041303,1,5041303,5041310,3,"Tundra Mavro-halos
+- Reflection resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Light killer
+- Skill: Lowers enemy Skill CT speed
+- Arts: Mavro Pyre - Has a chance to inflict Burn
+- Arts: Halos Roar - Boosts enemy DMG taken
+- Arts: Halos Meteor - Inflicts Disease
+
+At 80% HP, takes reduced DMG from Humans.
+At 60% HP, takes reduced DMG from Gods.
+At 40% HP, takes reduced DMG from Demons.
+At 20% HP, boosts CRI rate & Arts gauge fill speed.","{""status"":[{""name"":""毒耐性"",""value"":""◎""},{""name"":""暗闇耐性"",""value"":""〇""},{""name"":""封印耐性"",""value"":""◎""},{""name"":""麻痺耐性"",""value"":""△""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""△""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_5041310.png
+5041304,1,5041304,5041315,2,"Ongordo
+- Reflection resistance
+- Non-Earth DMG reduction
+- Skill: Lowers enemy ATK
+- Arts: Wind Tooth - Inflicts Freeze
+
+At 70% HP, boosts Arts gauge fill speed.
+At 30% HP, boosts Arts gauge fill speed.
+
+Tundra Aerugraxes
+- Reflection resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Takes increased DMG while Diseased
+- Skill: Has a chance to inflict Freeze
+- Skill: Boosts enemy DMG taken
+- Arts: Iceblue Wren - Lowers enemy Max HP
+- Arts: Hellfrost - Cancels DMG nullification
+
+At 50% HP, boosts DMG dealt.
+At 40% HP, boosts DMG dealt & CRI rate.
+At 30% HP, boosts DMG dealt & Arts gauge fill speed.
+At 20% HP, boosts DMG dealt & CRI rate.","{""status"":[{""name"":""毒耐性"",""value"":""×""},{""name"":""暗闇耐性"",""value"":""◎""},{""name"":""封印耐性"",""value"":""◎""},{""name"":""麻痺耐性"",""value"":""△""},{""name"":""病気耐性"",""value"":""〇""},{""name"":""気絶耐性"",""value"":""△""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""×""}]}",boss_icon_5041315.png
+5041305,1,5041305,5041320,1,"Scylla
+- Takes increased Magic DMG
+- Skill: Lowers enemy Skill CT speed
+- Arts: Maelstrom - Lowers enemy Status Ailment resistance
+- Must be defeated one at a time
+
+Icicle Spear Goddess Alvina
+- Reflection resistance
+- Increased CRI rate to Frozen enemies
+- Increased DMG to Diseased enemies
+- Skill: Has a chance to inflict Freeze
+- Arts: Icicle Raid - Inflicts Freeze
+- Arts: Violet Dragoon - Inflicts Disease
+
+Tundra Stiria
+- Reflection resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Takes increased Fire DMG
+- Takes increased DMG while Diseased
+- Skill: Has a chance to inflict Freeze
+- Skill: Boosts enemy DMG taken
+- Arts: Frost Stream - Inflicts Freeze & boosts DMG dealt/
+  lowers enemy Freeze resistance with each use
+
+At 70% HP, boosts CRI resistance.
+At 50% HP, boosts Arts gauge fill speed.
+At 30% HP, auto-recovers HP.","{""status"":[{""name"":""毒耐性"",""value"":""△""},{""name"":""暗闇耐性"",""value"":""△""},{""name"":""封印耐性"",""value"":""×""},{""name"":""麻痺耐性"",""value"":""×""},{""name"":""病気耐性"",""value"":""◎""},{""name"":""気絶耐性"",""value"":""×""},{""name"":""氷結耐性"",""value"":""×""},{""name"":""燃焼耐性"",""value"":""〇""}]}",boss_icon_5041320.png
+5041401,1,5041401,5041400,5,"Sealed Oldeus
+- Skill: Has a chance to inflict Blind
+- Arts: Sengoku Resonance - Lowers enemy Blind resistance
+- Arts: Skeletal Soul - Has a chance to inflict Blind
+
+Deals increased DMG to Blinded units.
+
+Takes increased DMG by number of units' Elements in party.
+
+At 50% HP, uses Skeletal Soul & boosts ATK.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""◎""},{""name"":""Seal Res."",""value"":""◎""},{""name"":""Paralysis Res."",""value"":""〇""},{""name"":""Disease Res."",""value"":""◎""},{""name"":""Faint Res."",""value"":""〇""},{""name"":""Freeze Res."",""value"":""〇""},{""name"":""Burn Res."",""value"":""◎""}]}",boss_icon_5041400.png
+5041402,1,5041402,5041405,4,"Sealed Flogassa
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Burn & Faint
+- Arts: Fire Tornado - Boosts DMG dealt
+- Arts: Flame Feather - Has a chance to inflict Burn
+- Arts: Dive Attack - Boosts CRI rate & lowers enemy Burn resistance
+
+Enters Flight mode at the start of battle.
+Flight mode boosts Evasion rate.
+Changes to Ground mode when Frozen.
+Arts gauge will not fill during Ground mode.
+Resumes Flight mode after several attacks.
+
+Takes increased DMG by number of units' Elements in party.
+
+Summons monsters at set intervals.
+Freeze resistance boosted by number of monsters on screen.
+
+At 50% HP, enters Flight Mode, uses Dive Attack, & boosts CRI resistance.","{""status"":[{""name"":""Poison Res."",""value"":""〇""},{""name"":""Blind Res."",""value"":""〇""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralysis Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""◎""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041405.png
+5041403,1,5041403,5041410,3,"Inferno Wyrm (Fire/God)
+- Nullifies all DMG except Fire
+- Arts: Heat Shimmer - Inflicts Burn
+
+Aqua Wyrm (Water/God)
+- Nullifies all DMG except Water
+- Arts: Silver Frost - Inflicts Freeze
+
+Gaia Wyrm (Earth/God)
+- Nullifies all DMG except Earth
+- Arts: Vile Venom - Inflicts Poison
+
+Gold Wyrm (Light/God)
+- Nullifies all DMG except Light
+- Arts: Mystic Words - Inflicts Seal
+
+Violet Wyrm (Dark/God)
+- Nullifies all DMG except Dark
+- Arts: Stifling Dust - Inflicts Curse
+
+Sealed Radachne
+- Reflect resistance
+- Lifesteal resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Blind
+- Arts: Fallen Light - Has a chance to inflict Paralysis
+- Arts: Heaven's Shadow Needle ""Rinne"" - Boosts CRI rate
+
+Takes increased DMG by number of units' Elements in party.
+
+Takes reduced DMG from units without Status Ailments.
+Summons Wyrms when attacking with spear, lightning, or Arts.
+DMG boosted by number of Wyrms' Elements on screen.
+
+At 50% HP, uses Heaven's Shadow Needle ""Rinne"" & summons Wyrms.
+At 30% HP, uses Heaven's Shadow Needle ""Rinne"", summons Wyrms, 
+auto-recovers HP, & boosts Arts gauge fill speed.","{""status"":[{""name"":""Poison Res."",""value"":""△""},{""name"":""Blind Res."",""value"":""◎""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralysis Res."",""value"":""△""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041410.png
+5041404,1,5041404,5041416,2,"Magical Shadow Goddess Dahlia (Dark/Demon)
+- Skill: Has a chance to inflict Blind
+- Arts - Magic Bullet: Boosts DMG dealt.
+
+Increased CRI rate & CRI DMG against Blinded units.
+
+At 70% HP, uses Infinite Blast & lowers enemy Blind resistance.
+At 30% HP, uses Infinite Blast, lowers enemy Blind resistance, & boosts Evasion rate.
+
+Sealed Auge
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Faint & deals continuous DMG over a set time
+- Arts: Chaos on Fire - Boosts DMG dealt
+- Arts: Dystopia - Boosts DMG dealt
+- Arts: Evil Edge - Cancels DMG nullification
+
+Takes reduced DMG when except during Break.
+After recovering from Break, lowers Break power of units in 
+Element that dealt the most Break DMG.
+
+Takes increased DMG by number of units' Elements in party.
+
+Chaos on Fire lowers enemy ATK with each use.
+Dystopia boosts enemy DMG taken with each use.
+DMG boosts carry over to units with active Shielding effects.
+
+At 50% HP, uses Evil Edge & boosts CRI resistance.
+At 0% HP, uses Evil Edge.","{""status"":[{""name"":""Poison Res."",""value"":""△""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralysis Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""△""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""×""}]}",boss_icon_5041416.png
+5041405,1,5041405,5041420,1,"Secret Counsel Cathemilla (Light/Spirit)
+- Reflect resistance
+- Cancels DMG nullification
+
+Deals increased DMG proportional to enemy HP.
+Takes reduced Light and Dark DMG.
+Ruling Ray lowers enemy HP recovery amount with each use.
+Lowered HP recovery carries over to units with active Shielding effects.
+
+At 70% HP, uses Seventh Heaven & boosts Evasion rate.
+At 50% HP, uses Seventh Heaven & boosts Evasion rate/Arts gauge fill speed.
+At 20% HP, uses Seventh Heaven & boosts Evasion rate/Arts gauge fill speed.
+
+Sealed Marzex
+- Reflect resistance
+- Arts gauge DOWN resistance
+- Skill: Has a chance to inflict Poison/Burn/Freeze
+- Arts: Endless - Boosts CRI rate
+
+All DMG reduced to 1 until Break.
+Can only enter Break once.
+Takes increased DMG by number of units' Elements in party.
+Targets enemy unit that deals the greatest total DMG.
+Targeted unit takes increased DMG with more DMG dealt.
+Heaven Arcane ""Emperor's Blade"" reduces enemy Burn resistance with each use.
+Heaven Arcane ""Azure Flash"" reduces enemy Freeze resistance with each use.
+Heaven Arcane ""Tengu"" reduces enemy Poison resistance with each use.
+
+At 70% HP, uses Heaven Arcane ""Emperor's Blade"" & boosts Arts gauge fill speed.
+At 50% HP, uses Heaven Arcane ""Azure Flash"" & boosts Magic resistance.
+At 30% HP, uses Heaven Arcane ""Tengu"" & boosts Arts gauge fill speed.
+At 0% HP, uses Endless.","{""status"":[{""name"":""Poison Res."",""value"":""◎""},{""name"":""Blind Res."",""value"":""×""},{""name"":""Seal Res."",""value"":""×""},{""name"":""Paralysis Res."",""value"":""×""},{""name"":""Disease Res."",""value"":""×""},{""name"":""Faint Res."",""value"":""×""},{""name"":""Freeze Res."",""value"":""×""},{""name"":""Burn Res."",""value"":""◎""}]}",boss_icon_5041420.png

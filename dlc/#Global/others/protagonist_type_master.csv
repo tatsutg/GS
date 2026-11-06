@@ -1,0 +1,4 @@
+id,protagonist_name,effect_value,color_code,protagonist_description
+4,Destined,"{""sp_floor"":50,""sp_floor_pvp"":10,""sp_floor_enemy"":20}",#ffff00,"Prevents allies' Arts gauges from falling below {sp_floor}. 
+Prevents Boss from falling below one Arts orb. 
+Shortens Arts interval for enemies besides Bosses by {sp_floor_enemy}%."

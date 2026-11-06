@@ -1,0 +1,217 @@
+id,album_id,name,rarity,food_type,food_effect_id1,food_effect_id2,food_effect_id3,food_effect_id4,food_effect_id5,coin,description,summary,non_sale
+1001,1,Bread,1,1,1000205,None,None,None,None,10,"Standard bread with a twist. It's eaten in the Raktehelm region. It stays fresh for longer than normal bread, and is popular with adventurers who want a light meal for their travels. Its main ingredient, flour, is available in a number of sources, but discerning adventurers are said to prefer flour from the Kingdom of Famelle. However, since bread made in this region has the same effects as any other bread, most people aren't too picky.",HP 5% UP,0
+1002,2,Large Bread,2,1,1000207,None,None,None,None,20,"Perfect for those adventurers who aren't satisfied by regular-sized bread, it's also an essential item for families and people travelling in large groups. Its well-browned crust and fluffiness are loved by the people of Raktehelm. Each country makes bread that looks and tastes different, from thin, flat bread, made with lots of salt, to tube-shaped bread with a hard crust, to rectangular bread that is incredibly soft. ",HP 7% UP,0
+1003,3,Butter Brioche,3,1,1000210,None,None,None,None,50,"Commonly thought to be a type of bread, brioche is made from the same ingredients as pastries, and can be classified 
+as such. When baked like a pastry, it often has spices mixed into the dough and topped with preserved fruits. The Principality of Bamint's third princess apparently troubled her servants when she declared that, ""Brioche is...not a pastry! So we can eat as much as we like!"".",HP 10% UP,0
+1004,4,Salami,1,1,1001305,None,None,None,None,10,"A dried sausage often used as a pizza topping, or to go with alcoholic drinks. Salami is now a popular choice for the dinner table, although it was originally invented as a long-lasting food to be carried by soldiers. Many travellers who journey long distances take salami with them. The guild master of Reigrad Guild, one of the Isliid Empire's Adventurer's Guilds, always brings homemade salami when he drinks.",ATK 5% UP,0
+1005,5,Ribs,2,1,1001307,None,None,None,None,20,"Juicy meat cooked to perfection while still on the bone. Adventurers are often seen eating ribs in the street, so it is also known simply as ""Adventurer Food"". When the Adventurer's Guild was asked how it should be cooked, they said, ""On your travels, catch an animal, cook it and eat it."" One fledgling adventurer said the desire to eat ribs in places he'd never been before was the reason he entered the profession.",ATK 7% UP,0
+1006,6,Dragon Steak,3,1,1001310,None,None,None,None,50,"A reproduction of a meal eaten by hunters from before the ancient war, when hunters would butcher dragons for their meat. In Raktehelm nowadays, ""Dragon Steak"" refers to processed meat cooked with spices and other condiments to resemble actual dragon meat. It is not made from real dragons. However, among gourmets, it is rumoured that somewhere in Raktehelm, dragon steak is still made from real dragon meat.",ATK 10% UP,0
+1007,7,Fish Fillet,1,1,1001505,None,None,None,None,10,"Fish Fillets are slices of freshly caught saltwater fish. In most countries, fish is only eaten after it has been cooked, but it is said that in the eastern part of Gramenia Republic, fish can be eaten raw, as ""Sashimi"", or on top of rice mixed with vinegar, as ""Sushi"". Interestingly, although the Paw People love eating them, for some reason, they just won't admit it.",DEF 5% UP,0
+1008,8,Fried Fish,2,1,1001507,None,None,None,None,20,"Crispy on the outside and deliciously fluffy on the inside. A new adventurer once heard from a woman who served as the high priestess of a shrine in Reigrad that eating fish makes you more intelligent. The adventurer ate only fish for a period of time, but one day, the owner of Fire Mountaincat who heard his story told him that it wouldn't do him much good unless he ate the fish raw. Hearing this, the adventurer was so shocked that he cried himself to sleep that night.
+",DEF 7% UP,0
+1009,9,Grilled Sardines,3,1,1001510,None,None,None,None,50,"Sardines baked with spices. The fragrance of the spices and the exquisite taste of the salt explode on the tongue as you bite into this dish. Although usually paired with alcoholic drinks, some shops serve grilled sardines with fried rice. They are a favourite of the second in command of the Magus Empire of La Riiz's 3rd Magus Division. Also known as the Blue-eyed Black Fox, she can be found enjoying cocktails with grilled sardines in a downtown bar in La Riiz.",DEF 10% UP,0
+1010,10,Tomato,1,1,1002502,None,None,None,None,10,"Juicy, bright red tomatoes. The Kingdom of Famelle is known for producing this fruit, and exporting it in massive quantities to restaurants and other buyers all across Raktehelm. This fruit is essential for a healthy diet, and is recommended by the Adventurer's Guild for people who do not eat regular, balanced meals. However, there are rumours that Reigrad's Guild Master can't stand them...",Break Power 2% UP,0
+1011,11,Romaine Lettuce,1,1,1002502,None,None,None,None,10,"A delicious lettuce eaten in everyday salads, wrapped around fried meat, or in sandwiches. According to Raktehelm's tourism guide, ""Rakshuran"", there is a trend among women to make it into a smoothie. A member of the Principality of Bamint's Royal Knights has been seen frequently drinking this smoothie in various places.",Break Power 2% UP,0
+1012,12,Caesar Salad,2,1,1002503,None,None,None,None,20,"Croutons and a special dressing called Caesar Salad Dressing adorn Romaine Lettuce and other vegetables to create this meal.
+""The name Caesar is from a famous soldier of the past.""
+""You know a lot about it, Rayas.""
+""Don't teach Iris things that aren't true! It's actually the name 
+of the cook who invented it! Any cook knows that!""
+""Oh, so you lied to me, Rayas.""",Break Power 3% UP,0
+1013,13,Salad Bowl,3,1,1002505,None,None,None,None,50,"Salad served in a large bowl with plenty of green and yellow vegetables. It is popular in many households as it is both delicious and highly nutritious. Although easy to prepare, gathering the ingredients can be difficult. The leader of the Principality of Bamint's Royal Knights, who had almost no cooking experience, learned to make it after the owner of Fire Mountaincat told him, 
+""...Alright, even you should be able to make this!"" 
+It still took a few sacrifices, though.",Break Power 5% UP,0
+1014,14,Fried Egg,1,1,1000203,1001303,None,None,None,10,"Fried egg laid on thickly buttered slices of toast. It's notorious for its tendency for the egg yolk to make a mess while you're eating it. Ever since the first performance of ""The Ends of Calvaria"" at the theatre in the Kingdom of Famelle, where the protagonist is seen to enjoy eating it, this simple dish gained popularity for a time. It tastes just as you would expect.","HP 3% UP
+ATK 3% UP",0
+1015,15,Hotdog,2,1,1000205,1001305,None,None,None,20,"A sausage filled to burst with meat and cooked until the skin is crispy, placed inside a bread bun with lettuce and ketchup. It is popular as a light and easy meal in cities in the Isliid Empire, where it is sold at stands in the streets. A female receptionist at the arena in this city ate one at a street stall one day and liked it very much. Since then, she eats one every day for lunch.","HP 5% UP
+ATK 5% UP",0
+1016,16,Special Sandwich,3,1,1000207,1001307,None,None,None,50,"A jam-packed sandwich for those working people who are not satisfied with a hotdog. Scrambled egg and vegetables such as lettuce, tomato and cucumber are sandwiched between thick slices of bread. As if that weren't enough, Teriyaki chicken is also included in this special Fire Mountaincat sandwich. It is reasonably priced, and enjoying one for lunch at Reigrad's famous blacksmith is one of the city's pleasures. ","HP 7% UP
+ATK 7% UP",0
+1017,17,Pilaf,1,1,1000203,1001503,None,None,None,10,"Rice fried with meat and vegetables, and finally boiled in a soup. The rice, which fills your mouth with flavour as you chew, and the soup, which soaks into the other ingredients, are a perfect match. There are various adaptations of this dish throughout Raktehelm, but the most popular is found at Fire Mountaincat. Historians believe Pilaf is the oldest rice cuisine in Raktehelm, and evidence strongly suggests that it originated in the midwestern part of the Gramenia Republic.","HP 3% UP
+DEF 3% UP",0
+1018,18,Mixed Pilaf,2,1,1000205,1001505,None,None,None,20,"Standard Pilaf, which also includes fresh seafood. Pilaf originally used meat rather than fish and shellfish, but these recipes changed over the course of time in coastal areas where fishing was commonplace. Shellfish extracts give the dish its rich fragrance and deep flavour. This Pilaf is popular on the Sadahl Coast, and the residents eat it at least once a week. ","HP 5% UP
+DEF 5% UP",0
+1019,19,Special Paella,3,1,1000207,1001507,None,None,None,50,"Alongside Mixed Pilaf, a luxurious version of American Paella is eaten during celebrations in the cities on the Sadahl Coast in the Gramenia Republic. This Paella uses only the very best ingredients. Gramenia Paella is made with many vegetables such as onions and bell peppers, and seafood such as mussels, squid and shrimp. Gourmets travel from all across Raktehelm to taste it. It is also one of Gramenia's Chief of Staff's favourite dishes.","HP 7% UP
+DEF 7% UP",0
+1020,20,Seafood Soup,1,1,1001503,1002501,None,None,None,10,"The taste of home for the fishermen of Raktehelm. It was originally made as a pre-prepared meal for fishermen to drink during breaks at work. A man who became a cook after retiring from fishing improved the recipe, and remembering his days as a fisherman, decided to serve it at his restaurant. The dish soon gained a reputation far and wide. The warm soup with its shellfish extracts give the person who drinks it a sense of blissful peace.","DEF 3% UP
+Break Power 1% UP",0
+1021,21,Prawn Soup,2,1,1001505,1002502,None,None,None,20,"Prawns, with their giant claws had long been an irritant for the fishermen of Raktehelm, because they would cut the nets. However, one fisherman decided to try boiling a prawn that came up with his catch, and it turned out to be delicious. It is said that prawns have been eaten here ever since. According to gourmets, the best way to eat it is to pour miso soup into the shell of the prawn's head, and to dip the meat into it. ","DEF 5% UP
+Break Power 2% UP",0
+1022,22,Special Noodles,3,1,1001507,1002503,None,None,None,50,"This dish dates back to when a gourmet from the Magus Empire of La Riiz, alongside his magical research, decided to make ""A noodle dish that no one has ever seen before!"". These noodles are made with a Fire Mountaincat original recipe, and a Reigrad blacksmith and a Guild Master from the same city cry:
+""Noodles with roast pork, well-soaked! Fresh shrimp and shellfish toppings!""
+""It goes amazingly well with Seafood Soup! The thick noodles mix well with the soup!","DEF 7% UP
+Break Power 3% UP",0
+1023,23,Red Mushroom,1,3,1005502,None,None,None,None,10,"A medicinal mushroom. When used properly, it can cure loss of speech. However, misusing it will leave you with some serious side effects.
+""Rayas, this is a Red Mushroom. You shouldn't eat it as it is, obviously, but if you do eat it raw…""
+""Ganan! Is this how you're gonna teach us? Put some more passion into it. Come on, now!""
+""...Was I too late?""",Seal Resistance 10% UP,0
+1024,24,Blue Mushroom,1,3,1005602,None,None,None,None,10,"A medicinal mushroom. When used properly, it can cure loss of vision. However, misusing it will leave you with some serious side effects.
+""Rayas, this is a Blue Mushroom. It can be used as an antidote, but eating it raw has some side effects…""
+""Ganan, an idiot like me can't be an adventurer. The furthest I can go is for a walk around the neighbourhood.""
+""Is that something a glutton like you can say?""
+
+",Blind Resistance 10% UP,0
+1025,25,Yellow Mushroom,1,3,1005402,None,None,None,None,10,"A medicinal mushroom. When used properly, it can cure paralysis. However, misusing it will leave you with some serious side effects.
+""Rayas, you don't need to tell me about Yellow Mushrooms. You eat them after you've heated them, right?""
+""That's… Hehe… Are you acting? ...I can't take it... Hahaha!""
+""I feel like you can just throw that one out...""",Paralysis Resistance 10% UP,0
+1026,26,Purple Mushroom,1,3,1005302,None,None,None,None,10,"A medicinal mushroom. When used properly, it can cure most poisons. However, misusing it will leave you with some serious side effects.
+""Be really, really careful with this one. If you eat it raw, it could kill you.""
+""Gana- Ugh…! Uhh…!""
+""Rayas! Stay with me! Raaayce!"" ",Poison Resistance 10% UP,0
+1027,27,Black Mushroom,1,3,1005802,None,None,None,None,10,"A medicinal mushroom. When used properly, it can break curses. However, misusing it will leave you with some serious side effects.
+""Now then, we're looking for Black Mushrooms today. 
+You have to heat it really well to detoxify it before you eat it. Okay, Rayas?""
+""Ganan... I really want to go back to hunting now. This is so much hassle.""
+""You idiot, you're doing this on purpose, aren't you?""",Curse Resistance 10% UP,0
+1028,28,Silver lychee,1,4,1100103,None,None,None,None,10,"A silver lychee fruit. This fruit sparkles like an ornament, and is a great for staying hydrated while crossing the desert. It is also famous as an ingredient for making alcohol. The Reigrad Guild Master drank too much of it once and ended up making a huge disturbance. His daughter, who looks nothing like him, was furious with his disgraceful behaviour, and apparently beat him to within an inch of his life.",Unit EXP 5% UP,0
+1029,29,Silver Melon,2,4,1100104,None,None,None,None,20,"The rare Silver Melon. Although it doesn't look edible, it has an exquisite flavour. At one point, the second in command of the Magus Empire of La Riiz's 3rd Magus Division told the leader of another division, who was persistently trying to hit on her, to ""Bring me a Silver Melon."", thinking it was an impossible task, but the leader actually came back with one. No one - not even himself - will say anything about what happened to him afterwards.",Unit EXP 7% UP,0
+1030,30,Happiness Walnut,1,4,1100201,None,None,None,None,10,"Just finding one of these brings good luck, but it is said to bring even more luck to the person who holds it. A new adventurer didn't find one after searching everywhere, but a girl who had lost her memory found one the very same day she started searching.
+""Now, Iris. This picture is of a walnut that can't be found easily. It's a Happiness...""
+""Is this the one you mean, Rayas?""
+""How on Earth...?""",LUCK  3,0
+1031,34,Blue Cheese,2,2,1006205,None,None,None,None,20,"Cheese made with a blue mould. Although it doesn't look very appetizing, it works very well as a pasta sauce, or on top of pizza. People who aren't familiar with the ingredients wouldn't think it's edible though, and as a matter of fact, one new adventurer, when he was helping at Fire Mountaincat, mistook it for mouldy cheese and 
+threw it out. The owner was furious with him and made him work until he smelled more like cheese than the owner.",Take 5% less Water Damage,0
+1032,35,Red Cheese,2,2,1006105,None,None,None,None,20,"This is the most popular cheese in Raktehelm, and is produced in many places. The red colour of this cheese comes from the plant used in its creation…
+""Sophie, why is this cheese so red?""
+""Well, Rayas… That's because I mix the blood of living things into it.""
+""I see!""
+""Um, you're supposed to question that part.""",Take 5% less Fire Damage,0
+1033,36,Emmental Cheese,2,2,1006305,None,None,None,None,20,"Everyone loves this holey cheese. It can be used for anything from pizza and pasta, to catching mice.
+""Sophie, Rolly's missing. Have you seen him?""
+""Welcome, Iris. I'm sure he'll roll along behind me.""
+""Thank goodness. Where did he go?""
+""He was by a mousetrap with some cheese on it.""
+",Take 5% less Earth Damage,0
+1034,37,Camembert Cheese,2,2,1006405,None,None,None,None,20,"This cheese is made from milk from the northern part of Bamint. It goes well with red wine and is used in many recipes. It is also known as the ""Queen of Cheeses"". A girl who runs an alchemist in Reigrad, in the Isliid Empire, loves melting Camembert Cheese over vegetables and bread to make ""Camembert Fondue"". She uses her own alchemical cauldron to do it, apparently.",Take 5% less Light Damage,0
+1035,38,Gorgonzola,2,2,1006505,None,None,None,None,20,"This hard, blue cheese has blue mould penetrating to its very core. The blue mould gives a sharp edge to its taste. The name Gorgonzola comes from ""Gorgonius"", the name of the explorer who discovered it, and ""Zora"", the name of the cave he discovered it in. In Fire Mountaincat, to avoid it being thrown away by overzealous adventurers, only the owner knows where this cheese is stored.",Take 5% less Dark Damage,0
+1036,0,Red Curry,2,3,1005503,None,None,None,None,20,"Dyed red like the passion of your heart I was mistaken watching you When you embraced me quietly You welcomed me with a passion beyond imagination This is ""love"" beyond passion! Ah… I want to keep accepting your love Even if it scorches this body of mine-The Cuisine Poet, Clampshire. ""Red Lover""",Seal Resistance UP,0
+1037,0,Blue Curry,2,3,1005603,None,None,None,None,20,"The No.1 food causing loss of appetite. Although the nuance and phrasing is slightly different in Raktehelm, the idea that this food is ""To be given to people who need to lose weight."" is common across all of Raktehelm. In stark contrast to its appearance, it actually tastes quite nice. Incidentally, a certain second in command, Rose Garden said to ""**censored**"" in order to ""**censored**"""".",Dark Resistance UP,0
+1038,0,Yellow Curry,2,3,1005403,None,None,None,None,20,"Although it looks very spicy, it actually tastes quite mild. Even small children can eat it. In Reigrad, many people don't eat it because it has a reputation for being too mild. Giving someone the enemy of parents, a ""Trick Yellow Curry"", to someone who doesn't like spices after they order a ""Mild Yellow Curry"" is a popular prank now.",Paralysis Resistance UP,0
+1039,0,Purple Curry,2,3,1005303,None,None,None,None,20,"A very toxic-looking curry. Its taste is somewhat unexpected. It alternates from bitter to sweet and back again. This curry is called ""Taste Pandora"", and is disliked by everyone apart from a few odd-ball houses. In the past, a noblewoman believed that no one would think to poison such a dish, and dug into it. She died from a poison in the curry...",Poison Resistance UP,0
+1040,0,Black Curry,2,3,1005803,None,None,None,None,20,"This curry's black and gooey appearance led to it getting nicknames such as ""Dark Fire"", ""Dark Matter"", and ""Unidentified Alchemical Failure"". It doesn't taste at all bad, but it isn't very popular because of how it looks. The biggest reason people don't like it though, is because if you eat it, the inside of your mouth turns pitch black. Some women never open their mouths during the day for this reason. ",Curse Resistance UP,0
+1041,42,Strawberry Macaron,2,1,1000205,None,None,None,None,20,"This macaron is made from the plentiful strawberries growing in the grasslands. They taste so good that a girl and a mysterious creature start talking to another.
+""Myu!""
+""No, you can't have it.""
+""Myu-myu...""
+""...Alright, just a little then.""
+""Myumyumyu♪""
+""I don't think you'd mind a little less, actually.""",HP 5% UP,0
+1042,0,Coffee Macaron,2,1,1001305,None,None,None,None,20,"""You think Macarons are just for the women and girls in Raktehelm, don't you? Young men don't understand anything... Not the elegant taste of a sweet that utilizes the full fragrance of coffee beans. It's not too bitter, nor too sweet. This Macaron is the gentleman's sweet."" , declares a 65 year old from Famelle. This exquisite dish perfectly balances the bitterness of the coffee beans produced in the north western part of Famelle and the sweetness of the cream.",ATK 5% UP,0
+1043,0,Mandarin Macaron,2,1,1001505,None,None,None,None,20,"This Macaron uses thick pieces of fine quality mandarins. As you eat, the gentle sweetness of the fruit spreads throughout your mouth. The Gramenia Republic's Chief of Staff apparently tried them when working in a small town in the northern part of the country, where they have a special heating device called a ""Kotatsu"". They did attempt to use unripened mandarins, but gave up because they were too sour.",DEF 5% UP,0
+1044,0,Grape Macaron,2,1,1002502,None,None,None,None,20,"Sweet grapes with plenty of cream and dough. In the Isliid Empire's Capital, fresh grapes are delivered from the vineyards every day while they are in season. The capital is famous for its many shops selling Grape Macarons, and the competition continues day and night. Because of this, many things have been improved upon, and the shops listed in the tourism guidebook, ""Rakshuran"" have never-ending lines.",Break Power 2% UP,0
+1045,0,Silver Macaron,2,4,1100105,None,None,None,None,20,"A shining silver Macaron. It looks as if it's made of pure silver, but it is indeed a sweet. It is made using silver fruits, such as Silver Melon and Silver Lychee, but if the measurements of the ingredients are even slightly wrong, it won't keep its beautiful silver colour. According to the tourism guidebook, ""Rakshuran"", the only shop capable of making Silver Macarons is Fire Mountaincat in Reigrad, in the Isliid Empire.",Unit EXP 10% UP,0
+1049,31,Rice Ball,1,1,1000205,None,None,None,None,10,"Rice Balls are loved throughout Raktehelm, and everyone has a nostalgic fondness for them. At first glance, they are merely balls of rice, but a lot of care goes into making them, and each region has it's own particular designs. In the Reigrad Adventurer's Guild, Fire Mountaincat provides free Rice Balls, and many of the adventurers (especially the men) look forward to it. There are rumours that the Rice Balls are actually made by the Guild Master, and not Fire Mountaincat, but the truth is a mystery.",HP 5% UP,0
+1065,43,Rainbow Drop,3,1,1100003,None,None,None,None,50,"Once there was a child who chased after rainbows in the sky after the rain.
+That man grew up to become an adventurer and endlessly kept on chasing that rainbow.
+He kept walking without giving up, persistently trying to reach the foot of the rainbow. 
+After several attempts with no success, the adventurer was completely worn out.
+It was just then that a drop of rain fell on his head. 
+As he looked up in disappointment, he saw a beautiful majestic rainbow in the sky. 
+The adventurer had finally realized,
+that there was always a rainbow that watched over him.","Player EXP 300% UP
+※solo or multi
+player host only",1
+1066,33,New Year's Dish,1,1,1000202,None,None,None,None,10,"An ancient cuisine in Raktehelm. At the beginning of each year, they make various dishes, pouring their hearts into each one. Fire Mountaincat, where Sophie works has even more customers than is usual this year.
+Rayas: ""Sophie, would you like a hand?""
+Sophie: ""There's nothing you can help with.""
+Ganan: ""Haha! Failing at the beginning of the year doesn't bode well for the rest of it!""",HP 2% UP,0
+1067,39,MTL Chicken Curry,3,4,1100101,1001310,1002505,None,None,50,"The head chef of Reigrad Castle, Lakida created this curry using metal chicken meat. The dish went on to spread Lakida's name, overturning the idea that the meat had no use as a food ingredient. The recipe itself is top secret. Because it cannot be made in large quantities, only a few have had the opportunity to eat this dish, and even in Reigrad, it's a rare sight. It has a slightly sweet and addictive taste.","ATK 10% UP
+Break power 5% UP
+Unit EXP 100% UP",1
+1068,40,Golcat Curry,3,4,1100410,1000210,1001510,None,None,50,"Pokke, an apprentice chef at Reigrad Castle was being hounded by new menu design tasks, requested by the head chef. One day, while eating a pre-prepared curry with his head bowed, a mischievous Golcat appeared before him. ""Make it shine gold like Gren!"", the Golcat said. Encouraged by this advice, Pokke made a luxurious curry using lots of gold gilt. Needless to say, the head chef was furious with him.","HP  10% UP
+DEF  10% UP
+50% Gren UP",1
+1069,41,Fried Melmed Bird,1,1,1000205,1001303,1001503,1002502,None,10,"This is one of the dishes served at Fire Mountaincat. It uses valuable Melmed Bird meat, which can only be found in the forests in the western part of Isliid. The richness of the fatty meat that explodes in the mouth can only described as a ""Miracle of Raktehelm"". It's a favourite of the Reigrad Guild Master, Ganan, and he asks for it every time he visits the shop. His rippling muscles may be maintained thanks to this dish.","HP 5% UP
+ATK,DEF 3% UP
+Break Power 2% UP",0
+1070,44,Dragon Steak G,3,1,1001315,None,None,None,None,50,"A supreme dish combining the excellent flavoring of Dragon Steak and the finest aged meat. A clear cut above regular meats, with such tenderness that it melts in your mouth, unleashing the depth of its flavor. It’s said that the meat goes under a process called “aging” which takes a month to bring out its flavor in full. But as everyone knows, if you were to leave meat out for a month, of course it would rot. How and what exactly this aging process includes, is still yet unknown to the public.",ATK 15% UP,1
+1071,45,Salad Bowl G,3,1,1002508,None,None,None,None,50,"Grown from carefully cultivated soil and specially prepared fertilizer, the vegetables in this salad are beyond compare to those found in the wild in taste and nutrition. This verdant feast is all the rage among health and beauty-conscious women. Even the Third Lady of Bamint asked the owner of the Firecat's Den to teach her how to make it, but she was flatly rejected. ""You think I'd let you handle such high-quality ingredients?!""",Break Power 8% UP,1
+1072,46,Nishin Soba,3,4,1000205,1001305,1001505,None,None,50,"Soba with sweetened nishin (herring) on top.
+ The combination of its rich broth that's popular in the Kanto Area and the tender nishin topping makes this a exquisite dish.",All Status 5% UP,1
+1073,47,Salmon Ruipe,3,4,1000210,1100505,None,None,None,50,"This is frozen raw salmon that can only be eaten during the winter months and is made by hanging it from a tree.
+ Freezing it kills the harmful parasites and simultaneously makes it possible to absorb more vitamins from the meat.
+ It's so tasty, it just melts in your mouth!""","HP 10% UP
+CRI Rate 5% UP",1
+1074,48,Game Meat Rice Curry,3,4,1001310,1002505,None,None,None,50,"A 'curry' dish, which is a stew made from a paste with various spices mixed together,
+ poured over rice. The meat is cooked well and gives the dish a hearty flavor.","ATK 10% UP
+Break Power 5% UP",1
+1075,49,Mankanshoku's Croquette,3,4,1002901,1003021,None,None,None,50,"Mako Mankanshoku's mother, Sukuyo's best dish which Ryuko Matoi and Mako love.
+Even Satsuki Kiryuin says it's ""delicious."" It is unknown of what she is actually frying,
+but the secret is to chop it up in small pieces and mix it up with potatoes.","Equipment CT 2% DOWN
+Skill CT 5% DOWN",0
+1077,51,Bear Blood Sausage,3,4,1001307,1002901,None,None,None,50,A fine example of wild Nihei-style cuisine made by Nihei Tetsuzo. This flavorful dish is made using brown bear intestines that have been cleaned with snow and then stuffed with blood. It is very nutritious--a perfect meal after a hard day's work.,"ATK 7% UP
+Skill CT 5% DOWN",1
+1078,52,Otter Ohaw,3,4,1000210,1003205,None,None,None,50,"An otter stew simmered with root vegetables and a variety of seasonings. The fatty otter meat comes apart as it is stewed, bringing out a light sweet flavor. The whole otter head that is boiled together with the stew is considered to be especially delicious.","HP 10% UP
+Accuracy rate 5% UP",1
+5001,0,Red Curry Boost,0,4,1100204,None,None,None,None,50,"An extreme curry for those people who can no longer be satisfied by the normal Red Curry. This kind of spicy is no longer a meal, but a weapon. ""As lovers of the extreme collapsed one after another, she appeared before me... I recognised her face. I think it was when I visited Reigrad. I think I saw her in the arena... She never broke a sweat, polishing off this dish...!""",LUCK 15,0
+5002,0,Blue Curry Boost,0,4,1100204,None,None,None,None,50,"The Blue Curry's colour has been polished to an azure lustre, and now feels refreshing, somehow. People order it because it's summertime, and Raktehelm experiences a strange boom. The Isliid Empire's capital wants to join in with this boom, but as expected, too many people are put off by the unappetizing colour. Before long, glasses that make the Blue Curry appear to be normal curry are soon being sold. They also experience an explosive peak in sales.",LUCK 15,0
+5003,0,Yellow Curry Boost,0,4,1100204,None,None,None,None,50,"The Yellow Curry has been reinvented. The recipe was originally designed around the colour of the sauce and keeping the flavour mild. The new Yellow Curry has reached the absolute pinnacle of mildness. We aren't sure if it can even be called a curry anymore. The power of this curry was demonstrated at the annual International Food Competition, held at the Isliid Empire's capital. It was then that the now famous words were uttered: ""This curry is sweet!""",LUCK 15,0
+5004,0,Purple Curry Boost,0,4,1100204,None,None,None,None,50,"The Culprit of the ""Purple Curry Murder"", which took the life of a noble when she ate a poisoned Purple Curry which her taste tester hadn't first sampled. The Fire Mountaincat's owner was incensed by the face that his food had been used for murder, and caught the assassin himself. The assassin made this statement: ""Wow... I didn't think I'd get caught so easily... I should have prepared more traps.""",LUCK 15,0
+5005,0,Black Curry Boost,0,4,1100204,None,None,None,None,50,"There isn't anything wrong with the taste, but the unique effect of turning the inside of your mouth black has been enhanced even further. Its creators have succeeded in doing what no one has ever done before - extending the effect so that it lasts a whole week now. One man, whose fiance had eaten the Black Curry, was so shocked by her appearance that he broke off their engagement, and my be sued for his mistake. We recommend staying away from people for a while after eating this curry.",LUCK 15,0
+5006,0,SP Curry Boost,0,4,1100205,None,None,None,None,50,"When the commander of the Isliid Empire Defence Force was wounded and being treated, I remembered about the Fire Mountaincat owner who I've been friends with for a long time. We improved the curry recipe and gave the commander some. Fast forward to now, and our commander has retired to be a guild master in Reigrad. Even now, he eats this curry, remembering his allies and letting himself smile a little.",LUCK 20,0
+5007,0,STR Macaron Boost,0,4,1100205,None,None,None,None,50,"These macarons are made from strawberries selected from the best of the bunch. It is said that, because these strawberries have absorbed energy very well, people who eat these macarons will gain vitality from them. In ancient times, macarons have been given as an offering to the gods because of they were made of high quality ingredients. This last macaron my be closer to the original",LUCK 20,0
+5008,0,COF Macaron Boost,0,4,1100204,None,None,None,None,50,"These macarons are made from the most nutritious of the coffee beans. Demand for these macarons is rising among adventurers and knights, because of coffee's effect which activates the brain and helps you to judge situations more quickly. The candy store in the north western part of Famelle, which is where these coffee beans are produced, only sells these macarons once a month. It's a sacred ground for coffee lovers, who gather here from all over Raktehelm.",LUCK 15,0
+5009,0,MDN Macaron Boost,0,4,1100204,None,None,None,None,50,"A sweet bursting with nutrition, as it uses the whole mandarin, all the way up to the skin. Mandarins have the effect of enhancing bodily functions, and it is said that if you eat them, your body will not break during your adventure. There is a saying in Gramenia which goes ""Give sweets made of mandarins to children who travel."" Adventurers, knights and travellers all carry them in Gramenia, no matter how strong they are.",LUCK 15,0
+5010,0,GRP Macaron Boost,0,4,1100204,None,None,None,None,50,"A sweet made from high quality ingredients taken from the harvest that year. It has been confirmed to help people recover from fatigue, and is often used a token of sympathy for sick people. In the Principality of Bamint, the second in command of the Royal Knights tried to get approval for their use as combat rations. ",LUCK 15,0
+5011,0,SIL Macaron Boost,0,4,1100101,None,None,None,None,50,"A macaron made from rare silver fruit. Its exact properties are unknown, but some who have eaten it report having turns of good fortune, such as being promoted, getting married to a wonderful knight or finding an incredibly rare item during their travels. It was a very rare item to begin with, and it is even harder to find one nowadays.",Unit EXP 100% UP,0
+5012,0,SP Macaron Boost,0,4,1100205,None,None,None,None,50,"A special macaron said to have been given to the temple by the previous owner of Fire Mountaincat. The previous owner kept the ingredients and recipe secret from everyone including his beloved daughter, the second owner. She remembered the taste however, and miraculously recreated it. ""My dad's cooking was the best, but when I ate that macaron, I couldn't stop the tears from flowing.""",LUCK 20,0
+5013,0,RED Mushroom Boost,0,4,1100203,None,None,None,None,50,"The medicinal effects of Red Mushrooms have been made more powerful through selective breeding, but the side effects have also worsened.
+""Rayas, the effects of this mushroom pale in comparison to the ones growing over there... Uh, where did she go?""
+""...If you're looking for Rayas, she went outside shouting, 'The world is waiting for me!'.""
+""Iris... Please don't end up like that.""",LUCK 12,0
+5014,0,BLU Mushroom Boost,0,4,1100203,None,None,None,None,50,"The medicinal effects of Blue Mushrooms have been made more powerful through selective breeding, but the side effects have also worsened.
+""...Iris, what happened to Rayas?""
+""She was eating mushrooms downstairs a moment ago... But then she suddenly went to her room and hasn't come out. She was mumbling something to herself, too...""
+""There's nothing we can do once she gets like that... She won't come out until the effects wear off.""",LUCK 12,0
+5015,0,YLW Mushroom Boost,0,4,1100203,None,None,None,None,50,"The medicinal effects of Yellow Mushrooms have been made more powerful through selective breeding, but the side effects have also worsened.
+""...""
+""Ganan! Please teach me about mushrooms today, as well! Anything for raw mushrooms!""
+""...Ganan.""
+""Don't say anything... Iris, we'll lose if we charge into this blindly.""",LUCK 12,0
+5016,0,PUR Mushroom Boost,0,4,1100203,None,None,None,None,50,"The medicinal effects of Purple Mushrooms have been made more powerful through selective breeding, but the side effects have also worsened.
+""Oooaaahhh!""
+""Oww! What did you do that for, Ganan? I hadn't even eaten it yet! What a waste of a mushroom...""
+""You shouldn't be trying to eat it! I knew you were doing this on purpose!""",LUCK 12,0
+5017,0,BLK Mushroom Boost,0,4,1100203,None,None,None,None,50,"The medicinal effects of Black Mushrooms have been made more powerful through selective breeding, but the side effects have also worsened.
+""Iris, where did that idiot go?""
+""...She went out. She said, 'I'm fed up of always studying mushrooms. I'm gonna find another guild master to teach me.""
+""...""
+""Ganan... You look even scarier than usual right now.""",LUCK 12,0
+5018,0,SIL Lychee Boost,0,4,1100101,None,None,None,None,50,"There is a special variety of Silver Lychee, called the ""Witch Species"", which is cultivated in the southern part of the Magus Empire of La Riiz. Processing it into drinking water makes it possible to make a long journey across the desert with only a little water. Processing it into sweets makes them taste superb, and processing it into alcohol makes an excellent offering for the gods. Its rarity makes it value immeasurable, since it grows in the middle of a remote den of monsters. It has been sought after by men in every age.",Unit EXP 100% UP,0
+5019,0,SIL Melon Boost,0,4,1100102,None,None,None,None,50,"This variety of Silver Melon has been engineered to improve its properties. It has been reported that silver-luminescent ingredients have a positive effect on the cognitive functions of the brain, and we hope to supply universities and other educational institutions with it eventually, but due to the high price, it is currently only available to knights and nobles. At the moment, only high ranking officials can afford to eat it, and it is never usually seen in normal markets. Even if it was, the insane price would prevent anyone from buying it.",Unit EXP 150% UP,0
+5020,0,RED Cheese Boost,0,4,1100205,None,None,None,None,50,"""Red Cheese that has matured for far longer than regular Red Cheese. This cheese, which craftsmen have poured their time and skills into making has a smooth, deep flavour. The beautiful red colour is so like the red of the sun dipping over the horizon at sunset... Letting it melt in your mouth releases an aroma that reminds one of the ocean back home.""
+Gregorous, Gourmet, from the ""Homesickness in the Roar of the Ocean""",LUCK 20,0
+5021,0,BLU Cheese Boost,0,4,1100205,None,None,None,None,50,"Rare Blue Cheese matured in a cave, under specific conditions with raw milk purchased from a designated farm. Its grotesque appearance has not improved, but its flavour and saltiness have improved greatly. ""The mould that produces that smell... reminds me of an adventure book that I spent most of my childhood reading.""
+Gregorous, Gourmet, from ""Mellow Wings""",LUCK 20,0
+5022,0,Emmental Boost,0,4,1100205,None,None,None,None,50,"""This Emmental Cheese has holes the size of walnuts, indicating the degree of maturation. For Emmental, holes the size of walnuts show it to be in best condition. They are neither too large nor too small. ""Those wide eyes reminded me of my girlfriend when I was a child...""
+Gregorous, Gourmet, from ""Abyss of the Eye""",LUCK 20,0
+5023,0,Camembert Boost,0,4,1100205,None,None,None,None,50,"The maturation of this cheese was halted precisely before it reached core of the cheese. It is at its most flavoursome in this state, and can fetch a high price. ""The hard core that remains is exposed to fire and watching it melt away, I am reminded of when I was a young man, and I find myself likening myself to it... It was not a deeply held belief of mine, but rather a stinky dream.""
+Gregorous, Gourmet, from ""Purity of Innocence""",LUCK 20,0
+5024,0,Gorgonzola Boost,0,4,1100205,None,None,None,None,50,"""The origin of Gorgonzola Cheese is said to have started the molded cheese revolution, when adventurers travelling to Raktehelm before the great war left some cheese in a cave and returned for it later. ""A desolate mountain range. When I think of them waiting here for so long that their minds started to shut down, I cannot remain calm.""
+Gregorous, Gourmet, from ""One Man's Survival""",LUCK 20,0
+5025,0,SP Cheese Boost,0,4,1100205,None,None,None,None,50,"This cheese was created by blending many other cheeses. It is designed to be carried by people in dangerous occupations, such as adventurers and knights. It will stay fresh even in poor conditions and is highly nutritious. It's the perfect cheese for an adventurer. ""Cut it, melt it, mold it into a shape... It's almost exactly like a young person...""
+Gregorous, Gourmet, from ""The Thickness of Skin""",LUCK 20,0
+5026,0,New Year's Dish Boost,0,4,1000210,1100205,1100002,1100106,None,50,,"HP 10% LUCK 20
+Unit EXP 50%
+Player EXP 50%",0
+5027,0,Metal Chicken Boost,0,4,1002903,None,None,None,None,50,,"Skill CT Speed 
+15% UP",0
+5028,0,Golcat Boost,0,4,1003003,None,None,None,None,50,,"Equipped Skill CT Speed 
+15% UP",0
+5029,0,Fried Chicken Boost,0,4,1100205,None,None,None,None,50,,LUCK 20,0
+5030,0,Nishin Soba Boost,0,4,1100205,None,None,None,None,50,,LUCK 20,0
+5031,0,Salmon Ruipe Boost,0,4,1100205,None,None,None,None,50,,LUCK 20,0
+5032,0,Game Meat Rice Curry,0,4,1100205,None,None,None,None,50,,LUCK 20,0
+5033,0,Mankanshoku's Croquette Boost,0,4,1100205,None,None,None,None,50,,LUCK20,0
+5035,0,Bear Blood Sausage,0,4,1100205,None,None,None,None,50,A fine example of wild Nihei-style cuisine made by Nihei Tetsuzo. This flavorful dish is made using brown bear intestines that have been cleaned with snow and then stuffed with blood. It is very nutritious--a perfect meal after a hard day's work.,LUCK 20,1
+5036,0,Otter Ohaw,0,4,1100205,None,None,None,None,50,"An otter stew simmered with root vegetables and a variety of seasonings. The fatty otter meat comes apart as it is stewed, bringing out a light sweet flavor. The whole otter head that is boiled together with the stew is considered to be especially delicious.",LUCK 20,1
+6001,55,Mocha Macaron,3,1,1000207,1002901,None,None,None,50,"This refined treat offers the fragrance of coffee beans grown in northwest Famelle balanced with rich cream. Neither too sweet nor too bitter, it has become hugely popular throughout Raktehelm since its recent invention. ","HP 7% UP
+Skill CT speed 5% UP",0
+7001,0,Mocha Macaron Boost,0,4,1100205,None,None,None,None,50,"A special variety of macaron sold only once a month in limited quantities. The coffee stimulates the brain for faster decision-making, making it hotly demanded among adventurers and knights.",LUCK 20,0
+9001,32,Charred Bits,1,1,9000001,9000002,9000003,None,None,1,"Charred Bits. It's black and charred. What more is there to say? But don't hate it for being charred. These Charred Bits are wanted by many farmers throughout Raktehelm to use as fertilizer... However, it's not particularly useful for an adventurer. Some people gather Charred Bits to make their own fertilizer, and sell it all off to make a living. They say, ""It's most profitable when new people come to the Guild in each region.","HP 1% UP
+ATK 1% UP
+DEF 1% UP",0
+9002,0,Rotten Charred Bits,2,1,9000004,9000005,9000006,None,None,1,"This intensely odorous lump is the end result of Charred Bits that have decomposed. As the decomposition progresses, it can't even be used as fertilizer anymore. People avoid you just for carrying it. You really should bury it somewhere. Previously, when there was a commotion because of a hellish smell at Fire Mountaincat, the owner discovered the cause to be a pile of Decomposed Charred Bits that some new adventurers had been hoarding.","HP 2% UP
+ATK 2% UP
+DEF 2% UP",0

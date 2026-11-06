@@ -1,0 +1,23 @@
+id,name,description,effect_name,field_effect_lua_id,field_skill_effect_custom_parameter,popup_title_image_name
+101,Hellfire,10% DMG to MAX HP every 5s until the end of the battle. Counter DMG by 2% of DMG to enemy.,Field_Fire00,1,"{""damageParcent"":10,""span"":5,""refrectValue"":2}",battle_menu_field_effect_01.png
+102,Hellfire,20% DMG to MAX HP every 5s until the end of the battle. Counter DMG by 5% of DMG to enemy.,Field_Fire00,1,"{""damageParcent"":20,""span"":5,""refrectValue"":5}",battle_menu_field_effect_01.png
+201,Icicle Cage,"All status 10% DOWN.
+A blizzard erupts every 15s.
+Skill gauge drops to 0 & Skill CT speed 80% DOWN when blizzard is activated.",Field_Ice00,2,"{""span"":15,""debuffValue"":-10}",battle_menu_field_effect_01.png
+202,Icicle Cage,"All status 30% DOWN.
+A blizzard erupts every 10s.
+Skill gauge drops to 0 & Skill CT speed 80% DOWN when blizzard is activated.",Field_Ice00,2,"{""span"":10,""debuffValue"":-30}",battle_menu_field_effect_01.png
+601,Miasma,"Auto-fills Arts gauge by 5. When unit uses own skill, increases Arts gauge by 10. Arts gauge will not increase with exception for these effects.",Field_Swamp00,6,"{
+""spPerSec"": 5,
+""spBySkill"": 10,
+""isStopAddSP"": true
+}",battle_menu_field_effect_01.png
+1001,Fair,"DMG to Weak-Element enemy x2.0
+DMG to Strong-Element enemy x0.5",GB_Weather_001.lwf,0,"{
+	""elementWeak"": 2,
+	""elementResist"": 0.5
+}",battle_menu_field_effect_01.png
+1002,Dusk,Ally God & Spirit units DMG & DMG taken x1.5,GB_Weather_002.lwf,0,"{""races"":[3,7],""damageRate"":1.5}",battle_menu_field_effect_01.png
+1003,Night,"Ally Demon, Dragon, & Machine units DMG & DMG taken x1.5",GB_Weather_003.lwf,0,"{""races"":[5,6,8],""damageRate"":1.5}",battle_menu_field_effect_01.png
+1004,Fog,"Ally Human, Beast, & Giant units DMG & DMG taken x1.5",GB_Weather_004.lwf,0,"{""races"":[1,2,4],""damageRate"":1.5}",battle_menu_field_effect_01.png
+1005,Storm,CRI DMG from x1.25 to x1.5,GB_Weather_005.lwf,0,"{""critical"":1.5,""superCritical"":3}",battle_menu_field_effect_01.png

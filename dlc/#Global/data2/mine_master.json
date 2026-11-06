@@ -1,0 +1,1 @@
+[{"id": 1, "max_floor": -1, "boss_magic_stone_rate": 80, "stamina_function": "math.atan(a*0.05)*2/math.pi*5+10", "drop_user_exp_function": "(math.atan(a*0.05)*2/math.pi*5+10)*123", "first_rare_boss_battle_floor": 5, "high_magic_stone_floor": 10, "rare_boss_up_rate": 300, "floor_change_interval": 5, "floor_change_time": 30, "floor_change_start": 10, "start_max_floor": 10}]

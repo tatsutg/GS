@@ -1,0 +1,302 @@
+id,effect_type,target,effect_value,description
+1000201,2,2,1,HP 1%
+1000202,2,2,2,HP 2%
+1000203,2,2,3,HP 3%
+1000204,2,2,4,HP 4%
+1000205,2,2,5,HP 5%
+1000206,2,2,6,HP 6%
+1000207,2,2,7,HP 7%
+1000208,2,2,8,HP 8%
+1000209,2,2,9,HP 9%
+1000210,2,2,10,HP 10%
+1000211,2,2,11,HP 11%
+1000212,2,2,12,HP 12%
+1000213,2,2,13,HP 13%
+1000214,2,2,14,HP 14%
+1000215,2,2,15,HP 15%
+1001301,13,2,1,ATK 1%
+1001302,13,2,2,ATK 2%
+1001303,13,2,3,ATK 3%
+1001304,13,2,4,ATK 4%
+1001305,13,2,5,ATK 5%
+1001306,13,2,6,ATK 6%
+1001307,13,2,7,ATK 7%
+1001308,13,2,8,ATK 8%
+1001309,13,2,9,ATK 9%
+1001310,13,2,10,ATK 10%
+1001311,13,2,11,ATK 11%
+1001312,13,2,12,ATK 12%
+1001313,13,2,13,ATK 13%
+1001314,13,2,14,ATK 14%
+1001315,13,2,15,ATK 15%
+1001501,15,2,1,DEF 1%
+1001502,15,2,2,DEF 2%
+1001503,15,2,3,DEF 3%
+1001504,15,2,4,DEF 4%
+1001505,15,2,5,DEF 5%
+1001506,15,2,6,DEF 6%
+1001507,15,2,7,DEF 7%
+1001508,15,2,8,DEF 8%
+1001509,15,2,9,DEF 9%
+1001510,15,2,10,DEF 10%
+1001511,15,2,11,DEF 11%
+1001512,15,2,12,DEF 12%
+1001513,15,2,13,DEF 13%
+1001514,15,2,14,DEF 14%
+1001515,15,2,15,DEF 15%
+1002501,25,2,1,Break Power 1%
+1002502,25,2,2,Break Power 2%
+1002503,25,2,3,Break Power 3%
+1002504,25,2,4,Break Power 4%
+1002505,25,2,5,Break Power 5%
+1002506,25,2,6,Break Power 6%
+1002507,25,2,7,Break Power 7%
+1002508,25,2,8,Break Power 8%
+1002509,25,2,9,Break Power 9%
+1002510,25,2,10,Break Power 10%
+1002511,25,2,11,Break Power 11%
+1002512,25,2,12,Break Power 12%
+1002513,25,2,13,Break Power 13%
+1002514,25,2,14,Break Power 14%
+1002515,25,2,15,Break Power 15%
+1002901,29,2,5,Skill CT Speed 5%
+1002902,29,2,10,Skill CT Speed 10%
+1002903,29,2,15,Skill CT Speed 15%
+1002904,29,2,20,Skill CT Speed 20%
+1002905,29,2,25,Skill CT Speed 25%
+1002906,29,2,30,Skill CT Speed 30%
+1002907,29,2,35,Skill CT Speed 35%
+1002908,29,2,40,Skill CT Speed 40%
+1002909,29,2,45,Skill CT Speed 45%
+1002910,29,2,50,Skill CT Speed 50%
+1002911,29,2,55,Skill CT Speed 55%
+1002912,29,2,60,Skill CT Speed 60%
+1002913,29,2,65,Skill CT Speed 65%
+1002914,29,2,70,Skill CT Speed 70%
+1002915,29,2,75,Skill CT Speed 75%
+1002916,29,2,80,Skill CT Speed 80%
+1002917,29,2,85,Skill CT Speed 85%
+1002918,29,2,90,Skill CT Speed 90%
+1002919,29,2,95,Skill CT Speed 95%
+1002920,29,2,100,Skill CT Speed 100%
+1003001,30,2,5,Equipment Skill CT Speed 5%
+1003002,30,2,10,Equipment Skill CT Speed 10%
+1003003,30,2,15,Equipment Skill CT Speed 15%
+1003004,30,2,20,Equipment Skill CT Speed 20%
+1003005,30,2,25,Equipment Skill CT Speed 25%
+1003006,30,2,30,Equipment Skill CT Speed 30%
+1003007,30,2,35,Equipment Skill CT Speed 35%
+1003008,30,2,40,Equipment Skill CT Speed 40%
+1003009,30,2,45,Equipment Skill CT Speed 45%
+1003010,30,2,50,Equipment Skill CT Speed 50%
+1003011,30,2,55,Equipment Skill CT Speed 55%
+1003012,30,2,60,Equipment Skill CT Speed 60%
+1003013,30,2,65,Equipment Skill CT Speed 65%
+1003014,30,2,70,Equipment Skill CT Speed 70%
+1003015,30,2,75,Equipment Skill CT Speed 75%
+1003016,30,2,80,Equipment Skill CT Speed 80%
+1003017,30,2,85,Equipment Skill CT Speed 85%
+1003018,30,2,90,Equipment Skill CT Speed 90%
+1003019,30,2,95,Equipment Skill CT Speed 95%
+1003020,30,2,100,Equipment Skill CT Speed 100%
+1003021,30,2,2,Equipment CT Speed 2%
+1003201,32,2,1,Accuracy rate 1% UP
+1003202,32,2,2,Accuracy rate 2% UP
+1003203,32,2,3,Accuracy rate 3% UP
+1003204,32,2,4,Accuracy rate 4% UP
+1003205,32,2,5,Accuracy rate 5% UP
+1003206,32,2,6,Accuracy rate 6% UP
+1003207,32,2,7,Accuracy rate 7% UP
+1003208,32,2,8,Accuracy rate 8% UP
+1003209,32,2,9,Accuracy rate 9% UP
+1003210,32,2,10,Accuracy rate 10% UP
+1003211,32,2,11,Accuracy rate 11% UP
+1003212,32,2,12,Accuracy rate 12% UP
+1003213,32,2,13,Accuracy rate 13% UP
+1003214,32,2,14,Accuracy rate 14% UP
+1003215,32,2,15,Accuracy rate 15% UP
+1005301,53,2,5,Poison Resistance 5%
+1005302,53,2,10,Poison Resistance 10%
+1005303,53,2,15,Poison Resistance 15%
+1005304,53,2,20,Poison Resistance 20%
+1005305,53,2,25,Poison Resistance 25%
+1005306,53,2,30,Poison Resistance 30%
+1005307,53,2,35,Poison Resistance 35%
+1005308,53,2,40,Poison Resistance 40%
+1005309,53,2,45,Poison Resistance 45%
+1005310,53,2,50,Poison Resistance 50%
+1005401,54,2,5,Stun Resistance 5%
+1005402,54,2,10,Stun Resistance 10%
+1005403,54,2,15,Stun Resistance 15%
+1005404,54,2,20,Stun Resistance 20%
+1005405,54,2,25,Stun Resistance 25%
+1005406,54,2,30,Stun Resistance 30%
+1005407,54,2,35,Stun Resistance 35%
+1005408,54,2,40,Stun Resistance 40%
+1005409,54,2,45,Stun Resistance 45%
+1005410,54,2,50,Stun Resistance 50%
+1005501,55,2,5,Silence Resistance 5%
+1005502,55,2,10,Silence Resistance 10%
+1005503,55,2,15,Silence Resistance 15%
+1005504,55,2,20,Silence Resistance 20%
+1005505,55,2,25,Silence Resistance 25%
+1005506,55,2,30,Silence Resistance 30%
+1005507,55,2,35,Silence Resistance 35%
+1005508,55,2,40,Silence Resistance 40%
+1005509,55,2,45,Silence Resistance 45%
+1005510,55,2,50,Silence Resistance 50%
+1005601,56,2,5,Darkness Resistance 5%
+1005602,56,2,10,Darkness Resistance 10%
+1005603,56,2,15,Darkness Resistance 15%
+1005604,56,2,20,Darkness Resistance 20%
+1005605,56,2,25,Darkness Resistance 25%
+1005606,56,2,30,Darkness Resistance 30%
+1005607,56,2,35,Darkness Resistance 35%
+1005608,56,2,40,Darkness Resistance 40%
+1005609,56,2,45,Darkness Resistance 45%
+1005610,56,2,50,Darkness Resistance 50%
+1005701,57,2,5,Sick Resistance 5%
+1005702,57,2,10,Sick Resistance 10%
+1005703,57,2,15,Sick Resistance 15%
+1005704,57,2,20,Sick Resistance 20%
+1005705,57,2,25,Sick Resistance 25%
+1005706,57,2,30,Sick Resistance 30%
+1005707,57,2,35,Sick Resistance 35%
+1005708,57,2,40,Sick Resistance 40%
+1005709,57,2,45,Sick Resistance 45%
+1005710,57,2,50,Sick Resistance 50%
+1005801,58,2,5,Curse Resistance 5%
+1005802,58,2,10,Curse Resistance 10%
+1005803,58,2,15,Curse Resistance 15%
+1005804,58,2,20,Curse Resistance 20%
+1005805,58,2,25,Curse Resistance 25%
+1005806,58,2,30,Curse Resistance 30%
+1005807,58,2,35,Curse Resistance 35%
+1005808,58,2,40,Curse Resistance 40%
+1005809,58,2,45,Curse Resistance 45%
+1005810,58,2,50,Curse Resistance 50%
+1006101,61,2,1,Fire Resistance 1%
+1006102,61,2,2,Fire Resistance 2%
+1006103,61,2,3,Fire Resistance 3%
+1006104,61,2,4,Fire Resistance 4%
+1006105,61,2,5,Fire Resistance 5%
+1006106,61,2,6,Fire Resistance 6%
+1006107,61,2,7,Fire Resistance 7%
+1006108,61,2,8,Fire Resistance 8%
+1006109,61,2,9,Fire Resistance 9%
+1006110,61,2,10,Fire Resistance 10%
+1006111,61,2,11,Fire Resistance 11%
+1006112,61,2,12,Fire Resistance 12%
+1006113,61,2,13,Fire Resistance 13%
+1006114,61,2,14,Fire Resistance 14%
+1006115,61,2,15,Fire Resistance 15%
+1006201,62,2,1,Water Resistance 1%
+1006202,62,2,2,Water Resistance 2%
+1006203,62,2,3,Water Resistance 3%
+1006204,62,2,4,Water Resistance 4%
+1006205,62,2,5,Water Resistance 5%
+1006206,62,2,6,Water Resistance 6%
+1006207,62,2,7,Water Resistance 7%
+1006208,62,2,8,Water Resistance 8%
+1006209,62,2,9,Water Resistance 9%
+1006210,62,2,10,Water Resistance 10%
+1006211,62,2,11,Water Resistance 11%
+1006212,62,2,12,Water Resistance 12%
+1006213,62,2,13,Water Resistance 13%
+1006214,62,2,14,Water Resistance 14%
+1006215,62,2,15,Water Resistance 15%
+1006301,63,2,1,Earth Resistance 1%
+1006302,63,2,2,Earth Resistance 2%
+1006303,63,2,3,Earth Resistance 3%
+1006304,63,2,4,Earth Resistance 4%
+1006305,63,2,5,Earth Resistance 5%
+1006306,63,2,6,Earth Resistance 6%
+1006307,63,2,7,Earth Resistance 7%
+1006308,63,2,8,Earth Resistance 8%
+1006309,63,2,9,Earth Resistance 9%
+1006310,63,2,10,Earth Resistance 10%
+1006311,63,2,11,Earth Resistance 11%
+1006312,63,2,12,Earth Resistance 12%
+1006313,63,2,13,Earth Resistance 13%
+1006314,63,2,14,Earth Resistance 14%
+1006315,63,2,15,Earth Resistance 15%
+1006401,64,2,1,Light Resistance 1%
+1006402,64,2,2,Light Resistance 2%
+1006403,64,2,3,Light Resistance 3%
+1006404,64,2,4,Light Resistance 4%
+1006405,64,2,5,Light Resistance 5%
+1006406,64,2,6,Light Resistance 6%
+1006407,64,2,7,Light Resistance 7%
+1006408,64,2,8,Light Resistance 8%
+1006409,64,2,9,Light Resistance 9%
+1006410,64,2,10,Light Resistance 10%
+1006411,64,2,11,Light Resistance 11%
+1006412,64,2,12,Light Resistance 12%
+1006413,64,2,13,Light Resistance 13%
+1006414,64,2,14,Light Resistance 14%
+1006415,64,2,15,Light Resistance 15%
+1006501,65,2,1,Dark Resistance 1%
+1006502,65,2,2,Dark Resistance 2%
+1006503,65,2,3,Dark Resistance 3%
+1006504,65,2,4,Dark Resistance 4%
+1006505,65,2,5,Dark Resistance 5%
+1006506,65,2,6,Dark Resistance 6%
+1006507,65,2,7,Dark Resistance 7%
+1006508,65,2,8,Dark Resistance 8%
+1006509,65,2,9,Dark Resistance 9%
+1006510,65,2,10,Dark Resistance 10%
+1006511,65,2,11,Dark Resistance 11%
+1006512,65,2,12,Dark Resistance 12%
+1006513,65,2,13,Dark Resistance 13%
+1006514,65,2,14,Dark Resistance 14%
+1006515,65,2,15,Dark Resistance 15%
+1100001,1000,2,5,Player XP 5%
+1100002,1000,2,50,Player XP 50%
+1100003,1000,1,300,Player XP 300%
+1100101,1001,2,100,Unit XP 100%
+1100102,1001,2,150,Unit XP 150%
+1100103,1001,2,5,Unit XP 5%
+1100104,1001,2,7,Unit XP 7%
+1100105,1001,2,10,Unit XP 10%
+1100106,1001,2,50,Unit XP 50%
+1100201,1002,2,3,LUCK 3
+1100202,1002,2,10,LUCK 10
+1100203,1002,2,12,LUCK 12
+1100204,1002,2,15,LUCK 15
+1100205,1002,2,20,LUCK 20
+1100301,1003,2,2,All Elemental Resistance 2%
+1100302,1003,2,3,All Elemental Resistance 3%
+1100303,1003,2,4,All Elemental Resistance 4%
+1100304,1003,2,5,All Elemental Resistance 5%
+1100305,1003,2,6,All Elemental Resistance 6%
+1100306,1003,2,8,All Elemental Resistance 8%
+1100307,1003,2,10,All Elemental Resistance 10%
+1100308,1003,2,12,All Elemental Resistance 12%
+1100309,1003,2,14,All Elemental Resistance 14%
+1100310,1003,2,15,All Elemental Resistance 15%
+1100401,1004,2,5,Earned Gren 5%
+1100402,1004,2,10,Earned Gren 10%
+1100403,1004,2,15,Earned Gren 15%
+1100404,1004,2,20,Earned Gren 20%
+1100405,1004,2,25,Earned Gren 25%
+1100406,1004,2,30,Earned Gren 30%
+1100407,1004,2,35,Earned Gren 35%
+1100408,1004,2,40,Earned Gren 40%
+1100409,1004,2,45,Earned Gren 45%
+1100410,1004,2,50,Earned Gren 50%
+1100501,22,2,1,CRI Rate 1%UP
+1100502,22,2,2,CRI Rate 2%UP
+1100503,22,2,3,CRI Rate 3%UP
+1100504,22,2,4,CRI Rate 4%UP
+1100505,22,2,5,CRI Rate 5%UP
+1100506,22,2,6,CRI Rate 6%UP
+1100507,22,2,7,CRI Rate 7%UP
+1100508,22,2,8,CRI Rate 8%UP
+1100509,22,2,9,CRI Rate 9%UP
+1100510,22,2,10,CRI Rate 10%UP
+9000001,2,2,1,HP 1%
+9000002,13,2,1,ATK 1%
+9000003,15,2,1,DEF 1%
+9000004,2,2,2,HP 2%
+9000005,13,2,2,ATK 2%
+9000006,15,2,2,DEF 2%

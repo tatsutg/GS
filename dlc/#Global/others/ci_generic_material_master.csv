@@ -1,0 +1,73 @@
+id,type,material_rarity,name,description,attack_value,magic_value,defense_value,recovery_value,buff_value
+101,1,1,Metal Mystika I,"Higher Chance: Physical/Defense
+Lower Chance: Magic/Support
+Crafts ★1-2 Equip",3,-1,2,0,-1
+102,1,2,Metal Mystika II,"Higher Chance: Physical/Defense 
+Lower Chance: Magic/Support
+Crafts ★1-3 Equip",3,-1,2,0,-1
+103,1,3,Metal Mystika III,"Higher Chance: Physical/Defense 
+Lower Chance: Magic/Support
+Crafts ★2-4 Equip",3,-1,2,0,-1
+104,1,4,Metal Mystika IV,"Higher Chance: Physical/Defense 
+Lower Chance: Magic/Support
+Crafts ★3-4 Equip",3,-1,2,0,-1
+105,1,5,Metal Mystika V,"Higher Chance: Physical/Defense 
+Lower Chance: Magic/Support
+Crafts ★4-5 Equip",3,-1,2,0,-1
+106,1,6,Metal Mystika VI,"Higher Chance: Physical/Defense 
+Lower Chance: Magic/Support
+Crafts ★5-6 Equip",3,-1,2,0,-1
+201,2,1,Elemental Mystika I,"Higher Chance: Magic/Heal
+Lower Chance: Physical/Support
+Crafts ★1-2 Equip",-1,3,0,2,-1
+202,2,2,Elemental Mystika II,"Higher Chance: Magic/Heal 
+Lower Chance: Physical/Support
+Crafts ★1-3 Equip",-1,3,0,2,-1
+203,2,3,Elemental Mystika III,"Higher Chance: Magic/Heal 
+Lower Chance: Physical/Support
+Crafts ★2-4 Equip",-1,3,0,2,-1
+204,2,4,Elemental Mystika IV,"Higher Chance: Magic/Heal 
+Lower Chance: Physical/Support
+Crafts ★3-4 Equip",-1,3,0,2,-1
+205,2,5,Elemental Mystika V,"Higher Chance: Magic/Heal 
+Lower Chance: Physical/Support
+Crafts ★4-5 Equip",-1,3,0,2,-1
+206,2,6,Elemental Mystika VI,"Higher Chance: Magic/Heal 
+Lower Chance: Physical/Support
+Crafts ★5-6 Equip",-1,3,0,2,-1
+301,3,1,Flora Mystika I,"Higher Chance: Heal/Magic
+Lower Chance: Defense
+Crafts ★1-2 Equip",0,1,-1,2,0
+302,3,2,Flora Mystika II,"Higher Chance: Heal/Magic 
+Lower Chance: Defense
+Crafts ★1-3 Equip",0,1,-1,2,0
+303,3,3,Flora Mystika III,"Higher Chance: Heal/Magic 
+Lower Chance: Defense
+Crafts ★2-4 Equip",0,1,-1,2,0
+304,3,4,Flora Mystika IV,"Higher Chance: Heal/Magic 
+Lower Chance: Defense
+Crafts ★3-4 Equip",0,1,-1,2,0
+305,3,5,Flora Mystika V,"Higher Chance: Heal/Magic 
+Lower Chance: Defense
+Crafts ★4-5 Equip",0,1,-1,2,0
+306,3,6,Flora Mystika VI,"Higher Chance: Heal/Magic 
+Lower Chance: Defense
+Crafts ★5-6 Equip",0,1,-1,2,0
+401,4,1,Bio Mystika I,"Higher Chance: Defense/Support
+Lower Chance: Physical/Magic
+Crafts ★1-2 Equip",-1,-1,2,0,2
+402,4,2,Bio Mystika II,"Higher Chance: Defense/Support 
+Lower Chance: Physical/Magic
+Crafts ★1-3 Equip",-1,-1,2,0,2
+403,4,3,Bio Mystika III,"Higher Chance: Defense/Support 
+Lower Chance: Physical/Magic
+Crafts ★2-4 Equip",-1,-1,2,0,2
+404,4,4,Bio Mystika IV,"Higher Chance: Defense/Support 
+Lower Chance: Physical/Magic
+Crafts ★3-4 Equip",-1,-1,2,0,2
+405,4,5,Bio Mystika V,"Higher Chance: Defense/Support 
+Lower Chance: Physical/Magic
+Crafts ★4-5 Equip",-1,-1,2,0,2
+406,4,6,Bio Mystika VI,"Higher Chance: Defense/Support 
+Lower Chance: Physical/Magic
+Crafts ★5-6 Equip",-1,-1,2,0,2
