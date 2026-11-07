@@ -13,6 +13,12 @@ on:
       - 'dlc/Global/_DATABASE/others/unit_fantasy_evo_master.json'
       - 'dlc/Global/_DATABASE/others/unit_limitbreak_master.json'
       - 'dlc/Global/_DATABASE/others/unitsv2_detail.json'
+      - 'dlc/Global/_DATABASE/**/unit_sp_image_master.json'
+      - 'dlc/unit/sp_detail/**'
+      - 'dlc/unit/sp_icon/**'
+      - 'dlc/unit/sp_detail_animation/**'
+      - 'dlc/unit/sp_manifest.json'
+      - 'tools/build_sp_manifest.py'
       - 'tools/build_unitsv2_detail.py'
       - '.github/workflows/build-unitsv2.yml'
   workflow_dispatch: # manual "Run workflow" button
@@ -41,14 +47,17 @@ jobs:
       - name: Build unitsv2_detail.json
         run: python tools/build_unitsv2_detail.py
 
+      - name: Build sp_manifest.json (SP arts + SP art animations)
+        run: python tools/build_sp_manifest.py
+
       - name: Commit if changed
         id: commit
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "dlc/Global/_DATABASE/others/unitsv2_detail.json"
+          git add "dlc/Global/_DATABASE/others/unitsv2_detail.json" "dlc/unit/sp_manifest.json"
           if git diff --staged --quiet; then
-            echo "No changes in unitsv2_detail.json."
+            echo "No changes in unitsv2_detail.json / sp_manifest.json."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Auto-build Units V2 detail from GL DB [skip ci]"
@@ -62,7 +71,7 @@ jobs:
       # and jsDelivr would keep serving the old copy for up to 12 hours.
       - name: Purge jsDelivr cache
         run: |
-          for f in "dlc/Global/_DATABASE/others/unitsv2_detail.json" "dlc/Global/_DATABASE/others/unit_master.json"; do
+          for f in "dlc/Global/_DATABASE/others/unitsv2_detail.json" "dlc/Global/_DATABASE/others/unit_master.json" "dlc/unit/sp_manifest.json"; do
             for i in 1 2 3; do
               if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
                 echo "Purged $f"; break
