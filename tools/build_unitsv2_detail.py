@@ -1,0 +1,218 @@
+"""
+Build dlc/#Global/others/unitsv2_detail.json for the website's Units V2 tab.
+
+Reads the decrypted GL DB exports in dlc/#Global/others/*.json and writes one
+compact record per unit family (keyed by base_unit_id), shaped like a row of
+the Units sheet so the site's Unit Info popup (openModal) can show it as-is.
+Lower rarities go in each record's _forms.
+
+skill_master.json alone is ~22 MB, too big for the browser, so this script
+does the joins offline.
+
+Runs automatically: .github/workflows/build-unitsv2.yml (on push of the DB
+files it reads). Manual run from the repo root:
+    python tools/build_unitsv2_detail.py [output-path]
+"""
+import json
+import os
+import re
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+GS = os.path.dirname(HERE)
+SRC = os.path.join(GS, 'dlc', '#Global', 'others')
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SRC, 'unitsv2_detail.json')
+
+RAW = 'https://raw.githubusercontent.com/tatsutg/GS/main/dlc/'
+ELEMENT = {1: 'Fire', 2: 'Water', 3: 'Earth', 4: 'Light', 5: 'Dark'}
+RACE = {1: 'Human', 2: 'Beast', 3: 'Spirit', 4: 'Giant', 5: 'Machine', 6: 'Dragon', 7: 'God', 8: 'Demon'}
+# unit_fantasy_evo_master.fantasy_evo_dest_type -> Dream Awaken path name
+DA_PATH = {1: 'Crimson Dream', 2: 'Aqueous Dream', 3: 'Verdant Dream', 4: 'Luminous Dream', 5: 'Spectral Dream'}
+
+
+def load(name):
+    with open(os.path.join(SRC, name + '.json'), encoding='utf-8') as f:
+        return json.load(f)
+
+
+def clean(text):
+    """Sheet text is one line; the site re-breaks sentences itself."""
+    if not text or text == 'None':
+        return ''
+    return re.sub(r'\s*\n\s*', ' ', str(text)).strip()
+
+
+def num(v):
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return 0
+
+
+def rarity_label(r):
+    return 'Ascension' if r >= 7 else 'Awoken' if r == 6 else f'{r}★'
+
+
+def form_prefix(r):
+    if r >= 7:
+        return 'Asc★'
+    if r == 6:
+        return 'Awk★'
+    return f'{r}★'
+
+
+def form_key(r):
+    return 'asc' if r >= 7 else 'awk' if r == 6 else f'{r}★'
+
+
+def main():
+    units = load('unit_master')
+    skills = {s['id']: s for s in load('skill_master')}
+    relations = load('skill_relation_master')
+    fevo = load('unit_fantasy_evo_master')
+    limitbreak = load('unit_limitbreak_master')
+
+    # same filter as js/unitsv2.js
+    units = [u for u in units if u and u.get('is_material') != 1 and u.get('element') in ELEMENT
+             and u.get('name') and u.get('base_unit_id', 0) < 40000]
+    fam = {}
+    for u in units:
+        fam.setdefault(u['base_unit_id'], []).append(u)
+
+    # passives: relation_type 0, relation_id = base_unit_id, need_level = unit level that unlocks it
+    passives_by_base = {}
+    for r in relations:
+        if r['relation_type'] == 0:
+            passives_by_base.setdefault(r['relation_id'], []).append(r)
+
+    da_by_unit = {}
+    for row in fevo:
+        da_by_unit.setdefault(row['unit_id'], []).append(row)
+
+    enh = {}
+    for row in limitbreak:
+        b = row['base_unit_id']
+        cur = enh.get(b)
+        if cur is None or row['limit_break_level'] > cur['limit_break_level']:
+            enh[b] = row
+
+    def form_data(u, base, e, with_da):
+        """Everything that changes between rarities: stats, max level, abilities, passives (and D.A on the top form).
+        _ids holds the DB ids, shown in the popup only when SHOW_UNITSV2_DB_IDS (js/core.js, = ENABLE_ADMIN_EDITOR) is on."""
+        d = {
+            'Rarity': rarity_label(u['rarity']),
+            'Max Lv': num(u.get('level_max')),
+            'HP': u.get('hitpoint_max') or 0,
+            'ATK': u.get('offence_max') or 0,
+            'DEF': u.get('defence_max') or 0,
+            'Unit ID': f"unit_thumbnail_{u['id']}.png",
+            '_ids': {'unit': u['id'], 'base': base},
+        }
+        ids = d['_ids']
+        if with_da and e:
+            # limit break bonus at the highest limit break level
+            d['HP Enhance'] = e.get('buff_hp') or 0
+            d['ATK Enhance'] = e.get('buff_attack') or 0
+            d['DEF Enhance'] = e.get('buff_defence') or 0
+
+        def put(prefix, sid, ct=False):
+            s = skills.get(sid) if sid else None
+            if not s:
+                return
+            d[prefix] = s['name']
+            ids[prefix] = s['id']
+            d[prefix + ' Detail'] = clean(s.get('description'))
+            d[prefix + ' BREAK'] = num(s.get('break_value'))
+            if ct and num(s.get('cooltime')):
+                ctv = num(s.get('cooltime')) / 100
+                d['Skill CT'] = int(ctv) if ctv == int(ctv) else ctv
+
+        put('Skill', u.get('chargearts_skill_id'), ct=True)
+        put('Arts', u.get('full_chargearts_skill_id'))
+        put('True Arts', u.get('full_chargearts_skill_id2'))
+        put('Super Arts', u.get('super_full_chargearts_skill_id'))
+
+        # passives: per family (name without "Lv N"), keep the highest one this form's max level unlocks
+        lvmax = num(u.get('level_max')) or 999
+        best = {}
+        order = []
+        for r in sorted(passives_by_base.get(base, []), key=lambda x: (x['need_level'], x['id'])):
+            if r['need_level'] > lvmax:
+                continue
+            s = skills.get(r['skill_id'])
+            if not s or not s.get('name'):
+                continue
+            key = re.sub(r'\s*Lv\s*\d+\s*$', '', s['name']).strip().lower()
+            if key not in best:
+                order.append(key)
+            best[key] = s
+        for i, key in enumerate(order[:6], 1):
+            s = best[key]
+            d[f'Passives {i}'] = s['name']
+            ids[f'Passives {i}'] = s['id']
+            d[f'Passives {i} Detail'] = clean(s.get('description'))
+            if s.get('tumbnail_name1'):
+                d[f'Passives {i} Icon'] = f"{RAW}ability/thumbnail/{s['tumbnail_name1']}"
+
+        if with_da:
+            # Dream Awaken paths (unit_fantasy_evo_master, on the top form)
+            for n, row in enumerate(sorted(da_by_unit.get(u['id'], []), key=lambda x: x['id']), 1):
+                ids[f'D.A {n}'] = row['id']
+                d[f'D.A {n}-Path'] = DA_PATH.get(row['fantasy_evo_dest_type'], f"Dream {row['fantasy_evo_dest_type']}")
+                sub = 0
+                for k in ('skill1_id', 'skill2_id', 'skill3_id'):
+                    s = skills.get(row.get(k))
+                    if not s:
+                        continue
+                    sub += 1
+                    d[f'D.A {n} Name-{sub}'] = s['name']
+                    ids[f'D.A {n}-{sub}'] = s['id']
+                    d[f'D.A {n} Detail-{sub}'] = clean(s.get('description'))
+                    if s.get('tumbnail_name1'):
+                        d[f'D.A {n} Icon-{sub}'] = f"{RAW}ability/thumbnail/{s['tumbnail_name1']}"
+        return d
+
+    out = {}
+    for base, forms in fam.items():
+        forms.sort(key=lambda x: (x['rarity'], x['id']))
+        top = forms[-1]
+        item = {
+            'Name': forms[0]['name'] if top['rarity'] < 6 else top['name'],
+            '_ids': {'unit': top['id'], 'base': base},
+            'Unit ID': f"unit_thumbnail_{top['id']}.png",
+            'Image': f"{RAW}unit/thumbnail/unit_thumbnail_{top['id']}.png",
+            'Type': ELEMENT.get(top['element'], ''),
+            'Race': RACE.get(top['race'], 'Unknown'),
+            'V.A': top.get('seiyu') or '',
+            'SERVER': 'Global',
+            '_v2': 1,
+        }
+        e = enh.get(base) or {}
+        top_fields = form_data(top, base, e, with_da=True)
+        item.update(top_fields)
+        # every lower form, keyed like the popup's form selector (2★..5★, awk, asc); the top form ('default') is the item itself
+        item['_forms'] = {}
+        for u in forms:
+            if u is top or u['rarity'] < 2:
+                continue
+            item['_forms'][form_key(u['rarity'])] = form_data(u, base, e, with_da=False)
+
+        # forms row (thumb + art + lore per rarity)
+        for u in forms:
+            p = form_prefix(u['rarity'])
+            item[f'{p} Name'] = u['name']
+            item[f'{p} Thumb'] = f"{RAW}unit/thumbnail/unit_thumbnail_{u['id']}.png"
+            item[f'{p} Art'] = f"{RAW}unit/detail/unit_detail_{u['id']}.png"
+            if u.get('description'):
+                item[f'{p} Lore'] = u['description']
+
+        out[str(base)] = item
+
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, 'w', encoding='utf-8') as f:
+        json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
+    print(f'{len(out)} families -> {OUT} ({os.path.getsize(OUT) // 1024} KB)')
+
+
+if __name__ == '__main__':
+    main()
