@@ -71,6 +71,13 @@ def main():
     relations = load('skill_relation_master')
     fevo = load('unit_fantasy_evo_master')
     limitbreak = load('unit_limitbreak_master')
+    # effect rows per skill (skill_effect_master.skill_id), for the admin id tags
+    fx = {}
+    for row in load('skill_effect_master'):
+        if row.get('skill_id'):
+            fx.setdefault(row['skill_id'], []).append(row['id'])
+    for v in fx.values():
+        v.sort()
 
     # same filter as js/unitsv2.js
     units = [u for u in units if u and u.get('is_material') != 1 and u.get('element') in ELEMENT
@@ -109,8 +116,10 @@ def main():
             '_ids': {'unit': u['id'], 'base': base},
         }
         ids = d['_ids']
-        if with_da and e:
-            # limit break bonus at the highest limit break level
+        if e:
+            # limit break bonus at the highest limit break level; the table is per unit family
+            # (unit_limitbreak_master has no rarity), so every form shows the same bonus
+            ids['LB'] = e.get('id')
             d['HP Enhance'] = e.get('buff_hp') or 0
             d['ATK Enhance'] = e.get('buff_attack') or 0
             d['DEF Enhance'] = e.get('buff_defence') or 0
@@ -121,6 +130,8 @@ def main():
                 return
             d[prefix] = s['name']
             ids[prefix] = s['id']
+            if fx.get(s['id']):
+                ids[prefix + ' FX'] = fx[s['id']]
             d[prefix + ' Detail'] = clean(s.get('description'))
             d[prefix + ' BREAK'] = num(s.get('break_value'))
             if ct and num(s.get('cooltime')):
@@ -150,6 +161,8 @@ def main():
             s = best[key]
             d[f'Passives {i}'] = s['name']
             ids[f'Passives {i}'] = s['id']
+            if fx.get(s['id']):
+                ids[f'Passives {i} FX'] = fx[s['id']]
             d[f'Passives {i} Detail'] = clean(s.get('description'))
             if s.get('tumbnail_name1'):
                 d[f'Passives {i} Icon'] = f"{RAW}ability/thumbnail/{s['tumbnail_name1']}"
@@ -167,6 +180,8 @@ def main():
                     sub += 1
                     d[f'D.A {n} Name-{sub}'] = s['name']
                     ids[f'D.A {n}-{sub}'] = s['id']
+                    if fx.get(s['id']):
+                        ids[f'D.A {n}-{sub} FX'] = fx[s['id']]
                     d[f'D.A {n} Detail-{sub}'] = clean(s.get('description'))
                     if s.get('tumbnail_name1'):
                         d[f'D.A {n} Icon-{sub}'] = f"{RAW}ability/thumbnail/{s['tumbnail_name1']}"

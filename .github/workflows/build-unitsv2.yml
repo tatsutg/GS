@@ -9,6 +9,7 @@ on:
       - 'dlc/#Global/others/unit_master.json'
       - 'dlc/#Global/others/skill_master.json'
       - 'dlc/#Global/others/skill_relation_master.json'
+      - 'dlc/#Global/others/skill_effect_master.json'
       - 'dlc/#Global/others/unit_fantasy_evo_master.json'
       - 'dlc/#Global/others/unit_limitbreak_master.json'
       - 'tools/build_unitsv2_detail.py'
