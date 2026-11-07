@@ -7,6 +7,7 @@ Reads the decrypted GL DB exports in dlc/Global/_DATABASE/*/ and writes one row 
     as the game does), only those that end after (build time - 2 days), plus the weekday of the
     Crest Palaces (dungeon_type 8001..8007 = Monday..Sunday)
   - quests: name, stamina, difficulty, the drops the game shows (display_item_list) and the rewards
+  - bosses: per quest (HP / ATK / DEF / break, art from dlc/unit/thumbnail) and boss_info_master notes
 Categories:
   8001-8007 / 7 Crest Palace, 3002 Boss & Trial events (1 h windows = Rotating Boss), 8 Summoners Road,
   1001-1006 / 4001 Material quests, 2002 Exploring, 0 Story, 2 Events, 6 Side Stories.
@@ -35,6 +36,9 @@ CAT = {0: 'Story', 2: 'Events', 6: 'Side Stories', 8: 'Summoners Road', 2002: 'E
 # (checked against the tables the ids belong to: 7 item_recipe, 8 item, 9 unit, 13 food, 22 event_item, 24 tool)
 RTYPE = {2: 'Gren', 5: 'Material', 7: 'Equip recipe', 8: 'Equip', 9: 'Unit', 11: 'Crystals', 13: 'Food',
          17: 'Stamina', 18: 'Arca', 22: 'Event item', 24: 'Item', 25: 'Rainbow Gems'}
+# some boss_info_master rows still carry the JP resistance names
+RES_EN = {'毒耐性': 'Poison Res.', '暗闇耐性': 'Blind Res.', '封印耐性': 'Seal Res.', '麻痺耐性': 'Paralysis Res.', '病気耐性': 'Disease Res.',
+          '気絶耐性': 'Faint Res.', '氷結耐性': 'Freeze Res.', '燃焼耐性': 'Burn Res.', '凍結耐性': 'Freeze Res.', '呪い耐性': 'Curse Res.'}
 MAX_WIN = 200     # open windows kept per dungeon
 
 
@@ -99,6 +103,48 @@ def main():
         name = names.get(t, {}).get(i, '') or label
         return [t, i, name, label, num(n)]
 
+    # ---- bosses ----
+    # The export has no battle (enemy placement) table, but boss enemy ids follow the dungeon id:
+    #   dungeon D < 1000000: D*100 + 20*(quest index) + k   (488 -> 48800, 48820, 48840, 48863)
+    #   dungeon D >= 1000000: D + k                          (5040900 -> 5040900, 5040905, ...)
+    # Art: the enemy's unit thumbnail in dlc/unit/thumbnail when the repo has it.
+    # boss_info_master adds a description and status resistances for some bosses (Summoners Road etc.).
+    unit_rows = {u['id']: u for u in load('unit_master')}
+    thumbs = set(os.listdir(os.path.join(DLC, 'unit', 'thumbnail')))
+    boss_enemies = {e['id']: e for e in load('enemy_master') if num(e.get('is_boss')) == 1}
+    boss_info = {}
+    for b in load('boss_info_master'):
+        try:
+            res = [[RES_EN.get(s['name'], s['name']).replace('Paralyze', 'Paralysis'), s['value']] for s in json.loads(b.get('status_json') or '{}').get('status', [])]
+        except (TypeError, ValueError):
+            res = []
+        e = boss_enemies.get(b['enemy_id'])
+        key = str(e['unit_id']) if e else str(b['enemy_id'])
+        boss_info.setdefault(key, {'desc': clean(b['description']), 'res': res})
+
+    def boss_row(e):
+        u = unit_rows.get(e['unit_id'], {})
+        name = clean(e.get('name')) or clean(u.get('name')) or f"Enemy {e['unit_id']}"
+        thumb = f"unit_thumbnail_{e['unit_id']}.png"
+        return {'n': name, 'u': e['unit_id'], 'img': f'unit/thumbnail/{thumb}' if thumb in thumbs else '',
+                'el': num(u.get('element')), 'lv': num(e.get('level')), 'hp': num(e.get('hp')), 'atk': num(e.get('attack')),
+                'def': num(e.get('deffence')), 'brk': num(e.get('break_capacity'))}
+
+    def bosses_of(did, nq):
+        """[[quest index or -1, boss row], ...] for a dungeon"""
+        out = []
+        if did < 1000000:
+            for i in range(did * 100, did * 100 + 100):
+                if i in boss_enemies:
+                    off = i - did * 100
+                    out.append((off // 20 if off // 20 < nq else -1, boss_row(boss_enemies[i])))
+        else:
+            for i in range(did, did + 100):
+                if i in boss_enemies:
+                    off = i - did
+                    out.append((off // 5 if off // 5 < nq else -1, boss_row(boss_enemies[i])))
+        return out
+
     by_dungeon = defaultdict(list)
     for q in quests:
         if num(q.get('dungeon_id')):
@@ -107,6 +153,7 @@ def main():
     now = datetime.now(timezone.utc)
     keep_from = now - timedelta(days=2)
     out = []
+    used_info = set()
     for d in dungeons:
         name = clean(d['name'])
         if not name or JP.search(name):
@@ -144,6 +191,15 @@ def main():
                     rewards.append([label] + r)
             qs.append({'id': q['id'], 'n': clean(q['name']), 'sta': num(q.get('stamina')), 'dif': num(q.get('difficulty')),
                        'rank': num(q.get('need_rank')), 'gren': num(q.get('drop_coin')), 'drops': drops, 'rew': rewards})
+        # bosses: per quest when the id says which, and the dungeon's distinct bosses (strongest copy)
+        uniq = {}
+        for i, b in bosses_of(d['id'], len(qs)):
+            if i >= 0:
+                qs[i].setdefault('boss', []).append(b)
+            if b['u'] not in uniq or b['hp'] > uniq[b['u']]['hp']:
+                uniq[b['u']] = b
+            if str(b['u']) in boss_info:
+                used_info.add(str(b['u']))
         row = {'id': d['id'], 'n': name, 'cat': cat, 'type': t, 'ev': num(d.get('event_id')), 'rank': num(d.get('need_rank')),
                'img': img(f"Global/banner/dungeon_banner_{d['id']}.png"), 'top': img(f"Global/banner/dungeon_banner_top_{d['id']}.png"),
                'win': [[a.isoformat(), b.isoformat()] for a, b in up[:MAX_WIN]], 'winN': len(wins),
@@ -151,9 +207,12 @@ def main():
                'q': qs}
         if t in WEEKDAY:
             row['day'] = WEEKDAY[t]
+        if uniq:
+            row['boss'] = [{k: v for k, v in b.items() if k in ('n', 'u', 'img', 'el')} for b in uniq.values()]
         out.append(row)
     out.sort(key=lambda r: r['id'])
-    data = {'built': now.isoformat(timespec='seconds'), 'dungeons': out}
+    data = {'built': now.isoformat(timespec='seconds'), 'dungeons': out,
+            'bossInfo': {k: v for k, v in boss_info.items() if k in used_info}}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     by = defaultdict(int)
