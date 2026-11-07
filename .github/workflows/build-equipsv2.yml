@@ -1,7 +1,8 @@
 name: Build Equips V2 detail
 
 # Rebuilds dlc/#Global/others/equipsv2_detail.json (the website's Equips V2 popup data)
-# whenever the GL DB files it reads are pushed, then clears the jsDelivr cache for it.
+# (+ ability_icons.json, #Global/item/gl_items.json) whenever the files it reads are pushed,
+# then clears the jsDelivr cache for them.
 on:
   push:
     branches: [main]
@@ -21,6 +22,8 @@ on:
       - 'dlc/#Global/data1/tag_master.json'
       - 'dlc/#Global/others/equipsv2_detail.json'
       - 'dlc/#Global/others/ability_icons.json'
+      - 'dlc/#Global/item/**'
+      - 'dlc/#Japan/item/**'
       - 'tools/build_equipsv2_detail.py'
       - '.github/workflows/build-equipsv2.yml'
   workflow_dispatch: # manual "Run workflow" button
@@ -53,9 +56,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "dlc/#Global/others/equipsv2_detail.json" "dlc/#Global/others/ability_icons.json"
+          git add "dlc/#Global/others/equipsv2_detail.json" "dlc/#Global/others/ability_icons.json" "dlc/#Global/item/gl_items.json"
           if git diff --staged --quiet; then
-            echo "No changes in equipsv2_detail.json / ability_icons.json."
+            echo "No changes in equipsv2_detail.json / ability_icons.json / gl_items.json."
           else
             git commit -m "Auto-build Equips V2 detail from GL DB [skip ci]"
             # another workflow (Sheets sync / Units V2) may have pushed meanwhile
@@ -67,7 +70,7 @@ jobs:
       # and jsDelivr would keep serving the old copy for up to 12 hours.
       - name: Purge jsDelivr cache
         run: |
-          for f in "dlc/%23Global/others/equipsv2_detail.json" "dlc/%23Global/others/ability_icons.json"; do
+          for f in "dlc/%23Global/others/equipsv2_detail.json" "dlc/%23Global/others/ability_icons.json" "dlc/%23Global/item/gl_items.json"; do
             for i in 1 2 3; do
               if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
                 echo "Purged $f"; break
