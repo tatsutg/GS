@@ -220,6 +220,35 @@ def main():
         pic = img(f"rune/thumbnail/runestone_middle_{r['image']}.png") if r.get('image') else ''
         row('rune', r['id'], clean(r['name']), num(r['level']), clean(sk.get('description')), pic,
             rune_type.get(r['type_id'], ''))
+    # Crest families (the game's name for runes): one entry per rune type with every level's effect,
+    # for the Crests view (level dial, categories, crossover sets)
+    STATS, RES, UTIL, EXPC = {1, 2, 3, 4, 16, 28, 29}, set(range(7, 16)) | set(range(23, 28)) | {39}, {5, 6, 17, 18, 19, 40, 41}, {20, 21, 22}
+    COLLAB = {'slime': 'That Time I Got Reincarnated as a Slime', 'kamen': 'That Time I Got Reincarnated as a Slime',
+              'shaman': 'Shaman King', 'mushoku': 'Mushoku Tensei', 'brs': 'Black Rock Shooter', 'overlord': 'Overlord',
+              'puriya': 'Fate/kaleid liner Prisma Illya', 'shadow': 'The Eminence in Shadow'}
+    fams = defaultdict(list)
+    for r in runes:
+        fams[r['type_id']].append(r)
+    crests = []
+    for t, rs in sorted(fams.items()):
+        rs.sort(key=lambda r: (num(r['level']), num(r['is_plus'])))
+        name = rune_type.get(t, '') or clean(rs[0]['name'])
+        image = next((r['image'] for r in rs if r.get('image')), None)
+        if t in STATS: cat = 'stats'
+        elif t in RES: cat = 'resistance'
+        elif t in UTIL: cat = 'utility'
+        elif t in EXPC: cat = 'exp'
+        elif t < 2000: cat = 'special'
+        else: cat = 'crossover'
+        group = ''
+        if image:
+            key = re.sub(r'_\d+$', '', image)
+            group = COLLAB.get(key, 'Special Event' if key == 'gp' else key.title())
+        crests.append({'t': t, 'n': name.strip(), 'cat': cat, 'grp': group,
+                       'img': img(f"rune/thumbnail/runestone_middle_{image}.png") if image else '',
+                       'lv': [[f"Lv{num(r['level'])}{'+' if num(r['is_plus']) else ''}", r['id'],
+                               clean((skills.get(r['skill_id']) or {}).get('description'))] for r in rs]})
+
     for t in load('raid_ticket_master'):
         row('ticket', t['id'], clean(t['name']), 0, clean(t['description']), '', 'Raid')
     tool_kind = {1: 'Energy', 5: 'Summon Tickets'}
@@ -229,8 +258,8 @@ def main():
                 {'max': num(t.get('count_limit'))})
 
     data = {'cats': {'mat': 'Materials', 'crest': 'Crest Materials', 'event': 'Event Items',
-                     'food': 'Food', 'rune': 'Runes', 'tool': 'Tools & Tickets', 'ticket': 'Raid Tickets'},
-            'items': out}
+                     'food': 'Food', 'rune': 'Crests', 'tool': 'Tools & Tickets', 'ticket': 'Raid Tickets'},
+            'items': out, 'crests': crests}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     by = defaultdict(int)
