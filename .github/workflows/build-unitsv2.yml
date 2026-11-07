@@ -12,6 +12,7 @@ on:
       - 'dlc/#Global/others/skill_effect_master.json'
       - 'dlc/#Global/others/unit_fantasy_evo_master.json'
       - 'dlc/#Global/others/unit_limitbreak_master.json'
+      - 'dlc/#Global/others/unitsv2_detail.json'
       - 'tools/build_unitsv2_detail.py'
       - '.github/workflows/build-unitsv2.yml'
   workflow_dispatch: # manual "Run workflow" button
@@ -57,8 +58,9 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # Always purge: the built file may also arrive in your own push (then "No changes" above),
+      # and jsDelivr would keep serving the old copy for up to 12 hours.
       - name: Purge jsDelivr cache
-        if: steps.commit.outputs.changed == 'true'
         run: |
           for f in "dlc/%23Global/others/unitsv2_detail.json" "dlc/%23Global/others/unit_master.json"; do
             for i in 1 2 3; do
