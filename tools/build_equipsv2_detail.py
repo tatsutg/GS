@@ -215,6 +215,23 @@ def main():
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     print(f'{len(out)} equips, {len(S)} skills -> {OUT} ({os.path.getsize(OUT) // 1024} KB)')
 
+    # Equip ability icons for every equip popup (sheet and V2): ability name -> file in dlc/ability/thumbnail
+    # (skill_master.tumbnail_name1 of every ability that an equip item has). Small, so the site loads it at start.
+    icons = {}
+    item_ids = {x['id'] for x in items}
+    for iid, rows in rel.items():
+        if iid not in item_ids:
+            continue
+        for r in rows:
+            s = skills.get(r['skill_id']) or {}
+            name, pic = clean(s.get('name')), s.get('tumbnail_name1')
+            if name and pic and pic != 'None':
+                icons.setdefault(name, pic)
+    icon_out = os.path.join(os.path.dirname(OUT), 'ability_icons.json')
+    with open(icon_out, 'w', encoding='utf-8') as f:
+        json.dump(dict(sorted(icons.items())), f, ensure_ascii=False, separators=(',', ':'))
+    print(f'{len(icons)} ability icons -> {icon_out}')
+
 
 if __name__ == '__main__':
     main()
