@@ -1,0 +1,75 @@
+name: Build Equips V2 detail
+
+# Rebuilds dlc/#Global/others/equipsv2_detail.json (the website's Equips V2 popup data)
+# whenever the GL DB files it reads are pushed, then clears the jsDelivr cache for it.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dlc/#Global/others/item_master.json'
+      - 'dlc/#Global/others/item_evolution_master.json'
+      - 'dlc/#Global/others/skill_master.json'
+      - 'dlc/#Global/others/skill_relation_master.json'
+      - 'dlc/#Global/others/skill_effect_master.json'
+      - 'dlc/#Global/others/material_master.json'
+      - 'dlc/#Global/others/dungeon_master.json'
+      - 'dlc/#Global/others/quest_master.json'
+      - 'dlc/#Global/others/event_shop_master.json'
+      - 'dlc/#Global/others/event_item_master.json'
+      - 'dlc/#Global/others/orb_shop_master.json'
+      - 'dlc/#Global/data1/item_limitbreak_exp_master.json'
+      - 'dlc/#Global/data1/tag_master.json'
+      - 'dlc/#Global/others/equipsv2_detail.json'
+      - 'tools/build_equipsv2_detail.py'
+      - '.github/workflows/build-equipsv2.yml'
+  workflow_dispatch: # manual "Run workflow" button
+
+concurrency:
+  group: build-equipsv2
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build equipsv2_detail.json
+        run: python tools/build_equipsv2_detail.py
+
+      - name: Commit if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "dlc/#Global/others/equipsv2_detail.json"
+          if git diff --staged --quiet; then
+            echo "No changes in equipsv2_detail.json."
+          else
+            git commit -m "Auto-build Equips V2 detail from GL DB [skip ci]"
+            # another workflow (Sheets sync / Units V2) may have pushed meanwhile
+            git pull --rebase origin main
+            git push
+          fi
+
+      # Always purge: the built file may also arrive in your own push (then "No changes" above),
+      # and jsDelivr would keep serving the old copy for up to 12 hours.
+      - name: Purge jsDelivr cache
+        run: |
+          f="dlc/%23Global/others/equipsv2_detail.json"
+          for i in 1 2 3; do
+            if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
+              echo "Purged $f"; break
+            fi
+            echo "Purge $f failed (try $i), retrying..."; sleep 5
+          done
