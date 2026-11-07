@@ -1,18 +1,18 @@
 name: Build Units V2 detail
 
-# Rebuilds dlc/#Global/others/unitsv2_detail.json (the website's Units V2 popup data)
+# Rebuilds dlc/Global/others/unitsv2_detail.json (the website's Units V2 popup data)
 # whenever the GL DB files it reads are pushed, then clears the jsDelivr cache for it.
 on:
   push:
     branches: [main]
     paths:
-      - 'dlc/#Global/others/unit_master.json'
-      - 'dlc/#Global/others/skill_master.json'
-      - 'dlc/#Global/others/skill_relation_master.json'
-      - 'dlc/#Global/others/skill_effect_master.json'
-      - 'dlc/#Global/others/unit_fantasy_evo_master.json'
-      - 'dlc/#Global/others/unit_limitbreak_master.json'
-      - 'dlc/#Global/others/unitsv2_detail.json'
+      - 'dlc/Global/others/unit_master.json'
+      - 'dlc/Global/others/skill_master.json'
+      - 'dlc/Global/others/skill_relation_master.json'
+      - 'dlc/Global/others/skill_effect_master.json'
+      - 'dlc/Global/others/unit_fantasy_evo_master.json'
+      - 'dlc/Global/others/unit_limitbreak_master.json'
+      - 'dlc/Global/others/unitsv2_detail.json'
       - 'tools/build_unitsv2_detail.py'
       - '.github/workflows/build-unitsv2.yml'
   workflow_dispatch: # manual "Run workflow" button
@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "dlc/#Global/others/unitsv2_detail.json"
+          git add "dlc/Global/others/unitsv2_detail.json"
           if git diff --staged --quiet; then
             echo "No changes in unitsv2_detail.json."
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -62,7 +62,7 @@ jobs:
       # and jsDelivr would keep serving the old copy for up to 12 hours.
       - name: Purge jsDelivr cache
         run: |
-          for f in "dlc/%23Global/others/unitsv2_detail.json" "dlc/%23Global/others/unit_master.json"; do
+          for f in "dlc/Global/others/unitsv2_detail.json" "dlc/Global/others/unit_master.json"; do
             for i in 1 2 3; do
               if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
                 echo "Purged $f"; break

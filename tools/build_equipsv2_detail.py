@@ -1,7 +1,7 @@
 """
-Build dlc/#Global/others/equipsv2_detail.json for the website's Equips V2 tab.
+Build dlc/Global/others/equipsv2_detail.json for the website's Equips V2 tab.
 
-Reads the decrypted GL DB exports in dlc/#Global/{others,data1}/*.json and
+Reads the decrypted GL DB exports in dlc/Global/{others,data1}/*.json and
 writes one record per equip family (keyed by base_item_id). Each record has a
 row shaped like the Equips sheet (so the site's Equip Info popup can show it
 as-is) plus the extra data the sheet does not have:
@@ -22,7 +22,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
-GL = os.path.join(GS, 'dlc', '#Global')
+GL = os.path.join(GS, 'dlc', 'Global')
 SRC = os.path.join(GL, 'others')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SRC, 'equipsv2_detail.json')
 

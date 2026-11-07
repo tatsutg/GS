@@ -1,27 +1,27 @@
 name: Build Equips V2 detail
 
-# Rebuilds dlc/#Global/others/equipsv2_detail.json (the website's Equips V2 popup data)
+# Rebuilds dlc/Global/others/equipsv2_detail.json (the website's Equips V2 popup data)
 # (+ ability_icons.json, Global/item/gl_items.json) whenever the files it reads are pushed,
 # then clears the jsDelivr cache for them.
 on:
   push:
     branches: [main]
     paths:
-      - 'dlc/#Global/others/item_master.json'
-      - 'dlc/#Global/others/item_evolution_master.json'
-      - 'dlc/#Global/others/skill_master.json'
-      - 'dlc/#Global/others/skill_relation_master.json'
-      - 'dlc/#Global/others/skill_effect_master.json'
-      - 'dlc/#Global/others/material_master.json'
-      - 'dlc/#Global/others/dungeon_master.json'
-      - 'dlc/#Global/others/quest_master.json'
-      - 'dlc/#Global/others/event_shop_master.json'
-      - 'dlc/#Global/others/event_item_master.json'
-      - 'dlc/#Global/others/orb_shop_master.json'
-      - 'dlc/#Global/data1/item_limitbreak_exp_master.json'
-      - 'dlc/#Global/data1/tag_master.json'
-      - 'dlc/#Global/others/equipsv2_detail.json'
-      - 'dlc/#Global/others/ability_icons.json'
+      - 'dlc/Global/others/item_master.json'
+      - 'dlc/Global/others/item_evolution_master.json'
+      - 'dlc/Global/others/skill_master.json'
+      - 'dlc/Global/others/skill_relation_master.json'
+      - 'dlc/Global/others/skill_effect_master.json'
+      - 'dlc/Global/others/material_master.json'
+      - 'dlc/Global/others/dungeon_master.json'
+      - 'dlc/Global/others/quest_master.json'
+      - 'dlc/Global/others/event_shop_master.json'
+      - 'dlc/Global/others/event_item_master.json'
+      - 'dlc/Global/others/orb_shop_master.json'
+      - 'dlc/Global/data1/item_limitbreak_exp_master.json'
+      - 'dlc/Global/data1/tag_master.json'
+      - 'dlc/Global/others/equipsv2_detail.json'
+      - 'dlc/Global/others/ability_icons.json'
       - 'dlc/Global/item/**'
       - 'dlc/Japan/item/**'
       - 'tools/build_equipsv2_detail.py'
@@ -56,7 +56,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "dlc/#Global/others/equipsv2_detail.json" "dlc/#Global/others/ability_icons.json" "dlc/Global/item/gl_items.json"
+          git add "dlc/Global/others/equipsv2_detail.json" "dlc/Global/others/ability_icons.json" "dlc/Global/item/gl_items.json"
           if git diff --staged --quiet; then
             echo "No changes in equipsv2_detail.json / ability_icons.json / gl_items.json."
           else
@@ -70,7 +70,7 @@ jobs:
       # and jsDelivr would keep serving the old copy for up to 12 hours.
       - name: Purge jsDelivr cache
         run: |
-          for f in "dlc/%23Global/others/equipsv2_detail.json" "dlc/%23Global/others/ability_icons.json" "dlc/Global/item/gl_items.json"; do
+          for f in "dlc/Global/others/equipsv2_detail.json" "dlc/Global/others/ability_icons.json" "dlc/Global/item/gl_items.json"; do
             for i in 1 2 3; do
               if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
                 echo "Purged $f"; break

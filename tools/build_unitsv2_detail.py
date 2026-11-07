@@ -1,7 +1,7 @@
 """
-Build dlc/#Global/others/unitsv2_detail.json for the website's Units V2 tab.
+Build dlc/Global/others/unitsv2_detail.json for the website's Units V2 tab.
 
-Reads the decrypted GL DB exports in dlc/#Global/others/*.json and writes one
+Reads the decrypted GL DB exports in dlc/Global/others/*.json and writes one
 compact record per unit family (keyed by base_unit_id), shaped like a row of
 the Units sheet so the site's Unit Info popup (openModal) can show it as-is.
 Lower rarities go in each record's _forms.
@@ -20,7 +20,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
-SRC = os.path.join(GS, 'dlc', '#Global', 'others')
+SRC = os.path.join(GS, 'dlc', 'Global', 'others')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SRC, 'unitsv2_detail.json')
 
 RAW = 'https://raw.githubusercontent.com/tatsutg/GS/main/dlc/'
