@@ -232,11 +232,11 @@ def main():
         json.dump(dict(sorted(icons.items())), f, ensure_ascii=False, separators=(',', ':'))
     print(f'{len(icons)} ability icons -> {icon_out}')
 
-    # Equip art is split by server: dlc/#Japan/item has all JP art, dlc/#Global/item only the GL art
-    # that is missing or different in JP. The site reads this list to know which files are in #Global.
-    #   gl  = every file in #Global/item ("detail/item_detail_152601.png", ...)
-    #   jp  = those of them that also exist in #Japan/item with other art (same name, different picture)
-    gdir, jdir = os.path.join(GS, 'dlc', '#Global', 'item'), os.path.join(GS, 'dlc', '#Japan', 'item')
+    # Equip art is split by server: dlc/Japan/item has all JP art, dlc/Global/item only the GL art
+    # that is missing or different in JP. The site reads this list to know which files are in Global.
+    #   gl  = every file in Global/item ("detail/item_detail_152601.png", ...)
+    #   jp  = those of them that also exist in Japan/item with other art (same name, different picture)
+    gdir, jdir = os.path.join(GS, 'dlc', 'Global', 'item'), os.path.join(GS, 'dlc', 'Japan', 'item')
     gl, both = [], []
     for root, _, files in os.walk(gdir):
         for fn in files:
