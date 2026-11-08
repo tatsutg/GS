@@ -7,6 +7,10 @@
       "maintenance": { "start": "2026-11-05 18:00 PST", "end": "2026-11-06 00:00 PST" },
       "note": "Released during maintenance: playable from 2026-11-06 00:00 PST, when maintenance ended.",
       "banners": [10638, 20810, 40228, 50203],
+      "units": [
+        { "id": 108436112, "name": "Reinhard" },
+        { "id": 108466212, "name": "Bride Emilia" }
+      ],
       "equips": [
         { "id": 155651500, "name": "Dragon Sword Reid" },
         { "id": 155663500, "name": "Royal Guard's Uniform" },
