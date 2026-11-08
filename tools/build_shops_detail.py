@@ -17,8 +17,16 @@ Item icons, by reward type:
   25 Rainbow Gem        ASSETS/icon_rainbow_gem.png (the game's icon/material_icon/alchemy_rainbow_stone.png)
 Others (stamps, LB stones, keys, SP arts, ...) have no icon in the repo: the site shows a badge.
 
-Output: {"built", "shops": [{id, k: 'town'|'event', n, img, cur: [name, icon], s, e, items: [[name, kind, icon,
-         amount, price, limit, note]]}]}  (s / e empty for permanent shops; limit -1 = no limit)
+Output: {"built", "shops": [{id, k: 'town'|'event', n, img, imgs, cur: [name, icon], s, e, f, gone, items: [[name, kind,
+         icon, amount, price, limit, note, old]]}]}  (s / e empty for permanent shops; limit -1 = no limit)
+
+Old data is kept (the game reuses ids and names, and the DB only has what is on sale now):
+  - banner versions: the user keeps each new banner next to the original as <name>-N.png (alchemy_exchange_banner_2.png,
+    -1, -2, ...). img = the newest (highest N), imgs = every version, newest first (the shop's past rotations).
+  - the previous shops_detail.json is read first: a shop no longer in the DB stays in, with gone = the build time it
+    went missing (the site lists it as past); an item no longer in a shop stays in, with old = 1.
+  - f = the build time the shop was first seen.
+So pushing new DB files over the old ones loses nothing on the site.
 
 Runs in .github/workflows/build-shops.yml. Manual run from the repo root:
     python tools/build_shops_detail.py
@@ -67,6 +75,49 @@ def num(v):
 
 def has(rel):
     return rel if rel and os.path.exists(os.path.join(DLC, rel)) else ''
+
+
+def versions(rel):
+    """[rel, rel-1, rel-2, ...] that exist, oldest first ("<name>-N.png" = the user's newer copies of a reused name)"""
+    if not rel:
+        return []
+    d, f = os.path.split(rel)
+    stem, ext = os.path.splitext(f)
+    full = os.path.join(DLC, d)
+    if not os.path.isdir(full):
+        return []
+    pat = re.compile(re.escape(stem) + r'-(\d+)' + re.escape(ext) + '$')
+    out = [(0, f)] if os.path.exists(os.path.join(full, f)) else []
+    out += [(int(m.group(1)), x) for x in os.listdir(full) for m in [pat.match(x)] if m]
+    return [f'{d}/{x}' for _, x in sorted(out)]
+
+
+def merge_old(shops, now):
+    """keep shops / items of the previous build that are no longer in the DB"""
+    try:
+        with open(OUT, encoding='utf-8') as f:
+            prev = {s['id']: s for s in json.load(f)['shops']}
+    except (OSError, ValueError, KeyError):
+        return shops
+    ids = {s['id'] for s in shops}
+    for s in shops:
+        p = prev.get(s['id'])
+        if not p:
+            continue
+        s['f'] = p.get('f') or s['f']
+        have = {(x[0], x[4]) for x in s['items']}
+        for x in p['items']:
+            if (x[0], x[4]) not in have:
+                x = (x + [''] * 8)[:7] + [1]
+                s['items'].append(x)
+    for sid, p in prev.items():
+        if sid not in ids:
+            p['gone'] = p.get('gone') or now
+            if not p.get('e'):
+                p['s'], p['e'] = p.get('s') or p.get('f') or '', p['gone']
+            shops.append(p)
+    shops.sort(key=lambda s: s['id'])
+    return shops
 
 
 def main():
@@ -124,10 +175,13 @@ def main():
     for s in load('orb_shop_master'):
         by_town.setdefault(s['shop_type'], []).append(s)
 
+    now = datetime.now(timezone.utc).isoformat(timespec='seconds')
     shops = []
     for b in sorted(load('shop_banner_master'), key=lambda x: x['id']):
         bg = b.get('bg_name') or ''
-        img = has(f'Global/alchemyExchange/{bg}') if bg else ''
+        vers = versions(f'Global/alchemyExchange/{bg}') if bg else []
+        img = vers[-1] if vers else ''
+        imgs = vers[::-1] if len(vers) > 1 else []
         st = b.get('shop_type')
         if st != 'None' and st is not None and num(st) in by_town:
             rows = sorted(by_town[num(st)], key=lambda r: (num(r.get('priority')) if 'priority' in r else 0, r['id']))
@@ -140,8 +194,8 @@ def main():
                               clean(r.get('description'))[:120]])
             cur_n = NEED.get(b.get('consume_type'), '')
             cur_i = {18: 'ASSETS/icon_alchemy_stone.png', 25: 'ASSETS/icon_rainbow_gem.png'}.get(b.get('consume_type'), '')
-            shops.append({'id': b['id'], 'k': 'town', 'n': TOWN.get(num(st), 'Exchange'), 'img': img,
-                          'cur': [cur_n, cur_i], 's': '', 'e': '', 'items': items})
+            shops.append({'id': b['id'], 'k': 'town', 'n': TOWN.get(num(st), 'Exchange'), 'img': img, 'imgs': imgs,
+                          'cur': [cur_n, cur_i], 's': '', 'e': '', 'f': now, 'items': items})
             continue
         eid = num(b.get('event_id'))
         rows = by_event.get(eid)
@@ -162,15 +216,17 @@ def main():
                           clean(r.get('description'))[:120]])
         s = ev.get('item_start_at') or ev.get('start_at') or ''
         e = ev.get('item_end_at') or ev.get('end_at') or ''
-        shops.append({'id': b['id'], 'k': 'event', 'n': name, 'img': img,
+        shops.append({'id': b['id'], 'k': 'event', 'n': name, 'img': img, 'imgs': imgs, 'f': now,
                       'cur': [cur_n, has(b.get('consume_image') or '') or icon(22, cid)], 's': '' if s == 'None' else s, 'e': '' if e == 'None' else e,
                       'items': items})
 
-    data = {'built': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'shops': shops}
+    shops = merge_old(shops, now)
+    data = {'built': now, 'shops': shops}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     n = sum(len(s['items']) for s in shops)
-    print(f"{len(shops)} shops ({sum(s['k'] == 'town' for s in shops)} town), {n} items -> {OUT} ({os.path.getsize(OUT) // 1024} KB)")
+    print(f"{len(shops)} shops ({sum(s['k'] == 'town' for s in shops)} town, {sum(bool(s.get('gone')) for s in shops)} gone), "
+          f"{n} items ({sum(1 for s in shops for i in s['items'] if len(i) > 7 and i[7])} old) -> {OUT} ({os.path.getsize(OUT) // 1024} KB)")
 
 
 if __name__ == '__main__':
