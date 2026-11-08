@@ -1,0 +1,19 @@
+{
+  "_about": "Global release times, kept by hand, all in PST (Pacific, as the in-game banners show). release = the official start (banner start in gacha_master). maintenance = the maintenance window around it, when there was one: the content is only playable once maintenance ends.",
+  "releases": [
+    {
+      "name": "Re:ZERO Crossover Part 1 (Reinhard / Bride Emilia)",
+      "release": "2026-11-05 18:00 PST",
+      "maintenance": { "start": "2026-11-05 18:00 PST", "end": "2026-11-06 00:00 PST" },
+      "note": "Released during maintenance: playable from 2026-11-06 00:00 PST, when maintenance ended.",
+      "banners": [10638, 20810, 40228, 50203],
+      "equips": [
+        { "id": 155651500, "name": "Dragon Sword Reid" },
+        { "id": 155663500, "name": "Royal Guard's Uniform" },
+        { "id": 155672500, "name": "Ice Brand Arts" },
+        { "id": 155682500, "name": "Emilia's Wedding Gown" },
+        { "id": 155695500, "name": "Puck Plushie" }
+      ]
+    }
+  ]
+}
