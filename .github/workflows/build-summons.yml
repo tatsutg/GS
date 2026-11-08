@@ -8,6 +8,7 @@ on:
     paths:
       - 'dlc/Global/_DATABASE/**/gacha_master.json'
       - 'dlc/Global/_DATABASE/**/gacha_step_up_master.json'
+      - 'dlc/Global/_DATABASE/**/gacha_button_master.json'
       - 'dlc/Global/_DATABASE/**/unit_master.json'
       - 'dlc/Global/_DATABASE/**/item_master.json'
       - 'dlc/Global/summon/banner/**'

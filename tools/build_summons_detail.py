@@ -7,16 +7,16 @@ From the decrypted GL DB:
                        unit/unit_summon_<base>_p.png, unit/with_animation_<unit id>_..., item/item_summon_<base>_p.png
                      (numbers >= 10000 there are banner ids, not units)
   gacha_step_up_master  the same image lists for each step of a STEP-UP banner
+  gacha_button_master   summon buttons: a "ticket" button image marks a ticket banner (no free first multi)
   unit_master        unit names, rarity, thumbnails (dlc/unit/thumbnail/unit_thumbnail_<id>.png, top form)
   item_master        equip names, rarity, thumbnails (item/thumbnail/item_thumbnail_1<base:04>1.png)
 The DB has no summon rates or crystal costs (those live on the server): the website asks for them.
 
 Pools for the simulator:
-  units 5★  every unit family featured on a Hero Summon (gacha_type 1) at least once
-  units 4★ / 3★  families whose top form is 4★ / 3★ (not materials)
+  units 5★ / 4★  the standard Hero Summon pool (STD_U5 / STD_U4 below, from the in-game rates page), no 3★
   equips 5★  every equip featured on an Equip Summon (gacha_type 2) at least once
 
-Output: {"built", "banners": [{id, n, t: 'unit'|'equip', s, e, img, feat: [key]}],
+Output: {"built", "banners": [{id, n, t: 'unit'|'equip', s, e, img, feat: [key], su: 1 STEP-UP, tk: 1 ticket summon}],
          "units": {base: [name, thumb, top rarity]}, "equips": {base: [name, thumb]},
          "pool": {"u5": [...], "u4": [...], "u3": [...], "e5": [...]}}
 
@@ -35,6 +35,34 @@ DLC = os.path.join(GS, 'dlc')
 DB = os.path.join(DLC, 'Global', '_DATABASE')
 OUT = os.path.join(DB, 'others', 'summons_detail.json')
 TYPES = {1: 'unit', 6: 'unit', 10: 'unit', 2: 'equip', 7: 'equip'}
+
+# The units a Hero Summon can give besides its featured ones (in-game rates page of a Crossover Hero Summon, Nov 2026).
+# NOT every unit: only these. Top-form names (some start at a lower rarity and evolve to 5★).
+# 5★: each 0.09% per pull (1.29% on the guaranteed 5★ slot); 4★: each 6.20%; no 3★.
+STD_U5 = [
+    'Number 2', 'Sword Princess Lian', 'Twin Spear Princess Daisy', 'Clairvoyante Maiden End', 'Machina Agent Jack',
+    'Sorcery Apprentice Valentia', 'Grand Swordmaster Luda', 'Roy', 'Mira', 'Fen', 'Zeorg', 'Melia', 'Ragsherum',
+    'Liese', 'Est', 'Rem', 'Dracostic Arosdea', 'Frostmaiden Selia', 'Forest Bow Ashe Toto',
+    'Knight Protector Duran', 'Soulhunter Zenon', 'Flame Raiment Soleil', 'Bestial Fist Saar', 'Funereal Bloom Pola',
+    'Yearning Darkness Leon', 'Mace Master Zoroas', 'Divine Knight Zechsia', 'Dark Gunslinger Zecht',
+    'Annihilation Witch Aristela', 'Flame Giant Zoldes', 'Dragonsmith Rhodia', 'Tranquil Giant Olgeth',
+    'Magical Beast Hunter Shadie', 'Forest Mage Rhiothis', 'Unending Inferno Teriodos', 'Bullseye Keiones',
+    'Tempest Warrior Elmessio', 'Lion Fire Mercenary Lione', 'Flashspear Reyon', 'Jade Protector Nerim',
+    'Dragon Retainer Feld', 'Primeval Defender Favelle', 'Twinhammer Maverick Catilou', 'Swordsman Rasaou',
+    'Mad Genius Keit', 'Smiling Observer Cathemilla', 'Magical Knight Mizyna', 'God Knight Nies',
+    'Divine Guardian Sanstone', 'Goddess General Platina', 'Divine Officer Parlot', 'Magical Assassin Dahlia',
+    'Magi Spy Millenia', 'Dragon Healer Alche', 'Blademaster Gran Brave', 'Magical Blossom Musse',
+    'Infernowyrm Dargeon', 'Sea Lord Herck', 'Creator Tree Valhalla', 'EDEN-typeα', 'Oblivion Blade Abaddon',
+    'Searing Knight Ragna', 'Torrent Slasher Yomi', 'Heavy Unit Vaid', 'Holy Beast Soldier Elfalla',
+    'Dark Princess Lily', 'Inferno Blade Clyde', 'Frostedge Corsair', 'Blade Savant Arth', 'Radiant Knight Feena',
+    'Dread Knight Regulus',
+]
+STD_U4 = [
+    'Golemic Princess Faron', 'Water Slasher Noa', 'Beast Princess Ren', 'Roaring Blade Rizer',
+    'Beautiful Death Meira', 'Phoenixion', 'Ongordo', 'Grangarrod', 'Spinicios', 'Afra-Dragim',
+    'Crimson Cleaver Fiana', 'Pirate Emperor Grafl', 'Illusion Master Zechs', 'Demolition Girl Ameru',
+    'Blade Master Orochi',
+]
 
 
 def load(name):
@@ -80,6 +108,9 @@ def main():
         except (TypeError, ValueError):
             pass
 
+    # ticket banners: a summon button paid with tickets (button image ticket_summon_button_*, button_crossoverticket_* ...)
+    buttons = {b['id']: str(b.get('button_image') or '') for b in load('gacha_button_master')}
+
     banners, u5, e5 = [], set(), set()
     for g in load('gacha_master'):
         kind = TYPES.get(g['gacha_type'])
@@ -108,19 +139,45 @@ def main():
         banners.append({'id': g['id'], 'n': g['name'], 't': kind, 's': g['start_at'], 'e': g['end_at'],
                         'img': f'Global/summon/banner/{bg}' if bg and os.path.exists(os.path.join(DLC, 'Global', 'summon', 'banner', bg)) else '',
                         'feat': feat})
+        # no free first multi on STEP-UP (gacha_system_type 1) or ticket banners
+        if g.get('gacha_system_type') == 1 or 'STEP-UP' in (g['name'] or ''):
+            banners[-1]['su'] = 1
+        if any('ticket' in buttons.get(g.get(f'gacha_button_id{i}'), '').lower() for i in (1, 2, 3)):
+            banners[-1]['tk'] = 1
     banners.sort(key=lambda b: (b['s'], b['id']), reverse=True)
 
-    used_u = u5 | {b for x in banners if x['t'] == 'unit' for b in x['feat']}
-    u4 = sorted(b for b, u in units.items() if u[2] == 4)
-    u3 = sorted(b for b, u in units.items() if u[2] == 3)
+    # standard Hero Summon pool by name (lowest base id when a name repeats, e.g. Rem 116 vs the Re:ZERO collab Rem)
+    norm = lambda t: re.sub(r'[^a-z0-9]', '', str(t).lower().replace('α', 'a'))
+    by_name, form = {}, {}
+    for u in sorted(load('unit_master'), key=lambda u: u['id']):
+        b = u['base_unit_id']
+        if b < 10000 and not u.get('is_material') and b in units:
+            k = norm(u['name'])
+            if k not in by_name or b < by_name[k]:
+                by_name[k], form[k] = b, u
+    def std(names):
+        got = [by_name.get(norm(n)) for n in names]
+        # show the form the rates page names (what the summon gives), not the awakened top form
+        for n, b in zip(names, got):
+            if b:
+                u = form[norm(n)]
+                t = f"unit_thumbnail_{u['id']}.png"
+                units[b] = [u['name'], f'unit/thumbnail/{t}' if t in uthumb else units[b][1], units[b][2]]
+        miss = [n for n, b in zip(names, got) if not b]
+        if miss:
+            print('standard pool: not in unit_master:', miss)
+        return sorted({b for b in got if b})
+    u5_std, u4 = std(STD_U5), std(STD_U4)
+    u3 = []
+    used_u = u5 | set(u5_std) | {b for x in banners if x['t'] == 'unit' for b in x['feat']}
     keep_u = used_u | set(u4) | set(u3)
     used_e = e5 | {b for x in banners if x['t'] == 'equip' for b in x['feat']}
     data = {'built': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'banners': banners,
             'units': {str(b): units[b] for b in sorted(keep_u)}, 'equips': {str(b): equips[b] for b in sorted(used_e)},
-            'pool': {'u5': sorted(u5), 'u4': u4, 'u3': u3, 'e5': sorted(e5)}}
+            'pool': {'u5': u5_std, 'u4': u4, 'u3': u3, 'e5': sorted(e5)}}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
-    print(f"{len(banners)} banners, pools u5 {len(u5)} u4 {len(u4)} u3 {len(u3)} e5 {len(e5)} -> {OUT} ({os.path.getsize(OUT) // 1024} KB)")
+    print(f"{len(banners)} banners, pools u5 {len(u5_std)} u4 {len(u4)} u3 {len(u3)} e5 {len(e5)} -> {OUT} ({os.path.getsize(OUT) // 1024} KB)")
 
 
 if __name__ == '__main__':
