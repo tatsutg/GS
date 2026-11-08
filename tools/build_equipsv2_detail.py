@@ -29,7 +29,7 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SRC, 'equipsv2_detail.j
 RAW = 'https://raw.githubusercontent.com/tatsutg/GS/main/dlc/'
 TYPE = {1: 'Physical', 2: 'Magical', 3: 'Defense', 4: 'Healing', 5: 'Support'}
 # orb_shop_master.shop_type
-SHOP = {1: 'Arca Shop', 2: 'Alchemist (True Equip exchange)', 3: 'Material exchange', 6: 'Exchange'}
+SHOP = {1: 'Alch Shop', 2: 'Alchemist (True Equip exchange)', 3: 'Material exchange', 6: 'Exchange'}
 JP = re.compile(r'[぀-ヿ一-鿿]')
 
 
@@ -121,7 +121,7 @@ def main():
             shop = SHOP.get(s['shop_type'], 'Shop')
             cost = ''
             if s['need_type1'] == 18:
-                cost = f"{s['need_value1']:,} Arca"
+                cost = f"{s['need_value1']:,} Alch"
             elif s['need_type1'] == 25:
                 cost = f"{s['need_value1']:,} Rainbow Gems"
             add(b, 'craft' if s['shop_type'] == 2 else 'shop', shop, cost)
