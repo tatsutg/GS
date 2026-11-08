@@ -17,7 +17,7 @@ Pools for the simulator:
   equips 5★  every equip featured on an Equip Summon (gacha_type 2) at least once
 
 Output: {"built", "banners": [{id, n, t: 'unit'|'equip', s, e, img, feat: [key], su: 1 STEP-UP, tk: 1 ticket summon}],
-         "units": {base: [name, thumb, top rarity]}, "equips": {base: [name, thumb]},
+         "units": {base: [summoned form name, its thumb, top rarity, summoned rarity, top form name]}, "equips": {base: [name, thumb]},
          "pool": {"u5": [...], "u4": [...], "u3": [...], "e5": [...]}}
 
 Runs in .github/workflows/build-summons.yml. Manual run from the repo root:
@@ -37,7 +37,7 @@ OUT = os.path.join(DB, 'others', 'summons_detail.json')
 TYPES = {1: 'unit', 6: 'unit', 10: 'unit', 2: 'equip', 7: 'equip'}
 
 # The units a Hero Summon can give besides its featured ones (in-game rates page of a Crossover Hero Summon, Nov 2026).
-# NOT every unit: only these. Top-form names (some start at a lower rarity and evolve to 5★).
+# NOT every unit: only these. Names as the rates page lists them (any form of the family).
 # 5★: each 0.09% per pull (1.29% on the guaranteed 5★ slot); 4★: each 6.20%; no 3★.
 STD_U5 = [
     'Number 2', 'Sword Princess Lian', 'Twin Spear Princess Daisy', 'Clairvoyante Maiden End', 'Machina Agent Jack',
@@ -86,10 +86,24 @@ def main():
         cur = fam.get(b)
         if not cur or (u['rarity'], u['evolution_stage']) > (cur['rarity'], cur['evolution_stage']):
             fam[b] = u
+    # a summon gives the family's first form (lowest rarity / stage): 5★ and 6★ units come as 5★ / 6★,
+    # the others at a lower rarity (Roy 4★, Clyde 2★ ...) and evolve later
+    first = {}
+    for u in load('unit_master'):
+        bb = u['base_unit_id']
+        if bb >= 10000 or u.get('is_material'):
+            continue
+        k = (u['rarity'], u['evolution_stage'], u['id'])
+        if bb not in first or k < (first[bb]['rarity'], first[bb]['evolution_stage'], first[bb]['id']):
+            first[bb] = u
     units = {}
     for b, u in fam.items():
-        t = f"unit_thumbnail_{u['id']}.png"
-        units[b] = [u['name'], f'unit/thumbnail/{t}' if t in uthumb else '', u['rarity']]
+        f = first.get(b, u)
+        t = f"unit_thumbnail_{f['id']}.png"
+        tt = f"unit_thumbnail_{u['id']}.png"
+        img = f'unit/thumbnail/{t}' if t in uthumb else (f'unit/thumbnail/{tt}' if tt in uthumb else '')
+        # [summoned form name, its thumbnail, top rarity, summoned rarity, top form name]
+        units[b] = [f['name'], img, u['rarity'], f['rarity'], u['name']]
     by_unit_id = {u['id']: u['base_unit_id'] for u in load('unit_master')}
 
     equips = {}
@@ -148,21 +162,15 @@ def main():
 
     # standard Hero Summon pool by name (lowest base id when a name repeats, e.g. Rem 116 vs the Re:ZERO collab Rem)
     norm = lambda t: re.sub(r'[^a-z0-9]', '', str(t).lower().replace('α', 'a'))
-    by_name, form = {}, {}
+    by_name = {}
     for u in sorted(load('unit_master'), key=lambda u: u['id']):
         b = u['base_unit_id']
         if b < 10000 and not u.get('is_material') and b in units:
             k = norm(u['name'])
             if k not in by_name or b < by_name[k]:
-                by_name[k], form[k] = b, u
+                by_name[k] = b
     def std(names):
         got = [by_name.get(norm(n)) for n in names]
-        # show the form the rates page names (what the summon gives), not the awakened top form
-        for n, b in zip(names, got):
-            if b:
-                u = form[norm(n)]
-                t = f"unit_thumbnail_{u['id']}.png"
-                units[b] = [u['name'], f'unit/thumbnail/{t}' if t in uthumb else units[b][1], units[b][2]]
         miss = [n for n, b in zip(names, got) if not b]
         if miss:
             print('standard pool: not in unit_master:', miss)
