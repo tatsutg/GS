@@ -38,7 +38,7 @@ CAT = {0: 'Story', 2: 'Events', 6: 'Side Stories', 8: 'Summoners Road', 2002: 'E
 # reward / drop "type" codes used by quest_master and display_item_list
 # (checked against the tables the ids belong to: 7 item_recipe, 8 item, 9 unit, 13 food, 22 event_item, 24 tool)
 RTYPE = {2: 'Gren', 5: 'Material', 7: 'Equip recipe', 8: 'Equip', 9: 'Unit', 11: 'Crystals', 13: 'Food',
-         17: 'Stamina', 18: 'Alch', 22: 'Event item', 24: 'Item', 25: 'Rainbow Gems'}
+         17: 'Key', 18: 'Alch', 22: 'Event item', 24: 'Item', 25: 'Rainbow Gems'}
 # some boss_info_master rows still carry the JP resistance names
 RES_EN = {'毒耐性': 'Poison Res.', '暗闇耐性': 'Blind Res.', '封印耐性': 'Seal Res.', '麻痺耐性': 'Paralysis Res.', '病気耐性': 'Disease Res.',
           '気絶耐性': 'Faint Res.', '氷結耐性': 'Freeze Res.', '燃焼耐性': 'Burn Res.', '凍結耐性': 'Freeze Res.', '呪い耐性': 'Curse Res.'}
@@ -90,7 +90,8 @@ def main():
     names = {5: {m['id']: clean(m['name']) for m in load('material_master')},
              13: {f['id']: clean(f['name']) for f in load('food_master')},
              22: {e['id']: clean(e['name']) for e in load('event_item_master')},
-             24: {t['id']: clean(t['name']) for t in load('tool_master')}}
+             24: {t['id']: clean(t['name']) for t in load('tool_master')},
+             17: {k['id']: clean(k['name']) for k in load('key_master')}}
     eq = {}
     for x in sorted(load('item_master'), key=lambda x: x['evolution_stage'] if x['evolution_stage'] != 99 else -1):
         eq[x['id']] = clean(x['name'])
@@ -106,13 +107,16 @@ def main():
             item_img = {(x['k'], x['id']): x.get('img', '') for x in json.load(f)['items']}
     except (OSError, ValueError, KeyError):
         item_img = {}
-    FIXED = {2: 'ASSETS/icon_gren.png', 11: 'ASSETS/icon_crystal.png', 18: 'ASSETS/icon_alchemy_stone.png',
-             25: 'ASSETS/icon_rainbow_gem.png'}
+    # currencies: the game's orb shop thumbnails (big, framed like the item tiles)
+    FIXED = {2: 'Global/town/alchemy/orb_shop/thumbnail/gran_thumbnail.png', 11: 'Global/town/alchemy/orb_shop/thumbnail/crystal_thumbnail.png', 18: 'Global/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png',
+             25: 'ASSETS/icon_rainbow_gem.png', 15: 'Global/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png'}
     icons = {}
 
     def icon_of(t, i):
         if t in FIXED:
             return FIXED[t]
+        if t == 17:   # dungeon keys (key_master): the game's orb shop key pictures
+            return img(f'Global/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{i}.png')
         if t in (7, 8):
             s = str(i)
             if len(s) >= 9:

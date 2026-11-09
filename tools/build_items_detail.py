@@ -254,7 +254,9 @@ def main():
     tool_kind = {1: 'Energy', 5: 'Summon Tickets'}
     for t in load('tool_master'):
         if english(t['name']):
-            row('tool', t['id'], clean(t['name']), 0, clean(t['description']), '', tool_kind.get(t['type'], 'Other'),
+            # tool pictures: the game's orb shop thumbnails (dlc/Global/town/alchemy/orb_shop/thumbnail/tool_<id>.png)
+            row('tool', t['id'], clean(t['name']), 0, clean(t['description']),
+                img(f"Global/town/alchemy/orb_shop/thumbnail/tool_{t['id']}.png"), tool_kind.get(t['type'], 'Other'),
                 {'max': num(t.get('count_limit'))})
 
     data = {'cats': {'mat': 'Materials', 'crest': 'Crest Materials', 'event': 'Event Items',

@@ -24,6 +24,8 @@ on:
       - 'dlc/Global/_DATABASE/others/quests_detail.json'
       - 'tools/build_quests_detail.py'
       - '.github/workflows/build-quests.yml'
+      - 'dlc/Global/_DATABASE/**/key_master.json'
+      - 'dlc/Global/town/alchemy/orb_shop/thumbnail/**'
   workflow_dispatch: # manual "Run workflow" button
   schedule:
     - cron: '0 12 * * 1'   # weekly (Monday): drop open windows that have passed

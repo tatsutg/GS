@@ -25,6 +25,7 @@ on:
       - 'dlc/Global/_DATABASE/others/items_detail.json'
       - 'tools/build_items_detail.py'
       - '.github/workflows/build-items.yml'
+      - 'dlc/Global/town/alchemy/orb_shop/thumbnail/**'
   workflow_dispatch: # manual "Run workflow" button
 
 concurrency:

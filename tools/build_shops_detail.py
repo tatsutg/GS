@@ -157,9 +157,13 @@ def main():
         if otype == 24:
             return item_img.get(('tool', oid), '')
         if otype == 18:
-            return 'ASSETS/icon_alchemy_stone.png'
+            return 'Global/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png'
         if otype == 25:
             return 'ASSETS/icon_rainbow_gem.png'
+        if otype == 17:
+            return has(f'Global/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{oid}.png')
+        if otype == 15:
+            return 'Global/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png'
         return ''
 
     def limit(v):
