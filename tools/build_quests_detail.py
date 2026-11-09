@@ -263,6 +263,14 @@ def main():
                 uniq[b['u']] = b
             if str(b['u']) in boss_info:
                 used_info.add(str(b['u']))
+        # the final stage is the boss fight in every difficulty, but the enemy ids only tie some quests to the boss:
+        # when the dungeon has one boss, give it to the other quests too ('bossX': portrait only, the stats of that
+        # difficulty are not in the DB)
+        if len({b['u'] for b in uniq.values()}) == 1:
+            only = [{k: v for k, v in b.items() if k in ('n', 'u', 'img', 'el')} for b in uniq.values()]
+            for q in qs:
+                if not q.get('boss') and q.get('st'):
+                    q['bossX'] = only
         row = {'id': d['id'], 'n': name, 'cat': cat, 'type': t, 'ev': num(d.get('event_id')), 'rank': num(d.get('need_rank')),
                'img': img(f"Global/banner/dungeon_banner_{d['id']}.png"), 'top': img(f"Global/banner/dungeon_banner_top_{d['id']}.png"),
                'win': [[a.isoformat(), b.isoformat()] for a, b in up[:MAX_WIN]], 'winN': len(wins),
