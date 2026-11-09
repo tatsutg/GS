@@ -17,6 +17,8 @@ on:
       - 'dlc/Global/_DATABASE/**/food_master.json'
       - 'dlc/Global/_DATABASE/**/enemy_master.json'
       - 'dlc/Global/_DATABASE/**/boss_info_master.json'
+      - 'dlc/Global/_DATABASE/**/battle_relation_master.json'
+      - 'dlc/Global/_DATABASE/others/items_detail.json'
       - 'dlc/unit/thumbnail/**'
       - 'dlc/Global/banner/**'
       - 'dlc/Global/_DATABASE/others/quests_detail.json'

@@ -8,6 +8,9 @@ Reads the decrypted GL DB exports in dlc/Global/_DATABASE/*/ and writes one row 
     Crest Palaces (dungeon_type 8001..8007 = Monday..Sunday)
   - quests: name, stamina, difficulty, the drops the game shows (display_item_list) and the rewards
   - bosses: per quest (HP / ATK / DEF / break, art from dlc/unit/thumbnail) and boss_info_master notes
+  - stages: per quest the stage count and each stage's spawn variants (chance %), from battle_relation_master
+    (the enemy placement per stage is not in the export); per dungeon the enemy roster ('foes') from enemy_master
+  - icons: "<type>:<id>" -> picture of each drop / reward
 Categories:
   8001-8007 / 7 Crest Palace, 3002 Boss & Trial events (1 h windows = Rotating Boss), 8 Summoners Road,
   1001-1006 / 4001 Material quests, 2002 Exploring, 0 Story, 2 Events, 6 Side Stories.
@@ -35,7 +38,7 @@ CAT = {0: 'Story', 2: 'Events', 6: 'Side Stories', 8: 'Summoners Road', 2002: 'E
 # reward / drop "type" codes used by quest_master and display_item_list
 # (checked against the tables the ids belong to: 7 item_recipe, 8 item, 9 unit, 13 food, 22 event_item, 24 tool)
 RTYPE = {2: 'Gren', 5: 'Material', 7: 'Equip recipe', 8: 'Equip', 9: 'Unit', 11: 'Crystals', 13: 'Food',
-         17: 'Stamina', 18: 'Arca', 22: 'Event item', 24: 'Item', 25: 'Rainbow Gems'}
+         17: 'Stamina', 18: 'Alch', 22: 'Event item', 24: 'Item', 25: 'Rainbow Gems'}
 # some boss_info_master rows still carry the JP resistance names
 RES_EN = {'毒耐性': 'Poison Res.', '暗闇耐性': 'Blind Res.', '封印耐性': 'Seal Res.', '麻痺耐性': 'Paralysis Res.', '病気耐性': 'Disease Res.',
           '気絶耐性': 'Faint Res.', '氷結耐性': 'Freeze Res.', '燃焼耐性': 'Burn Res.', '凍結耐性': 'Freeze Res.', '呪い耐性': 'Curse Res.'}
@@ -93,7 +96,37 @@ def main():
         eq[x['id']] = clean(x['name'])
     names[7] = names[8] = eq
     units = {u['id']: clean(u['name']) for u in load('unit_master')}
+    thumbs_all = set(os.listdir(os.path.join(DLC, 'unit', 'thumbnail')))
     names[9] = units
+
+    # icons for drops / rewards: data['icons']["<type>:<id>"] = repo path (the site shows a badge when there is none)
+    ithumb = set(os.listdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')))
+    try:
+        with open(os.path.join(DB, 'others', 'items_detail.json'), encoding='utf-8') as f:
+            item_img = {(x['k'], x['id']): x.get('img', '') for x in json.load(f)['items']}
+    except (OSError, ValueError, KeyError):
+        item_img = {}
+    FIXED = {2: 'ASSETS/icon_gren.png', 11: 'ASSETS/icon_crystal.png', 18: 'ASSETS/icon_alchemy_stone.png',
+             25: 'ASSETS/icon_rainbow_gem.png'}
+    icons = {}
+
+    def icon_of(t, i):
+        if t in FIXED:
+            return FIXED[t]
+        if t in (7, 8):
+            s = str(i)
+            if len(s) >= 9:
+                b = int(s[1:5])
+                for f in (f'item_thumbnail_1{b:04d}1.png', f'item_thumbnail_1{b:04d}0.png'):
+                    if f in ithumb:
+                        return f'Japan/item/thumbnail/{f}'
+            return ''
+        if t == 9:
+            return f'unit/thumbnail/unit_thumbnail_{i}.png' if f'unit_thumbnail_{i}.png' in thumbs_all else ''
+        key = {5: 'mat', 13: 'food', 22: 'event', 24: 'tool'}.get(t)
+        if not key:
+            return ''
+        return item_img.get((key, i)) or (img(f'event/event_icon_{i}.png') if t == 22 else '')
 
     def thing(t, i, n=0):
         t, i = num(t), num(i)
@@ -101,6 +134,9 @@ def main():
             return None
         label = RTYPE.get(t, f'Type {t}')
         name = names.get(t, {}).get(i, '') or label
+        k = f'{t}:{i}'
+        if k not in icons:
+            icons[k] = icon_of(t, i)
         return [t, i, name, label, num(n)]
 
     # ---- bosses ----
@@ -144,6 +180,27 @@ def main():
                     off = i - did
                     out.append((off // 5 if off // 5 < nq else -1, boss_row(boss_enemies[i])))
         return out
+
+    # stages: battle_relation_master = quest -> battle_no (stage 1, 2, ...) -> spawn variants with a weight (of 10000).
+    # The enemy placement of each variant (battlemaster) is not in the export, so per quest the site shows the stage
+    # count and each stage's variant chances (rare spawns), and per dungeon the enemy roster below.
+    stages = defaultdict(lambda: defaultdict(list))
+    for r in load('battle_relation_master'):
+        stages[num(r['quest_id'])][num(r['battle_no'])].append(num(r['weight']))
+    all_enemies = {e['id']: e for e in load('enemy_master')}
+
+    def roster(did):
+        """every enemy of a dungeon (enemy ids follow the dungeon id, as for the bosses): weakest first, bosses last"""
+        rng = range(did * 100, did * 100 + 100) if did < 1000000 else range(did, did + 100)
+        seen, out = set(), []
+        for i in rng:
+            e = all_enemies.get(i)
+            if not e or (e['unit_id'], num(e.get('hp'))) in seen:
+                continue
+            seen.add((e['unit_id'], num(e.get('hp'))))
+            b = boss_row(e)
+            out.append([b['n'], b['u'], b['img'], b['el'], b['lv'], b['hp'], 1 if num(e.get('is_boss')) == 1 else 0])
+        return sorted(out, key=lambda x: (x[6], x[5]))
 
     by_dungeon = defaultdict(list)
     for q in quests:
@@ -190,7 +247,9 @@ def main():
                 if r:
                     rewards.append([label] + r)
             qs.append({'id': q['id'], 'n': clean(q['name']), 'sta': num(q.get('stamina')), 'dif': num(q.get('difficulty')),
-                       'rank': num(q.get('need_rank')), 'gren': num(q.get('drop_coin')), 'drops': drops, 'rew': rewards})
+                       'rank': num(q.get('need_rank')), 'gren': num(q.get('drop_coin')), 'drops': drops, 'rew': rewards,
+                       # stages: per stage the spawn variants' chances in % (one entry = always the same battle)
+                       'st': [[round(w / max(1, sum(ws)) * 100, 2) for w in ws] for _, ws in sorted(stages.get(q['id'], {}).items())]})
         # bosses: per quest when the id says which, and the dungeon's distinct bosses (strongest copy)
         uniq = {}
         for i, b in bosses_of(d['id'], len(qs)):
@@ -207,12 +266,16 @@ def main():
                'q': qs}
         if t in WEEKDAY:
             row['day'] = WEEKDAY[t]
+        foes = roster(d['id'])
+        if foes:
+            row['foes'] = foes   # [name, unit id, thumb, element, level, HP, is boss]
         if uniq:
             row['boss'] = [{k: v for k, v in b.items() if k in ('n', 'u', 'img', 'el')} for b in uniq.values()]
         out.append(row)
     out.sort(key=lambda r: r['id'])
     data = {'built': now.isoformat(timespec='seconds'), 'dungeons': out,
-            'bossInfo': {k: v for k, v in boss_info.items() if k in used_info}}
+            'bossInfo': {k: v for k, v in boss_info.items() if k in used_info},
+            'icons': {k: v for k, v in icons.items() if v}}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     by = defaultdict(int)
