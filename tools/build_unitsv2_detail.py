@@ -4,7 +4,8 @@ Build dlc/Global/_DATABASE/others/unitsv2_detail.json for the website's Units V2
 Reads the decrypted GL DB exports in dlc/Global/_DATABASE/others/*.json and writes one
 compact record per unit family (keyed by base_unit_id), shaped like a row of
 the Units sheet so the site's Unit Info popup (openModal) can show it as-is.
-Lower rarities go in each record's _forms.
+Lower rarities go in each record's _forms. _tags = the unit's in-game tag ids
+(tag_master / tag_category_master in data1; the site reads those two for names and groups).
 
 skill_master.json alone is ~22 MB, too big for the browser, so this script
 does the joins offline.
@@ -202,6 +203,16 @@ def main():
             'SERVER': 'Global',
             '_v2': 1,
         }
+        # in-game Tag Search tags (tag_master ids), every form's, top form first
+        tags = []
+        for u in [top] + forms[::-1]:
+            try:
+                ids_ = json.loads(u.get('tags') or '[]') if u.get('tags') not in (None, 'None', '') else []
+            except ValueError:
+                ids_ = []
+            tags += [t for t in ids_ if t not in tags]
+        if tags:
+            item['_tags'] = tags
         e = enh.get(base) or {}
         top_fields = form_data(top, base, e, with_da=True)
         item.update(top_fields)
