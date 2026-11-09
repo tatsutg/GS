@@ -6,6 +6,7 @@ compact record per unit family (keyed by base_unit_id), shaped like a row of
 the Units sheet so the site's Unit Info popup (openModal) can show it as-is.
 Lower rarities go in each record's _forms. _tags = the unit's in-game tag ids
 (tag_master / tag_category_master in data1; the site reads those two for names and groups).
+_lim = unit_master.limited_id (standard / limited / crossover / free; see main()).
 
 skill_master.json alone is ~22 MB, too big for the browser, so this script
 does the joins offline.
@@ -213,6 +214,11 @@ def main():
             tags += [t for t in ids_ if t not in tags]
         if tags:
             item['_tags'] = tags
+        # unit_master.limited_id: 0 standard summon pool, 1 / 2 / 3 / 5 banner-only (limited), 4 crossover,
+        # 11 / 12 / 13 not summonable (story / event / free units)
+        lim = max(num(u.get('limited_id')) for u in forms)
+        if lim:
+            item['_lim'] = lim
         e = enh.get(base) or {}
         top_fields = form_data(top, base, e, with_da=True)
         item.update(top_fields)
