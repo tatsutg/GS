@@ -112,7 +112,8 @@ def main():
         if it['rarity'] != 5 or b in equips or not it.get('name'):
             continue
         thumb = next((f for f in (f'item_thumbnail_1{b:04d}1.png', f'item_thumbnail_1{b:04d}0.png') if f in ithumb), '')
-        equips[b] = [it['name'], f'item/thumbnail/{thumb}' if thumb else '']
+        # [name, thumbnail, type: 1 Physical 2 Magic 3 Defense 4 Healing 5 Support]
+        equips[b] = [it['name'], f'item/thumbnail/{thumb}' if thumb else '', it.get('type') or 0]
 
     # STEP-UP banners list their featured units per step
     step_imgs = {}

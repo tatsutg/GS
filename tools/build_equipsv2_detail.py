@@ -88,11 +88,14 @@ def main():
     src = defaultdict(list)          # base_item_id -> [source]
     seen = set()
 
-    def add(base, kind, name, detail=''):
+    def add(base, kind, name, detail='', dungeon=0):
         key = (base, kind, name, detail)
         if base and name and key not in seen:
             seen.add(key)
-            src[base].append({'t': kind, 'n': name, 'd': detail})
+            row = {'t': kind, 'n': name, 'd': detail}
+            if dungeon:
+                row['q'] = dungeon      # dungeon id: the site shows its banner and opens its quest popup
+            src[base].append(row)
 
     id2base = {x['id']: x['base_item_id'] for x in items}
     for d in dungeons:
@@ -101,14 +104,14 @@ def main():
         except (TypeError, ValueError):
             dd = {}
         for b in dd:
-            add(num(b), 'drop', d['name'], 'Event quest drop')
+            add(num(b), 'drop', d['name'], 'Event quest drop', num(d['id']))
     for q in load('quest_master'):
         place = dname.get(num(q.get('dungeon_id')), '')
         for k in ('questmission1', 'questmission2', 'questmission3', 'complete'):
             if q.get(k + '_reward_type') in (7, 8):
                 b = id2base.get(num(q.get(k + '_reward_id')))
                 what = 'Clear reward' if k == 'complete' else 'Mission reward'
-                add(b, 'quest', f"{place} > {q['name']}" if place and place != q['name'] else q['name'], what)
+                add(b, 'quest', f"{place} > {q['name']}" if place and place != q['name'] else q['name'], what, num(q.get('dungeon_id')))
     for s in load('event_shop_master'):
         if s['object_type'] in (7, 8):
             b = id2base.get(s['object_id'])
