@@ -24,6 +24,8 @@ on:
       - 'dlc/Global/_DATABASE/**/unit_fantasy_evo_master.json'
       - 'dlc/Global/_DATABASE/others/items_detail.json'
       - 'tools/build_items_detail.py'
+      - 'crest_drops.json'
+      - 'dlc/Global/_DATABASE/**/dungeon_master.json'
       - '.github/workflows/build-items.yml'
       - 'dlc/Global/town/alchemy/orb_shop/thumbnail/**'
   workflow_dispatch: # manual "Run workflow" button

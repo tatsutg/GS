@@ -1,0 +1,328 @@
+{
+  "_about": "Where crests drop, kept by hand from the game's own files (no Google Sheet). The GL DB only links each quest to a drop group (quest_master.rune_drop_type_id); the group's contents live on the server. shrines: read from each Crest Palace shrine's in-game info panel, dlc/banner/dungeon_banner_top_<dungeon id>[w].png (ex = Exclusive / Limited Crest, up = Drop Rate UP, day = 'Open every ...'), names as on the panel (tools/build_items_detail.py matches them to rune_type_master, with ALIASES for the panel's wording). crossover: crest family image key (rune_master.image without _N) -> the rune_drop_type_id of the collab quests that drop it (quest_master), matched by event. A new shrine: read its panel and add it here. jp_shrines: Crest Palace shrines only in JP (not in the GL DB), read from dlc/jp_banner/dungeon_banner_top_<id>.png; n = English name (community name where GL never named it), jp = in-game name; ex / up in English (GL crest names).",
+  "shrines": {
+    "4000200": {
+      "day": "Monday",
+      "ex": [
+        "Promise of Funeral God"
+      ],
+      "up": [
+        "Dark Resistance",
+        "Heal Amount UP",
+        "BE Output UP",
+        "Status Ailment Resistance"
+      ]
+    },
+    "4000300": {
+      "day": "Thursday",
+      "ex": [
+        "Cursed Poison"
+      ],
+      "up": [
+        "Earth Resistance",
+        "Equipment CT speed UP",
+        "Curse Resistance",
+        "Dark Resistance",
+        "Disease Resistance"
+      ]
+    },
+    "4000400": {
+      "day": "Wednesday",
+      "ex": [
+        "Mind of Stillness"
+      ],
+      "up": [
+        "Water Resistance",
+        "CRI DMG UP",
+        "Freeze Resistance",
+        "Skill CT speed UP"
+      ]
+    },
+    "4000500": {
+      "day": "Tuesday",
+      "ex": [
+        "Incandescence"
+      ],
+      "up": [
+        "Fire Resistance",
+        "Unit EXP UP",
+        "Burn Resistance",
+        "Gren UP"
+      ]
+    },
+    "4000600": {
+      "day": "Friday",
+      "ex": [
+        "Glittering Dragon Blessing"
+      ],
+      "up": [
+        "Light Resistance",
+        "Seal Resistance",
+        "Paralyze Resistance",
+        "CRI rate UP"
+      ]
+    },
+    "4000700": {
+      "day": "Saturday",
+      "ex": [
+        "Whirlwind"
+      ],
+      "up": [
+        "Poison Resistance",
+        "All Status UP",
+        "Break Power UP",
+        "Player EXP UP"
+      ]
+    },
+    "4000800": {
+      "day": "Sunday",
+      "ex": [
+        "Survival Instinct"
+      ],
+      "up": [
+        "HP UP",
+        "DEF UP",
+        "ATK UP",
+        "Arts gauge UP"
+      ]
+    },
+    "4000900": {
+      "day": "Tuesday",
+      "ex": [
+        "Shattering Gale"
+      ],
+      "up": [
+        "ATK UP",
+        "CRI rate UP",
+        "Break Power UP",
+        "Skill CT speed UP"
+      ]
+    },
+    "4001000": {
+      "day": "Wednesday",
+      "ex": [
+        "Cursefrost"
+      ],
+      "up": [
+        "Arts gauge UP",
+        "Heal Amount UP",
+        "All Status UP",
+        "BE Output UP"
+      ]
+    },
+    "4001100": {
+      "day": "Thursday",
+      "ex": [
+        "Truth of Eternity"
+      ],
+      "up": [
+        "CRI Resistance",
+        "HP Recovery rate UP",
+        "CRI DMG UP",
+        "Blind Resistance"
+      ]
+    },
+    "4001200": {
+      "day": "Saturday",
+      "ex": [
+        "Magic Circuit γ"
+      ],
+      "up": [
+        "HP UP",
+        "Freeze Resistance",
+        "Skill CT speed UP",
+        "Disease Resistance"
+      ]
+    },
+    "4001300": {
+      "day": "Monday",
+      "ex": [
+        "Gem of Flight"
+      ],
+      "up": [
+        "Player EXP UP",
+        "Paralysis Resistance",
+        "Earth Resistance",
+        "DEF UP"
+      ]
+    },
+    "4001400": {
+      "day": "Sunday",
+      "ex": [
+        "Ebony Terror",
+        "Crimson Terror"
+      ],
+      "up": [
+        "Dark Resistance",
+        "Equipment CT speed UP",
+        "Curse Resistance",
+        "Unit EXP UP"
+      ]
+    },
+    "4001500": {
+      "day": "Friday",
+      "ex": [
+        "Hateful Affection"
+      ],
+      "up": [
+        "HP UP",
+        "Seal Resistance",
+        "Disease Resistance",
+        "Gren UP"
+      ]
+    },
+    "4001600": {
+      "day": "Sunday",
+      "ex": [
+        "Temporal Cell"
+      ],
+      "up": [
+        "DEF UP",
+        "Curse Resistance",
+        "Poison Resistance",
+        "Arts gauge UP"
+      ]
+    },
+    "4001700": {
+      "day": "Tuesday",
+      "ex": [
+        "Firestorm"
+      ],
+      "up": [
+        "ATK UP",
+        "Burn Resistance",
+        "Paralysis Resistance",
+        "CRI DMG UP"
+      ]
+    },
+    "4001800": {
+      "day": "Wednesday",
+      "ex": [
+        "Rimebind"
+      ],
+      "up": [
+        "Player EXP UP",
+        "Blind Resistance",
+        "BE Output UP",
+        "CRI rate UP"
+      ]
+    },
+    "4002000": {
+      "day": "Monday",
+      "ex": [
+        "Decimation"
+      ],
+      "up": [
+        "All Status UP",
+        "Dark Resistance",
+        "Break Power",
+        "Unit EXP UP"
+      ]
+    }
+  },
+  "crossover": {
+    "slime": [
+      1000,
+      1001,
+      1002
+    ],
+    "kamen": [
+      1000,
+      1001,
+      1002
+    ],
+    "shaman": [
+      1003,
+      1004
+    ],
+    "mushoku": [
+      1005,
+      1006
+    ],
+    "brs": [
+      1007
+    ],
+    "overlord": [
+      1008,
+      1009
+    ],
+    "puriya": [
+      1100
+    ],
+    "shadow": [
+      1400
+    ]
+  },
+  "jp_shrines": {
+    "4001900": {
+      "n": "Shrine of the Radiant Ball",
+      "jp": "明玉の神殿",
+      "day": "Friday",
+      "ex": [
+        "Gossamer"
+      ],
+      "up": [
+        "Arts gauge UP",
+        "Status Ailment Resistance",
+        "Break Power UP",
+        "Burn Resistance"
+      ]
+    },
+    "4002100": {
+      "n": "Shrine of the Crimson Machine",
+      "jp": "紅機の神殿",
+      "day": "Saturday",
+      "ex": [
+        "E-Blast"
+      ],
+      "up": [
+        "CRI DMG UP",
+        "Fire Resistance",
+        "HP Recovery rate UP",
+        "Skill CT speed UP"
+      ]
+    },
+    "4002200": {
+      "n": "Shrine of the Poison Blade",
+      "jp": "毒刃の神殿",
+      "day": "Thursday",
+      "ex": [
+        "Shadow Aura"
+      ],
+      "up": [
+        "Earth Resistance",
+        "Heal Amount UP",
+        "Elemental Effect",
+        "Status Ailment Resistance"
+      ]
+    },
+    "4002300": {
+      "n": "Shrine of Heavenly Darkness",
+      "jp": "天闇の神殿",
+      "day": "Friday",
+      "ex": [
+        "Divine Punishment"
+      ],
+      "up": [
+        "Water Resistance",
+        "Freeze Resistance",
+        "Equipment CT speed UP",
+        "Player EXP UP"
+      ]
+    },
+    "4002400": {
+      "n": "Shrine of Samsara",
+      "jp": "輪廻の神殿",
+      "day": "Sunday",
+      "ex": [
+        "Frenzied Howl"
+      ],
+      "up": [
+        "Break Power UP",
+        "Dark Resistance",
+        "Curse Resistance",
+        "Blind Resistance"
+      ]
+    }
+  }
+}

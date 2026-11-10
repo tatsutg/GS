@@ -229,6 +229,42 @@ def main():
     fams = defaultdict(list)
     for r in runes:
         fams[r['type_id']].append(r)
+    # Where each crest drops (the GL DB has no drop pools, so GS/crest_drops.json keeps what the game's shrine
+    # info panels list): crest type -> [[place, 'ex' exclusive | 'up' drop rate UP | 'x' crossover quest, dungeon id, day]]
+    ALIASES = {'paralysis resistance': 'paralyze resistance', 'equipment ct speed up': 'equipment ct down',
+               'skill ct speed up': 'skill ct down', 'break power': 'break power up'}
+    key = lambda s: re.sub(r'\s+', ' ', str(s or '')).strip().lower()
+    type_by_name = {key(n): t for t, n in rune_type.items() if t < 1000}
+    drop_at = defaultdict(list)
+    try:
+        with open(os.path.join(GS, 'crest_drops.json'), encoding='utf-8') as f:
+            cd = json.load(f)
+    except (OSError, ValueError):
+        cd = {}
+    for did, sh in (cd.get('shrines') or {}).items():
+        place = dname.get(int(did), '')
+        for kind in ('ex', 'up'):
+            for n in sh.get(kind, []):
+                t = type_by_name.get(ALIASES.get(key(n), key(n)))
+                if t is None:
+                    print(f'crest_drops.json: unknown crest "{n}" (shrine {did})')
+                    continue
+                drop_at[t].append([place, kind, int(did), sh.get('day', '')])
+    # JP-only shrines (not in the GL DB): only their crests that GL has; their own exclusive crests are JP-only too
+    for did, sh in (cd.get('jp_shrines') or {}).items():
+        for kind in ('ex', 'up'):
+            for n in sh.get(kind, []):
+                t = type_by_name.get(ALIASES.get(key(n), key(n)))
+                if t is not None:
+                    drop_at[t].append([sh['n'], kind, int(did), sh.get('day', ''), 'jp'])
+    # crossover crests: the collab quests whose drop group (quest_master.rune_drop_type_id) is listed for the family
+    group_dungeons = defaultdict(list)
+    for q in load('quest_master'):
+        g = num(q.get('rune_drop_type_id'))
+        if g and g < 4000000 and q['dungeon_id'] not in group_dungeons[g]:
+            group_dungeons[g].append(q['dungeon_id'])
+    xdrop = {k: [d for g in gs for d in group_dungeons.get(g, [])] for k, gs in (cd.get('crossover') or {}).items()}
+
     crests = []
     for t, rs in sorted(fams.items()):
         rs.sort(key=lambda r: (num(r['level']), num(r['is_plus'])))
@@ -244,7 +280,10 @@ def main():
         if image:
             key = re.sub(r'_\d+$', '', image)
             group = COLLAB.get(key, 'Special Event' if key == 'gp' else key.title())
-        crests.append({'t': t, 'n': name.strip(), 'cat': cat, 'grp': group,
+        drops = drop_at.get(t, [])
+        if image and not drops:
+            drops = [[dname.get(d, ''), 'x', d, ''] for d in xdrop.get(re.sub(r'_\d+$', '', image), [])]
+        crests.append({'t': t, 'n': name.strip(), 'cat': cat, 'grp': group, 'd': drops,
                        'img': img(f"rune/thumbnail/runestone_middle_{image}.png") if image else '',
                        'lv': [[f"Lv{num(r['level'])}{'+' if num(r['is_plus']) else ''}", r['id'],
                                clean((skills.get(r['skill_id']) or {}).get('description'))] for r in rs]})
