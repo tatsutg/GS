@@ -236,6 +236,8 @@ def main():
     key = lambda s: re.sub(r'\s+', ' ', str(s or '')).strip().lower()
     type_by_name = {key(n): t for t, n in rune_type.items() if t < 1000}
     drop_at = defaultdict(list)
+    # shrine list for the Crests tab's "Crest Palace week": [{id, n, day, ex/up: [[crest type or None, name]], img, jp?}]
+    shrines = []
     try:
         with open(os.path.join(GS, 'crest_drops.json'), encoding='utf-8') as f:
             cd = json.load(f)
@@ -250,6 +252,8 @@ def main():
                     print(f'crest_drops.json: unknown crest "{n}" (shrine {did})')
                     continue
                 drop_at[t].append([place, kind, int(did), sh.get('day', '')])
+        shrines.append({'id': int(did), 'n': place, 'day': sh.get('day', ''), 'img': f"Global/banner/dungeon_banner_{did}.png",
+                        **{k: [[type_by_name.get(ALIASES.get(key(n), key(n))), n] for n in sh.get(k, [])] for k in ('ex', 'up')}})
     # JP-only shrines (not in the GL DB): only their crests that GL has; their own exclusive crests are JP-only too
     for did, sh in (cd.get('jp_shrines') or {}).items():
         for kind in ('ex', 'up'):
@@ -257,6 +261,9 @@ def main():
                 t = type_by_name.get(ALIASES.get(key(n), key(n)))
                 if t is not None:
                     drop_at[t].append([sh['n'], kind, int(did), sh.get('day', ''), 'jp'])
+        shrines.append({'id': int(did), 'n': sh['n'], 'jpn': sh.get('jp', ''), 'day': sh.get('day', ''), 'jp': 1,
+                        'img': f"jp_banner/dungeon_banner_{did}.png",
+                        **{k: [[type_by_name.get(ALIASES.get(key(n), key(n))), n] for n in sh.get(k, [])] for k in ('ex', 'up')}})
     # crossover crests: the collab quests whose drop group (quest_master.rune_drop_type_id) is listed for the family
     group_dungeons = defaultdict(list)
     for q in load('quest_master'):
@@ -300,7 +307,7 @@ def main():
 
     data = {'cats': {'mat': 'Materials', 'crest': 'Crest Materials', 'event': 'Event Items',
                      'food': 'Food', 'rune': 'Crests', 'tool': 'Tools & Tickets', 'ticket': 'Raid Tickets'},
-            'items': out, 'crests': crests}
+            'items': out, 'crests': crests, 'shrines': sorted(shrines, key=lambda x: x['id'])}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     by = defaultdict(int)
