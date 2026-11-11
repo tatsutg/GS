@@ -1752,6 +1752,12 @@ id,consumption,present_group_id,lowest_rarity_stock,button_image
 106871,,None,0,summon/unit_summon_button_normal.png
 106872,,2,1,summon/unit_summon_button_10_normal_new.png
 106873,,1,-1,summon/summon_button_raresummon_limit11.png
+106881,,None,0,summon/unit_summon_button_normal.png
+106882,,2,1,summon/unit_summon_button_10_normal_new.png
+106883,,1,-1,summon/summon_button_raresummon_limit11.png
+106891,,None,0,summon/unit_summon_button_normal.png
+106892,,2,1,summon/unit_summon_button_10_normal_new.png
+106893,,1,-1,summon/summon_button_raresummon_limit11.png
 200611,,None,0,summon/item_summon_button_normal.png
 200612,,None,-1,summon/item_summon_button_10_normal.png
 200613,,None,0,summon/35022_summon_button_normal.png
@@ -3534,8 +3540,11 @@ id,consumption,present_group_id,lowest_rarity_stock,button_image
 302921,,None,0,summon/10052_summon_button_10_normal.png
 302931,,None,0,summon/10052_summon_button_10_normal.png
 302941,,None,0,summon/10052_summon_button_10_normal.png
+302951,,None,0,summon/10052_summon_button_10_normal.png
 302971,,None,0,summon/10052_summon_button_10_normal.png
 302981,,None,0,summon/10052_summon_button_10_normal.png
+302991,,None,0,summon/10052_summon_button_10_normal.png
+303001,,None,0,summon/10052_summon_button_10_normal.png
 400011,,None,-1,summon/ticket_summon_button.png
 400012,,None,-1,summon/ticket_summon_button_num.png
 400021,,None,0,summon/button_ticket_collabo01_solo_summon.png
@@ -3927,6 +3936,8 @@ id,consumption,present_group_id,lowest_rarity_stock,button_image
 402082,,None,0,summon/button_event_item_summon.png
 402091,,None,0,summon/button_syuzoku_tanpatu_summon.png
 402092,,None,0,summon/button_syuzoku_renzoku_summon.png
+402101,,None,0,summon/button_syuzoku_tanpatu_summon.png
+402102,,None,0,summon/button_syuzoku_renzoku_summon.png
 500011,,None,0,summon/button_50001_2_0_step01.png
 500012,,None,-1,summon/button_50001_2_0_step02.png
 500013,,None,-1,summon/button_50001_2_0_step03.png

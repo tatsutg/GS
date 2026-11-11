@@ -4639,6 +4639,45 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
         ""unit/with_animation_104197212_350_60_skill3.png"",
         ""unit/with_animation_104197212_350_60_skill5.png""    ]
 }",2026-11-03 00:00:00+09:00,2026-11-06 14:59:59+09:00,,0
+10688,英雄召喚,106881,106882,106883,1,0,summon/banner/10688_summon_banner.png,summon/banner/10688_summon_banner_last.png,"{
+    ""information_image_list"": [
+        ""unit/unit_summon_20261106.png"",
+        ""unit/with_animation_104397512_500_60_bg.png"",
+        ""unit/unit_summon_439_r.png"",
+        ""unit/unit_summon_347_l.png"",
+        ""unit/unit_summon_230_l.png"",
+        ""unit/unit_summon_335_l.png"",
+        ""unit/unit_summon_322_l.png"",
+        ""unit/unit_summon_252_l.png""
+    ],
+    ""optional_images"": [
+        ""unit/with_animation_104397512_500_60_name.png"",
+        ""unit/with_animation_104397512_500_60_skill1.png"",
+        ""unit/with_animation_104397512_500_60_skill2.png"",
+        ""unit/with_animation_104397512_500_60_skill3.png"",
+        ""unit/with_animation_104397512_500_60_skill5.png""
+    ]
+}",2026-11-06 15:00:00+09:00,2026-11-16 14:59:59+09:00,,0
+10689,英雄召喚,106891,106892,106893,1,0,summon/banner/10689_summon_banner.png,summon/banner/10689_summon_banner_last.png,"{
+    ""information_image_list"": [
+        ""unit/unit_summon_20261111.png"",
+        ""unit/with_animation_103717212_500_60_bg.png"",
+        ""unit/unit_summon_371_p.png"",
+""unit/with_animation_103847512_400_60_bg.png"",
+        ""unit/unit_summon_384_p.png""
+    ],
+    ""optional_images"": [
+        ""unit/with_animation_103717212_500_60_name.png"",
+        ""unit/with_animation_103717212_500_60_skill1.png"",
+        ""unit/with_animation_103717212_500_60_skill2.png"",
+        ""unit/with_animation_103717212_500_60_skill3.png"",
+        ""unit/with_animation_103717212_500_60_skill5.png"",
+        ""unit/with_animation_103847512_400_60_name.png"",
+        ""unit/with_animation_103847512_400_60_skill1.png"",
+        ""unit/with_animation_103847512_400_60_skill2.png"",
+        ""unit/with_animation_103847512_400_60_skill3.png"",
+        ""unit/with_animation_103847512_400_60_skill5.png""    ]
+}",2026-11-11 00:00:00+09:00,2026-11-16 14:59:59+09:00,,0
 20061,宝具召喚,200611,200612,200613,2,0,summon/banner/30027_summon_banner.png,,"{""information_image_list"":[""item/item_summon_249.png"",""item/item_summon_252.png"",""item/item_summon_251.png"",""item/item_summon_114.png""] }",2017-05-29 14:00:00+09:00,2017-08-29 10:59:59+09:00,,0
 20062,宝具召喚,200621,200622,0,2,0,summon/banner/20062_summon_banner.png,,"{""information_image_list"":[""item/item_summon_73_p.png"",""item/item_summon_108_p.png"",""item/item_summon_252_p.png"",""item/item_summon_133_p.png"",""item/item_summon_123_p.png""] }",2017-06-06 00:00:00+09:00,2017-06-15 23:59:59+09:00,,0
 20063,宝具召喚,200631,200632,0,2,0,summon/banner/20063_summon_banner.png,,"{""information_image_list"":[""item/item_summon_57_p.png"",""item/item_summon_168_p.png"",""item/item_summon_105_p.png"",""item/item_summon_115_p.png"",""item/item_summon_155_p.png""] }",2017-06-16 00:00:00+09:00,2017-06-25 23:59:59+09:00,,0
@@ -6439,6 +6478,18 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
         ""unit/unit_summon_369_l.png""
     ]
 }",2026-10-30 15:00:00+09:00,2026-11-06 14:59:59+09:00,,0
+30295,錬金召喚,302951,0,0,3,0,summon/banner/30295_summon_banner.png,summon/banner/30295_summon_banner_last.png,"{
+	""information_image_list"" :
+	[
+	""unit/unit_summon_chance_20261106_1.png"",
+	        ""unit/unit_summon_439_l.png"",
+        ""unit/unit_summon_347_l.png"",
+        ""unit/unit_summon_230_l.png"",
+        ""unit/unit_summon_335_l.png"",
+        ""unit/unit_summon_322_l.png"",
+        ""unit/unit_summon_252_l.png""
+    ]
+}",2026-11-06 15:00:00+09:00,2026-11-16 14:59:59+09:00,,0
 30297,錬金召喚,302971,0,0,3,0,summon/banner/30297_summon_banner.png,summon/banner/30297_summon_banner_last.png,"{
 	""information_image_list"" :
 	[
@@ -6463,6 +6514,30 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
         ""unit/unit_summon_219_l.png""
     ]
 }",2026-11-03 00:00:00+09:00,2026-11-06 14:59:59+09:00,,0
+30299,錬金召喚,302991,0,0,3,0,summon/banner/30299_summon_banner.png,summon/banner/30299_summon_banner_last.png,"{
+	""information_image_list"" :
+	[
+	""unit/unit_summon_chance_20261111_1.png"",
+	        ""unit/unit_summon_371_l.png"",
+        ""unit/unit_summon_200_l.png"",
+        ""unit/unit_summon_293_l.png"",
+        ""unit/unit_summon_229_l.png"",
+        ""unit/unit_summon_204_l.png"",
+        ""unit/unit_summon_312_l.png""
+    ]
+}",2026-11-11 00:00:00+09:00,2026-11-16 14:59:59+09:00,,0
+30300,錬金召喚,303001,0,0,3,0,summon/banner/30300_summon_banner.png,summon/banner/30300_summon_banner_last.png,"{
+	""information_image_list"" :
+	[
+	""unit/unit_summon_chance_20261111_2.png"",
+	        ""unit/unit_summon_384_l.png"",
+        ""unit/unit_summon_200_l.png"",
+        ""unit/unit_summon_293_l.png"",
+        ""unit/unit_summon_229_l.png"",
+        ""unit/unit_summon_204_l.png"",
+        ""unit/unit_summon_312_l.png""
+    ]
+}",2026-11-11 00:00:00+09:00,2026-11-16 14:59:59+09:00,,0
 40001,★5英雄召喚,400011,400012,0,6,0,summon/banner/40001_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2018-05-22 11:00:00+09:00,2030-05-05 23:59:59+09:00,,0
 40002,コラボ召喚,400021,400022,0,6,0,summon/banner/40002_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_711.png"",""unit/unit_summon_709.png""] }",2018-06-21 11:00:00+09:00,2018-07-23 03:59:59+09:00,,0
 40003,コラボ召喚,400031,400032,0,6,0,summon/banner/40003_summon_banner.png,summon/banner/40003_summon_banner_last.png,"{""information_image_list"" : [""unit/unit_summon_714.png"",""unit/unit_summon_712.png"",""unit/unit_summon_204.png"",""unit/unit_summon_185.png"",""unit/unit_summon_105.png"",""unit/unit_summon_104_l.png"",""unit/unit_summon_103_l.png"",""unit/unit_summon_216.png""] }",2018-08-23 11:00:00+09:00,2018-09-20 03:59:59+09:00,,0
@@ -6882,6 +6957,7 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
 40207,宝具召喚,402071,402072,0,7,0,summon/banner/40207_summon_banner.png,summon/banner/40207_summon_banner_last.png,"{""information_image_list"":[""item/box_summon_20260117_b.png"",""item/item_summon_316.png"",""item/item_summon_730.png"",""item/item_summon_79.png"",""item/item_summon_552.png""] }",2026-09-28 15:00:00+09:00,2026-10-17 23:59:59+09:00,,0
 40208,宝具召喚,402081,402082,0,7,0,summon/banner/40208_summon_banner.png,summon/banner/40208_summon_banner_last.png,"{""information_image_list"":[""item/box_summon_20260117_c.png"",""item/item_summon_355.png"",""item/item_summon_432.png"",""item/item_summon_349.png"",""item/item_summon_564.png""] }",2026-09-28 15:00:00+09:00,2026-10-17 23:59:59+09:00,,0
 40209,宝具召喚,402091,402092,0,7,0,summon/banner/40209_summon_banner.png,summon/banner/40209_summon_banner_last.png,"{""information_image_list"":[""item/item_summon_20261011.png"",""item/item_summon_59.png"",""item/item_summon_450.png"",""item/item_summon_1147.png"",""item/item_summon_104.png"",""item/item_summon_105.png""]  }",2026-10-11 00:00:00+09:00,2026-10-25 23:59:59+09:00,,0
+40210,宝具召喚,402101,402102,0,7,0,summon/banner/40210_summon_banner.png,summon/banner/40210_summon_banner_last.png,"{""information_image_list"":[""item/item_summon_20261111.png"",""item/item_summon_59.png"",""item/item_summon_450.png"",""item/item_summon_1147.png"",""item/item_summon_104.png"",""item/item_summon_105.png""]  }",2026-11-11 00:00:00+09:00,2026-11-25 23:59:59+09:00,,0
 50001,英雄召喚,0,0,0,1,1,summon/banner/50001_summon_banner.png,summon/banner/50001_summon_banner_last.png,,2018-06-29 11:00:00+09:00,2018-07-12 13:59:59+09:00,,0
 50002,英雄召喚,0,0,0,1,1,summon/banner/50002_summon_banner.png,summon/banner/50002_summon_banner_last.png,,2018-07-31 14:00:00+09:00,2018-08-10 13:59:59+09:00,,0
 50003,英雄召喚,0,0,0,1,1,summon/banner/50003_summon_banner.png,summon/banner/50003_summon_banner_last.png,,2018-08-31 14:00:00+09:00,2018-09-11 13:59:59+09:00,,0

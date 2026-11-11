@@ -861,9 +861,9 @@ TITLE_CALL_SETTING,"{
     ""events"" :
     [
         {
-            ""cue_name"" : ""halloween2026"",
-            ""start_time"" : ""2026-10-30 15:00:00"",
-            ""end_time"" : ""2026-11-06 14:59:59""
+            ""cue_name"" : ""unit_439"",
+            ""start_time"" : ""2026-11-06 15:00:00"",
+            ""end_time"" : ""2026-11-16 14:59:59""
         }
     ]
 }",
@@ -871,14 +871,14 @@ TITLE_LWF_SETTING,"{
     ""events"" :
     [
        {
-            ""lwf_path"" : ""lwf/title_event_juno_20261030/title_event_juno_20261030.lwf"",
-            ""lua_path"" : ""lwf/title_event_juno_20261030/title_event_juno_20261030.lua"",
+            ""lwf_path"" : ""lwf/title_event_voxhalloween_20261106/title_event_voxhalloween_20261106.lwf"",
+            ""lua_path"" : ""lwf/title_event_voxhalloween_20261106/title_event_voxhalloween_20261106.lua"",
             ""skip_pass"" : ""bbxx"",
             ""tap_image_path"" : """",
             ""tap_image_posX"" : 0,
             ""tap_image_posY"" : 0,
-            ""start_time"" : ""2026-10-30 15:00:00"",
-            ""end_time"" : ""2026-11-06 14:59:59""
+            ""start_time"" : ""2026-11-06 15:00:00"",
+            ""end_time"" : ""2026-11-16 14:59:59""
         }
    ],
     ""default"" :

@@ -882,6 +882,10 @@ id,name,effect_type,skill_id,target,effect_time,effect_value,mine_eff_val_thresh
 10437701,10秒間、敵の回避率30%DOWN。,31,10437700,4,10,-30,-1,1,-30,,,,None,None,100,2,None,None,None,None,None,None,17,None,None,None,None,None,0
 10438601,自身の奥義ゲージ20UP。,8,10438600,1,0,20,-1,1,20,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
 10438701,自身の奥義ゲージ30UP。,8,10438700,1,0,30,-1,1,30,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
+10439601,自身の奥義ゲージ15UP。,8,10439600,1,0,15,-1,1,15,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
+10439602,最終Waveの場合、さらに15UP。,8,10439600,1,0,15,-1,1,15,,,,None,None,100,1,542,0,1,1,0,None,,None,None,None,None,None,0
+10439701,自身の奥義ゲージ25UP。,8,10439700,1,0,25,-1,1,25,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
+10439702,最終Waveの場合、さらに25UP。,8,10439700,1,0,25,-1,1,25,,,,None,None,100,1,542,0,1,1,0,None,,None,None,None,None,None,0
 10502101,灼岩ドーマル スキル/麻痺/100% 2s,91,10502100,4,2,1,-1,1,1,,,,0,0,100,2,None,None,None,None,None,None,81,0,None,3,0,0,0
 10508101,ケルピー スキル/攻撃速度アップ/+50% 5s,28,10508100,2,5,50,-1,1,50,,,,0,0,100,1,None,None,None,None,None,None,7,0,None,9,0,0,0
 10510101,ジェロノス スキル/氷結/100% 3s,96,10510100,4,3,1,-1,1,1,,,,0,0,100,2,None,None,None,None,None,None,86,0,None,7,0,0,0
@@ -4051,6 +4055,18 @@ id,name,effect_type,skill_id,target,effect_time,effect_value,mine_eff_val_thresh
 20439001,30秒間、味方全体のダメージ150%UP。,17,20439000,2,30,150,-1,1,150,,,,None,None,100,1,None,None,None,None,None,None,26,None,None,None,None,None,0
 20439002,味方光属性ユニットのダメージ150%UP。,17,20439000,2,30,150,-1,1,150,,,,None,None,100,1,12,4,None,None,None,None,26,None,None,None,3639,150,0
 20439003,味方魔族ユニットのダメージ150%UP。,17,20439000,2,30,150,-1,1,150,,,,None,None,100,1,16,8,None,None,None,None,26,None,None,None,3513,150,0
+20439601,35秒間、味方全体の被ダメージを合計7000無効化。,98,20439600,2,35,7000,-1,1,7000,,,,None,None,100,1,None,None,None,None,None,None,24,None,None,1,2000,0,0
+20439602,自分以外の味方の奥義ゲージ30UP。,8,20439600,2,0,30,-1,1,30,,,,None,None,100,1,46,None,None,None,None,None,,None,None,None,None,None,0
+20439701,35秒間、味方全体の被ダメージを合計12000無効化。,98,20439700,2,35,12000,-1,1,12000,,,,None,None,100,1,None,None,None,None,None,None,24,None,None,1,2000,0,0
+20439702,自分以外の味方の奥義ゲージ50UP。,8,20439700,2,0,50,-1,1,50,,,,None,None,100,1,46,None,None,None,None,None,,None,None,None,None,None,0
+20439801,80%の確率で25秒間、敵を暗闇状態にする。,93,20439800,4,25,50,-1,1,50,,,,None,None,80,2,None,None,None,None,None,None,83,None,None,4,None,None,0
+20439802,25秒間、敵の魔法耐性80%DOWN。,21,20439800,4,25,80,-1,1,80,,,,None,None,100,2,3,None,None,None,None,None,175,None,None,None,2056,80,0
+20439901,100%の確率で25秒間、敵を暗闇状態にする。,93,20439900,4,25,50,-1,1,50,,,,None,None,100,2,None,None,None,None,None,None,83,None,None,4,None,None,0
+20439902,25秒間、敵の魔法耐性120%DOWN。,21,20439900,4,25,120,-1,1,120,,,,None,None,100,2,3,None,None,None,None,None,175,None,None,None,2056,120,0
+20440001,10秒間、味方全体にダメージの1%のHP吸収効果を付与。,70,20440000,2,10,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+20440002,40秒間、敵の全状態異常耐性・,112,20440000,4,40,-60,-1,1,-60,,,,None,None,100,2,None,None,None,None,None,None,77,None,None,None,3147,60,0
+20440003,40秒間、敵の全状態異常耐性・,113,20440000,4,40,-60,-1,1,-60,,,,None,None,100,2,None,None,None,None,None,None,,None,None,None,3147,60,0
+20440004,闇属性耐性60%DOWN。,65,20440000,4,40,-60,-1,1,-60,,,,None,None,100,2,None,None,None,None,None,None,47,None,None,None,2062,60,0
 20503101,光精エミリュ 奥義/HP回復/2000,3,20503100,2,None,2000,-1,1,2000,,,,0,0,None,0,None,None,None,None,None,None,,0,None,11,0,0,0
 20507101,ライトコロック 奥義/攻撃力アップ/+200% 5s,13,20507100,2,5,200,-1,1,200,,,,0,0,100,1,None,None,None,None,None,None,3,0,None,9,0,0,0
 20508101,ケルピー 奥義/HP回復/1500,3,20508100,2,None,1500,-1,1,1500,,,,0,0,None,0,None,None,None,None,None,None,,0,None,11,0,0,0
@@ -9375,6 +9391,7 @@ CRI率50%UP。燃焼、
 40375205,味方全体は怯まなくなる（重複なし）,108,40375200,8,-1,100,-1,1,100,,,,None,None,100,1,429,None,None,None,None,None,,None,None,None,None,None,0
 40375301,自身のHPが80%以上の時、クリティカル率100%UP・,22,40375300,1,-1,100,-1,1,100,,,,None,None,100,1,21,80,1000,None,None,None,,None,None,None,None,None,0
 40375302,スーパークリティカル率を味方魔族ユニットの数×25%UP（最大100%）,142,40375300,1,-1,0,-1,1,0,,,,None,None,100,1,547,80,25,8,100,0,,None,None,None,None,None,0
+40376401,戦闘開始時、味方全体の奥義ゲージ50UP（重複なし）,8,40376400,2,1,50,-1,1,50,,,,None,None,100,1,515,40376402,None,None,None,None,,None,None,None,None,None,0
 50000301,毒時間短縮率10％アップ。毒回避率10％アップ,53,50000300,1,-1,10,-1,1,10,,,,0,0,None,0,None,None,None,None,None,None,,0,None,None,0,0,0
 50000302,毒時間短縮率10％アップ。毒回避率10％アップ,102,50000300,1,-1,10,-1,1,10,,,,0,0,None,0,None,None,None,None,None,None,,0,None,None,0,0,0
 50000401,毒時間短縮率20％アップ。毒回避率20％アップ,53,50000400,1,-1,20,-1,1,20,,,,0,0,None,0,None,None,None,None,None,None,,0,None,None,0,0,0
@@ -13080,6 +13097,23 @@ CRI率50%UP。燃焼、
 50335201,鋼鉄のヴォルフリート装備時、ダメージ20%UP・,17,50335200,1,-1,20,-1,1,20,,,,None,None,100,1,35,437,None,None,None,None,,None,None,None,None,None,0
 50335202,クエスト開始時、奥義ゲージ200UP（重複なし）,134,50335200,1,-1,200,-1,1,200,,,,None,None,100,1,35,437,None,None,None,None,,None,None,None,None,None,0
 50335301,聖女ジュノー（ハロウィンver）装備時、奥義ゲージ3自然上昇（重複なし）,10,50335300,1,-1,3,-1,1,3,,,,None,None,100,1,35,438,None,None,None,None,,None,None,None,None,None,0
+50335401,赤月王ヴォックス（ハロウィンver）装備時、ダメージ30%UP・,17,50335400,1,-1,30,-1,1,30,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335402,状態異常(気絶以外)耐性50%UP（重複なし）,53,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335403,状態異常(気絶以外)耐性50%UP（重複なし）,102,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335404,状態異常(気絶以外)耐性50%UP（重複なし）,54,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335405,状態異常(気絶以外)耐性50%UP（重複なし）,103,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335406,状態異常(気絶以外)耐性50%UP（重複なし）,55,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335407,状態異常(気絶以外)耐性50%UP（重複なし）,104,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335408,状態異常(気絶以外)耐性50%UP（重複なし）,56,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335409,状態異常(気絶以外)耐性50%UP（重複なし）,105,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335410,状態異常(気絶以外)耐性50%UP（重複なし）,57,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335411,状態異常(気絶以外)耐性50%UP（重複なし）,106,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335412,状態異常(気絶以外)耐性50%UP（重複なし）,58,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335413,状態異常(気絶以外)耐性50%UP（重複なし）,107,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335414,状態異常(気絶以外)耐性50%UP（重複なし）,59,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335415,状態異常(気絶以外)耐性50%UP（重複なし）,108,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335416,状態異常(気絶以外)耐性50%UP（重複なし）,60,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
+50335417,状態異常(気絶以外)耐性50%UP（重複なし）,109,50335400,1,-1,50,-1,1,50,,,,None,None,100,1,35,439,None,None,None,None,,None,None,None,None,None,0
 60000101,攻撃力100％UP,13,60000100,1,99999,100,-1,1,100,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
 60000201,燃焼時攻撃力30%UP,13,60000200,1,99999,30,-1,1,30,,,,None,None,100,1,18,97,None,None,None,None,,None,None,None,None,None,0
 60000301,燃焼回避40%,109,60000300,1,99999,40,-1,1,40,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
@@ -13550,8 +13584,8 @@ CRI率50%UP。燃焼、
 60039601,相手の庇う解除状態,168,60039600,1,9999,5,-1,1,5,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
 60039701,病気状態の相手にクリティカル率100%UP（データ）,22,60039700,1,-1,100,-1,1,100,,,,None,None,100,1,42,94,None,None,None,None,,None,None,None,None,None,0
 60039801,防御力1000%UP,15,60039800,1,-1,1000,-1,1,1000,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
-60039901,封印状態の敵に対して奥義ダメージ100%UP。,17,60039900,1,-1,200,-1,1,200,,,,None,None,100,1,42,92,2,None,None,None,,None,None,None,None,None,0
-60040001,封印状態の敵に対して奥義ダメージ50%UP。,17,60040000,1,-1,100,-1,1,100,,,,None,None,100,1,42,92,2,None,None,None,,None,None,None,None,None,0
+60039901,封印状態の敵に対して奥義ダメージ100%UP。,17,60039900,1,-1,200,-1,1,200,,,,None,None,100,1,42,92,1,None,None,None,,None,None,None,None,None,0
+60040001,封印状態の敵に対して奥義ダメージ50%UP。,17,60040000,1,-1,100,-1,1,100,,,,None,None,100,1,42,92,1,None,None,None,,None,None,None,None,None,0
 60040101,防御力500%UP,15,60040100,1,-1,500,-1,1,500,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
 60040201,病気回避率,106,60040200,1,-1,1,-1,1,math.atan(a*0.01)*2/math.pi*100,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
 60040301,与ダメージ割合,17,60040300,1,-1,1,-1,1,a,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
@@ -19325,6 +19359,15 @@ HITに関係なく、敵を猛炎状態にする（effect_value=300、script_val
 88813602,100%の確率で20秒間、敵に継続ダメージ（秒間500）を付与　この奥義中、庇う無効,168,88813600,1,9999,100,-1,1,100,,,,None,None,100,1,8,None,None,None,None,None,,None,None,None,None,None,0
 88813701,100%の確率で20秒間、敵に継続ダメージ（秒間500）を付与　この奥義中、庇う無効,129,88813700,4,20,5000,-1,1,5000,,,,None,None,100,2,None,None,None,None,None,None,180,None,None,None,None,None,0
 88813702,100%の確率で20秒間、敵に継続ダメージ（秒間500）を付与　この奥義中、庇う無効,168,88813700,1,9999,100,-1,1,100,,,,None,None,100,1,8,None,None,None,None,None,,None,None,None,None,None,0
+88814201,100%の確率で、20秒間、敵の闇属性耐性20%DOWN,65,88814200,4,20,-20,-1,1,-20,,,,None,None,100,2,None,None,None,None,None,None,47,None,None,None,None,None,0
+88814301,100%の確率で、20秒間、敵の魔法耐性20%DOWN,21,88814300,4,20,20,-1,1,20,,,,None,None,100,2,3,None,None,None,None,None,175,None,None,None,None,None,0
+88814401,この奥義中、与えたダメージの1000%をHP吸収,70,88814400,1,9999,1000,-1,1,1000,,,,None,None,100,1,8,None,None,None,None,None,18,None,None,None,None,None,0
+88814501,100%の確率で、15秒間、敵の被ダメージ30%UP,21,88814500,4,15,30,-1,1,30,,,,None,None,100,2,None,None,None,None,None,None,139,None,None,None,None,None,0
+88814601,この奥義中、自身の命中率100%UP・クリティカル率50%UP　与えたダメージの5000%をHP吸収 ,32,88814600,1,9999,100,-1,1,100,,,,None,None,100,1,8,None,None,None,None,None,14,None,None,None,None,None,0
+88814602,この奥義中、自身の命中率100%UP・クリティカル率50%UP　与えたダメージの5000%をHP吸収 ,22,88814600,1,9999,50,-1,1,50,,,,None,None,100,1,8,None,None,None,None,None,11,None,None,None,None,None,0
+88814603,この奥義中、自身の命中率100%UP・クリティカル率50%UP　与えたダメージの5000%をHP吸収 ,70,88814600,1,9999,5000,-1,1,5000,,,,None,None,100,1,8,None,None,None,None,None,18,None,None,None,None,None,0
+88814701,この奥義中、自身の命中率100%UP・100%の確率で、30秒間、敵の最大HP30%DOWN,32,88814700,1,9999,100,-1,1,100,,,,None,None,100,1,8,None,None,None,None,None,14,None,None,None,None,None,0
+88814702,この奥義中、自身の命中率100%UP・100%の確率で、30秒間、敵の最大HP30%DOWN,2,88814700,4,30,-30,-1,1,-30,,,,None,None,100,2,None,None,None,None,None,None,2,None,None,None,None,None,0
 90020301,大噛みつき,70,90020300,6,None,850,-1,1,850,,,,0,0,None,0,None,None,None,None,None,None,,0,None,None,0,0,0
 90020351,大噛みつき,70,90020350,6,None,850,-1,1,850,,,,0,0,None,0,None,None,None,None,None,None,,0,None,None,0,0,0
 90020501,怒りモーション,91,90020500,4,5,0,-1,1,0,,,,0,0,100,2,0,0,0,0,None,None,81,0,None,3,0,0,0
@@ -22405,6 +22448,11 @@ HITに関係なく、敵を猛炎状態にする（effect_value=300、script_val
 98903101,40%の確率で、15秒間、敵の被ダメージ15%UP,21,98903100,4,15,15,-1,1,15,,,,None,None,40,2,None,None,None,None,None,None,139,None,None,None,None,None,0
 98903201,40%の確率で20秒間、敵を燃焼状態（秒間200）にする,97,98903200,4,20,2000,-1,1,2000,,,,None,None,40,2,None,None,None,None,None,None,87,None,None,8,None,None,0
 98903501,HITに関係なく、敵全体を猛炎状態（effect_value=300、script_value1=1、script_value2=5）にする,208,98903500,3,99999,300,-1,1,300,,,,None,None,100,2,602,1,5,None,None,None,308,None,None,8,None,None,0
+98904301,10%の確率で、1秒間、敵を気絶状態にする,89,98904300,4,1,1,-1,1,1,,,,None,None,10,2,None,None,None,None,None,None,79,None,None,13,None,None,0
+98904401,敵の奥義ゲージ50DOWN,124,98904400,4,1,50,-1,1,50,,,,None,None,100,2,None,None,None,None,None,None,,None,None,None,None,None,0
+98904501,40%の確率で、10秒間、敵を暗闇状態にする,93,98904500,4,10,50,-1,1,50,,,,None,None,40,2,None,None,None,None,None,None,83,None,None,4,None,None,0
+98904601,40%の確率で、10秒間、敵を暗闇状態にする,93,98904600,4,10,50,-1,1,50,,,,None,None,40,2,None,None,None,None,None,None,83,None,None,4,None,None,0
+98905101,40秒間、敵を100%の確率で燃焼状態にする（秒間700）,97,98905100,4,40,7000,-1,1,7000,,,,None,None,100,2,None,None,None,None,None,None,87,None,None,8,None,None,0
 210101601,自身の奥義ゲージ30UP,8,210101600,1,0,30,-1,1,30,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
 210325601,自身以外の味方奥義ゲージUP,8,210325600,2,1,30,-1,1,30,,,,None,None,100,1,46,None,None,None,None,None,,None,None,None,None,None,0
 220101601,15秒間、味方全体の最大HP20%UP,2,220101600,2,15,20,-1,1,20,,,,None,None,100,1,None,None,None,None,None,None,1,None,None,None,1076,20,0
@@ -63884,6 +63932,61 @@ HPを300回復。",44,300283100,2,2,100,-1,1,100,,,,0,0,100,0,0,0,0,0,None,None,
 301436092,使用者が光属性の場合、さらに48%UP。,17,301436090,2,12,113,-1,1,113,,,,None,None,100,1,380,4,3,None,None,None,26,None,None,None,40589,113,0
 301436101,12秒間、味方全体のクリティカルダメージ70%UP。,17,301436100,2,12,70,-1,1,70,,,,None,None,100,1,317,4,3,None,None,None,26,None,None,None,None,None,0
 301436102,使用者が光属性の場合、さらに50%UP。,17,301436100,2,12,120,-1,1,120,,,,None,None,100,1,380,4,3,None,None,None,26,None,None,None,40589,120,0
+301437001,5000%の闇属性魔法ダメージ。,69,301437000,1,0,5000,-1,1,5000,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437002,10秒間、敵の闇属性耐性20%DOWN。,65,301437000,4,10,-20,-1,1,-20,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437003,使用者が魔族の場合、さらに20%DOWN。,65,301437000,4,10,-40,-1,1,-40,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,40,0
+301437011,5500%の闇属性魔法ダメージ。,69,301437010,1,0,5500,-1,1,5500,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437012,10秒間、敵の闇属性耐性21%DOWN。,65,301437010,4,10,-21,-1,1,-21,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437013,使用者が魔族の場合、さらに21%DOWN。,65,301437010,4,10,-42,-1,1,-42,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,42,0
+301437021,6000%の闇属性魔法ダメージ。,69,301437020,1,0,6000,-1,1,6000,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437022,10秒間、敵の闇属性耐性22%DOWN。,65,301437020,4,10,-22,-1,1,-22,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437023,使用者が魔族の場合、さらに22%DOWN。,65,301437020,4,10,-44,-1,1,-44,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,44,0
+301437031,6500%の闇属性魔法ダメージ。,69,301437030,1,0,6500,-1,1,6500,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437032,10秒間、敵の闇属性耐性23%DOWN。,65,301437030,4,10,-23,-1,1,-23,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437033,使用者が魔族の場合、さらに23%DOWN。,65,301437030,4,10,-46,-1,1,-46,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,46,0
+301437041,7000%の闇属性魔法ダメージ。,69,301437040,1,0,7000,-1,1,7000,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437042,10秒間、敵の闇属性耐性24%DOWN。,65,301437040,4,10,-24,-1,1,-24,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437043,使用者が魔族の場合、さらに24%DOWN。,65,301437040,4,10,-48,-1,1,-48,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,48,0
+301437051,7500%の闇属性魔法ダメージ。,69,301437050,1,0,7500,-1,1,7500,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437052,10秒間、敵の闇属性耐性25%DOWN。,65,301437050,4,10,-25,-1,1,-25,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437053,使用者が魔族の場合、さらに25%DOWN。,65,301437050,4,10,-50,-1,1,-50,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,50,0
+301437061,8000%の闇属性魔法ダメージ。,69,301437060,1,0,8000,-1,1,8000,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437062,10秒間、敵の闇属性耐性26%DOWN。,65,301437060,4,10,-26,-1,1,-26,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437063,使用者が魔族の場合、さらに26%DOWN。,65,301437060,4,10,-52,-1,1,-52,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,52,0
+301437071,8500%の闇属性魔法ダメージ。,69,301437070,1,0,8500,-1,1,8500,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437072,10秒間、敵の闇属性耐性27%DOWN。,65,301437070,4,10,-27,-1,1,-27,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437073,使用者が魔族の場合、さらに27%DOWN。,65,301437070,4,10,-54,-1,1,-54,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,54,0
+301437081,9000%の闇属性魔法ダメージ。,69,301437080,1,0,9000,-1,1,9000,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437082,10秒間、敵の闇属性耐性28%DOWN。,65,301437080,4,10,-28,-1,1,-28,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437083,使用者が魔族の場合、さらに28%DOWN。,65,301437080,4,10,-56,-1,1,-56,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,56,0
+301437091,9500%の闇属性魔法ダメージ。,69,301437090,1,0,9500,-1,1,9500,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437092,10秒間、敵の闇属性耐性29%DOWN。,65,301437090,4,10,-29,-1,1,-29,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437093,使用者が魔族の場合、さらに29%DOWN。,65,301437090,4,10,-58,-1,1,-58,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,58,0
+301437101,10000%の闇属性魔法ダメージ。,69,301437100,1,0,10000,-1,1,10000,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301437102,10秒間、敵の闇属性耐性30%DOWN。,65,301437100,4,10,-30,-1,1,-30,,,,None,None,100,2,341,8,None,None,None,1,47,None,None,None,None,None,0
+301437103,使用者が魔族の場合、さらに30%DOWN。,65,301437100,4,10,-60,-1,1,-60,,,,None,None,100,2,341,8,None,None,None,None,47,None,None,None,2008,60,0
+301438001,2750%の闇属性魔法ダメージ。,69,301438000,1,0,2750,-1,1,2750,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438002,10秒間、ダメージの1%HP吸収。,70,301438000,1,10,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438011,3025%の闇属性魔法ダメージ。,69,301438010,1,0,3025,-1,1,3025,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438012,10秒間、ダメージの1%HP吸収。,70,301438010,1,10,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438021,3300%の闇属性魔法ダメージ。,69,301438020,1,0,3300,-1,1,3300,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438022,10秒間、ダメージの1%HP吸収。,70,301438020,1,10,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438031,3575%の闇属性魔法ダメージ。,69,301438030,1,0,3575,-1,1,3575,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438032,10秒間、ダメージの1%HP吸収。,70,301438030,1,10,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438041,3850%の闇属性魔法ダメージ。,69,301438040,1,0,3850,-1,1,3850,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438042,10秒間、ダメージの1%HP吸収。,70,301438040,1,10,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438051,4125%の闇属性魔法ダメージ。,69,301438050,1,0,4125,-1,1,4125,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438052,10秒間、ダメージの2%HP吸収。,70,301438050,1,10,2,-1,1,2,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438061,4400%の闇属性魔法ダメージ。,69,301438060,1,0,4400,-1,1,4400,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438062,10秒間、ダメージの2%HP吸収。,70,301438060,1,10,2,-1,1,2,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438071,4675%の闇属性魔法ダメージ。,69,301438070,1,0,4675,-1,1,4675,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438072,10秒間、ダメージの2%HP吸収。,70,301438070,1,10,2,-1,1,2,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438081,4950%の闇属性魔法ダメージ。,69,301438080,1,0,4950,-1,1,4950,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438082,10秒間、ダメージの2%HP吸収。,70,301438080,1,10,2,-1,1,2,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438091,5225%の闇属性魔法ダメージ。,69,301438090,1,0,5225,-1,1,5225,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438092,10秒間、ダメージの2%HP吸収。,70,301438090,1,10,2,-1,1,2,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
+301438101,5500%の闇属性魔法ダメージ。,69,301438100,1,0,5500,-1,1,5500,,,,None,None,100,0,None,None,None,None,None,None,,None,None,22071,None,None,0
+301438102,10秒間、ダメージの2%HP吸収。,70,301438100,1,10,2,-1,1,2,,,,None,None,100,1,None,None,None,None,None,None,18,None,None,None,None,None,0
 304001001,超神具『ペトラスキア』,69,304001000,1,0,4000,-1,1,4000,,,,None,None,100,0,None,None,None,None,None,None,,None,None,10023,None,None,0
 304001002,超神具『ペトラスキア』攻撃力UP,13,304001000,1,15,30,-1,1,30,,,,None,None,100,1,None,None,None,None,None,None,3,None,None,None,None,None,0
 304001011,超神具『ペトラスキア』,69,304001010,1,0,4400,-1,1,4400,,,,None,None,100,0,None,None,None,None,None,None,,None,None,10023,None,None,0
