@@ -1,0 +1,17 @@
+id,type,target,skill_id,effect_path,animation_name,icon_name
+101,1,1,1000100,change_buff/attribute_buff,Fire,change_buff_icon_001
+102,1,2,1000100,change_buff/attribute_buff,Water,change_buff_icon_002
+103,1,3,1000100,change_buff/attribute_buff,Earth,change_buff_icon_003
+104,1,4,1000100,change_buff/attribute_buff,Light,change_buff_icon_004
+105,1,5,1000100,change_buff/attribute_buff,Dark,change_buff_icon_005
+201,2,1,1000200,change_buff/Race_buff,humans_buff,change_buff_icon_008
+202,2,2,1000200,change_buff/Race_buff,beasts_buff,change_buff_icon_010
+203,2,3,1000200,change_buff/Race_buff,spirits_buff,change_buff_icon_012
+204,2,4,1000200,change_buff/Race_buff,giants_buff,change_buff_icon_013
+205,2,5,1000200,change_buff/Race_buff,machines_buff,change_buff_icon_014
+206,2,6,1000200,change_buff/Race_buff,dragons_buff,change_buff_icon_011
+207,2,7,1000200,change_buff/Race_buff,gods_buff,change_buff_icon_009
+208,2,8,1000200,change_buff/Race_buff,demons_buff,change_buff_icon_007
+104327,4,327,0,change_buff/in_buff_Haruto,in_buff1,change_buff_icon_015
+104332,4,332,0,change_buff/in_buff_Haruto,in_buff1,change_buff_icon_015
+104340,4,340,0,change_buff/in_buff_Haruto,in_buff1,change_buff_icon_015

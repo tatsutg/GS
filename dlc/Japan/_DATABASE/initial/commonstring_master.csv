@@ -1,0 +1,3734 @@
+id,text_key,japanese_value,english_value,chinese_value,french_value
+1,TXT_KEY_TODO,クエスト一覧,Quests List,0,0
+2,TXT_AREA_MEDAS,メダス草原,Medas Plain,0,0
+3,TXT_AREA_MIRADO,ミラード雪原,Mirahd Snowfield,0,0
+4,TXT_QUEST_1_TITLE,空からの災厄,Disaster from the Skies,0,0
+5,TXT_QUEST_2_TITLE,降りそそぐ氷雪,The Endless Snowstorm,0,0
+6,TXT_QUEST_1_DESCRIPTION,カリュオン遺跡まで後わずか。しかし、上空からは邪悪な気配が感じられるが……。,It's just a little further to the Kaluon Ruins. But a terrifying aura approaches from the skies!,0,0
+7,TXT_QUEST_2_DESCRIPTION,次の目的地を目指す一行に降りそそぐ激しい氷雪。それは旅の厳しさを予感させる……。,Ice and snow pelt the party as they struggle to their next goal. It gives a preview of the harsh journey ahead...,0,0
+8,TXT_PAGE_TITLE_QUEST_MODE_SELECTION,モード選択,Mode Selection,0,0
+9,TXT_PAGE_TITLE_SPECIAL_DUNGEON_SELECTION,限定ダンジョン一覧,Limited Dungeon List,0,0
+10,TXT_NOT_ENOUGH_STAMINA,スタミナが不足しています。増やしますか？(現在ショップ画面がないので、OK押しても移動しません),"You don't have enough energy. Restore? (There is no current Shop screen, so even if OK is pressed you won't be transferred).",0,0
+11,TXT_PAGE_INFORMATION_OUTSIDER_SELECTION,助っ人を頼むユニットを選んでください。,Choose the Guest unit you'd like to request.,0,0
+12,TXT_PAGE_INFORMATION_BEFORE_BATTLE,冒険に出る前の最終確認です。問題なければ「冒険に出る」を押してください。,"The final check before you leave on your adventure. If everything looks OK, tap ""Go on Adventure"".",0,0
+13,TXT_PAGE_INFORMATION_QUEST_MODE_SELECTION,モードを選んでください。,Select the desired mode.,0,0
+14,TXT_PAGE_INFORMATION_SPECIAL_DUNGEON_SELECTION,挑戦する限定ダンジョンを選んでください。,Choose the Limited Dungeon you wish to try.,0,0
+15,TXT_QUEST_EASY_TITLE,難易度 初級,Difficulty BGN,0,0
+16,TXT_QUEST_MEDIUM_TITLE,難易度 中級,Difficulty INT,0,0
+17,TXT_QUEST_HARD_TITLE,難易度 上級,Difficulty ADV,0,0
+18,TXT_PAGE_INFORMATION_SPECIAL_QUEST_SELECTION,挑戦する限定ダンジョンを選んでください。,Choose the Limited Dungeon you wish to attempt.,0,0
+19,TXT_QUEST_ALPHA1_TITLE,初級,BGN,0,0
+20,TXT_QUEST_ALPHA2_TITLE,中級,INT,0,0
+21,TXT_QUEST_ALPHA3_TITLE,上級,ADV,0,0
+22,TXT_QUEST_ALPHA4_TITLE,死神バトル,Death God Battle,0,0
+23,TXT_PAGE_TITLE_UNIT_SORT,ユニットソート/フィルタ,Unit Sort/Filter,0,0
+24,TXT_PAGE_TITLE_PARTYBOOST,パーティブースト,Party Boost,0,0
+26,TXT_BLACKSMITH_MESSAGE_COIN,グラン不足,Not Enough Gren,0,0
+28,TXT_DUNGEON_MEDAS,メダス草原,Medas Plain,0,0
+29,TXT_DUNGEON_MIRRORED,ミラード雪原,Mirahd Snowfield,0,0
+30,TXT_SCENARIO_MEDAS_001,カリュオン遺跡まで後わずか。しかし、上空からは邪悪な気配が感じられるが……。,It's just a little further to the Kaluon Ruins. But a terrifying aura approaches from the skies!,0,0
+31,TXT_SCENARIO_MIRRORED_001,次の目的地を目指す一行に降りそそぐ激しい氷雪。それは旅の厳しさを予感させる……。,Ice and snow pelt the party as they struggle to their next goal. It gives a preview of the harsh journey ahead...,0,0
+33,TXT_WORLD_AREASELECT,エリア選択,Select Area,0,0
+34,TXT_WORLD_HELPSELECT,助っ人選択,Select Support,0,0
+35,TXT_WORLD_UNITLIST,ユニットリスト,Unit List,0,0
+36,TXT_WORLD_PARTY,パーティ編成,Manage Party,0,0
+37,TXT_WORLD_DUNGEONSELECT,ダンジョン選択,Select Dungeon,0,0
+38,TXT_WORLD_MODESELECT_01,モード選択,Mode Select,0,0
+39,TXT_WORLD_LIMITDUNGEONSELECT_01,限定ダンジョン一覧,Limited Dungeon List,0,0
+40,TXT_WORLD_QUESTSELECT_01,冒険するクエストを選んでください。,Choose the quest you'd like to take.,0,0
+41,TXT_WORLD_TEST_MESSAGE_01,スタミナが不足しています。増やしますか？(現在ショップ画面がないので、OK押しても移動しません),"You don't have enough energy. Restore? (There is no current Shop screen, so even if OK is pressed you won't be transferred).",0,0
+42,TXT_WORLD_TEST_MESSAGE_02,助っ人を頼むユニットを選んでください。,Choose the Guest unit you'd like to request.,0,0
+43,TXT_WORLD_TEST_MESSAGE_04,{0}時間,{0}h,0,0
+44,TXT_WORLD_TEST_MESSAGE_05,{0}分,{0}m,0,0
+45,TXT_WORLD_TEST_MESSAGE_06,1分未満,Less than 1m,0,0
+46,TXT_WORLD_TEST_MESSAGE_07,{0}日,{0}d,0,0
+47,TXT_WORLD_TEST_MESSAGE_08,あと{0},{0} left,0,0
+48,TXT_WORLD_MODESELECT_02,モードを選んでください。,Select the desired mode.,0,0
+49,TXT_WORLD_LIMITDUNGEONSELECT_02,挑戦する限定ダンジョンを選んでください。,Choose the Limited Dungeon you wish to attempt.,0,0
+50,TXT_WORLD_TEST_EASY,難易度 初級,Difficulty BGN,0,0
+51,TXT_WORLD_TEST_NORMAL,難易度 中級,Difficulty INT,0,0
+52,TXT_WORLD_TEST_HARD,難易度 上級,Difficulty ADV,0,0
+53,TXT_WORLD_QUESTSELECT_02,クエスト選択,Select Quest,0,0
+54,TXT_QUEST_ISREEDA,イスリーダ平原,	 Isliid Plain,0,0
+55,TXT_QUEST_AGRANA,アグラナ溶岩窟,Agnara Volcano,0,0
+56,TXT_QUEST_RIBNALD,リブナルド雪原,Ribnald Snowfield,0,0
+57,TXT_QUEST_MULTIBATTLE,マルチプレイ,Multiplayer,0,0
+58,TXT_SHOP_BUY_DIAMOND_NUMBER_06,100個,100,0,0
+59,TXT_WORKSHOP,工房,Workshop,0,0
+60,TXT_WORKSHOP_SPEECH,{0},{0},0,0
+61,TXT_WORKSHOP_BLACKSMITH,鍛冶屋へ,Forge,0,0
+62,TXT_WORKSHOP_MAKE,魔石化,Magic Stone Conversion,0,0
+63,TXT_WORKSHOP_SET,魔石セット,Set Magic Stone,0,0
+64,TXT_WORKSHOP_MAKE_FOOTER,選択数／-,Selected/-,0,0
+65,TXT_WORKSHOP_LIMIT,装備枠,Equipment Limit,0,0
+66,TXT_WORKSHOP_MAKE_SPEECH,{0},{0},0,0
+67,TXT_WORKSHOP_MAKE_SELCT,素材選択,Select Materials,0,0
+68,TXT_WORKSHOP_MAKE_RESET,リセット,Reset,0,0
+69,TXT_WORKSHOP_MAKE_EMPTY,EMPTY,EMPTY,0,0
+70,TXT_WORKSHOP_MAKE_MATERIAL_NONE,素材が選択されていません,No materials are selected.,0,0
+71,TXT_WORKSHOP_MAKE_RARITY_CHECK,★3以上の装備が個含まれています,★3 or higher equipment included.,0,0
+72,TXT_WORKSHOP_MAKE_GO,魔石化する,Convert to Magic Stones,0,0
+73,TXT_WORKSHOP_NONE_MESSAGE,タップして魔石をセットして下さい,Tap to set Magic Stones.,0,0
+74,TXT_WORKSHOP_COIN,必要コイン,coins needed.,0,0
+75,TXT_WORKSHOP_COIN_ERROR,グラン不足,Not Enough Gren,0,0
+76,TXT_WORKSHOP_OVERWRITE,魔石を上書きしますか？,Overwrite the Magic Stone?,0,0
+77,TXT_WORKSHOP_SET_LIST,以下の魔石をセットします,The Magic Stone(s) below will be set.,0,0
+78,TXT_WORKSHOP_LIST,魔石一覧,Magic Stone List,0,0
+79,TXT_TEMPLE_POINT,所持ポイント,Current Points,0,0
+80,TXT_TEMPLE_DISTRIBUTE,ボーナス振り分け,Share Bonus,0,0
+81,TXT_TEMPLE_INFO,ボーナス情報,Bonus Info,0,0
+82,TXT_TEMPLE_POSSIBLE,習得可,Obtainable,0,0
+83,TXT_TEMPLE_IMPOSSIBLE,習得済み,Obtained,0,0
+84,TXT_TEMPLE_USE,消費%1sP,Cost %1sP,0,0
+85,TXT_POPUP_CONFIRM_CONTINUE_GUEST,ホストを待っています。,Waiting for Host,0,0
+86,TXT_WORLD_WEEK_DUNGEON_4001,闇の素材,Dark Materials,0,0
+87,TXT_WORLD_WEEK_DUNGEON_4002,炎の素材,Flame Materials,0,0
+88,TXT_WORLD_WEEK_DUNGEON_4003,水の素材,Water Materials,0,0
+89,TXT_WORLD_WEEK_DUNGEON_4004,樹の素材,Earth Materials,0,0
+90,TXT_WORLD_WEEK_DUNGEON_4005,光の素材,Light Materials,0,0
+91,TXT_WORLD_WEEK_DUNGEON_4006,異界の希少種,Rare Species of the Exploring,0,0
+92,TXT_CPPFORMAT_TESTER,"0={0},1={1},2={2},3={3} これはcppformatのテストです","0 = {0}, 1 = {1}, 2 = {2}, 3 = {3} This is a cppformat test",0,0
+101,TXT_STONE_NAME_LIMIT_BREAK_UNIT,ユニット限界突破石,,,
+102,TXT_STONE_NAME_LIMIT_BREAK_ITEM_1,装備限界突破石【物理攻撃】,,,
+103,TXT_STONE_NAME_LIMIT_BREAK_ITEM_2,装備限界突破石【魔法攻撃】,,,
+104,TXT_STONE_NAME_LIMIT_BREAK_ITEM_3,装備限界突破石【防御】,,,
+105,TXT_STONE_NAME_LIMIT_BREAK_ITEM_4,装備限界突破石【回復】,,,
+106,TXT_STONE_NAME_LIMIT_BREAK_ITEM_5,装備限界突破石【援護】,,,
+107,TXT_STONE_NAME_LIMIT_BREAK_UNIT_DESC,限界突破5未満のユニットの限界突破経験値を1UPさせる,0,0,0
+108,TXT_STONE_NAME_LIMIT_BREAK_ITEM_1_DESC,★5以下の物理装備の限界突破経験値を1UPさせる,0,0,0
+109,TXT_STONE_NAME_LIMIT_BREAK_ITEM_2_DESC,★5以下の魔法装備の限界突破経験値を1UPさせる,0,0,0
+110,TXT_STONE_NAME_LIMIT_BREAK_ITEM_3_DESC,★5以下の防御装備の限界突破経験値を1UPさせる,0,0,0
+111,TXT_STONE_NAME_LIMIT_BREAK_ITEM_4_DESC,★5以下の回復装備の限界突破経験値を1UPさせる,0,0,0
+112,TXT_STONE_NAME_LIMIT_BREAK_ITEM_5_DESC,★5以下の援護装備の限界突破経験値を1UPさせる,0,0,0
+113,TXT_STONE_NAME_LIMIT_BREAK_ITEM_6,★6装備限界突破石【物理攻撃】,,,
+114,TXT_STONE_NAME_LIMIT_BREAK_ITEM_7,★6装備限界突破石【魔法攻撃】,,,
+115,TXT_STONE_NAME_LIMIT_BREAK_ITEM_8,★6装備限界突破石【防御】,,,
+116,TXT_STONE_NAME_LIMIT_BREAK_ITEM_9,★6装備限界突破石【回復】,,,
+117,TXT_STONE_NAME_LIMIT_BREAK_ITEM_10,★6装備限界突破石【援護】,,,
+118,TXT_STONE_NAME_LIMIT_BREAK_ITEM_6_DESC,★6物理装備の限界突破経験値を1UPさせる,,,
+119,TXT_STONE_NAME_LIMIT_BREAK_ITEM_7_DESC,★6魔法装備の限界突破経験値を1UPさせる,,,
+120,TXT_STONE_NAME_LIMIT_BREAK_ITEM_8_DESC,★6防御装備の限界突破経験値を1UPさせる,,,
+121,TXT_STONE_NAME_LIMIT_BREAK_ITEM_9_DESC,★6回復装備の限界突破経験値を1UPさせる,,,
+122,TXT_STONE_NAME_LIMIT_BREAK_ITEM_10_DESC,★6援護装備の限界突破経験値を1UPさせる,,,
+150,TXT_SUMMON_TITLE_40086,コラボチケットユニット召喚,,,
+151,TXT_SUMMON_TITLE_40087,コラボチケット装備召喚,,,
+152,TXT_SUMMON_TITLE_40085,復刻コラボユニット確定召喚,,,
+153,TXT_SUMMON_TITLE_40088,チケット召喚,,,
+154,TXT_SUMMON_TITLE_40090,コラボチケットユニット召喚,,,
+155,TXT_SUMMON_TITLE_40091,コラボチケット装備召喚,,,
+156,TXT_SUMMON_TITLE_40089,復刻コラボユニット確定召喚,,,
+157,TXT_SUMMON_TITLE_40092,コラボチケットユニット召喚,,,
+158,TXT_SUMMON_TITLE_40093,コラボチケット装備召喚,,,
+159,TXT_SUMMON_TITLE_40094,コラボチケットユニット召喚,,,
+160,TXT_SUMMON_TITLE_40095,コラボチケット装備召喚,,,
+161,TXT_SUMMON_TITLE_40096,コラボチケットユニット召喚,,,
+162,TXT_SUMMON_TITLE_40097,コラボチケット装備召喚,,,
+163,TXT_SUMMON_TITLE_40098,コラボチケットユニット召喚,,,
+164,TXT_SUMMON_TITLE_40099,コラボチケット装備召喚,,,
+165,TXT_SUMMON_TITLE_40103,コラボチケットユニット召喚,,,
+166,TXT_SUMMON_TITLE_40104,コラボチケット装備召喚,,,
+167,TXT_SUMMON_TITLE_40105,コラボチケットユニット召喚,,,
+168,TXT_SUMMON_TITLE_40106,コラボチケット装備召喚,,,
+169,TXT_SUMMON_TITLE_40107,★4以上確定宝具召喚,,,
+170,TXT_SUMMON_TITLE_40108,コラボチケットユニット召喚,,,
+171,TXT_SUMMON_TITLE_40109,コラボチケット装備召喚,,,
+172,TXT_SUMMON_TITLE_40110,★4以上確定宝具召喚,,,
+173,TXT_SUMMON_TITLE_40111,エブリデイ装備召喚D,,,
+174,TXT_SUMMON_TITLE_40112,エブリデイ装備召喚E,,,
+175,TXT_SUMMON_TITLE_40113,★4以上確定宝具召喚,,,
+176,TXT_SUMMON_TITLE_40114,チケットユニット召喚 ,,,
+177,TXT_SUMMON_TITLE_40115,チケット装備召喚,,,
+178,TXT_SUMMON_TITLE_40116,チケットユニット召喚 ,,,
+179,TXT_SUMMON_TITLE_40117,チケット装備召喚,,,
+180,TXT_SUMMON_TITLE_40118,チケットユニット召喚 ,,,
+181,TXT_SUMMON_TITLE_40119,チケット装備召喚,,,
+182,TXT_SUMMON_TITLE_40120,★4以上確定宝具召喚,,,
+183,TXT_SUMMON_TITLE_90007,人族の遺跡BOX装備召喚,,,
+184,TXT_SUMMON_TITLE_40122,★4以上確定宝具召喚,,,
+185,TXT_SUMMON_TITLE_90008,神族の遺跡BOX装備召喚,,,
+186,TXT_SUMMON_TITLE_40123,チケットユニット召喚 ,,,
+187,TXT_SUMMON_TITLE_40124,チケット装備召喚,,,
+188,TXT_SUMMON_TITLE_40125,★4以上確定宝具召喚,,,
+189,TXT_SUMMON_TITLE_90009,魔族の遺跡BOX装備召喚,,,
+190,TXT_SUMMON_TITLE_40126,チケットユニット召喚 ,,,
+191,TXT_SUMMON_TITLE_40127,チケット装備召喚,,,
+192,TXT_SUMMON_TITLE_40129,★4以上確定宝具召喚,,,
+193,TXT_SUMMON_TITLE_40130,コラボチケット装備召喚,,,
+194,TXT_SUMMON_TITLE_40132,復刻コラボユニット確定召喚,,,
+195,TXT_SUMMON_TITLE_40133,コラボチケットユニット召喚,,,
+196,TXT_SUMMON_TITLE_40134,コラボチケット装備召喚,,,
+197,TXT_SUMMON_TITLE_40131,コラボチケットユニット召喚,,,
+198,TXT_SUMMON_TITLE_40135,★4以上確定宝具召喚,,,
+199,TXT_SUMMON_TITLE_40136,コラボチケットユニット召喚,,,
+200,TXT_SUMMON_TITLE_40137,コラボチケット装備召喚,,,
+201,TXT_SUMMON_TITLE_40138,コラボチケットユニット召喚,,,
+202,TXT_SUMMON_TITLE_40139,コラボチケット装備召喚,,,
+203,TXT_SUMMON_TITLE_40140,★4以上確定宝具召喚,,,
+204,TXT_SUMMON_TITLE_40142,コラボチケット装備召喚,,,
+205,TXT_SUMMON_TITLE_40141,コラボチケットユニット召喚,,,
+206,TXT_SUMMON_TITLE_40143,コラボチケットユニット召喚,,,
+207,TXT_SUMMON_TITLE_40144,コラボチケット装備召喚,,,
+208,TXT_SUMMON_TITLE_40145,★4以上確定宝具召喚,,,
+209,TXT_SUMMON_TITLE_40147,コラボチケット装備召喚,,,
+210,TXT_SUMMON_TITLE_40146,コラボチケットユニット召喚,,,
+211,TXT_SUMMON_TITLE_40148,★4以上確定宝具召喚,,,
+212,TXT_SUMMON_TITLE_40149,コラボユニットチケット召喚,,,
+213,TXT_SUMMON_TITLE_40150,コラボ宝具チケット召喚,,,
+214,TXT_SUMMON_TITLE_40153,★4以上確定宝具召喚,,,
+215,TXT_SUMMON_TITLE_40151,コラボユニットチケット召喚,,,
+216,TXT_SUMMON_TITLE_40152,コラボ宝具チケット召喚,,,
+217,TXT_SUMMON_TITLE_40155,★4以上確定宝具召喚,,,
+218,TXT_SUMMON_TITLE_40157,コラボユニットチケット召喚,,,
+219,TXT_SUMMON_TITLE_40158,コラボ宝具チケット召喚,,,
+220,TXT_SUMMON_TITLE_40159,コラボユニットチケット召喚,,,
+221,TXT_SUMMON_TITLE_40160,コラボ宝具チケット召喚,,,
+222,TXT_SUMMON_TITLE_40156,★4以上確定宝具召喚,,,
+223,TXT_SUMMON_TITLE_40161,★4以上確定宝具召喚,,,
+224,TXT_SUMMON_TITLE_40162,エブリデイ装備召喚A,,,
+225,TXT_SUMMON_TITLE_40163,エブリデイ装備召喚B,,,
+226,TXT_SUMMON_TITLE_40164,エブリデイ装備召喚C,,,
+227,TXT_SUMMON_TITLE_40167,★4以上確定宝具召喚,,,
+228,TXT_SUMMON_TITLE_40165,エブリデイ装備召喚D,,,
+229,TXT_SUMMON_TITLE_40166,エブリデイ装備召喚E,,,
+230,TXT_SUMMON_TITLE_30254,装備錬金召喚,,,
+231,TXT_SUMMON_TITLE_40168,★4以上確定宝具召喚,,,
+232,TXT_SUMMON_TITLE_40169,東方LostWordチケット英雄召喚,,,
+233,TXT_SUMMON_TITLE_40171,東方LostWordチケット英雄召喚,,,
+234,TXT_SUMMON_TITLE_40172,東方LostWordチケット宝具召喚,,,
+235,TXT_SUMMON_TITLE_40170,東方LostWordチケット宝具召喚,,,
+236,TXT_SUMMON_TITLE_40173,コラボチケット英雄召喚,,,
+237,TXT_SUMMON_TITLE_40174,コラボチケット宝具召喚,,,
+238,TXT_SUMMON_TITLE_40177,★4以上確定宝具召喚,,,
+239,TXT_SUMMON_TITLE_40175,コラボチケット英雄召喚,,,
+240,TXT_SUMMON_TITLE_40176,コラボチケット宝具召喚,,,
+241,TXT_SUMMON_TITLE_40178,コラボチケット英雄召喚,,,
+242,TXT_SUMMON_TITLE_40179,コラボチケット宝具召喚,,,
+243,TXT_SUMMON_TITLE_40180,コラボチケット英雄召喚,,,
+244,TXT_SUMMON_TITLE_40181,コラボチケット宝具召喚,,,
+245,TXT_SUMMON_TITLE_10647,GWチケット英雄召喚,,,
+246,TXT_SUMMON_TITLE_40182,★4以上確定宝具召喚,,,
+247,TXT_SUMMON_TITLE_40183,★4以上確定宝具召喚,,,
+248,TXT_SUMMON_TITLE_40184,コラボチケットユニット召喚,,,
+249,TXT_SUMMON_TITLE_40185,コラボチケットユニット召喚,,,
+250,TXT_SUMMON_TITLE_40186,コラボチケット装備召喚,,,
+251,TXT_SUMMON_TITLE_40187,コラボチケット装備召喚,,,
+252,TXT_SUMMON_TITLE_40188,コラボチケットユニット召喚,,,
+253,TXT_SUMMON_TITLE_40189,コラボチケット宝具召喚,,,
+254,TXT_SUMMON_TITLE_40193,超覚醒1体確定10連召喚,,,
+255,TXT_SUMMON_TITLE_40190,★4以上確定宝具召喚,,,
+256,TXT_SUMMON_TITLE_40195,復刻コラボチケットユニット召喚,,,
+257,TXT_SUMMON_TITLE_40196,コラボチケットユニット召喚,,,
+258,TXT_SUMMON_TITLE_40197,復刻コラボチケット装備召喚,,,
+259,TXT_SUMMON_TITLE_40198,コラボチケット装備召喚,,,
+260,TXT_SUMMON_TITLE_40199,コラボチケットユニット召喚,,,
+261,TXT_SUMMON_TITLE_40200,コラボチケット装備召喚,,,
+262,TXT_SUMMON_TITLE_40194,★4以上確定宝具召喚,,,
+263,TXT_CELESTA_MENU_TURBO_SMASH_COUNT,オーバードライブ中に衝突した回数,,,
+264,TXT_SUMMON_TITLE_40201,★4以上確定宝具召喚,,,
+265,TXT_SUMMON_TITLE_40202,コラボチケットユニット召喚,,,
+266,TXT_SUMMON_TITLE_40203,コラボチケット装備召喚,,,
+267,TXT_SUMMON_TITLE_40204,コラボチケットユニット召喚,,,
+268,TXT_SUMMON_TITLE_40205,コラボチケット装備召喚,,,
+269,TXT_SUMMON_TITLE_40206,エブリデイ装備召喚,,,
+270,TXT_SUMMON_TITLE_40207,エブリデイ装備召喚,,,
+271,TXT_SUMMON_TITLE_40208,エブリデイ装備召喚,,,
+1002,TXT_SHOP_NOW_CURRENT_ITEM_VALUE,所持数 : {0},0,0,0
+1003,TXT_SHOP_NOW_CURRENT_LIMITBREAK_VALUE,所持数 : {0},0,0,0
+1101,TXT_TITLE_MESSAGE,Touch Screen,Touch Screen,0,0
+1102,TXT_TITLE_MIGRATION,0,0,0,0
+1103,TXT_TITLE_MIGRATION_SUCCESS,引き継ぎ完了,Transfer Complete,0,0
+1104,TXT_TITLE_MIGRATION_SUCCESS_DESCRIPTION,"ゲームデータの引き継ぎが完了しました。
+OKボタンをタップしてゲームを再開してください。","Transfer of game data has been completed. 
+Tap OK to begin the game.",0,0
+1105,TXT_INPUT_NAME_ERROR_ILLEGAL,※使用できない文字が含まれています。,*Contains forbidden characters.,0,0
+1106,TXT_INPUT_NAME_ERROR_NGWORD,※NGワードが含まれています。,*Contains a banned word.,0,0
+1107,TXT_INPUT_NAME_ERROR_EMPTY,プレイヤー名は最低1文字以上は入力してください。,Please enter a name of at least 1 character.,0,0
+1108,TXT_INPUT_NAME_TITLE,プレイヤー名を入力してください。,Enter Player Name,0,0
+1109,TXT_INPUT_NAME_CAUTION,"※10文字以内で入力して下さい。
+※プレイヤー名はあとから変更できます。","*Must be 10 characters or fewer. 
+ Player names can be changed later.",0,0
+1110,TXT_INPUT_NAME_ERROR_OVER,※10文字以内で入力して下さい。,*Must be 10 characters or fewer.,0,0
+1111,TXT_INPUT_TEXT_ERROR_OVER,{0}文字以内で入力して下さい。,Please stay within {0} characters.,0,0
+1112,TXT_INPUT_TEXT_CAUTION,絵文字や一部の機種依存文字には表示できないものがあります。,Some emoji or platform dependent characters may not be displayed.,0,0
+1201,TXT_UPDATE_MESSAGE_01,{0}個の更新,Updating {0} files.,0,0
+1202,TXT_UPDATE_MESSAGE_02,ダウンロードを開始します,Begin download.,0,0
+1203,TXT_UPDATE_DOWNLOAD_01,{0}個のデータをダウンロード中,Downloading {0} new files.,0,0
+1204,TXT_UPDATE_DOWNLOAD_02,{0}／{1},{0}／{1},0,0
+1301,TXT_LOADING_NOWLOADING_01,Now Loading・,Now Loading・,0,0
+1302,TXT_LOADING_NOWLOADING_02,Now Loading・・,Now Loading・・,0,0
+1303,TXT_LOADING_NOWLOADING_03,Now Loading・・・,Now Loading・・・,0,0
+1304,TXT_LOADING_TIPS_01,Tips1,Tips1,0,0
+1305,TXT_LOADING_TIPS_02,Tips2,Tips2,0,0
+1306,TXT_LOADING_TIPS_03,Tips3,Tips3,0,0
+1307,TXT_LOADING_TIPS_04,Tips4,Tips4,0,0
+1308,TXT_LOADING_TIPS_05,Tips5,Tips5,0,0
+1401,TXT_MAINTENANCE_MESSAGE_01,メンテナンス中,Under maintenance.,0,0
+1402,TXT_MAINTENANCE_MESSAGE_02,{0}～%2sまで,Until {0}～%2s,0,0
+1501,TXT_player_ID,ID,ID,0,0
+1502,TXT_PLAYER_NAME,プレイヤー名,Player Name,0,0
+1503,TXT_PLAYER_RANK,RANK,Rank,0,0
+1504,TXT_PLAYER_EXP,EXP,EXP,0,0
+1505,TXT_PLAYER_RANK_NEXT,あと{0},{0} left,0,0
+1506,TXT_PLAYER_ENERGY,体力,Energy,0,0
+1507,TXT_PLAYER_COIN,グラン,Gren,0,0
+1508,TXT_PLAYER_ARENACLASS,アリーナクラス,Arena Class,0,0
+1509,TXT_PLAYER_ORB,アリーナオーブ,Arena Orb,0,0
+1510,TXT_PLAYER_DIAMOND,クリスタル,Crystals,0,0
+1511,TXT_PLAYER_COMMENT,コメント,Comment,0,0
+1512,TXT_PLAYER_ALCHEMY_ORB,錬金石,Alchemy Stones,0,0
+1601,TXT_UNIT_PARTY,パーティ編成,Manage Party,0,0
+1602,TXT_UNIT_SALE,ユニット売却,Sell Unit,0,0
+1603,TXT_UNIT_STRENGTHENING,ユニット強化,Enhance Unit,0,0
+1604,TXT_UNIT_EVOLUTION,ユニット進化,Evolve Unit,0,0
+1605,TXT_UNIT_TEMPLE,ユニット図鑑,Units,0,0
+1606,TXT_UNIT_LIST,ユニット一覧,Unit List,0,0
+1607,TXT_UNIT_LIMIT,ユニット枠,Unit Limit,0,0
+1608,TXT_UNIT_POSSESSION,所持数：%lld体,Held: %lld,0,0
+1609,TXT_UNIT_SELECT,ユニット選択,Select Unit,0,0
+1610,TXT_UNIT_STRENGTHENING_EXP,強化後の経験値,EXP after Enhancement,0,0
+1611,TXT_UNIT_STRENGTHENING_LEVEL,強化後のレベル,Level after Enhancement,0,0
+1612,TXT_UNIT_STRENGTHENING_MATERIAL,素材選択,Select Materials,0,0
+1613,TXT_UNIT_STRENGTHENING_GO,強化する,Enhance,0,0
+1614,TXT_UNIT_EVOLUTION_MATERIAL,進化素材,Evo Materials,0,0
+1615,TXT_UNIT_EVOLUTION_MESSAGE,進化をするとLVが1に戻ります,Returns to LV 1 after evolution.,0,0
+1616,TXT_UNIT_EVOLUTION_MATERIAL_NUM,所持数 {0},Held: {0},0,0
+1617,TXT_UNIT_EVOLUTION_GO,進化する,Evolve,0,0
+1618,TXT_UNIT_MIX_COIN,必要グラン,Gren Needed,0,0
+1619,TXT_UNIT_MIX_MATERIAL_ERROR,素材不足,Insufficient,0,0
+1620,TXT_UNIT_MIX_COIN_ERROR,グラン不足,Not Enough Gren,0,0
+1621,TXT_UNIT_MIX_MATERIAL_COIN_ERROR,素材とグラン不足,Not enough green and materials.,0,0
+1622,TXT_UNIT_MIX_LEVEL_ERROR,Lv不足,Level too low,0,0
+1623,TXT_UNIT_MIX_UPPERLIMIT_ERROR,MAX限界突破済,Already at MAX Limit Break,0,0
+1624,TXT_UNIT_EQUIP_SELECT,装備選択,Select Equipment,0,0
+1625,TXT_UNIT_PARTY_SORT_BEGIN,パーティ位置入れ替え,Change Party Order,0,0
+1626,TXT_UNIT_PARTY_SORT_FINISH,入れ替え完了,Change completed.,0,0
+1627,TXT_UNIT_PARTY_SORT_BACK,変更内容を破棄して前の画面に戻りますか？,Discard changes?,0,0
+1628,TXT_UNIT_SALE_CHECK,本当に売却しますか？,Are you sure?,0,0
+1629,TXT_UNIT_SALE_MESSAGE,貴重なユニットが{0}体含まれています,Includes {0} ★3 or greater or Plus unit(s).,0,0
+1630,TXT_UNIT_SALE_GO,売却する,Sell,0,0
+1631,TXT_UNIT_SALE_RESET,リセット,Reset,0,0
+1632,TXT_UNIT_SALE_OMISSION_MESSAGE,%lu体のユニットが省略されています,%lu units have been left out.,0,0
+1633,TXT_UNIT_RACE_01,人族,Humans,0,0
+1634,TXT_UNIT_RACE_02,獣族,Beasts,0,0
+1635,TXT_UNIT_RACE_03,精霊族,Spirits,0,0
+1636,TXT_UNIT_RACE_04,巨人族,Giants,0,0
+1637,TXT_UNIT_RACE_05,機族,Machines,0,0
+1638,TXT_UNIT_RACE_06,竜族,Dragons ,0,0
+1639,TXT_UNIT_RACE_07,神族,Gods,0,0
+1640,TXT_UNIT_RACE_08,魔族,Demons,0,0
+1641,TXT_UNIT,ユニット,Units,0,0
+1642,TXT_UNIT_LIMTBREAK,ユニット限界突破,Limit Break,0,0
+1643,TXT_UNIT_LIMTBREAK_LUCK,プラス値,Plus Value,0,0
+1644,TXT_UNIT_LIMTBREAK_PT,獲得pt,Pts. Received,0,0
+1645,TXT_UNIT_LIMTBREAK_MATERIAL,素材ユニット・限界突破石,Material Unit/Limit Break Stone,0,0
+1646,TXT_UNIT_LIMITBREAK_NEXTLEVEL,限界突破まで,to Limit Break,0,0
+1647,TXT_PAGE_TITLE_UNIT_REINFORCE,ユニット強化,Enhance,0,0
+1648,TXT_PAGE_TITLE_UNIT_REINFORCE_BASE_LIST,ユニット強化,Enhance,0,0
+1649,TXT_PAGE_TITLE_UNIT_REINFORCE_MATERIAL_LIST,素材選択,Select Materials,0,0
+1650,TXT_PAGE_TITLE_BATTLE_RESULT,リザルト,Result,0,0
+1651,TXT_PAGE_TITLE_UNIT_EVOLUTION,進化・覚醒・超覚醒,Evolve,0,0
+1652,TXT_UNIT_EVOLUTION_COST,費用 {0},Cost {0},0,0
+1653,TXT_UNIT_EVOLUTION_ERROR_COIN_LACK,グランが足りません！,Not Enough Gren!,0,0
+1654,TXT_PAGE_TITLE_UNIT_EVOLUTION_BASE_LIST,進化・覚醒,Evolve,0,0
+1655,TXT_UNIT_EVOLUTION_EXECUTION,進化する,Evolved,0,0
+1656,TXT_REINFORCE_CLEAR,クリア,Clear,0,0
+1657,TXT_REINFORCE_OK,強化する,Enhance,0,0
+1658,TXT_MATERIAL_SORT,ソート/フィルタ,Sort/Filter,0,0
+1659,TXT_UNIT_EQUIPCHANGE_MESSAGE,他のユニットが装備しています。入れ替えますか？,Another unit has this equipped. Change?,0,0
+1660,TXT_DIALOG_PARTY_IS_NOT_ENOUGH,マルチパーティは必ず２体で組まなければいけません。,A multiplayer party must have at least two members.,0,0
+1661,TXT_POPUP_QUEST_GO,この変更で出撃します。よろしいですか？,Deploy with these changes? Is that OK?,0,0
+1662,TXT_UNIT_ITEM_SLOT,までの装備枠,To Equip Limit,0,0
+1663,TXT_UNIT_ITEM_SLOT_NONE,装備枠なし,No Equipment Limit,0,0
+1664,TXT_UNIT_LIMTBREAK_GO,限界突破する,Break limit.,0,0
+1665,TXT_UNIT_AUTO_EQUIPMENT_SELECT,"おすすめ自動装備を実行します。
+よろしいですか？",Will perform recommended autoequip. Is that OK?,0,0
+1666,TXT_UNIT_EDIT_EQUIPMENT_EMPTY,未装備,Not Equipped.,0,0
+1667,TXT_UNIT_DETAIL_ABILITY_EMPTY,無し,Empty,0,0
+1668,TXT_UNIT_EDIT_EQUIPMENT_POSSIBLE,装備可能,Equippable,0,0
+1669,TXT_UNIT_AUTO_EQUIPMENT_SELECT_BUTTON,おすすめ自動装備,Recommended Autoequip.,0,0
+1670,TXT_UNIT_EQUIPMENT_SELECT_OK_BUTTON,装備する,Equipment,0,0
+1671,TXT_UNIT_MULTI_SELECT_MATERIAL_BUTTON,決定,Set,0,0
+1672,TXT_UNIT_MULTI_EDIT_FORMATION_BUTTON,決定,Set,0,0
+1673,TXT_UNIT_MULTI_WAITING_READY_BUTTON,準備完了,Equip Complete,0,0
+1674,TXT_MATERIAL_UNIT_1,攻撃アップ用ユニット,ATK Unit,0,0
+1675,TXT_MATERIAL_UNIT_2,防御アップ用ユニット,DEF Unit,0,0
+1676,TXT_MATERIAL_UNIT_3,HPアップ用ユニット,Max HP Unit,0,0
+1677,TXT_MATERIAL_UNIT_4,進化用ユニット,Evolution Unit,0,0
+1678,TXT_MATERIAL_UNIT_5,強化用ユニット,Enhancement Unit,0,0
+1679,TXT_MATERIAL_UNIT_6,売却用ユニット,Gren Unit,0,0
+1680,TXT_UNIT_SELECT_MATERIAL,素材を選択してください,Select Materials,0,0
+1681,TXT_UNIT_STRENGTHENING_WARNING_MATERIAL,このユニットは強化することができません。,This unit can not be enhanced.,0,0
+1682,TXT_UNIT_ALL_EQUIPED_REMOVE,"全ユニットの装備を外します。
+よろしいですか？","Remove all units' equipment. 
+Is that OK?",0,0
+1683,TXT_UNIT_ALL_EQUPED_REMOVE_BUTTON,装備全解除,Unequip All,0,0
+1684,TXT_SIMPLE_DETAIL_EQUIPMENT_EMPTY,装備未設定,No Equipment Set,0,0
+1685,TXT_UTILITIES_ABILITY_NOT_OPEN_NAME,未解放,Unavailable,0,0
+1686,TXT_UTILITIES_ABILITY_NOT_OPEN_DESCRIPTION,Lv{0}で解放,Available at Lv {0},0,0
+1688,TXT_UNIT_LIMITBREAK_WARNING_TEXT,"現在超覚醒していないため、
+限界突破値と超限界突破値の合算値に関わらず限界突破レベルは5までとなります。
+※仮に合算値が6の場合、超覚醒後に
+自動的に限界突破レベルは6となります。",,,
+1701,TXT_ITEM_SALE_MESSAGE,"★3以上の装備が
+{0}個含まれています。","
+{0} pcs of ★3 or greater equipment included.",0,0
+1702,TXT_ITEM_TYPE_01,物理攻撃,Physical,0,0
+1703,TXT_ITEM_TYPE_02,魔法攻撃,Magic,0,0
+1704,TXT_ITEM_TYPE_03,防御,DEF,0,0
+1705,TXT_ITEM_TYPE_04,回復,Healing,0,0
+1706,TXT_ITEM_TYPE_05,援護,Support,0,0
+1901,TXT_WORLD_NEW,NEW,NEW,0,0
+1902,TXT_WORLD_CLEAR,CLEAR,CLEAR,0,0
+1903,TXT_WORLD_MAP,マップ,MAP,0,0
+1904,TXT_WORLD_ANOTHER,異界,Exploring,0,0
+1905,TXT_WORLD_DROPINFO,ドロップ情報,Drop Info,0,0
+1906,TXT_WORLD_SWITCH_DROPINFO,ドロップ情報,Drop Info,0,0
+1907,TXT_WORLD_BATTLE_COUNT,バトル数{0},Battle {0},0,0
+1908,TXT_WORLD_ENERGY,消費体力{0},Energy Cost {0},0,0
+1909,TXT_WORLD_QUEST_SELECT,クエスト選択,Select Quest,0,0
+1910,TXT_WORLD_QUEST_HELPER_SELECT,助っ人選択,Select Support,0,0
+1911,TXT_WORLD_QUEST_PARTY,パーティ編成,Manage Party,0,0
+1912,TXT_WORLD_QUEST_BOOST,発動パーティブースト,Activate Party Boost,0,0
+1913,TXT_WORLD_QUEST_GO,出撃,Deploy,0,0
+1914,TXT_WORLD_QUEST_CHECK,クエスト確認,Confirm Quest,0,0
+1915,TXT_WORLD_QUEST_DECISION,決定,Set,0,0
+1916,TXT_WORLD_LIMITDUNGEON_INFO,限定ダンジョン情報,Limited Dungeon Info,0,0
+1917,TXT_WORLD_LIMITDUNGEON_LIST,限定ダンジョン一覧,Limited Dungeon List,0,0
+1918,TXT_WORLD_QUEST_EVENT_DAY,あと{0}日,{0} days left,0,0
+1919,TXT_WORLD_QUEST_EVENT_TIME,あと{0}時間,{0}h left,0,0
+1920,TXT_WORLD_SOLO,ソロ,Solo,0,0
+1921,TXT_WORLD_SOLO_ALONE,ひとりで,On your own,0,0
+1922,TXT_WORLD_MULTI,マルチ,Multiplayer,0,0
+1923,TXT_WORLD_MULTI_RECRUIT,募集,Players Wanted,0,0
+1924,TXT_WORLD_MULTI_JOIN,参加,Join,0,0
+1925,TXT_WORLD_MULTI_ROOM,クエストルーム,Quest Room,0,0
+1926,TXT_WORLD_MULTI_CHECK,パーティ確認,Confirm Party,0,0
+1927,TXT_WORLD_MULTI_RECRUITLIST,募集リスト,Recruiting List,0,0
+1928,TXT_WORLD_MULTI_QUIT,退席する,Leave,0,0
+1929,TXT_WORLD_RESULT,RESULT,Results,0,0
+1930,TXT_WORLD_RESULT_COIN,獲得グラン,Gren Gained,0,0
+1931,TXT_WORLD_RESULT_EXP,獲得EXP,EXP Gained,0,0
+1932,TXT_WORLD_RESULT_LUCKBONUS,運ボーナス報酬,Luck Reward,0,0
+1933,TXT_WORLD_RESULT_DROP,DROP情報,Drop Info,0,0
+1934,TXT_WORLD_RESULT_HELPER_LIST,助っ人情報,Guest Info,0,0
+1935,TXT_WORLD_CAMPAIGN_01,キャンペーン内容1（体力1/2等）,"Campaign 1 (1/2 Cost, etc.)",0,0
+1936,TXT_WORLD_CAMPAIGN_02,キャンペーン内容2（体力1/2等）,"Campaign 2 (1/2 Cost, etc.)",0,0
+1937,TXT_WORLD_CAMPAIGN_03,キャンペーン内容3（体力1/2等）,"Campaign 3 (1/2 Cost, etc.)",0,0
+1938,TXT_WORLD_CAMPAIGN_04,キャンペーン内容4（体力1/2等）,"Campaign 4 (1/2 Cost, etc.)",0,0
+1939,TXT_WORLD_USEKEY_VALUE,×{0},×{0},0,0
+1940,TXT_WORLD_USEKEY_CONFIRM,このダンジョンは鍵を消費します。,This Dungeon consumes keys.,0,0
+1941,TXT_WORLD_USEKEY_SHORTAGE,鍵が不足しています。,You don't have enough keys.,0,0
+1942,TXT_PAGE_TITLE_AREA_SELECTION,エリア選択,Select Area,0,0
+1943,TXT_PAGE_TITLE_OUTSIDER_SELECTION,助っ人選択,Select Support,0,0
+1944,TXT_PAGE_TITLE_BEFORE_BATTLE,出撃確認,Deploy?,0,0
+1945,TXT_PAGE_TITLE_UNITLIST,ユニット一覧,Unit List,0,0
+1946,TXT_PAGE_TITLE_UNITDECKEDIT,パーティ編成,Manage Party,0,0
+1947,TXT_PAGE_TITLE_DUNGEON_SELECTION,ダンジョン選択,Select Dungeon,0,0
+1948,TXT_PAGE_INFORMATION_QUEST_SELECTION,冒険するクエストを選んでください。,Choose the quest you'd like to take.,0,0
+1949,TXT_PAGE_TITLE_SPECIAL_QUEST_SELECTION,クエスト選択,Select Quest,0,0
+1950,TXT_WORLD_KEYDUNGEON,異界の稀少種,Rare Seed of the Exploring,0,0
+1951,TXT_WORLD_FRIEND_REQUEST,"フレンド
+申請する","Friend
+Request",0,0
+1953,TXT_WORLD_ROOM_CLOSE,"フレンド
+開放","Open to
+Friends",0,0
+1954,TXT_WORLD_ROOM_FRIEND_OPEN,"全国
+開放","Make
+Public",0,0
+1955,TXT_WORLD_ROOM_PUBLIC_OPEN,"全国
+開放中","Public 
+",0,0
+1956,TXT_WORLD_DIALOG_ERROR,ルームから切断されました,Disconnected from Room,0,0
+1957,TXT_WORLD_GPS_ERROR,位置情報を利用できないため、距離が遠い人とマッチングする可能性があります。,"With location data disabled, you may be connected to someone very far away.",0,0
+1958,TXT_WORLD_GPS_ACQUISITION_ERROR,位置情報の取得中にエラーが発生したため、距離が遠い人とマッチングする可能性があります。,"Due to an error in collecting location data, you may be connected to someone very far away.",0,0
+1999,TXT_WORLD_DIFFICULTY,難易度{0},Difficulty {0},0,0
+2001,TXT_TIME_HOUR,{0}時間,{0}h,0,0
+2002,TXT_TIME_MINUTE,{0}分,{0}m,0,0
+2003,TXT_TIME_LESS_THAN_1_MINUTE,1分未満,Less than 1min.,0,0
+2004,TXT_TIME_DAY,{0}日,{0}d,0,0
+2005,TXT_TIME_REMAINING,あと{0},{0} left,0,0
+2006,TXT_TIME_BEFORE,前, Previous,0,0
+2301,TXT_SHOP,ショップ,Shop,0,0
+2302,TXT_SHOP_BUY_DIAMOND,クリスタル購入,Buy Crystals,0,0
+2303,TXT_SHOP_BUY_ENERGY,体力回復,Restore Energy,0,0
+2304,TXT_SHOP_BUY_UNIT,ユニット枠拡張,Increase Unit Limit,0,0
+2305,TXT_SHOP_BUY_ITEM,装備枠拡張,Increase Equip Limit,0,0
+2306,TXT_SHOP_BUY_FRIEND,フレンド枠拡張,Increase Friend Limit,0,0
+2307,TXT_SHOP_DIAMOND,クリスタル,Crystal,0,0
+2308,TXT_SHOP_DIAMOND_LIST,所持クリスタル内訳,Crystal Inventory,0,0
+2309,TXT_SHOP_BUY_DIAMOND_AGE_CHECK_01,年齢を選択して下さい,Select your age:,0,0
+2310,TXT_SHOP_BUY_DIAMOND_AGE_CHECK_02,あなたの年齢によってクリスタルを買える金額が決まっています。必ず正しい年齢を選んで下さい。,The amount you can spend on crystals is limited by your age. Please enter the correct age.,0,0
+2311,TXT_SHOP_BUY_DIAMOND_AGE16,16歳未満,U-16,0,0
+2312,TXT_SHOP_BUY_DIAMOND_AGE19,16歳～19歳,16-19,0,0
+2313,TXT_SHOP_BUY_DIAMOND_AGE20,20歳以上,20 over,0,0
+2314,TXT_SHOP_BUY_DIAMOND_AGE16_MESSAGE,"1ヵ月5,000円まで",Up to ＄50/month,0,0
+2315,TXT_SHOP_BUY_DIAMOND_AGE19_MESSAGE,"1ヵ月20,000円まで",Up to ＄200/month,0,0
+2316,TXT_SHOP_BUY_DIAMOND_AGE20_MESSAGE,制限なし,No Limit,0,0
+2317,TXT_SHOP_BUY_DIAMOND_NUMBER_01,1個,1,0,0
+2318,TXT_SHOP_BUY_DIAMOND_NUMBER_02,5個,5,0,0
+2319,TXT_SHOP_BUY_DIAMOND_NUMBER_03,12個,12,0,0
+2320,TXT_SHOP_BUY_DIAMOND_NUMBER_04,24個,24,0,0
+2321,TXT_SHOP_BUY_DIAMOND_NUMBER_05,50個,50,0,0
+2323,TXT_SHOP_SUCCESS_PURCHASE_DIAMOND,クリスタルを{0}個購入しました。,Purchased {0} crystals.,0,0
+2324,TXT_SHOP_CANCEL_PURCHASE_DIAMOND,クリスタルの購入がキャンセルされました。,The crystal purchase has been cancelled.,0,0
+2325,TXT_SHOP_BUY_DIAMOND_QUIT,閉じる,Close,0,0
+2326,TXT_SHOP_BUY_DIAMOND_AGE_LIMIT,今月の購入上限額を超えています,This exceeds your monthly purchasing limit.,0,0
+2327,TXT_SHOP_ENERGY_MESSAGE_01,クリスタルを1個消費して体力を回復します。,Use 1 crystal to restore energy.,0,0
+2328,TXT_SHOP_ENERGY_MESSAGE_02,所持クリスタル　{0}個,Crystals Held: {0},0,0
+2329,TXT_SHOP_ENERGY_MESSAGE_03,体力,Energy,0,0
+2330,TXT_SHOP_ENERGY_MESSAGE_04,クリスタルを消費して体力を回復しました。,Used crystals to restore your energy.,0,0
+2331,TXT_SHOP_ENERGY_MESSAGE_05,体力　{0}/{1},Energy {0}/{1},0,0
+2332,TXT_SHOP_ENERGY_MESSAGE_ERROR,既に体力はMAXです,Your energy is already full.,0,0
+2333,TXT_SHOP_DIAMOND_SHORTAGE,クリスタルが足りません,Not enough crystals.,0,0
+2334,TXT_SHOP_UNIT_LIMIT_MESSAGE_01,クリスタルを{0}個消費してユニット枠を{1}枠拡張します,Use {0} crystals to increase Unit Limit by {1}.,0,0
+2335,TXT_SHOP_UNIT_LIMIT_MESSAGE_02,所持クリスタル　{0}個,Crystals Held: {0},0,0
+2336,TXT_SHOP_UNIT_LIMIT_MESSAGE_03,ユニット枠,Unit Limit,0,0
+2337,TXT_SHOP_UNIT_LIMIT_MESSAGE_04,クリスタルを消費してユニット枠を拡張しました。,Used crystals to increase your Unit Limit.,0,0
+2338,TXT_SHOP_UNIT_LIMIT_MESSAGE_05,所持クリスタル{0}個,Crystals Held: {0},0,0
+2339,TXT_SHOP_UNIT_LIMIT_MESSAGE_06,ユニット枠　{0}⇒{1},Units Limit {0}⇒{1},0,0
+2340,TXT_SHOP_UNIT_LIMIT_MESSAGE_ERROR,ユニット枠は最大です,Unit Limit is at max.,0,0
+2341,TXT_SHOP_ITEM_LIMIT_MESSAGE_01,クリスタルを{0}個消費して装備枠を{1}枠拡張します,Use {0} crystals to increase Equip Limit by {1}.,0,0
+2342,TXT_SHOP_ITEM_LIMIT_MESSAGE_02,所持クリスタル　{0}個,Crystals Held: {0},0,0
+2343,TXT_SHOP_ITEM_LIMIT_MESSAGE_03,装備枠,Equip Limit,0,0
+2344,TXT_SHOP_ITEM_LIMIT_MESSAGE_04,クリスタルを消費して装備枠を拡張しました。,Used crystals to increase your Equipment Limit.,0,0
+2345,TXT_SHOP_ITEM_LIMIT_MESSAGE_05,所持クリスタル{0}個,Crystals Held: {0},0,0
+2346,TXT_SHOP_ITEM_LIMIT_MESSAGE_06,装備枠　{0}⇒{1},Equipment Limit {0}⇒{1},0,0
+2347,TXT_SHOP_ITEM_LIMIT_MESSAGE_ERROR,装備枠は最大です,Equipment Limit is at max.,0,0
+2348,TXT_SHOP_FRIEND_LIMIT_MESSAGE_01,クリスタルを1個消費してフレンド枠を5枠拡張します,Use 1 crystal to increase Friend Limit by 5.,0,0
+2349,TXT_SHOP_FRIEND_LIMIT_MESSAGE_02,所持クリスタル　{0}個,Crystals Held: {0},0,0
+2350,TXT_SHOP_FRIEND_LIMIT_MESSAGE_03,フレンド枠　{0}⇒{1},Friend Limit {0}⇒{1},0,0
+2351,TXT_SHOP_FRIEND_LIMIT_MESSAGE_04,クリスタルを消費してフレンド枠を拡張しました。,Used crystals to increase your Friend Limit.,0,0
+2352,TXT_SHOP_FRIEND_LIMIT_MESSAGE_05,所持クリスタル{0}個,Crystals Held: {0},0,0
+2353,TXT_SHOP_FRIEND_LIMIT_MESSAGE_06,フレンド枠　{0}⇒{1},Friend Limit {0}⇒{1},0,0
+2354,TXT_SHOP_FRIEND_LIMIT_MESSAGE_ERROR,フレンド枠は最大です,Friend Limit is at max.,0,0
+2355,TXT_SHOP_UNIT_LIMIT_GO,拡張する,Increase,0,0
+2356,TXT_SHOP_ITEM_LIMIT_GO,拡張する,Increase,0,0
+2357,TXT_SHOP_USER_POLICY,利用規約,Terms of Use,0,0
+2358,TXT_SHOP_COMMERCIALLAW,特定商取引,Specified Commercial Transactions Law,0,0
+2359,TXT_SHOP_SETTLEMENTLAW,資金決済法,Payment Services Act,0,0
+2360,TXT_SHOP_FAILURE_PURCHASE_DIAMOND,クリスタルの購入に失敗しました。,The crystal purchase has failed.,0,0
+2361,TXT_SHOP_RESUME_PURCHASE_DIAMOND,前回購入時にクリスタルが付与されていなかった為、再付与を行いました。,"Because previously purchased crystals were not received, they have been given again.",0,0
+2362,TXT_SHOP_UNIT_LIMIT_EXTEND,"ユニット枠がいっぱいです。
+クリスタルを{0}個消費して
+ユニット枠を{1}枠拡張しますか?","Your Unit Limit is filled. 
+Use {0} crystals
+ to increase Unit Limit by {1}?",0,0
+2363,TXT_SHOP_ITEM_LIMIT_EXTEND,"装備枠がいっぱいです。
+クリスタルを{0}個消費して
+装備枠を{1}枠拡張しますか?","Your Equip Limit is filled. 
+Use {0} crystals
+ to increase Equip Limit by {1}?",0,0
+2364,TXT_SHOP_DIAMOND_BUY_NUM,有償（購入）分,Purchased,0,0
+2365,TXT_SHOP_DIAMOND_FREE_NUM,無償（配布）分,Free,0,0
+2366,TXT_SHOP_DIAMOND_MESSAGE,"クリスタルは無償分から消費されます
+購入されたクリスタルが反映されない場合は
+メニュー内の「サポート」からお問い合わせください","Free crystals will be used first. 
+ If purchased crystals are not shown,
+please contact ""Support"" from the menu.",0,0
+2367,TXT_SHOP_ORB_MESSAGE_ERROR,既にアリーナオーブはMAXです,Your Arena Orbs are already at max.,0,0
+2368,TXT_SHOP_ORB_MESSAGE_01,クリスタルを1個消費してオーブを5回復します。,Exchange 1 crystal to refill 5 orbs?,0,0
+2369,TXT_SHOP_ORB_MESSAGE_02,所持クリスタル　{0}個,Crystals Held: {0},0,0
+2370,TXT_SHOP_ORB_MESSAGE_03,アリーナオーブ,Arena Orb,0,0
+2371,TXT_SHOP_ORB_MESSAGE_04,"クリスタルを消費して
+オーブを5回復しました。","Exchanged 1 crystal to
+refill 5 orbs.",0,0
+2372,TXT_SHOP_ORB_MESSAGE_05,オーブ　{0}/{1},Orbs {0}/{1},0,0
+2373,TXT_SHOP_BUY_ARENA_ORB,アリーナオーブ回復,Refill Arena Orbs,0,0
+2374,TXT_SHOP_BUY_CUSTOM,初心者応援パック,Beginner Support Pack,0,0
+2375,TXT_SHOP_EXTEND_MAX,※最大{0}まで拡張することができます,*Can be increased to a maximum of {0}.,0,0
+2376,TXT_SHOP_EXTEND_UNIT_NOW,現在のユニット枠数,Current Unit Limit:,0,0
+2377,TXT_SHOP_EXTEND_ITEM_NOW,現在の装備枠数,Current Equipment Limit:,0,0
+2378,TXT_SHOP_SUCCESS_PURCHASE_PACK,{0}を購入しました,Purchased {0}.,0,0
+2379,TXT_SHOP_CANCEL_PURCHASE_PACK,{0}の購入がキャンセルされました,The {0} purchase has been cancelled.,0,0
+2380,TXT_SHOP_FAILURE_PURCHASE_PACK,{0}の購入に失敗しました,The {0} purchase failed.,0,0
+2381,TXT_SHOP_RESUME_PURCHASE_PACK,前回購入時に{0}が付与されていなかった為、再付与を行いました,"Because {0} was not given with previous purchase, it has been given again.",0,0
+2382,TXT_SHOP_RAID_ORB_MESSAGE_ERROR,既にレイドオーブはMAXです。,0,0,0
+2383,TXT_SHOP_RAID_ORB_MESSAGE_01,クリスタルを1個消費してレイドオーブを{0}回復します。,0,0,0
+2384,TXT_SHOP_RAID_ORB_MESSAGE_02,所持クリスタル　{0}個,0,0,0
+2385,TXT_SHOP_RAID_ORB_MESSAGE_03,レイドオーブ,0,0,0
+2386,TXT_SHOP_RAID_ORB_MESSAGE_04,"クリスタルを消費して
+レイドオーブを{0}回復しました。",0,0,0
+2387,TXT_SHOP_RAID_ORB_MESSAGE_05,レイドオーブ　{0}/{1},0,0,0
+2388,TXT_SHOP_BUY_RAID_TICKET,レイド討伐チケット交換,0,0,0
+2389,TXT_SHOP_RAID_TICKET_MESSAGE_01,"クリスタルを{0}個消費して
+{1}を{2}枚交換します",0,0,0
+2390,TXT_SHOP_RAID_TICKET_MESSAGE_UNIT,枚,0,0,0
+2391,TXT_SHOP_RAID_TICKET_MESSAGE_ERROR,"{0}は
+所持数オーバーになるため交換できません",0,0,0
+2392,TXT_SHOP_RAID_TICKET_MESSAGE_04,"クリスタルを消費して
+{0}を{1}枚交換しました",0,0,0
+2393,TXT_SHOP_RAID_TICKET_MESSAGE_05,{0}　{1}/{2},0,0,0
+2394,TXT_SHOP_BUY_GRAPASS,グラパス,0,0,0
+2395,TXT_SHOP_BUY_RAID_ORB,レイドオーブ回復,0,0,0
+2396,TXT_SHOP_RAID_ORB_MESSAGE_01_PREMIUM,あと{0}回レイドオーブを無料で回復できます。,0,0,0
+2397,TXT_SHOP_RAID_ORB_MESSAGE_04_PREMIUM,レイドオーブを{0}回復しました。,0,0,0
+2398,TXT_SHOP_RESTORE_PURCHASES,購入復元,"Restore
+purchases",0,0
+2401,TXT_PRESENT,プレゼント,Gift,0,0
+2402,TXT_PRESENT_TAB_PRESENT,プレゼント,Gift,0,0
+2403,TXT_PRESENT_TAB_GETLIST,受取済み,Claimed,0,0
+2404,TXT_PRESENT_GET,受取,,0,0
+2405,TXT_PRESENT_GETALL,一括受取,Claim All,0,0
+2406,TXT_PRESENT_NONE,受け取れるプレゼントはありません,You have no unclaimed gifts.,0,0
+2407,TXT_PRESENT_GET_RESULT,{0}を受け取りました,Claimed {0}.,0,0
+2408,TXT_PRESENT_GETALL_RESULT,プレゼントを{0}件受け取りました。,Claimed {0} gifts.,0,0
+2409,TXT_PRESENT_GETALL_RESULT_ERROR,"所持数が上限に達しているため
+プレゼントの一部を受け取れませんでした。","Some gifts were not claimed
+because inventory was full.",0,0
+2410,TXT_PRESENT_GETALL_RESULT_ERROR_01,ユニット×{0},Units×{0},0,0
+2411,TXT_PRESENT_GETALL_RESULT_ERROR_02,装備×{0},Equipment×{0},0,0
+2412,TXT_PRESENT_GET_RESULT_FULL,アイテムを受け取りました,Claimed items.,0,0
+2413,TXT_PRESENT_GET_DAYS,受取日,Claimed Date,0,0
+2414,TXT_PRESENT_LEFT,まで,Left:,0,0
+2415,TXT_PRESENT_NO_LIMIT,期限なし,No Time Limit,0,0
+2416,TXT_PRESENT_GET_ERROR,"所持数が上限に達しているため
+プレゼントを受け取れませんでした。","Gift was not claimed
+because inventory was full.",0,0
+2417,TXT_PRESENT_FROM_GUILD_TITLE,{0}クリア報酬,{0}Clear Reward,0,0
+2418,TXT_PRESENT_FROM_GUILD_DESCRIPTION,所持上限を超えていたため、プレゼントに送られました。,Sent to Gifts because inventory is full.,0,0
+2419,TXT_PRESENT_PAGE_INDEX,{0}ページ,Page {0},0,0
+2420,TXT_PRESENT_PAGE_ALL,全{0}ページ,{0} pages total,0,0
+2421,TXT_PRESENT_COUNT,総数{0}件,Total of {0},0,0
+2501,TXT_FRIEND,フレンド,Friend,0,0
+2502,TXT_FRIEND_LIST,フレンド一覧,Friends,0,0
+2503,TXT_FRIEND_REQUEST,フレンド申請,Friend Request,0,0
+2504,TXT_FRIEND_SEARCH,フレンド検索,Friend Search,0,0
+2505,TXT_FRIEND_INVITATION,友達を招待する,Invite Friends,0,0
+2506,TXT_FRIEND_LIMIT,フレンド枠,Friend Limit,0,0
+2507,TXT_FRIEND_LIST_FRIENDLIST,フレンド一覧,Friends,0,0
+2508,TXT_FRIEND_LIST_INFO,フレンド情報,Friend Info,0,0
+2509,TXT_FRIEND_LIST_NEW,NEW,New,0,0
+2510,TXT_FRIEND_UNIT_LEVEL,LV．,LV.,0,0
+2511,TXT_FRIEND_LIST_FAVORITE_DECISION,お気に入り登録,Register to Favorites,0,0
+2512,TXT_FRIEND_LIST_REMOVE,フレンド解除,Delete,0,0
+2513,TXT_FRIEND_LIST_FAVORITE_QUIT,お気に入り解除,Remove from Favorites,0,0
+2514,TXT_FRIEND_LIST_SWITCH_COMMENT,コメント,Comment,0,0
+2515,TXT_FRIEND_LIST_SWITCH_INFO,情報,Information,0,0
+2516,TXT_FRIEND_PERMIT,承認する,Accept,0,0
+2517,TXT_FRIEND_DELETE,解除する,Remove,0,0
+2518,TXT_FRIEND_REQUEST_NONE,フレンド申請はありません,There are no friend requests.,0,0
+2519,TXT_FRIEND_LIMIT_NONE_01,フレンドリストに空きがありません,Your Friends is full.,0,0
+2520,TXT_FRIEND_LIMIT_EXTENSION,フレンド枠を拡張しますか？,Do you want to increase your Friend Limit?,0,0
+2521,TXT_FRIEND_GET,フレンドになりました！,You became friends!,0,0
+2522,TXT_FRIEND_LIMIT_NONE_02,相手のフレンド枠が一杯でした,Target's Friends is full.,0,0
+2523,TXT_FRIEND_REQUEST_DELETE,削除しました,Deleted.,0,0
+2524,TXT_FRIEND_ID_PLAYER,あなたのID,Your ID,0,0
+2525,TXT_FRIEND_SEARCH_MESSAGE,友達のIDを入力してフレンド登録をしよう,Enter a friend's ID and register them here!,0,0
+2526,TXT_FRIEND_SEARCH_ALREADY,フレンド申請しました,Friend request sent.,0,0
+2527,TXT_FRIEND_SEARCH_ID_NONE,入力されたIDは存在しませんでした,The entered ID does not exist.,0,0
+2528,TXT_FRIEND_SEARCH_ID_ERROR,入力内容が正しくありません,Please check the entered data.,0,0
+2529,TXT_FRIEND_SEARCH_GO,検索する,Search,0,0
+2530,TXT_FRIEND_REQUEST_GO,申請する,Request,0,0
+2531,TXT_FRIEND_INVITATION_MESSAGE_01,友達を招待しよう,Invite a friend.,0,0
+2532,TXT_FRIEND_INVITATION_MESSAGE_02,招待特典は10回もらえます,You can get 10 Invitation Perks.,0,0
+2533,TXT_FRIEND_INVITATION_MESSAGE_03,招待成功人数{0}人,{0} successful invitation.,0,0
+2534,TXT_FRIEND_INVITATION_MESSAGE_04,招待した人がチュートリアルを終えるとプレゼントが送られます,"When someone you invited completes the tutorial, you'll get a gift!",0,0
+2535,TXT_FRIEND_POPUP_OK,ポップアップ-OK,Popup-OK,0,0
+2536,TXT_FRIEND_POPUP_CANCEL,ポップアップ-キャンセル,Popup-Cancel,0,0
+2537,TXT_FRIEND_POPUP_LIMIT,ポップアップ-拡張する,Popup-Increase Limit,0,0
+2538,TXT_FRIEND_POPUP_SEARCH,ポップアップ-検索,Popup-Search,0,0
+2539,TXT_FRIEND_ATTACK,攻撃力,ATK,0,0
+2540,TXT_FRIEND_DEFENSE,防御力,DEF,0,0
+2541,TXT_FRIEND_HP,HP,HP,0,0
+2542,TXT_FRIEND_OVERLIMIT,限界突破,Limit Break,0,0
+2543,TXT_FRIEND_LUCK,運,Luck,0,0
+2544,TXT_FRIEND_MEDAL,勲章・評価値,Trophies/Rating,0,0
+2545,TXT_FRIEND_PLAYER_INFORMATION,プレイヤー情報,Player Info,0,0
+2546,TXT_FRIEND_EVALUATION,評価:,Rating:,0,0
+2547,TXT_FRIEND_LAST_PLAY,最終プレイ,Last Played:,0,0
+2548,TXT_FRIEND_CHANGE,切り替え,Exchange:,0,0
+2549,TXT_FRIEND_PLAYER_RECORD,戦績,Record:,0,0
+2550,TXT_FRIEND_ID_USER,あなたのユーザーID,Your User ID,0,0
+2551,TXT_FRIEND_DESCRIPTION,友達のIDを入力してフレンド登録しよう,Enter a friend's ID and register them here.,0,0
+2552,TXT_FRIEND_RANK,RANK{0},Rank {0},0,0
+2553,TXT_FRIEND_LASTPLAY,最終プレイ   {0},Last Played {0},0,0
+2554,TXT_FRIEND_BUTTON_SEA,0,0,0,0
+2555,TXT_FRIEND_NONE,フレンドはいません,No Friends,0,0
+2556,TXT_FRIEND_REQUEST_COMFIRM,フレンド申請を承認しますか?,Send a friend request?,0,0
+2557,TXT_FRIEND_TARGET_OFFERD,フレンド申請済みです,Friend request sent.,0,0
+2558,TXT_FRIEND_REMOVE_CHECK,このフレンドを解除しますか?,Delete this friend?,0,0
+2559,TXT_FRIEND_ID,ID,ID,0,0
+2560,TXT_FRIEND_LASTPLAY_LONG,最終プレイ時間   {0},Last play time  {0},0,0
+2561,TXT_FRIEND_MY_ID,あなたのIDです,Your ID,0,0
+2562,TXT_FRIEND_POPUP_INPUT_PLEASE,値を入力してください,Enter a value.,0,0
+2601,TXT_MENU,メニュー,Menu,0,0
+2602,TXT_MENU_INFO,お知らせ,Information,0,0
+2603,TXT_MENU_PLAYER,プレイヤー情報,Player Info,0,0
+2604,TXT_MENU_TIPS,最新情報・攻略情報,News and Hints,0,0
+2605,TXT_MENU_CONFIG,ゲーム設定,Options,0,0
+2606,TXT_MENU_HELP,ヘルプ,Help (to Facebook),0,0
+2607,TXT_MENU_CODE,キャンペーンコード,Campaign Code,0,0
+2608,TXT_MENU_CONTACT,お問い合わせ,Customer Support,0,0
+2609,TXT_MENU_CREDIT,クレジット,Credits,0,0
+2610,TXT_MENU_PLAYER_COMMENT,コメント編集,Edit Greeting,0,0
+2611,TXT_MENU_PLAYER_NAME,プレイヤー名編集,Rename,0,0
+2612,TXT_MENU_PLAYER_WORD_BAN,禁止ワードが含まれていました,Contains a banned word.,0,0
+2613,TXT_MENU_TIPS_SITE,公式サイト,Official Site,0,0
+2614,TXT_MENU_TIPS_TWITTER,公式Twitter,Official Twitter,0,0
+2615,TXT_MENU_TIPS_FACEBOOK,公式フェイスブック,Official Facebook,0,0
+2616,TXT_MENU_TIPS_BOOK,メガスト虎の巻発売,Megasto Book of the Tiger Released,0,0
+2617,TXT_MENU_TIPS_LOBI,Lobi,Lobi,0,0
+2618,TXT_MENU_CONFIG_SOUND,サウンド設定,Sound,0,0
+2619,TXT_MENU_CONFIG_SOUND_BGM,BGM,BGM,0,0
+2620,TXT_MENU_CONFIG_SOUND_SE,SE,SE,0,0
+2621,TXT_MENU_CONFIG_BATTLE,バトル設定,Battle Settings,0,0
+2622,TXT_MENU_CONFIG_BATTLE_EFFECT,エフェクト簡易表示モード,Simple Effect Display Mode,0,0
+2623,TXT_MENU_CONFIG_BATTLE_ENVIRONMENT,環境演出,Environment Effects,0,0
+2624,TXT_MENU_CONFIG_PUSH,プッシュ通知,Push Notifications,0,0
+2625,TXT_MENU_CONFIG_ON,ON,ON,0,0
+2626,TXT_MENU_CONFIG_OFF,OFF,OFF,0,0
+2627,TXT_MENU_HELP_UNIT,ユニットについて,Units,0,0
+2628,TXT_MENU_HELP_ITEM,装備について,Equipment,0,0
+2629,TXT_MENU_HELP_FRIEND,フレンドについて,Friends,0,0
+2630,TXT_MENU_HELP_QUEST,クエストについて,Quests,0,0
+2631,TXT_MENU_HELP_BLACKSMITH,鍛冶屋について,Smith,0,0
+2632,TXT_MENU_HELP_BACK,戻る,Back,0,0
+2633,TXT_MENU_HELP_NEXT,次へ,Next,0,0
+2634,TXT_MENU_HELP_QUIT,閉じる,Close,0,0
+2635,TXT_MENU_HELP_PAGE,{0}/{1},{0}/{1},0,0
+2636,TXT_MENU_HELP_UNIT_MESSAGE_01,ユニットについてのヘルプ文1,Unit help text 1,0,0
+2637,TXT_MENU_HELP_UNIT_MESSAGE_02,ユニットについてのヘルプ文2,Unit help text 2,0,0
+2638,TXT_MENU_HELP_UNIT_MESSAGE_03,ユニットについてのヘルプ文3,Unit help text 3,0,0
+2639,TXT_MENU_HELP_UNIT_MESSAGE_04,ユニットについてのヘルプ文4,Unit help text 4,0,0
+2640,TXT_MENU_HELP_ITEM_MESSAGE_01,装備についてのヘルプ文1,Equipment help text 1,0,0
+2641,TXT_MENU_HELP_ITEM_MESSAGE_02,装備についてのヘルプ文2,Equipment help text 2,0,0
+2642,TXT_MENU_HELP_ITEM_MESSAGE_03,装備についてのヘルプ文3,Equipment help text 3,0,0
+2643,TXT_MENU_HELP_ITEM_MESSAGE_04,装備についてのヘルプ文4,Equipment help text 4,0,0
+2644,TXT_MENU_HELP_FRIEND_MESSAGE_01,フレンドについてのヘルプ文1,Friend help text 1,0,0
+2645,TXT_MENU_HELP_FRIEND_MESSAGE_02,フレンドについてのヘルプ文2,Friend help text 2,0,0
+2646,TXT_MENU_HELP_FRIEND_MESSAGE_03,フレンドについてのヘルプ文3,Friend help text 3,0,0
+2647,TXT_MENU_HELP_FRIEND_MESSAGE_04,フレンドについてのヘルプ文4,Friend help text 4,0,0
+2648,TXT_MENU_HELP_QUEST_MESSAGE_01,クエストについてのヘルプ文1,Quest help text 1,0,0
+2649,TXT_MENU_HELP_QUEST_MESSAGE_02,クエストについてのヘルプ文2,Quest help text 2,0,0
+2650,TXT_MENU_HELP_QUEST_MESSAGE_03,クエストについてのヘルプ文3,Quest help text 3,0,0
+2651,TXT_MENU_HELP_QUEST_MESSAGE_04,クエストについてのヘルプ文4,Quest help text 4,0,0
+2652,TXT_MENU_HELP_BLACKSMITH_MESSAGE_01,鍛冶屋についてのヘルプ文1,Smith help text 1,0,0
+2653,TXT_MENU_HELP_BLACKSMITH_MESSAGE_02,鍛冶屋についてのヘルプ文2,Smith help text 2,0,0
+2654,TXT_MENU_HELP_BLACKSMITH_MESSAGE_03,鍛冶屋についてのヘルプ文3,Smith help text 3,0,0
+2655,TXT_MENU_HELP_BLACKSMITH_MESSAGE_04,鍛冶屋についてのヘルプ文4,Smith help text 4,0,0
+2656,TXT_MENU_CODE_MESSAGE,キャンペーンコードを入力して下さい,Please enter the Campaign Code.,0,0
+2657,TXT_MENU_CODE_GO,送信する,Send,0,0
+2658,TXT_MENU_CODE_NAME,{0},{0},0,0
+2659,TXT_MENU_CODE_REWARD,{0}を手に入れました,Got {0},0,0
+2660,TXT_MENU_CODE_ERROR,キャンペーンコードが正しくありません,The Campaign Code is not correct.,0,0
+2661,TXT_MENU_MIGRATION,データ引き継ぎ設定,Transfer Data,0,0
+2662,TXT_MENU_INFO_TITLE,運営からのお知らせ,Notice from the Developers,0,0
+2663,TXT_MENU_DEFAULT_COMMENT,よろしくお願いします!!,Thank you!!,0,0
+2664,TXT_MENU_POPUP_NG_COMMENT,NGワードが含まれています,Contains a banned word.,0,0
+2665,TXT_MENU_SUPPORT,サポート,Support,0,0
+2666,TXT_MENU_EMAIL_INPUT,メールアドレスを入力してください,Please enter your email address,0,0
+2667,TXT_MENU_PASSWORD,パスワード,Password,0,0
+2668,TXT_MENU_PASSWORD_INPUT,パスワードを入力してください,Please enter your password,0,0
+2669,TXT_MENU_MIGRATION_DESCRIPITION,"機種変更などを行う際にゲームデータを引き継いでプレイすることができます。
+引き継ぎ前に必ず注意事項をご覧ください。",You can transfer your game data and continue playing on a new or reset device. Please read the notes/precautions before transferring data.,0,0
+2670,TXT_MENU_MIGRATION_NOTES,注意事項,Notes,0,0
+2671,TXT_MENU_MIGRATION_NOTES_TEXT,引き継ぎに関する注意事項,Note and precautions for data transfer.,0,0
+2672,TXT_MENU_MIGRATION_SUCCESS,設定完了,Publication complete.,0,0
+2673,TXT_MENU_MIGRATION_SUCCESS_TEXT,"メールアドレスとパスワードは
+大切に保管してください。","Please keep your registered email
+and password safe.",0,0
+2674,TXT_MENU_MIGRATION_PUBLISH,設定する,Publish,0,0
+2675,TXT_MENU_MIGRATION_DONT_FORGET,"パスワードを紛失すると引き継ぎができなくなります。
+必ずお控えください。","If you lose your password, you will NOT be able to transfer. Please keep it safe.",0,0
+2676,TXT_MENU_CLOSE,閉じる,Close,0,0
+2677,TXT_MENU_GOTO_TITLE,タイトルに戻る,Back to Title,0,0
+2678,TXT_MENU_CONFIG_SOUND_VOICE,ボイス,Voice,0,0
+2679,TXT_MENU_GAMEGIFT,公式ファンサイト,Official Fansite,0,0
+2680,TXT_MENU_LOBI,公認コミュニティ,Community (to Facebook),0,0
+2681,TXT_POPUP_MIGRATION,引き継ぎ入力,Input transfer code.,0,0
+2682,TXT_POPUP_MIGRATION_MAIL_ADDRESS,登録時のメールアドレス,Email used at time of registration,0,0
+2683,TXT_POPUP_MIGRATION_PASSWORD,パスワード,Password,0,0
+2684,TXT_POPUP_MIGRATION_WARNING,"注意
+引き継ぎを行うと現在プレイ中のデータが
+あった場合上書きされます。
+この操作は取り消しできません。","Caution:
+When you transfer, any current play data
+on the new device will be overwritten. 
+This operation can not be undone.",0,0
+2685,TXT_MENU_LICENSE,ライセンス,License,0,0
+2702,TXT_TOWN_TEMPLE,神殿,Shrine,0,0
+2703,TXT_TOWN_GUILD,冒険者ギルド,Adventurer's Guild,0,0
+2704,TXT_TOWN_WORKSHOP,工房,Smith,0,0
+2705,TXT_TOWN_LOGINBONUS_WORD,{0},{0},0,0
+2706,TXT_TOWN_LOGINBONUS_NUMBER,×{0},×{0},0,0
+2707,TXT_TOWN_POINT_WORD_01,{0},{0},0,0
+2708,TXT_TOWN_POINT_WORD_02,×{0},×{0},0,0
+2709,TXT_TOWN_POINT_WORD_03,{0},{0},0,0
+2710,TXT_TOWN_POINT_WORD_04,×{0},×{0},0,0
+2711,TXT_TOWN_POINT_WORD_05,{0},{0},0,0
+2712,TXT_TOWN_POINT_WORD_06,×{0},×{0},0,0
+2713,TXT_TOWN_POINT_WORD_DISPLAY,×{0},×{0},0,0
+2714,TXT_TEMPLE_POiNT_ERROR,ポイントが不足しています,Not enough points.,0,0
+2715,TXT_TOWN_FACILITY_UNLOCK,街機能「{0}」が解放されました。,Town facility {0} now available.,0,0
+2716,TXT_TOWN_CHARA_NAME_01,ギリアム,Giliam,0,0
+2717,TXT_TOWN_CHARA_NAME_02,リーゼ,Liese,0,0
+2718,TXT_TOWN_CHARA_NAME_03,ソフィ,Sophie,0,0
+2719,TXT_TOWN_CHARA_NAME_04,エスト,Est,0,0
+2720,TXT_TOWN_CHARA_NAME_05,ガナン,Ganan,0,0
+2721,TXT_TOWN_CHARA_NAME_06,レム,Rem,0,0
+2801,TXT_TEMPLE,神殿,Shrine,0,0
+2802,TXT_TEMPLE_SPEECH,{0},{0},0,0
+2803,TXT_TEMPLE_UNIT,ユニット図鑑,Units,0,0
+2804,TXT_TEMPLE_MONSTER,モンスター図鑑,Monsters,0,0
+2805,TXT_TEMPLE_ITEM,装備図鑑,Equipment,0,0
+2806,TXT_TEMPLE_MATERIAL_PICTUREBOOK,素材・料理図鑑,Ingredients/Food,0,0
+2807,TXT_TEMPLE_RECORD,戦績,Record,0,0
+2808,TXT_TEMPLE_STORY,歴史,History,0,0
+2809,TXT_TEMPLE_UNIT_DETAIL,ユニット図鑑詳細,Unit Details,0,0
+2810,TXT_TEMPLE_UNIT_ATTACK,アタックモーション,Attack Animation,0,0
+2811,TXT_TEMPLE_UNIT_SCAL_UP,ユニット拡大,Unit Zoom,0,0
+2812,TXT_TEMPLE_MONSTER_KO_COUNT_01,討伐数,Defeated,0,0
+2813,TXT_TEMPLE_MONSTER_KO_COUNT_02,体,Number,0,0
+2814,TXT_BUREAU_MONSTER_DETAIL,モンスター図鑑詳細,Monster Details,0,0
+2815,TXT_BUREAU_ITEM_DETAIL,装備図鑑詳細,Equipment Details,0,0
+2816,TXT_TEMPLE_GET,獲得済,Held,0,0
+2817,TXT_TEMPLE_POPUP_OK,ポップアップ_OK,Popup_OK,0,0
+2818,TXT_TEMPLE_POPUP_GET_GO,ポップアップ_受取る,Popup_Claim,0,0
+2819,TXT_TEMPLE_POPUP_GET_ALL,ポップアップ_一括受取,Popup_Claim All,0,0
+2820,TXT_TEMPLE_FOOD_PICTUREBOOK,料理図鑑,Food,0,0
+2821,TXT_TEMPLE_FOOD,料理,Food,0,0
+2822,TXT_TEMPLE_PICTUREBOOK,図鑑,Compendium,0,0
+2823,TXT_TEMPLE_MATERIAL_TAB,素材図鑑,Ingredients,0,0
+2825,TXT_TEMPLE_FOOD_TAB,料理図鑑,Food,0,0
+2826,TXT_TEMPLE_FOOD_PICTUERBOOK,料理図鑑,Food,0,0
+2827,TXT_TEMPLE_MATERIAL_PICTUERBOOK,素材図鑑,Materials,0,0
+2828,TXT_TEMPLE_RAINFORCE_MAX,強化MAX,Enhancement Max,0,0
+2829,TXT_TEMPLE_RAINFORCE_NORMAL,通常,Normal,0,0
+3001,TXT_RECORD_RANK,ランク,Rank,0,0
+3002,TXT_RECORD_LOGIN_SUCCESSIVE,連続ログイン日数,Consecutive Login Days,0,0
+3003,TXT_RECORD_LOGIN_TOTAL,通算ログイン日数,Total Login Days,0,0
+3004,TXT_RECORD_UNIT_PICTUREBOOK,総合ユニット図鑑数,Total Units in Compendium,0,0
+3005,TXT_RECORD_ITEM_PICTUREBOOK,総合装備図鑑数,Total no. of Equipment,0,0
+3006,TXT_RECORD_MONSTER_PICTUREBOOK,総合ボスモンスター図鑑数,Total Monsters in Compendium,0,0
+3007,TXT_RECORD_LUCK_MAX_COUNT,運MAX達成回数,Number of Max Luck Bonuses,0,0
+3008,TXT_RECORD_UNIT_USE_COUNT,ユニット上位使用数,Times Using Upper Ranked Units,0,0
+3009,TXT_RECORD_QUEST_PLAY_COUNT,総合プレイ回数,Total times played,0,0
+3010,TXT_RECORD_QUEST_CLEAR_COUNT,総合クリア回数,Total cleared,0,0
+3011,TXT_RECORD_QUEST_NOCONTINUE_COUNT,総合ノーコンティニュー回数,Total no. of No-Continues,0,0
+3012,TXT_RECORD_QUEST_CLEAR_SINGLE_COUNT,シングルプレイ回数,Single Player Games:,0,0
+3013,TXT_RECORD_QUEST_CLEAR_MULTI_COUNT,マルチプレイ回数,Times played Multiplayer:,0,0
+3014,TXT_RECORD_QUEST_CLEAR_HOST_COUNT,ホストプレイ回数,Times played as Host:,0,0
+3015,TXT_RECORD_QUEST_CLEAR_GUEST_COUNT,ゲストプレイ回数,Times played as Guest:,0,0
+3016,TXT_RECORD_MONSTER_KILL_COUNT,モンスター撃破数,Monsters Defeated:,0,0
+3017,TXT_RECORD_ARENA_BATTLE_COUNT,アリーナバトル回数,Arena Battles Fought:,0,0
+3018,TXT_RECORD_ARENA_WIN_COUNT,アリーナバトル勝利回数,Arena Battles Won:,0,0
+3019,TXT_RECORD_ARENA_WINSTREAK_COUNT,アリーナ最大連勝数,Longest Arena Win Streak:,0,0
+3020,TXT_RECORD_ARENA_RANK,バトルランク,Battle Rank,0,0
+3021,TXT_RECORD_ITEM_CREATE_COUNT,装備生成回数,Equipment Crafted:,0,0
+3022,TXT_RECORD_ITEM_USED_ITEM,上位使用装備,Superior Equipment Used:,0,0
+3023,TXT_RECORD_MAX_DAMAGE,最大ダメージ,Max Damage Dealt:,0,0
+3024,TXT_RECORD_MAX_GAIN_MONEY,最大取得コイン,Most Coins Won:,0,0
+3025,TXT_RECORD_EXP_TOTAL,累計獲得経験値,Total acquired EXP:,0,0
+3026,TXT_RECORD_EVOLUTION_COUNT,進化回数,Evolutions:,0,0
+3027,TXT_RECORD_RARE_UNIT_GAIN,激レアユニット取得数,Hyper Rare Units Gotten:,0,0
+3028,TXT_RECORD_HARD_QUEST_PLAY,難関クエストプレイ回数,Locked Quests Taken:,0,0
+3029,TXT_RECORD_HARD_QUEST_CLEAR,難関クエストクリア回数,Locked Quests Cleared:,0,0
+3030,TXT_RECORD_HARD_QUEST_NOCONTINUE,難関ノーコンティニュー回数,Locked No-Continues:,0,0
+3031,TXT_RECORD_RARE_UNIT_GACHA_GAIN,激レアユニット獲得数,Hyper Rare Units Held:,0,0
+3032,TXT_RECORD_RARE_ITEM_GACHA_GAIN,激レア装備獲得数,Hyper Rare Equipment Held:,0,0
+3033,TXT_RECORD_ARENA_BATTLE_POINT_TOTAL,累計獲得アリーナバトルポイント,Total Acquired Arena Battle Points:,0,0
+3034,TXT_RECORD_ARENA_PERFECT_WIN_COUNT,完勝数,Number of Total Victories:,0,0
+3035,TXT_RECORD_UNIT_KILL_COUNT_FIRE,炎属性ユニット撃破数,Fire Units Defeated:,0,0
+3036,TXT_RECORD_UNIT_KILL_COUNT_WATER,水属性ユニット撃破数,Water Units Defeated:,0,0
+3037,TXT_RECORD_UNIT_KILL_COUNT_EARTH,樹属性ユニット撃破数,Earth Units Defeated:,0,0
+3038,TXT_RECORD_UNIT_KILL_COUNT_LIGHT,光属性ユニット撃破数,Light Units Defeated:,0,0
+3039,TXT_RECORD_UNIT_KILL_COUNT_DARK,闇属性ユニット撃破数,Defeated Units Defeated:,0,0
+3040,TXT_RECORD_UNIT_KILL_COUNT_RARE_1,★1ユニット撃破数,★1 Units Defeated:,0,0
+3041,TXT_RECORD_UNIT_KILL_COUNT_RARE_2,★2ユニット撃破数,★2 Units Defeated:,0,0
+3042,TXT_RECORD_UNIT_KILL_COUNT_RARE_3,★3ユニット撃破数,★3 Units Defeated:,0,0
+3043,TXT_RECORD_UNIT_KILL_COUNT_RARE_4,★4ユニット撃破数,★4 Units Defeated:,0,0
+3044,TXT_RECORD_UNIT_KILL_COUNT_RARE_5,★5ユニット撃破数,★5 Units Defeated:,0,0
+3045,TXT_RECORD_RARE_ITEM_GAIN,激レア装備取得数,Hyper Rare Equipment Acquired:,0,0
+3046,TXT_RECORD_MAX_GAIN_CRYSTAL,最大取得クリスタル,Most Crystals won:,0,0
+3047,TXT_TOTALWIN_TEXT,{0}勝,{0} Wins,0,0
+3201,TXT_BLACKSMITH,鍛冶屋,Smith,0,0
+3202,TXT_BLACKSMITH_SPEECH,{0},{0},0,0
+3203,TXT_BLACKSMITH_MAKE,装備生成,Crafting,0,0
+3204,TXT_BLACKSMITH_EVOLUTION,装備強化,Enhance,0,0
+3205,TXT_ITEM_SALE,装備売却,Sell Equip,0,0
+3206,TXT_BLACKSMITH_LIST,装備一覧,Equip List,0,0
+3207,TXT_BLACKSMITH_WORKSHOP,工房へ,Forge,0,0
+3208,TXT_BLACKSMITH_ITEM_LIMIT,所持装備,Equip Held,0,0
+3209,TXT_BLACKSMITH_SWITCH_PASSIVE,使用効果,Use Effect,0,0
+3210,TXT_BLACKSMITH_MATERIAL,必要素材,Materials Needed,0,0
+3211,TXT_BLACKSMITH_SWITCH_ACHIEVE,常時効果,Equip Effect,0,0
+3212,TXT_BLACKSMITH_COIN,必要グラン,Gren Needed,0,0
+3213,TXT_BLACKSMITH_MATERIAL_ERROR,素材不足,Insufficient,0,0
+3214,TXT_BLACKSMITH_COIN_ERROR,グラン不足,Not Enough Gren,0,0
+3215,TXT_BLACKSMITH_MATERIAL_COIN_ERROR,素材とグラン不足,Not enough Gren and materials.,0,0
+3216,TXT_BLACKSMITH_LIMIT_ERROR,所持数上限,Inventory Limit:,0,0
+3217,TXT_BLACKSMITH_MAKE_GO,生成する,Craft,0,0
+3218,TXT_BLACKSMITH_MAKE_LIMIT_MESSAGE_01,装備枠が一杯で装備を生成することができません。装備枠を拡張するか、装備の売却を行って枠を空けて下さい,Unable to craft because your equipment inventory is full. Make space by increasing your equipment limit or selling equipment.,0,0
+3219,TXT_BLACKSMITH_MAKE_LIMIT_GO,拡張,Increase,0,0
+3220,TXT_BLACKSMITH_MAKE_SALE_GO,売却,Sell,0,0
+3221,TXT_BLACKSMITH_EVOLUTION_GO,強化する,Enhance,0,0
+3222,TXT_BLACKSMITH_MULTIPLICATION,×,×,0,0
+3223,TXT_ITEM,装備一覧,Equip List,0,0
+3224,TXT_KEY_MATERIAL_LIST,素材一覧,Materials List,0,0
+3225,TXT_CREATE_ITEM,生成装備選択,Crafting,0,0
+3226,TXT_REFINE_ITEM,強化装備選択,Enhance,0,0
+3227,TXT_LIMITBREAK_ITEM,限界突破装備選択,Limit Break,0,0
+3228,TXT_MATERIAL_LIMITBREAK_ITEM,限界突破素材選択,Limit Break,0,0
+3229,TXT_ITEM_LIMITBREAK,装備限界突破,Limit Break,0,0
+3230,TXT_BLACKSMITH_LIMITBREAK_GO,限界突破,Limit Break,0,0
+3231,TXT_MATERIAL_SORT_TITLE_COUNT,個数,Number,0,0
+3232,TXT_MATERIAL_SORT_TITLE_GETTIME,入手日時,Date,0,0
+3233,TXT_KEY_ITEM_SALE,装備売却,Sell Equip,0,0
+3234,TXT_MATERIAL_SORT_TITLE_LIBRARYID,図鑑No,Compendium No.,0,0
+3235,TXT_MATERIAL_SORT_TITLE_TYPE,タイプ,Type,0,0
+3236,TXT_MATERIAL_SORT_TITLE_RARITY,レアリティ,Rarity,0,0
+3237,TXT_ITEM_LIMITBREAK_WARNING_UPPER_LIMIT,最大Lvになりました。,No further limit break possible.,0,0
+3238,TXT_BLACKSMITH_EVOLUTION_LIMIT,最大Lvになりました。,No further enhancement possible.,0,0
+3239,TXT_BLACKSMITH_MESSAGE_MATERIAL,素材不足,Insufficient,0,0
+3240,TXT_BLACKSMITH_MESSAGE_MATERIAL_COIN,グラン不足,Not Enough Gren,0,0
+3241,TXT_BLACKSMITH_SELECT_MATERIAL,素材を選択してください,Select Materials,0,0
+3301,TXT_GUILD,冒険者ギルド,Adventurer's Guild,0,0
+3302,TXT_GUILD_SPEECH,{0},{0},0,0
+3303,TXT_GUILD_PASSIVE,依頼,Job,0,0
+3304,TXT_GUILD_ACHIEVE,褒章,Trophies,0,0
+3305,TXT_GUILD_GET_LIST,受取済,Claimed,0,0
+3306,TXT_GUILD_PASSIVE_LIMIT,受注数,Number claimed,0,0
+3307,TXT_GUILD_PASSIVE_NUMBER,依頼数,Number of Jobs,0,0
+3308,TXT_GUILD_PASSIVE_GO,受注,Claim,0,0
+3309,TXT_GUILD_PASSIVE_GOING,進行中,In Progress,0,0
+3310,TXT_GUILD_PASSIVE_CLEAR,完了,Complete,0,0
+3311,TXT_GUILD_PASSIVE_CLEAR_MESSAGE,{0},{0},0,0
+3312,TXT_GUILD_PASSIVE_CLEAR_REWARD,報酬：{0}×{0},Reward: {0}×{0},0,0
+3313,TXT_GUILD_GET_GO,受け取る,Claim,0,0
+3314,TXT_GUILD_PASSIVE_MESSAGE,{0},{0},0,0
+3315,TXT_GUILD_CLEAR,達成,Success,0,0
+3316,TXT_GUILD_NOTCLEAR,未達成,Failed,0,0
+3317,TXT_GUILD_GET_ALREADY,受取済,Claimed,0,0
+3318,TXT_GUILD_POPUP_NON_RECIEVED,受取済みのサブクエスト報酬はありません,There are no claimed subquest rewards.,0,0
+3319,TXT_GUILD_PRESENT_SEND,上限を超えていたため、プレゼントに送られました。,Sent to Gifts because inventory is full.,0,0
+3320,TXT_GUILD_DELIVER,納品する,Turn In,0,0
+3321,TXT_GUILD_WARNING_UPPER_LIMIT_SUBQUEST,"これ以上受注することはできません、
+他の依頼を達成するか破棄する必要があります。","You cannot claim any more,
+you must complete or discard other jobs first.",0,0
+3401,TXT_SUMMON,召喚,Summon,0,0
+3402,TXT_SUMMON_01,英雄召喚,Hero Summon,0,0
+3403,TXT_SUMMON_02,宝具召喚,Equipment Summon,0,0
+3404,TXT_SUMMON_KIZUNA,キズナ召喚,Connect Summon,0,0
+3405,TXT_SUMMON_RAPID,10連召喚,10 Summons,0,0
+3406,TXT_SUMMON_UNIT_INFO,{0},{0},0,0
+3407,TXT_SUMMON_ITEM_INFO,{0},{0},0,0
+3408,TXT_SUMMON_KIZUNA_INFO,{0},{0},0,0
+3409,TXT_SUMMON_BUY_DIAMOND,"クリスタルが不足しています。
+購入しますか？","Not enough crystals. 
+Purchase?",0,0
+3410,TXT_SUMMON_BUY_DIAMOND_GO,購入,Purchase,0,0
+3411,TXT_SUMMON_01_MESSAGE_01,"クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} crystals
+ to perform a Hero summon?",0,0
+3412,TXT_SUMMON_01_MESSAGE_02,"クリスタルを{0}個消費して
+11連英雄召喚を行いますか？","Use {0} crystals
+ to perform 11 Hero summons?",0,0
+3413,TXT_SUMMON_02_MESSAGE_01,"クリスタルを{0}個消費して
+宝具召喚を行いますか？","Use {0} crystals
+ to perform an Equipment Summon?",0,0
+3414,TXT_SUMMON_02_MESSAGE_02,"クリスタルを{0}個消費して
+11連宝具召喚を行いますか？","Use {0} crystals
+ to perform 11 Equipment Summons?",0,0
+3415,TXT_SUMMON_KIZUNA_POPUP_MESSAGE_01,キズナポイント{0}消費してキズナ召喚を行いますか？,Use {0} Connect Points to perform a Connect Summon?,0,0
+3417,TXT_SUMMON_KIZUNA_POPUP_MESSAGE_02,キズナポイントが不足しています。,Not enough Connect Points.,0,0
+3418,TXT_SUMMON_KIZUNA_WINDOW_MESSAGE,{0},{0},0,0
+3419,TXT_SUMMON_RESULT_UNIT,召喚獲得ユニット,Summoned Units Held:,0,0
+3420,TXT_SUMMON_RESULT_ITEM,召喚獲得装備,Summoned Equipment Held:,0,0
+3421,TXT_SUMMON_COST,×{0},×{0},0,0
+3422,TXT_GACHA_POPUP_OK,召喚する,Summon,0,0
+3423,TXT_GACHA_POPUP_CANCEL,キャンセル,Cancel,0,0
+3424,TXT_SUMMON_01_10,11連英雄召喚,11 Hero Summons,0,0
+3425,TXT_SUMMON_02_10,11連宝具召喚,11 Equip Summons,0,0
+3426,TXT_GACHA_UPDATE_MESSAGE,データ更新があります,Update available.,0,0
+3427,TXT_SUMMON_20003,英雄祭,Hero Fest,0,0
+3428,TXT_SUMMON_30003,宝具召喚,Equipment Summon,0,0
+3429,TXT_SUMMON_20003_MESSAGE_01,"クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} crystals
+ to perform a Hero summon?",0,0
+3430,TXT_SUMMON_20003_MESSAGE_02,"クリスタルを{0}個消費して
+10連英雄召喚を行いますか？","Use {0} crystals
+ to perform 10 Hero Summons?",0,0
+3431,TXT_SUMMON_30003_MESSAGE_01,"クリスタルを{0}個消費して
+宝具召喚を行いますか？","Use {0} crystals
+ to perform an Equipment Summon?",0,0
+3432,TXT_SUMMON_30003_MESSAGE_02,"クリスタルを{0}個消費して
+10連宝具召喚を行いますか？","Use {0} crystals
+ to perform 10 Equipment Summons?",0,0
+3433,TXT_SUMMON_20002,英雄召喚,Hero Summon,0,0
+3434,TXT_SUMMON_30002,宝具召喚,Equipment Summon,0,0
+3435,TXT_SUMMON_20002_MESSAGE_01,"クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} crystals
+ to perform a Hero summon?",0,0
+3436,TXT_SUMMON_20002_MESSAGE_02,"クリスタルを{0}個消費して
+10連英雄召喚を行いますか？","Use {0} crystals
+ to perform 10 Hero Summons?",0,0
+3437,TXT_SUMMON_30002_MESSAGE_01,"クリスタルを{0}個消費して
+宝具召喚を行いますか？","Use {0} crystals
+ to perform an Equipment Summon?",0,0
+3438,TXT_SUMMON_30002_MESSAGE_02,"クリスタルを{0}個消費して
+10連宝具召喚を行いますか？","Use {0} crystals
+ to perform 10 Equipment Summons?",0,0
+3439,TXT_SUMMON_20004,英雄召喚,Hero Summon,0,0
+3440,TXT_SUMMON_30004,宝具召喚,Equipment Summon,0,0
+3441,TXT_SUMMON_20004_MESSAGE_01,"クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} crystals
+ to perform a Hero summon?",0,0
+3442,TXT_SUMMON_20004_MESSAGE_02,"クリスタルを{0}個消費して
+10連英雄召喚を行いますか？","Use {0} crystals
+ to perform 10 Hero Summons?",0,0
+3443,TXT_SUMMON_30004_MESSAGE_01,"クリスタルを{0}個消費して
+宝具召喚を行いますか？","Use {0} crystals
+ to perform an Equipment Summon?",0,0
+3444,TXT_SUMMON_30004_MESSAGE_02,"クリスタルを{0}個消費して
+10連宝具召喚を行いますか？","Use {0} crystals
+ to perform 10 Equipment Summons?",0,0
+3445,TXT_SUMMON_20002_10,10連英雄召喚,10 Hero Summons,0,0
+3446,TXT_SUMMON_30002_10,10連宝具召喚,10 Equip Summons,0,0
+3447,TXT_SUMMON_20003_10,10連英雄召喚,10 Hero Summons,0,0
+3448,TXT_SUMMON_30003_10,10連宝具召喚,10 Equip Summons,0,0
+3449,TXT_SUMMON_20004_10,10連英雄召喚,10 Hero Summons,0,0
+3450,TXT_SUMMON_30004_10,10連宝具召喚,10 Equip Summons,0,0
+3451,TXT_SUMMON_20005,英雄召喚,Hero Summon,0,0
+3452,TXT_SUMMON_20005_MESSAGE_01,"クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} crystals
+ to perform a Hero summon?",0,0
+3453,TXT_SUMMON_20005_MESSAGE_02,"クリスタルを{0}個消費して
+10連英雄召喚を行いますか？","Use {0} crystals
+ to perform 10 Hero Summons?",0,0
+3454,TXT_SUMMON_20005_10,10連英雄召喚,10 Hero Summons,0,0
+3455,TXT_SUMMON_30005,宝具召喚,Equipment Summon,0,0
+3456,TXT_SUMMON_30005_MESSAGE_01,"クリスタルを{0}個消費して
+宝具召喚を行いますか？","Use {0} crystals
+ to perform an Equipment Summon?",0,0
+3457,TXT_SUMMON_30005_MESSAGE_02,"クリスタルを{0}個消費して
+10連宝具召喚を行いますか？","Use {0} crystals
+ to perform 10 Equipment Summons?",0,0
+3458,TXT_SUMMON_30005_10,10連宝具召喚,10 Equip Summons,0,0
+3459,TXT_SUMMON_20007,英雄召喚,Hero Summon,0,0
+3460,TXT_SUMMON_20007_MESSAGE_01,"クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} crystals
+ to perform a Hero summon?",0,0
+3461,TXT_SUMMON_20007_MESSAGE_02,"クリスタルを{0}個消費して
+10連英雄召喚を行いますか？","Use {0} crystals
+ to perform 10 Hero Summons?",0,0
+3462,TXT_SUMMON_20007_10,10連英雄召喚,10 Hero Summons,0,0
+3463,TXT_SUMMON_20008,英雄召喚,Hero Summon,0,0
+3464,TXT_SUMMON_20008_MESSAGE_01,"クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} crystals
+ to perform a Hero summon?",0,0
+3465,TXT_SUMMON_20008_MESSAGE_02,"クリスタルを{0}個消費して
+10連英雄召喚を行いますか？","Use {0} crystals
+ to perform 10 Hero Summons?",0,0
+3466,TXT_SUMMON_20008_10,10連英雄召喚,10 Hero Summons,0,0
+3467,TXT_SUMMON_CRYSTAL_INFO,クリスタル内訳,Crystal Details,0,0
+3468,TXT_SUMMON_21012_MESSAGE_01,"有償クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} paid crystals
+ to perform a Hero Summon?",0,0
+3469,TXT_SUMMON_21013_MESSAGE_01,"有償クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} paid crystals
+ to perform a Hero Summon?",0,0
+3470,TXT_SUMMON_21014_MESSAGE_01,"有償クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} paid crystals
+ to perform a Hero Summon?",0,0
+3471,TXT_SUMMON_21015_MESSAGE_01,"有償クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} paid crystals
+ to perform a Hero Summon?",0,0
+3472,TXT_SUMMON_ORB,錬金召喚,Alch Summon,0,0
+3473,TXT_SUMMON_ORB_10,★5進化確定召喚,★5 Evolved Form Summon,0,0
+3474,TXT_SUMMON_ORB_MESSAGE_01,"錬金石を{0}個消費して
+錬金召喚を行いますか？","Use {0} Alch Stones
+to perform an Alch Summon?",0,0
+3475,TXT_SUMMON_ORB_MESSAGE_02,"錬金石を{0}個消費して
+★5進化確定召喚を行いますか？
+※ユニットは1体のみ出現します","Use {0} Alch Stones
+to perform a ★5 Evolved Summon? 
+ Note: Only one Unit will appear.",0,0
+3476,TXT_SUMMON_CHARGE_MESSAGE_01,"有償クリスタルを{0}個消費して
+英雄召喚を行いますか？
+毎日AM4:00にリセットされます","Use {0} paid crystals
+ to perform a Hero Summon? 
+ Resets every day at 4:00 AM.",0,0
+3477,TXT_SUMMON_CHARGE_MESSAGE_02,"有償クリスタルを{0}個消費して
+宝具召喚を行いますか？","Use {0} paid crystals
+ to perform an equipment summon?",0,0
+3478,TXT_SUMMON_21017_MESSAGE_01,"有償クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} paid crystals
+ to perform a Hero Summon?",0,0
+3479,TXT_SUMMON_21018_MESSAGE_01,"有償クリスタルを{0}個消費して
+英雄召喚を行いますか？","Use {0} paid crystals
+ to perform a Hero Summon?",0,0
+3480,TXT_SUMMON_TITLE_ORB,錬金召喚,Alch Summon,0,0
+3481,TXT_SUMMON_TITLE_UNIT,英雄召喚,Hero Summon,0,0
+3482,TXT_SUMMON_TITLE_ITEM,宝具召喚,Equipment Summon,0,0
+3483,TXT_SUMMON_35015_MESSAGE_01,"1日1回無料宝具召喚を
+行いますか？","Perform your daily free
+ Equipment Summon?",0,0
+3484,TXT_SUMMON_35011_MESSAGE_01,"1日1回無料宝具召喚を
+行いますか？","Perform your daily free
+ Equipment Summon?",0,0
+3485,TXT_SUMMON_FREE,無料宝具召喚,Free Equip Summon,0,0
+3486,TXT_SUMMON_FREE_MESSAGE_01,"1日1回無料宝具召喚を
+行いますか？
+毎日AM4:00にリセットされます","Perform your daily free
+ Equipment Summon? 
+ Resets every day at 4:00 AM.",0,0
+3487,TXT_SUMMON_35016_MESSAGE_01,"1日1回無料宝具召喚を
+行いますか？
+毎日AM4:00にリセットされます","Perform your daily free
+ Equipment Summon? 
+ Resets every day at 4:00 AM.",0,0
+3501,TXT_ARENA,アリーナ,Arena,0,0
+3502,TXT_ARENA_OPPONENT_NEXT,次の対戦相手,Next Opponent,0,0
+3503,TXT_ARENA_OPPONENT_TIME,対戦可能時間,Fight Time,0,0
+3504,TXT_ARENA_OPPONENT_LIMIT,{0},{0},0,0
+3505,TXT_ARENA_RANKING,ランキング,Ranking,0,0
+3507,TXT_ARENA_RESULT_POINT_TOTAL,累計ポイント,Acquired Points,0,0
+3508,TXT_ARENA_RESULT_RANK_NEXT,クラスアップまで,Next Class Up,0,0
+3509,TXT_ARENA_RESULT_CLASS,現在のクラス,Current Class,0,0
+3510,TXT_ARENA_RESULT_POINT,取得ポイント,Points Received:,0,0
+3511,TXT_ARENA_RESULT_PT,Pt,Pt,0,0
+3512,TXT_ARENA_RESULT_OPPONENT,対戦相手情報,Opponent Info,0,0
+3513,TXT_ARENA_RESULT_BOUNUS,クラスアップボーナス,Class Up Bonus,0,0
+3514,TXT_ARENA_RESULT_CLASSUP,Class Up！！,Class Up!!,0,0
+3515,TXT_ARENA_REWARD_LIST,報酬一覧,Reward List,0,0
+3516,TXT_ARENA_POINT_TOTAL,総獲得ポイント,Total Pt,0,0
+3517,TXT_ARENA_CLASS,クラス名,Class Name,0,0
+3518,TXT_ARENA_RANK_FRIEND,フレンドランキング,Friends Ranking,0,0
+3519,TXT_ARENA_RANK_TOTAL,総合ランキング,Overall Ranking,0,0
+3520,TXT_ARENA_RANK_AROUND,総合ランキング（周辺）,Overall Ranking (Region),0,0
+3521,TXT_ARENA_RANK_TOTAL_MINE,総合（{0}位）,General（{0} place）,0,0
+3522,TXT_ARENA_SPHERE,闘志スフィア×{0}消費,Cost {0} Fight Spheres,0,0
+3523,TXT_ARENA_DUEL,決闘する,Duel,0,0
+3524,TXT_ARENA_RESULT_POPUP_MESSAGE_01,所持クリスタル{0}個,Crystals Held: {0},0,0
+3525,TXT_ARENA_RESULT_POPUP_MESSAGE_02,フレンドリストに空きがありません。クリスタルを{0}個消費してフレンド枠を拡張しますか？,Your friend list is full. Use {0} crystals to increase your Friends?,0,0
+3526,TXT_ARENA_RESULT_POPUP_GO,拡張する,Increase,0,0
+3527,TXT_ARENA_RESULT_POPUP_MESSAGE_03,クリスタルを{0}個消費してフレンド枠を拡張しました。,Used {0} crystals to increase your Friend Limit.,0,0
+3528,TXT_ARENA_RESULT_POPUP_MESSAGE_04,現在のフレンド枠　{0},Current Friend Limit {0},0,0
+3529,TXT_ARENA_RESULT_POPUP_MESSAGE_05,クリスタルが不足しています。,Not enough crystals.,0,0
+3530,TXT_ARENA_POPUP_BACK,ポップアップ_戻る,Pop-up_Back,0,0
+3531,TXT_ARENA_POPUP_UNIT,ポップアップ_ユニット情報,Pop-up_Units Info,0,0
+3532,TXT_ARENA_POPUP_GIVEUP,ポップアップ_ギブアップ,Pop-up_Give up,0,0
+3533,TXT_ARENA_POPUP_CONFIG,ポップアップ_設定,Pop-up_Options,0,0
+3534,TXT_ARENA_POPUP_HELP,ポップアップ_ヘルプ,Pop-up_Help,0,0
+3535,TXT_ARENA_RANK,位,place,0,0
+3536,TXT_ARENA_WIN,WIN,WIN,0,0
+3537,TXT_ARENA_PARTY_OK,"パーティ
+決定","Confirm
+Party",0,0
+3538,TXT_ARENA_PARTY_FORMATION,編成,Manage,0,0
+3539,TXT_ARENA_LEFT,あと,Until,0,0
+3540,TXT_ARENA_WIN_HISTORY,累計勝利数,Win/Loss Record,0,0
+3541,TXT_ARENA_BEGINNER_CLASS,初級相当の文言,Beginner Opponent Text,0,0
+3542,TXT_ARENA_MIDDLE_CLASS,中級相当の文言,Intermediate Opponent Text,0,0
+3543,TXT_ARENA_HIGH_CLASS,上級相当の文言,Advanced Opponent Text,0,0
+3544,TXT_ARENA_MAXRANK,最高クラス,Highest Class,0,0
+3545,TXT_ARENA_RANKING_AT,更新まで{0},{0} until update.,0,0
+3546,TXT_ARENA_RANKING_GET_LEFT,ランキングを取得しています…… ({0} / {1}),Obtaining Rank...... ({0} / {1}),0,0
+3547,TXT_ARENA_WIN_2,勝,WIN,0,0
+3548,TXT_ARENA_MULTIPLY,×,×,0,0
+3549,TXT_ARENA_TEMP_RANKING,暫定順位,Tentative Rank,0,0
+3550,TXT_ARENA_EXP,EXP,EXP,0,0
+3551,TXT_ARENA_RANK_REWARD,アリーナクラス報酬,Arena Class Reward,0,0
+3552,TXT_ARENA_PRESENT_SEND,(プレゼントボックスに送られます),(Sent to Gift Box),0,0
+3553,TXT_ARENA_FIGHT_ARENAMASTER,エストと戦う,Battle Est,0,0
+3555,TXT_ARENA_KEEP_REWARD,クラス維持報酬,Class Maintenance Reward,0,0
+3556,TXT_ARENA_RANKUP_BORDER,{0}～{1}％に昇格,Advanced {0}-{1}％,0,0
+3557,TXT_ARENA_KEEP_BORDER,{0}～{1}％,{0}～{1}％,0,0
+3558,TXT_ARENA_RANKUP,に昇格,Promoted in:,0,0
+3559,TXT_ARENA_POINT,アリーナPt,Arena Pt,0,0
+3560,TXT_ARENA_REWARD,アリーナ報酬,Arena Reward,0,0
+3561,TXT_ARENA_RANKUP_REWARD,クラスアップ報酬,Class Up Reward,0,0
+3562,TXT_ARENA_RANKING_WEEKLY,週間ランキング,Weekly Ranking,0,0
+3563,TXT_ARENA_RANKING_TOTAL,総合ランキング,Overall Ranking,0,0
+3564,TXT_ARENA_NEXT_WINREWARD,あと{0}勝で,{0} wins to,0,0
+3565,TXT_TOTALWIN_REWARD,{0}回勝利達成報酬,Reward for {0} victories.,0,0
+3566,TXT_QUEST_SEND_MESSAGE,"上限を超えていたため、
+プレゼントに送られました。",0,0,0
+3601,TXT_SORT_TITLE_USER,ソート,Sort,0,0
+3602,TXT_SORT_TITLE_UNIT,ソート,Sort,0,0
+3603,TXT_SORT_TITLE_ITEM,ソート,Sort,0,0
+3604,TXT_SORT_TITLE_STONE,ソート,Sort,0,0
+3605,TXT_SORT_TITLE_MATERIAL,ソート,Sort,0,0
+3606,TXT_SORT_TITLE_FRIEND,ソート,Sort,0,0
+3607,TXT_SORT_TITLE_ITEM_RECIPE,ソート,Sort,0,0
+3608,TXT_SORT_TITLE_UNIT_LIST,ソート,Sort,0,0
+3609,TXT_SORT_TITLE_ITEM_LIST,ソート,Sort,0,0
+3610,TXT_SORT_TITLE_MATERIAL_LIST,ソート,Sort,0,0
+3611,TXT_SORT_LIST_TYPE,属性順,Element,0,0
+3612,TXT_SORT_LIST_LEVEL,レベル順,Lv,0,0
+3613,TXT_SORT_LIST_LUCK,運のよさ順,Luck,0,0
+3614,TXT_SORT_LIST_HP,HP順,HP,0,0
+3615,TXT_SORT_LIST_ATTACK,攻撃力順,ATK,0,0
+3616,TXT_SORT_LIST_DEFENSE,防御力順,DEF,0,0
+3617,TXT_SORT_LIST_RACE,種族順,Race,0,0
+3618,TXT_SORT_LIST_RARITY,レアリティ順,Rarity,0,0
+3619,TXT_SORT_LIST_GET,入手順,Obtained,0,0
+3620,TXT_SORT_OTHER_RANK,ランク順,Rank,0,0
+3621,TXT_SORT_OTHER_LASTPLAY,最終プレイ順,Last Played,0,0
+3622,TXT_SORT_OTHER_ELEMENTAL,属性順,Element,0,0
+3623,TXT_SORT_OTHER_LUCK,運順,Luck,0,0
+3624,TXT_SORT_OTHER_FAVORITE,お気に入り順,Favorites,0,0
+3625,TXT_SORT_OTHER_LEVEL,Lv順,Lv,0,0
+3626,TXT_SORT,ソート,Sort,0,0
+3627,TXT_FILTER,フィルタ,Filters,0,0
+3628,TXT_SORT_TITLE_COOK,料理ソート／フィルタ,Food Sort/Filter,0,0
+3629,TXT_SORT_ASCEND,昇順,Ascending,0,0
+3630,TXT_SORT_DESCEND,降順,Descending,0,0
+3631,TXT_SORT_DECISION,決定,Set,0,0
+3632,TXT_UNIT_SORT_TITLE_ELEMENT,属性順,Element,0,0
+3633,TXT_UNIT_SORT_TITLE_LEVEL,レベル順,Lv,0,0
+3634,TXT_UNIT_SORT_TITLE_LUCK,運のよさ順,Luck,0,0
+3635,TXT_UNIT_SORT_TITLE_HP,HP順,HP,0,0
+3636,TXT_UNIT_SORT_TITLE_ATTACK,攻撃力順,ATK,0,0
+3637,TXT_UNIT_SORT_TITLE_DEFENSE,防御力順,DEF,0,0
+3638,TXT_UNIT_SORT_TITLE_RACE,種族順,Race,0,0
+3639,TXT_UNIT_SORT_TITLE_RARITY,レアリティ順,Rarity,0,0
+3640,TXT_UNIT_SORT_TITLE_GETORDER,入手順,Obtained,0,0
+3641,TXT_SORT_OTHER_LIMIT_BREAK,限界突破順,Limit Break,0,0
+3642,TXT_ITEM_SORT_TITLE_TYPE,装備タイプ,Equipment,0,0
+3643,TXT_ITEM_SORT_TITLE_RARITY,レアリティ,Rarity,0,0
+3644,TXT_ITEM_SORT_TITLE_EVOLUTIONLEVEL,強化,Enhance,0,0
+3645,TXT_ITEM_SORT_TITLE_LIMITBREAK,限界突破順,Limit Break,0,0
+3646,TXT_ITEM_SORT_TITLE_BYGOTAT,入手日時,date,0,0
+3647,TXT_SORT_TITLE,{0}・{1},{0}・{1},0,0
+3648,TXT_SORT_ODRER_ASC,昇順,Ascending,0,0
+3649,TXT_SORT_ODRER_DESC,降順,Descending,0,0
+3650,TXT_RECIPE_SORT_TITLE_TYPE,装備タイプ,Equipment,0,0
+3651,TXT_RECIPE_SORT_TITLE_RARITY,レアリティ,Rarity,0,0
+3652,TXT_RECIPE_SORT_TITLE_EVOLUTIONLEVEL,強化,Enhance,0,0
+3653,TXT_RECIPE_SORT_TITLE_LIMITBREAK,限界突破,Break Limit,0,0
+3654,TXT_RECIPE_SORT_TITLE_BYGOTAT,入手日時,date,0,0
+3655,TXT_FOOD_SORT_TITLE_GETTIME,入手順,Obtained,0,0
+3656,TXT_FOOD_SORT_TITLE_NUMBER,所持数,Held,0,0
+3657,TXT_FOOD_SORT_TITLE_INDEX,図鑑No,Compendium No,0,0
+3658,TXT_FOOD_SORT_TITLE_LEVEL,熟練度,Proficiency,0,0
+3659,TXT_ARENA_EXCHANGE,アリーナ交換所,Arena Exchange,0,0
+3701,TXT_OVERCAPACITY_UNIT,"ユニット枠がいっぱいです。
+枠を拡張するか、強化・売却を行って
+所持枠に空きを作ってください。",Your Units have reached the limit. Make space by increasing your equipment limit or selling/enhancing equipment.,0,0
+3702,TXT_OVERCAPACITY_ITEM,"装備枠がいっぱいです。
+枠を拡張するか、強化・売却を行って
+所持枠に空きを作ってください。",Your Equip inventory is full. Make space by increasing your equipment limit or selling/enhancing equipment.,0,0
+3801,TXT_ORB_SHOP,交換,Exchange,0,0
+3802,TXT_ORB_SUMMON,錬金召喚,Alch Summon,0,0
+3803,TXT_ITEM_POPUP_SALE,売却する,Sell,0,0
+3805,TXT_TITLE_ITEM_SALE,装備売却,Sell Equip,0,0
+3806,TXT_TITLE_UNIT_SALE,ユニット売却,Sell Unit,0,0
+3807,TXT_ORB_GACHA_TITLE,錬金召喚,Alch Summon,0,0
+3808,TXT_ORB_GACHA_TEXT,"錬金石を{0}個消費して
+錬金召喚を行いますか？","Use {0} Alchemy Stones
+to perform an Alch Summon?",0,0
+3809,TXT_ORB_SHOP_EXCHANGED,{0}と交換完了しました。,Exchanged for {0}.,0,0
+3810,TXT_ORB_SHOP_WARNING_EXCHANGE_UPPERLIMIT,これ以上交換できません。,Cannot exchange any more.,0,0
+3811,TXT_ORB_SHOP_WARNING_SHORTAGE,錬金石が不足しています。,Not enough Alchemy Stones.,0,0
+3812,TXT_ORB_SHOP_WARNING_SHORTAGE2,メダルが不足しています。,Not enough Medals.,0,0
+3901,TXT_POPUP_OK,OK,OK,0,0
+3902,TXT_POPUP_CANCEL,キャンセル,Cancel,0,0
+3903,TXT_POPUP_DISCARD_01,破棄する,Discard,0,0
+3904,TXT_POPUP_DISCARD_02,破棄,Discard,0,0
+3905,TXT_POPUP_LIMITBREAK_01,拡張する,Increase,0,0
+3906,TXT_POPUP_LIMITBREAK_02,拡張,Increase,0,0
+3907,TXT_POPUP_SALE_01,売却する,Sell,0,0
+3908,TXT_POPUP_SALE_02,売却,Sell,0,0
+3909,TXT_POPUP_STONEMAKE_01,魔石化する,Convert to Magic Stones,0,0
+3910,TXT_POPUP_STONEMAKE_02,魔石化,Magic Stone Conversion,0,0
+3911,TXT_POPUP_STRENGTHENING_01,強化する,Enhance,0,0
+3912,TXT_POPUP_STRENGTHENING_02,強化,Enhance,0,0
+3913,TXT_POPUP_DISSOLUTION,解散する,Remove,0,0
+3914,TXT_POPUP_DEPARTURES,出発する,Deploy,0,0
+3915,TXT_POPUP_EXIT,退出する,Exit,0,0
+3916,TXT_POPUP_CREATEROOM,ルームを作る,Make a Lobby,0,0
+3917,TXT_POPUP_JOIN,参加する,Join,0,0
+3918,TXT_POPUP_ENERGY,回復する,Restore,0,0
+3919,TXT_POPUP_BUY,購入する,Purchase,0,0
+3920,TXT_POPUP_ISSUE,発行する,Publish,0,0
+3921,TXT_POPUP_OVERWRITE,上書きする,Overwrite,0,0
+3922,TXT_POPUP_SET,セットする,Set,0,0
+3923,TXT_POPUP_GET_01,取得する,Receive,0,0
+3924,TXT_POPUP_GET_02,受け取る,Claim,0,0
+3925,TXT_POPUP_GET_ALL,一括受取,Claim All,0,0
+3926,TXT_POPUP_SUMMON,召喚する,Summon,0,0
+3927,TXT_POPUP_DIFFICULT,他難易度に参加,Join at Other Difficulty,0,0
+3928,TXT_POPUP_PERMIT,承認,Accept,0,0
+3929,TXT_POPUP_RESIGN,キャンセル,Cancel,0,0
+3930,TXT_POPUP_ROMOVE,外す,Remove,0,0
+3931,TXT_POPUP_DELETE,削除,Delete,0,0
+3932,TXT_POPUP_SEARCH,検索,Search,0,0
+3933,TXT_POPUP_UNIT,ユニット情報,Units Info,0,0
+3934,TXT_POPUP_GIVEUP,ギブアップ,Give up,0,0
+3935,TXT_POPUP_CONFIG,設定,Options,0,0
+3936,TXT_POPUP_HELP,ヘルプ,Help,0,0
+3937,TXT_POPUP_RETRY,リトライする,Retry,0,0
+3938,TXT_POPUP_EQUIPMENT_CHANGE,入れ替えますか？,Change?,0,0
+3939,TXT_POPUP_CLOSE,閉じる,Close,0,0
+3940,TXT_POPUP_SCENARIO_SKIP,スキップする,Skip,0,0
+3941,TXT_POPUP_SCENARIO_SKIP_CANCEL,キャンセル,Cancel,0,0
+3942,TXT_POPUP_DO_SKIP_SCENARIO,スキップしますか？,Do you skip?,0,0
+3943,TXT_POPUP_ENERGY_ERROR,"体力が足りません。
+クリスタルを1個消費して
+体力を最大値分回復できます。","Not enough energy. 
+You can use 1 crystal to
+restore your energy to maximum.",0,0
+3944,TXT_POPUP_ENERGY_ERROR_BUY_DIAMOND,"クリスタルが不足しています。
+購入しますか？","Not enough crystals. 
+Purchase?",0,0
+3945,TXT_POPUP_UNIT_ERROR,"ユニット枠がいっぱいです。
+クリスタルを{0}個消費して
+ユニット枠を{1}枠拡張できます。","Your Units have reached the limit. 
+You can use {0} crystals
+ to increase Unit Limit by {1}.",0,0
+3946,TXT_POPUP_UNIT_ERROR_BUY_DIAMOND,"クリスタルが不足しています。
+購入しますか？","Not enough crystals. 
+Purchase?",0,0
+3947,TXT_POPUP_TUTORIAL_CHOOSE_SWORD_MASTER,"{0}を選択します。
+よろしいですか？","Choose {0}.  
+Is that OK?",0,0
+3948,TXT_POPUP_ITEM_ERROR,"装備枠がいっぱいです。
+クリスタルを{0}個消費して
+装備枠を{1}枠拡張できます。","Your Equip inventory is full. 
+You can use {0} crystals
+ to increase Equipment Limit by {1}.",0,0
+3949,TXT_POPUP_ITEM_ERROR_BUY_DIAMOND,"クリスタルが不足しています。
+購入しますか？","Not enough crystals. 
+Purchase?",0,0
+3950,TXT_POPUP_ALL_RESURRECTION,全回復,Restore all.,0,0
+3951,TXT_POPUP_RETIRE,リタイア,Quit,0,0
+3952,TXT_POPUP_BACK_TO_BATTLE,バトルに戻る,Return to battle.,0,0
+3953,TXT_POPUP_CONFIRM_RETIRE,"リタイア・リスタート確認
+
+
+リタイア、またはリスタートするとクエスト中に獲得した宝箱、ユニット、グランは失われます。","Do you want to quit? 
+
+(If you quit, the quest will count as failed, and any treasure, crystals or Gren acquired will be lost.)",0,0
+3954,TXT_POPUP_DLM_UPDATE_FAILED,リトライしますか？,Do you retry?,0,0
+3955,TXT_POPUP_CONTINUE,コンティニュー,Continue,0,0
+3956,TXT_POPUP_CONFIRM_CONTINUE,"クリスタルを 1 個消費して、
+全ユニットを回復させますか？
+
+所持クリスタル　{0}個","Use 1 crystal
+to completely restore all units? 
+
+Crystals held: {0}",0,0
+3957,TXT_NETWORK_ERROR_RESPONSE,通信に失敗しました,Transmission error.,0,0
+3958,TXT_BATTLE_MULTIPLAY_RETIRE,リタイアが選択されました。,"""Quit"" was selected.",0,0
+3959,TXT_POPUP_EXCHANGE,交換する,Exchange,0,0
+3960,TXT_POPUP_CONFIRM_RETIRE_ARENA,リタイアしますか？,Do you want to quit?,0,0
+3961,TXT_POPUP_ARENAORB_ERROR,"オーブが足りません。
+クリスタルを1個消費して
+オーブを5回復できます。","Not enough orbs. 
+You can use 1 crystal to
+restore 5 orbs..",0,0
+3962,TXT_POPUP_RAID_ORB_ERROR,"レイドオーブが足りません。
+クリスタルを1個消費して
+レイドオーブを{0}回復できます。",0,0,0
+3963,TXT_SUMMON_TITLE_40004,ユニット召喚,,0,0
+3964,TXT_SUMMON_TITLE_40008,ユニット召喚,0,0,0
+4001,TXT_COOK,料理屋,Diner,0,0
+4002,TXT_COOK_LIST,レシピ選択,Select Recipe,0,0
+4003,TXT_COOK_HAVE_LIST,料理一覧,Food List,0,0
+4004,TXT_COOK_MAKE_PAGE,料理生成,Cook,0,0
+4005,TXT_COOK_MAKE_COIN_ERROR,グラン不足,Not Enough Gren,0,0
+4006,TXT_COOK_MAKE_ERROR,素材不足,Insufficient,0,0
+4007,TXT_COOK_LIMIT_BREAK,これ以上作成できません,You cannot make any more.,0,0
+4101,TXT_GUILD_LIST,サブクエスト一覧,Subquest List,0,0
+4102,TXT_GUILD_ORDER,受注する,Claim,0,0
+4103,TXT_GUILD_QUIT,破棄する,Discard,0,0
+4201,TXT_PAGE_TITLE_MYHOME,ホーム,Home,0,0
+4202,TXT_PAGE_TITLE_UNIT,ユニット,Units,0,0
+4203,TXT_PAGE_TITLE_FOUNDATION,拠点,Base,0,0
+4204,TXT_PAGE_TITLE_SHOP,ショップ,Shop,0,0
+4205,TXT_PAGE_TITLE_GACHA,ガチャ,Gacha,0,0
+4206,TXT_PAGE_TITLE_FRIEND,フレンド,Friend,0,0
+4301,TXT_DIALOG_WILL_YOU_EXTEND_FRIEND_LIST_CAPACITY,"フレンドリストに空きがありません。
+クリスタルを{0}個消費してフレンド枠を拡張しますか？","Your friend list is full. 
+Use {0} crystals to increase your Friend Limit?",0,0
+4302,TXT_DIALOG_DIAMOND_IS_NOT_ENOUGH,クリスタルが不足しています,Not enough crystals.,0,0
+4303,TXT_DIALOG_FRIEND_LIST_CAPACITY_IS_MAX,フレンド枠は最大です,Friend Limit is at max.,0,0
+4304,TXT_DIALOG_YOUR_NUMBER_OF_DIAMONDS,所持クリスタルは{0}個,Crystals Held: {0},0,0
+4305,TXT_DIALOG_EXTENDED_FRIEND_LIST_CAPACITY,クリスタルを{0}個消費してフレンド枠を拡張しました,Used {0} crystals to increase your Friend Limit.,0,0
+4306,TXT_DIALOG_EXTEND,拡張する,Increase,0,0
+4401,TXT_QUEST_MISSION_01,助っ人なしでクリア,Clear without guest.,0,0
+4402,TXT_QUEST_MISSION_02,1人も倒れずクリア,Clear with no deaths.,0,0
+4403,TXT_QUEST_MISSION_03,{0}コンボ以上達成,Achieve a {0}  combo.,0,0
+4404,TXT_QUEST_MISSION_04,Breakダメージ{0},Break Damage {0},0,0
+4405,TXT_QUEST_MISSION_05,パーティ{0}体以内,{0} or fewer party members.,0,0
+4406,TXT_QUEST_MISSION_06,同ユニットなしでクリア,Clear without identical units.,0,0
+4407,TXT_QUEST_MISSION_07,奥義でトドメをさす,Finish it off with Arts.,0,0
+4408,TXT_QUEST_MISSION_08,{0}秒以内でクリア,Clear within {0} seconds.,0,0
+4409,TXT_QUEST_MISSION_09,コンティニューなし,No continues.,0,0
+4410,TXT_QUEST_MISSION_10,{0}属性のみでクリア,Clear with only {0} elements.,0,0
+4411,TXT_QUEST_MISSION_11,{0}の装備スキル発動なし,No {0} type equipment skills.,0,0
+4412,TXT_QUEST_MISSION_12,状態異常にならずクリア,No status ailments.,0,0
+4413,TXT_QUEST_MISSION_13,{0}を編成してクリア,0,0,0
+4414,TXT_QUEST_MISSION_13_JOIN,{0}と{1},0,0,0
+4415,TXT_UNIT_PICTUREBOOK_ANIM_NAME_0,通常攻撃,0,0,0
+4416,TXT_UNIT_PICTUREBOOK_ANIM_NAME_1,スキル,0,0,0
+4417,TXT_UNIT_PICTUREBOOK_ANIM_NAME_2,奥義,0,0,0
+4418,TXT_UNIT_PICTUREBOOK_ANIM_NAME_3,真奥義,0,0,0
+4501,TXT_STAMP_FORMATION,スタンプ編成,Manage Stickers,0,0
+4502,TXT_STAMP_LIST,所持スタンプ,Stickers Held,0,0
+4503,TXT_STAMP_SET,スタンプセット,Set Sticker,0,0
+4504,TXT_STAMP_MODIFY,変更,Update,0,0
+4505,TXT_STAMP_CHANGE,入れ替え,Change,0,0
+4506,TXT_STAMP_SET_NOW,セット中,Currently Set,0,0
+4507,TXT_STAMP_FORMATION_OK,決定する,Confirm,0,0
+4508,TXT_STAMP_SELECT_BUTTON,スタンプ編成,Manage Stickers,0,0
+4509,TXT_STAMP_DRAW_BUTTON,スタンプ,Sticker,0,0
+4510,TXT_QUEST_MISSION_14,{}回以内に継戦クエストクリア,0,0,0
+4511,TXT_QUEST_MISSION_15,{}億以上のダメージを与えてクリア,,,
+4512,TXT_QUEST_MISSION_16,{}万以上のダメージを与えてクリア,,,
+5001,TXT_UNIT_POPUP_OK,ポップアップ-OK,Pop-up-OK,0,0
+5002,TXT_UNIT_POPUP_CANCEL,ポップアップ-キャンセル,Pop-up-Cancel,0,0
+5003,TXT_UNIT_POPUP_DISCARD,ポップアップ-破棄する,Pop-up-Discard,0,0
+5004,TXT_UNIT_POPUP_STRENGTHENING,ポップアップ-強化する,Pop-up-Enhance,0,0
+5005,TXT_UNIT_POPUP_SALE,ポップアップ-売却する,Pop-up-Sell,0,0
+5006,TXT_WORLD_POPUP_OK,ポップアップ-OK,Pop-up-OK,0,0
+5007,TXT_WORLD_POPUP_CANCEL,ポップアップ-キャンセル,Pop-up-Cancel,0,0
+5008,TXT_WORLD_POPUP_DISSOLUTION,ポップアップ-解散する,Pop-up-Clear,0,0
+5009,TXT_WORLD_POPUP_DEPARTURES,ポップアップ-出発する,Pop-up-Deploy,0,0
+5010,TXT_WORLD_POPUP_EXIT,ポップアップ-退出する,Pop-up-Leave,0,0
+5011,TXT_WORLD_POPUP_CREATEROOM,ポップアップ-ルームを作る,Pop-up-Make a Room,0,0
+5012,TXT_WORLD_POPUP_DIFFICULT,ポップアップ-他難易度に参加,Pop-up-Join at Other Difficulty,0,0
+5013,TXT_WORLD_POPUP_JOIN,ポップアップ-参加する,Pop-up-Join,0,0
+5014,TXT_WORLD_POPUP_LIMIT,ポップアップ-拡張する,Pop-up-Increase,0,0
+5015,TXT_SHOP_POPUP_OK,ポップアップ-OK,Pop-up-OK,0,0
+5016,TXT_SHOP_POPUP_CANCEL,ポップアップ-キャンセル,Pop-up-Cancel,0,0
+5017,TXT_SHOP_POPUP_ENERGY,ポップアップ-回復する,Pop-up-Restore,0,0
+5018,TXT_SHOP_POPUP_BUY_DIAMOND,ポップアップ-購入する,Pop-up-Purchase,0,0
+5019,TXT_SHOP_POPUP_LIMIT,ポップアップ-拡張する,Pop-up-Increase,0,0
+5020,TXT_PRESENT_POPUP_OK,ポップアップ-OK,Pop-up-OK,0,0
+5021,TXT_PRESENT_POPUP_CANCEL,ポップアップ-キャンセル,Pop-up-Cancel,0,0
+5022,TXT_PRESENT_POPUP_LIMIT,ポップアップ-拡張する,Pop-up-Increase,0,0
+5023,TXT_PRESENT_POPUP_SALE,ポップアップ-売却する,Pop-up-Sell,0,0
+5024,TXT_FRIEND_POPUP_ROMOVE,ポップアップ-外す,Pop-up-Remove,0,0
+5025,TXT_FRIEND_POPUP_PERMIT,ポップアップ-承認,Pop-up-Confirm,0,0
+5026,TXT_FRIEND_POPUP_DELETE,ポップアップ-削除,Pop-up-Delete,0,0
+5027,TXT_MENU_POPUP_OK,ポップアップ_OK,Pop-up-OK,0,0
+5028,TXT_MENU_POPUP_ISSUE,ポップアップ_発行する,Pop-up_Publish,0,0
+5029,TXT_WORKSHOP_POPUP_CANCEL,ポップアップ_キャンセル,Pop-up-Cancel,0,0
+5030,TXT_WORKSHOP_POPUP_MAKE,ポップアップ_魔石化する,Pop-up_Convert to Magic Stones,0,0
+5031,TXT_WORKSHOP_POPUP_OVERWRITE,ポップアップ_上書きする,Pop-up_Overwrite,0,0
+5032,TXT_WORKSHOP_POPUP_SET,ポップアップ_セットする,Pop-up_Set,0,0
+5033,TXT_WORKSHOP_POPUP_BACK,ポップアップ_破棄する,Pop-up_Discard,0,0
+5034,TXT_TEMPLE_POPUP_CANCEL,ポップアップ_キャンセル,Pop-up-Cancel,0,0
+5035,TXT_TEMPLE_POPUP_GET,ポップアップ_取得する,Pop-up_Obtain,0,0
+5036,TXT_BLACKSMITH_POPUP_,ポップアップ_拡張,Pop-up_Increase,0,0
+5037,TXT_GUILD_POPUP_OK,ポップアップ_OK,Pop-up_OK,0,0
+5038,TXT_GUILD_POPUP_BACK,ポップアップ_戻る,Pop-up_Back,0,0
+5039,TXT_GUILD_POPUP_QUIT,ポップアップ_破棄,Pop-up_Discard,0,0
+5040,TXT_GUILD_POPUP_RESIGN,ポップアップ_キャンセル,Pop-up_Cancel,0,0
+5041,TXT_GUILD_POPUP_SALE,ポップアップ_売却,Pop-up_Sell,0,0
+5042,TXT_GUILD_POPUP_STRENGTHENING,ポップアップ_合成,Pop-up_Fuse,0,0
+5043,TXT_GUILD_POPUP_LIMIT,ポップアップ_拡張,Pop-up_Increase,0,0
+5044,TXT_GUILD_POPUP_MATERIA,ポップアップ_魔石化,Pop-up_Convert to Magic Stones,0,0
+5045,TXT_SUMMON_POPUP_CANCEL,ポップアップ_キャンセル,Pop-up_Cancel,0,0
+5046,TXT_SUMMON_POPUP_GO,ポップアップ_召喚する,Pop-up_Summon,0,0
+5047,TXT_SUMMON_POPUP_BUY,ポップアップ_購入する,Pop-up_Purchase,0,0
+5048,TXT_GUILD_POPUP_DELIVER,"{0}を納品します。
+よろしいですか？","Turning in {0}. 
+Is that OK?",0,0
+5049,TXT_SUMMON_TIME_FORMAT,%-m月%-d日 %H:%M,%-mMth%-dD %H:%M,0,0
+5050,TXT_SUMMON_TIME_LIMIT, {0}まで,until {0},0,0
+5101,TXT_WORLD_INPUT_NUMBER_ERROR,6桁の数字を入力して下さい。,Please enter a 6 digit number.,0,0
+5102,TXT_WORLD_ENTRANCE_ROOM_ERROR,既にルームが埋まっています,The lobby is already full.,0,0
+5103,TXT_WORLD_TEMPLE_DUNGEON,封印域,Sealed Area,0,0
+5104,TXT_QUEST_MISSION_PROGRESS,ミッション進行度,Mission Progress,0,0
+5105,TXT_WORLD_ROOM_KICK,キックする,Kick,0,0
+5106,TXT_WORLD_ROOM_LEADER_ONLY,ルームの人数が増えたので、2体目のユニットが出撃できなくなりました。,"Due to crowding, second units cannot be deployed.",0,0
+5107,TXT_WORLD_ROOM_WAIT_DOWNLOAD,DLが終わっていないプレイヤーがいるため出撃できません。,"Some players have not completed the DL, so cannot deploy.",0,0
+5108,TXT_WORLD_ROOM_NONE_PLAYER,最低2人いないと出撃できません。,Cannot deploy without at least 2 players.,0,0
+5109,TXT_WORLD_ROOM_WAIT_PLAYER,準備完了していないプレイヤーがいます。,Some players have not yet completed preparations.,0,0
+5110,TXT_WORLD_MULTI_GO,出発する,Deploy,0,0
+5111,TXT_WORLD_ROOM_DELETE_CONFIRM,ルームを解散しますか？,Clear room?,0,0
+5112,TXT_WORLD_ROOM_EXIT_CONFIRM,ルームから退出しますか？,Leave room?,0,0
+5113,TXT_WORLD_WEEK_DUNGEON_1001,闇の素材,Dark Materials,0,0
+5114,TXT_WORLD_WEEK_DUNGEON_1002,炎の素材,Flame Materials,0,0
+5115,TXT_WORLD_WEEK_DUNGEON_1003,水の素材,Water Materials,0,0
+5116,TXT_WORLD_WEEK_DUNGEON_1004,樹の素材,Earth Materials,0,0
+5117,TXT_WORLD_WEEK_DUNGEON_1005,光の素材,Light Materials,0,0
+5118,TXT_WORLD_WEEK_DUNGEON_1006,大量！素材祭,Massive amounts! Materials Fest,0,0
+5119,TXT_WORLD_MULTI_FOOD_BOOST_ERROR,料理ブーストの条件を満たしていません,Food Boost conditions have not been met.,0,0
+5120,TXT_WORLD_MULTI_FOOD_BOOST,料理ブースト,Food Boost,0,0
+5121,TXT_BATTLE_RESULT_RECOVER_STAM,体力が回復しました。,Energy has been restored.,0,0
+5122,TXT_BATTLE_RESULT_CAPACITYUP_STAM,体力の上限が {0} → {1} に増えました。,Max energy has increased {0} → {1}.,0,0
+5123,TXT_BATTLE_RESULT_CAPACITYUP_PARTY,パーティ設定上限が {0} → {1} に増えました。,Party size limit has increased {0} → {1}.,0,0
+5124,TXT_BATTLE_RESULT_CAPACITYUP_FRIEND,フレンド枠が {0} → {1} に増えました。,Friend Limit has increased {0}⇒{1},0,0
+5125,TXT_WORLD_DIALOG_ROOM_KICK_ERROR,パーティから外されました。,Removed from party.,0,0
+5126,TXT_MULTIPLAY_LEAVE_HOST,ホストが退室しました。,The host has left.,0,0
+5127,TXT_MULTIPLAY_LEAVE_GUEST,{0}が退室しました。,{0} has left.,0,0
+5128,TXT_MULTIPLAY_OTHERUNIT,このユニットは操作できません。,This unit cannot be controlled.,0,0
+5129,TXT_BATTLE_STUN,このユニットは動けません。,This unit cannot move.,0,0
+5130,TXT_BATTLE_CURSE,スキルを使えない状態です。,This equipment is unusable.,0,0
+5131,TXT_MENU_CONFIG_ACTIVEMODE,ノンストップバトルモード,Nonstop battle mode.,0,0
+5132,TXT_BATTLE_RESULT_FRIEND_PAGE_END_BUTTON,次へ,Next,0,0
+5133,TXT_WORLD_ROOM_NOT_FOUND,現在参加できるルームはありません,There are no rooms you can join now.,0,0
+5134,TXT_BATTLE_DISCONNECT,ルームへの接続が切断されました。,You have been disconnected from the room.,0,0
+5135,TXT_BATTLE_RESSURECTION,全ユニットが回復しました。,All units restored.,0,0
+5136,TXT_WORLD_MULTI_FOOD_BOOST_CLOSE,※料理ブーストの期限を過ぎています。,Note: Food Boost limit is past.,0,0
+5137,TXT_WORLD_SCENARIO_QUEST,外伝クエスト,Side story,0,0
+5138,TXT_WORLD_MULTI_ROOM_UPDATE,更新,Update,0,0
+5139,TXT_WORLD_MULTI_ROOM_UPDATE_RETRY,"既にルームが埋まっています。
+再度更新しますか？","The lobby is already full. 
+Try again?",0,0
+5141,TXT_WORLD_DIALOG_NO_SPACE_ERROR,"端末の空き容量が不足しています。
+ルームを抜けて前のページに戻ります。","Not enough free space on device. 
+Leave room and return to previous page.",0,0
+5142,TXT_LIMITED_DUNGEON_NUM,本日あと{0}回,{0} more tries today.,0,0
+5143,TXT_SPECIAL_SUMMON,★5進化確定11連,11 ★5 Evolved Summons,0,0
+5145,TXT_SPECIAL_SUMMON_MESSAGE,"クリスタルを{0}個消費して
+★5進化確定11連を行いますか？
+※★5進化ユニットが1体出現します","Use {0} crystals
+to perform 11 ★5 Evolved Summons? 
+ Note: Only one ★5 Evolved unit will appear.",0,0
+5146,TXT_SUMMON_20036_MESSAGE_02,"クリスタルを{0}個消費して
+★5進化確定11連を行いますか？
+※★5進化ユニットが1体出現します","Use {0} crystals
+to perform 11 ★5 Evolved Summons? 
+ Note: Only one ★5 Evolved unit will appear.",0,0
+5147,TXT_SUMMON_20036_10,【3回限定】★5進化確定11連,【Limited to 3】11 ★5 Evolved Summons,0,0
+5148,TXT_SUMMON_35022_MESSAGE_01,"1日1回無料宝具召喚を
+行いますか？
+毎日AM4:00にリセットされます","Perform your daily free
+ Equipment Summon? 
+ Resets every day at 4:00 AM.",0,0
+5149,TXT_SUMMON_35022,無料宝具召喚,Free Equipment Summon,0,0
+5150,TXT_SUMMON_15052,限定英雄召喚,Hero Summon,0,0
+5151,TXT_SUMMON_15052_MESSAGE_01,"錬金石を{0}個消費して
+限定英雄召喚を行いますか？
+※ユニットは1体のみ出現します。","Use {0} Alchemy Stones
+to perform a Limited Hero Summon? 
+ Note: Only one Unit will appear.",0,0
+5152,TXT_SUMMON_35027_MESSAGE_01,"1日1回無料宝具召喚を
+行いますか？
+毎日AM4:00にリセットされます","Perform your daily free
+ Equipment Summon? 
+ Resets every day at 4:00 AM.",0,0
+5153,TXT_SUMMON_35027,無料宝具召喚,Free Equipment Summon,0,0
+5200,TXT_DAILY_MISSION_TITLE_TODAY,今日のミッション,Today's Missions,0,0
+5201,TXT_DAILY_MISSION_TITLE_NORMAL,通常ミッション,Regular Missions,0,0
+5300,TXT_POPUP_UNLOCK_OPEN,開放する,Open,0,0
+5301,TXT_POPUP_UNLOCK_TITLE,曜日クエスト開放,Weekday Quest Open,0,0
+5302,TXT_POPUP_UNLOCK_MESSAGE,"クリスタル１個を消費してクエスト
+「{0}」を開放します
+
+
+期限：{1}
+
+所持クリスタル：{2}個","Use 1 crystal and begin quest
+""{0}""
+
+
+Time Limit:{1}
+
+ Crystal held: {2}.",0,0
+5303,TXT_POPUP_UNLOCK_DONE_OPEN,「{0}」を開放しました,"""{0}"" has been opened.",0,0
+5304,TXT_POPUP_UNLOCK_ERROR,"クエストを開放するためのクリスタルが不足しています。
+購入しますか？","Not enough crystals to begin quest. 
+Purchase?",0,0
+6001,TXT_TUTORIAL_UNIT_INIT_01,古の大戦で活躍した三剣聖の一人。最強の剣士を目指し闘いを続けたイスリーダ帝国の剣士である。三剣聖の中でも攻撃力は随一で、正面から戦いを挑み、相手を圧倒する。,"One of the 3 Blade Masters that fought in the great war. A swordsman of the Isliid Empire who dedicated his life to becoming a true master. The strongest attacker of the 3, he takes his enemies head on and overpowers them.",0,0
+6002,TXT_TUTORIAL_UNIT_INIT_02,バーミント公国の貴族でありながら、剣の道を志し、修行の旅をした三剣聖の一人。氷剣姫の呼び名にたがわない、敵を氷結させ動きを封じる強力な技を持っている。,"A noble of Bamint, this blade master dedicated her life to training in the way of the sword. Also known as the Princess of the Iceblade, she has the power to freeze enemies in their tracks.",0,0
+6003,TXT_TUTORIAL_UNIT_INIT_03,三剣聖の中でも異色の双剣使い。グラメニア共和国の剣術道場に生まれ、後にザイリュード流剣術という二刀剣術を生み出す。ブレイカータイプとして優秀な存在。,"This blade master uses multicolored twin blades. Born to a blade master family in Gramenia, he later developed his own Zairyudo double sword technique. He is an outstanding breaker.",0,0
+6004,TXT_TUTORIAL_FIRST_UNIT_SELECT,契約する,Agree,0,0
+6005,TXT_SUGOROKU_EVENT_END,期間外のイベントです。,0,0,0
+6006,TXT_SUGOROKU_DAIRY_LOGIN_DESC,"<Font Color=""#17F9FC"">毎日ログイン</Font>で<Font Color=""#FFCC00"">サイコロ{0}個</Font>ゲット！",0,0,0
+6007,TXT_SUGOROKU_SUTAMINA_USE_DESC,"<Font Color=""#17F9FC"">あと体力{0}消費</Font>で<Font Color=""#FFCC00"">サイコロもう{1}個</Font>ゲット！",0,0,0
+6008,TXT_SUGOROKU_HELP_DIALOG_TITLE_TEXT,ヘルプ,0,0,0
+6009,TXT_SUGOROKU_GET_SAIKORO_TEXT,サイコロ{0個}ゲット！,0,0,0
+6010,TXT_SUGOROKU_GET_MOVE_TEXT,{0}マスすすむ,0,0,0
+6011,TXT_SUGOROKU_GET_BACK_TEXT,{0}マスもどる,0,0,0
+7001,TXT_BATTLE_RESULT_SHARPEN_GET_POINT,刻印EXP,0,0,0
+7002,TXT_BATTLE_RESULT_SHARPEN_BONUS_TEXT,条件を達成している装備にボーナスポイント！,0,0,0
+7003,TXT_SHARPEN_NOT_SELECT_TITLE,未選択の刻印結果があります,0,0,0
+7004,TXT_SHARPEN_NOT_SELECT_DESC_TEXT,"未選択の刻印結果があります
+刻印選択画面へ移動します",0,0,0
+7005,TXT_SHARPEN_NOT_SELECT_RESUME_OK_BUTTON,OK,0,0,0
+7006,TXT_SHARPEN_RESULT_RETRY_OK_BUTTON,OK,0,0,0
+7007,TXT_SHARPEN_RESULT_RETRY_CANCEL_BUTTON,キャンセル,0,0,0
+7008,TXT_SHARPEN_RESULT_RETRY_TITLE,刻印選択確認,0,0,0
+7009,TXT_SHARPEN_RESULT_RETRY_DESC_TEXT,刻印EXPを消費してもう一度刻印を行いますか？,0,0,0
+7010,TXT_SHARPEN_RESULT_SELECT_OK_BUTTON,OK,0,0,0
+7011,TXT_SHARPEN_RESULT_SELECT_CANCEL_BUTTON,キャンセル,0,0,0
+7012,TXT_SHARPEN_RESULT_SELECT_TITLE,刻印決定確認,0,0,0
+7013,TXT_SHARPEN_RESULT_SELECT_DESC_TEXT,この刻印結果で決定しますか？,0,0,0
+7014,TXT_SHARPEN_CHECK_OK_BUTTON,OK,0,0,0
+7015,TXT_SHARPEN_CHECK_CANCEL_BUTTON,キャンセル,0,0,0
+7016,TXT_SHARPEN_CHECK_TITLE,刻印確認,0,0,0
+7017,TXT_SHARPEN_CHECK_DESC_TEXT,"刻印EXPを消費して刻印を行いますか？
+
+獲得できるアビリティは「詳細」ボタンから確認できます",0,0,0
+7018,TXT_SHARPEN_HELP_DETAIL_OK_BUTTON,閉じる,0,0,0
+7019,TXT_SHARPEN_HELP_DETAIL_TITLE,刻印詳細,0,0,0
+7020,TXT_SHARPEN_HELP_DETAIL_ABILITY_SLOT_1_TITLE,1枠目,0,0,0
+7021,TXT_SHARPEN_HELP_DETAIL_ABILITY_SLOT_2_TITLE,2枠目,0,0,0
+7022,TXT_SHARPEN_HELP_DETAIL_ABILITY_SLOT_3_TITLE,3枠目,0,0,0
+10030,TXT_HISTORY_NONE,再生できる歴史がありません。,No history to replay,0,0
+20001,MULTI_ERROR_TYPE001,通信エラーが発生しました,0,0,0
+20002,MULTI_ERROR_TYPE002,ルームに接続できませんでした,0,0,0
+20003,MULTI_ERROR_TYPE003,ルームから切断されました,0,0,0
+30001,TXT_ITEM_KEY_001,メタルチキンの鍵,Metal Chicken Key,0,0
+30002,TXT_ITEM_KEY_002,ゴルネコの鍵,Golcat Key,0,0
+30003,TXT_ITEM_KEY_003,タスモンの鍵,Tasmon Key,0,0
+30004,TXT_NAME_GOLDMEDAL,ゴールドメダル,Gold Medal,0,0
+31001,TXT_ITEM_UNIT_LIMIT_BREAK_01,ユニット限突石,Unit LB Stone,0,0
+32001,TXT_ITEM_WEAPON_LIMIT_BREAK_01,装備限突石「物攻」,Equip LB Stone-Phys,0,0
+32002,TXT_ITEM_WEAPON_LIMIT_BREAK_02,装備限突石「魔攻」,Equip LB Stone-Mag,0,0
+32003,TXT_ITEM_WEAPON_LIMIT_BREAK_03,装備限突石「防御」,Equip LB Stone-DEF,0,0
+32004,TXT_ITEM_WEAPON_LIMIT_BREAK_04,装備限突石「回復」,Equip LB Stone-Heal,0,0
+32005,TXT_ITEM_WEAPON_LIMIT_BREAK_05,装備限突石「援護」,Equip LB Stone-Sup,0,0
+50001,TXT_NAME_EXP,ユニット経験値,Units EXP,0,0
+50002,TXT_NAME_COIN,グラン,Gren,0,0
+50003,TXT_NAME_FORTUNE_EXP,運経験値,Luck EXP,0,0
+50004,TXT_NAME_USER_EXP,プレイヤー経験値,Player EXP,0,0
+50005,TXT_NAME_MATERIAL,素材,Materials,0,0
+50006,TXT_NAME_STONE,※魔石＜廃止＞,*Magic Stones <Cancelled>,0,0
+50007,TXT_NAME_RECIPE,{0}のレシピ,Recipe for {0},0,0
+50008,TXT_NAME_ITEM,装備,Equipment,0,0
+50009,TXT_NAME_UNIT,ユニット,Units,0,0
+50010,TXT_NAME_GACHA_POINT,※ガチャpt＜廃止＞,*Gacha pts. <Cancelled>,0,0
+50011,TXT_NAME_DIA,クリスタル,Crystal,0,0
+50012,TXT_NAME_STAMP,スタンプ,Sticker,0,0
+50013,TXT_NAME_FOOD,料理,Food,0,0
+50014,TXT_NAME_COOKING_RECIPE,{0}のレシピ,Recipe for {0},0,0
+50015,TXT_NAME_ORB,錬金石,Alchemy Stones,0,0
+50016,TXT_NAME_MISSION_UNLOCK_ITEM,サブクエスト,Subquests,0,0
+50017,TXT_NAME_STAMP_SET,スタンプセット,Set Sticker,0,0
+50018,TXT_NAME_UNIT_COUNT_MAX,ユニット枠,Unit Limit,0,0
+50019,TXT_NAME_ITEM_COUNT_MAX,装備枠,Equipment Limit,0,0
+50020,TXT_NAME_FRIEND_COUNT_MAX,フレンド枠,Friends Limit,0,0
+50021,TXT_NAME_ITEM_KEY_001,メタルチキンの鍵,Metal Chicken Key,0,0
+50022,TXT_NAME_ITEM_KEY_002,ゴルネコの鍵,Golcat Key,0,0
+50023,TXT_NAME_ITEM_KEY_003,タスモンの鍵,Tasmon Key,0,0
+50024,TXT_NAME_ITEM_UNIT_LIMIT_BREAK_01,ユニット限突石,Unit LB Stone,0,0
+50025,TXT_NAME_ITEM_WEAPON_LIMIT_BREAK_01,装備限突石「物攻」,Equip LB Stone-Phys,0,0
+50026,TXT_NAME_ITEM_WEAPON_LIMIT_BREAK_02,装備限突石「魔攻」,Equip LB Stone-Mag,0,0
+50027,TXT_NAME_ITEM_WEAPON_LIMIT_BREAK_03,装備限突石「防御」,Equip LB Stone-DEF,0,0
+50028,TXT_NAME_ITEM_WEAPON_LIMIT_BREAK_04,装備限突石「回復」,Equip LB Stone-Heal,0,0
+50029,TXT_NAME_ITEM_WEAPON_LIMIT_BREAK_05,装備限突石「援護」,Equip LB Stone-Sup,0,0
+60001,TXT_EVENT_SHOP_WARNING_EXCHANGE_UPPERLIMIT,これ以上交換できません。,Cannot exchange any more.,0,0
+60002,TXT_EVENT_SHOP_WARNING_SHORTAGE,{0}が不足しています。,Not enough {0}.,0,0
+60003,TXT_EVENT_SHOP,交換所,Exchange,0,0
+60004,TXT_AUTO_PARTY_SETTING_DIALOG_TITLE,おまかせ編成,0,0,0
+60005,TXT_AUTO_PARTY_SETTING_DIALOG_DESC,"おまかせ編成を行います。
+現在のパーティに上書きされますが
+よろしいですか？",0,0,0
+60006,TXT_AUTO_PARTY_SETTING_DIALOG_OK_BUTTON,編成,0,0,0
+60007,TXT_AUTO_PARTY_SETTING_DIALOG_CANCEL_BUTTON,閉じる,0,0,0
+60008,TXT_AUTO_PARTY_SETTING_NOTADD_DIALOG_TITLE,編成できませんでした,0,0,0
+60009,TXT_AUTO_PARTY_SETTING_NOTADD_DIALOG_DESC,編成できるユニットが一体も存在しませんでした。,0,0,0
+60010,TXT_AUTO_PARTY_SETTING_NOTADD_DIALOG_OK_BUTTON,OK,0,0,0
+60011,TXT_EVOL_START_CHECK_DIALOG_OK_BUTTON,覚醒する,0,0,0
+60012,TXT_EVOL_START_CHECK_DIALOG_CANCEL_BUTTON,キャンセル,0,0,0
+60013,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_0,覚醒魂だけで覚醒しますか？,0,0,0
+60014,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_0,覚醒魂だけで覚醒します。,0,0,0
+60015,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_1,魂片で覚醒しますか？,0,0,0
+60016,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_1,魂片使って覚醒します。,0,0,0
+60017,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_KAKUSEITAMASII,覚醒魂で覚醒,0,0,0
+60018,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_KAKUSEITAMASII,覚醒魂を使用して覚醒します。,0,0,0
+60019,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_KONPEN,魂片で覚醒,0,0,0
+60020,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_KONPEN,魂片を使用して覚醒します。,0,0,0
+60021,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_SINKA,進化,0,0,0
+60022,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_SINKA,素材を使用して進化します。,0,0,0
+60023,TXT_EVOL_START_CHECK_DIALOG_OK_BUTTON_KAKUSEI,覚醒する,0,0,0
+60024,TXT_EVOL_START_CHECK_DIALOG_OK_BUTTON_SINKA,進化する,0,0,0
+70001,TXT_RAID_TITLE,レイド,RAID,0,0
+70100,TXT_RAID_ELEMENT_01,炎属性,Fire Elemental,0,0
+70101,TXT_RAID_ELEMENT_02,水属性,Water Elemental,0,0
+70102,TXT_RAID_ELEMENT_03,樹属性,Earth Elemental,0,0
+70103,TXT_RAID_ELEMENT_04,光属性,Light Elemental,0,0
+70104,TXT_RAID_ELEMENT_05,闇属性,Dark Elemental,0,0
+70110,TXT_RAID_SPECIES_01,人族,Humans,0,0
+70111,TXT_RAID_SPECIES_02,獣族,Beasts,0,0
+70112,TXT_RAID_SPECIES_03,精霊族,Spirits,0,0
+70113,TXT_RAID_SPECIES_04,巨人族,Giants,0,0
+70114,TXT_RAID_SPECIES_05,機族,Machines,0,0
+70115,TXT_RAID_SPECIES_06,竜族,Dragons ,0,0
+70116,TXT_RAID_SPECIES_07,神族,Gods,0,0
+70117,TXT_RAID_SPECIES_08,魔族,Demons,0,0
+70120,TXT_RAID_BUFF_TXT,{0}のユニットのダメージが{1}%UP,0,0,0
+70121,TXT_RAID_USE_TICKET,"{0}を{1}枚使用して
+討伐隊を結成しますか？",0,0,0
+70122,TXT_RAID_ROOM_FULL,討伐隊メンバーがいっぱいです。,0,0,0
+70123,TXT_RAID_ROOM_NOTFOUND,討伐隊が見つかりません。,0,0,0
+70124,TXT_RAID_SEARCH_TITLE,討伐隊グループID検索,0,0,0
+70125,TXT_RAID_SEARCH,"下の枠内をタップし、
+グループIDを入力してください。",0,0,0
+70126,TXT_RAID_ESCAPE_TXT,逃亡まで,0,0,0
+70127,TXT_RAID_PUT_STAMP,{0} 『{1}』,0,0,0
+70128,TXT_RAID_JOIN_MEMBER,{0}さんが討伐隊に参加しました,0,0,0
+70129,TXT_RAID_BOSS_ESCAPE,"{0}に
+逃げられました",0,0,0
+70131,TXT_RAID_BOSS_END,既に終了しています,0,0,0
+70132,TXT_RAID_GROUP_NOT_FOUND,"討伐隊グループID：{0} が、
+見つかりません ",0,0,0
+70133,TXT_RAID_GROUP_CHOISE_TITLE,討伐隊選択確認,0,0,0
+70134,TXT_RAID_BOSS_SUBJUGATION,"{0}を
+撃破しました！",0,0,0
+70135,TXT_RAID_TELOP_PLAYER_DEAD, {0} が倒れました,0,0,0
+70136,TXT_RAID_TELOP_PLAYER_JOIN,{0} が参戦しました,0,0,0
+70137,TXT_RAID_TELOP_ORDER_CHANGE,{0} が {1}位に昇格しました,0,0,0
+70138,TXT_RAID_FATAL_ERROR,サーバーへの接続は切断されました,0,0,0
+70139,TXT_RAID_OVER_DURATION_ERROR,レイド開催期間は終了しました,0,0,0
+70140,TXT_RAID_NETWORK_ERROR,"通信に失敗しました
+通信環境の良い所でリトライしてください",0,0,0
+70141,TXT_RAID_GROUP_CHOICE_JOIN,"この討伐隊に参加しますか？
+（※討伐チケットは消費されません）",0,0,0
+70142,TXT_RAID_TICKET_CONSUME,x{0}を消費,0,0,0
+70143,TXT_RAID_TICKET_LACK,{0}が足りません,0,0,0
+70144,TXT_RESTRICTION_POPUP_README_TITLE,"出撃不可ユニットがパーティに存在します。
+このクエストは対象のユニットのみ出撃できます。",0,0,0
+70145,TXT_BATTLE_RESULT_RESORTIE_DESCRIPTION,同じパーティで再出撃します,0,0,0
+70146,TXT_POPUP_WORLD_ROOM_TITLE_HOST_DIALOG,パーティ確認,0,0,0
+70147,TXT_POPUP_WORLD_ROOM_TITLE_GUEST_DIALOG,周回パーティ確認,0,0,0
+70148,TXT_POPUP_WORLD_ROOM_BUTTON_INVITATION,周回パーティに招待する,0,0,0
+70149,TXT_POPUP_WORLD_ROOM_BUTTON_KICK_PARTY,パーティから外す,0,0,0
+70150,TXT_POPUP_WORLD_ROOM_BUTTON_JOIN_PARTY,参加する,0,0,0
+70151,TXT_POPUP_WORLD_ROOM_BUTTON_DEFECT_PARTY,参加しない,0,0,0
+70152,TXT_POPUP_WORLD_ROOM_DESCRIPTION_CIRCLING,"{0}さんから
+周回パーティに招待されました。
+周回パーティに入るとクエストクリア後に再度
+同じメンバーでルームが作られます。",0,0,0
+70153,TXT_WORLD_ROOM_QUEST_SELECT_BACK,変更しないで戻る,0,0,0
+70154,TXT_SUMMON_RETRY_GACHA_DECIDE_DESCRIPTION,"貯まったクリスタルと引きなおしユニットを獲得することができます。
+期間中は毎日1回引きなおし召喚に挑戦できますが、確定すると引きなおすことができなくなります。",0,0,0
+70155,TXT_SUMMON_RETRY_GACHA_DECIDE_CHECK_BOX_DESCRIPTION,このユニットで確定する,0,0,0
+70156,TXT_PRESENT_OPENED_NONE,受け取り履歴がありません,No items have been claimed.,0,0
+70157,TXT_SUMMON_RETRY_GACHA_KEEP_UNIT,キープ中,0,0,0
+70158,TXT_SAME_UNIT_ERROR,・同じユニットを編成しています。,,,
+70159,TXT_USED_UNIT_ERROR,・使用済みのユニットを編成しています。,,,
+70160,TXT_USED_ITEM_ERROR,・使用済みの装備を編成しています。,,,
+70161,TXT_EMPTY_UNIT_ERROR,・ユニットが４体編成されていません。,,,
+70500,TXT_RAID_TOTAL_DEFEAT_HELP_TEXT,"討伐可能期間：12/31～1/1
+討伐対象：特別オージュ（仮名）、特別女神（仮名）
+全体の討伐数に応じて下記の報酬がもらえます。
+※本報酬は特別レイドに参加していなくても、12/27～1/6にレイドバトルに参加して、討伐ポイントを獲得することでもらえるようになります。",,,
+70501,TXT_RAID_TOTAL_DEFEAT_VALUE_TEXT,{0}体,,,
+70502,TXT_RAID_REWARD_GET_DEFEAT_VALUE_TEXT,{0}体,,,
+70503,TXT_POPUP_FRIEND_USER_ID_COPY,プレイヤーIDをコピーしました。,0,0,0
+70504,TXT_WORLD_ROOM_CODE_COPY,ルームコードをコピーしました。,0,0,0
+70505,TXT_POPUP_DOWNLOAD_WARNING,"グラフィック・サウンドデータをDLします(約{0})
+
+データサイズが大きい場合は
+Wi-Fi環境での接続を推奨します。
+
+OKボタンを押すと
+ダウンロードが始まります。",0,0,0
+70506,TXT_RUNE_DIALOG_RUNECHANGEPIECEWARNING_DESC_LIMITED,選択しなかった紋章石は消滅します。,0,0,0
+70507,TXT_POPUP_MASTERDATA_DOWNLOAD_WARNING,"システムデータをDLします。
+(約{0})
+
+データサイズが大きい場合は
+Wi-Fi環境での接続を推奨します。
+
+OKボタンを押すと
+ダウンロードが始まります。",0,0,0
+70508,TXT_BAN,,0,0,0
+70509,TXT_IDFA_BAN,,0,0,0
+70510,TXT_IDFA_BAN_NODATA,,0,0,0
+70511,TXT_NO_USERDATA,,0,0,0
+80001,TXT_LOCAL_PUSH_STAMINA_TITLE,体力が回復しました。,0,0,0
+80002,TXT_LOCAL_PUSH_STAMINA_TEXT,体力が回復しました。,0,0,0
+80003,TXT_QUESTCLEARINFO_SUCCESSION_INFOTEXT,"挑戦回数{}回までの
+パーティが記録されます",0,0,0
+80004,TXT_QUESTCLEARINFO_SUCCESSION_BATTLECOUNT_TEXT,挑戦回数 {}回目 のパーティ,0,0,0
+80005,TXT_QUESTCLEARINFO_SUCCESSION_CELL_BATTLECOUNT,{}回,0,0,0
+100001,TXT_ARENA_REWARD_LIST_B,ビギナーズ報酬一覧,Beginners Reward List,0,0
+100002,TXT_ARENA_REWARD_LIST_F,ファイターズ報酬一覧,Fighters Reward List,0,0
+100003,TXT_ARENA_REWARD_LIST_M,マスターズ報酬一覧,Masters Reward List,0,0
+100004,TXT_BATTLE_RESULT_UNIT_GET_EXP,獲得EXP {0},Gained {0} EXP,0,0
+100005,TXT_UNIT_SORT_TITLE_MAX_RARITY,最大レア度順,by Max Rarity,0,0
+100006,TXT_MATERIAL_UNIT_7,限界突破用ユニット,Limit Break Unit,0,0
+100007,TXT_FRIEND_INVITE_TEXT,"タップ＆フリックでドットキャラが爽快アクション！
+王道RPGグランドサマナーズを一緒にプレイしよう！
+最大4人同時の協力プレイで強敵に挑め！ #グラサマ
+{0}
+--------------
+私のID：{1}","Let's play Grand Summoners! The art and animation is fantastic. It's easy to play, and we can have a party of 4! {0} -------------- My ID: {1}",0,0
+100008,TXT_QUEST_RANK_NOT_ENOUGH,"このクエストは
+プレイヤーランク{0}が必要です。",This quest requires a player rank of {0}.,0,0
+100009,TXT_WORLD_INPUT_NUMBER_ERROR2,ルームが見つかりません,Cannot find room.,0,0
+100010,TXT_MULTI_MARQUEE_GUEST_READY,出撃準備完了,Ready to Deploy,0,0
+100011,TXT_MULTI_MARQUEE_GUEST_NOTREADY,出撃準備を行ってください,Please prepare to deploy.,0,0
+100012,TXT_MULTI_MARQUEE_HOST_CLOSE,現在ルームは未開放です,Current room is closed.,0,0
+100013,TXT_MULTI_MARQUEE_HOST_FRIENDONLY,現在ルームはフレンド開放中です,The current room is open to friends.,0,0
+100014,TXT_MULTI_MARQUEE_HOST_PUBLIC,現在ルームは全国開放中です,Current room is public.,0,0
+100015,TXT_FRIEND_NEXT_MULTI_BONUS,次の共闘報酬,Next Joint Battle Reward,0,0
+100016,TXT_FRIEND_MULTI_BONUS_GET,共闘報酬受取り,Claim Joint Battle Reward,0,0
+100017,TXT_MULTI_ROOM_CURRENT_DOWNLOAD_STATE_END,ダウンロードが終了しています,Download complete.,0,0
+100018,TXT_MULTI_ROOM_CURRENT_DOWNLOAD_STATE_NOW,ダウンロード中です,Downloading.,0,0
+100019,TXT_LIMITED_QUEST_NUM,あと{0}回,{0} times remaining.,0,0
+100020,TXT_LIMITED_QUEST_NUM_DAILY,AM4:00にリセット あと{0}回,Resets at 4:00 AM. {0} times remaining.,0,0
+100021,TXT_LIMITED_QUEST_NUM_WEEKLY,{1}曜日 AM4:00にリセット あと{0}回,{0} times until reset at 4:00 AM on {1}.,0,0
+100022,TXT_LIMITED_QUEST_NUM_MONTHLY,毎月1日 AM4:00にリセット あと{0}回,Resets at 4:00 AM on the 1st of every month: {0} times remaining.,0,0
+100023,TXT_CANNOT_PLAY_QUEST,プレイできるクエストがありません,There are no quests available.,0,0
+100024,TXT_CANNOT_PLAY_QUEST_LIMITED_DAILY,明日AM4:00に再プレイ可,Can be played again at 4:00 AM tomorrow.,0,0
+100025,TXT_CANNOT_PLAY_QUEST_LIMITED_WEEKLY,{0}曜日 AM4:00に再プレイ可,Can be played again at 4:00 AM on {0}.,0,0
+100026,TXT_CANNOT_PLAY_QUEST_LIMITED_MONTHLY,毎月1日 AM4:00に再プレイ可,Can be played again at 4:00 AM on 1st of each month.,0,0
+100027,TXT_MATERIAL_DROP_INFO_EMPTY,不明,Unknown,0,0
+100028,TXT_SUMMON_END,この召喚は終了しました,This summon is outside the set period.,0,0
+100029,TXT_MATERIAL_DROP_INFO_TITLE,主な入手場所,Mainly found in:,0,0
+100031,TXT_ITEM_UNIT_LIMIT_BREAK_00,ユニット限界突破石,Unit LB Stone,0,0
+100032,TXT_SHOP_BUY_CUSTOM2,お得パック,Value Bundle,0,0
+100033,TXT_TOOL_USE,使用する,Use,0,0
+100034,TXT_PAGE_TITLE_TOOL_LIST,アイテム一覧,Item List,0,0
+100035,TXT_PAGE_TITLE_TOOL_USE,使用アイテム選択,Select Item,0,0
+100036,TXT_TOOL_USE_RECOVERY_STAMINA,"{0}を消費して
+体力を回復しました。","Used {0} to restore
+your energy.",0,0
+100037,TXT_TOOL_POSSESSION_NUM,所持数{0}個,Held: {0},0,0
+100038,TXT_TOOL_NON_POSSESSION,アイテムを持っていません,No items.,0,0
+100040,TXT_TIME_FORMAT,%-m月%-d日 %H:%M,%-mMth%-dD %H:%M,0,0
+100041,TXT_TOOL_TIME_LIMIT,{0}まで,until {0},0,0
+100042,TXT_TOOL_LIST_SELECT_STAMINA,{0}を{1}個消費して体力を{2}%回復します。,Used {1} {0}(s) to restore {2}% energy.,0,0
+100043,TXT_POPUP_TOOL_USE_STAMINA,"体力が不足しています。
+アイテムを使って回復することができます。","Not enough Energy. 
+You can use an item to restore your energy.",0,0
+100044,TXT_UNIT_LIMITBREAK_MATERIAL_BALL_GET,虹玉を{0}個入手しました。,Received {0} Rainbow Gems.,0,0
+100045,TXT_POPUP_UNLOCK_KEY_TITLE,クエスト開放,Begin Quest,0,0
+100046,TXT_POPUP_UNLOCK_KEY_MESSAGE,"{0}{1}個を消費してクエスト
+「{2}」を開放します
+
+
+期限：クエストクリアもしくは
+     開放してから{3}分
+※ダンジョンが非開催の場合、
+挑戦できませんのでご注意ください。
+
+【{0}】所持数：{4}個","Use {1} {0}(s) and begin quest
+ ""{2}""
+
+
+Time limit: {3} 
+minutes from quest clearor begun.
+
+【{0}】Held: {4}",0,0
+100047,TXT_POPUP_NOT_ALLOW_SAME_UNIT,同ユニットを使用しているためバトルすることができません。,Cannot begin battle because identical units are in use.,0,0
+100048,TXT_PLAYER_ALCHEMY_BALL,虹玉,Rainbow Gems,0,0
+100049,TXT_NAME_ITEM_KEY_101,焔統の鍵,Flame Key,0,0
+100050,TXT_NAME_ITEM_KEY_102,機神の鍵,Machine God Key,0,0
+100051,TXT_NAME_ITEM_KEY_103,蒼凰の鍵,Azure Roc Key,0,0
+100052,TXT_NAME_ITEM_KEY_104,冥蟲の鍵,Holy Worm Key,0,0
+100053,TXT_ITEM_KEY_101,焔統の鍵,Flame Key,0,0
+100054,TXT_ITEM_KEY_102,機神の鍵,Machine God Key,0,0
+100055,TXT_ITEM_KEY_103,蒼凰の鍵,Azure Roc Key,0,0
+100056,TXT_ITEM_KEY_104,冥蟲の鍵,Holy Worm Key,0,0
+100057,TXT_BATTLE_RESULT_UNIT_GET_ABILITY_EXP,アビリティEXP {0},Ability EXP {0},0,0
+100058,TXT_FREE_GACHA_INFO,１日１回無料召喚ができます,You can summon for free once a day,0,0
+100059,TXT_RAID_PARTY_SAMEOVER,"同種ユニットが存在します。
+同じユニットが使われています。",0,0,0
+100060,TXT_RAID_PARTY_OVER,同じユニットが使われています。,0,0,0
+100061,TXT_RAID_PARTY_SAME,同種ユニットが存在します。,0,0,0
+100062,TXT_RAID_PARTY_OK,出撃準備完了,0,0,0
+100063,TXT_RAID_RESULT_MVP_LEADER,MVP・リーダー報酬,0,0,0
+100064,TXT_RAID_RESULT_LEADER,{0}位・リーダー報酬,0,0,0
+100065,TXT_RAID_RESULT_MVP,MVP報酬,0,0,0
+100066,TXT_RAID_PARTY_NOTMVP,{0}位報酬,0,0,0
+100067,TXT_RAID_TREASUREBOX_NAME_NORMAL,ノーマル宝箱,0,0,0
+100068,TXT_RAID_TREASUREBOX_NAME_RARE,レア宝箱,0,0,0
+100069,TXT_RAID_TREASUREBOX_NAME_SRARE,激レア宝箱,0,0,0
+100070,TXT_KEY_FREE_CONTINUE_AMOUNT,"あと{0}回無料でコンティニューできます
+※回数はAM4:00リセットされます",0,0,0
+100071,TXT_KEY_FREE_CONTINUE,無料でコンティニューできます,0,0,0
+100072,TXT_CLEAR_HISTORY_TITLE,クリア履歴,Past Runs,,
+100073,TXT_CLEAR_HISTORY_MESSAGE_01,"現在のパーティを前回クリア時の
+内容に変更します。","Changing your party to the one you
+previously beat the game with.",0,0
+100074,TXT_CLEAR_HISTORY_MESSAGE_02,"※装備も前回クリア時の内容に変更されます。
+※持っていないユニット・装備は反映されません。",*Equipment will change to the previous ones.,0,0
+100075,TXT_CLEAR_HISTORY_BUTTON,クリア履歴,Past Runs,,
+100076,TXT_CLEAR_HISTORY_MESSAGE_ERROR,クリア履歴がありません,No past playthroughs,,
+100077,TXT_CLEAR_HISTORY_MESSAGE_UNIT_ERROR,"持っていないユニットは
+パーティに反映されません。
+よろしいですか？","Units you don’t own aren’t
+reflected to your party.
+Are you sure?",0,0
+100078,TXT_CLEAR_HISTORY_MESSAGE_ITEM_ERROR,"持っていない装備は
+パーティに反映されません。
+よろしいですか？","Equipment you don’t own aren’t
+reflected to your party.
+Are you sure?",0,0
+100079,TXT_CLEAR_HISTORY_MESSAGE_PARTY_ERROR,"持っていないユニット・装備は
+パーティに反映されません。
+よろしいですか？","Units and Equipment you don’t own
+aren’t reflected to your party.
+Are you sure?",0,0
+100080,TXT_QUEST_RETRY_BUTTON,再出撃,Redeploy,,
+100081,TXT_QUEST_RETRY_TITLE,再出撃確認,Confirm,,
+100082,TXT_QUEST_RETRY_MESSAGE,体力を{0}消費して再出撃します。,It will cost {0} Energy to redeploy.,,
+100083,TXT_QUEST_MULTI_RETRY_MESSAGE,再度ルームを作成します。,Recreating room.,0,0
+100084,TXT_GENERAL_SHOP_STOCK,残り{0}個,{0} left,,
+100085,TXT_GENERAL_SHOP_CHECKLAYER_MAX_COUNT,{0}個,× {0},0,0
+100086,TXT_GENERAL_SHOP_CHECKLAYER_MIN_COUNT,{0}個,× {0},0,0
+100087,TXT_GENERAL_SHOP_NOTNOWSHOP_POPUP,交換期間が終了しました。,Exchange period has ended.,0,0
+100088,TXT_TIME_SHOP,{0}月{1}日({2}) {3}:{4} ,{0}/{1} ({2}) {3}:{4} ,0,0
+100089,TXT_TIME_SHOP_TOP,{0} 〜 {1},{0} ～ {1},0,0
+100090,TXT_MONDAY,月,Monday,0,0
+100091,TXT_TUESDAY,火,Tuesday,0,0
+100092,TXT_WEDNESDAY,水,Wednesday,0,0
+100093,TXT_THURSDAY,木,Thursday,0,0
+100094,TXT_FRIDAY,金,Friday,0,0
+100095,TXT_SATURDAY,土,Saturday,0,0
+100096,TXT_SUNDAY,日,Sunday,0,0
+100097,TXT_POPUP_EXPIRED_PREMIUM,グラパスの期間が終了しました。,Your Grapass has expired.,0,0
+100098,TXT_POPUP_NOT_OPEN_SHOP,"交換所の期間が終了しました。
+タイトルに戻ります。","The Exchange period has expired.
+Returning to title screen.",0,0
+100099,TXT_SHOP_GRAPASS_REMAIN_DAYS,あと{0}日有効,Valid for {0} day(s),0,0
+100100,TXT_SHOP_GRAPASS_REMAIN_HOURS,あと{0}時間有効,Valid for {0} hour(s),0,0
+100101,TXT_SHOP_GRAPASS_REMAIN_MINUTES,あと{0}分有効,Valid for {0} minute(s),0,0
+100102,TXT_RAID_ORB_RECOVERY_COUNT,残り{0}回,{0} left,0,0
+100103,TXT_POPUP_RAID_ORB_ERROR_PREMIUM,"レイドオーブが足りません。
+あと{0}回レイドオーブを
+無料で回復できます。","You don’t have enough Raid Orbs.
+You can restore your Raid Orb
+ {0} more times for free.",0,0
+100104,TXT_RAID_RELIEF_TITLE,救援依頼で参加を呼びかけよう,0,0,0
+100105,TXT_RAID_RELIEF_GRPID,討伐隊ID :,0,0,0
+100106,TXT_RAID_RELIEF_DETAIL,"救援依頼を受けて討伐隊に参加すると
+最初のバトルのレイドオーブ消費が
+免除されます",0,0,0
+100107,TXT_RAID_RELIEF_ANYONE,フレンド以外,0,0,0
+100108,TXT_RAID_RELIEF_FRIEND,フレンド,0,0,0
+100109,TXT_RAID_RELIEF_OK,救援依頼,0,0,0
+100110,TXT_RAID_RELIEF_CANCEL,依頼しない,0,0,0
+100111,TXT_RAID_RELIEF_SUCCESS,救援依頼を送りました。,0,0,0
+100112,TXT_RAID_RELIEF_FAILED,救援依頼が出せませんでした。,0,0,0
+100113,TXT_RAID_WIN_ME_VALZAN,堕天神獣ヴァルザンデスの討伐に成功しました,0,0,0
+100114,TXT_RAID_WIN_ME_BELGIRUS,堕天神獣ベルギラスの討伐に成功しました,0,0,0
+100115,TXT_RAID_MVP_BONUS_TEXT,MVP報酬,0,0,0
+100116,TXT_RAID_ORDER_BONUS_TEXT,{0}位報酬,0,0,0
+100117,TXT_RAID_RESULT_REMTEX_READER,リーダー報酬,0,0,0
+100118,TXT_RAID_RESULT_REMTEX_FRIEND,フレンド報酬,0,0,0
+100119,TXT_MENU_CONFIG_RAID_PUSHNOTIFICATION,救援依頼のプッシュ通知,0,0,0
+100120,TXT_RAID_BATTLE_MENU,フレンドや他のプレイヤーに救援依頼を送ります。,0,0,0
+100121,TXT_RAID_CLIPBOARD_COPY,"討伐隊ID {0} を
+クリップボードにコピーしました。",0,0,0
+100122,TXT_RAID_NOTCALL_RELIEF,"救援依頼を送信できる相手が
+いませんでした。",0,0,0
+100123,TXT_POPUP_LIMITED_FIRST_FRIEND_EXPIRED,期間外のキャンペーンです。,0,0,0
+100124,TXT_RAID_TREASUREBOX_NAME_SSRARE,超激レア宝箱,0,0,0
+100125,TXT_RAID_SORTIE_ORB_SHORTAGE,"レイドオーブが不足しています。
+このまま討伐隊に参加してよろしいですか？",0,0,0
+100126,TXT_POPUP_TOOL_USE_RAID_RAIDORB,"レイドオーブが不足しています。
+アイテムを使って回復することができます。",0,0,0
+100127,TXT_TOOL_USE_RECOVERY_RAIDORB,"{0}を使用して
+レイドオーブを回復しました。",0,0,0
+100128,TXT_SHOP_CHANGE_RAID_TICKET_TITLE,"クリスタルを消費して
+レイド討伐チケットを入手します",0,0,0
+100129,TXT_TOOL_LIST_SELECT_RAIDORB,{0}を{1}個消費してレイドオーブを{2}回復します。,0,0,0
+100130,TXT_WORLD_FRIEND_REQUESTED,"フレンド
+申請済","Friend
+Requested",0,0
+100131,TXT_WORLD_FRIEND_APPLIED,"フレンド
+承認する","Confirm
+Friend",0,0
+100132,TXT_WORLD_FRIEND_APPROVED,"フレンド
+承認済","Confirmed
+Friend",0,0
+100133,TXT_POPUP_SETTING,設定,Set,0,0
+100134,TXT_FAILED_TO_CONNECT,ルームへの接続に失敗しました。,Failed to connect to the Room,0,0
+100135,TXT_BATTLE_DIFFICULTY,難易度 ： ,Difficulty ： ,0,0
+100136,TXT_MULTI,マルチ,Multi,0,0
+100137,TXT_SINGLE,シングル,Single,0,0
+100138,TXT_HOST,ホスト,Host,0,0
+100139,TXT_GUEST,ゲスト,Guest,0,0
+100140,TXT_MULTI_ROOM_CODE_FORMAT,ルームコード : {0},Room Code : {0},0,0
+100141,TXT_QUEST_OUTSIDE_PERIOD,期間外のクエストです,This Quest is out of term,0,0
+100142,TXT_ARENA_NO_RANK,-位,-th,0,0
+100143,TXT_RANK_FORMAT,{0}位,{0}th,0,0
+100144,TXT_ARENA_RANKING_NO_DATA,データがありません,No data.,0,0
+100145,TXT_ARENA_PROMOTE_FIGHTER_FORMAT,あと{0}ptでファイターズ昇格,{0}pts to promote Fighter,0,0
+100146,TXT_ARENA_PROMOTE_FORMAT,あと{0}個で昇格,next {0} to promote,0,0
+100147,TXT_ARENA_PERIOD_FORMAT,開催期間は{0}曜日{1}時{2:0>2}分～{3}曜日{4}時{5:0>2}分,Available {0} {1}:{2:0>2}-{3} {4}:{5:0>2}.,0,0
+100148,TXT_REPORT_PROBLEM,問題を報告,Report an issue,0,0
+100149,TXT_REPORT_PROBLEM_PLAYER,今回のクエストに、問題があるプレイヤーが参加していることを報告します。,Report that there was a problematic player participating in the Quest.,0,0
+100150,TXT_REPORT_SENDED,"クエストデータを送信しました。
+ご協力ありがとうございます。","Quest data has been sent.
+Thank you for your cooperation.",0,0
+100151,TXT_REPORT_FAILED_TO_CONNECT,"通信に失敗しました。
+通信環境の良い所でリトライしてください。","Failed to connect.
+Please retry with better network conditions.",0,0
+100152,TXT_SKILL_CT_FORMAT,{0}秒,{0}S,0,0
+100153,TXT_QUEST_COST_FORMAT,消費体力 : {0},Energy Cost : {0},0,0
+100154,TXT_QUEST_COST_PLAYCOUNT_KEY_FORMAT,"消費体力 : {0}
+プレイ可能回数 : {1}
+鍵消費 : {2}個","Energy Cost : {0}
+Times playable : {1}
+Key cost : {2}",0,0
+100155,TXT_QUEST_COST_PLAYCOUNT_FORMAT,"消費体力 : {0}
+プレイ可能回数 : {1}","Energy Cost : {0}
+Times playable : {1}",0,0
+100156,TXT_QUEST_COST_KEY_FORMAT,"消費体力 : {0}
+鍵消費 : {1}個","Energy Cost : {0}
+Key cost : {1}",0,0
+100157,TXT_EQUIP_COUNT,装備品数,Equip Amount,0,0
+100158,TXT_ITEM_CT_FORMAT,{0}秒,%dS,0,0
+100159,TXT_ITEM_TYPE,タイプ, type,0,0
+100160,TXT_GET, 獲得, Get,0,0
+100161,TXT_GET_EX, 獲得！, Get！,0,0
+100162,TXT_MENU_CONFIG_AUTOTYPE_NONE,使用しない,OFF,0,0
+100163,TXT_MENU_CONFIG_AUTOTYPE_ALLWAYS,常に使用,ON,0,0
+100164,TXT_MENU_CONFIG_AUTOTYPE_LASTWAVE,ボスバトルのみ,Boss Only,0,0
+100165,TXT_DATE_FORMAT, %Y年%m月%d日,"%m,%d,%Y",0,0
+100166,TXT_RECEIVED_DAY,受取日{0},Claimed {0},0,0
+100167,TXT_DATETIME_FORMAT,%Y年%m月%d日 %H:%M,"%d,%m,%Y %H:%M",0,0
+100168,TXT_CLEAR_INFO_NO_DATA,データがありません,No data.,0,0
+100169,TXT_POPUP_UNLOCK_24H_MESSAGE,開放してから24時間,24 hours after release,0,0
+100170,TXT_REMAIN_DUNGEON_COUNT_FORMAT,あと{0}回,x{0},0,0
+100171,TXT_SETUP_AGE16,16歳未満に設定しました,Age setting: U16,0,0
+100172,TXT_SETUP_AGE19,16歳～19歳に設定しました,Age setting: 16-19,0,0
+100173,TXT_SETUP_AGE20,20歳以上に設定しました,Age setting: 20+,0,0
+100174,TXT_SHOP_EXTEND_VALUE_FORMAT, {0}枠, x {0},0,0
+100175,TXT_SHOP_EXTEND_PRICE_FORMAT, {0}個, x {0},0,0
+100176,TXT_LIMITBREAK_MATERIAL_DECISION,決定,Select,0,0
+100177,TXT_CHAPTER_FORMAT,第{0}章,Chapter {0},0,0
+100178,TXT_REINFORCE_HIGH_RARITY_MESSAGE,"レアリティが高いユニットが
+素材に含まれています。
+本当に強化してよろしいですか？",A Unit with high rarity isincluded in your materials.Do you really want to enhance it?,0,0
+100179,TXT_NO_TARGET_UNIT,対象ユニットがいません,Target Unit doesn't exist,0,0
+100180,TXT_USABLE_SKILL,スキル使用可能,Usable Skill,0,0
+100181,TXT_ACTIVATING,起動中,Activating,0,0
+100182,TXT_CONNECTING,通信中,connecting,0,0
+100183,TXT_ACQUIRING_UPDATED_DATA_INFO,データ更新情報を取得中,Acquiring updated data info,0,0
+100184,TXT_DOWNLOADING_DATA_FORMAT,データダウンロード中 {0:0>2}%,Downloading data {0:0>2}%,0,0
+100185,TXT_ACQUIRING_UPDATED_IMAGE_DATA,画像更新情報を取得中,Acquiring updated image data,0,0
+100186,TXT_UNFOLDING_DATA,データ展開中,Unfolding data,0,0
+100187,TXT_POPUP_TUTORIAL_SKIP,チュートリアルをスキップしますか,Skip the tutorial?,0,0
+100188,TXT_VALUE_FORMAT,x, x ,,
+100189,TXT_LOBBY_TARGET_FRIEND,フレンド,Friends,0,0
+100190,TXT_LOBBY_TARGET_ALL_QUEST,全てのクエスト,All Quests,0,0
+100191,TXT_SHOP_EXTEND_CRYSTAL,クリスタル ,Crystals,0,0
+100193,TXT_RANK_FORMAT_FIRST,{0}位,{0}st,,
+100194,TXT_RANK_FORMAT_SECOND,{0}位,{0}nd,,
+100195,TXT_RANK_FORMAT_THIRD,{0}位,{0}rd,,
+100196,TXT_FARM_RELEASED_FORMAT,採取地「%s」が解放されました。,Gathering Spot “%s” has been released,0,0
+100197,TXT_AREA_RELEASED_FORMAT,エリア『{0}』が解放されました,"Area “%s” has 
+been released",0,0
+100198,TXT_RAID_EVENT_END,イベント終了,0,0,0
+100199,TXT_RAID_WIN_ME_AUGE,堕天神獣オージュの討伐に成功しました,0,0,0
+100200,TXT_ANTI_BARRIER,ダメージ無効化解除,0,0,0
+100201,TXT_RAID_REMAIN_SUBJUGATION_NUM,あと{0}体討伐で,0,0,0
+100202,TXT_RAID_MISSION_REWARD_TITLE,討伐数達成報酬,0,0,0
+100203,TXT_RAID_MISSION_SUCCESS_NUM,{0}体討伐達成,0,0,0
+100204,TXT_RAID_MISSION_REMAIN_SUBJUGATION_NUM,あと{0}体,0,0,0
+100205,TXT_RAID_MISSION_SUBJUGATION_SUCCESS_TITLE,{0}体討伐達成報酬,0,0,0
+100206,TXT_RAID_ACQUISITION_COMPLETED,獲得済,0,0,0
+100207,TXT_ROOM_NAME_TITLE,ルーム名設定,0,0,0
+100208,TXT_ROOM_NAME_ATTENTION,"絵文字や一部の機種依存文字には表示できないものがあります。
+ルーム名は15文字まで入力できます。",0,0,0
+100209,TXT_ROOM_NAME_TITLE_DEFAULT,よろしくお願いします。,0,0,0
+100210,TXT_BATTLE_HOSTAWAY,ホストからの通信を待っています。,Waiting for a connection on host,0,0
+100211,TXT_INFORMATION_DATETIME_FORMAT,{0}/{1}/{2} {3},"{2},{1},{0} {3} PST
+",0,0
+100212,TXT_RUNE_DIALOG_NOTRUNESELECT_TITLE,未選択の紋章石,0,0,0
+100213,TXT_RUNE_DIALOG_NOTRUNESELECT_DESC,未選択の紋章石があります。,0,0,0
+100214,TXT_RUNE_DIALOG_EQUIPCHANGEWARNING_TITLE,流転の雫,0,0,0
+100215,TXT_RUNE_DIALOG_EQUIPCHANGEWARNING_DESC,流転の雫を使用して紋章石の効果をランダムに変化させます。,0,0,0
+100216,TXT_RUNE_DIALOG_PEACECOMPOSITION_TITLE,紋章石の欠片変換,0,0,0
+100217,TXT_RUNE_DIALOG_PEACECOMPOSITION_DESC,Lv{0}の欠片を{1}個消費してLv{2}の欠片を{3}個作ります。,0,0,0
+100218,TXT_RUNE_DIALOG_PEACECOMPOSITIONCOMPLETE_TITLE,紋章石の欠片変換,0,0,0
+100219,TXT_RUNE_DIALOG_PEACECOMPOSITIONCOMPLETE_DESC,紋章石の欠片を変換しました。,0,0,0
+100220,TXT_RUNE_DIALOG_RUNECHANGEPIECECOMPLETE_TITLE,紋章石選択,0,0,0
+100221,TXT_RUNE_DIALOG_RUNECHANGEPIECECOMPLETE_DESC,紋章石の欠片{0}を入手しました。,0,0,0
+100222,TXT_RUNE_DIALOG_RUNECHANGEPIECEWARNING_TITLE,紋章石選択,0,0,0
+100223,TXT_RUNE_DIALOG_RUNECHANGEPIECEWARNING_DESC,"<Font Color=""#FFCC00"">{0}</Font>は欠片{1}個に
+変換されます。",0,0,0
+100224,TXT_RUNE_DIALOG_RUNEORGANIZESELECT_TITLE,紋章石,0,0,0
+100225,TXT_RUNE_DIALOG_RUNEORGANIZESELECT_UNITEQUIPBUTTON,装備する,0,0,0
+100226,TXT_RUNE_DIALOG_RUNEORGANIZESELECT_COMPOSITIONBUTTON,変換する,0,0,0
+100227,TXT_RUNE_DIALOG_UNITEQUIPCOMPLETE_TITLE,紋章石,0,0,0
+100228,TXT_RUNE_DIALOG_UNITEQUIPCOMPLETE_DESC,紋章石を装備しました。,0,0,0
+100229,TXT_RUNE_DIALOG_UNITEQUIPWARNING_TITLE,紋章石,0,0,0
+100230,TXT_RUNE_DIALOG_UNITEQUIPWARNING_DESC,"ユニットに紋章石を装備します。
+※既に装備している紋章石は消滅します。",0,0,0
+100231,TXT_RUNE_ORGANIZEPAGE_TITLE,紋章石の欠片,0,0,0
+100232,TXT_RUNE_UNITEQUIPPAGE_TITLE,紋章石,0,0,0
+100233,TXT_RUNE_UNITEQUIPLIST_TITLE,紋章石,0,0,0
+100234,TXT_RUNE_UNITEQUIPCHANGE_TITLE,流転の雫,0,0,0
+100235,TXT_RUNE_EMPTYRUNE,紋章石なし,0,0,0
+100236,TXT_RUNE_UNITEQUIPPAGE_ISRUNE_EQUIPBUTTON,装備,0,0,0
+100237,TXT_RUNE_UNITEQUIPPAGE_ISRUNE_CANCELBUTTON,欠片にする,0,0,0
+100238,TXT_RUNE_UNITEQUIPPAGE_NOTISRUNE_EQUIPBUTTON,装備する,0,0,0
+100239,TXT_RUNE_UNITEQUIPPAGE_NOTISRUNE_CANCELBUTTON,戻る,0,0,0
+100240,TXT_RUNE_UNITEQUIPPAGE_AFTERTITLE,新しい紋章石,0,0,0
+100241,TXT_RUNE_UNITEQUIPPAGE_BEFORETITLE,装備中の紋章石,0,0,0
+100242,TXT_DAILY_MISSION_TITLE_WEEKLY,今週のミッション,0,0,0
+100243,TXT_DAILY_MISSION_TITLE_LIMITED,限定ミッション,0,0,0
+100244,TXT_RUNE_DUNGEON_TITLE,紋章宮,0,0,0
+100245,TXT_RUNE_DIALOG_RESULTPIECEDETAIL_TITLE,紋章石の欠片,0,0,0
+100246,TXT_RUNE_NOTEQUIP_UNIT_NAME,紋章石なし,0,0,0
+100247,TXT_RUNE_NOTEQUIP_UNIT_DESC,このユニットは紋章石を装備できません,0,0,0
+100248,TXT_RUNE_PIECE_EQUIPMENT_DESC,"紋章石を装備します。
+※紋章石の欠片を{0}個消費します。",0,0,0
+100249,TXT_RUNE_RESULT_EQUIPMENT_DESC,"{0}の紋章石を装備します。
+※既に装備している紋章石は消滅します。",0,0,0
+100250,TXT_CANNOT_SALE_UNIT,売却できないユニットが含まれています。,0,0,0
+100251,TXT_CANNOT_MATERIAL_UNIT,強化素材に使用できないユニットが含まれています。,0,0,0
+100252,TXT_MISSION_TIME_FORMAT,%-m/%-d %-H:%M,0,0,0
+100253,TXT_MISSION_TIME_LIMIT,{0}まで,0,0,0
+100254,TXT_SUMMON_WARNING_TICKET_SHORTAGE,召喚チケットが不足しています,0,0,0
+100255,TXT_SUMMON_TITLE_TICKET,召喚,,,
+100256,TXT_MENU_CONFIG_BATTLE_SKILLINFO,長押しでスキル情報を表示,Hold to display skill information,0,0
+100257,TXT_ITEM_LIMITBREAK_WARNING_POWERUP,強化済みの装備 または 刻印装備が含まれています,0,0,0
+100258,TXT_SALE_CONFIRM,売却確認,0,0,0
+100259,TXT_UNIT_SALE_MESSAGE_STRONG,入手困難なユニットが{0}体含まれています,0,0,0
+100260,TXT_UNIT_LIMITBREAK_EQUIPMENT_MESSAGE,"装備品を装備しているユニットが
+素材に含まれています。
+※素材ユニットの装備は解除されます。",0,0,0
+100261,TXT_KEY_MULTI_FREE_CONTINUE_AMOUNT,"あと{0}回無料でコンティニューできます
+",0,0,0
+100262,TXT_COOK_SALE_LIST,料理売却,0,0,0
+100263,TXT_CLEAR_INFO_PARTY_COPY,"パーティ内容を反映します。
+※持っていないユニット・装備は反映されません。",0,0,0
+100264,TXT_CLEAR_INFO_PARTY_COPY_SUCCEEDED,パーティ内容を反映しました。,0,0,0
+100265,TXT_WORLD_ROOM_HOST_NOT_SELECT_FOOD,ホストと同じ料理を所持していません。,0,0,0
+100266,TXT_POPUP_WARNING_DAY_PREMIUM,グラパスの期間があと{0}日で終了します,0,0,0
+100267,TXT_POPUP_WARNING_HOUR_PREMIUM,グラパスの期間があと{0}時間で終了します,0,0,0
+100268,TXT_TOOL_POSSESSION_TICKET_NUM,所持数{0}枚,0,0,0
+100269,TXT_UNIT_SALE_WARNING_MAX_RARITY_5,・最大進化★5ユニット,0,0,0
+100270,TXT_UNIT_SALE_WARNING_LIMITBREAKED,・限界突破済みユニット,0,0,0
+100271,TXT_UNIT_SALE_WARNING_RUNE_EQUIPPED,・紋章石付きユニット,0,0,0
+100272,TXT_UNIT_SALE_WARNING_MAX_RARITY_4,・最大進化★4ユニット,0,0,0
+100273,TXT_UNIT_SALE_WARNING_POWERUP_MATERIAL,・プラス素材ユニット,0,0,0
+100274,TXT_UNIT_SALE_WARNING_GET_EXP,・経験値取得済みユニット,0,0,0
+100275,TXT_UNIT_SALE_WARNING_LIMITBREAK_MATERIAL,・限界突破用ユニット,0,0,0
+100276,TXT_UNIT_SALE_WARNING_EQUIPPED,・装備付きユニット(売却時、装備は解除されます),0,0,0
+100277,TXT_COOK_SET_ERROR,{0}はホストにのみ効果があります,0,0,0
+100278,TXT_DAILY_MISSION_EMPTY,ミッションがありません,0,0,0
+100279,TXT_SHOP_SUCCESS_PURCHASE,商品を購入しました。,0,0,0
+100280,TXT_SHOP_FAILURE_PURCHASE,商品の購入に失敗しました。,0,0,0
+100281,TXT_SHOP_NOTFOUND_PURCHASE,未決済の購入情報がありません。,0,0,0
+100282,TXT_SHOP_SET_PARTYDECK,パーティに反映しますか？,0,0,0
+100283,TXT_SHOP_SET_PARTYDECK_OK,反映する,0,0,0
+100284,TXT_SHOP_SET_PARTYDECK_CANCEL,反映しない,0,0,0
+100285,TXT_SHOP_DECKSET,グラサマコレクション,0,0,0
+100286,TXT_TOUCHDETAIL_ICON_UNLOCKTEXT,"Lv{0}
+で解放",0,0,0
+100287,TXT_DECKBUY_SELECTSLOT_POPUP_TITLE,パーティ選択,0,0,0
+100288,TXT_DECKBUY_SELECTSLOT_POPUP_DESCTEXT,"グラサマコレクションのユニットと装備を
+パーティに反映します。",0,0,0
+100289,TXT_DECKBUY_SELECTSLOT_POPUP_BUTTONTEXT,このパーティに反映する,0,0,0
+100290,TXT_POPUP_WARNING_MINUTES_PREMIUM,グラパスの期間があと{0}分で終了します,0,0,0
+100291,TXT_SUMMON_TITLE_40002,英雄召喚,0,0,0
+100292,TXT_GACHA_BOX_RESET_CONFIRMATION,"BOXをリセットします。
+リセットするとBOX内の報酬の個数が最初の状態に戻ります。",0,0,0
+100293,TXT_GACHA_BOX_RESET_COMPLETE,BOX内の報酬の個数をリセットしました。,0,0,0
+100294,TXT_MENU_CONFIG_BURST2MODE,全体の奥義設定,0,0,0
+100295,TXT_MENU_CONFIG_AUTO_BATTLE_SETTING_TITLE,AUTO設定,0,0,0
+100296,TXT_ROULETTE_GACHA_INFO,"大召喚ルーレット開催中！
+本日は{0}連召喚無料！",0,0,0
+100297,TXT_SUMMON_WARNING_EVENT_ITEM_SHORTAGE,{0}が不足しています,0,0,0
+100298,TXT_SUMMON_TITLE_80001,英雄召喚,0,0,0
+100299,TXT_SUMMON_TITLE_90001,レイド召喚,0,0,0
+100300,TXT_SUMMON_BOX_LINEUP_RESET,リセット対象報酬,0,0,0
+100301,TXT_SUMMON_BOX_LINEUP_NORMAL,通常報酬,0,0,0
+100302,TXT_RAID_WIN_ME_AGNOPHOBOS,堕天神獣アグノフォボスの討伐に成功しました,0,0,0
+100303,TXT_SUMMON_BOX_GACHA_SETTING_DESCRIPTION,連続召喚回数を選択してください,0,0,0
+100304,TXT_MINE_TOP,鉱山,0,0,0
+100305,TXT_MINE_BATTLE_INFO,鉱山,0,0,0
+100306,TXT_MINE_UNIT_SELECT,助っ人選択,0,0,0
+100307,TXT_POPUP_APP_EXIT,グランドサマナーズを終了します。,"Closing ""Grand Summoners""",0,0
+100308,TXT_POPUP_BACK_TO_TITLE,タイトル画面に戻ります。,Return to the Title Screen.,0,0
+100309,TXT_SUMMON_TITLE_40003,英雄召喚,,0,0
+100310,TXT_MINE_FLOOR,B{0}階,0,0,0
+100311,TXT_MINE_COORDINATE,{0}地点,0,0,0
+100312,TXT_PAGE_TITLE_MINE_RECOLLECTION,回想,0,0,0
+100313,TXT_MINE_ORGANIZE_PAGE_TITLE,出撃確認,0,0,0
+100314,TXT_POPUP_CONFIRM_RETIRE_MINE,"本当にリタイアしますか？
+リタイアすると
+アルカナの評価が低下します。",0,0,0
+100315,TXT_POPUP_MINE_INFO_RARE_BOSS_WARNING,"強力な敵が出現します
+このまま出撃しますか？",0,0,0
+100316,TXT_RAID_ELEMENT_00,無属性,0,0,0
+100317,TXT_RAID_WIN_ME_MEGAMI,堕天神獣ラドアクネの討伐に成功しました,0,0,0
+100318,TXT_MINE_MAGICSTONE_COUNT,{0}個,0,0,0
+100319,TXT_MINE_INFO_POPUP_RETRYSELECT,再抽選,0,0,0
+100320,TXT_MINE_MAGICSTONE_REWARD,クォーツ報酬,0,0,0
+100321,TXT_MINE_WARNING_RARE_BOSS_SERIF1,今回の敵は強そうだけど…<br>本当に行くかい？,0,0,0
+100322,TXT_MINE_WARNING_RARE_BOSS_SERIF2,うん。そのほうが良いね。<br>別の地点に変更しよう。,0,0,0
+100323,TXT_TOOL_LIST_HIGH_MAGICSTONE_NAME,ピュアクォーツ,0,0,0
+100324,TXT_TOOL_LIST_HIGH_MAGICSTONE_DESCRIPTION,魔法石鉱山で好きなアイテムと交換することが出来る,0,0,0
+100325,TXT_MINE_BATTLE_WAVEMETER_TITLE,魔法石鉱山,0,0,0
+100326,TXT_POPUP_DECIDE,決定,0,0,0
+100327,TXT_POPUP_MINE_FLOOR_CHANGE_TITLE,変更後の階層を選択してください,0,0,0
+100328,TXT_MINE_INFO_CHANGE_RECOVER_TIME,"変更可能まで
+{0}",0,0,0
+100329,TXT_SUPPORT_COUNT_FORMAT,{0}回,0,0,0
+100330,TXT_SUPPORT_MISSON_COUNT_FORMAT,{0}/{1}回,0,0,0
+100331,TXT_SUPPORT_MISSON_TITME_FORMAT,助っ人に{0}回呼ばれる,0,0,0
+100332,TXT_SUPPORT_MISSON_DEFAULT_TITME,助っ人報酬,0,0,0
+100333,TXT_SUPPORT_MISSON_FORMAT,助っ人に呼ばれた回数　{0},0,0,0
+100334,TXT_POPUP_MINE_FLOOR_CHANGE_CONFIRM_TITLE,変更確認,0,0,0
+100335,TXT_POPUP_MINE_FLOOR_CHANGE_CONFIRM_DESCRIPTION,"階層を変更すると評価が50にリセットされ
+出現中のボスが変更されます。
+再度変更するには30分待つ
+必要があります。",0,0,0
+100336,TXT_POPUP_MINE_FLOOR_CHANGED_TITLE,階層変更,0,0,0
+100337,TXT_POPUP_MINE_FLOOR_CHANGED_DESCRIPTION,階層を{0}に変更しました。,0,0,0
+100338,TXT_POPUP_WORLD_QUEST_TIMES_LIMIT,クエストの出撃制限回数に達しました。,0,0,0
+100339,TXT_POPUP_MAX_CAPACITY_ADD_PRESENT_BOX_TITLE,所持数オーバー,0,0,0
+100340,TXT_RAID_WIN_ME_TYTYAuge,堕天神獣オージュ・邪の討伐に成功しました,0,0,0
+100341,TXT_RAID_WIN_ME_Deneb,堕天神獣テネブディウスの討伐に成功しました,0,0,0
+100342,TXT_RAID_WIN_METYTY_MEGAMI,堕天神獣ラドアクネ・邪の討伐に成功しました,0,0,0
+100343,TXT_SUMMON_TITLE_80002,大召喚ルーレット,Summoner's Lottery II,0,0
+100344,TXT_IP_CREATE_ERROR,ただいまサーバーが混み合っております。しばらく時間をおいてからお試しください。,0,0,0
+100345,TXT_MINE_END_ERROR,イベント期間外です。,0,0,0
+100346,TXT_RAID_WIN_ME_PLEDIAS,堕天神獣プレディアスの討伐に成功しました,0,0,0
+100347,TXT_SUMMON_TITLE_40006,チケット召喚,0,0,0
+100348,TXT_LIMITBREAK_CAN_EARN_ORB,{0}個,0,0,0
+100349,TXT_LIMITBREAK_CAN_EARN_BALL,{0}個,0,0,0
+100350,TXT_RAID_WIN_ME_ZINGALUM,堕天神獣ジンガルムの討伐に成功しました,0,0,0
+100351,TXT_POPUP_BLACKSMITH_REFINE_TITLE,強化確認,,,
+100352,TXT_POPUP_BLACKSMITH_REFINE_BUTTON_REFINE,強化する,,,
+100353,TXT_RAID_RANKING_FORMAT,{0}位,,,
+100354,TXT_SUMMON_TITLE_40007,チケット召喚,0,0,0
+100355,TXT_RAID_WIN_ME_STYRIA,堕天神獣スティーリアの討伐に成功しました,0,0,0
+100356,TXT_RAID_WIN_ME_GOLGORA,堕天神獣ゴールドーラの討伐に成功しました,0,0,0
+100357,TXT_SUMMON_TITLE_BOX,レイド召喚,0,0,0
+100358,TXT_RAID_WIN_ME_CABOSHELM,堕天神獣カボシェルムの討伐に成功しました,0,0,0
+100359,TXT_RAID_WIN_ME_QUOVADIS,堕天神獣クォ・ヴァディスの討伐に成功しました,,,
+100360,TXT_CROSS_BATTLE,クロスバトル,,,
+100361,TXT_PVP_ROOM_CREATE,ルーム作成,,,
+100362,TXT_PVP_ROOM_SEARCH,ルーム検索,,,
+100363,TXT_PVP_SIMU_BATTLE,模擬戦,,,
+100364,TXT_PVP_DEFAULT_ROOM_NAME,デフォルトルーム名,,,
+100365,TXT_PVP_ROOM_CODE,ルームコード：,,,
+100366,TXT_PVP_ROOM_NAME_CHANGE,ルーム名変更,,,
+100367,TXT_PVP_RULE_INFO,ルール詳細,,,
+100368,TXT_PVP_RULE_SET,ルール設定,,,
+100369,TXT_1ST_PARTY,1stパーティ,,,
+100370,TXT_2ND_PARTY,2ndパーティ,,,
+100371,TXT_PVP_DEFAULT_SET,デフォルト設定,,,
+100372,TXT_PVP_EX_BATTLE,エクストリームバトル,,,
+100373,TXT_PVP_FRIEND_BATTLE,フレンドバトル,,,
+100374,TXT_PVP_OPEN_TIME_FORMAT,開催時間:%s〜%s,,,
+100375,TXT_PVP_CLOSE,未開催,,,
+100376,TXT_PVP_FRIEND,フレンド,,,
+100377,TXT_PVP_ALL_PLAYER,全てのプレイヤー,,,
+100378,TXT_PVP_BATTLE_OP_DISCONNECT_FORMAT,%sが切断しました,,,
+100379,TXT_PVP_BATTLE_DISCONNECT,切断しました,,,
+100380,TXT_PVP_BATTLE_OP_RETIRE_FORMAT,%sがリタイアしました,,,
+100381,TXT_PVP_SIMU_WARNING_IN_PREPARATION,後日実装予定のため準備中です。,,,
+100382,TXT_POPUP_CONFIRM_RETIRE_PVP,リタイアしますか？,,,
+100383,TXT_PVP_ROOM_OF_FORMAT,%sのルーム,,,
+100384,TXT_PVP_OUTSIDE_PERIOD,期間外です。,,,
+100385,TXT_RAID_WIN_ME_GEARVEIL,堕天神獣ギアベールの討伐に成功しました,,,
+100386,TXT_RAID_WIN_ME_PALAMICIA,堕天神獣パルラミシアの討伐に成功しました,,,
+100387,RETRY_GACHA_OUTSIDE_PERIOD_TITLE_TEXT,引きなおし召喚,,,
+100388,TXT_MINE_WARNING_USE_DEVICE_FLOOR_CHANGE,"階層を変更すると現在の
+<Font Color=""#DCDD00"">誘波動の効果</Font>がなくなります
+",,,
+100389,TXT_MINE_INDUCING,誘波動発生装置,,,
+100390,TXT_MINE_WARNING_USE_DEVICE_EXIST_ACTIVE,"装置を変更すると現在の
+<Font Color=""#FFCC00"">誘波動の効果</Font>がなくなります
+",,,
+100391,TXT_COUNTDOWN_NONE,--:--,,,
+100392,TXT_POPUP_CONFIRM_RETIRE_MINE_MOCK_COMBAT,模擬戦を終了して鉱山に戻ります,,,
+100393,TXT_MINE_WARNING_USE_DEVICE_ACTIVE_DEVICE_IS_SAME,"すでに誘波動の効果中です
+",,,
+100394,TXT_MINE_WARNING_USE_DEVICE_BOSS_DEFEATED_FLOOR_IS_MIN,"対象のボスを討伐したことがあり、
+討伐したことのある階層より浅い階層で使用可能です。",,,
+100395,TXT_MINE_WARNING_USE_DEVICE_NOT_BOSS_APPEAR_FLOOR,現在の階層は対象ボスが出現しない階層です,,,
+100396,TXT_SUPPORT_NONE,助っ人なし,,,
+100397,TXT_MINE_FLOOR_BELOW,B{0}階以降,,,
+100398,ITEM_AMOUNT_LIMIT_OVER,{}+,,,
+100399,TXT_MINE_FLOOR_BONUS,階層ボーナス,,,
+100400,TXT_MINE_FLOOR_BONUS_REWARD,階層ボーナス報酬,,,
+100401,TXT_EVENT_END_SOON,まもなく終了,,,
+100402,TXT_TEMPLE_AI,AI図鑑,,,
+100403,TXT_PARTY_SAVE,セーブ・ロード,,,
+100404,TXT_PARTY_URL,URL 公開設定,,,
+100405,TXT_RAID_TREASUREBOX_NAME_AI_LEARNING,AIラーニング,,,
+100406,TXT_SUGOROKU_DICE_NAME,成り上がりダイス,,,
+100407,TXT_SUGOROKU_DESCRIPTION_RECOVERY_DICE,"<Font Color=""#000000"">クエストで体力を消費しよう！
+あと</Font><Font Color=""#0000FF"">{}</Font><Font Color=""#000000"">消費でサイコロGET!</Font>",,,
+100417,TXT_POPUP_CONFIRM_RETIRE_MULTI,"リタイアしますか？
+
+(リタイアするとクエスト失敗となり、獲得した宝箱、クリスタル、グランは失われてしまいます。)",,,
+100418,TXT_QUEST_STAMINA_LACK,体力が不足しています。,,,
+100419,TXT_POPUP_BATTLE_RETRY,リスタート,,,
+100420,TXT_ZUKAN_EX1,エクスフォーゼ,,,
+100421,TXT_ZUKAN_CHANGE,リベレイション,,,
+100422,TXT_ZUKAN_CHANGE_WAZA_FORMAT,特殊スキル%d,,,
+100423,TXT_ZUKAN_CHANGE_SKILL,大スキル,,,
+100424,TXT_ZUKAN_CHANGE_ARTS,大奥義,,,
+100425,TXT_ZUKAN_CHANGE_END,リベレイション解除,,,
+100426,TXT_ZUKAN_EX,エクスフォーゼ,,,
+100427,TXT_ZUKAN_EX_ENDEX,エクスフォーゼ解除,,,
+100428,TXT_ZUKAN_PHANTOMBULLET,ファントム・バレット,,,
+100429,TXT_ZUKAN_EX_END,エクスフォーゼ解除,,,
+100430,TXT_AUTO_REPEAT_CANCEL_CONFIRM,「OK」で自動周回を終了します,,,
+100431,TXT_AUTO_REPEAT_RESTART_REST_TIME,あと{}秒で再出撃します。,,,
+100432,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_UNIT_1,"キープ中のユニットを破棄してもう一度召喚を行います。
+
+キープ中のユニットと同じ
+「炎属性」のユニットが出現します。",,,
+100433,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_UNIT_2,"キープ中のユニットを破棄してもう一度召喚を行います。
+
+キープ中のユニットと同じ
+「水属性」のユニットが出現します。",,,
+100434,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_UNIT_3,"キープ中のユニットを破棄してもう一度召喚を行います。
+
+キープ中のユニットと同じ
+「樹属性」のユニットが出現します。",,,
+100435,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_UNIT_4,"キープ中のユニットを破棄してもう一度召喚を行います。
+
+キープ中のユニットと同じ
+「光属性」のユニットが出現します。",,,
+100436,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_UNIT_5,"キープ中のユニットを破棄してもう一度召喚を行います。
+
+キープ中のユニットと同じ
+「闇属性」のユニットが出現します。",,,
+100437,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_ITEM_1,"キープ中の装備を破棄してもう一度召喚を行います。
+
+キープ中の装備と同じ
+「物攻」の装備が出現します。",,,
+100438,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_ITEM_2,"キープ中の装備を破棄してもう一度召喚を行います。
+
+キープ中の装備と同じ
+「魔攻」の装備が出現します。",,,
+100439,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_ITEM_3,"キープ中の装備を破棄してもう一度召喚を行います。
+
+キープ中の装備と同じ
+「防御」の装備が出現します。",,,
+100440,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_ITEM_4,"キープ中の装備を破棄してもう一度召喚を行います。
+
+キープ中の装備と同じ
+「回復」の装備が出現します。",,,
+100441,TXT_SUMMON_RETRY_GACHA_MORE_SUMMON_DESCRIPTION_ITEM_5,"キープ中の装備を破棄してもう一度召喚を行います。
+
+キープ中の装備と同じ
+「援護」の装備が出現します。",,,
+100450,TXT_AI_DEFAULT_NAME,AIカスタム設定,,,
+100451,TXT_AI_CHECK_CUSTOM,"条件設定が変更されているため、
+保存します。",,,
+100452,TXT_AI_CHECK_DELETE_ALL_WHITE,AI設定を全削除します。,,,
+100453,TXT_AI_CHECK_DELETE_ALL_COLOR,"全削除すると設定内容が
+全てリセットされます。",,,
+100454,TXT_AI_CHECK_DELETE_ACTION,AI設定を削除します。,,,
+100455,TXT_AI_CHECK_DELETE_CONFIG,AI条件を削除します。,,,
+100456,TXT_AI_CUSTOM_NONE,未設定,,,
+100457,TXT_AI_GO_TO_RAID,レイドイベントへ移動します。,,,
+100458,TXT_AI_GO_TO_MINE,鉱山イベントへ移動します。,,,
+100459,TXT_AI_GO_TO_DUNGEON,"AI設定を獲得できる
+{}へ移動します。",,,
+100460,TXT_AI_CANNOT_GO_TO_RAID,レイドイベントは開催期間外です。,,,
+100461,TXT_AI_CANNOT_GO_TO_MINE,鉱山イベントは開催期間外です。,,,
+100462,TXT_AI_CANNOT_GO_TO_DUNGEON,{}は開催期間外です。,,,
+100463,TXT_AI_CHANGE_NAME,AIセット名変更,,,
+100464,TXT_AI_ARTS_AUTO_TYPE,"AUTO時の設定を
+「AI」に変更します。
+AI設定はAUTO時の設定を
+「AI」にすると適用されます。",,,
+100465,TXT_AI_COUNT_ACTION,"AI設定数
+{0}/{1}",,,
+100466,TXT_AI_COUNT_CONFIG,"条件設定数
+{}/10",,,
+100467,TXT_AI_ONLY_DUNGEON,{},,,
+100468,TXT_AI_ONLY_RAID,レイド専用,,,
+100469,TXT_AI_ONLY_MINE,鉱山専用,,,
+100470,TXT_AI_LIBRARY,AIライブラリ,,,
+100471,TXT_AI_CANNOT_GO_TO_QUEST,{}は未解放です。,,,
+100472,TXT_AI_OSUSUME_TITLE,おすすめAI設定,,,
+100473,TXT_AI_SETTING_CANCEL,"AI設定の変更を保存せずに閉じます。
+保存せずに閉じると変更内容が
+全てリセットされます。",,,
+100474,TXT_AI_CHECK_UNDO_COND,条件設定の変更を元に戻します。,,,
+100475,TXT_AI_HISTORY_COND_TITLE,設定内容,,,
+100476,TXT_SUMMON_TITLE_40062,コラボチケットユニット召喚,,,
+100477,TXT_SUMMON_TITLE_40063,コラボチケット装備召喚,,,
+100478,TXT_SUMMON_TITLE_40064,コラボチケットユニット召喚,,,
+100479,TXT_SUMMON_TITLE_40065,コラボチケット装備召喚,,,
+100480,TXT_SUMMON_TITLE_40066,コラボチケットユニット召喚,,,
+100481,TXT_SUMMON_TITLE_40067,コラボチケット装備召喚,,,
+103001,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TITLE,⚔クエスト開始⚔,0,0,0
+103002,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_1,大型イベント:{0},0,0,0
+103003,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_2,襲来イベント:{0},0,0,0
+103004,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_3,強襲イベント:{0},0,0,0
+103005,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_4,曜日:{0},0,0,0
+103006,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_5,巨大ボス:{0},0,0,0
+103007,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_6,時限ボス:{0},0,0,0
+103008,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_7,紋章宮:{0},0,0,0
+103009,TXT_DUNGEON_SCHEDULE_RESERVE,次回予約,0,0,0
+103010,TXT_DUNGEON_SCHEDULE_DATE_FORMAT,{0}月{1}日{2}曜日,0,0,0
+103011,TXT_DUNGEON_SCHEDULE_FITER_NAME_1,大型イベント,0,0,0
+103012,TXT_DUNGEON_SCHEDULE_FITER_NAME_2,襲来イベント,0,0,0
+103013,TXT_DUNGEON_SCHEDULE_FITER_NAME_3,強襲イベント,0,0,0
+103014,TXT_DUNGEON_SCHEDULE_FITER_NAME_4,曜日,0,0,0
+103015,TXT_DUNGEON_SCHEDULE_FITER_NAME_5,巨大ボス,0,0,0
+103016,TXT_DUNGEON_SCHEDULE_FITER_NAME_6,時限ボス,0,0,0
+103017,TXT_DUNGEON_SCHEDULE_FITER_NAME_7,紋章宮,0,0,0
+103018,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT,{0}/{1}({2}),0,0,0
+103019,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT_0,{0}/{1}(日),0,0,0
+103020,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT_1,{0}/{1}(月),0,0,0
+103021,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT_2,{0}/{1}(火),0,0,0
+103022,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT_3,{0}/{1}(水),0,0,0
+103023,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT_4,{0}/{1}(木),0,0,0
+103024,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT_5,{0}/{1}(金),0,0,0
+103025,TXT_DUNGEON_SCHEDULE_DATE_SHORT_FORMAT_6,{0}/{1}(土),0,0,0
+103026,TXT_DUNGEON_SCHEDULE_FITER_NAME_OTHER,その他,0,0,0
+103027,TXT_DUNGEON_SCHEDULE_TO_BE_DETERMINED,開催未定,0,0,0
+103028,TXT_SUMMON_UNIT_SALE_MAX_RARITY_4,"最大進化★4
+一括売却",0,0,0
+103029,TXT_DUNGEON_SCHEDULE_EMPTY,該当項目なし,0,0,0
+103030,TXT_DUNGEON_SCHEDULE_DESCRIPTION,"予約すると次回のイベント開催時に通知を受け取ることができます。
+※ご使用の端末設定で「グランドサマナーズ」の通知をONにしてください。
+※データ引き継ぎを行うと予約が解除されます。
+※常設のクエストや一部のコラボイベント等は非表示となります。
+※イベント開催は予告なく変更となる場合があります。
+",0,0,0
+103031,TXT_SUMMON_UNIT_SOLD_MAX_RARITY_4,最大進化★4のユニット{0}体を売却しました,0,0,0
+103032,TXT_UNIT_PICTUREBOOK_ANIM_NAME_4,連携奥義,,,
+103033,TXT_SUMMON_RETRY_GACHA_TIME_FORMAT,開催期間:{0}まで,0,0,0
+103034,TXT_DUNGEON_SCHEDULE_NOW_BEING_HELD,開催中！,0,0,0
+103035,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_1,・大型イベントとは、限定装備を獲得でき、ストーリーを重視したイベントクエストです。,,,
+103036,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_2,・襲来イベントとは、限定ユニットを獲得でき、LUCKを高めることができるイベントクエストです。,,,
+103037,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_3,・強襲イベントとは、クエストミッションの達成で豪華報酬を獲得でき、普段とは異なるバトルができるイベントクエストです。,,,
+103038,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_4,・曜日クエストとは、進化素材や装備強化素材を獲得でき、各曜日ごとに開催されるイベントクエストです。,,,
+103039,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_5,・巨大ボスクエストとは、限定装備やユニット覚醒素材を獲得でき、日替わりで開催されるイベントクエストです。,,,
+103040,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_6,・時限ボスクエストとは、限定装備やユニット覚醒素材を獲得でき、1日のうち短時間開催されるイベントクエストです。,,,
+103041,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_7,・紋章宮とは、紋章石を獲得でき、各曜日ごとに開催されるイベントクエストです。,,,
+103042,TXT_DUNGEON_SCHEDULE_DESCRIPTION_ADD_8,・試練の回廊・属護の遺跡は決まった期間に開催される特殊なイベントクエストです。,,,
+103043,TXT_SUMMON_TITLE_80003,大召喚ルーレット,0,0,0
+103044,TXT_SUMMON_BUY_CUSTOM_PACK_890,"召喚チケットが不足しています。
+「ショップ」でチケット付きパックを
+購入することができます。",0,0,0
+103045,TXT_SUMMON_BUY_CUSTOM_PACK_GO,ショップへ,0,0,0
+103046,RETRY_GACHA_STOCK_PRESENT_TITLE_TEXT,もっと！超引きなおし召喚の報酬,0,0,0
+103047,TXT_SUMMON_TITLE_40010,コラボチケット召喚,0,0,0
+103048,TXT_SUMMON_TITLE_90004,イベント召喚,0,0,0
+103049,TXT_SUMMON_TITLE_40011,英雄召喚,0,0,0
+103050,TXT_SUMMON_TITLE_40012,コラボチケット召喚,0,0,0
+103051,TXT_SUMMON_TITLE_10258,ユニット召喚,0,0,0
+104045,TXT_RAID_TOP_DAMAGE_RANKING_HELP,"最高ダメージを達成した討伐隊を表示しています。
+※不正を行ったユーザーがいた場合、その討伐隊が達成した最高ダメージは無効となります。",0,0,0
+104046,TXT_RAID_ROOT_DAMAGE_RAID_HELP,"ダメージチャレンジレイドでは
+制限時間内にひとり１度のみ出撃可能となっています。
+レイドボスのHPが0になった後でも
+制限時間内であればダメージを与え続けることができます。",0,0,0
+104047,TXT_RAID_TOP_DAMAGE_RANKING_NO_JOIN,ダメージチャレンジレイドをクリアした討伐隊はいません。,0,0,0
+104048,TXT_RAID_WIN_ME_BIGGOLNEKO,ゴルネコBIGの討伐に成功しました,,,
+104049,TXT_RAID_WIN_ME_UGETSU,堕天神獣「憂月」の討伐に成功しました,,,
+104050,DAMAGE_CHALLENGE_RAID_REWARD_TITLE,ダメージチャレンジレイド報酬,,,
+104051,TXT_RAID_WIN_ME_TONITRUS,堕天神獣トニトゥルスの討伐に成功しました,,,
+104052,TXT_SUMMON_TITLE_40013,コラボ召喚,,,
+104053,TXT_SUMMON_TITLE_40014,コラボユニット確定召喚,,,
+104054,TXT_REPORT_QUEST_CLEAR_INFO,問題があるプレイヤーを報告します。,,,
+104055,TXT_REPORT_QUEST_CLEAR_INFO_SUCCEEDED,"送信を完了しました。
+ご協力ありがとうございます。",,,
+104056,TXT_SUMMON_TITLE_40015,ユニット召喚,,,
+104057,TXT_RAID_WIN_ME_IIDO,堕天神獣イードの討伐に成功しました,,,
+104058,TXT_MAIN_QUEST_EVENT_TITLE,メインストーリーイベント,,,
+104059,TXT_MAIN_QUEST_HELP_DIALOG_TITLE,ヘルプ,,,
+104060,TXT_MAIN_QUEST_HELP_DIALOG_CLOSE_BUTTON,閉じる,,,
+104061,TXT_LOBBY_TARGET_MAIN_QUEST,メインクエスト,,,
+104062,TXT_SACRED_ITEM_SKILL_SHARPEN_LV,Lv,,,
+104063,TXT_SUMMON_TITLE_SACRED,神具召喚,,,
+104064,TXT_KEY_ITEM_SELECT,装備選択,,,
+104065,TXT_RAID_WIN_ME_IFRIT,堕天神獣イフリートの討伐に成功しました,,,
+104066,TXT_UNIT_ALBUM_BONUS_POPUP_TITLE,詳細,,,
+104067,TXT_ALBUM_NUM_BATTLES,クエストクリア回数: {},,,
+104068,TXT_BLACKSMITH_TRUE_ITEM_GENERATION,"素材となる装備は
+最大強化・最大限界突破する
+必要があります。",,,
+104069,TXT_TRUE_ITEM_HELP_DETAIL_ABILITY_SLOT_TITLE,以下の中からランダムで１つ付与,,,
+104070,TXT_RAID_WIN_ME_RAGSHERUM,堕天神獣ラグシェルム・ファントムの討伐に成功しました,,,
+104071,TXT_SUMMON_TITLE_40017,コラボユニット確定召喚,,,
+104072,TXT_SUMMON_TITLE_40016,コラボユニット召喚,,,
+104073,TXT_TRUE_ITEM_HELP_DETAIL_TITLE,錬極装備,,,
+104074,TXT_RANDOM_SKILL_NAME_DUMMY,???,,,
+104075,TXT_RANDOM_SKILL_DESCRIPTION,"装備生成時にスキルがランダムに１つ付与されます。
+抽選されるスキルの一覧は詳細ボタンから確認できます。",,,
+104076,TXT_SOLUCK_REINFOECE_SELECT,"強化項目を
+選択してください",,,
+104077,TXT_SOLUCK_WARNING_NOT_REINFORCE_OVER,これ以上強化できません,,,
+104078,TXT_SOLUCK_WARNING_NOT_REINFORCE,強化できません,,,
+104079,TXT_SOLUCK_WARNING_SHORTRESS,総LUCK不足,,,
+104080,TXT_PAGE_TITLE_SOLUCK_REINFORCE,LUCKバフ,,,
+104081,TXT_RUNE_EQUIP_INVALID,無効,,,
+104082,TXT_SUMMON_TITLE_40019,コラボユニット確定召喚,,,
+104083,TXT_SUMMON_TITLE_40018,コラボユニット召喚,,,
+104084,TXT_SUMMON_TITLE_30158,コラボ錬金召喚,,,
+104085,TXT_RAID_WIN_ME_VALZAN_WHITE,幻影魔獣ヴァルザンデスの討伐に成功しました,,,
+104086,TXT_RAID_WIN_ME_BELGIRUS_WHITE,幻影魔獣ベルギラスの討伐に成功しました,,,
+104087,TXT_RAID_WIN_ME_ZINGALUM_WHITE,幻影魔獣ジンガルムの討伐に成功しました,,,
+104088,USER_TAG_SETTING_TITLE,タグ設定,,,
+104089,USER_TAG_NEW_TAG,新規タグ,,,
+104090,USER_TAG_DELETE_TITLE,削除確認,,,
+104091,USER_TAG_DELETE_MESSAGE,"検索タグを消去します。
+よろしいですか？",,,
+104092,USER_TAG_ERROR_NO_NAME,タグ名は最低１文字以上は入力してください,,,
+104093,USER_TAG_ERROR_POSSESSION_MAX,設定できるユーザータグの数は{}個までです。,,,
+104094,USER_TAG_EDIT,タグ名編集,,,
+104095,USER_TAG_MAKE,新規タグ作成,,,
+104096,TXT_QUESTCLEARINFO_SUCCESSION_CROSS_BATTLECOUNT_TEXT,挑戦回数 {}回目 {}のパーティ,,,
+104097,TXT_QUESTCLEARINFO_CROSS_BATTLECOUNT_TEXT,{}パーティ,,,
+104098,TXT_UNIT_REINFORCE_MATERIAL_INDEX1,経験値,,,
+104099,TXT_UNIT_REINFORCE_MATERIAL_INDEX2,タスモン,,,
+104100,TXT_QUEST_RETRY_AND_RUNE ,紋章石選択&再出撃,,,
+104101,TXT_DO_NOT_HAVE_UNITREINFORCED_MATERIAL,強化素材を所持していません,,,
+104102,TXT_DO_NOT_HAVE_UNITREINFORCED_MATERIAL_TITLE,強化素材未所持,,,
+104103,TXT_RUNE_DIALOG_RUNECHANGEPIECE_AND_RESORTIE_WARNING_DESC,"<Font Color=""#FFCC00"">{0}</Font>を欠片{1}個に
+変換し、同じパーティで再出撃します。",,,
+104104,TXT_RANDOM_SKILL_DESCRIPTION_SHAPEN,"刻印装備のランダムアビリティ。
+抽選されるスキルの一覧は詳細ボタンから確認できます。",,,
+104105,TXT_USER_TAG_TITLE,ユーザータグ,,,
+104106,TXT_NOT_TAG_DATA,タグデータがありません,,,
+104107,USER_TAG_INPUT_TEXT_ERROR_OVER,タグ名は{0}文字以内で入力して下さい。,,,
+104108,TXT_SUMMON_TITLE_40020,チケット召喚,,,
+104109,TXT_SUMMON_TITLE_40021,チケット召喚,,,
+104110,TXT_SUMMON_TITLE_40022,チケット召喚,,,
+104111,TXT_SUMMON_RETRY_GACHA_ITEM_DECIDE_DESCRIPTION,"引きなおし装備を獲得することができます。
+期間中は毎日1回引きなおし装備召喚に挑戦できますが、確定すると引きなおすことができなくなります。",,,
+104112,TXT_SUMMON_TITLE_40023,チケット召喚,,,
+104113,ITEM_PRESET_TITLE,装備セット,,,
+104114,SAVE_ITEM_PRESET,装備セット名変更,,,
+104115,ITEM_PRESET_TEXT_ERROR_OVER,{0}文字以内で入力して下さい。,,,
+104116,ITEM_PRESET_TEXT_ERROR_NO_TEXT,最低１文字以上は入力してください,,,
+104117,TXT_ITEM_PRESET_EQUIPCHANGE_MESSAGE,他のユニットが使用している装備が含まれています。入れ替えますか？,,,
+104118,TXT_SHOP_FAILURE_CONSUME,"購入に失敗しました。
+購入復元ボタンを押してください。",,,
+104119,TXT_SUMMON_TITLE_40024,チケット召喚,,,
+104120,TXT_SUMMON_TITLE_40025,コラボユニット確定召喚,,,
+104121,TXT_SUMMON_TITLE_40026,チケット召喚,,,
+104122,TXT_SUMMON_TITLE_40027,チケット召喚,,,
+104123,TXT_SUMMON_TITLE_40028,チケット召喚,,,
+104124,TXT_SUMMON_TITLE_40029,コラボユニット確定召喚,,,
+104125,TXT_RAID_WIN_ME_MAVLOHALOS,堕天神獣マヴロハロスの討伐に成功しました,,,
+104126,TXT_SUMMON_TITLE_40030,チケット召喚,,,
+104127,TXT_SUMMON_TITLE_40031,チケット召喚,,,
+104128,TXT_SUMMON_TITLE_40032,５周年ありがとうチケット召喚,,,
+104129,TXT_SUMMON_TITLE_40033,５周年ありがとうチケット召喚,,,
+104130,TXT_SUMMON_TITLE_40034,５周年ありがとうチケット召喚,,,
+104131,TXT_SUMMON_TITLE_40035,５周年ありがとうチケット召喚,,,
+104132,TXT_SUMMON_TITLE_40036,５周年ありがとうチケット召喚,,,
+104133,TXT_SUMMON_TITLE_40037,５周年ありがとうチケット召喚,,,
+104134,TXT_SUMMON_TITLE_40038,大人気TOP20ユニット召喚,,,
+104135,TXT_SUMMON_TITLE_40039,持っていないユニット確定召喚,,,
+104136,TXT_SUMMON_TITLE_40040,持っていない★5装備確定召喚,,,
+104137,TXT_SUMMON_TITLE_10375,【お正月】ALL STAR召喚,,,
+104138,TXT_SUMMON_TITLE_20408,【お正月】真装備召喚,,,
+104139,TXT_SUMMON_BUY_CUSTOM_PACK_1290,"召喚チケットが不足しています。
+「ショップ」でチケット付きパックを
+購入することができます。",0,0,0
+104140,TXT_SUMMON_BUY_CUSTOM_PACK_1291,"召喚チケットが不足しています。
+「ショップ」でチケット付きパックを
+購入することができます。",0,0,0
+104141,TXT_SUMMON_BUY_CUSTOM_PACK_1292,"召喚チケットが不足しています。
+「ショップ」でチケット付きパックを
+購入することができます。",0,0,0
+104142,TXT_SCENARIO_LOG_CHARACTER_MESSAGE_BRACKET_START,「,,,
+104143,TXT_SCENARIO_LOG_CHARACTER_MESSAGE_BRACKET_END, 」,,,
+104144,TXT_SCENARIO_LOG_REPLACE_BREAK_CODE, <br> ,,,
+104145,TXT_RAID_WIN_ME_EMMY,堕天神獣エミーの討伐に成功しました,,,
+104146,TXT_SUMMON_TITLE_40041,チケット召喚,,,
+104147,TXT_SUMMON_TITLE_90005,即戦力大人気ユニット召喚,,,
+104148,TXT_BOX_GACHA_UNITS,出現ユニット一覧,,,
+104149,TXT_SHOP_TIME_LIMIT_BEGINNERPACK,{}まで購入・召喚可能,,,
+104150,TXT_TIME_COUNTDOWN_HMS,{0}時間{1}分{2}秒,,,
+104151,TXT_SUMMON_BUY_CUSTOM_PACK_1309,"召喚チケットが不足しています。
+「ショップ」でチケット付きパックを
+購入することができます。",,,
+104152,TXT_TIME_LIMIT_BEGINNER_GACHA,〜%-m月%-d日 %H:%Mまで,,,
+104153,TXT_RAID_WIN_ME_REDBIRD,堕天神獣フロガスピサの討伐に成功しました,,,
+104154,TXT_USE_STAMINA_BEFORE_CLEAR,消費体力 初回,,,
+104155,TXT_SUMMON_TITLE_40043,チケット召喚,,,
+104156,TXT_SUMMON_TITLE_40044,チケット召喚,,,
+104157,TXT_SUMMON_TITLE_40045,チケット召喚,,,
+104158,TXT_SUMMON_TITLE_40046,チケット召喚,,,
+104159,TXT_KEY_FREE_CONTINUE_UNIT_TRUE,"<Font Color=""#FFFF00"">{}</Font><Font Color=""#FFFFFF"">編成中につき、無料でコンティニューできます。</Font>",,,
+104160,TXT_KEY_FREE_CONTINUE_UNIT_FALSE,"<Font Color=""#FFFF00"">{}</Font><Font Color=""#FFFFFF"">を編成すると、無料でコンティニューできます。</Font>",,,
+104161,TXT_CONTINUE_CHECK,コンティニュー確認,,,
+104162,TXT_KEY_FREE_REVENGE_TAKEMICHI_TRUE,"<Font Color=""#FFFF00"">{}</Font><Font Color=""#FFFFFF"">編成中につき、無料でリベンジできます。</Font>",,,
+104163,TXT_KEY_FREE_REVENGE_TAKEMICHI_FALSE,"<Font Color=""#FFFF00"">{}</Font><Font Color=""#FFFFFF"">を編成すると、無料でリベンジできます。</Font>",,,
+104164,TXT_DEFEAT_EVENT_REWARD_TITLE,みんなで討伐キャンペーン報酬,,,
+104165,TXT_DEFEAT_EVENT_REWARD_DATE,開催期間 {0} 〜 {1},,,
+104166,TXT_DEFEAT_EVENT_REWARD_DATE_GIFT,報酬配布日時 {0},,,
+104167,TXT_DEFEAT_EVENT_REWARD_COUNT,{}体討伐,,,
+104168,TXT_DEFEAT_EVENT_TIMEFORMAT,%-m月%-d日 %-H:%M,,,
+104169,TXT_DEFEAT_COUNT_01,{0} × {1},,,
+104170,TXT_DEFEAT_COUNT_02,{0}体討伐報酬,,,
+104171,TXT_DEFEAT_COUNT_EVENT_END,イベントは終了しました。,,,
+104172,TXT_USER_DELETE_DESCRIPTION1,"プレイ中のアカウントを端末とサーバーから削除し、
+全ての端末でログインできない状態にします。",,,
+104173,TXT_USER_DELETE_DESCRIPTION2,"※削除後はDLを挟まずにゲームの最初から
+プレイできる状態になります。
+
+上記すべての項目に同意後、
+アカウント削除が可能となります。",,,
+104174,TXT_USER_DELETE_BUTTON,削除する,,,
+104175,TXT_USER_DELETE_CONFIRM,"本当にアカウントを削除しますか？
+<Font Color=""#FF0000"">※引き継ぎコードも削除されます。
+※全ての端末でこのアカウントに
+二度とアクセスできなくなります。</Font>",,,
+104176,TXT_USER_DELETE_FINISH,"アカウントを削除しました。
+タイトル画面に戻ります。",,,
+104177,TXT_SUMMON_TITLE_40047,チケット召喚,,,
+104178,TXT_SUMMON_TITLE_40048,チケット召喚,,,
+104179,TXT_MENU_USER_DELETE,個人情報保護のためのデータ削除,,,
+104181,TXT_FRIEND_EXISTENT_ERROR,共闘数報酬を受け取ることができませんでした。,,,
+104182,TXT_RAID_WIN_ME_FONGION,堕天神獣フォンギオンの討伐に成功しました,,,
+104183,TXT_SUMMON_TITLE_40050,コラボユニット確定召喚,,,
+104184,TXT_SUMMON_TITLE_40049,コラボチケット召喚,,,
+104185,TXT_RAID_WIN_ME_ZEREMNA,堕天神獣ゼ＝レムナの討伐に成功しました,,,
+104186,TXT_ITEM_WEAPON_LIMIT_BREAK_06,★6装備限界突破石【物理攻撃】,,,
+104187,TXT_ITEM_WEAPON_LIMIT_BREAK_07,★6装備限界突破石【魔法攻撃】,,,
+104188,TXT_ITEM_WEAPON_LIMIT_BREAK_08,★6装備限界突破石【防御】,,,
+104189,TXT_ITEM_WEAPON_LIMIT_BREAK_09,★6装備限界突破石【回復】,,,
+104190,TXT_ITEM_WEAPON_LIMIT_BREAK_10,★6装備限界突破石【援護】,,,
+104191,TXT_SUPER_AWAKENING_QUEST_STAGE_NUM,ステージ{0},,,
+104192,TXT_POPUP_CONFIRM_RETIRE_SUPER_AWAKENING_QUEST_TEST_MATCH,模擬戦を終了してクエスト一覧に戻ります,,,
+104193,TXT_SUPER_AWAKENING_QUEST_EVENT_TIMEFORMAT,%-m月%-d日 %-H:%M,,,
+104194,TXT_SUPER_AWAKENING_QUEST_EVENT_DATE,開催期間 {0} 〜 {1},,,
+104195,TXT_STONE_NAME_LIMIT_BREAK_SUPER_UNIT,真域解放石,,,
+104196,TXT_STONE_NAME_LIMIT_BREAK_SUPER_UNIT_DESC,限界突破5以上の超覚醒ユニットの限界突破経験値を1UPさせる,,,
+104197,TXT_SUMMON_TITLE_40051,チケット召喚,,,
+104198,TXT_SUPER_AWAKENING_QUEST_DROP_ITEM_NUMBER_PATTERN1,{0}個,,,
+104199,TXT_SUPER_AWAKENING_QUEST_DROP_ITEM_NUMBER_PATTERN2,{0}〜{1}個,,,
+104200,TXT_SUPER_AWAKENING_QUEST_LUCKY_CHALLENGE_VALUE,+{0},,,
+104201,TXT_MENU_FRIEND,フレンド,,,
+104202,TXT_BATTLE_TEST_MATCH,模擬戦,,,
+104203,TXT_BATTLE_SUPER_AWAKENING_QUEST_DESCRIPTION,"ドロップ報酬、ミッション報酬はストックされ、
+下記のタイミングで獲得できます。
+<Font Color=""#FFFF00"">①全てのクエストをクリアした際の
+リザルト画面
+②「帰還」を選択し、確定した際のリザルト画面</Font>
+
+
+※ドロップ報酬、ミッション報酬を
+獲得せずにAM4時を過ぎた場合、
+報酬はプレゼントボックスに送られます。",,,
+104204,TXT_SUPER_AWAKENING_MISSION_INFO,"ミッション報酬はストックされ、下記のタイミングで獲得できます。
+①全てのクエストをクリアした際のリザルト画面
+②「帰還」を選択し、確定した際のリザルト画面
+※報酬を獲得せずにAM4時を過ぎた場合、報酬はプレゼントボックスに送られます。",,,
+104205,TXT_UNSELECTED_UNIT_ERROR,ユニット未編成,,,
+104206,TXT_DUNGEON_MISSION_REWARDS_TITLE,ダンジョンミッション達成報酬,,,
+104207,TXT_SUPER_AWAKENING_QUEST_PLAYABLE_COUNT,本日の挑戦回数：{0}/{1},,,
+104208,TXT_SUPER_AWAKENING_QUEST_ADD_BOOST_CONFIRM_TITLE,挑戦回復,,,
+104209,TXT_SUPER_AWAKENING_QUEST_ADD_BOOST_CONFIRM_DESCRIPTION,"クリスタルを{0}個消費して
+挑戦回数を回復します",,,
+104210,TXT_SUPER_AWAKENING_QUEST_ADD_BOOST_CONFIRM_CURRENT_CRYSTAL,所持クリスタル　{0}個,,,
+104211,TXT_SUPER_AWAKENING_QUEST_ADD_BOOST_CONFIRM_PLAYABLE_COUNT,"挑戦回数　{0}/{1}→<Font Color=""#FFFF00"">{2}/{3}</Font>",,,
+104212,TXT_SUPER_AWAKENING_QUEST_TEST_MATCH_COST_FORMAT,消費体力 : 0 模擬戦,,,
+104213,TXT_TIME_COUNTDOWN_H,{0}時間,,,
+104214,TXT_TIME_COUNTDOWN_MS,{0}分{1}秒,,,
+104215,TXT_SUPER_AWAKENING_QUEST_RESET_TIME_REMAINING,リセットまで{0},,,
+104216,TXT_QUEST_COUNT,クエスト数,,,
+104217,TXT_EVOL_START_CHECK_DIALOG_OK_BUTTON_SA,超覚醒する,,,
+104218,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_KONPEN_SA,霊珠を使用して超覚醒します。,,,
+104219,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_KONPEN_SA,霊珠で超覚醒,,,
+104220,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_KAKUSEITAMASII_SA,覚醒魂を使用して超覚醒します。,,,
+104221,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_KAKUSEITAMASII_SA,覚醒魂で超覚醒,,,
+104222,TXT_SUPER_AWAKENING_QUEST_RETIRE_CONFIRM_TITLE,確認画面,,,
+104223,TXT_SUPER_AWAKENING_QUEST_RETIRE_CONFIRM_DESCRIPTION,"【帰還】するとこれまでの報酬を獲得し、現在の進行状況がリセットされます。
+<Font Color=""#FF0000"">リベンジチャンスを発動している場合、効果は解除されます。挑戦回数は回復しませんのでご注意ください。</Font>",,,
+104224,TXT_SUPER_AWAKENING_REINFORCE_MAX_LEVEL,経験値は獲得できません,,,
+104225,TXT_STONE_LIMITBREAK,限界突破石,,,
+104226,TXT_STONE_SUPER_LIMITBREAK,真域解放石,,,
+104227,TXT_STONE_LIMITBREAK_RARITY_SIX,★6装備限界突破石,,,
+104228,TXT_ITEM_UNIT_LIMIT_BREAK_02,真域解放石,,,
+104229,TXT_DUNGEON_SCHEDULE_FITER_NAME_8,サマナーズロード,,,
+104230,TXT_DAILY_MISSION_TITLE_BEGINNER,初心者ミッション,,,
+104231,TXT_DAILY_MISSION_TITLE_COLLABORATION,ガチアクタコラボ限定ミッション,,,
+104232,TXT_AUTO_PROGRESSION_CANCEL_CONFIRM,「OK」で自動進行を終了します,,,
+104233,TXT_AUTO_PROGRESSION_RESTART_REST_TIME,あと{}秒で自動進行します。,,,
+104234,TXT_AUTO_REPEAT_STOP_BUTTON,周回終了,,,
+104235,TXT_AUTO_PROGRESSION_STOP_BUTTON,自動進行終了,,,
+104236,TXT_QUEST_RETRY_REPEAT_MODE,▲このクエストを何度も周回します,,,
+104237,TXT_QUEST_RETRY_PROGRESS_MODE,自動で次のクエストに進みます▲,,,
+104238,TXT_QUEST_RETRY_PARTY,進行時に履歴の編成を反映,,,
+104239,TXT_QUEST_RETRY_RUNE,紋章石ドロップ時に周回を終了,,,
+104240,TXT_QUEST_RETRY_POTION,体力不足時にポーションを使用,,,
+104241,TXT_SUMMON_TITLE_40052,コラボチケット召喚,,,
+104242,TXT_INFO_LOG_BOSS_HP_PERCENT,{0}：残りHP {1}%,,,
+104243,TXT_INFO_LOG_BOSS_DEAD,{0}撃破！,,,
+104244,TXT_INFO_LOG_BOSS_HP_MARKER,{0}：HPマーカー発動 ({1}%),,,
+104245,TXT_INFO_LOG_BOSS_BREAK,{0}：BREAK！,,,
+104246,TXT_INFO_LOG_BOSS_BREAK_BADGE,{0}：BREAKバッジ発動,,,
+104247,TXT_INFO_LOG_UNIT_DEAD,{0}戦闘不能！,,,
+104248,TXT_INFORMATION_LOG_WAVE,BATTLE {} START,,,
+104249,TXT_INFORMATION_LOG_BUTTON,メッセージログ,,,
+104250,TXT_INFORMATION_LOG_TITLE,バトルメッセージログ,,,
+104251,TXT_AUTO_PROGRESSION_TITLE,自動進行,,,
+104252,TXT_AUTO_REPEAT_TITLE,周回設定,,,
+104253,TXT_QUEST_RETRY_RUNE_EVO,紋章バースト時に周回を終了,,,
+104254,TXT_INFO_LOG_UNIT_CHANGE,ユニット交代：{0},,,
+104255,TXT_INFO_LOG_CHANGE_BUFF_RACE,同種族チェンジバフ発動！,,,
+104256,TXT_INFO_LOG_CHANGE_BUFF_ELEMENT,同属性チェンジバフ発動！,,,
+104257,TXT_QUEST_PROGRESS_RUNE,紋章石ドロップ時に進行を終了,,,
+104258,TXT_QUEST_PROGRESS_RUNE_EVO,紋章バースト時に進行を終了,,,
+104259,TXT_TEMPLE_STAMP,スタンプ図鑑,,,
+104260,TXT_STAMP_SELECT_PAGE_1,スタンプ選択（ページ１）,,,
+104261,TXT_STAMP_SELECT_PAGE_2,スタンプ選択（ページ２）,,,
+104262,TXT_STAMP_SELECT_PAGE_3,スタンプ選択（ページ３）,,,
+104263,TXT_SUMMON_TITLE_40053,コラボチケットユニット召喚,,,
+104264,TXT_SUMMON_TITLE_40054,コラボチケット装備召喚,,,
+104265,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_8,サマナーズロード:{0},,,
+104266,TXT_SUMMON_TITLE_40055,コラボチケットユニット召喚,,,
+104267,TXT_SUMMON_TITLE_40056,コラボチケット装備召喚,,,
+104268,TXT_RAID_WIN_ME_BETA_THREE,堕天神獣β－３の討伐に成功しました,,,
+104269,TXT_STAMP_SIMPLE_SELECT_PAGE_1,スタンプ簡易選択（ページ１）,,,
+104270,TXT_STAMP_SIMPLE_SELECT_PAGE_2,スタンプ簡易選択（ページ２）,,,
+104271,TXT_STAMP_SIMPLE_SELECT_PAGE_3,スタンプ簡易選択（ページ３）,,,
+104272,TXT_SUMMON_TITLE_40057,エブリデイ装備召喚 タイプＡ,,,
+104273,TXT_SUMMON_TITLE_40058,エブリデイ装備召喚 タイプＢ,,,
+104274,TXT_SUMMON_TITLE_40059,エブリデイ装備召喚 タイプＣ,,,
+104278,TXT_RAID_WIN_ME_ELPNEUMAS,堕天神獣エルプネウマスの討伐に成功しました,,,
+104279,TXT_PAGE_TITLE_UNIT_FANTASY_EVOLUTION,夢幻進化,,,
+104280,TXT_UNIT_LIMITBREAK_WARNING_SIX,"現在夢幻進化していないため、
+限界突破値と超限界突破値の合算値に関わらず限界突破レベルは5までとなります。
+※仮に合算値が6の場合、夢幻進化後に
+自動的に限界突破レベルは6となります。",,,
+104281,TXT_EVOL_START_CHECK_DIALOG_TITLE_PAGE_MUGEN_SINKA,夢幻進化,,,
+104282,TXT_EVOL_START_CHECK_DIALOG_DESC_PAGE_MUGEN_SINKA,素材を使用して夢幻進化します。,,,
+104283,TXT_EVOL_START_CHECK_DIALOG_OK_BUTTON_MUGEN_SINKA,夢幻進化する,,,
+104284,TXT_PAGE_TITLE_UNIT_EVOLUTION_SELL_GET_LIST,進化・覚醒・超覚醒・夢幻進化,,,
+104285,TXT_SUMMON_TITLE_40060,エブリデイ装備召喚 タイプＤ,,,
+104286,TXT_SUMMON_TITLE_40061,エブリデイ装備召喚 タイプＥ,,,
+104287,TXT_UNIT_FANTASY_EVOL_TYPE_ERROR,現在のタイプ,,,
+104288,TXT_UNIT_IMAGE_CHANGE_TITLE,ホーム画面などで表示するイラストを選択できます,,,
+104289,TXT_UNIT_CUTIN_CHANGE_TITLE,超奥義のカットインイラストを選択できます,,,
+104290,TXT_ALBUM_CAUTION_SPIMAGE_ABILITY,SPイラストを入手するとアビリティが有効になります,,,
+104291,TXT_TIME_SHOP_START_AT,{0}/{1} {2}:{3} 開始,,,
+104292,TXT_TOOL_LIST_SPIMAGE_EMPTY,現在SPイラストを所持していません。,,,
+104293,TXT_MENU_TERMS,利用規約,,,
+104294,TXT_MENU_PRIVACY_POLICY,プライバシーポリシー,,,
+104295,TXT_MENU_LAW,特定商取引法,,,
+104296,TXT_SA_REVENGE_BUFF_TITLE,リベンジチャンス,,,
+104297,TXT_SA_REVENGE,リベンジ,,,
+104298,TXT_SA_REVENGE_BUFF_INFO,下記の効果から1つを選択してください,,,
+104299,TXT_MENU_SETTLEMENT,資金決済法に基づく表記,,,
+104300,TXT_RAID_WIN_ME_WILKES,堕天神獣ウィルクスの討伐に成功しました,,,
+104301,TXT_SA_REVENGE_BUFF_DESCRIPTION,"リベンジチャンスの効果は、全ステージをクリアするか帰還するまで継続します。
+リベンジチャンス中でも各ステージの報酬は変わらず獲得でき、ミッションも達成可能です。
+リベンジチャンス中のLUCKYゲージボーナスは1となります。
+",,,
+104303,TXT_SUPER_AWAKENING_QUEST_REVENGE_CONFIRM_DESCRIPTION,"【帰還】または【リベンジチャンスを発動して帰還】するとこれまでの報酬を獲得し、現在の進行状況がリセットされます。
+<Font Color=""#FF0000"">挑戦回数は回復しませんのでご注意ください。</Font>",,,
+104304,TXT_SUMMON_TITLE_40068,コラボチケットユニット召喚,,,
+104305,TXT_SUMMON_TITLE_40069,コラボチケット装備召喚,,,
+104306,TXT_SUMMON_TITLE_40070,コラボチケットユニット召喚,,,
+104307,TXT_SUMMON_TITLE_40071,コラボチケット装備召喚,,,
+104308,TXT_PAID_DIA_WITH_VALUE,クリスタル（有償）x{0},,,
+104309,TXT_FREE_DIA_WITH_VALUE,クリスタル（無償）x{0},,,
+104310,TXT_NAME_UNIT_RANDOM,ユニット（下記からランダムで{0}体）,,,
+104311,TXT_NAME_ITEM_RANDOM,装備（下記からランダムで{0}個）,,,
+104312,TXT_NAME_SP_IMAGE,SPイラスト,,,
+104313,TXT_NAME_ITEM_ETC,アイテムなど,,,
+104314,TXT_PLAYER_COIN_DESC,強化や進化・覚醒などに使用する通貨,,,
+104315,TXT_PLAYER_ALCHEMY_ORB_DESC,"アイテムとの交換や錬金召喚に必要なアイテム
+「街」>「錬金屋」で使用可能",,,
+104316,TXT_PLAYER_ALCHEMY_BALL_DESC,"真装備との交換に必要なアイテム
+「街」>「錬金屋」>「交換」>「虹玉交換」で交換可能",,,
+104317,TXT_RUNE_PIECE_DESC,"紋章石「{0}」の欠片
+集めると「ユニット」>「紋章石の欠片」で装備・変換が可能",,,
+104318,TXT_MINE_WAVEDEVICE_DESC,魔法石鉱山で特定のボスを出現させるアイテム,,,
+104319,TXT_SUGOROKU_DICE_DESC,すごろくの進行に必要なアイテム,,,
+104320,TXT_SUMMON_TITLE_40072,エブリデイ装備召喚 タイプＡ,,,
+104321,TXT_SUMMON_TITLE_40073,エブリデイ装備召喚 タイプＢ,,,
+104322,TXT_SUMMON_TITLE_40074,エブリデイ装備召喚 タイプＣ,,,
+104323,TXT_BUY_WARNING_DAY,あと{}日,,,
+104324,TXT_BUY_WARNING_HOUR,あと{}時間,,,
+104325,TXT_BUY_WARNING_MINUTE,あと{}分,,,
+104326,TXT_SET_BONUS_ON,セットボーナス 毎日 ポーションL×1,,,
+104327,TXT_SET_BONUS_OFF,セットボーナス 毎日 ポーションL×1,,,
+104328,TXT_GRAPASS_PRICE_FREE,初回{}日無料,,,
+104329,TXT_BUY_GRAPASS_AGAIN,{}日延長,,,
+104330,TXT_SUMMON_BUY_CUSTOM_PACK_1530,"召喚チケットが不足しています。
+「ショップ」でチケット付きパックを
+購入することができます。",,,
+104331,TXT_BUY_GRAPASS_FOR_FREE,初回{}日無料,,,
+104332,TXT_SUMMON_TITLE_40075,ロケットダッシュ召喚,,,
+104333,TXT_BUY_GRAPASS_AGAIN_FOR_FREE,{}日無料で延長,,,
+104334,TXT_RAID_TICKET,レイドチケット,,,
+104335,TXT_SHOP_BUTTON_POPUP,各種拡張,,,
+104336,TXT_BUY_GRAPASS,{}日有効にする,,,
+104337,TXT_POPUP_FREE_GRAPASS,グラパスを無料で購入しますか？,,,
+104338,TXT_HOME_GRAPASS_VALID,有効,,,
+104339,TXT_RUNE_DIALOG_EQUIPEVOWARNING_TITLE,バーストコア,,,
+104340,TXT_RUNE_DIALOG_EQUIPEVOWARNING_DESC,バーストコアを使用して紋章石をバーストさせます。,,,
+104341,TXT_RAID_WIN_ME_NIGHT,堕天神獣ツァイバーZの討伐に成功しました,,,
+104342,TXT_HOME_GRAPASS_INVALID,無効,,,
+104343,TXT_SUMMON_TITLE_40076,復刻コラボユニット確定召喚,,,
+104344,TXT_SUMMON_TITLE_40077,コラボチケットユニット召喚,,,
+104345,TXT_SUMMON_TITLE_40078,コラボチケット装備召喚,,,
+104346,TXT_DIALOG_TITLE_UNIT_MAX_REINFORCE,最大強化薬 使用確認,,,
+104347,TXT_PAGE_TITLE_UNIT_MAX_REINFORCE,最大強化薬,,,
+104348,TXT_UNIT_MAX_REINFORCE_DESCRIPTION,ユニットの進化・覚醒段階とLvを最大まで強化します,,,
+104349,TXT_DUNGEON_SCHEDULE_NOTIFICATION_TEXT_0,{0},,,
+104350,TXT_EVOL_PAGE_USE_AMOUNT,x{},,,
+104351,TXT_EVOL_PAGE_ALL_AMOUNT,(x{}),,,
+104352,TXT_RUNE_UNITEQUIPEVO_TITLE,バーストコア,,,
+104353,TXT_COUNT_NUM,×{0},,,
+104354,TXT_COUNT_NUM_LIMIT,×{0}+,,,
+104355,TXT_RUNE_DROP_BONUS_TIME_FORMAT,残り時間 %s,,,
+104356,TXT_UNIT_INFO_COOLTIME,残り%d秒,,,
+104357,TXT_REGALIA_INFO_HP,"HP<Font Color=""#FFCC00"">%d</Font>UP",,,
+104358,TXT_REGALIA_INFO_ATK,"ダメージ<Font Color=""#FFCC00"">%2.2f</Font>％UP",,,
+104359,TXT_REGALIA_INFO_DEF,"被物理ダメージを<Font Color=""#FFCC00"">%2.2f</Font>％軽減",,,
+104360,TXT_REGALIA_INFO_MGC,"被魔法ダメージを<Font Color=""#FFCC00"">%2.2f</Font>％軽減",,,
+104361,TXT_REGALIA_INFO_AUTO,"<Font Color=""#FFCC00"">%2.2f</Font>秒毎にHP<Font Color=""#FFCC00"">%d</Font>回復
+＆奥義ゲージ<Font Color=""#FFCC00"">%d</Font>上昇",,,
+104362,TXT_REGALIA_INFO_BRK,"ブレイク力<Font Color=""#FFCC00"">%2.2f</Font>％UP",,,
+104363,TXT_REGALIA_INFO_COOLTIME,"<Font Color=""#FFCC00"">%d</Font>秒",,,
+104364,TXT_SUMMON_TITLE_40079,エブリデイ装備召喚 タイプＤ,,,
+104365,TXT_SUMMON_TITLE_40080,エブリデイ装備召喚 タイプＥ,,,
+104366,TXT_UNIT_PARAM_INFO_01,"※レア度「★{0}」の
+　最大強化時のステータスです",,,
+104367,TXT_UNIT_PARAM_INFO_02,"※「覚醒」状態の
+　最大強化時のステータスです",,,
+104368,TXT_UNIT_PARAM_INFO_03,"※「超覚醒」状態の
+　最大強化時のステータスです",,,
+104369,TXT_GB_RECORD_01,マス移動回数,,,
+104370,TXT_SUMMON_TITLE_40081,コラボチケットユニット召喚,,,
+104371,TXT_SUMMON_TITLE_40082,コラボチケット装備召喚,,,
+104372,TXT_GB_RECORD_02,バトル回数,,,
+104373,TXT_GB_RECORD_03,最大到達エリア,,,
+104374,TXT_GB_RECORD_04,EXボス討伐数,,,
+104375,TXT_GB_RECORD_05,合計レガリアレベル,,,
+104376,TXT_GB_RECORD_06,コモン・ミスティカ獲得数,,,
+104377,TXT_GB_RECORD_07,ユニーク・ミスティカ獲得数,,,
+104378,TXT_GB_RECORD_08,お宝入手数,,,
+104379,TXT_GB_RECORD_09,ユナチャンス発生数,,,
+104380,TXT_GB_RECORD_UNIT_01,{0}回,,,
+104381,TXT_GB_RECORD_UNIT_02,{0}回,,,
+104382,TXT_GB_RECORD_UNIT_04,{0}回,,,
+104383,TXT_GB_RECORD_UNIT_06,{0}個,,,
+104384,TXT_GB_RECORD_UNIT_07,{0}個,,,
+104385,TXT_GB_RECORD_UNIT_08,{0}回,,,
+104386,TXT_GB_RECORD_UNIT_09,{0}回,,,
+104387,TXT_GB_RECORD_TITLE,レコード,,,
+104388,TXT_GB_AUTO_PROGRESS_POTION,AP不足時にアイテムを使用,,,
+104389,TXT_GB_AUTO_PROGRESS_NEXT_DECK,スタミナ不足時に次の編成を使用,,,
+104390,TXT_GB_AUTO_PROGRESS_WAIT_TIME,APまたはスタミナ不足時に待機,,,
+104391,TXT_GB_AUTO_PROGRESS_RETURN,現在地と目的地を往復する,,,
+104392,TXT_GB_AUTO_PROGRESS_TREASURE,お宝を回収してから目的地に向かう,,,
+104393,TXT_POPUP_TOOL_USE_GB_AP_RECOVER,アイテムを使用してAPを回復します,,,
+104394,TXT_POPUP_USE_CRYSTAL_GB_AP_RECOVER,"クリスタルを1個使用して
+APを最大値分回復しますか？",,,
+104395,TXT_TOOL_USE_RECOVERY_GB_AP,"{0}を使用して
+APを回復しました",,,
+104396,TXT_USE_CRYSTAL_RECOVERY_GB_AP,クリスタルを使用してAPを回復しました,,,
+104397,TXT_POPUP_GB_AP_SHORTAGE_ERROR,"APが不足しています。
+クリスタルを1個使用して
+最大値分回復しますか？",,,
+104398,TXT_GB_AP_MAX_ERROR,APは最大です,,,
+104399,TXT_POPUP_GB_AP_SHORTAGE_TOOL_ERROR,"APが不足しています。
+アイテムを使用して回復しますか？",,,
+104400,TXT_DIALOG_TITLE_UNIT_RECOVERY_CT,スタミナ回復薬,,,
+104401,TXT_DIALOG_TITLE_UNIT_RECOVERY_CT_ALL,超スタミナ回復薬,,,
+104402,TXT_UNIT_RECOVERY_CT_DESCRIPTION,"スタミナ回復薬を使用して
+ユニットのスタミナを回復します",,,
+104403,TXT_UNIT_RECOVERY_CT_ALL_DESCRIPTION,"超スタミナ回復薬を使用して
+すべてのユニットのスタミナを回復します",,,
+104404,TXT_TOOL_USE_RECOVERY_CT,"スタミナ回復薬を使用して
+スタミナを回復しました",,,
+104405,TXT_TOOL_USE_RECOVERY_CT_ALL,"超スタミナ回復薬を使用して
+すべてユニットのスタミナを回復しました",,,
+104406,TXT_OUT_AREA_UNIT_NUM_RECOVERY_CT_ALL,他{0}体,,,
+104407,TXT_GB_TOP,グランドバトル,,,
+104408,TXT_CI_MATERIAL_EXCHANGE,ミスティカ変換,,,
+104409,TXT_CI_MATERIAL_EXCHANGE_COMPLETE,ミスティカを変換しました,,,
+104410,TXT_KEY_ITEM_CRAFT_MATERIAL,ミスティカ一覧,,,
+104411,TXT_CI_GENERIC_TYPE_1,メタル・ミスティカ,,,
+104412,TXT_CI_GENERIC_TYPE_2,エレメンタル・ミスティカ,,,
+104413,TXT_CI_GENERIC_TYPE_3,フローラ・ミスティカ,,,
+104414,TXT_CI_GENERIC_TYPE_4,バイオ・ミスティカ,,,
+104415,TXT_GB_EXBOSS_EMPTY_UNIT_ERROR,ユニットを4体編成してください,,,
+104416,TXT_EX_BOSS_LIST,EXボス一覧,,,
+104417,TXT_EX_BOSS_OPEN_AREA_NUM,エリア{0}クリアで開放,,,
+104418,TXT_GB_ENCOUNT_COUNT_SELECT,バトル頻度,,,
+104419,TXT_GB_ENCOUNT_COUNT_DESCRIPTION,{0}マスに1回,,,
+104420,TXT_GB_ENCOUNT_COUNT_UNLOCK_DESCRIPTION,エリア{0}クリアで開放,,,
+104421,TXT_GB_AREA_SELECT,エリア選択,,,
+104422,TXT_GB_RECORD_BONUS_TITLE,レコード報酬,,,
+104423,TXT_GB_WARNING_COOLTIME_UNIT_IN,スタミナの残っているユニットを4体編成してください,,,
+104424,TXT_SUPPORT_UNIT_SELECT,サポートユニット選択,,,
+104425,TXT_GB_MAP_MODAL_EXPLANATION,タップして目的地を選択,,,
+104426,TXT_GB_TOP_EVENT,イベント開催中,,,
+104427,TXT_GB_TOP_EVENT_TIME,{0}/{1}〜{2}/{3} {4}:{5},,,
+104428,TXT_GB_SET_DESTINATTION,自動進行,,,
+104429,TXT_UNIT_TRUE_ARTS_CUTIN_CHANGE_TITLE,真奥義のカットインイラストを選択できます,,,
+104430,TXT_PAGE_TITLE_UNIT_CT_RECOVERY,スタミナ回復,,,
+104432,TXT_GB_STORY_FULL_OPEN_CONFIRM,ストーリーをすべて開放することができます,,,
+104434,TXT_GB_STORY_FULL_OPEN_RESULT,ストーリーを開放しました,,,
+104436,TXT_GB_AUTO_PROGRESSION_RESULT_REST_TIME,あと{}秒で次の画面に切り替わります,,,
+104438,TXT_GB_PARTY_NAME,パーティ{0},,,
+104439,TXT_GB_AUTO_PROGRESS_STOP,自動進行を終了,,,
+104440,TXT_GB_TITLE_AREA_CLEAR_RECORD,ワールド{0},,,
+104441,TXT_GB_AREA_CLEAR_RECORD_NAME,エリア{0},,,
+104442,TXT_KEY_ITEM_CRAFT_TOP,フュージョン・クラフト,,,
+104443,TXT_KEY_ITEM_CRAFT_LIST,クラフト装備一覧,,,
+104444,TXT_COUNT_UNIQUE_MATERIALS,現在の選択数：{},,,
+104445,TXT_RECOVERY_GB_AP,APを回復しました,,,
+104446,TXT_GB_EXBOSS_COST_FORMAT,消費AP : {0},,,
+104447,TXT_GB_DURATION_BUFF_REGALIA,{0}秒間、レガリア経験値{1}%UP,,,
+104448,TXT_GB_DURATION_BUFF_TOOL,"{0}秒間、マップ宝箱からの
+アイテム個数{1}%UP",,,
+104449,TXT_PAGE_TITLE_UNIT_CT_LEVEL_UP,ユニットを選択,,,
+104450,TXT_DIALOG_TITLE_UNIT_LEVEL_UP_CT,クールタイム短縮,,,
+104451,TXT_UNIT_LEVEL_UP_CT_DESCRIPTION,アクセルストーンを使用してクールタイム短縮Lvを上昇させます,,,
+104452,TXT_UNIT_LEVEL_UP_CT_NAME,クールタイム短縮Lv{0},,,
+104453,TXT_UNIT_LEVEL_UP_CT_TIME,{0}秒,,,
+104454,TXT_GB_DURATION_BUFF_REMAIN_TIME,あと{0}:{1},,,
+104455,TXT_COOL_TIME_INFO_NO_UNIT,すべてのユニットのスタミナは最大です,,,
+104456,TXT_GB_TOP_EPISODE,EP.{},,,
+104457,TXT_TEMPLE_COMIC,グラサマ劇場,,,
+104458,TXT_CRAFT_ITEM,クラフト装備,,,
+104459,TXT_GB_TOP_TUTORIAL,チュートリアル,,,
+104460,TXT_GB_PAGER_LIST_1,エリア{0},,,
+104461,TXT_GB_PAGER_LIST_2,エリア{0}〜エリア{1},,,
+104462,TXT_GB_AP_RECOVERY_REMAIN_TIME,AP回復まで,,,
+104463,TXT_GB_CT_RECOVERY_REMAIN_TIME,CT回復まで,,,
+104464,TXT_TOWN_CHARA_NAME_09,ヴェナ,,,
+104465,TXT_CRAFT_EXP_TITLE,熟練度一覧,,,
+104466,TXT_CRAFT_EXP_DESCRIPTION_CREATE,"熟練度が高いほど、高補正の装備を
+生成しやすくなります",,,
+104467,TXT_CRAFT_EXP_DESCRIPTION_DISASSEMBLE,"熟練度が高いほど、得られる素材が
+多くなります",,,
+104468,TXT_KEY_ITEM_CRAFT_SELECT,フュージョン・クラフト,,,
+104469,TXT_CRAFT_SELECT_POPUP_TITLE,素材の等級を選択,,,
+104470,TXT_CRAFT_SELECT_POPUP_DETAIL,"同じ等級の素材を10個組み合わせて
+フュージョン・クラフトを行います",,,
+104471,TXT_CRAFT_SELECT_POPUP_WARNING,クラフト熟練度が,,,
+104472,TXT_PAGE_TITLE_REGALIA_LEVEL,レガリアレベル,,,
+104473,TXT_PAGE_TITLE_UNIT_SELECT,ユニット選択,,,
+104474,TXT_GB_AUTO_PROGRESS_TO_GOAL,目的地まで自動進行します,,,
+104475,TXT_POPUP_GB_CT_SHORTAGE_ERROR,"スタミナが不足しています
+アイテムを使って回復しますか？",,,
+104476,TXT_POPUP_GB_CT_SHORTAGE_NO_ITEM_ERROR,"スタミナが不足しています
+回復まであと{0}",,,
+104477,TXT_GB_AUTO_PROGRESS_RESULT_ARRIVED_GOAL,目的地に到着しました,,,
+104478,TXT_GB_AUTO_PROGRESS_RESULT_DEFEAT_BOSS,ボスを討伐しました,,,
+104479,TXT_GB_AUTO_PROGRESS_RESULT_LIMIT_COUNT,{0}マス進行しました,,,
+104480,TXT_GB_AUTO_PROGRESS_RESULT_AP_SHORTAGE,"AP不足のため進行を終了しました
+APは時間やアイテムなどで回復できます",,,
+104481,TXT_GB_AUTO_PROGRESS_RESULT_INTERRUPTION,自動進行を中断しました,,,
+104482,TXT_GB_AUTO_PROGRESS_RESULT_BTN_NEXT,次のエリアへ,,,
+104483,TXT_GB_AUTO_PROGRESS_RESULT_STAMINA_SHORTAGE,"スタミナ不足のため進行を終了しました
+スタミナは時間やアイテムで回復できます",,,
+104484,TXT_GB_SCENARIO_HISTORY_AREA,エリア{}到達で開放,,,
+104485,TXT_GB_SCENARIO_HISTORY_BOSS,エリア{}のボス遭遇で開放,,,
+104486,TXT_GB_SCENARIO_HISTORY_CLEAR,エリア{}クリアで開放,,,
+104487,TXT_GB_AREA_EMPTY_UNIT_ERROR,ユニットを４体編成してください,,,
+104488,TXT_GB_SCENARIO_HISTORY_EVENT,エリア{}マス踏破で開放,,,
+104489,TXT_AUTO_PROGRESSION_TITLE_BATTLE,バトル開始,,,
+104490,TXT_AUTO_PROGRESSION_TITLE_PICKING,採取開始,,,
+104492,TXT_CRAFT_UNIQUE_POPUP_TITLE,ユニーク素材を選択,,,
+104493,TXT_CRAFT_UNIQUE_POPUP_DETAIL,2種類まで選択できます,,,
+104494,TXT_CRAFT_NO_UNIQUE_MATERIAL,"所持しているユニーク・ミスティカは
+ここに表示されます",,,
+104495,TXT_CRAFT_NO_ITEM,"所持しているクラフト装備は
+ここに表示されます",,,
+104496,TXT_CRAFT_SELECT_POPUP_WARNING_2,以上で開放,,,
+104497,TXT_CRAFT_RUNE_POPUP_TITLE,紋章石の欠片を選択,,,
+104498,TXT_CRAFT_RUNE_POPUP_DETAIL,紋章石の欠片を3個使って,,,
+104499,TXT_CRAFT_RUNE_POPUP_DETAIL_2,確率で同じ効果のアビリティを付与できます,,,
+104500,TXT_CRAFT_ITEM_COUNT,クラフト装備所持枠+1,,,
+104501,TXT_GB_MOVE_AND_PICKING,移動して採取を行います,,,
+104502,TXT_GB_MOVE_AND_BATTLE,移動してバトルを行います,,,
+104503,TXT_GB_BATTLE_WITH_BOSS,ボスに挑む,,,
+104504,TXT_GB_BATTLE_TITLE,{0} エリア{1},,,
+104505,TXT_CRAFT_ITEM_DISASSEMBLE,"分解してミスティカを獲得しますか？
+※クラフト装備は失われます",,,
+104506,TXT_GB_PAGE_TITLE_MATCH_UNITLIST,サポートユニット選択,,,
+104507,TXT_GB_ENCOUNT_COUNT_TUTORIAL_MESSAGE,"エピソード2以降、特定のエリアをクリアすることで
+バトルが発生するまでの間隔を変更できるようになります",,,
+104508,TXT_GB_ENCOUNT_COUNT_NORMAL_MESSAGE,バトルが発生するまでの間隔を変更できます,,,
+104509,TXT_GB_EX_BOSS_RETRY_REPEAT_MODE,▲指定した回数自動でこのクエストに挑みます,,,
+104510,TXT_CRAFT_RUNE_CANCEL,解除,,,
+104511,TXT_PAGE_TITLE_REGALIA_DISTRIBUTE,レガリア分配,,,
+104512,TXT_GB_DISTRIBUTE_DESTINATION,分配先のユニットを選択,,,
+104513,TXT_GB_DISTRIBUTE_ORIGIN,分配元のユニットを選択,,,
+104514,TXT_GB_REGALIA_DISTRIBUTE_INFO,"指定したレガリアEXPの<Font Color=""#FFCC00"">%d%%</Font>分を
+分配先のユニットに移します",,,
+104515,TXT_CRAFT_SPECIALIZE,スペシャライズ,,,
+104516,TXT_CRAFT_SPECIALIZE_LIST,スペシャライズ装備一覧,,,
+104517,TXT_CRAFT_SPECIALIZE_CAUTION,"選択したクラフト装備を、
+このユニットの専用装備としてスペシャライズします
+
+各ユニットにつき1つスペシャライズ可能です
+
+分解することで、このユニットに他のクラフト装備をスペシャライズできるようになります",,,
+104518,TXT_CRAFT_SPECIALIZE_STATUS,ステータス 割り振り,,,
+104519,TXT_CRAFT_SPECIALIZE_DESCRIPTION,"{0}を{1}の専用装備としてスペシャライズします
+スペシャライズすることでステータスが付与され、クラフト装備の所持数制限を受けなくなります",,,
+104520,TXT_GB_REGALIA_DISTRIBUTE_TITLE,レガリア分配,,,
+104521,TXT_GB_REGALIA_DISTRIBUTE_RESULT_TITLE,レガリア分配結果,,,
+104522,TXT_CRAFT_SPECIALIZE_LIST_BUTTON,スペシャライズ,,,
+104523,TXT_CRAFT_SPECIALIZE_STATUS_DESCRIPTION,"<Font Color=""#FFFF00"">合計値{}</Font>を各ステータスに割り振ることができます。",,,
+104524,TXT_CRAFT_SPECIALIZE_DISASSEMBLE_CAUTION,"{0}は{1}の専用装備としてスペシャライズされています
+分解することで、{1}に他のクラフト装備をスペシャライズできるようになります",,,
+104525,TXT_CRAFT_SPECIALIZE_ITEM_CHECK,装備確認,,,
+104526,TXT_CRAFT_SPECIALIZE_GO_TO_DETAIL,装備詳細へ,,,
+104527,TXT_CRAFT_SPECIALIZE_CONFIRM,スペシャライズ確認,,,
+104528,TXT_SPECIALIZE_NO_ITEM,"所持しているスペシャライズ装備は
+ここに表示されます",,,
+104529,TXT_SPECIALIZE_NO_ABILITY,アビリティなし,,,
+104530,TXT_WORLD_AREA_2_OPEN,"浮遊大陸世界『アルトヘルム』が
+解放されました",,,
+104531,TXT_MENU_CONFIG_SCENARIO_AUTO_SPEED,"シナリオオート
+再生速度",,,
+104532,TXT_MENU_CONFIG_SCENARIO_TEXT_SPEED,"シナリオ
+テキスト速度",,,
+104533,TXT_MENU_CONFIG_ANALYZE_CONFIRM,バトル画面に表示,,,
+104534,TXT_MENU_CONFIG_ANALYZE_ALPHA,不透明度,,,
+104535,TXT_MENU_CONFIG_ANALYZE_RESET,リセット,,,
+104536,TXT_SUMMON_TITLE_40128,ロケットダッシュ召喚,,,
+104537,TXT_SUMMON_BUY_CUSTOM_PACK_1866,"召喚チケットが不足しています。
+「ショップ」でチケット付きパックを
+購入することができます。",,,
+105000,TXT_SUMMON_TITLE_40083,コラボチケットユニット召喚,,,
+105001,TXT_SUMMON_TITLE_40084,コラボチケット装備召喚,,,
+105002,TXT_RAID_WIN_ME_GROITZ,堕天神獣グロイツの討伐に成功しました,,,
+105003,TXT_RAID_WIN_ME_DEGLLEMAGNUS,堕天神獣デグルマグナの討伐に成功しました,,,
+105004,TXT_RAID_WIN_ME_FREYDAL,堕天神獣フレイダルの討伐に成功しました,,,
+105005,TXT_RAID_WIN_ME_FOSRADIUS,堕天神獣フォスラディウスの討伐に成功しました,,,
+105006,TXT_SUMMON_TITLE_40100,エブリデイ装備召喚 タイプＡ,,,
+105007,TXT_SUMMON_TITLE_40101,エブリデイ装備召喚 タイプＢ,,,
+105008,TXT_SUMMON_TITLE_40102,エブリデイ装備召喚 タイプＣ,,,
+105009,TXT_RAID_WIN_ME_OLDEUS,堕天神獣オルデウスの討伐に成功しました,,,
+105010,TXT_RAID_WIN_ME_AERUGRAXES,堕天神獣アエルグラキエスの討伐に成功しました,,,
+105011,TXT_SUMMON_TITLE_40121,チケット召喚,,,
+105012,TXT_RAID_WIN_ME_IGNIS,堕天神獣イグニスの討伐に成功しました,,,
+105013,TXT_RAID_WIN_ME_PHI_SECOND,堕天神獣φ－２の討伐に成功しました,,,
+105014,TXT_RAID_WIN_ME_PLUTO,堕天神獣プルートゥの討伐に成功しました,,,
+105015,TXT_RAID_WIN_ME_CELIA,堕天神獣シーリアの討伐に成功しました,,,
+105016,TXT_RAID_WIN_ME_METEOHAZE,幻炎竜メテオヘイズの討伐に成功しました,,,
+105017,TXT_RAID_WIN_ME_GO,堕天神獣ジオ＝ザグナスの討伐に成功しました,,,
+200000,TXT_QUEST_FREE_STAMINA_COUNT_INFO,"<Font Color=""#00FF00"">1日3回 消費体力0！
+あと {}回</Font><Font Color=""#FFCC00"">
+AM 4:00 にリセット</Font>",0,0,0
+200030,TXT_SUMMON_WARNING_LOCKED,"いきなり最強ステップアップ召喚(KoB)を行うには
+以下の召喚を最終STEPまで行う必要があります。
+",,,
+200031,TXT_SUMMON_LOCKED_GACHA_100002,いきなり最強ステップアップ召喚(炎),,,
+200032,TXT_SUMMON_LOCKED_GACHA_100003,いきなり最強ステップアップ召喚(水),,,
+200033,TXT_SUMMON_LOCKED_GACHA_100004,いきなり最強ステップアップ召喚(樹),,,
+200034,TXT_SUMMON_LOCKED_GACHA_100005,いきなり最強ステップアップ召喚(光),,,
+200035,TXT_SUMMON_LOCKED_GACHA_100006,いきなり最強ステップアップ召喚(闇),,,
+200036,TXT_SUMMON_WARNING_UPPER_LIMIT,{}は終了しました。,,,
+200040,TXT_MENU_APPLE_MIGRATION_SUCCESS,Apple ID link succeeded.,Apple ID link succeeded.,,
+200041,TXT_MENU_APPLE_MIGRATION_FAILED,Apple ID link failed.,Apple ID link failed.,,
+200058,TXT_GOOGLE_LINK_TITLE,Link Google,Link Google,,
+200059,TXT_GOOGLE_LINK_MESSAGE,"Are you sure you want to link the
+game data on this device to your
+Google account?","Are you sure you want to link the
+game data on this device to your
+Google account?",,
+200060,TXT_GOOGLE_ACCOUNT_LINKED_TITLE,アカウント連携完了,Google Account Link Complete,,
+200061,TXT_GOOGLE_ACCOUNT_LINKED_MESSAGE,Googleアカウントと連携しました,"Your game data is now linked to the
+Google account entered.",,
+200066,TXT_ITEM_TYPE_01_TYPE,物理攻撃タイプ,,,
+200067,TXT_ITEM_TYPE_02_TYPE,魔法攻撃タイプ,,,
+200068,TXT_ITEM_TYPE_03_TYPE,防御タイプ,,,
+200069,TXT_ITEM_TYPE_04_TYPE,回復タイプ,,,
+200070,TXT_ITEM_TYPE_05_TYPE,援護タイプ,,,
+200071,TXT_SLASH,/,,,
+200072,TXT_ANTI_ALIAS,高精細ドットモード,,,
+200073,TXT_QUEST_MISSION_17,同じ属性を入れずにクリア,,,
+200074,TXT_IDLE_GAME_WARNING_UNIT_REINFORCE,"注意！秘宝探索中のユニットです
+このまま強化しますか？",,,
+200075,TXT_IDLE_GAME_WARNING_UNIT_EVOLUTION,"注意！秘宝探索中のユニットです
+このまま進化させますか？",,,
+200076,TXT_IDLE_GAME_WARNING_UNIT_AWAKE,"注意！秘宝探索中のユニットです
+このまま覚醒させますか？",,,
+200077,TXT_IDLE_GAME_WARNING_UNIT_SUPER_AWAKE,"注意！秘宝探索中のユニットです
+このまま超覚醒させますか？",,,
+200078,TXT_IDLE_GAME_WARNING_ITEM_REINFORCE,"注意！秘宝探索でセット中の装備です
+このまま強化しますか？",,,
+200079,TXT_IDLE_GAME_WARNING_ITEM_LIMITBREAK,"注意！秘宝探索でセット中の装備です
+このまま限界突破しますか？",,,
+200080,TXT_IG_CONTENTS_LIST_TITLE,探索ミッション,,,
+200081,TXT_IG_CONTENTS_LIST_PROGRESS,進行度 {0}/{1},,,
+200082,TXT_IG_REWARD_UNIT,ユニット報酬,,,
+200083,TXT_IG_REWARD_ITEM,装備報酬,,,
+200084,TXT_IG_REWARD_UNIT_DESCRIPTION,"時間経過で★5ユニットを獲得できます
+※ユニットは限界突破Lv5で出現します",,,
+200085,TXT_IG_REWARD_ITEM_DESCRIPTION,"時間経過で装備を獲得できます
+※装備は限界突破Lv5で出現します",,,
+200087,TXT_IG_NOT_OPEN,開放されていません,,,
+200088,TXT_IG_REWARD_LIST_POPUP_TITLE,探索報酬受け取り,,,
+200090,TXT_IG_TIME_SHORTENING_TITLE,即時完了,,,
+200091,TXT_IG_TIME_SHORTENING_DESC,"1日に1回まで、錬金石を使用して
+即時完了することができます",,,
+200092,TXT_IG_GROW_COMPLETE,完了,,,
+200093,TXT_IG_NOT_GROW_FINISH,強化を途中で終了します,,,
+200094,TXT_IG_REWARD_AVERAGE_PER_HOUR,/h,,,
+200095,TXT_IG_GROW_SHORTENING_POPUP_TITLE,完了確認,,,
+200096,TXT_IG_GROW_SHORTENING_POPUP_DESC,"錬金石を {0} 個消費して、
+強化を完了させますか？
+
+所持錬金石 {1}個",,,
+200097,TXT_IG_CONTENTS_DETAIL_MAIN_TITLE,メインストーリー,,,
+200098,TXT_IG_CONTENTS_DETAIL_MAIN_DESC,"いざ、レイアスたちと胸躍る冒険の旅へ！
+驚きと感動のストーリーを体験しよう！
+クエストではレイアスのLUCKアップが可能！
+さらに、HARDクエストでは超強力な装備
+「隠し装備」も入手できるぞ！",,,
+200099,TXT_IG_CONTENTS_DETAIL_MAIN_POPUP_DESC,"このクエストはまだプレイできません。
+メインストーリーを進めますか？",,,
+200100,TXT_IG_CONTENTS_DETAIL_MAIN_POPUP_OK,挑戦,,,
+200101,TXT_IG_CONTENTS_DETAIL_TOWER_TITLE,はじまりの塔,,,
+200102,TXT_IG_CONTENTS_DETAIL_TOWER_DESC,"ビギナー応援クエストで冒険の準備を整えよう！
+貴重なアイテム「ユニット限界突破石」や
+便利な装備が入手できるぞ！",,,
+200103,TXT_IG_CONTENTS_DETAIL_TRIAL_DUNGEON_TITLE,試練の回廊,,,
+200104,TXT_IG_CONTENTS_DETAIL_TRIAL_DUNGEON_DESC,"さまざまなギミックが待ち受ける腕試しクエスト！
+毎月、21日～月末に開催。
+ユニットと装備、知識を総動員して最上階を目指そう。
+クリスタルや限定ユニットなどの豪華報酬を入手可能！
+ユニット以外の報酬は毎月リセット！",,,
+200105,TXT_IG_CONTENTS_DETAIL_TIME_WARNING,"{}は
+%-m月%-d日 %-H:%Mより開催されます",,,
+200106,TXT_IG_CONTENTS_DETAIL_ARENA_TITLE,アリーナ,,,
+200107,TXT_IG_CONTENTS_DETAIL_ARENA_DESC,"相手プレイヤーが編成したパーティと戦おう！
+激闘を勝ち抜いて頂点をめざせ！
+ランキングに応じてもらえる「ゴールドメダル」は
+「ユニット限界突破石」などのアイテムと交換可能。
+交換所は毎月リセット！",,,
+200108,TXT_IG_CONTENTS_DETAIL_ELEMENTAL_RUINS_TITLE,属護の遺跡,,,
+200109,TXT_IG_CONTENTS_DETAIL_ELEMENTAL_RUINS_DESC,"特定の属性のユニットで挑む腕試しクエスト！
+毎月、1日～10日に開催。
+クリスタルや組み合わせで強力な効果を発揮する
+セット装備「属護装備」が入手可能！
+報酬は毎月リセット！",,,
+200110,TXT_IG_CONTENTS_DETAIL_RACE_RUINS_TITLE,種族の遺跡,,,
+200111,TXT_IG_CONTENTS_DETAIL_RACE_RUINS_DESC,"特定の種族のユニットで挑む腕試しクエスト！
+毎月、11日～20日に開催。
+クリスタルや「霊珠」、「招紋石」
+「★4以上確定宝具召喚」のチケットを入手可能！
+報酬は毎月リセット！",,,
+200112,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING,{}は開催予定がありません,,,
+200113,TXT_IG_CONTENTS_DETAIL_GB_TITLE,グランドバトル,,,
+200114,TXT_IG_CONTENTS_DETAIL_GB_DESC,"海賊になってアズエルたちと大海原へ！
+マップを歩いてエリアボス討伐を目指せ！
+エリアボスから手に入る「ミスティカ」を使って
+キミだけのオリジナル「クラフト装備」を作ろう！",,,
+200115,TXT_IG_CONTENTS_DETAIL_CHARA_QUEST_TITLE,外伝,,,
+200116,TXT_IG_CONTENTS_DETAIL_CHARA_QUEST_DESC,"伝説として語られる神魔大戦の時代の話など
+メインストーリーに関わる重要な物語が盛り沢山！
+クエストではレイアスとイリスの進化素材や
+便利で強力な装備も入手できるぞ！",,,
+200117,TXT_IG_ELAPSED_TIME,{0}時間{1}分{2}秒,,,
+200118,TXT_IG_CONTENTS_DETAIL_SA_TITLE,サマナーズロード,,,
+200119,TXT_IG_CONTENTS_DETAIL_SA_DESC,"超覚醒や夢幻進化の素材「霊珠」や
+限定の★6装備などが獲得できるクエスト。
+1度使ったユニットと装備は再編成できないので
+ステージごとのユニット配置が勝利の鍵だ！
+勝てる所まで繰り返し挑んで「霊珠」を入手しよう！",,,
+200120,TXT_IG_CONTENTS_DETAIL_INFESTATION_TITLE,襲来,,,
+200121,TXT_IG_CONTENTS_DETAIL_INFESTATION_DESC,"「襲来ユニット」が入手できる定期開催クエスト！
+クエストで入手した素材を使って
+ユニットを強化・LUCKアップさせよう！
+LUCKが高いほどクエストでのアイテムドロップ数がUP！
+めざせ！LUCKMAX（120～140）！！",,,
+200122,TXT_IG_CONTENTS_DETAIL_SACRED_TITLE,超神級,,,
+200123,TXT_IG_CONTENTS_DETAIL_SACRED_DESC,"強力なアビリティを持つ「超神具」を入手できるクエスト！
+アビリティの効果は同じ装備を素材にして
+限界突破することで強化できるぞ！
+通常の巨大ボスクエストよりも強力な敵が出現するので
+しっかり準備してから挑もう！",,,
+200124,TXT_IG_CONTENTS_DETAIL_RUNE_TITLE,紋章宮,,,
+200125,TXT_IG_CONTENTS_DETAIL_RUNE_DESC,"ユニットに様々な効果を付与する「紋章石」を入手しよう！
+通常、紋章石のLvが高いほど効果も強力になるぞ！
+「Lv1～3」を付けたいなら初級～上級
+「Lv4～4+」を付けたいなら超級・絶望級
+「バースト」で「Lv5～5+」を狙うなら新星級に挑もう！",,,
+200126,TXT_IG_CONTENTS_DETAIL_GIANT_TITLE,巨大ボス,,,
+200127,TXT_IG_CONTENTS_DETAIL_GIANT_DESC,"巨大ボスたちを討伐しよう！
+便利な装備やユニットの覚醒に必要な
+「魂片」を入手することができるぞ！",,,
+200128,TXT_IG_CONTENTS_DETAIL_PLAYABLE_COUNT_WARNING,本日の挑戦回数が不足しています,,,
+200129,TXT_IG_CONTENTS_DETAIL_MINE_TITLE,魔法石鉱山,,,
+200130,TXT_IG_CONTENTS_DETAIL_MINE_DESC,"他のプレイヤーからユニットを借りて鉱山を探査！
+下層に行くほど報酬も敵もパワーアップ！
+セラのアドバイスをよく聞いて攻略しよう。
+この鉱山で入手できる「流転の雫」は
+「紋章石」の効果を変更できる貴重なアイテム！",,,
+200131,TXT_IG_UNIT_TITLE,ユニット強化,,,
+200132,TXT_IG_ITEM_TITLE,装備強化,,,
+200133,TXT_IG_TITLE,秘宝探索,,,
+200134,TXT_IG_GROW_LEVEL_TITLE,探索スキル,,,
+200135,TXT_IG_GROW_LEVEL_NAME_1,探索時間上限,,,
+200136,TXT_IG_GROW_LEVEL_VALUE_1,{0}時間{1}分{2}秒,,,
+200137,TXT_IG_GROW_LEVEL_NAME_2,同時強化ユニット数,,,
+200138,TXT_IG_GROW_LEVEL_VALUE_2,{0}体まで,,,
+200139,TXT_IG_GROW_LEVEL_NAME_3,同時強化装備数,,,
+200140,TXT_IG_GROW_LEVEL_VALUE_3,{0}個まで,,,
+200141,TXT_IG_GROW_LEVEL_NAME_4,探索 速度,,,
+200142,TXT_IG_GROW_LEVEL_VALUE_4,+%0.1f%%,,,
+200143,TXT_IG_GROW_LEVEL_NAME_5,ユニットLvアップ速度,,,
+200144,TXT_IG_GROW_LEVEL_VALUE_5,+%0.1f%%,,,
+200145,TXT_IG_GROW_LEVEL_NAME_6,タス値強化 速度,,,
+200146,TXT_IG_GROW_LEVEL_VALUE_6,+%0.1f%%,,,
+200147,TXT_IG_GROW_LEVEL_NAME_7,進化 速度,,,
+200148,TXT_IG_GROW_LEVEL_VALUE_7,+%0.1f%%,,,
+200149,TXT_IG_GROW_LEVEL_NAME_8,覚醒 速度,,,
+200150,TXT_IG_GROW_LEVEL_VALUE_8,+%0.1f%%,,,
+200151,TXT_IG_GROW_LEVEL_NAME_9,超覚醒 速度,,,
+200152,TXT_IG_GROW_LEVEL_VALUE_9,+%0.1f%%,,,
+200153,TXT_IG_GROW_LEVEL_NAME_10,紋章石探索 速度,,,
+200154,TXT_IG_GROW_LEVEL_VALUE_10,+%0.1f%%,,,
+200155,TXT_IG_GROW_LEVEL_NAME_11,LUCKアップ速度,,,
+200156,TXT_IG_GROW_LEVEL_VALUE_11,+%0.1f%%,,,
+200157,TXT_IG_GROW_LEVEL_NAME_12,装備 強化 速度,,,
+200158,TXT_IG_GROW_LEVEL_VALUE_12,+%0.1f%%,,,
+200159,TXT_IG_GROW_LEVEL_NAME_13,装備 限界突破 速度,,,
+200160,TXT_IG_GROW_LEVEL_VALUE_13,+%0.1f%%,,,
+200161,TXT_IG_CONTENTS_DETAIL_RUNE_LEVEL_WARNING,"このクエストは
+プレイヤーランク{}以上で
+プレイできるようになります",,,
+200176,TXT_IG_UNIT_GROW_TYPE_SELECT_TITLE,強化項目選択,,,
+200177,TXT_IG_ITEM_GROW_TYPE_SELECT_TITLE,強化項目選択,,,
+200178,TXT_IG_UNIT_GROW_TYPE_SELECT_DESC,"強化する項目を選択してください
+※強化中でもバトルで使用することができます",,,
+200179,TXT_IG_ITEM_GROW_TYPE_SELECT_DESC,"強化する項目を選択してください
+※強化中でもバトルで使用することができます",,,
+200180,TXT_IG_TIME_TITLE,探索時間,,,
+200181,TXT_IG_CONTENTS_DETAIL_CHARA_QUEST_WARNING,"このクエストは
+メインストーリーを進めることで
+プレイできるようになります",,,
+200182,TXT_IG_GROW_WARNING_UNIT_LV_MAX,Lvが最大値のためこれ以上強化できません,,,
+200183,TXT_IG_GROW_WARNING_UNIT_HP_MAX,+HPが最大値のためこれ以上強化できません,,,
+200184,TXT_IG_GROW_WARNING_UNIT_ATK_MAX,+攻撃力が最大値のためこれ以上強化できません,,,
+200185,TXT_IG_GROW_WARNING_UNIT_DEF_MAX,+防御力が最大値のためこれ以上強化できません,,,
+200186,TXT_IG_GROW_WARNING_UNIT_LUCK_MAX,LUCKは最大値のためこれ以上強化できません,,,
+200187,TXT_IG_GROW_WARNING_UNIT_NOT_ENABLED,"ストーリーや襲来クエストで
+入手できるユニットでは選択できません",,,
+200188,TXT_IG_GROW_WARNING_UNIT_NOT_EVO_LV_MAX,"Lvを最大まで強化すると
+進化を選択できるようになります",,,
+200189,TXT_IG_GROW_WARNING_UNIT_NOT_EVO_ENABLED,このユニットは進化できません,,,
+200190,TXT_IG_GROW_WARNING_UNIT_NOT_AWAKE_LV_MAX,"Lvを最大まで強化すると
+覚醒を選択できるようになります",,,
+200191,TXT_IG_GROW_WARNING_UNIT_NOT_AWAKE_ENABLED,このユニットは覚醒できません,,,
+200192,TXT_IG_GROW_WARNING_UNIT_NOT_SUPER_AWAKE_LV_MAX,"Lvを最大まで強化すると
+超覚醒を選択できるようになります",,,
+200193,TXT_IG_GROW_WARNING_UNIT_NOT_SUPER_AWAKE_ENABLED,このユニットは超覚醒できません,,,
+200194,TXT_IG_GROW_WARNING_ITEM_LV_MAX,強化度は最大値のためこれ以上強化できません,,,
+200195,TXT_IG_GROW_WARNING_ITEM_LIMITBREAK_MAX,"限界突破値は最大値のため
+これ以上強化できません",,,
+200196,TXT_IG_GROW_WARNING_ITEM_NOT_ENABLED,"限界突破を選択できるのは
+イベントで入手した装備のみとなります",,,
+200197,TXT_IG_BTN_UNIT_SELECT,ユニット選択へ,,,
+200198,TXT_IG_BTN_ITEM_SELECT,装備選択へ,,,
+200199,TXT_IG_BTN_GROW_CONTINUE,続けて強化,,,
+200200,TXT_IG_REWARD_POINT_GET_LWF,{0}を{1}個手に入れた！,,,
+200201,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_LV,ユニットLvアップ中,,,
+200202,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_LV_COMPLETE,ユニットLvアップ 完了,,,
+200203,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_PLUS_HP,+HP強化中,,,
+200204,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_PLUS_HP_COMPLETE,+HP強化 完了,,,
+200205,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_PLUS_ATTACK,+攻撃力強化中,,,
+200206,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_PLUS_ATTACK_COMPLETE,+攻撃力強化 完了,,,
+200207,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_PLUS_DEFENSE,+防御力強化中,,,
+200208,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_PLUS_DEFENSE_COMPLETE,+防御力強化 完了,,,
+200209,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_EVOLUTION,進化中,,,
+200210,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_EVOLUTION_COMPLETE,進化 完了,,,
+200211,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_AWAKENING,覚醒中,,,
+200212,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_AWAKENING_COMPLETE,覚醒 完了,,,
+200213,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_SUPER_AWAKENING,超覚醒中,,,
+200214,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_SUPER_AWAKENING_COMPLETE,超覚醒 完了,,,
+200215,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_RUNE,紋章石探索中,,,
+200216,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_RUNE_COMPLETE,紋章石探索 完了,,,
+200217,TXT_IG_GROW_CONFIRM_POPUP_TITLE_ITEM_LV,装備強化中,,,
+200218,TXT_IG_GROW_CONFIRM_POPUP_TITLE_ITEM_LV_COMPLETE,装備強化 完了,,,
+200219,TXT_IG_GROW_CONFIRM_POPUP_TITLE_ITEM_LIMIT_BREAK,装備限界突破中,,,
+200220,TXT_IG_GROW_CONFIRM_POPUP_TITLE_ITEM_LIMIT_BREAK_COMPLETE,装備限界突破 完了,,,
+200222,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_LUCK,LUCKアップ中,,,
+200223,TXT_IG_GROW_CONFIRM_POPUP_TITLE_UNIT_LUCK_COMPLETE,LUCKアップ 完了,,,
+200224,TXT_TIME_SECOND,{0}秒,,,
+200225,TXT_IG_GROW_SHORTENIING_TIME_OVER,既に強化は完了しています,,,
+200226,TXT_IG_NOT_GROW_FINISH_ITEM,強化を途中で終了します,,,
+200227,TXT_IG_CONTENTS_MISSION_TITLE,{}ミッション,,,
+200229,TXT_IG_CONTENTS_GET_REWARD_SINGLE,{},,,
+200230,TXT_IG_CONTENTS_GET_REWARD_MULTIPLE,{}×{},,,
+200231,TXT_IG_REWARD_AVERAGE_PER_CUSTOM_HOUR,1/%.2fh,,,
+200232,TXT_IG_BTN_RETURN_SELECT,選択へ戻る,,,
+200233,TXT_IG_GROW_SPEED_DOWN_CAUTION,{0}体目のため強化速度が{1}%に減速します,,,
+200234,TXT_IG_BTN_GROW_STOP,中止,,,
+200235,TXT_IG_UNIT_NOT_OPEN,"開放されていません
+
+メインストーリーや紋章宮を
+クリアすることで開放できます",,,
+200236,TXT_IG_ITEM_NOT_OPEN,"開放されていません
+
+メインストーリーやグランドバトル
+紋章宮をクリアすることで開放できます",,,
+200237,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_SHIREN,"試練の回廊は毎月
+21日～月末に開催されます",,,
+200238,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ZOKUGO_1001,"大炎の遺跡は偶数月の
+1日～10日に開催されます",,,
+200239,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ZOKUGO_1002,"水霧の遺跡は偶数月の
+1日～10日に開催されます",,,
+200240,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ZOKUGO_1003,"樹森の遺跡は偶数月の
+1日～10日に開催されます",,,
+200241,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ZOKUGO_1004,"光威の遺跡は奇数月の
+1日～10日に開催されます",,,
+200242,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ZOKUGO_1005,"闇冥の遺跡は奇数月の
+1日～10日に開催されます",,,
+200243,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ISEKI_1101,"人族の遺跡は1月・4月・7月・10月の
+11日～20日に開催されます",,,
+200244,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ISEKI_1102,"神族の遺跡は2月・5月・8月・11月の
+11日～20日に開催されます",,,
+200245,TXT_IG_CONTENTS_DETAIL_NO_DATA_WARNING_ISEKI_1103,"魔族の遺跡は3月・6月・9月・12月の
+11日～20日に開催されます",,,
+200258,TXT_LIMITBREAK_CONFIRM,限界突破確認,,,
+200259,TXT_IDLE_GAME_WARNING_UNIT_MAX_STRENGTHEN,"注意！秘宝探索中のユニットです
+このまま強化しますか？",,,
+200260,TXT_LOGIN_BONUS,ログインボーナス,,,
+200261,TXT_MENU_LOGIN_BONUS,ログインボーナス,,,
+200262,TXT_LOGIN_BONUS_NONE,ログインボーナスがありません,,,
+200263,TXT_IG_REWARD_AVERAGE_PER_DAY,/d,,,
+200264,TXT_FRIEND_PARTY,フレンドのパーティ,,,
+200265,TXT_FRIEND_PARTY_LOADED,パーティをロードしました,,,
+200266,TXT_POPUP_GO_FORMATION_PAGE,編成画面へ,,,
+200267,TXT_FRIEND_PARTY_LOAD_TITLE,パーティロード確認,,,
+200268,TXT_FRIEND_PARTY_LOAD_DESC,フレンドのパーティをロードします,,,
+200269,TXT_UNIT_LIMITBREAK_WARNING_PARTY_SAVE,"パーティセーブされているユニットです
+限界突破に使用するとパーティからも削除されます",,,
+200270,TXT_ITEM_LIMITBREAK_WARNING_PARTY_SAVE,"パーティセーブされている装備です
+限界突破に使用するとパーティからも削除されます",,,
+200271,TXT_UNIT_SALE_MESSAGE_PARTY_SAVE,"パーティセーブされているユニットです
+売却するとパーティからも削除されます",,,
+200272,TXT_ITEM_SALE_MESSAGE_PARTY_SAVE,"パーティセーブされている装備です
+売却するとパーティからも削除されます",,,
+200273,TXT_CRAFT_DISASSEMBLE_WARNING_PARTY_SAVE,"パーティセーブされている装備です
+分解するとパーティからも削除されます",,,
+200274,TXT_CRAFT_SPECIALIZE_WARNING_PARTY_SAVE,"選択したクラフト装備を、
+このユニットの専用装備としてスペシャライズします
+
+各ユニットにつき1つスペシャライズ可能です
+
+分解することで、このユニットに他のクラフト装備をスペシャライズできるようになります
+
+装備中のユニット以外にスペシャライズする場合、パーティ保存から外れます",,,
+200275,TXT_ITEM_EQUIP_GACHA_WARNING_PARTY_SAVE,"パーティセーブされている装備です
+神具召喚に使用するとパーティからも削除されます",,,
+200276,TXT_PAGE_TITLE_PARTY_PRESETS_SAVE,セーブ・ロード,,,
+200277,TXT_PAGE_TITLE_PARTY_PRESETS_COPY,コピーモード,,,
+200278,TXT_SA_QUEST_TEST_MATCH,模擬戦,,,
+200279,TXT_MINE_DEVICE_TIME_FORMAT,誘波動 %s,,,
+200281,TXT_PARTY_PRESETS_SAVE_FINISH,パーティをセーブしました,,,
+200282,TXT_PARTY_PRESETS_PARTY_NAME_1,パーティ1,,,
+200283,TXT_PARTY_PRESETS_PARTY_NAME_2,パーティ2,,,
+200284,TXT_PARTY_PRESETS_PARTY_NAME_3,パーティ3,,,
+200285,TXT_PARTY_PRESETS_PARTY_NAME_4,パーティ4,,,
+200286,TXT_PARTY_PRESETS_PARTY_NAME_5,パーティ5,,,
+200287,TXT_PARTY_PRESETS_PARTY_NAME_RAID_1,クロスバトル・レイド1stパーティ,,,
+200288,TXT_PARTY_PRESETS_PARTY_NAME_RAID_2,クロスバトル・レイド2stパーティ,,,
+200289,TXT_PARTY_PRESETS_PARTY_NAME_GB_1,グランドバトルパーティ1,,,
+200290,TXT_PARTY_PRESETS_PARTY_NAME_GB_2,グランドバトルパーティ2,,,
+200291,TXT_PARTY_PRESETS_PARTY_NAME_GB_3,グランドバトルパーティ3,,,
+200292,TXT_PARTY_PRESETS_PARTY_NAME_GB_4,グランドバトルパーティ4,,,
+200293,TXT_PARTY_PRESETS_PARTY_NAME_GB_5,グランドバトルパーティ5,,,
+200294,TXT_PARTY_PRESETS_EDIT_PARTY_NAME,パーティ名変更,,,
+200295,TXT_PARTY_PRESETS_EDIT_PARTY_MEMO,メモ変更,,,
+200296,TXT_PARTY_PRESETS_PLACEHOLDER_PARTY_MEMO,メモを入力できます,,,
+200297,TXT_PARTY_PRESETS_SAVE_TITLE,パーティセーブ確認,,,
+200298,TXT_PARTY_PRESETS_SAVE_DESC,パーティをセーブします,,,
+200299,TXT_PARTY_PRESETS_LOAD_TITLE,パーティロード確認,,,
+200300,TXT_PARTY_PRESETS_LOAD_DESC_1,パーティをロードします,,,
+200301,TXT_PARTY_PRESETS_LOAD_DESC_2,所持していないユニット、装備、AI設定は反映されません,,,
+200302,TXT_PARTY_PRESETS_PASTE_TITLE,パーティペースト確認,,,
+200303,TXT_PARTY_PRESETS_PASTE_DESC,パーティをペーストします,,,
+200304,TXT_PARTY_PRESETS_DELETE_TITLE,パーティ削除確認,,,
+200305,TXT_PARTY_PRESETS_DELETE_DESC,"パーティを削除します
+よろしいですか？",,,
+200306,TXT_FRIEND_OPEN_PRESETS_NONE,パーティを公開しているフレンドはいません,,,
+200307,TXT_IG_GROW_MATERIAL_UNIT_LV_TITLE,ユニット強化選択,,,
+200308,TXT_IG_GROW_MATERIAL_UNIT_STATUS_TITLE,ユニットステータス強化選択,,,
+200309,TXT_IG_GROW_MATERIAL_UNIT_EVO_TITLE,ユニット進化選択,,,
+200310,TXT_IG_GROW_MATERIAL_UNIT_AWAKE_TITLE,ユニット覚醒選択,,,
+200311,TXT_IG_GROW_MATERIAL_UNIT_SUPER_AWAKE_TITLE,ユニット超覚醒選択,,,
+200312,TXT_IG_GROW_MATERIAL_ITEM_STRENGTH_TITLE,装備強化選択,,,
+200313,TXT_IG_GROW_MATERIAL_ITEM_LIMITBREAK_TITLE,装備限界突破選択,,,
+200314,TXT_IG_GROW_MATERIAL_UNIT_LV_DESC,所持している素材ですぐに強化できます,,,
+200315,TXT_IG_GROW_MATERIAL_UNIT_STATUS_DESC,所持している素材ですぐに強化できます,,,
+200316,TXT_IG_GROW_MATERIAL_UNIT_EVO_DESC,所持している素材ですぐに進化できます,,,
+200317,TXT_IG_GROW_MATERIAL_UNIT_AWAKE_DESC,所持している素材ですぐに覚醒できます,,,
+200318,TXT_IG_GROW_MATERIAL_UNIT_SUPER_AWAKE_DESC,所持している素材ですぐに超覚醒できます,,,
+200319,TXT_IG_GROW_MATERIAL_ITEM_STRENGTH_DESC,所持している素材ですぐに強化できます,,,
+200320,TXT_IG_GROW_MATERIAL_ITEM_LIMITBREAK_DESC,所持している素材ですぐに限界突破できます,,,
+200321,TXT_IG_GROW_MATERIAL_BTN_UNIT_LV,"素材で
+すぐに強化",,,
+200322,TXT_IG_GROW_MATERIAL_BTN_UNIT_STATUS,"素材で
+すぐに強化",,,
+200323,TXT_IG_GROW_MATERIAL_BTN_UNIT_EVO,"素材で
+すぐに進化",,,
+200324,TXT_IG_GROW_MATERIAL_BTN_UNIT_AWAKE,"素材で
+すぐに覚醒",,,
+200325,TXT_IG_GROW_MATERIAL_BTN_UNIT_SUPER_AWAKE,"素材で
+すぐに超覚醒",,,
+200326,TXT_IG_GROW_MATERIAL_BTN_ITEM_STRENGTH,"素材で
+すぐに強化",,,
+200327,TXT_IG_GROW_MATERIAL_BTN_ITEM_LIMITBREAK,"素材で
+すぐに強化",,,
+200328,TXT_IG_GROW_IDLE_BTN_UNIT_LV,"{0}かけて
+探索で強化",,,
+200329,TXT_IG_GROW_IDLE_BTN_UNIT_STATUS,"{0}かけて
+探索で強化",,,
+200330,TXT_IG_GROW_IDLE_BTN_UNIT_EVO,"{0}かけて
+探索で進化",,,
+200331,TXT_IG_GROW_IDLE_BTN_UNIT_AWAKE,"{0}かけて
+探索で覚醒",,,
+200332,TXT_IG_GROW_IDLE_BTN_UNIT_SUPER_AWAKE,"{0}かけて
+探索で超覚醒",,,
+200333,TXT_IG_GROW_IDLE_BTN_ITEM_STRENGTH,"{0}かけて
+探索で強化",,,
+200334,TXT_IG_GROW_IDLE_BTN_ITEM_LIMITBREAK,"{0}かけて
+探索で強化",,,
+200335,TXT_BULKLIMITBREAK_TITLE,一括限界突破確認,,,
+200336,TXT_BULKLIMITBREAK_INFO_TITLE,素材装備・精錬石,,,
+200337,TXT_BULKLIMITBREAK_OK,一括限界突破する,,,
+200338,TXT_BULKLIMITBREAK_EMPTY,未所持,,,
+200339,TXT_NOTHING_OPENED_FRIEND_PARTY_PRESET,"公開されている
+パーティはありません",,,
+200340,TXT_DIFFERENT_SESSION,通信に失敗しました。 ,,,
+200341,TXT_SESSION_TIMEOUT,"長時間通信がなかったため、
+タイトル画面に戻ります。",,,
+200342,TXT_CRAFT_PICTUREBOOK_TITLE,クラフト装備図鑑,,,
+200343,TXT_CRAFT_PICTUREBOOK_TYPE1,物理攻撃クラフト装備図鑑,,,
+200344,TXT_CRAFT_PICTUREBOOK_TYPE2,魔法攻撃クラフト装備図鑑,,,
+200345,TXT_CRAFT_PICTUREBOOK_TYPE3,防御クラフト装備図鑑,,,
+200346,TXT_CRAFT_PICTUREBOOK_TYPE4,回復クラフト装備図鑑,,,
+200347,TXT_CRAFT_PICTUREBOOK_TYPE5,援護クラフト装備図鑑,,,
+200348,TXT_CRAFT_MIN_TO_MAX,{0}〜{1},,,
+200349,TXT_UNIT_LIMITEQUIP_MESSAGE,"キャラクター設定上
+装備できません","Cannot be Equipped
+for lore reasons",,
+200350,TXT_ITEM_UNIT_LIMITEQUIP,装備制限ユニット,Equip-Restricted Units ,,
+200351,TXT_ITEM_UNIT_LIMITEQUIP_DESC,下記のユニットは装備することができません ,Unusable due to lore:,,
+200352,TXT_CRAFT_PICTUREBOOK_TOUCH_HERE,2つ目のスキルを表示,,,
+200353,TXT_CRAFT_PICTUREBOOK_SELECT_SKILL,右から確認したいスキルを選択してください,,,
+200354,TXT_CRAFT_GUIDE,クラフトガイド,,,
+200355,TXT_CRAFT_LACK_MATERIAL,足りない素材,,,
+200356,TXT_CRAFT_PICTUREBOOK_DESC_COMMON,コモン・ミスティカはグランドバトルのエリア探索などで入手できます。,,,
+200357,TXT_CRAFT_PICTUREBOOK_DESC_UNIQUE,ユニーク・ミスティカはグランドバトルのエリアボスやEXボスなどから入手できます。,,,
+200358,TXT_CRAFT_PICTUREBOOK_DESC_LEVEL,"クラフト熟練度が足りない為、この装備のクラフトに必要な等級の素材を使用できません。
+クラフトを繰り返し行い、熟練度を上げることで、より高い等級の素材を使用できるようになります。",,,
+200359,TXT_CRAFT_LEVEL,Lv{},,,
+200360,TXT_CRAFT_PICTUREBOOK_EP_AREA,EP{0}　エリア{1},,,
+200361,TXT_CRAFT_PICTUREBOOK_EP_EX,EP{0}　EX{1}以降,,,
+200362,TXT_CRAFT_COUNT_SHORTAGE,"{0}/<Font Color=""#FF0000"">{1}</Font>",,,
+200363,TXT_CRAFT_PICTUREBOOK_EP,EP {},,,
+200364,TXT_CRAFT_PICTUREBOOK_AREA_CLEAR,エリア{}クリア,,,
+200365,TXT_MENU_AUTO_SALE,自動売却設定,,,
+200366,TXT_PAGE_TITLE_AUTOSALE_UNITLIST,自動売却ユニット一覧,,,
+200367,TXT_PAGE_TITLE_AUTOSALE_ITEMLIST,自動売却装備一覧,,,
+200368,TXT_UNIT_AUTOSALE_MESSAGE,"自動売却に設定後は次回召喚時および、
+クエストクリア時より自動で売却されます。
+（最大進化★4以下および売却用のみ設定可能）",,,
+200369,TXT_UNIT_AUTOSALE_REMOVE_MESSAGE,"以下のユニットの
+自動売却設定を解除します",,,
+200370,TXT_ITEM_AUTOSALE_REMOVE_MESSAGE,"以下の装備の
+自動売却設定を解除します",,,
+200371,TXT_AUTOSALE_CHECK,売却完了,,,
+200372,TXT_AUTOSALE_GO,自動売却に設定,,,
+200373,TXT_AUTOSALE_REMOVE,自動売却設定,,,
+200374,TXT_AUTOSALE_REMOVE_CHECK,自動売却設定を解除,,,
+200375,TXT_AUTOSALE_REMOVE_GO,自動売却を解除,,,
+200376,TXT_AUTOSALE_RESULT_TITLE,自動売却結果,,,
+200377,TXT_AUTOSALE_RESULT_MESSAGE,獲得アイテム,,,
+200378,TXT_AUTOSALE_NO_UNIT,設定しているユニットはここに表示されます ,,,
+200379,TXT_AUTOSALE_NO_ITEM,設定している装備はここに表示されます,,,
+200380,TXT_ORB_SHOP_COMMONCEILING,英雄石交換,,,
+200381,TXT_ORB_SHOP_TRUEITEM,真装備交換,,,
+200382,TXT_DIAMOND_AMOUNT_OVER_K,{}K,,,
+200383,TXT_DIAMOND_AMOUNT_OVER_M,{}M,,,
+200384,TXT_AUTOSALE_CANCEL,設定しない,,,
+200385,TXT_ITEM_AUTOSALE_MESSAGE,"自動売却に設定後は次回召喚時および、
+クエストクリア時より自動で売却されます。
+（★4以下の常設召喚装備および
+★5以下のイベント装備、神具のみ設定可能）",,,
+200386,TXT_AUTOSALE_SETTING_DESCRIPTION,設定はメニューから変更できます,,,
+200387,TXT_AUTOSALE_OPEN_DESCRIPTION,RANK{0}で開放,,,
+200388,TXT_TIME_SHOP_START_AT_MULT,"{0}/{1}
+{2}:{3} ～",,,
+200389,TXT_MENU_CONFIG_SCENARIO_VOICE_REMOVE,"シナリオボイス削除
+※ONにするとゲーム起動時にボイス
+データが削除されます。",,,
+200390,TXT_SCENARIO_DL_SELECT_DIALOG_TITLE,データダウンロード,,,
+200391,TXT_SCENARIO_DL_SELECT_DIALOG_DESC,"ボイスデータをダウンロードしますか？
+※Wi-Fiでのダウンロードをおすすめします。",,,
+200392,TXT_BTN_DL_NO_VOICE,"ボイスなし
+(約{0})",,,
+200393,TXT_BTN_DL_VOICE,"ボイスあり
+(約{0})",,,
+200394,TXT_TITLE_DL_SELECT_DIALOG_WARNING,"グラフィック・サウンドデータをDLします
+
+データサイズが大きい場合は
+Wi-Fi環境での接続を推奨します。
+
+ボイスなし、ボイスあり、どちらか選択すると
+ダウンロードが始まります。",,,
+200395,TXT_ORB_SHOP_ALCHEMYBALL,虹玉真装備交換,,,
+200400,TXT_TOWN_CHARA_NAME_10,ヴェナ,,,
+200418,TXT_QRCODE_URL_ERROR,グランドサマナーズのフレンドコード以外は読み込めません,,,
+200419,TXT_QRCODE_PARAM_ERROR,グランドサマナーズのフレンドコード以外は読み込めません,,,
+200420,TXT_QRCODE_FRIEND_ID_ERROR,ユーザーが見つかりません,,,
+200421,TXT_QRCODE_FRIEND_OWN_ERROR,あなたのフレンドコードです,,,
+200425,TXT_QRCODE_SCAN_TITLE,フレンドコード読み取り,,,
+200426,TXT_QRCODE_SCAN_DESCRIPTION,"枠の中にコードが納まるように映してください
+フレンドコードのみ読み取り可能です",,,
+200427,TXT_QRCODE_DISPLAY_TITLE,あなたのフレンドコード,,,
+200428,TXT_QRCODE_DISPLAY_DESCRIPTION,"このコードを相手に見せて
+フレンド申請してもらおう！",,,
+200429,TXT_SHOP_RABEL_LIMITED,期間限定,,,
+200430,TXT_SHOP_RABEL_PERMANENT,通常ラインナップ,,,
+200431,TXT_FRIEND_INFORMATION_TITLE,フレンド申請,,,
+200432,TXT_IS_FRIEND_DESCRIPTION,すでにフレンドです,,,
+200433,TXT_BUTTON_FRIEND_REQUEST,申請する,,,
+200434,TXT_SHOP_UNIT_EXCHANGE_TITLE,ユニット交換確認,,,
+200435,TXT_SHOP_UNIT_EXCHANGE_MESSAGE,"期間限定ラインナップにも含まれているユニットです
+通常ラインナップから交換してもよろしいですか？",,,
+200436,TXT_TIME_RESET_REMAINING,"リセットまで
+あと{0}",,,
+200437,TXT_POPUP_LIST_JUMP,すべて表示,,,
+200438,TXT_GENERAL_SHOP_STOCK_SET,残り{0}セット,,,
+200440,TXT_SHOP_BOX_EXTEND_DETAIL_UNIT,※最大1200まで拡張可能 ,,,
+200441,TXT_SHOP_BOX_EXTEND_DETAIL_ITEM,※最大3000まで拡張可能,,,
+200442,TXT_SHOP_BOX_EXTEND_DETAIL_TICKET,※最大9999まで所持可能,,,
+200443,TXT_SHOP_BOX_EXTEND_RATE_UNIT,クリスタル{0}個につきユニット枠を{1}拡張できます,,,
+200444,TXT_SHOP_BOX_EXTEND_RATE_ITEM,クリスタル{0}個につき装備枠を{1}拡張できます,,,
+200445,TXT_AI_CONFIG_TITLE,AIライブラリ設定,,,
+200446,TXT_MENU_CONFIG_AI_COPY_SCROLL,コピー時、追加先へスクロールする,,,
+200447,TXT_MENU_CONFIG_AI_COPY_BOTTOM,コピー時、直下ではなく末尾に追加する,,,
+200448,TXT_SUMMON_TITLE_40001,★5英雄召喚,,,
+200449,TXT_SHOP_PENDING_PURCHASE,"決済は保留中です。
+支払いが完了済みの場合、
+「購入復元」ボタンをタップしてください。",,,
+200450,TXT_CI_MATERIAL_UPGRADE_TITLE,ミスティカ一括変換,,,
+200451,TXT_CI_MATERIAL_UPGRADE_BUTTON,一括変換,,,
+200452,TXT_CI_MATERIAL_UPGRADE_AMOUNT,所持,,,
+200453,TXT_CI_MATERIAL_UPGRADE_DIFF,増減,,,
+200454,TXT_CI_MATERIAL_UPGRADE_SUCCEED,ミスティカを一括変換しました。,,,
+200455,TXT_CI_MATERIAL_UPGRADE_DETAIL,"『等級Ⅰ・Ⅱ』のミスティカを
+『等級Ⅲ』へ一括変換します",,,
+200456,TXT_CI_MATERIAL_COUNT_OVER_MAX,9999+,,,
+200457,TXT_RUNE_ADD_POPUP_TITLE,流転の結晶,,,
+200458,TXT_RUNE_ADD_POPUP_DESC,"流転の結晶{0}を使用して
+ランダムな効果のLv{1}{2}紋章石を獲得します",,,
+200459,TXT_RUNE_ADD_POPUP_TITLE_PLUS,流転の結晶＋,,,
+200460,TXT_RUNE_BURST_ERROR,"リーダーユニットがバースト可能な紋章石を装備していません。
+バーストLv最大時は下記の紋章石を
+装備している場合のみ出撃できます",,,
+200461,TXT_RUNE_BURST_REWARD_TITLE,報酬一覧,,,
+200462,TXT_RUNE_BURST_REWARD_DESC,"バーストLvを1上げるごとに
+Lvアップ報酬を１つランダムで獲得できます",,,
+200463,TXT_MASTER_DATA_ERROR,データが不正です,,,
+200464,TXT_UNIT_INVENTORY_FULL_ERROR,ユニット所持数上限,,,
+200465,TXT_ITEM_INVENTORY_FULL_ERROR,アイテム所持数上限,,,
+200466,TXT_LOW_STAMINA_ERROR,行動力が不足しています,,,
+200467,TXT_EVENT_SCHEDULE_ERROR,時間が範囲外です。,,,
+200468,TXT_MINE_NOT_USED_AT_LEVEL_ERROR,この階層では使用できません,,,
+200469,TXT_QUEST_RETRY_MINE_PROGRESS,自動で次のボスに挑みます,,,
+200470,TXT_QUEST_RETRY_MINE_RARE_BOSS,レアボス（絶）出現時の行動,,,
+200471,TXT_QUEST_RETRY_MINE_NEW_BOSS,未勝利のボス出現時に進行を終了,,,
+200472,TXT_QUEST_RETRY_MINE_NO_FOOD,料理なし,,,
+200473,TEXT_BGM_NAME,楽曲 ： {0},,,
+200474,TEXT_CIRCLE_NAME,サークル ： {0},,,
+200476,TEXT_ORIGINAL_SONG_NAME,原曲 ： {0},,,
+200477,TXT_IP_SWITCH_DO_ERROR,"ただいまサーバーが混み合っております。
+しばらく時間をおいてからお試しください。",,,
+200481,TXT_AI_PRESET_COUNT_TITLE,保存数,,,
+200482,TXT_AI_PRESET_ADD,AI設定を保存,,,
+200483,TXT_REFLECT_AI_OSUSUME,"現在のAI設定を上書きして
+おすすめAI設定を反映します。","Overwrite the current Routine with a
+default AI Routine?",,
+200484,TXT_REFLECT_AI_PRESET,"現在のAI設定を上書きして
+選択したAI設定を反映します。
+登録したAIは長押しすると削除できます。",,,
+200485,TXT_QUEST_MISSION_18,襲来ユニットを入れてクリア,,,
+200488,TXT_MINI_GAME_SCORE_FORMAT,{}点,,,
+200489,TXT_MINI_GAME_RATE_FORMAT,{}%,,,
+200490,TXT_MINI_GAME_PLAY,遊ぶ,,,
+200491,TXT_MINI_GAME_RESET_TIME,AM{}:00にリセット,,,
+200492,TXT_MINI_GAME_REMAIN_COUNT,あと{}回,,,
+200493,TXT_MINI_GAME_RANK_REWARD,ランキング報酬,,,
+200494,TXT_MINI_GAME_RANK_NO_DATA,まだ誰もプレイしていません,,,
+200495,TXT_MINI_GAME_RANK_REWARD_CHECK,ランキング報酬,,,
+200496,TXT_MINI_GAME_MISSION,ミニゲームミッション,,,
+200497,TXT_MINI_GAME_GET_REWARD_ALL,一括受取,,,
+200498,TXT_MINI_GAME_GET_REWARD,報酬受け取り,,,
+200499,TXT_MINI_GAME_RATE_TEXT,上位{0}%〜{1}%,,,
+200500,TXT_MINI_GAME_RATE_TEXT_TOP,上位{}%,,,
+200501,TXT_MINI_GAME_DISABLED,ストーリークリアで解放,,,
+200502,TXT_MINI_GAME_RANKING,ランキング,,,
+200503,TXT_MINI_GAME_RANK_REWARD_TOTAL,総合ランキング報酬,,,
+200504,TXT_MINI_GAME_RANK_REWARD_DAILY,デイリーランキング報酬,,,
+200505,TXT_MINI_GAME_BUTTON_TOTAL,総合,,,
+200506,TXT_MINI_GAME_BUTTON_DAILY,デイリー,,,
+200507,TXT_FAVORITE_VOTE_MIN_PLAYER_RANK_ERROR,"上方修正ユニット投票は
+プレイヤーランク30以上で
+参加できるようになります",,,
+200509,TXT_FAVORITE_VOTE_CONFIRM,"本日はあと%d回投票できます
+このユニットに投票しますか？",,,
+200510,TXT_FAVORITE_VOTE_COMPLETE,"%s
+に投票しました！",,,
+200511,TXT_FAVORITE_VOTE_REWARD_GET,投票報酬%sを獲得！,,,
+200512,TXT_MINIGAME_POWER_UP_POPUP_TITLE,ブースト,,,
+200513,TXT_MINIGAME_POWER_UP_POPUP_RESET_BTN,リセット,,,
+200514,TXT_MINIGAME_POWER_UP_RESET_POPUP_TITLE,リセット確認,,,
+200515,TXT_MINIGAME_POWER_UP_RESET_POPUP_DESC,"すべてのブーストをリセットします
+使用したブーストセルはすべて返却されます",,,
+200516,TXT_MINIGAME_POWER_UP_POPUP_LVUP_BTN,Lv {0},,,
+200517,TXT_FAVORITE_VOTE_CONSUMED,このユニットへの投票回数：%d回,,,
+200518,TXT_FAVORITE_VOTE_LIST,"※長押しでユニット性能を確認できます
+※所持しているユニットのみ投票できます",,,
+200519,TXT_FAVORITE_VOTE_UNIT,※最大強化状態のイラスト、ユニット名です,,,
+200520,TXT_UNIT_DETAIL_PROTAGONIST_TYPE_NONE,-,,,
+200521,TXT_UNIT_DETAIL_STATUS,"ユニット
+装備・紋章石",,,
+200522,TXT_UNIT_DETAIL_LIMITBREAK,限界突破値,,,
+200523,TXT_UNIT_DETAIL_PULS,タス値,,,
+200524,TXT_UNIT_DETAIL_BUFF,"LUCK
+バフ",,,
+200525,TXT_CELESTA_PU_HP,耐久度,,,
+200526,TXT_CELESTA_PU_SPEED,スライド速度,,,
+200527,TXT_CELESTA_PU_TURBO,アイテム頻度,,,
+200528,TXT_MINIGAME_PLAY_COUNT_RECOVERY_CONFIRM,"残りプレイ回数を回復できます
+{0}を使用して回復しますか？",,,
+200529,TXT_MINIGAME_PLAY_COUNT_RECOVERY_MSG,"{0}を使用して
+残りプレイ回数を回復しました",,,
+200530,TXT_MINIGAME_PLAY_COUNT_ERROR,ミニゲームのプレイ回数が不足しています,,,
+200531,TXT_MINIGAME_POWER_UP_POPUP_LVUP_BTN_MAX,Lv MAX,,,
+200532,TXT_MINIGAME_PU_VAL_MULTIPLIER,{0}倍,,,
+200533,TXT_MINI_GAME_RANK_REWARD_BODY_DAILY,ミニゲームデイリーランキング上位{0}%報酬,,,
+200534,TXT_MINI_GAME_RANK_REWARD_BODY_TOTAL,ミニゲーム総合ランキング上位{0}%報酬,,,
+200535,TXT_MINI_GAME_RESULT_EXP_ITEM_GET,{0}×{1} GET!,,,
+200536,TXT_MINI_GAME_EXP_ITEM_NAME_1001,ブーストセル,,,
+200537,TXT_MINI_GAME_EXP_ITEM_NAME_1002,ブーストセル,,,
+200538,TXT_AZURITE_PU_SPEED,移動速度,,,
+200539,TXT_AZURITE_PU_HP,体力,,,
+200540,TXT_AZURITE_PU_RANGE,回収範囲,,,
+200541,TXT_MINI_GAME_TOOL_VALUE,"所持数
+×{}",,,
+200542,TXT_MINI_GAME_RANKING_ALL,TOP100,,,
+200543,TXT_UNIT_DETAIL_ELEMENT,属性,,,
+200544,TXT_UNIT_DETAIL_RACE,種族,,,
+200545,TXT_UNIT_DETAIL_LUCK,LUCK,,,
+200546,TXT_UNIT_DETAIL_SOLUCK,総LUCK,,,
+200547,TXT_PLAYER_CRYSTAL_DESC,"召喚や体力回復、コンティニュー
+ユニット・装備枠の拡張など
+様々な用途で使用するアイテム",,,
+200548,TXT_MINIGAME_PLAY_COUNT_SHORTAGE_CONFIRM,"残りプレイ回数がありません
+{0}を使用して回復しますか？",,,
+200550,TXT_MINIGAME_AZURITE_DAMAGE,DAMAGE -{},,,
+200551,TXT_MINIGAME_AZURITE_HEAL,回復,,,
+200552,TXT_MINIGAME_AZURITE_STEALTH,透明,,,
+200553,TXT_MINIGAME_AZURITE_SUCTION,吸引,,,
+200554,TXT_MINIGAME_AZURITE_TREASURE,お宝 +{},,,
+200555,TXT_MINIGAME_AZURITE_ENEMY_APPEAR,敵出現,,,
+200556,TXT_MINIGAME_AZURITE_BOSS_WARNING,WARNING,,,
+200557,TXT_MINIGAME_AZURITE_COLLECT_START,COLLECT TREASURES,,,
+200558,TXT_FAVORITE_VOTE_LEFT,本日あと,,,
+200559,TXT_FAVORITE_VOTE_RIGHT,回投票可能,,,
+200560,TXT_FAVORITE_VOTE_FINISHED,"投票期間は終了しました
+タイトル画面へ戻ります",,,
+200561,TXT_FAVORITE_VOTE_RESET_TIME,AM4:00にリセット,,,
+200562,TXT_FAVORITE_VOTE_THANK,ご投票ありがとうございました,,,
+200563,TXT_FAVORITE_VOTE_GO,投票へ,,,
+200564,TXT_TRIAL_QUEST_POPUP_TITLE,おためしクエスト,,,
+200565,TXT_TRIAL_QUEST_POPUP_DESC,"以下のユニットを編成して
+おためしクエストへ出撃できます",,,
+200582,TXT_POPUP_NOT_ALLOW_REVERSIBLE_UNIT,"相手が出撃不可ユニットを編成しているため
+バトルすることができません",,,
+200583,TXT_POPUP_NOT_ALLOW_UNIT_SELF,"あなたの編成に重複したユニットまたは
+出撃不可ユニットが含まれているため
+バトルすることができません",,,
+200584,TXT_POPUP_NOT_ALLOW_UNIT_OPPONENT,"相手の編成に重複したユニットまたは
+出撃不可ユニットが含まれているため
+バトルすることができません",,,
+200585,TXT_POPUP_NOT_ALLOW_UNIT_BOTH,"編成に以下が含まれるためバトルできません
+あなたの編成：重複・使用禁止ユニット
+相手の編成　：重複・使用禁止ユニット",,,
+200593,TXT_POPUP_NOT_ALLOW_UNIT_SELF_OVERLAP,"編成に以下が含まれるためバトルできません
+あなたの編成：重複ユニット",,,
+200594,TXT_POPUP_NOT_ALLOW_UNIT_SELF_NOTREVERSIBLE,"編成に以下が含まれるためバトルできません
+あなたの編成：出撃不可ユニット",,,
+200595,TXT_POPUP_NOT_ALLOW_UNIT_SELF_BOTH,"編成に以下が含まれるためバトルできません
+あなたの編成：重複・出撃不可ユニット",,,
+200596,TXT_POPUP_NOT_ALLOW_UNIT_OPPONENT_OVERLAP,"編成に以下が含まれるためバトルできません
+相手の編成：重複ユニット",,,
+200597,TXT_POPUP_NOT_ALLOW_UNIT_OPPONENT_NOTREVERSIBLE,"編成に以下が含まれるためバトルできません
+相手の編成：出撃不可ユニット",,,
+200598,TXT_POPUP_NOT_ALLOW_UNIT_OPPONENT_BOTH,"編成に以下が含まれるためバトルできません
+相手の編成：重複・出撃不可ユニット",,,
+200599,TXT_POPUP_NOT_ALLOW_UNIT_BOTH_OVERLAP,"編成に以下が含まれるためバトルできません
+あなたの編成：重複ユニット
+相手の編成　：重複ユニット",,,
+200600,TXT_POPUP_NOT_ALLOW_UNIT_BOTH_NOTREVERSIBLE,"編成に以下が含まれるためバトルできません
+あなたの編成：使用禁止ユニット
+相手の編成　：使用禁止ユニット",,,
+200601,TXT_POPUP_NOT_ALLOW_UNIT_SELF_OVERLAP_OPPONENT_NOTREVERSIBLE,"編成に以下が含まれるためバトルできません
+あなたの編成：重複ユニット
+相手の編成　：使用禁止ユニット",,,
+200602,TXT_POPUP_NOT_ALLOW_UNIT_SELF_NOTREVERSIBLE_OPPONENT_OVERLAP,"編成に以下が含まれるためバトルできません
+あなたの編成：使用禁止ユニット
+相手の編成　：重複ユニット",,,
+200603,TXT_POPUP_NOT_ALLOW_UNIT_SELF_BOTH_OPPONENT_NOTREVERSIBLE,"編成に以下が含まれるためバトルできません
+あなたの編成：重複・使用禁止ユニット
+相手の編成　：使用禁止ユニット",,,
+200604,TXT_POPUP_NOT_ALLOW_UNIT_SELF_BOTH_OPPONENT_OVERLAP,"編成に以下が含まれるためバトルできません
+あなたの編成：重複・使用禁止ユニット
+相手の編成　：重複ユニット",,,
+200605,TXT_POPUP_NOT_ALLOW_UNIT_SELF_OVERLAP_OPPONENT_BOTH,"編成に以下が含まれるためバトルできません
+あなたの編成：重複ユニット
+相手の編成　：重複・使用禁止ユニット",,,
+200606,TXT_POPUP_NOT_ALLOW_UNIT_SELF_NOTREVERSIBLE_OPPONENT_BOTH,"編成に以下が含まれるためバトルできません
+あなたの編成：使用禁止ユニット
+相手の編成　：重複・使用禁止ユニット",,,
+200607,TXT_ONYX_PU_HP,ライフ,,,
+200608,TXT_ONYX_ABS_RANGE,吸収範囲,,,
+200609,TXT_ONYX_SHOT_DAMAGE,ショット威力,,,
+200610,TXT_MINI_GAME_EXP_ITEM_NAME_1003,ブーストセル,,,
+200624,TXT_WOLFRIED_PU_SQUAD,独立部隊,,,
+200625,TXT_WOLFRIED_PU_PATROL,部下人数,,,
+200626,TXT_WOLFRIED_PU_DRONE,部下運搬速度,,,
+200627,TXT_WOLFRIED_PU_VAL_UNIT,{0}機,,,
+200628,TXT_MINI_GAME_EXP_ITEM_NAME_1004,ブーストセル,,,
+200629,TXT_WOLFRIED_MENU_TITLE,ヴォルフリート・スクランブル,,,
+200630,TXT_WOLFRIED_MENU_DESC,お宝を守れ,,,
+200631,TXT_WOLFRIED_MENU_SCORE,確保したお宝,,,
+200632,TXT_WOLFRIED_MENU_SCORE_VALUE,{0} 個,,,
+200633,TXT_WOLFRIED_TIP_DISPATCH,指を離すと部下を動員,,,
+200634,TXT_WOLFRIED_TIP_CARRY,接触して指を離すと自分で確保,,,
+200635,TXT_WOLFRIED_AZURITE_EFFECT,アズライトの未来視！,,,
+200636,TXT_WOLFRIED_AZURITE_EFFECT_DESC,アズライト出現中、襲撃者の力+2,,,
+200637,TXT_WOLFRIED_FX_DAMAGE,DAMAGE...,,,
+200638,TXT_WOLFRIED_FX_LOST,LOST...,,,
+200639,TXT_WOLFRIED_FX_NICE,NICE!,,,
+200640,TXT_WOLFRIED_FX_REPELLED,撃退,,,
+200641,TXT_WOLFRIED_FX_SECURED,確保,,,
+200642,TXT_WOLFRIED_FX_SLASHED,に斬られた!,,,
+200643,TXT_WOLFRIED_FX_STOLEN,を奪われた...,,,
+200644,TXT_WOLFRIED_FX_SUCCEEDED,SUCCEEDED!,,,
+200645,TXT_WOLFRIED_GUEST_AZURITE,怪盗アズライトだ!,,,
+200646,TXT_WOLFRIED_GUEST_AZURITE_DESC,襲撃者がパワーアップ！,,,
+200647,TXT_WOLFRIED_GUEST_HELIOLD,怪盗ヘリオルドだ!,,,
+200648,TXT_WOLFRIED_GUEST_HELIOLD_DESC,拠点が狙われている…,,,
+200649,TXT_WOLFRIED_GUEST_ONYX,怪盗オニキスだ!,,,
+200650,TXT_WOLFRIED_GUEST_ONYX_DESC,レーダーが乱される！,,,
+200651,TXT_WOLFRIED_HELIOLD_COUNT,{0}秒後に,,,
+200652,TXT_WOLFRIED_HELIOLD_SLASH,ヘリオルドの斬撃！,,,
+200653,TXT_WOLFRIED_HELIOLD_STANCE,ヘリオルド、抜刀体勢！,,,
+200654,TXT_WOLFRIED_LOST,奪われた,,,
+200655,TXT_WOLFRIED_ONYX_EFFECT,オニキスのグリザイユの帳！,,,
+200656,TXT_WOLFRIED_ONYX_EFFECT_DESC,オニキス出現中、レーダー使用不可,,,
+200662,TXT_MENU_MIGRATION_BUTTON,メールアドレスで引き継ぎ,Transfer Data,,
+200663,TXT_MENU_MIGRATION_HOWTO_BUTTON,データ引き継ぎ設定について,,,
+200664,TXT_GOOGLE_UNLINK_TITLE,アカウント連携解除,,,
+200665,TXT_GOOGLE_UNLINK_MESSAGE,"連携を解除すると、機種変更や端末の故障のときに
+データを引き継げなくなる場合があります
+Googleアカウントとの連携を解除しますか？",,,
+200666,TXT_GOOGLE_ACCOUNT_UNLINKED_TITLE,アカウント連携解除完了,,,
+200667,TXT_GOOGLE_ACCOUNT_UNLINKED_MESSAGE,Googleアカウントとの連携を解除しました,,,
+200668,TXT_APPLE_ACCOUNT_LINKED_TITLE,アカウント連携完了,,,
+200669,TXT_APPLE_ACCOUNT_LINKED_MESSAGE,Apple Accountと連携しました,,,
+200670,TXT_APPLE_ACCOUNT_UNLINKED_TITLE,アカウント連携解除完了,,,
+200671,TXT_APPLE_ACCOUNT_UNLINKED_MESSAGE,Apple Accountとの連携を解除しました,,,
+200672,TXT_APPLE_UNLINK_SIGNIN_MESSAGE,"連携解除するにはApple Accountで
+再度サインインしてください",,,
+200673,TXT_GOOGLE_UNLINK_SIGNIN_MESSAGE,"連携解除するにはGoogleアカウントで
+再度サインインしてください",,,

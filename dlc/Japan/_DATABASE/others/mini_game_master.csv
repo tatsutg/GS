@@ -1,0 +1,283 @@
+id,name,class_name,description,game_config,initial_user_data,tutorial_scenario_id,score_unit
+1001,チェインラッシュ・アズライト,Azurite,宝を拾いながら、追手から逃れよう,"{
+  ""max_lv"": 5,
+  ""get_exp_clear"": 1,
+  ""get_exp_failure"": 1,
+  ""need_exp"": {
+    ""1"": 1,
+    ""2"": 2,
+    ""3"": 3,
+    ""4"": 4,
+    ""5"": 5
+  },
+  ""lv_param"": {
+    ""speed"": {
+      ""0"": 1.0,
+      ""1"": 1.1,
+      ""2"": 1.2,
+      ""3"": 1.3,
+      ""4"": 1.4,
+      ""5"": 1.5
+    },
+    ""range"": {
+      ""0"": 1.0,
+      ""1"": 1.1,
+      ""2"": 1.2,
+      ""3"": 1.3,
+      ""4"": 1.4,
+      ""5"": 1.5
+    },
+    ""hp"": {
+      ""0"": 100,
+      ""1"": 110,
+      ""2"": 120,
+      ""3"": 130,
+      ""4"": 140,
+      ""5"": 150
+    }
+  },
+  ""items"": [
+    {
+      ""key"": ""speed"",
+      ""name"": ""TXT_AZURITE_PU_SPEED"",
+      ""icon"": ""ability_overheat.png"",
+      ""value_format"": ""multiplier"",
+      ""value_label"": ""TXT_MINIGAME_PU_VAL_MULTIPLIER""
+    },
+    {
+      ""key"": ""hp"",
+      ""name"": ""TXT_AZURITE_PU_HP"",
+      ""icon"": ""ability_minigame_hpup.png"",
+      ""value_format"": ""int""
+    },
+    {
+      ""key"": ""range"",
+      ""name"": ""TXT_AZURITE_PU_RANGE"",
+      ""icon"": ""ability_be_up.png"",
+      ""value_format"": ""multiplier"",
+      ""value_label"": ""TXT_MINIGAME_PU_VAL_MULTIPLIER""
+    }
+
+  ],
+  ""boost_target_ui"": {
+    ""mode"": ""sprite"",
+    ""sprite"": {
+      ""frames"": [
+        ""CocoStudio/resources/minigame/azurite_frame_01.png"",
+        ""CocoStudio/resources/minigame/azurite_frame_02.png"",
+        ""CocoStudio/resources/minigame/azurite_frame_03.png"",
+        ""CocoStudio/resources/minigame/azurite_frame_04.png""
+      ],
+      ""frame_duration"": 0.12,
+      ""scale"": 2.0,
+      ""flip_x"": true
+    }
+  }
+}","{
+  ""speed"": 1,
+  ""range"": 1,
+  ""hp"": 100,
+  ""speed_lv"": 0,
+  ""range_lv"": 0,
+  ""hp_lv"": 0,
+  ""exp"": 0
+}",800010101,pt
+1002,セレスタ・オーバードライブ,Celesta,,"{
+  ""max_lv"": 3,
+  ""need_exp"": {
+    ""1"": 1,
+    ""2"": 2,
+    ""3"": 3
+  },
+  ""get_exp_clear"": 1,
+  ""get_exp_failure"": 1,
+  ""lv_param"": {
+    ""max_hp"": {
+      ""0"": 2,
+      ""1"": 3,
+      ""2"": 4,
+      ""3"": 5
+    },
+    ""move_speed"": {
+      ""0"": 1.0,
+      ""1"": 1.4,
+      ""2"": 1.7,
+      ""3"": 2.0
+    },
+    ""turbo_rate"": {
+      ""0"": 1.0,
+      ""1"": 1.5,
+      ""2"": 2.0,
+      ""3"": 4.0
+    }
+  },
+  ""items"": [
+    {
+      ""key"": ""max_hp"",
+      ""name"": ""TXT_CELESTA_PU_HP"",
+      ""icon"": ""ability_minigame_durability.png"",
+      ""value_format"": ""diff""
+    },
+    {
+      ""key"": ""move_speed"",
+      ""name"": ""TXT_CELESTA_PU_SPEED"",
+      ""icon"": ""ability_minigame_slide_speed.png"",
+      ""value_format"": ""multiplier"",
+      ""value_label"": ""TXT_MINIGAME_PU_VAL_MULTIPLIER""
+    },
+    {
+      ""key"": ""turbo_rate"",
+      ""name"": ""TXT_CELESTA_PU_TURBO"",
+      ""icon"": ""ability_minigame_frequency.png"",
+      ""value_format"": ""multiplier"",
+      ""value_label"": ""TXT_MINIGAME_PU_VAL_MULTIPLIER""
+    }
+  ],
+  ""boost_target_ui"": {
+  ""mode"": ""sprite"",
+  ""sprite"": {
+    ""frames"": [
+      ""CocoStudio/resources/minigame/celesta_frame_01.png"",
+      ""CocoStudio/resources/minigame/celesta_frame_02.png"",
+      ""CocoStudio/resources/minigame/celesta_frame_03.png"",
+      ""CocoStudio/resources/minigame/celesta_frame_04.png""
+    ],
+    ""frame_duration"": 0.12,
+    ""scale"": 2.0,
+    ""flip_x"": false
+  }
+}
+}","{""max_hp_lv"":0,""move_speed_lv"":0,""turbo_rate_lv"":0,""exp"":0}",800010201,m
+1003,オニキス・エクリプス,Onyx,色を奪って敵を撃て！,"{
+  ""max_lv"": 3,
+  ""need_exp"": {
+    ""1"": 1,
+    ""2"": 2,
+    ""3"": 3
+  },
+  ""get_exp_clear"": 1,
+  ""get_exp_failure"": 1,
+  ""lv_param"": {
+    ""max_hp"": {
+      ""0"": 3,
+      ""1"": 4,
+      ""2"": 5,
+      ""3"": 6
+    },
+    ""absorption_range"": {
+      ""0"": 1.0,
+      ""1"": 1.15,
+      ""2"": 1.3,
+      ""3"": 1.5
+    },
+    ""shot_damage"": {
+      ""0"": 1.0,
+      ""1"": 2.0,
+      ""2"": 3.0,
+      ""3"": 5.0
+    }
+  },
+  ""items"": [
+    {
+      ""key"": ""max_hp"",
+      ""name"": ""TXT_ONYX_PU_HP"",
+      ""icon"": ""ability_minigame_durability_onyx.png"",
+      ""value_format"": ""diff""
+    },
+    {
+      ""key"": ""absorption_range"",
+      ""name"": ""TXT_ONYX_ABS_RANGE"",
+      ""icon"": ""ability_minigame_stealaoe_onyx.png"",
+      ""value_format"": ""multiplier"",
+      ""value_label"": ""TXT_MINIGAME_PU_VAL_MULTIPLIER""
+    },
+    {
+      ""key"": ""shot_damage"",
+      ""name"": ""TXT_ONYX_SHOT_DAMAGE"",
+      ""icon"": ""ability_minigame_shot_damage_onyx.png"",
+      ""value_format"": ""multiplier"",
+      ""value_label"": ""TXT_MINIGAME_PU_VAL_MULTIPLIER""
+    }
+  ],
+  ""boost_target_ui"": {
+  ""mode"": ""sprite"",
+  ""sprite"": {
+    ""frames"": [
+      ""CocoStudio/resources/minigame/onyx_frame_01.png"",
+      ""CocoStudio/resources/minigame/onyx_frame_02.png"",
+      ""CocoStudio/resources/minigame/onyx_frame_03.png""
+    ],
+    ""frame_duration"": 0.12,
+    ""scale"": 1.0,
+    ""flip_x"": false
+  }
+}
+}","{""max_hp_lv"":0,""absorption_range_lv"":0,""shot_damage_lv"":0,""exp"":0}",800010301,pt
+1004,ヴォルフリート,Wolfried,宝を守れ,"{
+  ""max_lv"": 3,
+  ""need_exp"": {
+    ""1"": 1,
+    ""2"": 2,
+    ""3"": 3
+  },
+  ""lv_param"": {
+    ""squad"": {
+      ""0"": 0,
+      ""1"": 1,
+      ""2"": 2,
+      ""3"": 3
+    },
+    ""patrol"":{""0"":17,""1"":18,""2"":19,""3"":20},
+    ""jam_drone"": {
+      ""0"": 1,
+      ""1"": 1.1,
+      ""2"": 1.2,
+      ""3"": 1.3
+    }
+  },
+  ""items"": [
+    {
+      ""key"": ""squad"",
+      ""name"": ""TXT_WOLFRIED_PU_SQUAD"",
+      ""name_text"": ""独立部隊"",
+      ""icon"": ""ability_minigame_squad_wolfried.png"",
+      ""value_format"": ""int"",
+      ""value_label"": ""TXT_WOLFRIED_PU_VAL_UNIT"",
+      ""value_label_text"": ""{0}機""
+    },
+    {
+      ""key"": ""patrol"",
+      ""name"": ""TXT_WOLFRIED_PU_PATROL"",
+      ""name_text"": ""部下人数"",
+      ""icon"": ""ability_minigame_patrol_wolfried.png"",
+      ""value_format"": ""int"",
+      ""value_label"": """",
+      ""value_label_text"": ""{0}人""
+    },
+    {
+      ""key"": ""jam_drone"",
+      ""name"": ""TXT_WOLFRIED_PU_DRONE"",
+      ""name_text"": ""部下運搬速度"",
+      ""icon"": ""ability_minigame_carry_wolfried.png"",
+      ""value_format"": ""multiplier"",
+      ""value_label"": ""TXT_MINIGAME_PU_VAL_MULTIPLIER""
+    }
+  ],
+  ""get_exp_clear"": 1,
+  ""get_exp_failure"": 1,
+  ""boost_target_ui"": {
+    ""mode"": ""sprite"",
+    ""sprite"": {
+      ""frames"": [
+        ""CocoStudio/resources/minigame/wolfried_frame_01.png"",
+        ""CocoStudio/resources/minigame/wolfried_frame_02.png"",
+        ""CocoStudio/resources/minigame/wolfried_frame_03.png"",
+        ""CocoStudio/resources/minigame/wolfried_frame_04.png""
+      ],
+      ""frame_duration"": 0.12,
+      ""scale"": 1,
+      ""flip_x"": false
+    }
+  },
+  ""bgm_cue"": ""GS508_KOUZAN""
+}","{""squad_lv"": 0, ""patrol_lv"": 0, ""jam_drone_lv"": 0, ""exp"": 0}",0,ko

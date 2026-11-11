@@ -1,0 +1,38 @@
+id,name,description,effect_name,field_effect_lua_id,field_skill_effect_custom_parameter,popup_title_image_name
+100,炎獄,"5秒毎に最大HPの(5+強化数)%持続ダメージ。
+さらに与えたダメージの0.1＋(強化数×0.1)%が反射ダメージとなる。",Field_Fire00,0,"{
+	""elementWeak"": 1.2,
+	""elementResist"": 0.8
+}",battle_menu_field_effect_01.png
+101,炎獄,"5秒毎に最大HPの10%持続ダメージ。
+さらに与えたダメージの2%が反射ダメージとなる。",Field_Fire00,1,"{""damageParcent"":10,""span"":5,""refrectValue"":2}",battle_menu_field_effect_01.png
+102,炎獄,"5秒毎に最大HPの20%持続ダメージ。
+さらに与えたダメージの5%が反射ダメージとなる。",Field_Fire00,1,"{""damageParcent"":20,""span"":5,""refrectValue"":5}",battle_menu_field_effect_01.png
+103,炎獄,"5秒毎に最大HPの30%持続ダメージ。
+さらに与えたダメージの8%が反射ダメージとなる。",Field_Fire00,1,"{""damageParcent"":30,""span"":5,""refrectValue"":8}",battle_menu_field_effect_01.png
+201,縛氷,"全ステータス10%DOWN
+15秒毎に吹雪が発生
+吹雪開始時、スキルゲージが0になり、スキルゲージの回復速度が80%減少する",Field_Ice00,2,"{""span"":15,""debuffValue"":-10}",battle_menu_field_effect_01.png
+202,縛氷,"全ステータス30%DOWN
+10秒毎に吹雪が発生
+吹雪開始時、スキルゲージが0になり、スキルゲージの回復速度が80%減少する",Field_Ice00,2,"{""span"":10,""debuffValue"":-30}",battle_menu_field_effect_01.png
+601,瘴気,"奥義ゲージ5自然上昇
+ユニットスキル使用時、奥義ゲージ10UP
+上記以外の奥義ゲージUP、BEによる奥義ゲージ上昇不可
+",Field_Swamp00,6,"{
+""spPerSec"": 5,
+""spBySkill"": 10,
+""isStopAddSP"": true
+}",battle_menu_field_effect_01.png
+1001,晴朗,"有利属性への与ダメージ補正1.2→2.0倍
+不利属性への与ダメージ補正0.8→0.5倍",GB_Weather_001.lwf,0,"{
+	""elementWeak"": 2,
+	""elementResist"": 0.5
+}",battle_menu_field_effect_01.png
+1002,黄昏,"味方神族・精霊族の
+与ダメージ・被ダメージ1.5倍",GB_Weather_002.lwf,0,"{""races"":[3,7],""damageRate"":1.5}",battle_menu_field_effect_01.png
+1003,闇夜,"味方魔族・竜族・機族の
+与ダメージ・被ダメージ1.5倍",GB_Weather_003.lwf,0,"{""races"":[5,6,8],""damageRate"":1.5}",battle_menu_field_effect_01.png
+1004,迷霧,"味方人族・獣族・巨人族の
+与ダメージ・被ダメージ1.5倍",GB_Weather_004.lwf,0,"{""races"":[1,2,4],""damageRate"":1.5}",battle_menu_field_effect_01.png
+1005,万雷,クリティカル与ダメージ補正1.25→1.5倍,GB_Weather_005.lwf,0,"{""critical"":1.5,""superCritical"":3}",battle_menu_field_effect_01.png

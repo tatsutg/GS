@@ -1,0 +1,10 @@
+id,quest_id,questmission1_id,questmission1_reward_type,questmission1_reward_id,questmission1_reward_value,custam_parameter1,questmission2_id,questmission2_reward_type,questmission2_reward_id,questmission2_reward_value,custam_parameter2,questmission3_id,questmission3_reward_type,questmission3_reward_id,questmission3_reward_value,custam_parameter3,complete_reward_type,complete_reward_id,complete_reward_value,complete_custam_parameter
+2000521,2000521,201,11,0,1,,407,18,0,30,,601,17,3,1,,9,102473511,1,"{""level"":1, ""fortune_level"":2}"
+2000526,2000526,201,11,0,1,,407,18,0,30,,601,17,3,1,,9,102733112,1,"{""level"":1, ""fortune_level"":1}"
+2008001,2008001,201,22,206881001,50,,901,5,117444,1,,803,5,101014,5,,11,None,1,
+2008007,2008007,201,9,107083512,1,"{""level"":1, ""fortune_level"":1}",601,9,107103511,1,"{""level"":1, ""fortune_level"":1}",803,5,111350,20,,11,None,2,
+2009604,2009604,201,9,107133512,1,"{""level"":1}",901,5,117343,1,,803,13,1073,50,,11,None,1,
+2012401,2012401,201,22,207950001,25,,901,9,107143212,1,,803,5,101115,5,,11,None,1,
+2018110,2018110,201,22,201810001,100,,901,5,895305,1,,803,5,101751,1,,11,None,2,
+2018401,2018401,201,22,201840001,10,,901,13,1022,5,,803,5,101115,5,,11,None,1,
+2020210,2020210,201,9,107253411,1,"{""level"":1}",901,5,117545,1,,803,5,101751,1,,11,None,2,

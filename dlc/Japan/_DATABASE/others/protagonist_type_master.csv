@@ -1,0 +1,16 @@
+id,protagonist_name,effect_value,color_code,protagonist_description
+1,覇道型,"{
+    ""critical"": 2.0,
+    ""super_critical"": 3.5,
+    ""critical_pvp"": 1.3,
+    ""super_critical_pvp"": 1.8,
+    ""critical_gb_thunder"": 2.2,
+    ""super_critical_gb_thunder"": 3.8
+  }",#ff0000,敵・味方全体のクリティカルによるダメージ補正が1.25倍から{critical}倍になる。さらにスーパークリティカルによるダメージ補正が3.0倍から{super_critical}倍になる。
+4,天命型,"{""sp_floor"":50,""sp_floor_pvp"":10,""sp_floor_enemy"":20}",#ffff00,"味方の奥義ゲージが{sp_floor}を下回らなくなる。
+ボスの奥義玉が1個を下回らなくなる。ボス以外の敵の奥義使用間隔が{sp_floor_enemy}%短縮される。"
+5,終焉型,"{""final_damage"":1.5}",#9c00eb,敵・味方全体の最終ダメージを{final_damage}倍にする。
+6,破壊型,"{""break_leader"":2,""break_member"":0.5}",#ff8000,"リーダーユニットのブレイク力を{break_leader}倍にする。
+リーダー以外のユニットのブレイク力を半分にする。(装備は除く)"
+7,進撃型,"{""final_damage_ally"":1.3,""break_ally"":0.5,""heal_ally"":0.5}",#00dee8,"味方全体の最終ダメージを{final_damage_ally}倍にする。
+味方全体のブレイク力・HP回復量を半分にする。"

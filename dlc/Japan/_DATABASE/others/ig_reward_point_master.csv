@@ -1,0 +1,6 @@
+id,start_at,end_at,receive_limit_count,need_reward_point,reward_point_reset_type,icon_path,priority,hidden_box_flag
+1,None,None,0,200000,1,contents_icon_gran.png,1,0
+2,None,None,0,40000000,1,contents_icon_potion.png,2,0
+3,None,None,0,2200000,1,contents_icon_treasure.png,3,0
+4,None,None,10,84000000,2,,4,0
+6,None,None,0,37000000,1,,6,1

@@ -1,0 +1,13 @@
+id,buff_type,buff_param1,buff_param2,buff_param3,buff_sec,name,description,icon_name
+10001,1,200,0,0,600,レガリア経験値100%UP,600秒間、レガリア経験値100%UP,bonus_buff.png
+10002,1,300,0,0,600,レガリア経験値200%UP,600秒間、レガリア経験値200%UP,bonus_buff.png
+20001,2,200,0,0,600,マップ宝箱からのアイテム個数100%UP,600秒間、マップ宝箱からのアイテム個数100%UP,bonus_material.png
+20002,2,300,0,0,600,マップ宝箱からのアイテム個数200%UP,600秒間、マップ宝箱からのアイテム個数200%UP,bonus_material.png
+30001,3,0,0,0,0,ユニットのAP全回復&AP消費なし,"ユニットのAP全回復&
+AP消費なし",bonus_stamina.png
+40001,4,200,1,0,1800,ヘルス・トニック,30分間、ヘルス・レガリアのEXPが100%UPする。,bonus_material.png
+40002,4,200,2,0,1800,パワー・トニック,30分間、パワー・レガリアのEXPが100%UPする。,bonus_material.png
+40003,4,200,3,0,1800,ガード・トニック,30分間、ガード・レガリアのEXPが100%UPする。,bonus_material.png
+40004,4,200,4,0,1800,レジスト・トニック,30分間、レジスト・レガリアのEXPが100%UPする。,bonus_material.png
+40005,4,200,6,0,1800,ブレイク・トニック,30分間、ブレイク・レガリアのEXPが100%UPする。,bonus_material.png
+40006,4,200,5,0,1800,マインド・トニック,30分間、マインド・レガリアのEXPが100%UPする。,bonus_material.png

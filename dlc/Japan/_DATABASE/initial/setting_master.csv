@@ -1,0 +1,984 @@
+key,value,description
+AI_LEARNING_DROP_EFFECT,30,AIラーニング発生確率
+AI_PRESET_COND_MAX_COUNT,10,AI行動最大設定数
+AI_PRESET_CONFIG_MAX_COUNT,20,AI条件最大設定数
+APPPAY_API_MAINTENANCE_FLAG,0,"購入したものを付与するAPIを止めるようのフラグ
+0:OFF　1:ON"
+APPSTORE_URL,https://itunes.apple.com/us/app/gurandosamanazu/id1124822470,AppStoreのURL
+ARENA_OPEN,1,アリーナへの入場許可
+ARENA_TIMELIMIT,60,アリーナの制限時間
+ARENA_TIMELIMIT_VIEW,99,アリーナの時間の表記上のカウント
+AUTOSALE_OPEN,20,自動売却を許可するユーザーレベル
+AUTO_REPEAT_QUEST_MAX_COUNT,50,周回回数上限
+AZURITE_SE_OVERRIDES,"{""game_start"":""SE_SYSTEM_003_SALLY"",""stage_clear"":""SE_SYSTEM_073_QUEST_MISSION"",""game_clear"":""SE_SYSTEM_035_LUCKMAX"",""game_over"":""SE_BATTLE_MONSTER_FALL"",""hook_fire"":""SE_BATTLE_GUN_BURST"",""hook_land"":""SE_BATTLE_LANDING"",""treasure_get"":""SE_BATTLE_006_SP_ACQUISITION"",""item_heal"":""SE_BATTLE_005_RECOVERY"",""item_shield"":""SE_BATTLE_052_CURSE"",""item_magnet"":""SE_BATTLE_047_BUFF"",""gauge_ready"":""SE_BATTLE_047_BUFF"",""phantom_activate"":""SE_BATTLE_012_FULLARTS_SHOOT_1"",""phantom_escape"":""SE_BATTLE_TELEPORT"",""shooter_fire"":""SE_BATTLE_039_WEAPON_SWING"",""wilddog_warn"":""SE_BATTLE_EFFECT_01"",""metachiki_defeat"":""SE_SYSTEM_GROUNDBATTLE_ACQUISITION"",""boss_appear"":""SE_BATTLE_015_BOSS_ALERT_01"",""boss_telegraph"":""SE_BATTLE_LOCKOOOON"",""boss_charge"":""SE_BATTLE_SKILL_DASH_EF"",""boss_stagger"":""SE_BATTLE_053_BREAK"",""boss_vulnerable"":""SE_BATTLE_LOCKOOOON"",""boss_small_jump"":""SE_BATTLE_MONSTER_JUMP"",""boss_defeat"":""SE_BATTLE_016_BOSS_KO"",""player_damage"":""SE_BATTLE_025_BLOW_HIT"",""field_warning"":""SE_SYSTEM_010_BAN"",""hp_critical"":""SE_BATTLE_045_PARALYS"",""bonus_enter"":""SE_SYSTEM_047_OPEN_AREA"",""treasure_box_open"":""SE_SYSTEM_017_TREASURE_OPEN""}",
+battle_continue_cost,1,コンテニューに必要なダイア数
+BATTLE_CONTINUE_TIME_LIMIT,10,マルチバトルのコンティニュー制限時間（単位:秒）
+battle_drop_coin,1,0
+battle_drop_exp,1,0
+battle_drop_luckxp,1,0
+battle_drop_userxp,1,0
+BEGINNER_GACHA_HOURS,72,ホーム画面初心者ガチャの表示切り替え時間
+BURST2_SKILL_SETTING_OPEN,1,ゲーム設定の「オートで真奥義を使用する」を表示するかしないかの設定
+BURST_EXP_PER_LEVEL,500,バーストレベルアップに必要な経験値
+BURST_MAX_LEVEL,100,バーストレベル最大値
+CAN_GET_UNIQUE_USER,1,iOSのユニークユーザーの情報を取得する、しないのフラグ
+CI_GENERIC_MATERIAL_MAX,9999,クラフト汎用素材の表示上限
+CI_UNIQUE_MATERIAL_MAX,9999,クラフトユニーク素材の表示上限
+COIN_RARE0,100,レア度による強化合成時の消費コイン
+COIN_RARE1,100,レア度による強化合成時の消費コイン
+COIN_RARE2,100,レア度による強化合成時の消費コイン
+COIN_RARE3,100,レア度による強化合成時の消費コイン
+COIN_RARE4,100,レア度による強化合成時の消費コイン
+COIN_RARE5,100,レア度による強化合成時の消費コイン
+COLLABORATION_IMAGE_END_AT,2017-11-10 12:00:00,コラボタイトル画像表示終了期間
+COLLABORATION_IMAGE_START_AT,2017-11-10 11:00:00,コラボタイトル画像表示開始期間
+COLLABO_MISSION_IMAGE_INFO,"{
+""collabo_mission_info"":{
+""clear_icon"":""mission/collabo_mission_clear_icon_gachi.png"",
+""header"":""mission/collabo_mission_header_gachi.png"",
+""list_bg"":""mission/collabo_mission_list_bg_gachi.png"",
+""home_icon_on"":""mission/home_collabomission_icon_on_gachi.png"",
+""home_icon_off"":""mission/home_collabomission_icon_off_gachi.png"",
+""start_time"" : ""2026-09-18 15:00:00"",
+""end_time"" : ""2026-10-14 23:59:59""
+}
+}",
+COLOR_SHADER_SET_TYPE,2,バトル・シナリオのカラーシェーダー反映方法タイプ
+COMMONCEILING_OPEN,1,共通天井　有効：１、無効：０
+COND_ACCURACY_MIN,30,命中率の下限
+CONF_ARENABREAK_RATE,0.1,アリーナ戦闘時のブレイク力の係数
+CONF_ARENA_ACTTIMER,1.8,アリーナAIの行動判断間隔
+CONF_ARENA_ACT_RANDOM_RATE,40,装備が使用できることを感知した時に実行に移す確率
+CONF_ARENA_BURST_LIMIT,1,奥義の使用制限 0:無限 1:一回のみ
+CONF_ARENA_DEFENCE_RATE,1,ユニットの防御力の倍率
+CONF_ARENA_ENEMY_CUTIN_FLIP,2,敵のカットインの反転
+CONF_ARENA_HEALRATE,0.2,アリーナ時の回復量倍率
+CONF_ARENA_HPRATE,1,アリーナ時のHPの倍率
+CONF_ARENA_PRE_SOUND_KEY,none,アリーナの開始直前の環境音
+CONF_ARENA_RUNQUEUE_RANGE,0.5,アリーナAIの行動実行速度のブレ幅
+CONF_ARENA_RUNQUEUE_TIME,0.03,アリーナAIの行動実行速度の基本値
+CONF_ARENA_SP_RATE,25,アリーナのスキルによる奥義ゲージの増加量
+CONF_ARENA_TAKE_SP_RATE,0,アリーナの攻撃を受けたときに増える奥義ゲージの割合
+CONF_ARENA_TIMEUP_TYPE,2,奥義発動時の制限時間の挙動  0:何もしない 1:０で止める 2:常に止める
+CONF_BOSS_RESISTCONDITION_REDUCE_PER_SEC,0.025,ボスの状態異常耐性の自然現象　１秒あたりの減少量
+CONF_BREAK_RATE,1.25,ブレイク状態の相手に対するダメージ増加割合
+CONF_BREAK_THROUGH_TIME_ADJUST,1,ブレイクスルー演出 距離による速度調整
+CONF_BREAK_THROUGH_TIME_BASE,0.3,ブレイクスルー演出 玉の速度
+CONF_BREAK_THROUGH_TIME_EASEIN,4,ブレイクスルー演出 EaseInの比率
+CONF_CRITICAL_RATE,1.25,クリティカル時のダメージ倍率
+CONF_CRITICAL_RATE_PVP,1.1,クリティカル時のダメージ倍率(PvP、アリーナ用）
+CONF_CUSTOM_BG_DISABLE_ENEMYS,"500211013,501591013,501601013",
+CONF_CUSTOM_BG_DISABLE_QUESTS,"50605,6015,6035,6026,10405,40605,50705,60605,2003302,2004001,2004002,2004003,1001006,220305,220306,220307,220308,2021808,2021809,2021814,2021815",
+CONF_DAMAGE_CAP,7000,限界値
+CONF_DAMAGE_CRITICALPOINT,3500,臨界点値
+CONF_DAMAGE_NORMALATTACK_PER_SEC,1,通常攻撃の秒間ダメージ倍率
+CONF_DAMAGE_OFFSET_ARENA,0.005,アリーナ時のダメージ倍率
+CONF_DAMAGE_OFFSET_EvP,0.01,敵からプレイヤーへのダメージ倍率
+CONF_DAMAGE_OFFSET_EX_BATTLE,0.005,PVP時のダメージ倍率
+CONF_DAMAGE_OFFSET_PvE,0.1,プレイヤーから敵へのダメージ倍率
+CONF_DAMAGE_VOICE_PERCENT,25,ダメージ受けた時のボイス再生確率
+CONF_DEFENCE_CRITICALPOINT,5000,防御臨界点値
+CONF_DoT_OFFSET_EvP,0.1,持続ダメージの倍率
+CONF_DoT_OFFSET_PvE,1,持続ダメージの倍率
+CONF_DoT_OFFSET_PvP,0.1,持続ダメージの倍率
+CONF_ELEMENT_RESIST,0.8,弱点不利倍率
+CONF_ELEMENT_WEAK,1.2,弱点有利倍率
+CONF_EX_BATTLE_DEFENCE_RATE,1,PVPの防御力の倍率
+CONF_EX_BATTLE_HEALRATE,1,PVP時の回復量倍率
+CONF_EX_BATTLE_HPRATE,1,PVP時のHPの倍率
+CONF_EX_BATTLE_SP_RATE,25,PvP奥義ゲージ対策
+CONF_EX_BOSS_SP_RATE,1000,ダメージを受けるたびに奥義ゲージが1上昇
+CONF_INFORMATION_LOG_MAX,200,バトルインフォログの表示件数最大値
+CONF_INFORMATION_LOG_TIME,30,バトルインフォログの経過時間の区切り
+CONF_LUA_DEBUGLV,1,luaのエラー時の挙動 0:スルー 1:アラート表示 2:ストップ
+CONF_MULTIEND_SYNC,1,マルチクエストエンドリクエストのマルチ同期
+CONF_PVP_ITEM_SKILL_COOLTIME_CORRECTION,10,PvPのアイテムスキルのクールタイムに追加する調整時間（10秒）
+CONF_SPDROP_DIV_ITEMDAMAGE,2000,攻撃装備で攻撃したときのバトルエーテル出現量 ダメージ倍率 / 2000
+CONF_SPDROP_VALUE,5,バトルエーテル１個あたりのSP量
+CONF_SUPER_CRITICAL_RATE,3,スーパークリティカル時のダメージ倍率
+CONF_SUPER_CRITICAL_RATE_PVP,1.5,スーパークリティカル時のダメージ倍率(PvP、アリーナ用）
+COOKINRECIPE_EXP_ADD,1,一回の料理で上がる熟練度経験値
+COPYRIGHT_PATH,CocoStudio/resources/Title/title_event_tokyo_revengers/colabo_copyright.png,
+CORRECTION_CALC_U_MAX_LV,0.9,補正値計算で使用する係数U（Lv999用）
+CORRECTION_CALC_U_MIN_LV,0.2,補正値計算で使用する係数U（Lv1用）
+CORRECTION_CALC_V_MAX_LV,4,補正値計算で使用する係数V（Lv999用）
+CORRECTION_CALC_V_MIN_LV,2,補正値計算で使用する係数V（Lv1用）
+CRAFT_ADD_SKILL_COUNT_COLOR,#FFCC00,クラフト装備アルバムカラーコード情報・追加スキル個数説明
+CRAFT_BGM,GS615_CRAFT_BGM,クラフト工房BGMcue_name
+CRAFT_BGM_FILE_NAME,gs615_craft_bgm,クラフト工房BGMcue_sheet_name
+CRAFT_FINE_VALUE_COLOR,#00ff4e,クラフト装備の補正値用カラーコード（良い）
+CRAFT_FINE_VALUE_RATE,90,クラフト装備の補正値において「良い」と判断する場合の閾値レート 
+CRAFT_ITEM_CORRECTION_INDEX_VALUE,2,クラフト装備生成時・装備タイプ抽選時の補正値に適用するべき乗の指数
+CRAFT_ITEM_GENERIC_MATERIALS_LEVEL_UP_VALUE,10,クラフト装備レベルアップ時・汎用素材の使用数
+CRAFT_ITEM_GENERIC_MATERIALS_VALUE,10,クラフト装備生成時・汎用素材の使用数合計の上限
+CRAFT_ITEM_MATERIALS_DISP_MAX_VALUE,9999,クラフト装備用素材の表示上の所持上限
+CRAFT_ITEM_MAX_LEVEL,999,クラフト装備の生成や分解における熟練度の最大レベル
+CRAFT_ITEM_RUNE_PIECE_VALUE,3,クラフト装備生成時・紋章石の欠片の必要個数
+CRAFT_ITEM_UNIQUE_MATERIALS_MAX_VALUE,2,クラフト装備生成時・ユニーク素材の使用数合計の上限
+CRAFT_MAX_VALUE_COLOR,#00fcff,クラフト装備の補正値用カラーコード（最高）
+CRAFT_SPINE_EFFECT_SETTING,"{
+  ""effect_1.png"": ""GB_WeaponAura_fire"",
+  ""effect_2.png"": ""GB_WeaponAura_water"",
+  ""effect_3.png"": ""GB_WeaponAura_wood"",
+  ""effect_4.png"": ""GB_WeaponAura_light"",
+  ""effect_5.png"": ""GB_WeaponAura_dark"",
+  ""effect_6.png"": ""GB_WeaponAura_normal"",
+  ""effect_11.png"": ""GB_WeaponAura_fire"",
+  ""effect_12.png"": ""GB_WeaponAura_water"",
+  ""effect_13.png"": ""GB_WeaponAura_wood"",
+  ""effect_14.png"": ""GB_WeaponAura_light"",
+  ""effect_15.png"": ""GB_WeaponAura_dark"",
+  ""effect_16.png"": ""GB_WeaponAura_normal""
+}",クラフト画像エフェクト名、背景Spineエフェクト名の対応MAP（JSON）
+CRAFT_VALUE_COLOR,#ffd700,クラフト装備の補正値用カラーコード（通常）
+DEFAULT_CRAFT_ITEM_COUNT_MAX,3,初期クラフト装備最大所持数
+DEFEAT_EVENT_NEXT_COUNT_WAIT_TIME,2,討伐数イベント、次の報酬リセット時の待機時間
+DISCORD_URL,https://discord.gg/FHMHCCeAgY,
+DROP_BOOST_ITEM_ENABLED,0,ドロップブーストアイテムの有効フラグ 0 : 無効、 1 : 有効
+DUNGEON_BGM_INFO,"{
+    ""dungeon_bgm_info"": {
+        ""2078000"": [
+            {
+            ""cue_name"": ""LOSTWORD_MAIN"",
+            ""weight"": 100
+            }
+        ],
+        ""2078300"": [
+            {
+            ""cue_name"": ""LOSTWORD_MAIN"",
+            ""weight"": 100
+            }
+        ]
+    }
+}",特定のダンジョンに入ったときになるBGMの指定
+DUNGEON_DAILY_CHALLENGES,3,超覚醒ダンジョンの一日の挑戦回数
+DUST_ID,9001,生ゴミのID
+ELEMENT_TEXT_COLOR_DARK,#df85fd,ガチャで入手したときにならすBGM名の文字色指定（闇）
+ELEMENT_TEXT_COLOR_EARTH,#a4fd85,ガチャで入手したときにならすBGM名の文字色指定（樹）
+ELEMENT_TEXT_COLOR_FIRE,#fd858d ,ガチャで入手したときにならすBGM名の文字色指定（炎）
+ELEMENT_TEXT_COLOR_LIGHT,#fded85,ガチャで入手したときにならすBGM名の文字色指定（光）
+ELEMENT_TEXT_COLOR_WATER,#9ed6fc,ガチャで入手したときにならすBGM名の文字色指定（水）
+ENDING_2_STAFF_SCROLL_VIEW_TIME,180,2部エンドロールの時間
+EVENTSHOP_PURCHASE_TIME_OUT,交換できる期間が終了しました。,イベントショップ購入時間外ポップアップ
+EVENTSHOP_PURCHASE_VALUE_OVER,これ以上交換できません。,イベントショップ購入数オーバーポップアップ
+EVENT_TIME_OUT,イベントは終了しました。,イベント終了
+EXP_RARE0,100,レア度による強化合成時の加算EXP
+EXP_RARE1,100,レア度による強化合成時の加算EXP
+EXP_RARE2,100,レア度による強化合成時の加算EXP
+EXP_RARE3,100,レア度による強化合成時の加算EXP
+EXP_RARE4,100,レア度による強化合成時の加算EXP
+EXP_RARE5,100,レア度による強化合成時の加算EXP
+EX_BATTLE_CLOSE_TIME,00:00:00,終了時間（HH:ii:ss）
+EX_BATTLE_JOIN_RANK,50,参加可能なユーザーランク
+EX_BATTLE_OPEN,1,1なら開催、0なら非開催
+EX_BATTLE_OPEN_TIME,00:00:00,開始時間（HH:ii:ss）
+FAVORITE_VOTE_MIN_PLAYER_RANK,30,人気投票機能の下限プレイヤーランク設定
+FIRSTMEETING_MAX,100,初顔合わせ報酬取得最大人数
+FIRSTMEETING_PRESENT_VALUE,1,初顔合わせ報酬クリスタル数
+FIRST_SELECT_UNIT_1,100016111,チュートリアルで選択するユニットその1　クライド
+FIRST_SELECT_UNIT_2,100026211,チュートリアルで選択するユニットその2　コルセア
+FIRST_SELECT_UNIT_3,100036311,チュートリアルで選択するユニットその3　アルス
+FOOD_COUNT_LIMIT,9999,料理所持上限
+FOOD_GREATE_SUCCESS_RATE,20,料理大成功確率
+FRIEND_EXTEND_MAX,100,フレンド数上限
+FRIEND_INVITE_IGNORE,0,0 = 表示、それ以外　非表示
+FRIEND_MAGIC_STONE_UP_RATE,20,
+GACHA_BGM,GS608_DANKETU,
+GACHA_CONGRATS,80,初獲得限定英雄が2以上の時におめでとう演出が発生する確率
+GACHA_COROC_0,40,★5ユニットが0の時にコロックが出現する確率
+GACHA_COROC_1,80,★5ユニットが1の時にコロックが出現する確率
+GACHA_COROC_2,100,★5ユニットが2の時にコロックが出現する確率
+GACHA_COROC_3,0,★5ユニットが3以上の時にコロックが出現する確率
+GACHA_DETAIL_LIMIT_Y_INFO,"{
+""10337"":{
+""1"":""350""
+},
+""10375"":{
+""3"":""350""
+},
+""10785"":{
+""5"":""350""
+},
+""10332"":{
+""2"":""350""
+},
+""10340"":{
+""2"":""350""
+},
+""10341"":{
+""2"":""350""
+},
+""10381"":{
+""2"":""350""
+},
+""10383"":{
+""2"":""300""
+},
+""10383"":{
+""5"":""350""
+},
+""10790"":{
+""2"":""350""
+},
+""10791"":{
+""5"":""350""
+},
+""10772"":{
+""2"":""300""
+},
+""10772"":{
+""3"":""300""
+},
+""10772"":{
+""5"":""350""
+},
+""10222"":{
+""3"":""300""
+},
+""10220"":{
+""2"":""350""
+},
+""10800"":{
+""3"":""350""
+},
+""10820"":{
+""2"":""350""
+},
+""10821"":{
+""5"":""350""
+},
+""10830"":{
+""1"":""350"",
+""5"":""350""
+},
+""10836"":{
+""5"":""300""
+},
+""10630"":{
+""5"":""200""
+},
+""10845"":{
+""3"":""350"",
+""5"":""350""
+},
+""10848"":{
+""5"":""300""
+}
+}",
+GACHA_FIRST_MOVIE_RARE_1,20,初獲得限定英雄が1の時に動画前半がレアになる確率
+GACHA_FIRST_MOVIE_RARE_2,30,初獲得限定英雄が2以上の時に動画前半がレアになる確率
+GACHA_MOVIE_DATA,"{""gacha_movie_data"": {
+    ""loop"": [
+        {
+        ""file_name"": ""gacha_loop_normal.usm"",
+        ""cue_name"": ""GACHA_LOOP_NORMAL"",
+        ""index"": ""0""
+        }
+    ],
+    ""start"": [
+        {
+        ""file_name"": ""gacha_start_111.usm"",
+        ""cue_name"": ""GACHA_START_111"",
+        ""index"": ""111""
+        },
+        {
+        ""file_name"": ""gacha_start_112.usm"",
+        ""cue_name"": ""GACHA_START_112"",
+        ""index"": ""112""
+        },
+        {
+        ""file_name"": ""gacha_start_113.usm"",
+        ""cue_name"": ""GACHA_START_113"",
+        ""index"": ""113""
+        },
+        {
+        ""file_name"": ""gacha_start_122.usm"",
+        ""cue_name"": ""GACHA_START_122"",
+        ""index"": ""122""
+        },
+        {
+        ""file_name"": ""gacha_start_123.usm"",
+        ""cue_name"": ""GACHA_START_123"",
+        ""index"": ""123""
+        },
+        {
+        ""file_name"": ""gacha_start_133.usm"",
+        ""cue_name"": ""GACHA_START_133"",
+        ""index"": ""133""
+        },
+        {
+        ""file_name"": ""gacha_start_222.usm"",
+        ""cue_name"": ""GACHA_START_222"",
+        ""index"": ""222""
+        },
+        {
+        ""file_name"": ""gacha_start_223.usm"",
+        ""cue_name"": ""GACHA_START_223"",
+        ""index"": ""223""
+        },
+        {
+        ""file_name"": ""gacha_start_233.usm"",
+        ""cue_name"": ""GACHA_START_233"",
+        ""index"": ""233""
+        },
+        {
+        ""file_name"": ""gacha_start_333.usm"",
+        ""cue_name"": ""GACHA_START_333"",
+        ""index"": ""333""
+        }
+    ],
+    ""first"": [
+        {
+        ""file_name"": ""gacha_first_normal.usm"",
+        ""cue_name"": """",
+        ""voice_cue_name"": """",
+        ""ambience_cue_name"": ""GACHA_AMBIENCE_NORMAL"",
+        ""cross_fade"": ""1"",
+        ""index"": ""0""
+        },
+        {
+        ""file_name"": ""gacha_first_rare.usm"",
+        ""cue_name"": ""GACHA_FIRST_RARE"",
+        ""voice_cue_name"": """",
+        ""ambience_cue_name"": ""GACHA_AMBIENCE_NORMAL"",
+        ""cross_fade"": ""0"",
+        ""index"": ""1""
+        }
+    ],
+    ""second"": [
+        {
+        ""file_name"": ""gacha_second_iris.usm"",
+        ""cue_name"": ""GACHA_SECOND_IRIS"",
+        ""voice_cue_name"": ""GACHA_VOICE_SECOND_IRIS"",
+        ""cross_fade"": ""1"",
+        ""index"": ""0""
+        },
+        {
+        ""file_name"": ""gacha_second_rayas.usm"",
+        ""cue_name"": """",
+        ""voice_cue_name"": """",
+        ""cross_fade"": ""0"",
+        ""index"": ""1""
+        },
+        {
+        ""file_name"": ""gacha_second_mira.usm"",
+        ""cue_name"": """",
+        ""voice_cue_name"": """",
+        ""opening_voice_cue_name"": ""GACHA_VOICE_OPENING_MIRA"",
+        ""cross_fade"": ""0"",
+        ""index"": ""2""
+        },
+        {
+        ""file_name"": ""gacha_second_roy.usm"",
+        ""cue_name"": """",
+        ""voice_cue_name"": """",
+        ""opening_voice_cue_name"": ""GACHA_VOICE_OPENING_ROY"",
+        ""cross_fade"": ""0"",
+        ""index"": ""3""
+        },
+        {
+        ""file_name"": ""gacha_second_fen.usm"",
+        ""cue_name"": """",
+        ""voice_cue_name"": """",
+        ""opening_voice_cue_name"": ""GACHA_VOICE_OPENING_FEN"",
+        ""cross_fade"": ""0"",
+        ""index"": ""4""
+        }
+    ],
+    ""revival"": [
+        {
+        ""file_name"": ""gacha_second_mira_revival.usm"",
+        ""cue_name"": """",
+        ""voice_cue_name"": """",
+        ""cross_fade"": ""0"",
+        ""index"": ""2""
+        },
+        {
+        ""file_name"": ""gacha_second_roy_revival.usm"",
+        ""cue_name"": """",
+        ""voice_cue_name"": """",
+        ""cross_fade"": ""0"",
+        ""index"": ""3""
+        }
+    ]
+    }
+}",ガチャ演出のムービー再生に使用するデータ
+GACHA_MOVIE_REVIVAL_1,50,初獲得限定英雄が1の時に復活ムービーになる確率
+GACHA_MOVIE_REVIVAL_2,50,初獲得限定英雄が2以上の時に復活ムービーになる確率
+GACHA_MOVIE_REVIVAL_ROY_1,20,初獲得限定英雄が1の時に復活ムービーでロイになる確率
+GACHA_MOVIE_REVIVAL_ROY_2,60,初獲得限定英雄が2以上の時に復活ムービーでロイになる確率
+GACHA_OPENING_VOICE_EARLY_1,25,初獲得限定英雄が1の時に開始時ボイスが演出前再生になる確率
+GACHA_OPENING_VOICE_EARLY_2,25,初獲得限定英雄が2以上の時に開始時ボイスが演出前再生になる確率
+GACHA_OPENING_VOICE_FEN_2,60,初獲得限定英雄が2の時に動画後半がフェンで開始時ボイスがありになる確率
+GACHA_OPENING_VOICE_MIRA_1,30,初獲得限定英雄が1の時に動画後半がミラで開始時ボイスがありになる確率
+GACHA_OPENING_VOICE_MIRA_2,40,初獲得限定英雄が2の時に動画後半がミラで開始時ボイスがありになる確率
+GACHA_OPENING_VOICE_ROY_1,50,初獲得限定英雄が1の時に動画後半がロイで開始時ボイスがありになる確率
+GACHA_OPENING_VOICE_ROY_2,50,初獲得限定英雄が2の時に動画後半がロイで開始時ボイスがありになる確率
+GACHA_REFLESH_TTL,3600,ガチャトップを実行する間隔（◯秒）
+GACHA_ROY_1,40,初獲得限定英雄が1の時にキャラクターがロイになる確率
+GACHA_ROY_2,80,初獲得限定英雄が2以上の時にキャラクターがロイになる確率
+GACHA_SECOND_MOVIE_FEN_2,60,初獲得限定英雄が2の時に動画後半がフェンになる確率
+GACHA_SECOND_MOVIE_RAYAS_0,20,初獲得限定英雄が0の時に動画後半がレイアスになる確率
+GACHA_SECOND_MOVIE_RAYAS_1,80,初獲得限定英雄が1の時に動画後半がレイアスになる確率
+GACHA_SECOND_MOVIE_RAYAS_2,90,初獲得限定英雄が2の時に動画後半がレイアスになる確率
+GACHA_SECOND_MOVIE_REVIVAL_RAYAS_1,50,初獲得限定英雄が1の時に復活ムービーで動画後半がレイアスになる確率
+GACHA_SECOND_MOVIE_REVIVAL_RAYAS_2,30,初獲得限定英雄が2以上の時に復活ムービーで動画後半がレイアスになる確率
+GACHA_SECOND_MOVIE_ROY_1,50,初獲得限定英雄が1の時に動画後半がロイになる確率
+GACHA_SECOND_MOVIE_ROY_2,30,初獲得限定英雄が2の時に動画後半がロイになる確率
+GACHA_STANDARD_HERO_SUMMON_ID,10435,常設英雄召喚のガチャID
+GACHA_START_MOVIE_TABLE,"{""gacha_start_movie_table"": {
+    ""A"": {
+        ""112"": ""15"",
+        ""122"": ""20"",
+        ""222"": ""10"",
+        ""123"": ""10"",
+        ""113"": ""10"",
+        ""133"": ""10"",
+        ""223"": ""10"",
+        ""233"": ""5"",
+        ""333"": ""5"",
+        ""111"": ""5""
+    },
+    ""B"": {
+        ""112"": ""10"",
+        ""122"": ""10"",
+        ""222"": ""5"",
+        ""123"": ""10"",
+        ""113"": ""10"",
+        ""133"": ""10"",
+        ""223"": ""10"",
+        ""233"": ""10"",
+        ""333"": ""15"",
+        ""111"": ""10""
+    },
+    ""C"": {
+        ""112"": ""50"",
+        ""122"": ""40"",
+        ""222"": ""10"",
+        ""123"": ""0"",
+        ""113"": ""0"",
+        ""133"": ""0"",
+        ""223"": ""0"",
+        ""233"": ""0"",
+        ""333"": ""0"",
+        ""111"": ""0""
+    },
+    ""D"": {
+        ""112"": ""25"",
+        ""122"": ""40"",
+        ""222"": ""10"",
+        ""123"": ""10"",
+        ""113"": ""5"",
+        ""133"": ""5"",
+        ""223"": ""3"",
+        ""233"": ""2"",
+        ""333"": ""0"",
+        ""111"": ""0""
+    },
+    ""E"": {
+        ""112"": ""20"",
+        ""122"": ""35"",
+        ""222"": ""10"",
+        ""123"": ""10"",
+        ""113"": ""8"",
+        ""133"": ""7"",
+        ""223"": ""5"",
+        ""233"": ""3"",
+        ""333"": ""2"",
+        ""111"": ""0""
+    },
+    ""F"": {
+        ""112"": ""20"",
+        ""122"": ""25"",
+        ""222"": ""10"",
+        ""123"": ""10"",
+        ""113"": ""10"",
+        ""133"": ""10"",
+        ""223"": ""8"",
+        ""233"": ""4"",
+        ""333"": ""3"",
+        ""111"": ""0""
+    }
+    }
+}",ガチャのタッチ後開始ムービーの抽選テーブル
+GACHA_STEP1_0,30,★5ユニットが0の時にステップ1が発生する確率
+GACHA_STEP1_1,60,★5ユニットが1の時にステップ1が発生する確率
+GACHA_STEP1_2,90,★5ユニットが2以上の時にステップ1が発生する確率
+GACHA_STEP2_0,0,★5ユニットが0の時にステップ2が発生する確率
+GACHA_STEP2_1,30,★5ユニットが1の時にステップ2が発生する確率
+GACHA_STEP2_2,60,★5ユニットが2以上の時にステップ2が発生する確率
+GACHA_STEP3_1,30,初獲得★5ユニットが1の時にステップ3が発生する確率
+GACHA_STEP3_2,60,初獲得★5ユニットが2以上の時にステップ3が発生する確率
+GACHA_THUNDER1_0,20,★5ユニットが0の時に雷少なめが発生する確率
+GACHA_THUNDER1_1,50,★5ユニットが1の時に雷少なめが発生する確率
+GACHA_THUNDER1_2,20,★5ユニットが2以上の時に雷少なめが発生する確率
+GACHA_THUNDER2_1,50,★5ユニットが1の時に雷多めが発生する確率
+GACHA_THUNDER2_2,80,★5ユニットが2以上の時に雷多めが発生する確率
+GACHA_TICKET_ENABLED,1,召喚チケットガチャ 1 有効、それ以外無効
+GACHA_TOUCH_1,40,限定英雄が1の時にボタンが虹TOUCHになる確率
+GACHA_TOUCH_2,80,限定英雄が2以上の時にボタンが虹TOUCHになる確率
+GACHA_TOUCH_RAINBOW_1,40,初獲得限定英雄が1の時にボタンが虹TOUCHになる確率
+GACHA_TOUCH_RAINBOW_2,80,初獲得限定英雄が2以上の時にボタンが虹TOUCHになる確率
+GACHA_TOUCH_ROY,100,キャラクターがロイの時にボタンが虹TOUCHになる確率
+GAMEGIFT_URL,http://gamegift.jp/,グラサマ用のゲームギフトURL
+GB_AP_CONSUMPTION_WHEN_MOVING,1,タイル移動時のグランドバトルAP消費量
+GB_AP_RECOVE_TIME,30,グラバトAPの回復時間の分数
+GB_AREA_CAMERA_MOVE_ENABLED,1,GBエリア画面の視界制限の解除フラグ
+GB_BONUS_CHANCE_BGM,GS617_GRANDBATTLE_BONUS_BGM,ユナチャンスBGMcue_name
+GB_BONUS_CHANCE_BGM_FILE_NAME,gs617_grandbattle_bonus_bgm,ユナチャンスBGMcue_sheet_name
+GB_BOSS_EXP_RATE,2,グランドバトルのエリアボスのレガリア経験値倍率
+GB_LWF_PICKING_RESULT_DELAY_TIME,0.7,
+GB_LWF_TREASURE_RESULT_DELAY_TIME,0,
+GB_REGALIA_SHARING_RATE,0.75,グランドバトルのレガリア分配における移す経験値の割合
+GB_SLOT_LINE_0_LIGHT_1_RATE,8,今回揃わない場合のランプ確率(ランダム停止有り)
+GB_SLOT_LINE_0_LIGHT_2_RATE,20,今回揃わない場合のランプ確率(ランダム停止無し)
+GB_SLOT_LINE_0_LIGHT_RED_1_RATE,2,今回揃わない場合の赤ランプ確率(ランダム停止有り)
+GB_SLOT_LINE_0_LIGHT_RED_2_RATE,5,今回揃わない場合の赤ランプ確率(ランダム停止無し)
+GB_SLOT_LINE_0_RANDOM_RATE,20,今回揃わない場合のランダム停止確率
+GB_SLOT_LINE_1_LIGHT_1_RATE,30,今回揃う場合の赤ランプ確率(ランダム停止有り)
+GB_SLOT_LINE_1_LIGHT_2_RATE,25,今回揃う場合の赤ランプ確率(ランダム停止無し)
+GB_SLOT_LINE_1_LIGHT_RAINBOW_1_RATE,10,今回揃う場合の虹ランプ確率(ランダム停止有り)
+GB_SLOT_LINE_1_LIGHT_RAINBOW_2_RATE,5,今回揃う場合の虹ランプ確率(ランダム停止無し)
+GB_SLOT_LINE_1_LIGHT_RED_1_RATE,30,今回揃う場合の赤ランプ確率(ランダム停止有り)
+GB_SLOT_LINE_1_LIGHT_RED_2_RATE,20,今回揃う場合の赤ランプ確率(ランダム停止無し)
+GB_SLOT_LINE_1_RANDOM_RATE,50,今回揃う場合のランダム停止確率
+GB_SLOT_LINE_2_DOUBLE_STOP_RATE,20,今回と次回揃う場合のリール同時停止確率
+GB_SLOT_LINE_2_LIGHT_1_RATE,25,今回と次回揃う場合のランプ確率(ランダム停止有り)
+GB_SLOT_LINE_2_LIGHT_2_RATE,25,今回と次回揃う場合のランプ確率(ランダム停止無し)
+GB_SLOT_LINE_2_LIGHT_RAINBOW_1_RATE,20,今回と次回揃う場合の虹ランプ確率(ランダム停止有り)
+GB_SLOT_LINE_2_LIGHT_RAINBOW_2_RATE,20,今回と次回揃う場合の虹ランプ確率(ランダム停止無し)
+GB_SLOT_LINE_2_LIGHT_RED_1_RATE,40,今回と次回揃う場合の赤ランプ確率(ランダム停止有り)
+GB_SLOT_LINE_2_LIGHT_RED_2_RATE,40,今回と次回揃う場合の赤ランプ確率(ランダム停止無し)
+GB_SLOT_LINE_2_RANDOM_RATE,50,今回と次回揃う場合のランダム停止確率
+GB_SLOT_LINE_2_TENPAI_RATE,30,今回と次回揃う場合のテンパイ音変更確率
+GB_SLOT_REPLAY_0_CUTIN_RATE,10,リプレイ発生しない場合のカットイン発生確率
+GB_SLOT_REPLAY_1_CUTIN_1_RATE,30,リプレイ1回のカットイン発生確率(虹ボタン有り)
+GB_SLOT_REPLAY_1_CUTIN_2_RATE,50,リプレイ1回のカットイン発生確率(虹ボタン無し)
+GB_SLOT_REPLAY_1_RAINBOW_RATE,20,リプレイ1回の虹ボタンになる確率
+GB_SLOT_REPLAY_1_VOICE_RATE,10,リプレイ1回のボイス発生確率
+GB_SLOT_REPLAY_2_CLEA_RATE,20,リプレイ2回の背景キャラがクレアになる確率
+GB_SLOT_REPLAY_2_CUTIN_1_RATE,40,リプレイ2回のカットイン発生確率(虹ボタン有り)
+GB_SLOT_REPLAY_2_CUTIN_2_RATE,35,リプレイ2回のカットイン発生確率(虹ボタン無し)
+GB_SLOT_REPLAY_2_CUTIN_YUNA_RATE,50,リプレイ2回のカットインがユナになる確率
+GB_SLOT_REPLAY_2_RAINBOW_RATE,60,リプレイ2回の虹ボタンになる確率
+GB_SLOT_REPLAY_2_VOICE_RATE,50,リプレイ2回のボイス再生確率
+GB_SLOT_REPLAY_3_CLEA_RATE,20,リプレイ3回以上の背景キャラがクレアになる確率
+GB_SLOT_REPLAY_3_CUTIN_1_RATE,50,リプレイ3回以上のカットイン発生確率(虹ボタン有り)
+GB_SLOT_REPLAY_3_CUTIN_2_RATE,35,リプレイ3回以上のカットイン発生確率(虹ボタン無し)
+GB_SLOT_REPLAY_3_CUTIN_YUNA_RATE,50,リプレイ3回以上のカットインがユナになる確率
+GB_SLOT_REPLAY_3_RAINBOW_RATE,60,リプレイ3回以上の虹ボタンになる確率
+GB_SLOT_REPLAY_3_SCHOOL_CLEA_1_RATE,10,リプレイ3回以上のクレア群が発生する確率(虹ボタン有り)
+GB_SLOT_REPLAY_3_SCHOOL_CLEA_2_RATE,15,リプレイ3回以上のクレア群が発生する確率(虹ボタン無し)
+GB_SLOT_REPLAY_3_VOICE_RATE,90,リプレイ3回のボイス再生確率(カットイン有り)
+GB_TOP_BGM,GS616_GRANDBATTLE_TOP_BGM,グラバトTOPBGMcue_name
+GB_TOP_BGM_FILE_NAME,gs616_grandbattle_top_bgm,グラバトTOPBGMcue_sheet_name
+GB_TUTORIAL_AP_FREE_MOVE_COUNT,60,チュートリアルステージでAP消費が0になるまでの移動回数 
+GB_TUTORIAL_END_INFO,"{""gb_world_id"": 1, ""floor_num"": 2}",GBチュートリアル終了を判断するためのワールドIDと階層
+GB_TUTORIAL_END_PROGRESS,127,GBチュートリアル進行タイプ（GBチュートリアル終了状態であることを示すタイプ値）
+GB_TUTORIAL_STAMINA_FREE_BATTLE_COUNT,30,チュートリアルステージでユニットスタミナ消費が0になるまでのバトル回数
+GLOBAL_BOTTOM_GACHA_IMAGE_INFO,"{
+""gachaButton_info"":{
+""normal_name"":""summon/common/common_footer_button_summon_on_gachi.png"",
+""pressed_name"":""summon/common/common_footer_button_summon_off_gachi.png"",
+""start_time"" : ""2026-09-18 15:00:00"",
+""end_time"" : ""2026-10-14 23:59:59""
+}
+}",
+GOOGLEPLAY_URL,https://play.google.com/store/apps/details?id=jp.goodsmile.grandsummoners_android,GooglePlayのURL
+GPS_ON,0,GPSチェックフラグ 0:ON 1:OFF
+GRAND_BATTLE_OPEN,20,グランドバトル入場許可
+GRAPASS_FLAG,1,0:OFF　1:ON
+GRAPASS_WARNING_DIALOG_DISPLAY_PERIOD,3,グラパス購入ダイアログ表示期間
+HELPANIME,NO,すべてのヘルプボタンのアニメを有効にします。
+HELPDENY,NO,すべてのヘルプボタンを利かなく(非表示に)します。
+HELP_ExtraQuestSelect_990000_1000200,"610,260,web/help/ExtraQuestSelect_990000_1000200.html",HELP_ExtraQuestSelect_990000_1000200
+HELP_ExtraQuestSelect_990000_1000300,"610,260,web/help/ExtraQuestSelect_990000_1000300.html",HELP_ExtraQuestSelect_990000_1000300
+HELP_ExtraQuestSelect_990000_2000200,"610,260,web/help/ExtraQuestSelect_990000_2000200.html",HELP_ExtraQuestSelect_990000_2000200
+HELP_ExtraQuestSelect_990000_498,"610,260,web/help/ExtraQuestSelect_990000_498.html",HELP_ExtraQuestSelect_990000_498
+HELP_ExtraQuestSelect_990000_499,"610,260,web/help/ExtraQuestSelect_990000_499.html",HELP_ExtraQuestSelect_990000_499
+HELP_ExtraQuestSelect_990000_500,"610,260,web/help/ExtraQuestSelect_990000_500.html",HELP_ExtraQuestSelect_990000_500
+HELP_ExtraQuestSelect_990000_501,"610,260,web/help/ExtraQuestSelect_990000_501.html",HELP_ExtraQuestSelect_990000_501
+HELP_ExtraQuestSelect_990000_6010,"610,260,web/help/ExtraQuestSelect_990000_6010.html",HELP_ExtraQuestSelect_990000_6010
+HELP_ExtraQuestSelect_990000_6020,"610,260,web/help/ExtraQuestSelect_990000_6020.html",HELP_ExtraQuestSelect_990000_6020
+HELP_ExtraQuestSelect_990000_6030,"610,260,web/help/ExtraQuestSelect_990000_6030.html",HELP_ExtraQuestSelect_990000_6030
+HELP_ExtraQuestSelect_990000_990100,"610,260,web/help/ExtraQuestSelect_990000_990100.html",HELP_ExtraQuestSelect_990000_990100
+HELP_ExtraQuestSelect_990000_990200,"610,260,web/help/ExtraQuestSelect_990000_990200.html",HELP_ExtraQuestSelect_990000_990200
+HELP_ExtraQuestSelect_990000_990300,"610,260,web/help/ExtraQuestSelect_990000_990300.html",HELP_ExtraQuestSelect_990000_990300
+HELP_ExtraQuestSelect_990000_990400,"610,260,web/help/ExtraQuestSelect_990000_990400.html",HELP_ExtraQuestSelect_990000_990400
+HELP_ExtraQuestSelect_990000_990500,"610,260,web/help/ExtraQuestSelect_990000_990500.html",HELP_ExtraQuestSelect_990000_990500
+HELP_ExtraQuestSelect_990000_990600,"610,260,web/help/ExtraQuestSelect_990000_990600.html",HELP_ExtraQuestSelect_990000_990600
+HELP_ExtraQuestSelect_990000_990700,"610,260,web/help/ExtraQuestSelect_990000_990700.html",HELP_ExtraQuestSelect_990000_990700
+HELP_ExtraQuestSelect_990000_990800,"610,260,web/help/ExtraQuestSelect_990000_990800.html",HELP_ExtraQuestSelect_990000_990800
+HELP_ExtraQuestSelect_990000_990900,"610,260,web/help/ExtraQuestSelect_990000_990900.html",HELP_ExtraQuestSelect_990000_990900
+HELP_ExtraQuestSelect_990000_991000,"610,260,web/help/ExtraQuestSelect_990000_991000.html",HELP_ExtraQuestSelect_990000_991000
+HELP_ExtraQuestSelect_990000_991100,"610,260,web/help/ExtraQuestSelect_990000_991100.html",HELP_ExtraQuestSelect_990000_991100
+HELP_ExtraQuestSelect_990000_991200,"610,260,web/help/ExtraQuestSelect_990000_991200.html",HELP_ExtraQuestSelect_990000_991200
+HELP_ExtraQuestSelect_990000_991300,"610,260,web/help/ExtraQuestSelect_990000_991300.html",HELP_ExtraQuestSelect_990000_991300
+HELP_ExtraQuestSelect_990000_991400,"610,260,web/help/ExtraQuestSelect_990000_991400.html",HELP_ExtraQuestSelect_990000_991400
+HELP_ExtraQuestSelect_990000_991500,"610,260,web/help/ExtraQuestSelect_990000_991500.html",HELP_ExtraQuestSelect_990000_991500
+HELP_ExtraQuestSelect_990000_993000,"610,260,web/help/ExtraQuestSelect_990000_993000.html",HELP_ExtraQuestSelect_990000_993000
+HELP_ExtraQuestSelect_990000_993100,"610,260,web/help/ExtraQuestSelect_990000_993100.html",HELP_ExtraQuestSelect_990000_993100
+HELP_ExtraQuestSelect_990000_993200,"610,260,web/help/ExtraQuestSelect_990000_993200.html",HELP_ExtraQuestSelect_990000_993200
+HELP_ExtraQuestSelect_990000_993300,"610,260,web/help/ExtraQuestSelect_990000_993300.html",HELP_ExtraQuestSelect_990000_993300
+HELP_MultiLobby,"620,160,web/help/MultiLobby.html",HELP_MultiLobby
+HELP_QuestQuestSelect_10000_10100,"610,260,web/help/QuestQuestSelect_10000_10100.html",HELP_QuestQuestSelect_10000_10100
+HELP_QuestQuestSelect_10000_10200,"610,260,web/help/QuestQuestSelect_10000_10200.html",HELP_QuestQuestSelect_10000_10200
+HELP_QuestQuestSelect_10000_10300,"610,260,web/help/QuestQuestSelect_10000_10300.html",HELP_QuestQuestSelect_10000_10300
+HELP_QuestQuestSelect_10000_10400,"610,260,web/help/QuestQuestSelect_10000_10400.html",HELP_QuestQuestSelect_10000_10400
+HELP_QuestQuestSelect_10000_10500,"610,260,web/help/QuestQuestSelect_10000_10500.html",HELP_QuestQuestSelect_10000_10500
+HELP_QuestQuestSelect_10000_10600,"610,260,web/help/QuestQuestSelect_10000_10600.html",HELP_QuestQuestSelect_10000_10600
+HELP_QuestQuestSelect_10000_10700,"610,260,web/help/QuestQuestSelect_10000_10700.html",HELP_QuestQuestSelect_10000_10700
+HELP_QuestQuestSelect_20000_20100,"610,260,web/help/QuestQuestSelect_20000_20100.html",HELP_QuestQuestSelect_20000_20100
+HELP_QuestQuestSelect_20000_20200,"610,260,web/help/QuestQuestSelect_20000_20200.html",HELP_QuestQuestSelect_20000_20200
+HELP_QuestQuestSelect_20000_20300,"610,260,web/help/QuestQuestSelect_20000_20300.html",HELP_QuestQuestSelect_20000_20300
+HELP_QuestQuestSelect_20000_20400,"610,260,web/help/QuestQuestSelect_20000_20400.html",HELP_QuestQuestSelect_20000_20400
+HELP_QuestQuestSelect_20000_20500,"610,260,web/help/QuestQuestSelect_20000_20500.html",HELP_QuestQuestSelect_20000_20500
+HELP_QuestQuestSelect_20000_20600,"610,260,web/help/QuestQuestSelect_20000_20600.html",HELP_QuestQuestSelect_20000_20600
+HELP_QuestQuestSelect_30000_30100,"610,260,web/help/QuestQuestSelect_30000_30100.html",HELP_QuestQuestSelect_30000_30100
+HELP_QuestQuestSelect_30000_30200,"610,260,web/help/QuestQuestSelect_30000_30200.html",HELP_QuestQuestSelect_30000_30200
+HELP_QuestQuestSelect_30000_30300,"610,260,web/help/QuestQuestSelect_30000_30300.html",HELP_QuestQuestSelect_30000_30300
+HELP_QuestQuestSelect_30000_30400,"610,260,web/help/QuestQuestSelect_30000_30400.html",HELP_QuestQuestSelect_30000_30400
+HELP_QuestQuestSelect_30000_30500,"610,260,web/help/QuestQuestSelect_30000_30500.html",HELP_QuestQuestSelect_30000_30500
+HELP_QuestQuestSelect_30000_30600,"610,260,web/help/QuestQuestSelect_30000_30600.html",HELP_QuestQuestSelect_30000_30600
+HELP_QuestQuestSelect_30000_30700,"610,260,web/help/QuestQuestSelect_30000_30700.html",HELP_QuestQuestSelect_30000_30700
+HELP_QuestQuestSelect_40000_40100,"610,260,web/help/QuestQuestSelect_40000_40100.html",HELP_QuestQuestSelect_40000_40100
+HELP_QuestQuestSelect_40000_40200,"610,260,web/help/QuestQuestSelect_40000_40200.html",HELP_QuestQuestSelect_40000_40200
+HELP_QuestQuestSelect_40000_40300,"610,260,web/help/QuestQuestSelect_40000_40300.html",HELP_QuestQuestSelect_40000_40300
+HELP_QuestQuestSelect_40000_40400,"610,260,web/help/QuestQuestSelect_40000_40400.html",HELP_QuestQuestSelect_40000_40400
+HELP_QuestQuestSelect_40000_40500,"610,260,web/help/QuestQuestSelect_40000_40500.html",HELP_QuestQuestSelect_40000_40500
+HELP_QuestQuestSelect_40000_40600,"610,260,web/help/QuestQuestSelect_40000_40600.html",HELP_QuestQuestSelect_40000_40600
+HELP_QuestQuestSelect_50000_50100,"610,260,web/help/QuestQuestSelect_50000_50100.html",HELP_QuestQuestSelect_50000_50100
+HELP_QuestQuestSelect_50000_50200,"610,260,web/help/QuestQuestSelect_50000_50200.html",HELP_QuestQuestSelect_50000_50200
+HELP_QuestQuestSelect_50000_50300,"610,260,web/help/QuestQuestSelect_50000_50300.html",HELP_QuestQuestSelect_50000_50300
+HELP_QuestQuestSelect_50000_50400,"610,260,web/help/QuestQuestSelect_50000_50400.html",HELP_QuestQuestSelect_50000_50400
+HELP_QuestQuestSelect_50000_50500,"610,260,web/help/QuestQuestSelect_50000_50500.html",HELP_QuestQuestSelect_50000_50500
+HELP_QuestQuestSelect_50000_50600,"610,260,web/help/QuestQuestSelect_50000_50600.html",HELP_QuestQuestSelect_50000_50600
+HELP_QuestQuestSelect_50000_50700,"610,260,web/help/QuestQuestSelect_50000_50700.html",HELP_QuestQuestSelect_50000_50700
+HIGH_MAGICSTONE_VIEW_UPPER_LIMIT,9999,ピュアクォーツの表示上限
+HOME_INFORMATION_LINK_BUTTON_INFO,"{
+  ""buttons"": [
+    {
+      ""id"": 1,
+      ""start_time"": ""2026-10-30 15:00:00"",
+      ""end_time"": ""2026-11-21 23:59:59"",
+      ""image_name"": ""home_button_event_10th_00.png"",
+      ""url"": ""info/20261030_3_tlo7rc3xhzkq/index.html"",
+      ""x"": 73,
+      ""y"": 638
+    }
+  ]
+}",HOMEのお知らせ直リンクボタン設定
+HOME_LINK_BUTTON_ENABLED,1,ホームのリンクボタンの表示/非表示 0:非表示 1:表示
+HOME_LINK_BUTTON_URL,https://altema.jp/grandsummoners/,ホームのリンクボタンの遷移先のURL
+IDLE_GAME_CURRENT_MAP_SELECT,15,放置ゲームで進行中の章が選ばれる確率
+IDLE_GAME_DAMAGE_MAX,200,放置バトル最大ダメージ
+IDLE_GAME_DAMAGE_MIN,100,放置バトル最低ダメージ
+IDLE_GAME_ENEMY_ATTACK_DELAY,3,放置バトルエネミーAS
+IDLE_GAME_ENEMY_HP,1000,放置ゲームのエネミーHP
+IDLE_GAME_NOT_ACTIVE_QUEST_SELECT,30,放置ゲームで進行中じゃないクエストが選ばれる確率
+IDLE_GAME_PLAYER_ATTACK_DELAY,2,放置バトルユニットAS
+IG_BUTTON_ANIMA_1,00:05:00,０分以上５分未満
+IG_BUTTON_ANIMA_2,00:30:00,５分以上３０分未満
+IG_BUTTON_ANIMA_3,01:00:00,３０分以上１時間未満
+IG_BUTTON_ANIMA_4,04:00:00,１時間以上４時間未満
+IG_CYCLE_RESPONSE_SECONDS,30,放置コンテンツ・周期通信間隔(秒)
+IG_GROW_ITEM_SHORTENING_LIMIT,1,放置装備強化の1日での時間短縮上限回数
+IG_GROW_UNIT_SHORTENING_LIMIT,1,放置ユニット強化の1日での時間短縮上限回数
+IG_LIMIT_ENHANCE_SHORT_COUNT,1,錬金石の１日の短縮上限回数（ユニット、装備で設定は共通（各１回））
+IG_REWARD_GET_INTERBAL_SECOND,300,放置コンテンツの報酬受取ボタン押下可能インターバル（秒）
+INACTIVITY_MAX_TIME,10,マルチの部屋で一定時間放置した場合通信が切れる(分単位での設定。デフォルトは１０分)
+INIT_EQUIPPMENT_UNIT_ID,101012411,チュートリアル時に自動装備させるユニットid
+INIT_OPEN_DUNGEON_ID,10100,ユーザーの初期解放ダンジョンID
+INIT_OPEN_MAP_ID,10000,ユーザーの初期解放マップID
+INIT_OPEN_QUEST_ID,10101,ユーザーの初期解放クエストID
+INIT_UNIT_EQUIPPMENT_ID1,100181300,チュートリアル時に自動装備される装備id1
+INIT_UNIT_EQUIPPMENT_ID3,100014105,チュートリアル時に自動装備される装備id2
+INVITE_STORE_URL,https://pr.grandsummoners.com/invite/index.html,iOSとAndroid共通のストア招待URL
+IS_IP_CHECK,1,IP別ユーザー作成制限
+IS_NICOCHO,0,1の場合イベントモード用に切り替わる
+ITEM_BULKLIMITBREAK_ITEM_USAGE_LIMIT,100,超神具の素材にできる装備の上限
+ITEM_BULKLIMITBREAK_MATERIAL_USAGE_LIMIT,1000,超神具の素材にできる精錬石の上限
+ITEM_BULKLIMITBREAK_USAGE_LIMIT,1000,超神具の素材にできる装備と精錬石の数の上限
+ITEM_BULKLIMITBREAK_VIEW_KEEP_NUM_LIMIT,99999,所持素材の表示数上限
+ITEM_EXTEND_MAX,3000,装備枠増加上限
+ITEM_LIMITBREAK_COIN_BASE,1000,アイテム限界突破必要コイン
+ITEM_LIMITBREAK_EXP,1,アイテム限界突破経験値
+ITEM_LIMITBREAK_MAX_LEVEL,5,アイテム限界突破のMAXレベル
+ITEM_LIMITBREAK_STONE_EXP,1,アイテム限界突破石経験値
+ITEM_SALE_MAX_COUNT,50,装備一括最大売却数
+KEY_COUNT_LIMIT,9999,鍵の所持上限
+LIMITBREAK_ITEM_BASE_PRIORITY,19000,限凸関係アイテムソート時のプライオリティ基準値
+LIMITED_MISSION_ENABLED,1,限定ミッションのon/off 1:on 1以外:off
+LOBI_ANDROID_APPLICATION_URI,lobi://game_community?gameId=grand_summoners,LobiのアプリベースのURI(Android)
+LOBI_ANDROID_BROWSER_URI,https://web.lobi.co/special/community-lp/grand_summoners,LobiのブラウザベースのURI(Android)
+LOBI_IOS_APPLICATION_URI,lobi://game_community?gameId=grand_summoners,LobiのアプリベースのURI(iOS)
+LOBI_IOS_BROWSER_URI,https://web.lobi.co/special/community-lp/grand_summoners,LobiのブラウザベースのURI(iOS)
+LOBI_IOS_PASTEBOARD_URI,co.lobi.pasteboard.urlscheme,LobiのペーストボードURI(iOS)
+LOBI_URL,https://web.lobi.co/,グラサマ用のLOBI URL
+LOGIN_BONUS_ADD_TEXT_EVENT_ITEM,「街」>「錬金屋」>「交換」で交換可能,ログインボーナスでイベントアイテム送る時の追加文言
+LOSE_MBP_BASE,62,敗北した時の獲得MBPベース([ATAN((r2 - r1) × A) × 2B/π + C]のC)
+LOSE_MBP_FORMULA_FLOAT,0.01,敗北した時の獲得MBPの計算式で使われる値([ATAN((r2 - r1) × A) × 2B/π + C]のA)
+LOSE_MBP_LIMIT,37,敗北した時の獲得MBPの上限と下限を決定する値([ATAN((r2 - r1) × A) × 2B/π + C]のB)
+LOSE_ORB_EQUAL_RANK_USER,-1,アリーナ中級で同格の相手に敗北した時の増加オーブ数
+LOSE_ORB_MEDIUM,-1,アリーナ中級で敗北した時の増加オーブ数
+LOSE_ORB_SENIOR,-1,アリーナ上級で格上の相手に敗北した時の減少オーブ数
+LOSE_ORB_UNDER_50_RANKING_USER,-3,アリーナ上級で下51位以下の相手に敗北した時の減少オーブ数
+LOSE_ORB_UNDER_50_WITHIN_RANKING_USER,-2,アリーナ上級で下50位以内の相手に敗北した時の減少オーブ数
+LOSE_ORB_UNDER_RANK_USER,-2,アリーナ中級で格下の相手に敗北した時の減少オーブ数
+lplayer_rank_max,10,??
+LUA_LOADER_IS_REQUIRED,1,cocos2dx_lua_loaderを使うかどうか
+lunit_fortune_exp_max,100,user unit fortune
+lunit_fortune_level_max,100,user unit fortune lvl
+MATERIAL_COUNT_LIMIT,99999,素材所持数上限
+MENU_WEBVIEW_AGREEMENT_PATH,webview/agreement?type=term,メニュー用利用規約URL
+MENU_WEBVIEW_COMMERCIAL_PATH,webview/sct,メニュー用特商法
+MENU_WEBVIEW_POLICY_PATH,webview/agreement?type=privacy-policy,メニュー用プライバシーポリシー
+MENU_WEBVIEW_SETTLEMENT_PATH,webview/funds-settlement,Webview資金決済法（メニュー用）
+MESSAGE_BOX_CONTENT_RAID_DESTROY_REWARD,"レイド討伐数報酬
+{num}体撃破達成報酬","レイドの討伐数による報酬で送られるプレゼント本文
+{num}で討伐数を文字列に組み込める
+{item_name}で商品名
+{item_num}で商品個数"
+MESSAGE_BOX_CONTENT_TWITTER_FOLLOW,クリスタル1個,アンケート用プレゼントBOX内容
+MESSAGE_BOX_TITLE_RAID_DESTROY_REWARD,{item_name}×{item_num},"レイドの討伐数による報酬で送られるプレゼントタイトル
+{num}で討伐数を文字列に組み込める
+{item_name}で商品名
+{item_num}で商品個数"
+MESSAGE_BOX_TITLE_TWITTER_FOLLOW,アンケートのお礼です,アンケート用プレゼントBOXタイトル
+MINE_AUTO_PROGRESS_FLOOR,21,一度でもこの階に到達すれば鉱山自動進行を表示する
+MINE_AUTO_PROGRESS_WAIT_TIME,5,鉱山自動進行のドロップ画面表示時間
+MINE_OPEN,1,鉱山関係（助っ人と、街からの鉱山）の表示有無
+MINE_TITLE_BGM,GS509_KOUZAN_TITLE,鉱山のBGM
+MINIGAME_FIRST_HELP_DELAY_TIME,0.5,
+NATIVE_INFORMATION_WINDOW_IS_ENABLED,1,ネイティブお知らせ有効化
+NATIVE_INFORMATION_WINDOW_SUB_BUTTON_JSON,"{
+    ""buttons"": [
+        {
+            ""normal_texture"": """",
+            ""pressed_texture"": """",
+            ""x"": 200,
+            ""y"": 0,
+            ""text"": ""公式情報"",
+            ""font_size"": 24,
+            ""type"": 1,
+            ""url"": ""official_info.html""
+        },
+        {
+            ""normal_texture"": ""info_button_mirrativ.png"",
+            ""pressed_texture"": ""info_button_mirrativ_pressed.png"",
+            ""x"": -200,
+            ""y"": 0,
+            ""text"": """",
+            ""font_size"": 24,
+            ""type"": 1,
+            ""url"": ""info/20180403_2/index.html""
+        }
+    ]
+}",ネイティブお知らせのサブボタン
+NOT_COVERED_FOOD_IDS,"{""food_id_list"": [1065]}",料理の「ホストに合わせる」の際に例外の料理
+NOT_UNLOCK_DUNGEON_MINUTE,10,ダンジョンが解放できない時間（◯分前）
+PARTY_EXTEND_MAX,5,パーティデッキ数上限
+PARTY_PRESETS_PRESS_TIME_RATE,0.12,プリセット入れ替えが始まるまでの長押し時間
+PAYMENT_RANDOM_STRING_LIMIT,64,課金ランダム文字列の文字数
+PLAYER_RANK_MAX,5000,
+PLAYING_TOKEN_LOG_SAVE_PATTERN,2,新不正検知詳細ログ記録設定
+PLUSUNIT_POWERUP_SUCCESS_BUFF,2,タスモン系を強化に使って大成功した時に上昇するプラス値ボーナス
+PRESENT_ADD_TEXT_GACHA_TICKET,「召喚」で使用可能,プレボに★5召喚チケットが付与される際に追加する文言
+PROTAGONIST_CARD_EASE_RATE ,2,スライドインの EaseOut 係数
+PROTAGONIST_CARD_IN_TIME,0.3,スライドイン＆フェードイン時間（秒）
+PROTAGONIST_CARD_OUT_TIME,0.3,タイプ変更時のフェードアウト時間（秒）
+PROTAGONIST_CARD_POS_X,265,画面中央からの横オフセット（px、+で右）
+PROTAGONIST_CARD_POS_Y,55,画面中央からの縦オフセット（px、+で上）
+PROTAGONIST_CARD_SLIDE_X,150,右からのスライドイン開始オフセット（px）
+PURCHASED_INFO_PAGE_LIMIT,10,課金購入履歴1ページ毎の表示件数 
+PURCHASE_STOP_ANDROID,0,課金の停止設定（android）
+PURCHASE_STOP_IOS,0,課金の停止設定（ios）
+PURCHASE_UNDER_16,5000,16歳未満の課金額上限
+PURCHASE_UNDER_20,20000,20歳未満の課金額上限
+QRCODE_BASE_URL,https://3232.onelink.me/OfLC/ft1tkizi,QRコード用URL
+QUEST_REPLAY_MULTI_FLAG,1,マルチプレイ時　再出撃ボタンフラグ　0:オフ　1:オン
+QUEST_REPLAY_SINGLE_FLAG,1,シングルプレイ時　再出撃ボタンフラグ　0:オフ　1:オン
+RAID_FIRST_BONUS_HP_PERCENT,30,早期参加ボーナス　しきい値　HP◯%以上
+RAID_FRIEND_HELP_SEND_MAX_NUM,50,救援依頼　送信人数
+RAID_HELP_CONTENT_TEXT,{}さんから救援依頼が来ています！,救援受け取った時のpush通知の内容({}が送信者のニックネーム)
+RAID_HELP_REVIEVE_IGNORE_TIME,10,救援依頼条件B　救援要請を受けてからB分以降
+RAID_HELP_REVIEVE_LOGIN_INTERVAL_TIME,180,救援依頼条件A　前回ログインからA分以内のユーザー
+RAID_HELP_SEND_ENABLE_TIME,10,救援依頼送信可能間隔(デフォ10(分))
+RAID_HELP_TITLE_TEXT,レイドの救援依頼が来ています！,救援受け取った時のpush通知のタイトル
+RAID_OPEN,20,レイドへの入場許可
+RAID_ORB_RECOVE_TIME,30,レイドオーブ回復時間（分）
+RAID_OTHER_HELP_SEND_MAX_NUM,50,救援依頼　送信人数（フレンド送信）
+RAID_RANKING_VIEW_LIMIT,100,レイドランキング表示上限設定
+RAID_VIEW_POINT_MAX,8999999999999990,レイドの表示最大ポイント
+RAITICKET_ABAILABLE_RANK,20,レイドのチケット購入可能ランク value値以上
+RANKDOWN_ORB,6,アリーナ上級から降格した時のオーブ数
+RANKDOWN_RANK,10,アリーナ上級から降格した時のランク数
+RANKUP,クラス昇格報酬,ランク昇格時に送られるプレゼントのタイトル
+RANKUP_BADGE_MEDIUM,1,ファイターズバッジの初期値
+RUNE_ENABLE,1,ルーン機能(ダンジョン遷移、ユニットのルーンアイコンなど）を有効にするフラグ、1で有効、それ以外無効
+RUNE_EVO_NUMERATOR,1,紋章進化確率の分子
+RUNE_QUEST_LEVEL_LIMIT,20,ルーンクエストへ遷移できるようになるレベル
+SCENARIO_AUTO_SPEED_MAX_WAIT_TIME,2,シナリオオート再生設定の最大ウェイト時間
+SCENARIO_AUTO_WAIT_TIME,1,シナリオのオート時のテキスト送りまでの待ち時間設定
+SCENARIO_DUNGEON_OPEN_QUEST_ID,50705,外伝クエスト解放タイミング（クリア対象クエスト）
+SCENARIO_TEXT_SPEED_MAX_RATE,2.5,シナリオテキスト速度のデフォルトの速さに掛ける最大倍率
+SCENARIO_VOICE_BUS_SEND_LEVEL_DEFAULT_VALUE,0.5,バスセンドレベルのデフォルト値
+SENIOR_PLAYER,9999999,マスターズの定員数
+SHARPEN_MAX_EXEC_STOCK_NUM,99,"精錬のストック上限数設定
+例　一回に必要な経験値100
+ストック50
+
+経験値は5000まで貯められる"
+SHARPEN_OPEN,1,精錬有効マスタ、1で有効、それ以外は無効
+SHOP_BOX_EXTEND_TICKET_RATE_NORMAL,100,討伐チケットの一度の交換上限
+SHOP_BOX_EXTEND_TICKET_RATE_RARE,100,レア討伐チケットの一度の交換上限
+SHOP_BOX_EXTEND_TICKET_RATE_SUPER_RARE,100,激レア討伐チケットの一度の交換上限
+SHOP_COMMONCEILING_EVENTITEM_ID,6000001,共通天井のイベントアイテムマスタID
+SHOP_COMMONCEILING_EVENT_ID,60000,共通天井のイベントマスタID
+SHOP_CUSTOM_PACK_IGNORE,0,初心者パック　0の時表示、それ以外の時非表示
+SHOP_EXTERNAL_BILLING_BANNER_ENABLE,1,ショップにAppPay誘導のバナーを出すかどうか(=1なら表示)
+SHOP_EXTERNAL_BILLING_URL,https://grandsummoners.com/,AppPay誘導のバナーの遷移先
+SHOW_COMIC_FORMULA1,(-10 * math.atan(0.1 * x) * 2 / math.pi) + 11,グラサマ劇場表示計算式(その日初めて)
+SHOW_COMIC_FORMULA2,(-300 * math.atan(0.2 * x) * 2 / math.pi) + 315,グラサマ劇場表示計算式(その日2回目以降)
+SOUND_PLAYER_SCENARIO_VOICE_KEYWORDS,"{""keyword_list"": [""MNST""]}",サウンドプレイヤー内でシナリオボイスに振り分けられるキューシートファイルの接頭定義
+SPECIALIZE_CRAFT_UNIT_FORTUNE_LV,50,スペシャライズ・クラフト「ユニットの運レベル条件」
+SPECIALIZE_CRAFT_UNIT_LIMIT_BREAK_LV,6,スペシャライズ・クラフト「ユニットの限界突破値条件」
+SPECIAL_FIRSTMEETING_MAX,10,初顔合わせ○人以内
+SPECIAL_FIRSTMEETING_PRESENT_VALUE,5,初顔合わせ○人以内報酬クリスタル数
+STAMINA_RECOVE_TIME,3,スタミナ回復時間の分数
+STATE_AILMENT_EFFECT_MAP,"{""53"": 102, ""54"": 103, ""55"": 104, ""56"": 105, ""57"": 106, ""58"": 107, ""59"": 108, ""60"": 109}",状態異常の効果タイプの関連性（「耐性：回避率」の形式とする）
+STONE_COUNT_LIMIT,9999,ダイヤ所持数上限
+SUGOROKU_CHARA_SPINE,sugoroku_ru,すごろくに使用するキャラspineファイル名
+SUPPORTER_COOL_DOWN_TIME,20,鉱山で一度連れて行ったユーザーの再度使用可能になるまでのクールタイム
+SUPPORTER_FRIEND_VIEW_MAX,40,フレンドの助っ人取得最大人数
+SUPPORTER_LIST_UPDATE_TIME,30,鉱山で同じ助っ人を表示する時間
+SUPPORTER_LOGIN_DAY,30,助っ人取得する際の日数
+SUPPORTER_MAGIC_STONE_UP_RATE,10,助っ人がフレンドでない時の魔法石アップ率(%)
+SUPPORTER_VIEW_MAX,50,助っ人一覧で表示する数
+SUPPORT_LINK_ON,1,サポートメニュー　1の時表示、それ以外の時非表示
+SWITCH_DO_RATE_LIMIT_RULES,"[{""interval_minutes"":5,""max_hits"":6,""block_minutes"":5}]",SWITCH_DOの同一IPの制限ルール設定
+TITLE_CALL_SETTING,"{
+    ""events"" :
+    [
+        {
+            ""cue_name"" : ""halloween2026"",
+            ""start_time"" : ""2026-10-30 15:00:00"",
+            ""end_time"" : ""2026-11-06 14:59:59""
+        }
+    ]
+}",
+TITLE_LWF_SETTING,"{
+    ""events"" :
+    [
+       {
+            ""lwf_path"" : ""lwf/title_event_juno_20261030/title_event_juno_20261030.lwf"",
+            ""lua_path"" : ""lwf/title_event_juno_20261030/title_event_juno_20261030.lua"",
+            ""skip_pass"" : ""bbxx"",
+            ""tap_image_path"" : """",
+            ""tap_image_posX"" : 0,
+            ""tap_image_posY"" : 0,
+            ""start_time"" : ""2026-10-30 15:00:00"",
+            ""end_time"" : ""2026-11-06 14:59:59""
+        }
+   ],
+    ""default"" :
+    {
+        ""lwf_path"" : ""lwf/title/title.lwf"",
+        ""lua_path"" : ""lwf/title/title.lua"",
+        ""skip_pass"" : ""_root"",
+        ""tap_image_path"" : ""CocoStudio/resources/Title/title_start.png"",
+        ""tap_image_posX"" : 121,
+        ""tap_image_posY"" : 19
+    }
+}",
+TRANS_EQUIPMENT_EFFECT_SETTING,"{
+ ""spine_anim_name_1"":""weapon-change3"",
+ ""spine_anim_name_2"":""weapon-change2"",
+ ""spine_anim_name_3"":""weapon-change1""
+}",装備変化エフェクト用
+TRIAL_GACHA_BTN_DEFAULT_POS,"0,0","ガチャバナー上のおためしボタンのデフォルト位置(x,y)"
+TWITTER_FOLLOW,twitterフォロープレゼント,Twitterをフォローした時送られるプレゼントのタイトル
+UNIQUE_USER_CREATE_CHECK_SECONDS,30,ユニークID、IP別ユーザー作成確認時間
+UNIT_DETAIL_ATK_BAR_MAX_VALUE,6000,ユニット詳細の攻撃バーの最大値
+UNIT_DETAIL_DEF_BAR_MAX_VALUE,5000,ユニット詳細の防御バーの最大値
+UNIT_DETAIL_HP_BAR_MAX_VALUE,10000,ユニット詳細のHPバーの最大値
+UNIT_EVOLUTION_COIN_BASE,10000,ユニット進化時の使用コインベース値
+UNIT_EXTEND_MAX,1200,ユニット増加上限
+unit_fortune_exp_add,0,クエストでの運EXP上昇値(0.1倍にして表示)
+unit_fortune_exp_add_rate,0,クエストでの運EXP上昇確率%
+UNIT_FORTUNE_EXP_MAX,100,user unit fortune
+UNIT_FORTUNE_LEVEL_MAX,100,user unit fortune lvl
+UNIT_GACHA_MOVIE_SWITCH_FLAG,1,"ガチャタイプ(1, 6, 8)のガチャ演出をムービーに切り替えるフラグ　0:オフ(従来のLWF)　1:オン"
+UNIT_LIMITBREAK_COIN_BASE,5000,ユニット限界突破必要コイン
+UNIT_LIMITBREAK_EXP,1,ユニット限界突破経験値
+UNIT_LIMITBREAK_ITEM_EXP_BASE,1,アイテム限界突破経験値
+UNIT_POWERUP_BONUS_VALUE,5,ユニット強化ボーナス倍率
+UNIT_POWERUP_COIN_BASE,100,ユニット強化時の使用コインベース値
+UNIT_POWERUP_ELEMENT_BONUS,1.5,ユニット強化同属性ボーナス
+UNIT_POWERUP_END_AT,2017-1-11  0:00:00,ユニット強化ボーナス終了時間
+UNIT_POWERUP_EXP_BASE,100,ユニット強化のベース経験値
+UNIT_POWERUP_START_AT,2017-1-1  0:00:00,ユニット強化ボーナス開始時間
+UNIT_POWERUP_SUCCESS,10,強化合成の大成功確率
+UNIT_POWERUP_SUCCESS_BUFF,2,ユニット強化大成功バフ
+UNIT_POWERUP_SUCCESS_PROBABILITY,10,ユニット強化成功率
+UNIT_POWERUP_SUPER_SUCCESS_PROBABILITY,1,強化合成の超成功確率
+UNIT_SALE_MAX_COUNT,50,ユニット一括最大売却数
+UNLOCK_DUNGEON_ERROR_ALREADY,すでに開放中のクエストです,クリスタルダンジョン解放ですでに解放だった場合のエラーメッセージ
+UNLOCK_DUNGEON_ERROR_NOT_UNLOCK_TIME,開放10分前なので開放できません,クリスタルダンジョン解放で解放できない時間だった場合のエラーメッセージ
+UNLOCK_DUNGEON_ERROR_TODAY,すでに開放中のクエストです,クリスタルダンジョン解放で今日が解放日だった場合のエラーメッセージ
+UNLOCK_DUNGEON_HOUR,24,ダンジョン解放時間
+UNLOCK_DUNGEON_USE_DIA,1,ダンジョン解放するのに必要なクリスタル数
+USED_RUNE_DROP_BOOST_ITEM_STAMINA_RATE,0.5,紋章ドロップ運上昇アイテム使用時スタミナ半減
+USER_AI_PRESET_MAX,10,AIプリセットの最大保存数
+USER_CREATE_CHECK_SECONDS,150,IP別ユーザー作成確認時間
+USER_DELETE_CHECKBOX_SETTING,"<Font Color=""#FF0000"">削除後はこのアカウントでプレイする
+ことができなくなり、復旧することも
+できなくなります。</Font>|購入した<Font Color=""#FF0000"">有償クリスタルは失効</Font>し、
+関連する権利を失います。|一部の情報は一定期間後に削除されます。","アカウント削除のチェックボックス設定(""|""区切りで数設定）"
+USER_PARTY_PRESETS_DEFAULT_COUNT_MAX,30,ユーザーパーティープリセットの編成可能数初期値
+USER_TAG_POSSESSION_MAX,30,ユーザータグの所持数上限
+USER_TAG_WORD_COUNT_MAX,15,ユーザータグの文字数上限
+VALUE_MAX_BALL,99999,虹玉所持上限
+VALUE_MAX_COIN,999999999,コイン所持上限
+VALUE_MAX_EVENT_ITEM,999999,イベントアイテム上限値
+VALUE_MAX_EVENT_ITEM_DISPLAY,999,英雄石表示上限
+VALUE_MAX_GACHA_PT,0,ガチャポイント上限
+VALUE_MAX_ORB,999999999,錬金石所持上限
+WEBVIEW_AGREEMENT_PATH,web/agreement.html,webview利用規約のPATH
+WEBVIEW_COMMERCIAL_PATH,web/commercial.html,webview特商法のPATH
+WEBVIEW_CREDIT_PATH,web/credit.html,webviewクレジットのPATH
+WEBVIEW_EVENT_PATH,webview/events,webview巨大ボススケジュールのPATH
+WEBVIEW_GACHA_INFO_PATH,web/gacha_info_{0}.html,ガチャ詳細ポップアップURL
+WEBVIEW_HELP_ARENA_PATH,web/help.html?opened=arena,webviewヘルプ（アリーナ）のPATH
+WEBVIEW_HELP_PATH,web/help.html,webviewヘルプのPATH
+WEBVIEW_HELP_RAID_PATH,web/info/20261023_1_rzdv2ocrxd0c/reward.html,
+WEBVIEW_INFORMATION_PATH,webview/information,webviewお知らせTOPのPATH
+WEBVIEW_ITEM_GACHA_DROP_PATH,web/item_gacha.html,宝具召喚ガチャ確率表記ページのポップアップURL
+WEBVIEW_LEGAL_NOTATION_PATH,webview/legal-notation,Webview法令に基づく表記
+WEBVIEW_LICENCE_PATH,web/licence.html,ガチャ詳細ポップアップURL
+WEBVIEW_MIGRATION_PATH,web/migration.html,データ引き継ぎのポップアップURL
+WEBVIEW_POLICY_PATH,web/policy.html,webviewプライバシーポリシーのPATH
+WEBVIEW_SETTLEMENT_PATH,web/settlement.html,webview資金決済法のPATH
+WEBVIEW_SHOP_AGREEMENT_PATH,webview/agreement,webview利用規約のPATH
+WEBVIEW_UNIT_GACHA_DROP_PATH,web/unit_gacha.html,英雄召喚ガチャ確率表記ページのポップアップURL
+WEB_OFFICIALSITE_URL,https://grandsummoners.com/support,公式ページのURL
+WIN_BEGINNER_EXP,10,アリーナ初級で勝利した時の初級経験値
+WIN_BEGINNER_EXP_MAX,100,アリーナ初級で勝利した時の最大初級経験値
+WIN_MBP_BASE,125,勝利した時の獲得MBPベース([ATAN((r2 - r1) × A) × 2B/π + C]のC)
+WIN_MBP_FORMULA_FLOAT,0.01,勝利した時の獲得MBPの計算式で使われる値([ATAN((r2 - r1) × A) × 2B/π + C]のA)
+WIN_MBP_LIMIT,75,勝利した時の獲得MBPの上限と下限を決定する値([ATAN((r2 - r1) × A) × 2B/π + C]のB)
+WIN_ORB_EQUAL_RANK_USER,1,アリーナ中級で同格の相手に勝利した時の増加オーブ数
+WIN_ORB_MEDIUM,1,アリーナ中級で勝利した時の増加オーブ数
+WIN_ORB_OVER_50_RANKING_USER,2,アリーナ上級で上51位以上の相手に勝利した時の増加オーブ数
+WIN_ORB_OVER_50_WITHIN_RANKING_USER,1,アリーナ上級で上50位以内の相手に勝利した時の増加オーブ数
+WIN_ORB_OVER_RANK_USER,2,アリーナ中級で格上の相手に勝利した時の増加オーブ数
+WIN_ORB_SENIOR,1,アリーナ上級で勝利した時の増加オーブ数
+WORLD_AREA_1_BGM_CUE_NAME,GS101_WORLDMAP,ワールドマップのラクトヘルムBGM
+WORLD_AREA_2_BGM_CUE_NAME,GS626_ALTHELM,ワールドマップのアルトヘルムBGM
+WORLD_AREA_2_BGM_SELECTOR_NAME,Althelm,ワールドマップのアルトヘルムBGMのセレクタ名
+WORLD_AREA_2_BGM_SKY_SELECTOR_LABEL,Orc,ワールドマップのアルトヘルムBGMの空状態のセレクタラベル
+WORLD_AREA_2_BGM_SPACE_SELECTOR_LABEL,Synth,ワールドマップのアルトヘルムBGMの宇宙状態のセレクタラベル
+WORLD_AREA_2_BG_CHANGE_RATE,70,ワールドマップのアルトヘルム背景変化確率（100分率）
+WORLD_AREA_2_OPEN_SCENARIO_PLAY_ID,1,アルトヘルム解放時シナリオのPlayID
+WORLD_MAP_ZOOM_IN_SCALE_LIMIT,1.5,
+WORLD_MAP_ZOOM_OUT_SCALE_LIMIT,0.5,
