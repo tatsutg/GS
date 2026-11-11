@@ -22,7 +22,8 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
-SRC = os.path.join(GS, 'dlc', 'Global', '_DATABASE', 'others')
+REGION = os.environ.get('GS_REGION', 'Global')  # 'Global' or 'Japan'
+SRC = os.path.join(GS, 'dlc', REGION, '_DATABASE', 'others')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SRC, 'unitsv2_detail.json')
 
 RAW = 'https://raw.githubusercontent.com/tatsutg/GS/main/dlc/'
@@ -201,7 +202,7 @@ def main():
             'Type': ELEMENT.get(top['element'], ''),
             'Race': RACE.get(top['race'], 'Unknown'),
             'V.A': top.get('seiyu') or '',
-            'SERVER': 'Global',
+            'SERVER': REGION,
             '_v2': 1,
         }
         # in-game Tag Search tags (tag_master ids), every form's, top form first
