@@ -25,10 +25,11 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
 DLC = os.path.join(GS, 'dlc')
-DB = os.path.join(DLC, 'Global', '_DATABASE')
+REGION = os.environ.get('GS_REGION', 'Global')  # 'Global' or 'Japan'
+DB = os.path.join(DLC, REGION, '_DATABASE')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DB, 'others', 'items_detail.json')
 
-JP = re.compile(r'[぀-ヿ一-鿿]')
+JP = re.compile(r'[぀-ヿ一-鿿]') if REGION == 'Global' else re.compile(r'(?!)')  # on Japan, names ARE Japanese
 MAT_TYPE = {1: 'Evolution', 9: 'Special', 10: 'Gems', 20: 'Refine Stones',
             31: 'Kilmon', 32: 'Defmon', 33: 'Tufmon', 34: 'Eggs & Chickens'}
 SHOP = {1: 'Arca Shop', 2: 'Alchemist', 3: 'Material exchange', 6: 'Exchange'}
@@ -252,7 +253,7 @@ def main():
                     print(f'crest_drops.json: unknown crest "{n}" (shrine {did})')
                     continue
                 drop_at[t].append([place, kind, int(did), sh.get('day', '')])
-        shrines.append({'id': int(did), 'n': place, 'day': sh.get('day', ''), 'img': f"Global/banner/dungeon_banner_{did}.png",
+        shrines.append({'id': int(did), 'n': place, 'day': sh.get('day', ''), 'img': f"{REGION}/banner/dungeon_banner_{did}.png",
                         **{k: [[type_by_name.get(ALIASES.get(key(n), key(n))), n] for n in sh.get(k, [])] for k in ('ex', 'up')}})
     # JP-only shrines (not in the GL DB): only their crests that GL has; their own exclusive crests are JP-only too
     for did, sh in (cd.get('jp_shrines') or {}).items():
@@ -302,7 +303,7 @@ def main():
         if english(t['name']):
             # tool pictures: the game's orb shop thumbnails (dlc/Global/town/alchemy/orb_shop/thumbnail/tool_<id>.png)
             row('tool', t['id'], clean(t['name']), 0, clean(t['description']),
-                img(f"Global/town/alchemy/orb_shop/thumbnail/tool_{t['id']}.png"), tool_kind.get(t['type'], 'Other'),
+                img(f"{REGION}/town/alchemy/orb_shop/thumbnail/tool_{t['id']}.png"), tool_kind.get(t['type'], 'Other'),
                 {'max': num(t.get('count_limit'))})
 
     data = {'cats': {'mat': 'Materials', 'crest': 'Crest Materials', 'event': 'Event Items',

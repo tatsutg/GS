@@ -32,7 +32,8 @@ from datetime import datetime, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
 DLC = os.path.join(GS, 'dlc')
-DB = os.path.join(DLC, 'Global', '_DATABASE')
+REGION = os.environ.get('GS_REGION', 'Global')  # 'Global' or 'Japan'
+DB = os.path.join(DLC, REGION, '_DATABASE')
 OUT = os.path.join(DB, 'others', 'summons_detail.json')
 TYPES = {1: 'unit', 6: 'unit', 10: 'unit', 2: 'equip', 7: 'equip'}
 
@@ -74,8 +75,8 @@ def load(name):
 
 
 def main():
-    uthumb = set(os.listdir(os.path.join(DLC, 'unit', 'thumbnail')))
-    ithumb = set(os.listdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')))
+    uthumb = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
+    ithumb = set((os.listdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) else []))
 
     # unit families: name + thumbnail of the top form
     fam = {}
@@ -152,7 +153,7 @@ def main():
             e5.update(feat)
         bg = os.path.basename(g.get('bg_name') or '')
         banners.append({'id': g['id'], 'n': g['name'], 't': kind, 's': g['start_at'], 'e': g['end_at'],
-                        'img': f'Global/summon/banner/{bg}' if bg and os.path.exists(os.path.join(DLC, 'Global', 'summon', 'banner', bg)) else '',
+                        'img': f'{REGION}/summon/banner/{bg}' if bg and os.path.exists(os.path.join(DLC, REGION, 'summon', 'banner', bg)) else '',
                         'feat': feat})
         # no free first multi on STEP-UP (gacha_system_type 1) or ticket banners
         if g.get('gacha_system_type') == 1 or 'STEP-UP' in (g['name'] or ''):

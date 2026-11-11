@@ -22,7 +22,8 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
-GL = os.path.join(GS, 'dlc', 'Global', '_DATABASE')
+REGION = os.environ.get('GS_REGION', 'Global')  # 'Global' or 'Japan'
+GL = os.path.join(GS, 'dlc', REGION, '_DATABASE')
 SRC = os.path.join(GL, 'others')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SRC, 'equipsv2_detail.json')
 
@@ -30,7 +31,7 @@ RAW = 'https://raw.githubusercontent.com/tatsutg/GS/main/dlc/'
 TYPE = {1: 'Physical', 2: 'Magical', 3: 'Defense', 4: 'Healing', 5: 'Support'}
 # orb_shop_master.shop_type
 SHOP = {1: 'Alch Shop', 2: 'Alchemist (True Equip exchange)', 3: 'Material exchange', 6: 'Exchange'}
-JP = re.compile(r'[぀-ヿ一-鿿]')
+JP = re.compile(r'[぀-ヿ一-鿿]') if REGION == 'Global' else re.compile(r'(?!)')  # on Japan, names ARE Japanese: never drop them
 
 
 def load(name, folder='others'):
@@ -235,6 +236,10 @@ def main():
         json.dump(dict(sorted(icons.items())), f, ensure_ascii=False, separators=(',', ':'))
     print(f'{len(icons)} ability icons -> {icon_out}')
 
+    # The GL/JP art-split manifest (gl_items.json) is a Global-only artifact; the site reads it to resolve
+    # equip art per file. Building for Japan reuses it, so skip it here.
+    if REGION != 'Global':
+        return
     # Equip art is split by server: dlc/Japan/item has all JP art, dlc/Global/item only the GL art
     # that is missing or different in JP. The site reads this list to know which files are in Global.
     #   gl  = every file in Global/item ("detail/item_detail_152601.png", ...)

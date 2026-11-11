@@ -40,10 +40,11 @@ from datetime import datetime, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
 DLC = os.path.join(GS, 'dlc')
-DB = os.path.join(DLC, 'Global', '_DATABASE')
+REGION = os.environ.get('GS_REGION', 'Global')  # 'Global' or 'Japan'
+DB = os.path.join(DLC, REGION, '_DATABASE')
 OUT = os.path.join(DB, 'others', 'shops_detail.json')
 
-JP = re.compile(r'[぀-ヿ一-鿿]')
+JP = re.compile(r'[぀-ヿ一-鿿]') if REGION == 'Global' else re.compile(r'(?!)')
 TOWN = {1: 'Alch Shop', 2: 'Alchemist (True Equips)', 3: 'Material Exchange', 6: 'Exchange', 7: 'Exchange'}
 KIND = {5: 'Material', 7: 'Recipe', 8: 'Equip', 9: 'Unit', 12: 'Stamp', 13: 'Food', 15: 'Unit LB Stone',
         16: 'Equip LB Stone', 17: 'Key', 18: 'Alch', 22: 'Event item', 24: 'Item', 25: 'Rainbow Gem',
@@ -121,8 +122,8 @@ def merge_old(shops, now):
 
 
 def main():
-    ithumb = set(os.listdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')))
-    uthumb = set(os.listdir(os.path.join(DLC, 'unit', 'thumbnail')))
+    ithumb = set((os.listdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) else []))
+    uthumb = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
     # icons the Items tab already resolved: (kind key, id) -> image
     try:
         with open(os.path.join(DB, 'others', 'items_detail.json'), encoding='utf-8') as f:
@@ -157,13 +158,13 @@ def main():
         if otype == 24:
             return item_img.get(('tool', oid), '')
         if otype == 18:
-            return 'Global/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png'
+            return f'{REGION}/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png'
         if otype == 25:
             return 'ASSETS/icon_rainbow_gem.png'
         if otype == 17:
-            return has(f'Global/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{oid}.png')
+            return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{oid}.png')
         if otype == 15:
-            return 'Global/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png'
+            return f'{REGION}/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png'
         return ''
 
     def limit(v):
@@ -183,7 +184,7 @@ def main():
     shops = []
     for b in sorted(load('shop_banner_master'), key=lambda x: x['id']):
         bg = b.get('bg_name') or ''
-        vers = versions(f'Global/alchemyExchange/{bg}') if bg else []
+        vers = versions(f'{REGION}/alchemyExchange/{bg}') if bg else []
         img = vers[-1] if vers else ''
         imgs = vers[::-1] if len(vers) > 1 else []
         st = b.get('shop_type')

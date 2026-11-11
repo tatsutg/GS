@@ -29,10 +29,11 @@ from datetime import datetime, timedelta, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
 DLC = os.path.join(GS, 'dlc')
-DB = os.path.join(DLC, 'Global', '_DATABASE')
+REGION = os.environ.get('GS_REGION', 'Global')  # 'Global' or 'Japan'
+DB = os.path.join(DLC, REGION, '_DATABASE')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DB, 'others', 'quests_detail.json')
 
-JP = re.compile(r'[぀-ヿ一-鿿]')
+JP = re.compile(r'[぀-ヿ一-鿿]') if REGION == 'Global' else re.compile(r'(?!)')  # on Japan, names ARE Japanese
 WEEKDAY = {8001: 'Monday', 8002: 'Tuesday', 8003: 'Wednesday', 8004: 'Thursday', 8005: 'Friday', 8006: 'Saturday', 8007: 'Sunday'}
 CAT = {0: 'Story', 2: 'Events', 6: 'Side Stories', 8: 'Summoners Road', 2002: 'Exploring', 7: 'Crest Palace', 4001: 'Material Quests'}
 # reward / drop "type" codes used by quest_master and display_item_list
@@ -97,26 +98,26 @@ def main():
         eq[x['id']] = clean(x['name'])
     names[7] = names[8] = eq
     units = {u['id']: clean(u['name']) for u in load('unit_master')}
-    thumbs_all = set(os.listdir(os.path.join(DLC, 'unit', 'thumbnail')))
+    thumbs_all = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
     names[9] = units
 
     # icons for drops / rewards: data['icons']["<type>:<id>"] = repo path (the site shows a badge when there is none)
-    ithumb = set(os.listdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')))
+    ithumb = set((os.listdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) else []))
     try:
         with open(os.path.join(DB, 'others', 'items_detail.json'), encoding='utf-8') as f:
             item_img = {(x['k'], x['id']): x.get('img', '') for x in json.load(f)['items']}
     except (OSError, ValueError, KeyError):
         item_img = {}
     # currencies: the game's orb shop thumbnails (big, framed like the item tiles)
-    FIXED = {2: 'Global/town/alchemy/orb_shop/thumbnail/gran_thumbnail.png', 11: 'Global/town/alchemy/orb_shop/thumbnail/crystal_thumbnail.png', 18: 'Global/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png',
-             25: 'ASSETS/icon_rainbow_gem.png', 15: 'Global/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png'}
+    FIXED = {2: f'{REGION}/town/alchemy/orb_shop/thumbnail/gran_thumbnail.png', 11: f'{REGION}/town/alchemy/orb_shop/thumbnail/crystal_thumbnail.png', 18: f'{REGION}/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png',
+             25: 'ASSETS/icon_rainbow_gem.png', 15: f'{REGION}/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png'}
     icons = {}
 
     def icon_of(t, i):
         if t in FIXED:
             return FIXED[t]
         if t == 17:   # dungeon keys (key_master): the game's orb shop key pictures
-            return img(f'Global/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{i}.png')
+            return img(f'{REGION}/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{i}.png')
         if t in (7, 8):
             s = str(i)
             if len(s) >= 9:
@@ -126,7 +127,7 @@ def main():
                         return f'Japan/item/thumbnail/{f}'
             return ''
         if t == 9:
-            return f'unit/thumbnail/unit_thumbnail_{i}.png' if f'unit_thumbnail_{i}.png' in thumbs_all else ''
+            return f'{REGION}/unit/thumbnail/unit_thumbnail_{i}.png' if f'unit_thumbnail_{i}.png' in thumbs_all else ''
         key = {5: 'mat', 13: 'food', 22: 'event', 24: 'tool'}.get(t)
         if not key:
             return ''
@@ -150,7 +151,7 @@ def main():
     # Art: the enemy's unit thumbnail in dlc/unit/thumbnail when the repo has it.
     # boss_info_master adds a description and status resistances for some bosses (Summoners Road etc.).
     unit_rows = {u['id']: u for u in load('unit_master')}
-    thumbs = set(os.listdir(os.path.join(DLC, 'unit', 'thumbnail')))
+    thumbs = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
     boss_enemies = {e['id']: e for e in load('enemy_master') if num(e.get('is_boss')) == 1}
     boss_info = {}
     for b in load('boss_info_master'):
@@ -166,7 +167,7 @@ def main():
         u = unit_rows.get(e['unit_id'], {})
         name = clean(e.get('name')) or clean(u.get('name')) or f"Enemy {e['unit_id']}"
         thumb = f"unit_thumbnail_{e['unit_id']}.png"
-        return {'n': name, 'u': e['unit_id'], 'img': f'unit/thumbnail/{thumb}' if thumb in thumbs else '',
+        return {'n': name, 'u': e['unit_id'], 'img': f'{REGION}/unit/thumbnail/{thumb}' if thumb in thumbs else '',
                 'el': num(u.get('element')), 'lv': num(e.get('level')), 'hp': num(e.get('hp')), 'atk': num(e.get('attack')),
                 'def': num(e.get('deffence')), 'brk': num(e.get('break_capacity'))}
 
@@ -272,7 +273,7 @@ def main():
                 if not q.get('boss') and q.get('st'):
                     q['bossX'] = only
         row = {'id': d['id'], 'n': name, 'cat': cat, 'type': t, 'ev': num(d.get('event_id')), 'rank': num(d.get('need_rank')),
-               'img': img(f"Global/banner/dungeon_banner_{d['id']}.png"), 'top': img(f"Global/banner/dungeon_banner_top_{d['id']}.png"),
+               'img': img(f"{REGION}/banner/dungeon_banner_{d['id']}.png"), 'top': img(f"{REGION}/banner/dungeon_banner_top_{d['id']}.png"),
                'win': [[a.isoformat(), b.isoformat()] for a, b in up[:MAX_WIN]], 'winN': len(wins),
                'first': wins[0][0].isoformat() if wins else '', 'last': wins[-1][1].isoformat() if wins else '',
                'q': qs}
