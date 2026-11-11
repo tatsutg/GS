@@ -1,0 +1,83 @@
+
+heart.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF_white
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ef_heart_A_main_00076
+  rotate: false
+  xy: 1, 66
+  size: 142, 130
+  orig: 160, 160
+  offset: 9, 15
+  index: -1
+ef_heart_B_main_00076
+  rotate: false
+  xy: 1601, 877
+  size: 142, 130
+  orig: 160, 160
+  offset: 9, 15
+  index: -1
+ef_heart_C_main_00076
+  rotate: false
+  xy: 144, 66
+  size: 142, 130
+  orig: 160, 160
+  offset: 9, 15
+  index: -1
+ef_heart_D_main_00076
+  rotate: false
+  xy: 1601, 746
+  size: 142, 130
+  orig: 160, 160
+  offset: 9, 15
+  index: -1
+ef_heart_E_main_00076
+  rotate: false
+  xy: 1744, 877
+  size: 142, 130
+  orig: 160, 160
+  offset: 9, 15
+  index: -1
+ef_heart_particle_A_main_00010
+  rotate: false
+  xy: 408, 633
+  size: 406, 374
+  orig: 512, 455
+  offset: 54, 24
+  index: -1
+ef_heart_particle_B_main_00010
+  rotate: true
+  xy: 815, 619
+  size: 388, 392
+  orig: 512, 455
+  offset: 72, 32
+  index: -1
+ef_heart_particle_C_main_00010
+  rotate: false
+  xy: 1, 197
+  size: 393, 397
+  orig: 512, 455
+  offset: 66, 28
+  index: -1
+ef_heart_particle_D_main_00010
+  rotate: true
+  xy: 1208, 622
+  size: 385, 392
+  orig: 512, 455
+  offset: 52, 30
+  index: -1
+ef_heart_particle_E_main_00010
+  rotate: false
+  xy: 1, 595
+  size: 406, 412
+  orig: 512, 455
+  offset: 64, 21
+  index: -1

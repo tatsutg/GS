@@ -1,0 +1,55 @@
+
+103376212idle.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dot_ef/weapon_01
+  rotate: false
+  xy: 2, 14
+  size: 246, 100
+  orig: 512, 512
+  offset: 162, 216
+  index: -1
+dot_ef/weapon_02
+  rotate: false
+  xy: 486, 6
+  size: 216, 108
+  orig: 512, 512
+  offset: 162, 218
+  index: -1
+dot_ef/weapon_03
+  rotate: false
+  xy: 250, 2
+  size: 234, 112
+  orig: 512, 512
+  offset: 162, 204
+  index: -1
+idle_00
+  rotate: true
+  xy: 1016, 26
+  size: 88, 156
+  orig: 512, 512
+  offset: 200, 182
+  index: -1
+idle_01
+  rotate: true
+  xy: 704, 20
+  size: 94, 154
+  orig: 512, 512
+  offset: 198, 182
+  index: -1
+idle_02
+  rotate: true
+  xy: 860, 20
+  size: 94, 154
+  orig: 512, 512
+  offset: 198, 182
+  index: -1
+idle_03
+  rotate: true
+  xy: 1174, 26
+  size: 88, 156
+  orig: 512, 512
+  offset: 200, 182
+  index: -1

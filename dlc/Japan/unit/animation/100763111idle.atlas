@@ -1,0 +1,146 @@
+
+100763111idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire/L_arm_fire1
+  rotate: false
+  xy: 1676, 167
+  size: 102, 88
+  orig: 256, 256
+  offset: 150, 66
+  index: -1
+fire/L_arm_fire2
+  rotate: false
+  xy: 1571, 167
+  size: 104, 88
+  orig: 256, 256
+  offset: 150, 66
+  index: -1
+fire/L_arm_fire3
+  rotate: false
+  xy: 1880, 169
+  size: 96, 86
+  orig: 256, 256
+  offset: 154, 72
+  index: -1
+fire/L_arm_fire4
+  rotate: false
+  xy: 1779, 171
+  size: 100, 84
+  orig: 256, 256
+  offset: 150, 76
+  index: -1
+fire/L_arm_fire5
+  rotate: false
+  xy: 968, 62
+  size: 96, 74
+  orig: 256, 256
+  offset: 150, 76
+  index: -1
+fire/R_arm_fire1
+  rotate: false
+  xy: 1, 4
+  size: 96, 68
+  orig: 256, 256
+  offset: 48, 74
+  index: -1
+fire/R_arm_fire2
+  rotate: false
+  xy: 98, 8
+  size: 92, 64
+  orig: 256, 256
+  offset: 48, 74
+  index: -1
+fire/R_arm_fire3
+  rotate: true
+  xy: 1977, 169
+  size: 86, 66
+  orig: 256, 256
+  offset: 48, 76
+  index: -1
+fire/R_arm_fire4
+  rotate: false
+  xy: 191, 1
+  size: 84, 60
+  orig: 256, 256
+  offset: 50, 76
+  index: -1
+fire/R_arm_fire5
+  rotate: false
+  xy: 276, 13
+  size: 86, 58
+  orig: 256, 256
+  offset: 54, 74
+  index: -1
+fire/body_fire1
+  rotate: false
+  xy: 1093, 141
+  size: 116, 114
+  orig: 256, 256
+  offset: 92, 136
+  index: -1
+fire/body_fire2
+  rotate: false
+  xy: 1210, 149
+  size: 124, 106
+  orig: 256, 256
+  offset: 88, 144
+  index: -1
+fire/body_fire3
+  rotate: true
+  xy: 1454, 143
+  size: 112, 116
+  orig: 256, 256
+  offset: 90, 138
+  index: -1
+fire/body_fire4
+  rotate: false
+  xy: 1335, 147
+  size: 118, 108
+  orig: 256, 256
+  offset: 90, 146
+  index: -1
+fire/body_fire5
+  rotate: false
+  xy: 968, 137
+  size: 124, 118
+  orig: 256, 256
+  offset: 88, 136
+  index: -1
+skeleton-idle_0
+  rotate: false
+  xy: 395, 72
+  size: 193, 183
+  orig: 450, 400
+  offset: 126, 61
+  index: -1
+skeleton-idle_1
+  rotate: false
+  xy: 779, 69
+  size: 188, 186
+  orig: 450, 400
+  offset: 130, 57
+  index: -1
+skeleton-idle_2
+  rotate: false
+  xy: 589, 69
+  size: 189, 186
+  orig: 450, 400
+  offset: 131, 59
+  index: -1
+skeleton-idle_3
+  rotate: false
+  xy: 199, 72
+  size: 195, 183
+  orig: 450, 400
+  offset: 127, 64
+  index: -1
+skeleton-idle_4
+  rotate: false
+  xy: 1, 73
+  size: 197, 182
+  orig: 450, 400
+  offset: 124, 64
+  index: -1

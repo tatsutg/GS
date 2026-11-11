@@ -1,0 +1,69 @@
+
+100024211idle.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001_0001_weapon
+  rotate: false
+  xy: 986, 45
+  size: 196, 72
+  orig: 196, 72
+  offset: 0, 0
+  index: -1
+001_0002_L_arm
+  rotate: false
+  xy: 986, 24
+  size: 52, 20
+  orig: 56, 24
+  offset: 2, 2
+  index: -1
+001_0003_R_arm
+  rotate: false
+  xy: 1183, 99
+  size: 46, 18
+  orig: 50, 22
+  offset: 2, 2
+  index: -1
+110_idle1
+  rotate: false
+  xy: 1, 1
+  size: 196, 116
+  orig: 261, 147
+  offset: 30, 20
+  index: -1
+110_idle2
+  rotate: false
+  xy: 395, 4
+  size: 196, 113
+  orig: 261, 147
+  offset: 30, 21
+  index: -1
+110_idle3
+  rotate: false
+  xy: 789, 5
+  size: 196, 112
+  orig: 261, 147
+  offset: 30, 21
+  index: -1
+110_idle4
+  rotate: false
+  xy: 592, 4
+  size: 196, 113
+  orig: 261, 147
+  offset: 30, 21
+  index: -1
+110_idle5
+  rotate: false
+  xy: 198, 3
+  size: 196, 114
+  orig: 261, 147
+  offset: 30, 21
+  index: -1
+tiara
+  rotate: false
+  xy: 1039, 24
+  size: 34, 20
+  orig: 36, 22
+  offset: 1, 1
+  index: -1

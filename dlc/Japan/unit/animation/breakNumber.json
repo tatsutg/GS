@@ -1,0 +1,863 @@
+{
+"skeleton": { "hash": "JXluuPp1gsRq1FzAx7teMkxn6H0", "spine": "3.0.12", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "MAIN", "parent": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "numbersRoot", "parent": "MAIN", "x": 18.95 },
+	{ "name": "HIT", "parent": "numbersRoot", "x": 107.56, "y": -2.68, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "00", "parent": "numbersRoot", "x": -36.64 },
+	{ "name": "000", "parent": "numbersRoot", "x": -73.73 },
+	{ "name": "0000", "parent": "numbersRoot", "x": -115.72 },
+	{ "name": "00000", "parent": "numbersRoot", "x": -149.72 },
+	{ "name": "000000", "parent": "numbersRoot", "x": -187.74 },
+	{ "name": "0000000", "parent": "numbersRoot", "x": -227.75 },
+	{ "name": "0", "parent": "numbersRoot" }
+],
+"slots": [
+	{ "name": "images/HIT", "bone": "HIT" },
+	{ "name": "images/coin1", "bone": "0" },
+	{ "name": "images/coin2", "bone": "00" },
+	{ "name": "images/coin3", "bone": "000" },
+	{ "name": "images/coin4", "bone": "0000" },
+	{ "name": "images/coin5", "bone": "00000" },
+	{ "name": "images/coin6", "bone": "000000" },
+	{ "name": "images/coin7", "bone": "0000000" }
+],
+"skins": {
+	"default": {
+		"images/HIT": {
+			"images/HIT": { "width": 104, "height": 48 },
+			"images/raid_battle_font_break": { "width": 204, "height": 48 }
+		},
+		"images/coin1": {
+			"images/coin0": { "width": 36, "height": 48 },
+			"images/coin1": { "width": 36, "height": 48 },
+			"images/coin2": { "width": 36, "height": 48 },
+			"images/coin3": { "width": 36, "height": 48 },
+			"images/coin4": { "width": 36, "height": 48 },
+			"images/coin5": { "width": 36, "height": 48 },
+			"images/coin6": { "width": 36, "height": 48 },
+			"images/coin7": { "width": 36, "height": 48 },
+			"images/coin8": { "width": 36, "height": 48 },
+			"images/coin9": { "width": 36, "height": 48 }
+		},
+		"images/coin2": {
+			"images/coin0": { "width": 36, "height": 48 },
+			"images/coin1": { "width": 36, "height": 48 },
+			"images/coin2": { "width": 36, "height": 48 },
+			"images/coin3": { "width": 36, "height": 48 },
+			"images/coin4": { "width": 36, "height": 48 },
+			"images/coin5": { "width": 36, "height": 48 },
+			"images/coin6": { "width": 36, "height": 48 },
+			"images/coin7": { "width": 36, "height": 48 },
+			"images/coin8": { "width": 36, "height": 48 },
+			"images/coin9": { "width": 36, "height": 48 }
+		},
+		"images/coin3": {
+			"images/coin0": { "width": 36, "height": 48 },
+			"images/coin1": { "width": 36, "height": 48 },
+			"images/coin2": { "width": 36, "height": 48 },
+			"images/coin3": { "width": 36, "height": 48 },
+			"images/coin4": { "width": 36, "height": 48 },
+			"images/coin5": { "width": 36, "height": 48 },
+			"images/coin6": { "width": 36, "height": 48 },
+			"images/coin7": { "width": 36, "height": 48 },
+			"images/coin8": { "width": 36, "height": 48 },
+			"images/coin9": { "width": 36, "height": 48 }
+		},
+		"images/coin4": {
+			"images/coin0": { "x": 4.58, "width": 36, "height": 48 },
+			"images/coin1": { "width": 36, "height": 48 },
+			"images/coin2": { "width": 36, "height": 48 },
+			"images/coin3": { "width": 36, "height": 48 },
+			"images/coin4": { "width": 36, "height": 48 },
+			"images/coin5": { "width": 36, "height": 48 },
+			"images/coin6": { "width": 36, "height": 48 },
+			"images/coin7": { "width": 36, "height": 48 },
+			"images/coin8": { "width": 36, "height": 48 },
+			"images/coin9": { "width": 36, "height": 48 }
+		},
+		"images/coin5": {
+			"images/coin0": { "width": 36, "height": 48 },
+			"images/coin1": { "width": 36, "height": 48 },
+			"images/coin2": { "width": 36, "height": 48 },
+			"images/coin3": { "width": 36, "height": 48 },
+			"images/coin4": { "width": 36, "height": 48 },
+			"images/coin5": { "width": 36, "height": 48 },
+			"images/coin6": { "width": 36, "height": 48 },
+			"images/coin7": { "width": 36, "height": 48 },
+			"images/coin8": { "width": 36, "height": 48 },
+			"images/coin9": { "width": 36, "height": 48 }
+		},
+		"images/coin6": {
+			"images/coin0": { "width": 36, "height": 48 },
+			"images/coin1": { "width": 36, "height": 48 },
+			"images/coin2": { "width": 36, "height": 48 },
+			"images/coin3": { "width": 36, "height": 48 },
+			"images/coin4": { "width": 36, "height": 48 },
+			"images/coin5": { "width": 36, "height": 48 },
+			"images/coin6": { "width": 36, "height": 48 },
+			"images/coin7": { "width": 36, "height": 48 },
+			"images/coin8": { "width": 36, "height": 48 },
+			"images/coin9": { "width": 36, "height": 48 }
+		},
+		"images/coin7": {
+			"images/coin0": { "width": 36, "height": 48 },
+			"images/coin1": { "width": 36, "height": 48 },
+			"images/coin2": { "width": 36, "height": 48 },
+			"images/coin3": { "width": 36, "height": 48 },
+			"images/coin4": { "width": 36, "height": 48 },
+			"images/coin5": { "width": 36, "height": 48 },
+			"images/coin6": { "width": 36, "height": 48 },
+			"images/coin7": { "width": 36, "height": 48 },
+			"images/coin8": { "width": 36, "height": 48 },
+			"images/coin9": { "width": 36, "height": 48 }
+		}
+	}
+},
+"animations": {
+	"0": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin0" }
+				]
+			}
+		}
+	},
+	"1": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin1" }
+				]
+			}
+		}
+	},
+	"2": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin2" }
+				]
+			}
+		}
+	},
+	"3": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin3" }
+				]
+			}
+		}
+	},
+	"4": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin4" }
+				]
+			}
+		}
+	},
+	"5": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin5" }
+				]
+			}
+		}
+	},
+	"6": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin6" }
+				]
+			}
+		}
+	},
+	"7": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin7" }
+				]
+			}
+		}
+	},
+	"8": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin8" }
+				]
+			}
+		}
+	},
+	"9": {
+		"slots": {
+			"images/HIT": {
+				"attachment": [
+					{ "time": 0, "name": "images/raid_battle_font_break" }
+				]
+			},
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin9" }
+				]
+			}
+		}
+	},
+	"0000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin0" }
+				]
+			}
+		}
+	},
+	"000000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin0" }
+				]
+			}
+		}
+	},
+	"00000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin0" }
+				]
+			}
+		}
+	},
+	"0000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin0" }
+				]
+			}
+		}
+	},
+	"00": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin0" }
+				]
+			}
+		}
+	},
+	"000": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin0" }
+				]
+			}
+		}
+	},
+	"10": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin1" }
+				]
+			}
+		}
+	},
+	"100": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin1" }
+				]
+			}
+		}
+	},
+	"1000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin1" }
+				]
+			}
+		}
+	},
+	"10000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin1" }
+				]
+			}
+		}
+	},
+	"100000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin1" }
+				]
+			}
+		}
+	},
+	"1000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin1" }
+				]
+			}
+		}
+	},
+	"20": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin2" }
+				]
+			}
+		}
+	},
+	"200": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin2" }
+				]
+			}
+		}
+	},
+	"2000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin2" }
+				]
+			}
+		}
+	},
+	"20000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin2" }
+				]
+			}
+		}
+	},
+	"200000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin2" }
+				]
+			}
+		}
+	},
+	"2000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin2" }
+				]
+			}
+		}
+	},
+	"30": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin3" }
+				]
+			}
+		}
+	},
+	"300": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin3" }
+				]
+			}
+		}
+	},
+	"3000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin3" }
+				]
+			}
+		}
+	},
+	"30000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin3" }
+				]
+			}
+		}
+	},
+	"300000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin3" }
+				]
+			}
+		}
+	},
+	"3000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin3" }
+				]
+			}
+		}
+	},
+	"40": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin4" }
+				]
+			}
+		}
+	},
+	"400": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin4" }
+				]
+			}
+		}
+	},
+	"4000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin4" }
+				]
+			}
+		}
+	},
+	"40000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin4" }
+				]
+			}
+		}
+	},
+	"400000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin4" }
+				]
+			}
+		}
+	},
+	"4000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin4" }
+				]
+			}
+		}
+	},
+	"50": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin5" }
+				]
+			}
+		}
+	},
+	"500": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin5" }
+				]
+			}
+		}
+	},
+	"5000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin5" }
+				]
+			}
+		}
+	},
+	"50000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin5" }
+				]
+			}
+		}
+	},
+	"500000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin5" }
+				]
+			}
+		}
+	},
+	"5000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin5" }
+				]
+			}
+		}
+	},
+	"60": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin6" }
+				]
+			}
+		}
+	},
+	"600": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin6" }
+				]
+			}
+		}
+	},
+	"6000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin6" }
+				]
+			}
+		}
+	},
+	"60000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin6" }
+				]
+			}
+		}
+	},
+	"600000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin6" }
+				]
+			}
+		}
+	},
+	"6000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin6" }
+				]
+			}
+		}
+	},
+	"70": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin7" }
+				]
+			}
+		}
+	},
+	"700": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin7" }
+				]
+			}
+		}
+	},
+	"7000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin7" }
+				]
+			}
+		}
+	},
+	"70000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin7" }
+				]
+			}
+		}
+	},
+	"700000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin7" }
+				]
+			}
+		}
+	},
+	"7000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin7" }
+				]
+			}
+		}
+	},
+	"80": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin8" }
+				]
+			}
+		}
+	},
+	"800": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin8" }
+				]
+			}
+		}
+	},
+	"8000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin8" }
+				]
+			}
+		}
+	},
+	"80000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin8" }
+				]
+			}
+		}
+	},
+	"800000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin8" }
+				]
+			}
+		}
+	},
+	"8000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin8" }
+				]
+			}
+		}
+	},
+	"90": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin9" }
+				]
+			}
+		}
+	},
+	"900": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin9" }
+				]
+			}
+		}
+	},
+	"9000": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin9" }
+				]
+			}
+		}
+	},
+	"90000": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin9" }
+				]
+			}
+		}
+	},
+	"900000": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin9" }
+				]
+			}
+		}
+	},
+	"9000000": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": "images/coin9" }
+				]
+			}
+		}
+	},
+	"none1": {
+		"slots": {
+			"images/coin1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"none2": {
+		"slots": {
+			"images/coin2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"none3": {
+		"slots": {
+			"images/coin3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"none4": {
+		"slots": {
+			"images/coin4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"none5": {
+		"slots": {
+			"images/coin5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"none6": {
+		"slots": {
+			"images/coin6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"none7": {
+		"slots": {
+			"images/coin7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

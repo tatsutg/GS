@@ -1,0 +1,314 @@
+
+101375512idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_flare_back_main_00005
+  rotate: false
+  xy: 1689, 165
+  size: 90, 90
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+EF/ef_flare_back_main_00006
+  rotate: true
+  xy: 383, 1
+  size: 97, 98
+  orig: 100, 100
+  offset: 2, 1
+  index: -1
+EF/ef_ice_aura_A_main_00007
+  rotate: false
+  xy: 559, 42
+  size: 82, 83
+  orig: 120, 120
+  offset: 20, 18
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00031
+  rotate: false
+  xy: 642, 62
+  size: 81, 63
+  orig: 128, 128
+  offset: 32, 21
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00032
+  rotate: true
+  xy: 113, 37
+  size: 87, 81
+  orig: 128, 128
+  offset: 32, 21
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00033
+  rotate: false
+  xy: 1780, 166
+  size: 91, 89
+  orig: 128, 128
+  offset: 32, 17
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00034
+  rotate: false
+  xy: 1288, 162
+  size: 102, 93
+  orig: 128, 128
+  offset: 22, 17
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00035
+  rotate: false
+  xy: 1179, 154
+  size: 108, 101
+  orig: 128, 128
+  offset: 16, 11
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00036
+  rotate: false
+  xy: 1, 21
+  size: 111, 103
+  orig: 128, 128
+  offset: 13, 11
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00037
+  rotate: false
+  xy: 1069, 152
+  size: 109, 103
+  orig: 128, 128
+  offset: 13, 13
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00038
+  rotate: false
+  xy: 1391, 164
+  size: 104, 91
+  orig: 128, 128
+  offset: 15, 22
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00039
+  rotate: true
+  xy: 1593, 163
+  size: 92, 95
+  orig: 128, 128
+  offset: 16, 20
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00040
+  rotate: true
+  xy: 1969, 161
+  size: 94, 76
+  orig: 128, 128
+  offset: 16, 24
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00041
+  rotate: true
+  xy: 482, 34
+  size: 93, 76
+  orig: 128, 128
+  offset: 16, 28
+  index: -1
+EF/ef_sphere_aura_main/ef_sphere_aura_main_00042
+  rotate: true
+  xy: 1069, 96
+  size: 55, 76
+  orig: 128, 128
+  offset: 21, 29
+  index: -1
+ac_B_1
+  rotate: false
+  xy: 724, 69
+  size: 24, 56
+  orig: 256, 256
+  offset: 222, 104
+  index: -1
+ac_B_10
+  rotate: false
+  xy: 383, 99
+  size: 38, 28
+  orig: 256, 256
+  offset: 90, 156
+  index: -1
+ac_B_11
+  rotate: false
+  xy: 113, 18
+  size: 26, 18
+  orig: 256, 256
+  offset: 58, 64
+  index: -1
+ac_B_2
+  rotate: false
+  xy: 749, 56
+  size: 54, 42
+  orig: 256, 256
+  offset: 184, 36
+  index: -1
+ac_B_3
+  rotate: false
+  xy: 1234, 101
+  size: 46, 52
+  orig: 256, 256
+  offset: 56, 120
+  index: -1
+ac_B_4
+  rotate: false
+  xy: 855, 60
+  size: 48, 38
+  orig: 256, 256
+  offset: 56, 64
+  index: -1
+ac_B_5_energy
+  rotate: false
+  xy: 1496, 161
+  size: 96, 94
+  orig: 256, 256
+  offset: 118, 70
+  index: -1
+ac_B_5_frame
+  rotate: false
+  xy: 753, 99
+  size: 158, 156
+  orig: 256, 256
+  offset: 86, 38
+  index: -1
+ac_B_6
+  rotate: true
+  xy: 455, 99
+  size: 28, 26
+  orig: 256, 256
+  offset: 208, 160
+  index: -1
+ac_B_7
+  rotate: false
+  xy: 140, 16
+  size: 22, 20
+  orig: 256, 256
+  offset: 224, 48
+  index: -1
+ac_B_8
+  rotate: false
+  xy: 912, 72
+  size: 76, 48
+  orig: 256, 256
+  offset: 124, 156
+  index: -1
+ac_B_9
+  rotate: false
+  xy: 511, 9
+  size: 38, 24
+  orig: 256, 256
+  offset: 116, 36
+  index: -1
+idle_0
+  rotate: false
+  xy: 571, 126
+  size: 181, 129
+  orig: 300, 300
+  offset: 47, 76
+  index: -1
+idle_1
+  rotate: false
+  xy: 1, 125
+  size: 193, 130
+  orig: 300, 300
+  offset: 43, 76
+  index: -1
+idle_2
+  rotate: false
+  xy: 195, 130
+  size: 191, 125
+  orig: 300, 300
+  offset: 48, 76
+  index: -1
+idle_3
+  rotate: false
+  xy: 387, 128
+  size: 183, 127
+  orig: 300, 300
+  offset: 55, 76
+  index: -1
+idle_4
+  rotate: false
+  xy: 195, 1
+  size: 187, 128
+  orig: 300, 300
+  offset: 49, 76
+  index: -1
+other/ac_B_10_skill
+  rotate: false
+  xy: 422, 99
+  size: 32, 28
+  orig: 256, 256
+  offset: 90, 150
+  index: -1
+other/ac_B_11_skill
+  rotate: false
+  xy: 677, 35
+  size: 24, 26
+  orig: 256, 256
+  offset: 58, 44
+  index: -1
+other/ac_B_1_skill
+  rotate: true
+  xy: 1, 8
+  size: 12, 66
+  orig: 256, 256
+  offset: 226, 80
+  index: -1
+other/ac_B_2_skill
+  rotate: false
+  xy: 1181, 101
+  size: 52, 52
+  orig: 256, 256
+  offset: 178, 24
+  index: -1
+other/ac_B_3_skill
+  rotate: true
+  xy: 989, 86
+  size: 34, 68
+  orig: 256, 256
+  offset: 60, 80
+  index: -1
+other/ac_B_4_skill
+  rotate: false
+  xy: 804, 50
+  size: 50, 48
+  orig: 256, 256
+  offset: 72, 34
+  index: -1
+other/ac_B_5_energy_skill
+  rotate: false
+  xy: 1872, 175
+  size: 96, 80
+  orig: 256, 256
+  offset: 114, 70
+  index: -1
+other/ac_B_5_frame_skill
+  rotate: false
+  xy: 912, 121
+  size: 156, 134
+  orig: 256, 256
+  offset: 82, 44
+  index: -1
+other/ac_B_6_skill
+  rotate: false
+  xy: 482, 1
+  size: 28, 32
+  orig: 256, 256
+  offset: 202, 144
+  index: -1
+other/ac_B_7_skill
+  rotate: false
+  xy: 702, 37
+  size: 24, 24
+  orig: 256, 256
+  offset: 208, 24
+  index: -1
+other/ac_B_8_skill
+  rotate: true
+  xy: 1146, 93
+  size: 58, 34
+  orig: 256, 256
+  offset: 122, 170
+  index: -1
+other/ac_B_9_skill
+  rotate: false
+  xy: 642, 27
+  size: 34, 34
+  orig: 256, 256
+  offset: 124, 14
+  index: -1

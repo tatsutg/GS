@@ -1,0 +1,797 @@
+
+50136hand.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BossHand_Red-out3_0
+  rotate: false
+  xy: 1, 177
+  size: 413, 218
+  orig: 413, 218
+  offset: 0, 0
+  index: -1
+BossHand_Red-out3_1
+  rotate: false
+  xy: 415, 216
+  size: 222, 128
+  orig: 222, 128
+  offset: 0, 0
+  index: -1
+EF/9080_S1_red3/t/9080_S1_red3_00005
+  rotate: false
+  xy: 927, 917
+  size: 157, 150
+  orig: 250, 250
+  offset: 48, 51
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00002
+  rotate: true
+  xy: 1760, 911
+  size: 83, 69
+  orig: 250, 250
+  offset: 68, 96
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00004
+  rotate: false
+  xy: 1715, 1095
+  size: 104, 69
+  orig: 250, 250
+  offset: 57, 93
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00006
+  rotate: true
+  xy: 1760, 995
+  size: 99, 70
+  orig: 250, 250
+  offset: 64, 93
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00008
+  rotate: true
+  xy: 1407, 1213
+  size: 101, 84
+  orig: 250, 250
+  offset: 57, 81
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00010
+  rotate: false
+  xy: 1509, 479
+  size: 118, 96
+  orig: 250, 250
+  offset: 51, 76
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00012
+  rotate: false
+  xy: 1517, 576
+  size: 124, 104
+  orig: 250, 250
+  offset: 49, 73
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00014
+  rotate: true
+  xy: 1642, 564
+  size: 127, 107
+  orig: 250, 250
+  offset: 49, 71
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00016
+  rotate: true
+  xy: 1496, 54
+  size: 129, 110
+  orig: 250, 250
+  offset: 49, 70
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00018
+  rotate: false
+  xy: 1624, 1177
+  size: 130, 113
+  orig: 250, 250
+  offset: 49, 69
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00020
+  rotate: false
+  xy: 1475, 1075
+  size: 130, 115
+  orig: 250, 250
+  offset: 50, 68
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00022
+  rotate: false
+  xy: 1492, 1191
+  size: 131, 118
+  orig: 250, 250
+  offset: 51, 67
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00024
+  rotate: true
+  xy: 1517, 681
+  size: 130, 120
+  orig: 250, 250
+  offset: 52, 66
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00026
+  rotate: true
+  xy: 1509, 943
+  size: 131, 123
+  orig: 250, 250
+  offset: 53, 64
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00028
+  rotate: false
+  xy: 1214, 1313
+  size: 130, 124
+  orig: 250, 250
+  offset: 55, 64
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00030
+  rotate: true
+  xy: 1509, 812
+  size: 130, 125
+  orig: 250, 250
+  offset: 56, 63
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00032
+  rotate: true
+  xy: 1633, 944
+  size: 130, 126
+  orig: 250, 250
+  offset: 57, 63
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00034
+  rotate: false
+  xy: 638, 216
+  size: 131, 128
+  orig: 250, 250
+  offset: 57, 62
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00036
+  rotate: true
+  xy: 991, 315
+  size: 133, 128
+  orig: 250, 250
+  offset: 56, 62
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00038
+  rotate: false
+  xy: 1084, 643
+  size: 136, 130
+  orig: 250, 250
+  offset: 55, 61
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00040
+  rotate: false
+  xy: 1120, 315
+  size: 139, 133
+  orig: 250, 250
+  offset: 53, 59
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00042
+  rotate: false
+  xy: 783, 934
+  size: 143, 134
+  orig: 250, 250
+  offset: 51, 58
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00044
+  rotate: true
+  xy: 1371, 774
+  size: 146, 137
+  orig: 250, 250
+  offset: 50, 57
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00046
+  rotate: true
+  xy: 1370, 921
+  size: 149, 138
+  orig: 250, 250
+  offset: 49, 57
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00048
+  rotate: true
+  xy: 1231, 918
+  size: 152, 138
+  orig: 250, 250
+  offset: 48, 58
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00050
+  rotate: false
+  xy: 1059, 1069
+  size: 154, 134
+  orig: 250, 250
+  offset: 48, 62
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00052
+  rotate: true
+  xy: 1059, 1204
+  size: 156, 131
+  orig: 250, 250
+  offset: 49, 64
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00054
+  rotate: false
+  xy: 1499, 1310
+  size: 157, 129
+  orig: 250, 250
+  offset: 50, 66
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00056
+  rotate: false
+  xy: 1499, 1440
+  size: 158, 126
+  orig: 250, 250
+  offset: 51, 69
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00058
+  rotate: false
+  xy: 718, 458
+  size: 159, 128
+  orig: 250, 250
+  offset: 52, 70
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00060
+  rotate: false
+  xy: 1260, 315
+  size: 157, 133
+  orig: 250, 250
+  offset: 56, 69
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00062
+  rotate: false
+  xy: 1060, 449
+  size: 154, 135
+  orig: 250, 250
+  offset: 61, 69
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00064
+  rotate: false
+  xy: 1345, 1315
+  size: 153, 130
+  orig: 250, 250
+  offset: 62, 76
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00066
+  rotate: false
+  xy: 1218, 779
+  size: 152, 138
+  orig: 250, 250
+  offset: 64, 68
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00068
+  rotate: false
+  xy: 1066, 774
+  size: 151, 142
+  orig: 250, 250
+  offset: 65, 65
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00070
+  rotate: true
+  xy: 1085, 918
+  size: 150, 145
+  orig: 250, 250
+  offset: 65, 62
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00072
+  rotate: false
+  xy: 1367, 626
+  size: 149, 147
+  orig: 250, 250
+  offset: 64, 60
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00074
+  rotate: false
+  xy: 1361, 478
+  size: 147, 147
+  orig: 250, 250
+  offset: 64, 59
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00076
+  rotate: false
+  xy: 730, 587
+  size: 148, 148
+  orig: 250, 250
+  offset: 64, 58
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00078
+  rotate: false
+  xy: 1801, 1266
+  size: 156, 147
+  orig: 250, 250
+  offset: 58, 58
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00080
+  rotate: true
+  xy: 1046, 1432
+  size: 164, 147
+  orig: 250, 250
+  offset: 55, 57
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00084
+  rotate: false
+  xy: 1061, 1
+  size: 169, 140
+  orig: 250, 250
+  offset: 54, 56
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00088
+  rotate: true
+  xy: 1061, 142
+  size: 172, 140
+  orig: 250, 250
+  offset: 55, 57
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00092
+  rotate: true
+  xy: 1333, 146
+  size: 168, 127
+  orig: 250, 250
+  offset: 63, 64
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00096
+  rotate: true
+  xy: 1202, 143
+  size: 171, 130
+  orig: 250, 250
+  offset: 63, 63
+  index: -1
+EF/9080_gateEF_myst4/9080_gateEF_myst4_00098
+  rotate: false
+  xy: 770, 216
+  size: 140, 98
+  orig: 250, 250
+  offset: 65, 96
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00000
+  rotate: false
+  xy: 1861, 1090
+  size: 72, 72
+  orig: 200, 200
+  offset: 64, 65
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00001
+  rotate: false
+  xy: 1760, 830
+  size: 79, 80
+  orig: 200, 200
+  offset: 61, 60
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00002
+  rotate: true
+  xy: 1955, 1149
+  size: 84, 85
+  orig: 200, 200
+  offset: 58, 59
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00003
+  rotate: false
+  xy: 1958, 1234
+  size: 88, 84
+  orig: 200, 200
+  offset: 56, 60
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00004
+  rotate: true
+  xy: 1958, 1319
+  size: 94, 89
+  orig: 200, 200
+  offset: 51, 59
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00005
+  rotate: true
+  xy: 1861, 1163
+  size: 102, 93
+  orig: 200, 200
+  offset: 44, 55
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00006
+  rotate: false
+  xy: 1755, 1165
+  size: 105, 100
+  orig: 200, 200
+  offset: 44, 49
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00007
+  rotate: true
+  xy: 1303, 1204
+  size: 108, 103
+  orig: 200, 200
+  offset: 41, 48
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00008
+  rotate: true
+  xy: 1191, 1204
+  size: 108, 111
+  orig: 200, 200
+  offset: 41, 46
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00009
+  rotate: false
+  xy: 702, 345
+  size: 108, 112
+  orig: 200, 200
+  offset: 41, 45
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00010
+  rotate: false
+  xy: 1676, 351
+  size: 110, 111
+  orig: 200, 200
+  offset: 40, 45
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00011
+  rotate: false
+  xy: 1564, 351
+  size: 111, 111
+  orig: 200, 200
+  offset: 38, 47
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00012
+  rotate: false
+  xy: 1695, 242
+  size: 108, 108
+  orig: 200, 200
+  offset: 40, 50
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00013
+  rotate: false
+  xy: 1584, 242
+  size: 110, 108
+  orig: 200, 200
+  offset: 36, 50
+  index: -1
+EF/9140_A2_fire1/9140_A2_fire1_00014
+  rotate: true
+  xy: 1606, 1075
+  size: 101, 108
+  orig: 200, 200
+  offset: 44, 51
+  index: -1
+arm
+  rotate: false
+  xy: 1, 1597
+  size: 1048, 450
+  orig: 1048, 450
+  offset: 0, 0
+  index: -1
+arm_shadow
+  rotate: false
+  xy: 1, 1351
+  size: 1044, 245
+  orig: 1044, 245
+  offset: 0, 0
+  index: -1
+arm_tattoo
+  rotate: false
+  xy: 1, 683
+  size: 471, 298
+  orig: 471, 298
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 1, 982
+  size: 510, 368
+  orig: 510, 368
+  offset: 0, 0
+  index: -1
+hand2/eye1
+  rotate: false
+  xy: 1221, 655
+  size: 145, 123
+  orig: 145, 123
+  offset: 0, 0
+  index: -1
+hand2/eye2
+  rotate: false
+  xy: 911, 221
+  size: 149, 93
+  orig: 152, 96
+  offset: 3, 3
+  index: -1
+hand2/eye3
+  rotate: false
+  xy: 1801, 1414
+  size: 163, 42
+  orig: 165, 47
+  offset: 2, 2
+  index: -1
+hand2/hand
+  rotate: true
+  xy: 1050, 1601
+  size: 446, 491
+  orig: 446, 491
+  offset: 0, 0
+  index: -1
+hand2/index_finger_1
+  rotate: false
+  xy: 1345, 1446
+  size: 153, 154
+  orig: 153, 154
+  offset: 0, 0
+  index: -1
+hand2/index_finger_2
+  rotate: true
+  xy: 1638, 692
+  size: 125, 116
+  orig: 125, 116
+  offset: 0, 0
+  index: -1
+hand2/index_finger_3
+  rotate: true
+  xy: 1355, 2
+  size: 143, 140
+  orig: 143, 140
+  offset: 0, 0
+  index: -1
+hand2/little_finger_1
+  rotate: false
+  xy: 879, 585
+  size: 182, 114
+  orig: 182, 114
+  offset: 0, 0
+  index: -1
+hand2/little_finger_2
+  rotate: true
+  xy: 1214, 1071
+  size: 132, 138
+  orig: 132, 138
+  offset: 0, 0
+  index: -1
+hand2/little_finger_3
+  rotate: true
+  xy: 1657, 1291
+  size: 131, 143
+  orig: 131, 143
+  offset: 0, 0
+  index: -1
+hand2/magic1
+  rotate: true
+  xy: 1542, 1668
+  size: 379, 493
+  orig: 379, 493
+  offset: 0, 0
+  index: -1
+hand2/magic2
+  rotate: true
+  xy: 1801, 1457
+  size: 210, 236
+  orig: 210, 236
+  offset: 0, 0
+  index: -1
+hand2/middle_finger_1
+  rotate: false
+  xy: 811, 315
+  size: 179, 133
+  orig: 179, 133
+  offset: 0, 0
+  index: -1
+hand2/middle_finger_2
+  rotate: false
+  xy: 1658, 1423
+  size: 142, 143
+  orig: 142, 143
+  offset: 0, 0
+  index: -1
+hand2/middle_finger_3
+  rotate: false
+  xy: 1418, 328
+  size: 145, 149
+  orig: 145, 149
+  offset: 0, 0
+  index: -1
+hand2/ring_finger_1
+  rotate: false
+  xy: 878, 449
+  size: 181, 135
+  orig: 181, 135
+  offset: 0, 0
+  index: -1
+hand2/ring_finger_2
+  rotate: true
+  xy: 1461, 184
+  size: 143, 122
+  orig: 143, 122
+  offset: 0, 0
+  index: -1
+hand2/ring_finger_3
+  rotate: false
+  xy: 914, 47
+  size: 146, 173
+  orig: 146, 173
+  offset: 0, 0
+  index: -1
+hand2/tatoo
+  rotate: true
+  xy: 512, 1069
+  size: 281, 415
+  orig: 281, 415
+  offset: 0, 0
+  index: -1
+hand2/tatoo2
+  rotate: true
+  xy: 1820, 1100
+  size: 64, 40
+  orig: 64, 40
+  offset: 0, 0
+  index: -1
+hand2/tatoo3
+  rotate: true
+  xy: 1628, 463
+  size: 100, 127
+  orig: 100, 127
+  offset: 0, 0
+  index: -1
+hand2/thumb_1
+  rotate: true
+  xy: 1, 1
+  size: 175, 188
+  orig: 175, 188
+  offset: 0, 0
+  index: -1
+hand2/thumb_2
+  rotate: false
+  xy: 1215, 449
+  size: 145, 148
+  orig: 145, 148
+  offset: 0, 0
+  index: -1
+hand2/thumb_3
+  rotate: false
+  xy: 473, 693
+  size: 256, 259
+  orig: 256, 259
+  offset: 0, 0
+  index: -1
+hand_tattoo
+  rotate: false
+  xy: 1, 396
+  size: 397, 286
+  orig: 397, 286
+  offset: 0, 0
+  index: -1
+index_finger_1
+  rotate: true
+  xy: 692, 23
+  size: 192, 92
+  orig: 192, 92
+  offset: 0, 0
+  index: -1
+index_finger_2
+  rotate: true
+  xy: 593, 21
+  size: 194, 98
+  orig: 194, 98
+  offset: 0, 0
+  index: -1
+index_finger_3
+  rotate: true
+  xy: 399, 413
+  size: 269, 76
+  orig: 270, 77
+  offset: 0, 1
+  index: -1
+little_finger_1
+  rotate: true
+  xy: 730, 736
+  size: 197, 148
+  orig: 197, 148
+  offset: 0, 0
+  index: -1
+little_finger_2
+  rotate: true
+  xy: 1231, 1
+  size: 141, 123
+  orig: 141, 123
+  offset: 0, 0
+  index: -1
+little_finger_3
+  rotate: false
+  xy: 190, 3
+  size: 231, 173
+  orig: 231, 173
+  offset: 0, 0
+  index: -1
+little_finger_tattoo
+  rotate: true
+  xy: 785, 39
+  size: 176, 128
+  orig: 176, 128
+  offset: 0, 0
+  index: -1
+middle_finger_1
+  rotate: true
+  xy: 879, 774
+  size: 142, 186
+  orig: 142, 186
+  offset: 0, 0
+  index: -1
+middle_finger_2
+  rotate: false
+  xy: 1194, 1438
+  size: 150, 162
+  orig: 150, 162
+  offset: 0, 0
+  index: -1
+middle_finger_3
+  rotate: false
+  xy: 512, 953
+  size: 270, 115
+  orig: 270, 115
+  offset: 0, 0
+  index: -1
+middle_finger_tattoo
+  rotate: false
+  xy: 879, 700
+  size: 204, 73
+  orig: 204, 73
+  offset: 0, 0
+  index: -1
+ring
+  rotate: true
+  xy: 1353, 1071
+  size: 132, 121
+  orig: 132, 121
+  offset: 0, 0
+  index: -1
+ring_2
+  rotate: false
+  xy: 1496, 15
+  size: 81, 38
+  orig: 81, 38
+  offset: 0, 0
+  index: -1
+ring_finger_1
+  rotate: false
+  xy: 422, 21
+  size: 170, 194
+  orig: 189, 195
+  offset: 9, 0
+  index: -1
+ring_finger_2
+  rotate: false
+  xy: 1635, 818
+  size: 124, 125
+  orig: 124, 125
+  offset: 0, 0
+  index: -1
+ring_finger_3
+  rotate: true
+  xy: 928, 1068
+  size: 282, 130
+  orig: 288, 145
+  offset: 0, 15
+  index: -1
+ring_finger_tattoo
+  rotate: false
+  xy: 1062, 598
+  size: 160, 44
+  orig: 160, 44
+  offset: 0, 0
+  index: -1
+ring_shadow
+  rotate: false
+  xy: 1046, 1361
+  size: 143, 70
+  orig: 143, 70
+  offset: 0, 0
+  index: -1
+thumb_1
+  rotate: false
+  xy: 1542, 1567
+  size: 258, 100
+  orig: 258, 100
+  offset: 0, 0
+  index: -1
+thumb_2
+  rotate: false
+  xy: 476, 345
+  size: 225, 125
+  orig: 225, 125
+  offset: 0, 0
+  index: -1
+thumb_3
+  rotate: false
+  xy: 476, 471
+  size: 241, 221
+  orig: 241, 224
+  offset: 0, 3
+  index: -1

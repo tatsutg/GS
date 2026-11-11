@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "UhT6JaLa0qgS5kGJBOUuqWWNxfM", "spine": "3.6.53", "width": 0, "height": 0 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "MAIN", "parent": "root", "y": 60 }
+],
+"slots": [
+	{ "name": "MAIN", "bone": "MAIN", "attachment": "idle_03" }
+],
+"skins": {
+	"default": {
+		"MAIN": {
+			"idle_00": { "y": 5.94, "width": 270, "height": 270 },
+			"idle_01": { "y": 5.94, "width": 270, "height": 270 },
+			"idle_02": { "y": 5.94, "width": 270, "height": 270 },
+			"idle_03": { "y": 5.94, "width": 270, "height": 270 }
+		}
+	}
+},
+"events": {
+	"event": {},
+	"event2": {},
+	"resetHitList": { "string": "resetHitList" }
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.1667, "name": "idle_01" },
+					{ "time": 0.3333, "name": "idle_02" },
+					{ "time": 0.5, "name": "idle_03" },
+					{ "time": 0.6667, "name": "idle_00" }
+				]
+			}
+		}
+	}
+}
+}

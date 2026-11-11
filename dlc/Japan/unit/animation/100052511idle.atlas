@@ -1,0 +1,41 @@
+
+100052511idle.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: false
+  xy: 762, 3
+  size: 242, 121
+  orig: 600, 600
+  offset: 264, 188
+  index: -1
+idle_01
+  rotate: false
+  xy: 259, 2
+  size: 250, 122
+  orig: 600, 600
+  offset: 256, 188
+  index: -1
+idle_02
+  rotate: false
+  xy: 1, 1
+  size: 257, 123
+  orig: 600, 600
+  offset: 249, 188
+  index: -1
+idle_03
+  rotate: false
+  xy: 510, 3
+  size: 251, 121
+  orig: 600, 600
+  offset: 255, 188
+  index: -1
+idle_04
+  rotate: false
+  xy: 1005, 4
+  size: 243, 120
+  orig: 600, 600
+  offset: 262, 188
+  index: -1

@@ -1,0 +1,1750 @@
+{
+"skeleton": { "hash": "EPVNRDEgsQDPkT6O3lmvA1aVd/0", "spine": "3.0.12", "width": 400, "height": 400, "images": "./images2/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "magic", "parent": "root", "x": -300 },
+	{ "name": "MAIN", "parent": "root", "y": 64.66, "scaleX": 2, "scaleY": 2 },
+	{ "name": "HITBOX", "parent": "MAIN", "y": -3.12, "scaleX": 0.401, "scaleY": 0.919 },
+	{ "name": "DAMAGEAREA", "parent": "root" },
+	{ "name": "water_wave_1", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_2", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_3", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_4", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_5", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_6", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_7", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_8", "parent": "root", "x": -200, "color": "ff00fbff" },
+	{ "name": "water_wave_9", "parent": "root", "x": -200, "color": "ff00fbff" }
+],
+"slots": [
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_00003", "bone": "water_wave_1", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_3", "bone": "water_wave_2", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_4", "bone": "water_wave_3", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_5", "bone": "water_wave_4", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_6", "bone": "water_wave_5", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_7", "bone": "water_wave_6", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_8", "bone": "water_wave_7", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_9", "bone": "water_wave_8", "blend": "additive" },
+	{ "name": "EF/ef_water_wave_main/ef_water_wave_main_10", "bone": "water_wave_9", "blend": "additive" },
+	{ "name": "EF/5100_S2_magic1b", "bone": "magic", "blend": "additive" },
+	{ "name": "EF/magic_2water", "bone": "magic", "blend": "additive" },
+	{ "name": "MAIN", "bone": "MAIN", "attachment": "idle_00" },
+	{ "name": "DAMAGEAREA", "bone": "DAMAGEAREA" },
+	{ "name": "HITBOX", "bone": "HITBOX", "attachment": "HITBOX" }
+],
+"skins": {
+	"default": {
+		"DAMAGEAREA": {
+			"DAMAGEAREA": {
+				"type": "boundingbox",
+				"vertices": [ -64.12196, 63.99892, -63.97103, -64.25025, 64.09312, -63.97814, 63.9711, 63.98195 ]
+			}
+		},
+		"EF/5100_S2_magic1b": {
+			"EF/5100_S2_magic1b": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 182, -182, -182, -182, -182, 182, 182, 182 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 364,
+				"height": 364
+			}
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_00003": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_10": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_3": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_4": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_5": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_6": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_7": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_8": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/ef_water_wave_main/ef_water_wave_main_9": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00005": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00007": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00009": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00011": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00013": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00015": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00017": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00019": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00021": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00023": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00025": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00027": { "width": 250, "height": 90 },
+			"EF/ef_water_wave_main/ef_water_wave_main_00029": { "width": 250, "height": 90 }
+		},
+		"EF/magic_2water": {
+			"EF/magic_2water": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 150, -150, -150, -150, -150, 150, 150, 150 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 300,
+				"height": 300
+			}
+		},
+		"HITBOX": {
+			"HITBOX": {
+				"type": "boundingbox",
+				"vertices": [ -32.3672, 31.9398, -32.2122, -31.76509, 31.64768, -31.92008, 31.85955, 31.77407 ]
+			}
+		},
+		"MAIN": {
+			"attack_00": { "y": -1.55, "width": 200, "height": 200 },
+			"attack_01": { "y": -1.55, "width": 200, "height": 200 },
+			"attack_02": { "y": -1.55, "width": 200, "height": 200 },
+			"attack_03": { "y": -1.55, "width": 200, "height": 200 },
+			"back_00": { "y": -1.55, "width": 200, "height": 200 },
+			"damage_00": { "y": -1.55, "width": 200, "height": 200 },
+			"front_00": { "y": -1.55, "width": 200, "height": 200 },
+			"idle_00": { "y": -1.55, "width": 200, "height": 200 },
+			"idle_01": { "y": -1.55, "width": 200, "height": 200 },
+			"idle_02": { "y": -1.55, "width": 200, "height": 200 },
+			"idle_03": { "y": -1.55, "width": 200, "height": 200 },
+			"skill1_00": { "y": -1.55, "width": 200, "height": 200 },
+			"skill1_01": { "y": -1.55, "width": 200, "height": 200 },
+			"skill1_02": { "y": -1.55, "width": 200, "height": 200 },
+			"skill1_03": { "y": -1.55, "width": 200, "height": 200 },
+			"skill1_04": { "y": -1.55, "width": 200, "height": 200 },
+			"skill1_05": { "y": -1.55, "width": 200, "height": 200 },
+			"skill2_00": { "y": -1.55, "width": 200, "height": 200 },
+			"skill2_01": { "y": -1.55, "width": 200, "height": 200 },
+			"skill2_02": { "y": -1.55, "width": 200, "height": 200 },
+			"skill2_03": { "y": -1.55, "width": 200, "height": 200 },
+			"skill2_04": { "y": -1.55, "width": 200, "height": 200 },
+			"skill2_05": { "y": -1.55, "width": 200, "height": 200 },
+			"skill2_06": { "y": -1.56, "width": 200, "height": 200 }
+		}
+	}
+},
+"events": {
+	"Event": {},
+	"Event2": {},
+	"Hit": {},
+	"Sound1": {},
+	"Sound2": {},
+	"Sound3": {},
+	"Voice": {}
+},
+"animations": {
+	"attack1": {
+		"slots": {
+			"DAMAGEAREA": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "attack_00" },
+					{ "time": 0.3333, "name": "attack_01" },
+					{ "time": 0.4333, "name": "attack_02" },
+					{ "time": 0.5333, "name": "attack_03" },
+					{ "time": 0.9666, "name": "idle_02" },
+					{ "time": 1.1, "name": "idle_00" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound1", "string": "cri_se_battle_charge" },
+			{ "time": 0.3333, "name": "Voice", "string": "cri_196_voice_attack_random" },
+			{ "time": 0.5333, "name": "Event", "string": "addOrbitSystemShot(Bullet,HIT,1)" }
+		]
+	},
+	"back": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "back_00" },
+					{ "time": 0.2666, "name": "idle_03" },
+					{ "time": 0.5333, "name": "idle_01" },
+					{ "time": 0.7, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 105, "y": 16.19 },
+					{
+						"time": 0.3666,
+						"x": 135,
+						"y": 0,
+						"curve": [ 0.071, 0.6, 0.497, 1 ]
+					},
+					{ "time": 0.5333, "x": 140, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 140, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound1", "string": "cri_se_battle_jump" },
+			{ "time": 0.3666, "name": "Sound1", "string": "cri_se_battle_landing" }
+		]
+	},
+	"cast": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "attack_00" },
+					{ "time": 0.3, "name": "attack_01" },
+					{ "time": 0.4, "name": "attack_02" },
+					{ "time": 0.5, "name": "attack_03" },
+					{ "time": 0.8333, "name": "idle_00" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "Voice", "string": "cri_196_voice_item" }
+		]
+	},
+	"damage": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "damage_00" }
+				]
+			}
+		}
+	},
+	"empty": {},
+	"front": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "front_00" }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.2666, "name": "idle_01" },
+					{ "time": 0.5, "name": "idle_02" },
+					{ "time": 0.7666, "name": "idle_03" },
+					{ "time": 1, "name": "idle_00" }
+				]
+			}
+		}
+	},
+	"in": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill2_05" },
+					{ "time": 0.1666, "name": "skill2_06" },
+					{ "time": 0.3333, "name": "skill2_05" },
+					{ "time": 0.5, "name": "skill2_06" },
+					{ "time": 0.6666, "name": "idle_01" },
+					{ "time": 0.8, "name": "idle_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Event", "string": "takeSummon2" }
+		]
+	},
+	"skill1": {
+		"slots": {
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 0.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 0.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 0.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 0.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 0.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 0.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.0666, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 0.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill1_00" },
+					{ "time": 0.1333, "name": "skill1_01" },
+					{ "time": 0.3333, "name": "skill1_02" },
+					{ "time": 0.4, "name": "skill1_03" },
+					{ "time": 0.5333, "name": "skill1_04" },
+					{ "time": 0.6666, "name": "skill1_05" },
+					{ "time": 0.7666, "name": "skill1_03" },
+					{ "time": 0.9, "name": "skill1_04" },
+					{ "time": 1.0333, "name": "skill1_05" },
+					{ "time": 1.1333, "name": "skill2_02" },
+					{ "time": 1.2666, "name": "idle_01" },
+					{ "time": 1.4333, "name": "idle_00" },
+					{ "time": 1.5666, "name": "skill1_00" }
+				]
+			}
+		},
+		"bones": {
+			"water_wave_1": {
+				"translate": [
+					{ "time": 0, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 0.3666, "x": 206.03, "y": -1.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 0.3666, "x": 2.732, "y": 2.732 }
+				]
+			},
+			"water_wave_2": {
+				"translate": [
+					{ "time": 0, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 0.5, "x": 206.03, "y": -1.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 0.5, "x": 2.732, "y": 2.732 }
+				]
+			},
+			"water_wave_3": {
+				"translate": [
+					{ "time": 0, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 0.6333, "x": 206.03, "y": -1.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 0.6333, "x": 2.732, "y": 2.732 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "Sound1", "string": "cri_se_battle_cure_01" },
+			{ "time": 0.3333, "name": "Sound2", "string": "cri_se_battle_bell_tree_03" },
+			{ "time": 0.3333, "name": "Voice", "string": "cri_196_voice_skill_all" },
+			{ "time": 0.4, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.5, "name": "Event", "string": "runSkillEffect" }
+		]
+	},
+	"skill2": {
+		"slots": {
+			"DAMAGEAREA": {
+				"attachment": [
+					{ "time": 1.3333, "name": "DAMAGEAREA" },
+					{ "time": 2.6, "name": null },
+					{ "time": 4.8666, "name": "DAMAGEAREA" },
+					{ "time": 5.3333, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": {
+				"attachment": [
+					{ "time": 0.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 0.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 0.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 0.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 0.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 0.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 0.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 0.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.7666, "name": null },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.6333, "name": null },
+					{ "time": 4.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 4.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 4.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 4.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 4.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 4.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 4.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 5.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 5.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 5.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 5.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 5.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 5.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 5.3666, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_3": {
+				"attachment": [
+					{ "time": 0.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 0.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 0.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 0.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 0.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.9, "name": null },
+					{ "time": 4.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 4.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 4.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 4.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 5.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 5.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 5.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 5.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 5.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 5.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 5.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 5.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 5.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 5.3333, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_4": {
+				"attachment": [
+					{ "time": 0.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 0.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.0666, "name": null },
+					{ "time": 4.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 5.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 5.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 5.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 5.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 5.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 5.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 5.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 5.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 5.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 5.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 5.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 5.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 5.4333, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_5": {
+				"attachment": [
+					{ "time": 0.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.1666, "name": null },
+					{ "time": 5.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 5.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 5.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 5.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 5.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 5.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 5.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 5.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 5.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 5.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 5.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 5.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 5.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 5.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 5.5666, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_6": {
+				"attachment": [
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.3, "name": null },
+					{ "time": 5.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 5.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 5.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 5.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 5.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 5.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 5.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 5.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 5.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 5.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 5.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 5.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 5.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 5.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 5.7, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_7": {
+				"attachment": [
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.4333, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_8": {
+				"attachment": [
+					{ "time": 1.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.5666, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_9": {
+				"attachment": [
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.7, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_10": {
+				"attachment": [
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.9333, "name": null }
+				],
+				"color": [
+					{ "time": 2.7666, "color": "ffffffff" },
+					{ "time": 2.9333, "color": "ffffff00" }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill2_01" },
+					{ "time": 0.3, "name": "skill2_03" },
+					{ "time": 2.4666, "name": "skill2_04" },
+					{ "time": 3.3, "name": "skill2_05" },
+					{ "time": 3.4666, "name": "skill2_06" },
+					{ "time": 3.6333, "name": "skill2_05" },
+					{ "time": 3.8, "name": "skill2_06" },
+					{ "time": 3.9666, "name": "skill2_05" },
+					{ "time": 4.1333, "name": "skill2_06" },
+					{ "time": 4.7333, "name": "idle_01" },
+					{ "time": 4.9333, "name": "idle_00" },
+					{ "time": 5.7, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"water_wave_1": {
+				"translate": [
+					{ "time": 0.3666, "x": 997.36, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 455.2, "y": -19.57, "curve": "stepped" },
+					{ "time": 1.3, "x": -134.68, "y": 18.17, "curve": "stepped" },
+					{ "time": 2.0333, "x": 272.87, "y": 0, "curve": "stepped" },
+					{ "time": 4.7666, "x": 233, "y": -8.54 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 0.8333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.3, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 2.0333, "x": 1.511, "y": 1.176, "curve": "stepped" },
+					{ "time": 4.7666, "x": 1.511, "y": 1.176 }
+				]
+			},
+			"water_wave_2": {
+				"translate": [
+					{ "time": 0.5, "x": 823.46, "y": -18.47, "curve": "stepped" },
+					{ "time": 0.9666, "x": 288.12, "y": 17.86, "curve": "stepped" },
+					{ "time": 1.4333, "x": -257.43, "y": -11.49, "curve": "stepped" },
+					{ "time": 4.8666, "x": 72, "y": 6.43 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 0.9666, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.4333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 4.8666, "x": 1.511, "y": 1.176 }
+				]
+			},
+			"water_wave_3": {
+				"translate": [
+					{ "time": 0.6666, "x": 651.27, "y": -1.7, "curve": "stepped" },
+					{ "time": 1.1333, "x": 69.9, "y": -17.59, "curve": "stepped" },
+					{ "time": 1.6, "x": -470.55, "y": 11.91, "curve": "stepped" },
+					{ "time": 4.9666, "x": -102.14, "y": -12.05 }
+				],
+				"scale": [
+					{ "time": 0.6666, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.1333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.6, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 4.9666, "x": 1.511, "y": 1.176 }
+				]
+			},
+			"water_wave_4": {
+				"translate": [
+					{ "time": 0.7666, "x": 1000.6, "y": 12.67, "curve": "stepped" },
+					{ "time": 1.2333, "x": 434.16, "y": 11.09, "curve": "stepped" },
+					{ "time": 1.7, "x": -131.02, "y": -15.81, "curve": "stepped" },
+					{ "time": 5.1, "x": -287.95, "y": 6.55 }
+				],
+				"scale": [
+					{ "time": 0.7666, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.2333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.7, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 5.1, "x": 1.511, "y": 1.176 }
+				]
+			},
+			"water_wave_6": {
+				"translate": [
+					{ "time": 1.0333, "x": 677.06, "y": -11.35, "curve": "stepped" },
+					{ "time": 1.5, "x": 100.88, "y": 17.03, "curve": "stepped" },
+					{ "time": 1.9666, "x": -467.38, "y": -15.14 }
+				],
+				"scale": [
+					{ "time": 1.0333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.5, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.9666, "x": 2.295, "y": 1.786 }
+				]
+			},
+			"water_wave_5": {
+				"translate": [
+					{ "time": 0.9, "x": 809.81, "y": 26.91, "curve": "stepped" },
+					{ "time": 1.3666, "x": 280.26, "y": -6.48, "curve": "stepped" },
+					{ "time": 1.8333, "x": -259.49, "y": 25.32, "curve": "stepped" },
+					{ "time": 5.2333, "x": -502.13, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.9, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.3666, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.8333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 5.2333, "x": 1.511, "y": 1.176 }
+				]
+			},
+			"water_wave_7": {
+				"translate": [
+					{ "time": 1.1666, "x": 997.11, "y": -11.87, "curve": "stepped" },
+					{ "time": 1.6333, "x": 429.35, "y": -16.96, "curve": "stepped" },
+					{ "time": 2.1, "x": -126.59, "y": -20.35 }
+				],
+				"scale": [
+					{ "time": 1.1666, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.6333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 2.1, "x": 2.295, "y": 1.786 }
+				]
+			},
+			"water_wave_8": {
+				"translate": [
+					{ "time": 1.3, "x": 812.22, "y": -15.26, "curve": "stepped" },
+					{ "time": 1.7666, "x": 276.08, "y": 13.56, "curve": "stepped" },
+					{ "time": 2.2333, "x": -264.9, "y": -16.96 }
+				],
+				"scale": [
+					{ "time": 1.3, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.7666, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 2.2333, "x": 2.295, "y": 1.786 }
+				]
+			},
+			"water_wave_9": {
+				"translate": [
+					{ "time": 1.4333, "x": 680.02, "y": 0, "curve": "stepped" },
+					{ "time": 1.9, "x": 106.23, "y": 0, "curve": "stepped" },
+					{ "time": 2.3666, "x": -434.17, "y": 0 }
+				],
+				"scale": [
+					{ "time": 1.4333, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 1.9, "x": 2.295, "y": 1.786, "curve": "stepped" },
+					{ "time": 2.3666, "x": 2.295, "y": 1.786 }
+				]
+			},
+			"DAMAGEAREA": {
+				"translate": [
+					{ "time": 1.3333, "x": 309.38, "y": 0 },
+					{ "time": 1.7333, "x": -176.67, "y": 0, "curve": "stepped" },
+					{ "time": 4.8666, "x": -127.76, "y": 12.22 },
+					{ "time": 5.2666, "x": -763.61, "y": 12.22 }
+				],
+				"scale": [
+					{ "time": 1.3333, "x": 11.633, "y": 1, "curve": "stepped" },
+					{ "time": 4.8666, "x": 1.675, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Event", "string": "setHitEffect(hit02b, 0)" },
+			{ "time": 0, "name": "Voice", "string": "cri_196_voice_fullarts_now" },
+			{ "time": 0.0333, "name": "Event", "float": 0.2, "string": "kHitStopType_normal" },
+			{ "time": 0.0666, "name": "Event", "string": "setHitBackEnemy(30,0)" },
+			{ "time": 0.3, "name": "Sound1", "string": "cri_se_battle_magic_Invocation_dark" },
+			{ "time": 0.3666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.3666, "name": "Sound2", "string": "setHitSound(se_battle_025_blow_hit)" },
+			{ "time": 0.5, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.6333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.6666, "name": "Event", "string": "runSkillEffect" },
+			{ "time": 0.7, "name": "Event2", "float": 0.2, "string": "shakeGround" },
+			{ "time": 0.7666, "name": "Event2", "float": 0.3, "string": "shakeGround" },
+			{ "time": 0.7666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.8333, "name": "Event2", "float": 0.4, "string": "shakeGround" },
+			{ "time": 0.9, "name": "Event2", "float": 0.5, "string": "shakeGround" },
+			{ "time": 0.9, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.9666, "name": "Event2", "float": 0.6, "string": "shakeGround" },
+			{ "time": 1.0333, "name": "Event2", "float": 0.7, "string": "shakeGround" },
+			{ "time": 1.0333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.1, "name": "Event2", "float": 0.8, "string": "shakeGround" },
+			{ "time": 1.1666, "name": "Event2", "float": 0.9, "string": "shakeGround" },
+			{ "time": 1.1666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.2333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.3, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.3, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.3666, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.4, "name": "Event", "float": 0.1, "string": "kHitStopType_enemyonly" },
+			{ "time": 1.4, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.4333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.4333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.4666, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.5, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.5333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.5666, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.5666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.6, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.6666, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.6666, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.7, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.7333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.7666, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.8, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.8333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.8666, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.9, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.9333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 1.9666, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.9666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.0666, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.0666, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.1, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.1333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.2, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.2333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.2333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.2666, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.3333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.3333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.3666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.4, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.4333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.4666, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.5, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.5333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.5333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 4, "name": "Voice", "string": "cri_196_voice_fullarts_rank5" },
+			{ "time": 4.7666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 4.8666, "name": "Event", "float": 0.15, "string": "kHitStopType_normal" },
+			{ "time": 4.8666, "name": "Event2", "float": 2, "string": "shakeGround" },
+			{ "time": 4.8666, "name": "Hit", "float": 10, "string": "resetHitList" },
+			{ "time": 4.8666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 4.9666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 5, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 5.1, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 5.1666, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 5.2333, "name": "Sound1", "string": "cri_se_battle_pop_landing" }
+		]
+	},
+	"skill3": {
+		"slots": {
+			"DAMAGEAREA": {
+				"attachment": [
+					{ "time": 4.7, "name": "DAMAGEAREA" },
+					{ "time": 4.8, "name": null }
+				]
+			},
+			"EF/5100_S2_magic1b": {
+				"attachment": [
+					{ "time": 0.3666, "name": "EF/5100_S2_magic1b" }
+				],
+				"color": [
+					{ "time": 3.5666, "color": "ffffffff" },
+					{ "time": 4, "color": "ffffff00" }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_00003": {
+				"attachment": [
+					{ "time": 0.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 0.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 0.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 0.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 0.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 0.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 0.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.0666, "name": null },
+					{ "time": 1.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.9333, "name": null },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.6, "name": null },
+					{ "time": 2.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 3.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 3.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 3.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 3.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 3.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 3.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.3666, "name": null },
+					{ "time": 3.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 3.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 3.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 3.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 3.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 3.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 3.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 3.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.9666, "name": null }
+				],
+				"color": [
+					{ "time": 3.7666, "color": "ffffffff" },
+					{ "time": 3.9666, "color": "ffffff00" }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_3": {
+				"attachment": [
+					{ "time": 0.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 0.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 0.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 0.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 0.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 1.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 1.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 1.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 1.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 1.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 1.5333, "name": null },
+					{ "time": 1.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 1.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 1.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 1.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.3333, "name": null },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 3.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 3.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 3.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 3.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 3.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 3.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 3.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 3.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 3.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 3.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.5, "name": null },
+					{ "time": 3.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 3.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 3.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 3.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 3.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 3.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 3.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 3.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.9666, "name": null }
+				],
+				"color": [
+					{ "time": 3.7666, "color": "ffffffff" },
+					{ "time": 3.9666, "color": "ffffff00" }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_4": {
+				"attachment": [
+					{ "time": 1.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 1.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 1.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 1.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.4333, "name": null },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.6666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.9666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 3.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.1, "name": null },
+					{ "time": 3.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 3.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 3.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 3.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 3.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 3.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 3.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 3.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 3.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 3.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 3.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 3.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 3.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.7666, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_5": {
+				"attachment": [
+					{ "time": 2.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.7666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.8, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.8333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.8666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.9, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.9333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 3.0333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 3.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 3.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 3.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.2666, "name": null }
+				]
+			},
+			"EF/ef_water_wave_main/ef_water_wave_main_6": {
+				"attachment": [
+					{ "time": 2.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 2.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 2.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 2.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 2.3333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 2.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 2.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 2.4333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 2.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 2.5333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 2.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 2.6333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 2.7, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 2.7333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 2.7666, "name": null },
+					{ "time": 3.0666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00003" },
+					{ "time": 3.1, "name": "EF/ef_water_wave_main/ef_water_wave_main_00005" },
+					{ "time": 3.1333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00007" },
+					{ "time": 3.1666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00009" },
+					{ "time": 3.2, "name": "EF/ef_water_wave_main/ef_water_wave_main_00011" },
+					{ "time": 3.2333, "name": "EF/ef_water_wave_main/ef_water_wave_main_00013" },
+					{ "time": 3.2666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00015" },
+					{ "time": 3.3, "name": "EF/ef_water_wave_main/ef_water_wave_main_00017" },
+					{ "time": 3.3666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00019" },
+					{ "time": 3.4, "name": "EF/ef_water_wave_main/ef_water_wave_main_00021" },
+					{ "time": 3.4666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00023" },
+					{ "time": 3.5, "name": "EF/ef_water_wave_main/ef_water_wave_main_00025" },
+					{ "time": 3.5666, "name": "EF/ef_water_wave_main/ef_water_wave_main_00027" },
+					{ "time": 3.6, "name": "EF/ef_water_wave_main/ef_water_wave_main_00029" },
+					{ "time": 3.6333, "name": null }
+				]
+			},
+			"EF/magic_2water": {
+				"attachment": [
+					{ "time": 0.3666, "name": "EF/magic_2water" }
+				],
+				"color": [
+					{ "time": 3.5666, "color": "ffffffff" },
+					{ "time": 4, "color": "ffffff00" }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill1_00" },
+					{ "time": 0.2, "name": "skill1_01" },
+					{ "time": 0.3666, "name": "skill1_03" },
+					{ "time": 0.4333, "name": "skill1_04" },
+					{ "time": 0.5, "name": "skill1_05" },
+					{ "time": 0.5666, "name": "skill1_03" },
+					{ "time": 0.6333, "name": "skill1_04" },
+					{ "time": 0.7, "name": "skill1_05" },
+					{ "time": 0.7666, "name": "skill1_03" },
+					{ "time": 0.8333, "name": "skill1_04" },
+					{ "time": 0.9, "name": "skill1_05" },
+					{ "time": 0.9666, "name": "skill1_03" },
+					{ "time": 1.0333, "name": "skill1_04" },
+					{ "time": 1.1, "name": "skill1_05" },
+					{ "time": 1.1666, "name": "skill1_03" },
+					{ "time": 1.2333, "name": "skill1_04" },
+					{ "time": 1.3, "name": "skill1_05" },
+					{ "time": 1.3666, "name": "skill1_03" },
+					{ "time": 1.4333, "name": "skill1_04" },
+					{ "time": 1.5, "name": "skill1_05" },
+					{ "time": 1.5666, "name": "skill1_03" },
+					{ "time": 1.6333, "name": "skill1_04" },
+					{ "time": 1.7, "name": "skill1_05" },
+					{ "time": 1.7666, "name": "skill1_03" },
+					{ "time": 1.8333, "name": "skill1_04" },
+					{ "time": 1.9, "name": "skill1_05" },
+					{ "time": 1.9666, "name": "skill1_03" },
+					{ "time": 2.0333, "name": "skill1_04" },
+					{ "time": 2.1, "name": "skill1_05" },
+					{ "time": 2.1666, "name": "skill1_03" },
+					{ "time": 2.2333, "name": "skill1_04" },
+					{ "time": 2.3, "name": "skill1_05" },
+					{ "time": 2.3666, "name": "skill1_03" },
+					{ "time": 2.4333, "name": "skill1_04" },
+					{ "time": 2.5, "name": "skill1_05" },
+					{ "time": 2.5666, "name": "skill1_03" },
+					{ "time": 2.6333, "name": "skill1_04" },
+					{ "time": 2.7, "name": "skill1_05" },
+					{ "time": 2.7666, "name": "skill1_03" },
+					{ "time": 2.8333, "name": "skill1_04" },
+					{ "time": 2.9, "name": "skill1_05" },
+					{ "time": 2.9666, "name": "skill2_02" },
+					{ "time": 3.5, "name": "skill2_03" },
+					{ "time": 5, "name": "idle_01" },
+					{ "time": 5.1666, "name": "idle_00" },
+					{ "time": 5.3, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"water_wave_1": {
+				"translate": [
+					{ "time": 0.3666, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 1.2333, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 2.0333, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 2.8, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 3.5666, "x": 216.57, "y": -1.83 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 1.2333, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 2.0333, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 2.8, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 3.5666, "x": 4.646, "y": 4.646 },
+					{ "time": 3.9666, "x": 5.123, "y": 5.123 }
+				]
+			},
+			"magic": {
+				"translate": [
+					{ "time": 0.3666, "x": 308.2, "y": -4.63 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 0.593, "y": 0.115 },
+					{ "time": 0.6666, "x": 1.183, "y": 0.229, "curve": "stepped" },
+					{
+						"time": 3.5666,
+						"x": 1.183,
+						"y": 0.229,
+						"curve": [ 0.072, 0.48, 0.516, 1 ]
+					},
+					{ "time": 4.1333, "x": 2.194, "y": 0.425 }
+				]
+			},
+			"water_wave_2": {
+				"translate": [
+					{ "time": 0.8333, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 1.6333, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 2.3666, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 2.9333, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 3.5666, "x": -8.86, "y": -1.52 }
+				],
+				"scale": [
+					{ "time": 0.8333, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 1.6333, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 2.3666, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 2.9333, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 3.5666, "x": 2.415, "y": 2.415 },
+					{ "time": 3.9666, "x": 3.71, "y": 3.71 }
+				]
+			},
+			"water_wave_3": {
+				"translate": [
+					{ "time": 1.8666, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 2.5333, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 3.2, "x": 206.03, "y": -1.52 }
+				],
+				"scale": [
+					{ "time": 1.8666, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 2.5333, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 3.2, "x": 2.732, "y": 2.732 }
+				]
+			},
+			"DAMAGEAREA": {
+				"translate": [
+					{ "time": 4.7, "x": -468.67, "y": 176.06 }
+				],
+				"scale": [
+					{ "time": 4.7, "x": 8.316, "y": 3.04 }
+				]
+			},
+			"water_wave_4": {
+				"translate": [
+					{ "time": 2.7, "x": 206.03, "y": -1.52 }
+				],
+				"scale": [
+					{ "time": 2.7, "x": 2.732, "y": 2.732 }
+				]
+			},
+			"water_wave_5": {
+				"translate": [
+					{ "time": 2.2, "x": 206.03, "y": -1.52, "curve": "stepped" },
+					{ "time": 3.0666, "x": 206.03, "y": -1.52 }
+				],
+				"scale": [
+					{ "time": 2.2, "x": 2.732, "y": 2.732, "curve": "stepped" },
+					{ "time": 3.0666, "x": 2.732, "y": 2.732 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"EF/5100_S2_magic1b": {
+					"EF/5100_S2_magic1b": [
+						{
+							"time": 0.3666,
+							"offset": 1,
+							"vertices": [ 2.80527 ]
+						},
+						{
+							"time": 3.6,
+							"vertices": [ -64.94001, -44.88936, -47.74695, 65.54464, 65.35322, 47.47983, 47.28849, -65.62022 ]
+						}
+					]
+				},
+				"EF/magic_2water": {
+					"EF/magic_2water": [
+						{
+							"time": 0.3666,
+							"offset": 1,
+							"vertices": [ 1.88481 ]
+						},
+						{
+							"time": 3.5666,
+							"vertices": [ 34.03201, 47.03348, 45.27674, -34.35411, -34.29348, -45.09885, -45.03832, 34.47143 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Event", "float": 0.5, "string": "kHitStopType_normal" },
+			{ "time": 0, "name": "Voice", "string": "cri_196_voice_fullarts_now_b" },
+			{ "time": 0.1333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.3333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.3333, "name": "Sound2", "string": "cri_se_battle_magic_Invocation_dark" },
+			{ "time": 0.5333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 0.5333, "name": "Sound2", "string": "cri_se_battle_charge_03" },
+			{ "time": 1.3666, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.6, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.7333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 1.9333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.2, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.3333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.5, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.6, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.7, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.8, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 2.9333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 3.0333, "name": "Sound1", "string": "cri_se_battle_pop_landing" },
+			{ "time": 3.4666, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.4666, "name": "Voice", "string": "cri_196_voice_fullarts_rank6" },
+			{ "time": 3.6333, "name": "Event", "string": "runSkillEffect" },
+			{ "time": 4.6, "name": "Sound1", "string": "cri_se_battle_monster_claw" },
+			{ "time": 4.6, "name": "Sound2", "string": "cri_se_battle_explosion_water_02" },
+			{ "time": 4.6, "name": "Sound3", "string": "setHitSound(se_battle_thrustviolently)" },
+			{ "time": 4.7, "name": "Event2", "float": 5, "string": "shakeGround" },
+			{ "time": 5.1666, "name": "Sound2", "string": "cri_se_battle_arrow_light_effect" }
+		]
+	}
+}
+}

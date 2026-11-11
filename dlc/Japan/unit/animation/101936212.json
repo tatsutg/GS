@@ -1,0 +1,1676 @@
+{
+"skeleton": { "hash": "OvteY7cmkrFi65b7DqI/4lZ3f4I", "spine": "3.0.12", "width": 0, "height": 0, "images": "./images2/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "ef_graund_wave_main2", "parent": "root", "x": 900, "y": 300, "color": "ff1100ff" },
+	{ "name": "ef_graund_wave_main", "parent": "root", "x": 900, "y": 300, "color": "ff1100ff" },
+	{ "name": "SHADOW-OFFSET", "parent": "root" },
+	{ "name": "MAIN", "parent": "root", "y": 128.01 },
+	{ "name": "HPBAR", "parent": "MAIN", "y": 67.26 },
+	{ "name": "HITBOX", "parent": "MAIN", "y": -33.95, "scaleX": 0.614, "scaleY": 1.461 },
+	{ "name": "DAMAGEAREA", "parent": "root" },
+	{ "name": "weapon", "parent": "root", "x": -57.33, "y": 119.87 }
+],
+"slots": [
+	{ "name": "ef_graund_wave_main", "bone": "ef_graund_wave_main", "blend": "additive" },
+	{ "name": "ef_graund_wave_main2", "bone": "ef_graund_wave_main2", "blend": "additive" },
+	{ "name": "MAIN", "bone": "MAIN", "attachment": "idle1_1" },
+	{ "name": "weapon", "bone": "weapon" },
+	{ "name": "attack1_08_b", "bone": "weapon", "blend": "additive" },
+	{ "name": "DAMAGEAREA", "bone": "DAMAGEAREA" },
+	{ "name": "HITBOX", "bone": "HITBOX", "attachment": "HITBOX" }
+],
+"skins": {
+	"default": {
+		"DAMAGEAREA": {
+			"DAMAGEAREA": {
+				"type": "boundingbox",
+				"vertices": [ -98.34261, -98.74238, 98.21135, -97.14437, 99.01033, 97.81157, -98.34261, 97.81157 ]
+			}
+		},
+		"HITBOX": {
+			"HITBOX": {
+				"type": "boundingbox",
+				"vertices": [ -64.14403, 63.09004, -64.14403, -64.58977, 63.07983, -64.58977, 63.53582, 63.54605 ]
+			}
+		},
+		"MAIN": {
+			"attack1_01": { "x": -5.59, "y": -32.72, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"attack1_02": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"attack1_04": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"attack1_05": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"attack1_08": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"attack1_09": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"back1_1": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"damage1_1": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"dash1_1": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"idle1_1": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"idle1_2": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"idle1_3": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"idle1_4": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill1_1": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill1_2": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill1_3": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill1_4": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill1_5": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill1_5_b": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill2_1": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill2_2": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill2_3": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill2_4": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill2_5": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill2_6": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"skill2_7": { "x": -5.59, "y": -34.18, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 }
+		},
+		"attack1_08_b": {
+			"attack1_08_b": { "x": 51.39, "y": -25.59, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 }
+		},
+		"ef_graund_wave_main": {
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00001": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00002": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00003": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00004": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00005": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00006": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00007": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00008": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00009": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00010": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00011": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00012": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00013": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00014": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00015": { "width": 100, "height": 60 }
+		},
+		"ef_graund_wave_main2": {
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00001": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00002": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00003": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00004": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00005": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00006": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00007": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00008": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00009": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00010": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00011": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00012": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00013": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00014": { "width": 100, "height": 60 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00015": { "width": 100, "height": 60 }
+		},
+		"weapon": {
+			"weapon1_1": { "x": 57.33, "y": -22.19, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 },
+			"weapon1_2": { "x": 57.33, "y": -22.19, "scaleX": 2, "scaleY": 2, "width": 300, "height": 300 }
+		}
+	}
+},
+"events": {
+	"Event": {},
+	"Event2": {},
+	"Hit": { "string": "kHitStopType_normal" },
+	"HitEffect": { "string": "kHitStopType_normal" },
+	"Sound1": {},
+	"Sound2": {},
+	"Sound3": {},
+	"Voice": {}
+},
+"animations": {
+	"attack1": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "attack1_01" },
+					{ "time": 0.1333, "name": "attack1_02" },
+					{ "time": 0.3666, "name": "attack1_01" },
+					{ "time": 0.4333, "name": "attack1_02" },
+					{ "time": 0.5666, "name": "skill1_3" },
+					{ "time": 0.7666, "name": "attack1_02" },
+					{ "time": 0.8, "name": "attack1_01" },
+					{ "time": 0.9333, "name": "attack1_04" },
+					{ "time": 1.0333, "name": "attack1_05" },
+					{ "time": 1.3, "name": "attack1_08" },
+					{ "time": 1.5333, "name": "attack1_09" },
+					{ "time": 1.9333, "name": "attack1_01" },
+					{ "time": 2, "name": "idle1_1" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 1.0333, "name": "weapon1_1" },
+					{ "time": 1.1333, "name": "weapon1_2" },
+					{ "time": 1.2, "name": "weapon1_1" },
+					{ "time": 1.3, "name": null }
+				],
+				"color": [
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.147, 0.92, 0.75, 1 ]
+					},
+					{
+						"time": 0.2666,
+						"x": 20,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.879, 0.33 ]
+					},
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.5333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.186, 0.99, 0.75, 1 ]
+					},
+					{
+						"time": 0.5666,
+						"x": 25,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.807, 0.16 ]
+					},
+					{ "time": 0.7666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.5333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.228, 0.7, 0.75, 1 ]
+					},
+					{
+						"time": 1.5666,
+						"x": 20.94,
+						"y": 0,
+						"curve": [ 0.187, 0.97, 0.695, 0.79 ]
+					},
+					{ "time": 1.7, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound3", "string": "setHitSound(se_battle_007_attack_hit_01)" },
+			{ "time": 0.1333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.1333, "name": "Voice", "string": "cri_193_voice_attack_random" },
+			{ "time": 0.2666, "name": "Event", "string": "addOrbitSystemInsight(attack1Hit,empty,2,0,0,150,0)" },
+			{ "time": 0.4333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.5666, "name": "Event", "string": "addOrbitSystemInsight(attack1Hit,empty,2,0,0,150,0)" },
+			{ "time": 0.9666, "name": "Sound1", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 1.1333, "name": "Sound1", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 1.3333, "name": "Voice", "string": "cri_193_voice_attack_c" },
+			{ "time": 1.4, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.4333, "name": "Event", "string": "addOrbitSystemInsight(attack1Hit,empty,2,0,0,150,0)" }
+		]
+	},
+	"back": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "back1_1" },
+					{ "time": 0.3, "name": "attack1_04" },
+					{ "time": 0.6666, "name": "attack1_04" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 60, "y": 16.88 },
+					{
+						"time": 0.3,
+						"x": 130,
+						"y": 0,
+						"curve": [ 0.244, 0.76, 0.75, 1 ]
+					},
+					{ "time": 0.5333, "x": 140, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 140, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound1", "string": "cri_se_battle_jump" },
+			{ "time": 0.3, "name": "Sound1", "string": "cri_se_battle_landing" }
+		]
+	},
+	"cast": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle1_1" },
+					{ "time": 0.0666, "name": "attack1_04" },
+					{ "time": 0.1666, "name": "attack1_05" },
+					{ "time": 0.3666, "name": "attack1_08" },
+					{ "time": 0.5, "name": "attack1_09" },
+					{ "time": 0.8333, "name": "attack1_08" },
+					{ "time": 1, "name": "attack1_08" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0.1666, "name": "weapon1_1" },
+					{ "time": 0.2333, "name": "weapon1_2" },
+					{ "time": 0.3, "name": "weapon1_1" },
+					{ "time": 0.3666, "name": null }
+				],
+				"color": [
+					{
+						"time": 0.3,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.909, 0.13 ]
+					},
+					{ "time": 0.3666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"rotate": [
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"SHADOW-OFFSET": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1333, "name": "Sound1", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 0.3, "name": "Sound1", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 0.3666, "name": "Voice", "string": "cri_193_voice_item" }
+		]
+	},
+	"damage": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "damage1_1" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"front": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "dash1_1" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle1_1" },
+					{ "time": 0.2333, "name": "idle1_2" },
+					{ "time": 0.5, "name": "idle1_3" },
+					{ "time": 0.7, "name": "idle1_4" },
+					{ "time": 1, "name": "idle1_1" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"in": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill2_1" },
+					{ "time": 0.3333, "name": "idle1_1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -17.3,
+						"y": 0,
+						"curve": [ 0.176, 0.76, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": -17.3,
+						"y": -4.94,
+						"curve": [ 0.178, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.2, "x": -17.3, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Event", "string": "takeSummon2" }
+		]
+	},
+	"skill1": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle1_1" },
+					{ "time": 0.0666, "name": "skill2_1" },
+					{ "time": 0.1666, "name": "skill1_1" },
+					{ "time": 0.2666, "name": "skill1_2" },
+					{ "time": 0.3666, "name": "skill1_1" },
+					{ "time": 0.4666, "name": "skill1_2" },
+					{ "time": 0.5666, "name": "skill1_1" },
+					{ "time": 0.6666, "name": "skill1_3" },
+					{ "time": 0.7666, "name": "skill1_4" },
+					{ "time": 0.8666, "name": "skill1_5" },
+					{ "time": 0.9666, "name": "skill1_4" },
+					{ "time": 1.0666, "name": "skill1_5" },
+					{ "time": 1.1666, "name": "skill1_4" },
+					{ "time": 1.2666, "name": "skill1_5" },
+					{ "time": 1.3666, "name": "skill1_4" },
+					{ "time": 1.4666, "name": "skill1_5" },
+					{ "time": 1.5666, "name": "skill1_4" },
+					{ "time": 1.6666, "name": "skill1_5" },
+					{ "time": 1.7666, "name": "skill1_4" },
+					{ "time": 1.8666, "name": "skill1_5" },
+					{ "time": 1.9666, "name": "skill1_4" },
+					{ "time": 2.0666, "name": "skill1_5" },
+					{ "time": 2.1666, "name": "skill1_5_b" },
+					{ "time": 2.2666, "name": "skill1_5" },
+					{ "time": 2.3666, "name": "skill1_5_b" },
+					{ "time": 2.4666, "name": "skill1_3" },
+					{ "time": 3, "name": "idle1_1" }
+				]
+			},
+			"ef_graund_wave_main": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.1666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.2, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.2333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": -7.45, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": -13.24, "y": -4.13, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0.41, "y": -0.82 },
+					{
+						"time": 0.7666,
+						"x": -20,
+						"y": 0,
+						"curve": [ 0.695, 0.05, 0.845, 0.37 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.142, 0.96, 0.612, 0.84 ]
+					},
+					{
+						"time": 0.9666,
+						"x": -19,
+						"y": 0,
+						"curve": [ 0.306, 0.11, 0.907, 0.59 ]
+					},
+					{
+						"time": 1.0666,
+						"x": 1,
+						"y": 0,
+						"curve": [ 0.202, 0.88, 0.557, 0.75 ]
+					},
+					{
+						"time": 1.1666,
+						"x": -18,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.795, 0.34 ]
+					},
+					{
+						"time": 1.2666,
+						"x": 2,
+						"y": 0,
+						"curve": [ 0.263, 0.74, 0.568, 0.87 ]
+					},
+					{
+						"time": 1.3666,
+						"x": -17,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.787, 0.35 ]
+					},
+					{
+						"time": 1.4666,
+						"x": 3,
+						"y": 0,
+						"curve": [ 0.311, 0.69, 0.583, 0.84 ]
+					},
+					{
+						"time": 1.5666,
+						"x": -16,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.773, 0.37 ]
+					},
+					{
+						"time": 1.6666,
+						"x": 4,
+						"y": 0,
+						"curve": [ 0.31, 0.84, 0.57, 0.85 ]
+					},
+					{
+						"time": 1.7666,
+						"x": -14,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.802, 0.34 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 6,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{ "time": 1.9666, "x": -12, "y": 0, "curve": "stepped" },
+					{
+						"time": 2.4666,
+						"x": -12,
+						"y": 0,
+						"curve": [ 0.284, 0.84, 0.569, 0.8 ]
+					},
+					{ "time": 2.6, "x": 10.85, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 10.85, "y": 0 }
+				]
+			},
+			"ef_graund_wave_main": {
+				"translate": [
+					{ "time": 0, "x": -901.74, "y": -275.77 }
+				],
+				"scale": [
+					{ "time": 0, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 0.1333, "x": 8, "y": 8 }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"translate": [
+					{ "time": 0, "x": -901.75, "y": -289.48, "curve": "stepped" },
+					{ "time": 0.2666, "x": -901.75, "y": -289.48 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 1, "y": 1 },
+					{ "time": 0.7333, "x": 8, "y": 8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound1", "string": "cri_se_scenario_fetters_magic" },
+			{ "time": 0.8, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.8666, "name": "Event", "string": "addOrbitSystemInsight(skill1hit1,empty,999,0,0,150,0)" },
+			{ "time": 0.8666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 0.8666, "name": "Voice", "string": "cri_193_voice_skill_all" },
+			{ "time": 1.0666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.1666, "name": "Event", "string": "addOrbitSystemInsight(skill1hit2,empty,999,0,0,150,0)" },
+			{ "time": 1.1666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.2666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.3333, "name": "Event", "string": "addOrbitSystemInsight(skill1hit3,empty,999,0,0,150,0)" },
+			{ "time": 1.3333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.4666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.5333, "name": "Event", "string": "addOrbitSystemInsight(skill1hit4,empty,999,0,0,150,0)" },
+			{ "time": 1.5333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.6666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.7333, "name": "Event", "string": "addOrbitSystemInsight(skill1hit5,empty,999,0,0,150,0)" },
+			{ "time": 1.7333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.8666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.9333, "name": "Event", "string": "addOrbitSystemInsight(skill1hit6,empty,999,0,0,150,0)" },
+			{ "time": 1.9333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.1, "name": "Sound1", "string": "cri_se_battle_charge" },
+			{ "time": 2.4, "name": "Sound1", "string": "cri_se_battle_canon" },
+			{ "time": 2.4, "name": "Sound2", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.4666, "name": "Event", "string": "addOrbitSystemInsight(skill1hit7,empty,999,0,0,150,0)" },
+			{ "time": 2.4666, "name": "Event2", "string": "shakeGround" }
+		]
+	},
+	"skill2": {
+		"slots": {
+			"DAMAGEAREA": {
+				"attachment": [
+					{ "time": 1.9, "name": "DAMAGEAREA" },
+					{ "time": 4.8666, "name": null }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle1_1" },
+					{ "time": 0.0666, "name": "skill2_1" },
+					{ "time": 0.2333, "name": "skill2_2" },
+					{ "time": 0.4, "name": "skill2_3" },
+					{ "time": 0.5, "name": "skill2_4" },
+					{ "time": 0.6, "name": "skill2_3" },
+					{ "time": 0.7, "name": "skill2_4" },
+					{ "time": 0.8, "name": "skill2_3" },
+					{ "time": 0.9, "name": "skill2_4" },
+					{ "time": 0.9666, "name": "skill2_3" },
+					{ "time": 1.0333, "name": "skill2_5" },
+					{ "time": 1.1333, "name": "skill2_6" },
+					{ "time": 1.2333, "name": "skill2_5" },
+					{ "time": 1.3333, "name": "skill2_6" },
+					{ "time": 1.4333, "name": "skill2_5" },
+					{ "time": 1.5333, "name": "skill2_6" },
+					{ "time": 1.6333, "name": "skill2_5" },
+					{ "time": 1.7333, "name": "skill2_6" },
+					{ "time": 1.8333, "name": "skill2_5" },
+					{ "time": 1.9333, "name": "skill2_6" },
+					{ "time": 2.0333, "name": "skill2_5" },
+					{ "time": 2.1333, "name": "skill2_6" },
+					{ "time": 2.2333, "name": "skill2_5" },
+					{ "time": 2.3333, "name": "skill2_6" },
+					{ "time": 2.4333, "name": "skill2_5" },
+					{ "time": 2.5333, "name": "skill2_6" },
+					{ "time": 2.6, "name": "skill2_5" },
+					{ "time": 2.7, "name": "skill2_6" },
+					{ "time": 2.8, "name": "skill2_5" },
+					{ "time": 2.9, "name": "skill2_6" },
+					{ "time": 3, "name": "skill2_5" },
+					{ "time": 3.1, "name": "skill2_6" },
+					{ "time": 3.2, "name": "skill2_5" },
+					{ "time": 3.3, "name": "skill2_6" },
+					{ "time": 3.4, "name": "skill2_5" },
+					{ "time": 3.5, "name": "skill2_6" },
+					{ "time": 3.6, "name": "skill2_5" },
+					{ "time": 3.7, "name": "skill2_6" },
+					{ "time": 3.8, "name": "skill2_5" },
+					{ "time": 3.9, "name": "skill2_6" },
+					{ "time": 4, "name": "skill2_5" },
+					{ "time": 4.1, "name": "skill2_6" },
+					{ "time": 4.2, "name": "skill2_5" },
+					{ "time": 4.3, "name": "skill2_6" },
+					{ "time": 4.4, "name": "skill2_5" },
+					{ "time": 4.5, "name": "skill2_6" },
+					{ "time": 4.6, "name": "skill2_5" },
+					{ "time": 4.7, "name": "skill2_6" },
+					{ "time": 4.8, "name": "skill2_5" },
+					{ "time": 4.9, "name": "skill2_6" },
+					{ "time": 5, "name": "skill2_5" },
+					{ "time": 5.1, "name": "skill2_3" },
+					{ "time": 5.1666, "name": "skill2_7" },
+					{ "time": 5.2666, "name": "skill2_1" },
+					{ "time": 5.4666, "name": "idle1_1" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 0.2333,
+						"x": 0,
+						"y": 17.8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 0,
+						"y": 206.88,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"x": 0,
+						"y": 202.57,
+						"curve": [ 0.25, 0, 0.906, 0.61 ]
+					},
+					{ "time": 5.1, "x": 0, "y": 216.88 },
+					{
+						"time": 5.1666,
+						"x": 0,
+						"y": 201.58,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 5.2666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.234, 0.62, 0.75, 1 ]
+					},
+					{
+						"time": 5.4,
+						"x": 3,
+						"y": -3.11,
+						"curve": [ 0.25, 0, 0.835, 0.5 ]
+					},
+					{ "time": 5.4666, "x": 0, "y": 0 }
+				]
+			},
+			"DAMAGEAREA": {
+				"translate": [
+					{ "time": 1.9, "x": -382.12, "y": 253.52 }
+				],
+				"scale": [
+					{ "time": 1.9, "x": 6.059, "y": 3.229 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Hit", "float": 0.1, "string": "kHitStopType_enemyonly" },
+			{ "time": 0, "name": "HitEffect", "string": "setHitEffect(hit05b, 1)" },
+			{ "time": 0, "name": "Voice", "string": "cri_193_voice_fullarts_now" },
+			{ "time": 0.2333, "name": "Sound1", "string": "cri_se_battle_jump" },
+			{ "time": 0.4, "name": "Sound1", "string": "cri_se_battle_charge" },
+			{ "time": 1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 1, "name": "Sound2", "string": "cri_se_battle_037_explosion_element_05" },
+			{ "time": 1.2666, "name": "Event", "float": 4, "string": "shakeGround_Loop" },
+			{ "time": 1.6333, "name": "Voice", "string": "cri_193_voice_fullarts_rank5" },
+			{ "time": 1.7666, "name": "Sound3", "string": "setHitSound(se_battle_swordslash_heavy)" },
+			{ "time": 1.8333, "name": "Sound1", "string": "cri_se_battle_darkness_explosion" },
+			{ "time": 1.8666, "name": "Event", "string": "setHitBackEnemy(20,0)" },
+			{ "time": 1.9, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.2, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.3, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.3333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.5, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.5333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.7, "name": "Hit", "string": "resetHitList" },
+			{ "time": 2.7, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.9, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.0333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 3.1, "name": "Hit", "string": "resetHitList" },
+			{ "time": 3.1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.2333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 3.3, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.4333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 3.5, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.5333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 3.7, "name": "Hit", "string": "resetHitList" },
+			{ "time": 3.7, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.9, "name": "Hit", "string": "resetHitList" },
+			{ "time": 3.9, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.2, "name": "Hit", "string": "resetHitList" },
+			{ "time": 4.3, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.3666, "name": "Hit", "string": "resetHitList" },
+			{ "time": 4.5, "name": "Hit", "string": "resetHitList" },
+			{ "time": 4.5, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.6, "name": "Hit", "string": "resetHitList" },
+			{ "time": 4.6333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 4.7, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.7333, "name": "Hit", "string": "resetHitList" },
+			{ "time": 4.7666, "name": "Hit", "string": "resetHitList" }
+		]
+	},
+	"skill3": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill1_5" },
+					{ "time": 0.0666, "name": "skill2_1" },
+					{ "time": 0.1666, "name": "skill1_1" },
+					{ "time": 0.2666, "name": "skill1_2" },
+					{ "time": 0.3666, "name": "skill1_1" },
+					{ "time": 0.4666, "name": "skill1_2" },
+					{ "time": 0.5666, "name": "skill1_1" },
+					{ "time": 0.6666, "name": "skill1_2" },
+					{ "time": 0.7666, "name": "skill1_1" },
+					{ "time": 0.8666, "name": "skill1_2" },
+					{ "time": 0.9666, "name": "skill1_1" },
+					{ "time": 1.1, "name": "skill1_3" },
+					{ "time": 1.2, "name": "skill1_4" },
+					{ "time": 1.3, "name": "skill1_5" },
+					{ "time": 1.4, "name": "skill1_4" },
+					{ "time": 1.5, "name": "skill1_5" },
+					{ "time": 1.6, "name": "skill1_5" },
+					{ "time": 1.7, "name": "skill1_5" },
+					{ "time": 1.8, "name": "skill1_4" },
+					{ "time": 1.9, "name": "skill1_5" },
+					{ "time": 2, "name": "skill1_4" },
+					{ "time": 2.1, "name": "skill1_5" },
+					{ "time": 2.2, "name": "skill1_3" },
+					{ "time": 2.3666, "name": "attack1_04" },
+					{ "time": 2.5, "name": "attack1_05" },
+					{ "time": 2.8333, "name": "skill1_3" },
+					{ "time": 2.9666, "name": "skill1_4" },
+					{ "time": 3.0666, "name": "skill1_5" },
+					{ "time": 3.1666, "name": "skill1_4" },
+					{ "time": 3.2666, "name": "skill1_5" },
+					{ "time": 3.3666, "name": "skill1_4" },
+					{ "time": 3.4666, "name": "skill1_5" },
+					{ "time": 3.5666, "name": "skill1_4" },
+					{ "time": 3.6666, "name": "skill1_5" },
+					{ "time": 3.7666, "name": "skill1_4" },
+					{ "time": 3.8666, "name": "skill1_5" },
+					{ "time": 3.9666, "name": "skill1_4" },
+					{ "time": 4.0666, "name": "skill1_5" },
+					{ "time": 4.2333, "name": "skill1_3" },
+					{ "time": 4.5, "name": "attack1_04" },
+					{ "time": 4.6, "name": "attack1_05" },
+					{ "time": 5.6666, "name": "attack1_08" },
+					{ "time": 5.8666, "name": "attack1_09" },
+					{ "time": 6.6666, "name": "idle1_1" }
+				]
+			},
+			"attack1_08_b": {
+				"attachment": [
+					{ "time": 5.6666, "name": "attack1_08_b" },
+					{ "time": 6.4, "name": null }
+				],
+				"color": [
+					{ "time": 5.6333, "color": "ffffff00" },
+					{ "time": 5.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 5.7666, "color": "ffffffff" },
+					{ "time": 5.8333, "color": "ffffff00" }
+				]
+			},
+			"ef_graund_wave_main": {
+				"attachment": [
+					{ "time": 0, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.1333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.1666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.2, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.2333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.9, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 2.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 2.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 2.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 2.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 2.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 2.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 2.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 2.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 2.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 2.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 2.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 2.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4333, "color": "ffffff00" },
+					{ "time": 2.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.7333, "color": "ffffffff" },
+					{ "time": 2.8333, "color": "ffffff00" }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"attachment": [
+					{ "time": 0, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 0.2333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.9, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 0.9333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 0.9666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 2.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 2.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 2.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 2.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 2.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 2.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 2.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 2.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.7666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.6, "color": "ffffff00" },
+					{ "time": 2.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.8333, "color": "ffffffff" },
+					{ "time": 2.9, "color": "ffffff00" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 2.5, "name": "weapon1_1" },
+					{ "time": 2.5666, "name": "weapon1_2" },
+					{ "time": 2.6333, "name": "weapon1_1" },
+					{ "time": 2.7, "name": "weapon1_2" },
+					{ "time": 2.7666, "name": "weapon1_1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 4.6, "name": "weapon1_1" },
+					{ "time": 4.6666, "name": "weapon1_2" },
+					{ "time": 4.7333, "name": "weapon1_1" },
+					{ "time": 4.8, "name": "weapon1_2" },
+					{ "time": 4.8666, "name": "weapon1_1" },
+					{ "time": 4.9333, "name": "weapon1_2" },
+					{ "time": 5, "name": "weapon1_1" },
+					{ "time": 5.0666, "name": "weapon1_2" },
+					{ "time": 5.1333, "name": "weapon1_1" },
+					{ "time": 5.2, "name": "weapon1_2" },
+					{ "time": 5.2666, "name": "weapon1_1" },
+					{ "time": 5.3333, "name": "weapon1_2" },
+					{ "time": 5.4, "name": "weapon1_1" },
+					{ "time": 5.4666, "name": "weapon1_2" },
+					{ "time": 5.5333, "name": "weapon1_1" },
+					{ "time": 5.5666, "name": "weapon1_2" },
+					{ "time": 5.6, "name": "weapon1_1" },
+					{ "time": 5.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": -18, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": -7.45, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": -13.24, "y": -4.13, "curve": "stepped" },
+					{ "time": 1.1, "x": 0.41, "y": -0.82 },
+					{ "time": 1.2, "x": -20, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.2666,
+						"x": -20,
+						"y": 0,
+						"curve": [ 0.208, 0.55, 0.75, 1 ]
+					},
+					{
+						"time": 1.3,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.142, 0.96, 0.612, 0.84 ]
+					},
+					{ "time": 1.3666, "x": -19, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.5,
+						"x": -19,
+						"y": 0,
+						"curve": [ 0.223, 0.59, 0.75, 1 ]
+					},
+					{
+						"time": 1.5333,
+						"x": 1,
+						"y": 0,
+						"curve": [ 0.142, 0.96, 0.612, 0.84 ]
+					},
+					{ "time": 1.6, "x": -18, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.7333,
+						"x": -18,
+						"y": 0,
+						"curve": [ 0.22, 0.81, 0.623, 0.81 ]
+					},
+					{
+						"time": 1.7666,
+						"x": 2,
+						"y": 0,
+						"curve": [ 0.142, 0.96, 0.612, 0.84 ]
+					},
+					{ "time": 1.8333, "x": -17, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.9666,
+						"x": -17,
+						"y": 0,
+						"curve": [ 0.22, 0.81, 0.623, 0.81 ]
+					},
+					{
+						"time": 2,
+						"x": 3,
+						"y": 0,
+						"curve": [ 0.311, 0.69, 0.583, 0.84 ]
+					},
+					{ "time": 2.0666, "x": -16, "y": 0, "curve": "stepped" },
+					{
+						"time": 2.2,
+						"x": -16,
+						"y": 0,
+						"curve": [ 0.166, 0.58, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "x": 12.38, "y": 0, "curve": "stepped" },
+					{ "time": 2.4666, "x": 2.38, "y": 0, "curve": "stepped" },
+					{
+						"time": 3.0666,
+						"x": 6,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.1666,
+						"x": 16,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.2666,
+						"x": 7,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.3666,
+						"x": 17,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.4666,
+						"x": 8,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.5666,
+						"x": 18,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.6666,
+						"x": 9,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.7666,
+						"x": 19,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.8666,
+						"x": 10,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.9666,
+						"x": 20,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 4.0666,
+						"x": 11,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{ "time": 4.5, "x": 30, "y": 0, "curve": "stepped" },
+					{
+						"time": 5.8,
+						"x": 30,
+						"y": 0,
+						"curve": [ 0.274, 0.75, 0.562, 0.87 ]
+					},
+					{
+						"time": 5.8333,
+						"x": -4.38,
+						"y": 0,
+						"curve": [ 0.274, 0.75, 0.562, 0.87 ]
+					},
+					{
+						"time": 5.8666,
+						"x": 20,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.444, 0.93 ]
+					},
+					{ "time": 6.3, "x": 60, "y": 0, "curve": "stepped" },
+					{ "time": 6.6666, "x": 60, "y": 0 }
+				]
+			},
+			"weapon": {
+				"translate": [
+					{ "time": 2.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6, "x": 16.34, "y": -4.45, "curve": "stepped" },
+					{ "time": 5.6666, "x": 30.01, "y": -0.25 }
+				]
+			},
+			"ef_graund_wave_main": {
+				"translate": [
+					{ "time": 0, "x": -906.23, "y": -271.59, "curve": "stepped" },
+					{ "time": 0.1, "x": -906.23, "y": -271.59 }
+				],
+				"scale": [
+					{ "time": 0, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 0.1, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 0.5333, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 2.4333, "x": 8, "y": 8 }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"translate": [
+					{ "time": 0, "x": -901.75, "y": -283.54 },
+					{ "time": 0.2333, "x": -901.75, "y": -288.1, "curve": "stepped" },
+					{ "time": 0.7333, "x": -901.75, "y": -283.54, "curve": "stepped" },
+					{ "time": 2.6333, "x": -891.26, "y": -290.44 }
+				],
+				"scale": [
+					{ "time": 0, "x": 8, "y": 8 },
+					{ "time": 0.2333, "x": 2.272, "y": 2.272 },
+					{ "time": 0.5333, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 0.7333, "x": 3.099, "y": 3.099 },
+					{ "time": 0.9666, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 2.6333, "x": 3.099, "y": 3.099 },
+					{ "time": 2.8666, "x": 8, "y": 8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Event", "string": "addOrbitSystem-skill3orbit" },
+			{ "time": 0, "name": "HitEffect", "string": "setHitEffect(hit05b, 1)" },
+			{ "time": 0, "name": "Voice", "string": "cri_193_voice_fullarts_now_b" },
+			{ "time": 0.0666, "name": "Sound1", "string": "cri_se_scenario_fetters_magic" },
+			{ "time": 1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 1, "name": "Sound2", "string": "cri_se_battle_037_explosion_element_05" },
+			{ "time": 1.3333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.5, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.6, "name": "Sound3", "string": "setHitSound(se_battle_swordslash_heavy)" },
+			{ "time": 1.6666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.8333, "name": "Sound1", "string": "cri_se_battle_darkness_explosion" },
+			{ "time": 1.9, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.9, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.0333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.1, "name": "Voice", "string": "cri_193_voice_fullarts_rank6" },
+			{ "time": 2.3, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.3, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.5, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.6, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.7, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.7666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.9, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.0333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.3, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.3333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.5, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.5, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.6, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.7, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 3.9, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.9, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.1, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.1666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 4.3, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.3666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 4.5, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 4.5333, "name": "Sound2", "string": "cri_se_battle_stoptime" },
+			{ "time": 4.7, "name": "Event2", "string": "shakeGround" },
+			{ "time": 4.7, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 5.1, "name": "Sound2", "string": "cri_se_battle_stoptime" },
+			{ "time": 5.8333, "name": "Event", "string": "addOrbitSystemInsight(skill3hit3,empty,999,50,0,150,0)" },
+			{ "time": 5.8333, "name": "Sound1", "string": "cri_se_battle_beam" },
+			{ "time": 5.9666, "name": "Event2", "float": 5, "string": "shakeGround" }
+		]
+	},
+	"skill4": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle1_1" },
+					{ "time": 0.0666, "name": "skill2_1" },
+					{ "time": 0.1666, "name": "skill1_1" },
+					{ "time": 0.2666, "name": "skill1_2" },
+					{ "time": 0.3666, "name": "skill1_1" },
+					{ "time": 0.4666, "name": "skill1_2" },
+					{ "time": 0.5666, "name": "skill1_1" },
+					{ "time": 0.6666, "name": "skill1_2" },
+					{ "time": 0.7666, "name": "skill1_1" },
+					{ "time": 0.8666, "name": "skill1_2" },
+					{ "time": 0.9666, "name": "skill1_1" },
+					{ "time": 1.1, "name": "skill1_3" },
+					{ "time": 1.2, "name": "skill1_4" },
+					{ "time": 1.3, "name": "skill1_5" },
+					{ "time": 1.4, "name": "skill1_4" },
+					{ "time": 1.5, "name": "skill1_5" },
+					{ "time": 1.6, "name": "skill1_5" },
+					{ "time": 1.7, "name": "skill1_5" },
+					{ "time": 1.8, "name": "skill1_4" },
+					{ "time": 1.9, "name": "skill1_5" },
+					{ "time": 2, "name": "skill1_4" },
+					{ "time": 2.1, "name": "skill1_5" },
+					{ "time": 2.2, "name": "skill1_3" },
+					{ "time": 2.3666, "name": "attack1_04" },
+					{ "time": 2.5, "name": "attack1_05" },
+					{ "time": 2.8333, "name": "skill1_3" },
+					{ "time": 2.9666, "name": "skill1_4" },
+					{ "time": 3.0666, "name": "skill1_5" },
+					{ "time": 3.1666, "name": "skill1_4" },
+					{ "time": 3.2666, "name": "skill1_5" },
+					{ "time": 3.3666, "name": "skill1_4" },
+					{ "time": 3.4666, "name": "skill1_5" },
+					{ "time": 3.5666, "name": "skill1_4" },
+					{ "time": 3.6666, "name": "skill1_5" },
+					{ "time": 3.7666, "name": "skill1_4" },
+					{ "time": 3.8666, "name": "skill1_5" },
+					{ "time": 3.9666, "name": "skill1_4" },
+					{ "time": 4.0666, "name": "skill1_5" },
+					{ "time": 4.2333, "name": "skill1_3" },
+					{ "time": 4.5, "name": "attack1_04" },
+					{ "time": 4.6, "name": "attack1_05" },
+					{ "time": 5.6666, "name": "attack1_08" },
+					{ "time": 5.8666, "name": "attack1_09" },
+					{ "time": 6.6666, "name": "idle1_1" }
+				]
+			},
+			"attack1_08_b": {
+				"attachment": [
+					{ "time": 5.6666, "name": "attack1_08_b" },
+					{ "time": 6.4, "name": null }
+				],
+				"color": [
+					{ "time": 5.6333, "color": "ffffff00" },
+					{ "time": 5.7, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 5.7666, "color": "ffffffff" },
+					{ "time": 5.8333, "color": "ffffff00" }
+				]
+			},
+			"ef_graund_wave_main": {
+				"attachment": [
+					{ "time": 0.1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.1333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.1666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.2, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.2333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.9, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 2.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 2.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 2.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 2.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 2.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 2.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 2.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 2.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 2.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 2.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 2.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 2.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4333, "color": "ffffff00" },
+					{ "time": 2.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.7333, "color": "ffffffff" },
+					{ "time": 2.8333, "color": "ffffff00" }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"attachment": [
+					{ "time": 0.2333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.9, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 0.9333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 0.9666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 2.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 2.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 2.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 2.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 2.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 2.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 2.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 2.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00015" }
+				],
+				"color": [
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.7666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.6, "color": "ffffff00" },
+					{ "time": 2.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.8333, "color": "ffffffff" },
+					{ "time": 2.9, "color": "ffffff00" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 2.5, "name": "weapon1_1" },
+					{ "time": 2.5666, "name": "weapon1_2" },
+					{ "time": 2.6333, "name": "weapon1_1" },
+					{ "time": 2.7, "name": "weapon1_2" },
+					{ "time": 2.7666, "name": "weapon1_1" },
+					{ "time": 2.8333, "name": null },
+					{ "time": 4.6, "name": "weapon1_1" },
+					{ "time": 4.6666, "name": "weapon1_2" },
+					{ "time": 4.7333, "name": "weapon1_1" },
+					{ "time": 4.8, "name": "weapon1_2" },
+					{ "time": 4.8666, "name": "weapon1_1" },
+					{ "time": 4.9333, "name": "weapon1_2" },
+					{ "time": 5, "name": "weapon1_1" },
+					{ "time": 5.0666, "name": "weapon1_2" },
+					{ "time": 5.1333, "name": "weapon1_1" },
+					{ "time": 5.2, "name": "weapon1_2" },
+					{ "time": 5.2666, "name": "weapon1_1" },
+					{ "time": 5.3333, "name": "weapon1_2" },
+					{ "time": 5.4, "name": "weapon1_1" },
+					{ "time": 5.4666, "name": "weapon1_2" },
+					{ "time": 5.5333, "name": "weapon1_1" },
+					{ "time": 5.5666, "name": "weapon1_2" },
+					{ "time": 5.6, "name": "weapon1_1" },
+					{ "time": 5.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": -7.45, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": -13.24, "y": -4.13, "curve": "stepped" },
+					{ "time": 1.1, "x": 0.41, "y": -0.82 },
+					{ "time": 1.2, "x": -20, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.2666,
+						"x": -20,
+						"y": 0,
+						"curve": [ 0.208, 0.55, 0.75, 1 ]
+					},
+					{
+						"time": 1.3,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.142, 0.96, 0.612, 0.84 ]
+					},
+					{ "time": 1.3666, "x": -19, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.5,
+						"x": -19,
+						"y": 0,
+						"curve": [ 0.223, 0.59, 0.75, 1 ]
+					},
+					{
+						"time": 1.5333,
+						"x": 1,
+						"y": 0,
+						"curve": [ 0.142, 0.96, 0.612, 0.84 ]
+					},
+					{ "time": 1.6, "x": -18, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.7333,
+						"x": -18,
+						"y": 0,
+						"curve": [ 0.22, 0.81, 0.623, 0.81 ]
+					},
+					{
+						"time": 1.7666,
+						"x": 2,
+						"y": 0,
+						"curve": [ 0.142, 0.96, 0.612, 0.84 ]
+					},
+					{ "time": 1.8333, "x": -17, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.9666,
+						"x": -17,
+						"y": 0,
+						"curve": [ 0.22, 0.81, 0.623, 0.81 ]
+					},
+					{
+						"time": 2,
+						"x": 3,
+						"y": 0,
+						"curve": [ 0.311, 0.69, 0.583, 0.84 ]
+					},
+					{ "time": 2.0666, "x": -16, "y": 0, "curve": "stepped" },
+					{
+						"time": 2.2,
+						"x": -16,
+						"y": 0,
+						"curve": [ 0.166, 0.58, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "x": 12.38, "y": 0, "curve": "stepped" },
+					{ "time": 2.4666, "x": 2.38, "y": 0, "curve": "stepped" },
+					{
+						"time": 3.0666,
+						"x": 6,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.1666,
+						"x": 16,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.2666,
+						"x": 7,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.3666,
+						"x": 17,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.4666,
+						"x": 8,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.5666,
+						"x": 18,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.6666,
+						"x": 9,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.7666,
+						"x": 19,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 3.8666,
+						"x": 10,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{
+						"time": 3.9666,
+						"x": 20,
+						"y": 0,
+						"curve": [ 0.325, 0, 0.809, 0.35 ]
+					},
+					{
+						"time": 4.0666,
+						"x": 11,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.54, 0.84 ]
+					},
+					{ "time": 4.5, "x": 30, "y": 0, "curve": "stepped" },
+					{
+						"time": 5.8,
+						"x": 30,
+						"y": 0,
+						"curve": [ 0.274, 0.75, 0.562, 0.87 ]
+					},
+					{
+						"time": 5.8333,
+						"x": -4.38,
+						"y": 0,
+						"curve": [ 0.274, 0.75, 0.562, 0.87 ]
+					},
+					{
+						"time": 5.8666,
+						"x": 20,
+						"y": 0,
+						"curve": [ 0.263, 0.81, 0.444, 0.93 ]
+					},
+					{ "time": 6.3, "x": 60, "y": 0, "curve": "stepped" },
+					{ "time": 6.6666, "x": 60, "y": 0 }
+				]
+			},
+			"weapon": {
+				"translate": [
+					{ "time": 2.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6, "x": 16.34, "y": -4.45, "curve": "stepped" },
+					{ "time": 5.6666, "x": 30.01, "y": -0.25 }
+				]
+			},
+			"ef_graund_wave_main": {
+				"translate": [
+					{ "time": 0.1, "x": -906.23, "y": -271.59 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 0.5333, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 2.4333, "x": 8, "y": 8 }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"translate": [
+					{ "time": 0.2333, "x": -901.75, "y": -288.1, "curve": "stepped" },
+					{ "time": 0.7333, "x": -901.75, "y": -283.54, "curve": "stepped" },
+					{ "time": 2.6333, "x": -891.26, "y": -290.44 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 2.272, "y": 2.272 },
+					{ "time": 0.5333, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 0.7333, "x": 3.099, "y": 3.099 },
+					{ "time": 0.9666, "x": 8, "y": 8, "curve": "stepped" },
+					{ "time": 2.6333, "x": 3.099, "y": 3.099 },
+					{ "time": 2.8666, "x": 8, "y": 8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Event", "string": "addOrbitSystem-skill3orbit" },
+			{ "time": 0, "name": "Event2", "string": "blackOutBack(0.5,1.1,0)" },
+			{ "time": 0, "name": "HitEffect", "string": "setHitEffect(hit05b, 1)" },
+			{ "time": 0, "name": "Voice", "string": "cri_193_voice_fullarts_now_b" },
+			{ "time": 0.0666, "name": "Sound1", "string": "cri_se_scenario_fetters_magic" },
+			{ "time": 0.9666, "name": "Sound1", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 0.9666, "name": "Sound2", "string": "cri_se_battle_darkness_explosion" },
+			{ "time": 1.1, "name": "Event2", "string": "whiteOut(0,0.1,0.1)" },
+			{ "time": 1.1666, "name": "Event2", "string": "playStreamLine(2,0,0,1,0)" },
+			{ "time": 1.3, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.3333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.5, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.5, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.6666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.7666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.7666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 1.9, "name": "Event2", "string": "shakeGround" },
+			{ "time": 1.9666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.9666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 2, "name": "Event2", "string": "playStreamLine(2,0,0,1,0)" },
+			{ "time": 2.0333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.1666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 2.1666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 2.3, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.3666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 2.4666, "name": "Sound1", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 2.4666, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 2.5666, "name": "Sound2", "string": "cri_se_battle_arrow_light_effect" },
+			{ "time": 2.6, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.6333, "name": "Sound1", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 2.6666, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 2.7666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 2.7666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 2.9666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 2.9666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 3, "name": "Event2", "string": "playStreamLine(2,0,0,1,0)" },
+			{ "time": 3.0333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.1666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 3.2, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 3.3333, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.3666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 3.4, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 3.5, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.5666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 3.6, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.6, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 3.7666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 3.8, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 3.9, "name": "Event2", "string": "shakeGround" },
+			{ "time": 3.9666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 4, "name": "Event2", "string": "playStreamLine(2,0,0,1,0)" },
+			{ "time": 4, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 4.1666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 4.1666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 4.3666, "name": "Event2", "string": "shakeGround" },
+			{ "time": 4.3666, "name": "Sound2", "string": "cri_cri_se_battle_arrow_light_effect" },
+			{ "time": 4.5333, "name": "Sound1", "string": "cri_se_battle_stoptime" },
+			{ "time": 4.5333, "name": "Sound2", "string": "cri_se_battle_charge_long" },
+			{ "time": 4.5333, "name": "Voice", "string": "cri_193_voice_fullarts_rank6" },
+			{ "time": 4.5666, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 4.7, "name": "Event2", "string": "shakeGround" },
+			{ "time": 4.7333, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 4.9, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 5, "name": "Event2", "string": "playStreamLine(2,0,0,1,0)" },
+			{ "time": 5.0666, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 5.1333, "name": "Sound1", "string": "cri_se_battle_stoptime" },
+			{ "time": 5.2333, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 5.4, "name": "Sound3", "string": "cri_se_battle_sword_swish_heavy" },
+			{ "time": 5.7666, "name": "Event2", "string": "playStreamLine(0,0,0,1,0)" },
+			{ "time": 5.8, "name": "Event2", "string": "whiteOut(0,0.1,0.1)" },
+			{ "time": 5.8333, "name": "Event", "string": "addOrbitSystemInsight(skill3hit3,empty,999,50,0,150,0)" },
+			{ "time": 5.8333, "name": "Sound1", "string": "cri_se_battle_beam" },
+			{ "time": 5.8333, "name": "Sound2", "string": "cri_se_battle_canon" },
+			{ "time": 5.9666, "name": "Event2", "float": 5, "string": "shakeGround" }
+		]
+	}
+}
+}

@@ -1,0 +1,83 @@
+
+10279num.png
+size: 512,64
+format: RGBA4444
+filter: Linear,Linear
+repeat: none
+images/HIT
+  rotate: false
+  xy: 1, 2
+  size: 102, 47
+  orig: 104, 48
+  offset: 1, 0
+  index: -1
+images/coin0
+  rotate: false
+  xy: 141, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin1
+  rotate: false
+  xy: 427, 3
+  size: 21, 46
+  orig: 36, 48
+  offset: 8, 1
+  index: -1
+images/coin2
+  rotate: false
+  xy: 321, 2
+  size: 35, 47
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin3
+  rotate: false
+  xy: 177, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin4
+  rotate: false
+  xy: 104, 2
+  size: 36, 47
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin5
+  rotate: false
+  xy: 357, 3
+  size: 34, 46
+  orig: 36, 48
+  offset: 0, 1
+  index: -1
+images/coin6
+  rotate: false
+  xy: 213, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin7
+  rotate: false
+  xy: 392, 3
+  size: 34, 46
+  orig: 36, 48
+  offset: 0, 1
+  index: -1
+images/coin8
+  rotate: false
+  xy: 249, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin9
+  rotate: false
+  xy: 285, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1

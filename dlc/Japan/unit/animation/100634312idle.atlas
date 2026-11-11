@@ -1,0 +1,111 @@
+
+100634312idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: false
+  xy: 160, 63
+  size: 158, 192
+  orig: 554, 554
+  offset: 220, 196
+  index: -1
+idle_01
+  rotate: false
+  xy: 1, 62
+  size: 158, 193
+  orig: 554, 554
+  offset: 220, 197
+  index: -1
+idle_02
+  rotate: false
+  xy: 319, 63
+  size: 158, 192
+  orig: 554, 554
+  offset: 220, 199
+  index: -1
+idle_03
+  rotate: false
+  xy: 478, 64
+  size: 158, 191
+  orig: 554, 554
+  offset: 220, 198
+  index: -1
+idle_04
+  rotate: false
+  xy: 637, 64
+  size: 158, 191
+  orig: 554, 554
+  offset: 220, 197
+  index: -1
+weapon/L_fire1
+  rotate: true
+  xy: 796, 121
+  size: 69, 211
+  orig: 461, 317
+  offset: 266, 45
+  index: -1
+weapon/L_fire2
+  rotate: true
+  xy: 1020, 184
+  size: 71, 208
+  orig: 461, 317
+  offset: 264, 43
+  index: -1
+weapon/L_fire3
+  rotate: true
+  xy: 1008, 115
+  size: 68, 179
+  orig: 461, 317
+  offset: 271, 63
+  index: -1
+weapon/L_fire4
+  rotate: true
+  xy: 160, 1
+  size: 61, 208
+  orig: 461, 317
+  offset: 273, 54
+  index: -1
+weapon/L_fire5
+  rotate: true
+  xy: 796, 191
+  size: 64, 223
+  orig: 461, 317
+  offset: 268, 46
+  index: -1
+weapon/R_fire1
+  rotate: true
+  xy: 1229, 204
+  size: 51, 220
+  orig: 461, 317
+  offset: 126, 45
+  index: -1
+weapon/R_fire2
+  rotate: true
+  xy: 1866, 213
+  size: 42, 172
+  orig: 461, 317
+  offset: 124, 90
+  index: -1
+weapon/R_fire3
+  rotate: true
+  xy: 796, 74
+  size: 46, 190
+  orig: 461, 317
+  offset: 120, 75
+  index: -1
+weapon/R_fire4
+  rotate: true
+  xy: 1668, 216
+  size: 39, 197
+  orig: 461, 317
+  offset: 127, 59
+  index: -1
+weapon/R_fire5
+  rotate: true
+  xy: 1450, 212
+  size: 43, 217
+  orig: 461, 317
+  offset: 129, 52
+  index: -1

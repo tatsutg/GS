@@ -1,0 +1,83 @@
+
+defeatNum.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/coin0
+  rotate: false
+  xy: 181, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin1
+  rotate: false
+  xy: 467, 3
+  size: 21, 46
+  orig: 36, 48
+  offset: 8, 1
+  index: -1
+images/coin2
+  rotate: false
+  xy: 361, 2
+  size: 35, 47
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin3
+  rotate: false
+  xy: 217, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin4
+  rotate: false
+  xy: 144, 2
+  size: 36, 47
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin5
+  rotate: false
+  xy: 397, 3
+  size: 34, 46
+  orig: 36, 48
+  offset: 0, 1
+  index: -1
+images/coin6
+  rotate: false
+  xy: 253, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin7
+  rotate: false
+  xy: 432, 3
+  size: 34, 46
+  orig: 36, 48
+  offset: 0, 1
+  index: -1
+images/coin8
+  rotate: false
+  xy: 289, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin9
+  rotate: false
+  xy: 325, 1
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/defeat
+  rotate: false
+  xy: 0, 0
+  size: 143, 49
+  orig: 147, 51
+  offset: 2, 1
+  index: -1

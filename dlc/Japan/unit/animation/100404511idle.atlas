@@ -1,0 +1,55 @@
+
+100404511idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/flying_book/Flying_book_1
+  rotate: false
+  xy: 1, 1
+  size: 30, 36
+  orig: 350, 350
+  offset: 204, 215
+  index: -1
+EF/flying_book/Flying_book_2
+  rotate: false
+  xy: 897, 150
+  size: 34, 28
+  orig: 350, 350
+  offset: 80, 223
+  index: -1
+idle_00
+  rotate: false
+  xy: 381, 41
+  size: 179, 137
+  orig: 350, 350
+  offset: 86, 119
+  index: -1
+idle_01
+  rotate: false
+  xy: 1, 38
+  size: 192, 140
+  orig: 350, 350
+  offset: 81, 115
+  index: -1
+idle_02
+  rotate: false
+  xy: 194, 42
+  size: 186, 136
+  orig: 350, 350
+  offset: 84, 118
+  index: -1
+idle_03
+  rotate: false
+  xy: 561, 42
+  size: 167, 136
+  orig: 350, 350
+  offset: 89, 119
+  index: -1
+idle_04
+  rotate: false
+  xy: 729, 43
+  size: 167, 135
+  orig: 350, 350
+  offset: 89, 120
+  index: -1

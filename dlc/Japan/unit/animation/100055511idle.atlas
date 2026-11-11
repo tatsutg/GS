@@ -1,0 +1,76 @@
+
+100055511idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/arm_sword/L_arm_3
+  rotate: false
+  xy: 86, 57
+  size: 25, 18
+  orig: 383, 214
+  offset: 159, 90
+  index: -1
+EF/arm_sword/R_arm_3
+  rotate: false
+  xy: 1429, 231
+  size: 23, 21
+  orig: 383, 214
+  offset: 137, 90
+  index: -1
+EF/arm_sword/weapon
+  rotate: false
+  xy: 1147, 144
+  size: 281, 108
+  orig: 281, 108
+  offset: 0, 0
+  index: -1
+EF/skeleton_1
+  rotate: false
+  xy: 1, 1
+  size: 84, 74
+  orig: 425, 238
+  offset: 207, 159
+  index: -1
+EF/skeleton_2
+  rotate: false
+  xy: 1147, 107
+  size: 38, 36
+  orig: 425, 238
+  offset: 235, 137
+  index: -1
+idle_00
+  rotate: false
+  xy: 1, 76
+  size: 253, 176
+  orig: 600, 600
+  offset: 186, 177
+  index: -1
+idle_01
+  rotate: false
+  xy: 255, 67
+  size: 230, 185
+  orig: 600, 600
+  offset: 196, 184
+  index: -1
+idle_02
+  rotate: true
+  xy: 932, 48
+  size: 204, 214
+  orig: 600, 600
+  offset: 225, 179
+  index: -1
+idle_03
+  rotate: false
+  xy: 716, 42
+  size: 215, 210
+  orig: 600, 600
+  offset: 221, 174
+  index: -1
+idle_04
+  rotate: false
+  xy: 486, 59
+  size: 229, 193
+  orig: 600, 600
+  offset: 201, 170
+  index: -1

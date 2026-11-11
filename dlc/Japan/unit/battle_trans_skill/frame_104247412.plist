@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>battle_ab_time.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,1},{40,40}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{40,40}}</string>
+			<key>sourceSize</key>
+			<string>{40,40}</string>
+		</dict>
+		<key>battle_ab_time_gray.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1,43},{40,40}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{40,40}}</string>
+			<key>sourceSize</key>
+			<string>{40,40}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>pixelFormat</key>
+		<string>RGBA8888</string>
+		<key>premultiplyAlpha</key>
+		<false/>
+		<key>realTextureFileName</key>
+		<string>frame_104247412.png</string>
+		<key>size</key>
+		<string>{64,128}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:14a1580e2955eeb2af1a3e5622602cbe:86f174b57db9369cb446fdf50e93c600:a96fab73a79d8977ca4845feddc85c39$</string>
+		<key>textureFileName</key>
+		<string>frame_104247412.png</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,97 @@
+
+100474212idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LB crystal_2_flash_2
+  rotate: false
+  xy: 1425, 169
+  size: 34, 68
+  orig: 350, 260
+  offset: 237, 38
+  index: -1
+LF crystal_2_flash_2
+  rotate: false
+  xy: 1425, 169
+  size: 34, 68
+  orig: 350, 260
+  offset: 123, 46
+  index: -1
+RB crystal_2_flash_2
+  rotate: false
+  xy: 1425, 169
+  size: 34, 68
+  orig: 350, 260
+  offset: 165, 76
+  index: -1
+RF crystal_2_flash_2
+  rotate: false
+  xy: 1425, 169
+  size: 34, 68
+  orig: 350, 260
+  offset: 47, 74
+  index: -1
+LF_crystal
+  rotate: false
+  xy: 1425, 100
+  size: 34, 68
+  orig: 350, 260
+  offset: 123, 46
+  index: -1
+RB_crystal
+  rotate: false
+  xy: 1425, 100
+  size: 34, 68
+  orig: 350, 260
+  offset: 165, 76
+  index: -1
+RF_crystal
+  rotate: false
+  xy: 1425, 100
+  size: 34, 68
+  orig: 350, 260
+  offset: 47, 74
+  index: -1
+cloak_2
+  rotate: false
+  xy: 1425, 100
+  size: 34, 68
+  orig: 350, 260
+  offset: 237, 38
+  index: -1
+idle_00
+  rotate: false
+  xy: 289, 2
+  size: 284, 235
+  orig: 466, 366
+  offset: 112, 80
+  index: -1
+idle_01
+  rotate: false
+  xy: 1143, 1
+  size: 281, 236
+  orig: 466, 366
+  offset: 113, 78
+  index: -1
+idle_02
+  rotate: false
+  xy: 860, 1
+  size: 282, 236
+  orig: 466, 366
+  offset: 111, 77
+  index: -1
+idle_03
+  rotate: false
+  xy: 1, 2
+  size: 287, 235
+  orig: 466, 366
+  offset: 107, 78
+  index: -1
+idle_04
+  rotate: false
+  xy: 574, 3
+  size: 285, 234
+  orig: 466, 366
+  offset: 110, 79
+  index: -1

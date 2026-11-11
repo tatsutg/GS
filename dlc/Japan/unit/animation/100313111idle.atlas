@@ -1,0 +1,69 @@
+
+100313111idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+400-idle_00
+  rotate: false
+  xy: 142, 6
+  size: 159, 122
+  orig: 576, 576
+  offset: 208, 242
+  index: -1
+400-idle_01
+  rotate: false
+  xy: 501, 136
+  size: 181, 114
+  orig: 576, 576
+  offset: 194, 247
+  index: -1
+400-idle_02
+  rotate: false
+  xy: 683, 147
+  size: 189, 103
+  orig: 576, 576
+  offset: 194, 255
+  index: -1
+400-idle_03
+  rotate: false
+  xy: 142, 129
+  size: 182, 121
+  orig: 576, 576
+  offset: 196, 239
+  index: -1
+400-idle_04
+  rotate: false
+  xy: 325, 126
+  size: 175, 124
+  orig: 576, 576
+  offset: 202, 238
+  index: -1
+idle_fire1
+  rotate: true
+  xy: 501, 1
+  size: 134, 152
+  orig: 256, 256
+  offset: 68, 86
+  index: -1
+idle_fire2
+  rotate: true
+  xy: 873, 116
+  size: 134, 150
+  orig: 256, 256
+  offset: 70, 86
+  index: -1
+idle_fire3
+  rotate: false
+  xy: 1, 86
+  size: 140, 164
+  orig: 256, 256
+  offset: 68, 78
+  index: -1
+idle_fire4
+  rotate: true
+  xy: 683, 12
+  size: 134, 164
+  orig: 256, 256
+  offset: 74, 78
+  index: -1

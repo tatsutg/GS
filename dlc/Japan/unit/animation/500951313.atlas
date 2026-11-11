@@ -1,0 +1,125 @@
+
+500951313.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/baby/L_leg2
+  rotate: true
+  xy: 303, 43
+  size: 30, 53
+  orig: 30, 53
+  offset: 0, 0
+  index: -1
+EF/baby/L_leg3
+  rotate: false
+  xy: 336, 16
+  size: 33, 26
+  orig: 33, 27
+  offset: 0, 1
+  index: -1
+EF/baby/R_cheak
+  rotate: true
+  xy: 238, 7
+  size: 16, 53
+  orig: 16, 53
+  offset: 0, 0
+  index: -1
+EF/baby/R_leg2
+  rotate: false
+  xy: 359, 76
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+EF/baby/R_leg3
+  rotate: false
+  xy: 471, 93
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+EF/baby/body
+  rotate: false
+  xy: 1, 9
+  size: 109, 118
+  orig: 109, 118
+  offset: 0, 0
+  index: -1
+EF/baby/body_down
+  rotate: true
+  xy: 111, 1
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+EF/baby/cheak
+  rotate: true
+  xy: 298, 24
+  size: 18, 37
+  orig: 18, 37
+  offset: 0, 0
+  index: -1
+EF/baby/chin
+  rotate: false
+  xy: 214, 68
+  size: 88, 59
+  orig: 88, 59
+  offset: 0, 0
+  index: -1
+EF/baby/chin_re
+  rotate: false
+  xy: 111, 68
+  size: 102, 59
+  orig: 102, 59
+  offset: 0, 0
+  index: -1
+EF/baby/flower
+  rotate: true
+  xy: 464, 40
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+EF/baby/head_top
+  rotate: true
+  xy: 357, 43
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+EF/baby/reaf_front
+  rotate: false
+  xy: 303, 74
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+EF/baby/reaf_side
+  rotate: false
+  xy: 238, 24
+  size: 59, 43
+  orig: 59, 43
+  offset: 0, 0
+  index: -1
+EF/baby/tongue
+  rotate: false
+  xy: 409, 59
+  size: 54, 33
+  orig: 54, 33
+  offset: 0, 0
+  index: -1
+EF/baby/tooth1
+  rotate: false
+  xy: 174, 14
+  size: 63, 53
+  orig: 63, 53
+  offset: 0, 0
+  index: -1
+EF/baby/tooth2
+  rotate: false
+  xy: 409, 93
+  size: 61, 34
+  orig: 61, 34
+  offset: 0, 0
+  index: -1

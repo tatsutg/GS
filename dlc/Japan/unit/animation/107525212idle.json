@@ -1,0 +1,99 @@
+{
+  "skeleton": {
+    "hash": "po25wDGIAWevUjAnhb0tQIptKLw",
+    "spine": "3.0.12",
+    "width": 0,
+    "height": 0,
+    "images": "./images/idle/"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "rotation": -0.34
+    },
+    {
+      "name": "MAIN",
+      "parent": "root",
+      "x": -0.34,
+      "y": 62,
+      "color": "9c000fff"
+    }
+  ],
+  "slots": [
+    {
+      "name": "MAIN",
+      "bone": "MAIN",
+      "attachment": "idle_00"
+    }
+  ],
+  "skins": {
+    "default": {
+      "MAIN": {
+        "idle_00": {
+          "x": 5.75,
+          "y": 2.93,
+          "width": 300,
+          "height": 300
+        },
+        "idle_01": {
+          "x": 5.75,
+          "y": 2.93,
+          "width": 300,
+          "height": 300
+        },
+        "idle_02": {
+          "x": 5.75,
+          "y": 2.93,
+          "width": 300,
+          "height": 300
+        },
+        "idle_03": {
+          "x": 5.75,
+          "y": 2.93,
+          "width": 300,
+          "height": 300
+        }
+      }
+    }
+  },
+  "events": {
+    "Event": {},
+    "Event2": {}
+  },
+  "animations": {
+    "idle": {
+      "slots": {
+        "MAIN": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "idle_00"
+            },
+            {
+              "time": 0.2666,
+              "name": "idle_01"
+            },
+            {
+              "time": 0.5,
+              "name": "idle_02"
+            },
+            {
+              "time": 0.7666,
+              "name": "idle_03"
+            },
+            {
+              "time": 1,
+              "name": "idle_00"
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 0.0333,
+          "name": "Event"
+        }
+      ]
+    }
+  }
+}

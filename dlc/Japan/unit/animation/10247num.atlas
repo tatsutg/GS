@@ -1,0 +1,76 @@
+
+10247num.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+numbers/ef_font_number_dead_00
+  rotate: false
+  xy: 130, 62
+  size: 62, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+numbers/ef_font_number_dead_01
+  rotate: true
+  xy: 1, 11
+  size: 50, 64
+  orig: 64, 64
+  offset: 6, 0
+  index: -1
+numbers/ef_font_number_dead_02
+  rotate: false
+  xy: 193, 62
+  size: 62, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+numbers/ef_font_number_dead_03
+  rotate: false
+  xy: 256, 62
+  size: 62, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+numbers/ef_font_number_dead_04
+  rotate: false
+  xy: 1, 62
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+numbers/ef_font_number_dead_05
+  rotate: false
+  xy: 319, 62
+  size: 62, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+numbers/ef_font_number_dead_06
+  rotate: false
+  xy: 66, 62
+  size: 63, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+numbers/ef_font_number_dead_07
+  rotate: false
+  xy: 382, 62
+  size: 62, 64
+  orig: 64, 64
+  offset: 2, 0
+  index: -1
+numbers/ef_font_number_dead_08
+  rotate: true
+  xy: 445, 64
+  size: 62, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+numbers/ef_font_number_dead_09
+  rotate: true
+  xy: 445, 1
+  size: 62, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

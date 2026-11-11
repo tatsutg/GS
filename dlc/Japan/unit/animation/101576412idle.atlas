@@ -1,0 +1,475 @@
+
+101576412idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Uweapon/U03
+  rotate: false
+  xy: 1124, 120
+  size: 152, 134
+  orig: 512, 512
+  offset: 200, 138
+  index: -1
+Uweapon/U04
+  rotate: false
+  xy: 1278, 120
+  size: 152, 134
+  orig: 512, 512
+  offset: 198, 234
+  index: -1
+Uweapon/U_00
+  rotate: false
+  xy: 1432, 120
+  size: 152, 134
+  orig: 512, 512
+  offset: 162, 138
+  index: -1
+Uweapon/U_01_00
+  rotate: false
+  xy: 1696, 208
+  size: 138, 46
+  orig: 512, 512
+  offset: 138, 230
+  index: -1
+Uweapon/U_01_01
+  rotate: false
+  xy: 2, 26
+  size: 126, 62
+  orig: 512, 512
+  offset: 150, 206
+  index: -1
+Uweapon/U_02_00
+  rotate: false
+  xy: 1586, 140
+  size: 108, 114
+  orig: 512, 512
+  offset: 174, 162
+  index: -1
+Uweapon/U_02_01
+  rotate: true
+  xy: 688, 2
+  size: 88, 124
+  orig: 512, 512
+  offset: 200, 152
+  index: -1
+bit/bit_00
+  rotate: true
+  xy: 194, 2
+  size: 30, 28
+  orig: 512, 512
+  offset: 240, 244
+  index: -1
+bit/bit_01
+  rotate: false
+  xy: 212, 34
+  size: 26, 24
+  orig: 512, 512
+  offset: 242, 244
+  index: -1
+bit/bit_02
+  rotate: false
+  xy: 224, 2
+  size: 28, 30
+  orig: 512, 512
+  offset: 242, 242
+  index: -1
+bit/bit_03
+  rotate: false
+  xy: 224, 2
+  size: 28, 30
+  orig: 512, 512
+  offset: 242, 242
+  index: -1
+bit/bit_04
+  rotate: true
+  xy: 240, 34
+  size: 28, 30
+  orig: 512, 512
+  offset: 242, 242
+  index: -1
+bit/bit_05
+  rotate: false
+  xy: 254, 2
+  size: 28, 30
+  orig: 512, 512
+  offset: 240, 242
+  index: -1
+bit/bit_06
+  rotate: true
+  xy: 1992, 230
+  size: 24, 26
+  orig: 512, 512
+  offset: 246, 244
+  index: -1
+bit/wing_00
+  rotate: false
+  xy: 814, 10
+  size: 40, 24
+  orig: 512, 512
+  offset: 236, 266
+  index: -1
+bit/wing_01
+  rotate: false
+  xy: 2020, 234
+  size: 26, 20
+  orig: 512, 512
+  offset: 258, 260
+  index: -1
+bit/wing_02
+  rotate: true
+  xy: 1186, 94
+  size: 24, 40
+  orig: 512, 512
+  offset: 264, 236
+  index: -1
+bit/wing_03
+  rotate: true
+  xy: 170, 34
+  size: 24, 40
+  orig: 512, 512
+  offset: 264, 236
+  index: -1
+bit/wing_04
+  rotate: true
+  xy: 232, 64
+  size: 24, 40
+  orig: 512, 512
+  offset: 264, 236
+  index: -1
+bit/wing_05
+  rotate: false
+  xy: 1768, 166
+  size: 24, 40
+  orig: 512, 512
+  offset: 222, 236
+  index: -1
+bit/wing_06
+  rotate: true
+  xy: 1950, 230
+  size: 24, 40
+  orig: 512, 512
+  offset: 264, 238
+  index: -1
+crystal/ctystal_00
+  rotate: true
+  xy: 130, 2
+  size: 26, 30
+  orig: 512, 512
+  offset: 242, 238
+  index: -1
+crystal/ctystal_04
+  rotate: true
+  xy: 130, 2
+  size: 26, 30
+  orig: 512, 512
+  offset: 242, 238
+  index: -1
+crystal/ctystal_00_light
+  rotate: true
+  xy: 54, 4
+  size: 20, 30
+  orig: 512, 512
+  offset: 248, 238
+  index: -1
+crystal/ctystal_04_light
+  rotate: true
+  xy: 54, 4
+  size: 20, 30
+  orig: 512, 512
+  offset: 248, 238
+  index: -1
+crystal/ctystal_01
+  rotate: true
+  xy: 162, 2
+  size: 26, 30
+  orig: 512, 512
+  offset: 242, 238
+  index: -1
+crystal/ctystal_01_light
+  rotate: true
+  xy: 2, 2
+  size: 22, 30
+  orig: 512, 512
+  offset: 242, 238
+  index: -1
+crystal/ctystal_02
+  rotate: false
+  xy: 1260, 90
+  size: 28, 28
+  orig: 512, 512
+  offset: 240, 240
+  index: -1
+crystal/ctystal_05
+  rotate: false
+  xy: 1260, 90
+  size: 28, 28
+  orig: 512, 512
+  offset: 242, 240
+  index: -1
+crystal/ctystal_02_light
+  rotate: false
+  xy: 1320, 90
+  size: 28, 28
+  orig: 512, 512
+  offset: 240, 240
+  index: -1
+crystal/ctystal_03
+  rotate: false
+  xy: 1290, 90
+  size: 28, 28
+  orig: 512, 512
+  offset: 244, 244
+  index: -1
+crystal/ctystal_03_light
+  rotate: false
+  xy: 1350, 90
+  size: 28, 28
+  orig: 512, 512
+  offset: 244, 244
+  index: -1
+crystal/ctystal_05_light
+  rotate: false
+  xy: 1380, 90
+  size: 28, 28
+  orig: 512, 512
+  offset: 242, 240
+  index: -1
+idle_00
+  rotate: false
+  xy: 466, 90
+  size: 220, 164
+  orig: 512, 512
+  offset: 156, 158
+  index: -1
+idle_01
+  rotate: false
+  xy: 236, 90
+  size: 228, 164
+  orig: 512, 512
+  offset: 152, 160
+  index: -1
+idle_02
+  rotate: false
+  xy: 2, 90
+  size: 232, 164
+  orig: 512, 512
+  offset: 150, 164
+  index: -1
+idle_03
+  rotate: false
+  xy: 688, 92
+  size: 218, 162
+  orig: 512, 512
+  offset: 158, 166
+  index: -1
+idle_04
+  rotate: false
+  xy: 908, 90
+  size: 214, 164
+  orig: 512, 512
+  offset: 160, 160
+  index: -1
+needle/needle_L00
+  rotate: false
+  xy: 1736, 152
+  size: 30, 54
+  orig: 512, 512
+  offset: 236, 230
+  index: -1
+needle/needle_L01
+  rotate: true
+  xy: 1890, 230
+  size: 24, 58
+  orig: 512, 512
+  offset: 244, 226
+  index: -1
+needle/needle_L02
+  rotate: false
+  xy: 814, 36
+  size: 42, 54
+  orig: 512, 512
+  offset: 226, 230
+  index: -1
+needle/needle_R00
+  rotate: false
+  xy: 1794, 172
+  size: 28, 34
+  orig: 512, 512
+  offset: 246, 236
+  index: -1
+pod/L_pod_00
+  rotate: false
+  xy: 130, 30
+  size: 38, 58
+  orig: 512, 512
+  offset: 236, 232
+  index: -1
+pod/L_podboost_00
+  rotate: false
+  xy: 112, 4
+  size: 16, 20
+  orig: 512, 512
+  offset: 258, 216
+  index: -1
+pod/R_pod_00
+  rotate: false
+  xy: 1696, 148
+  size: 38, 58
+  orig: 512, 512
+  offset: 238, 232
+  index: -1
+pod/R_pod_00_light00
+  rotate: false
+  xy: 1824, 196
+  size: 10, 10
+  orig: 512, 512
+  offset: 258, 268
+  index: -1
+pod/R_pod_00_light01
+  rotate: false
+  xy: 828, 2
+  size: 6, 6
+  orig: 512, 512
+  offset: 252, 246
+  index: -1
+pod/R_pod_01
+  rotate: true
+  xy: 1124, 90
+  size: 28, 60
+  orig: 512, 512
+  offset: 244, 232
+  index: -1
+pod/R_podboost_00
+  rotate: true
+  xy: 1616, 120
+  size: 18, 20
+  orig: 512, 512
+  offset: 240, 218
+  index: -1
+pod/R_podboost_01
+  rotate: true
+  xy: 1890, 214
+  size: 14, 20
+  orig: 512, 512
+  offset: 240, 218
+  index: -1
+pod/R_podboost_02
+  rotate: true
+  xy: 274, 72
+  size: 16, 28
+  orig: 512, 512
+  offset: 238, 210
+  index: -1
+pod/R_podboost_03
+  rotate: true
+  xy: 2020, 214
+  size: 18, 26
+  orig: 512, 512
+  offset: 236, 212
+  index: -1
+pod/R_podboost_04
+  rotate: true
+  xy: 304, 74
+  size: 14, 18
+  orig: 512, 512
+  offset: 248, 216
+  index: -1
+pod/S2_podB_00
+  rotate: false
+  xy: 1836, 212
+  size: 52, 42
+  orig: 512, 512
+  offset: 220, 242
+  index: -1
+pod/S2_podF_00
+  rotate: true
+  xy: 858, 40
+  size: 50, 42
+  orig: 512, 512
+  offset: 222, 242
+  index: -1
+pod/S2_podboost_00
+  rotate: false
+  xy: 1586, 120
+  size: 28, 18
+  orig: 512, 512
+  offset: 264, 240
+  index: -1
+pod/S2_podboost_01
+  rotate: true
+  xy: 34, 2
+  size: 22, 18
+  orig: 512, 512
+  offset: 266, 240
+  index: -1
+pod/S2_podboost_02
+  rotate: false
+  xy: 1410, 100
+  size: 24, 18
+  orig: 512, 512
+  offset: 266, 240
+  index: -1
+pod/S2_podboost_03
+  rotate: false
+  xy: 86, 6
+  size: 24, 18
+  orig: 512, 512
+  offset: 266, 240
+  index: -1
+pod/S2_podlight2_00
+  rotate: false
+  xy: 836, 2
+  size: 6, 6
+  orig: 512, 512
+  offset: 242, 250
+  index: -1
+pod/S2_podlight_00
+  rotate: true
+  xy: 814, 2
+  size: 6, 12
+  orig: 512, 512
+  offset: 228, 262
+  index: -1
+pod/S_podB_00
+  rotate: false
+  xy: 1458, 104
+  size: 18, 14
+  orig: 512, 512
+  offset: 216, 244
+  index: -1
+pod/S_podF_00
+  rotate: false
+  xy: 170, 60
+  size: 60, 28
+  orig: 512, 512
+  offset: 212, 242
+  index: -1
+pod/S_podboost_00
+  rotate: false
+  xy: 1436, 100
+  size: 20, 18
+  orig: 512, 512
+  offset: 270, 250
+  index: -1
+pod/S_podboost_01
+  rotate: false
+  xy: 1768, 154
+  size: 12, 10
+  orig: 512, 512
+  offset: 272, 254
+  index: -1
+pod/S_podboost_02
+  rotate: true
+  xy: 1228, 92
+  size: 26, 30
+  orig: 512, 512
+  offset: 270, 240
+  index: -1
+pod/S_podboost_03
+  rotate: false
+  xy: 1638, 120
+  size: 18, 18
+  orig: 512, 512
+  offset: 272, 252
+  index: -1

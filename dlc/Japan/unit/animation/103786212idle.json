@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "r5y6N6ClG85HiWJ4ER4QsKAJ1oE", "spine": "3.6.53", "width": 0, "height": 0, "images": "./images/idle/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "MAIN", "parent": "root", "x": -2.14, "y": 70.58, "color": "004bffff" }
+],
+"slots": [
+	{ "name": "MAIN", "bone": "MAIN", "attachment": "idle_00" }
+],
+"skins": {
+	"default": {
+		"MAIN": {
+			"idle2_00": { "x": -2.26, "y": 0.65, "width": 512, "height": 512 },
+			"idle2_01": { "x": -2.26, "y": 0.65, "width": 512, "height": 512 },
+			"idle2_02": { "x": -2.26, "y": 0.65, "width": 512, "height": 512 },
+			"idle2_03": { "x": -2.26, "y": 0.65, "width": 512, "height": 512 },
+			"idle_00": { "x": -2.46, "y": 0.65, "width": 512, "height": 512 },
+			"idle_01": { "x": -2.26, "y": 0.65, "width": 512, "height": 512 },
+			"idle_02": { "x": -2.26, "y": 0.65, "width": 512, "height": 512 },
+			"idle_03": { "x": -2.26, "y": 0.65, "width": 512, "height": 512 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.2, "name": "idle_01" },
+					{ "time": 0.4, "name": "idle_02" },
+					{ "time": 0.6, "name": "idle_03" },
+					{ "time": 0.8, "name": "idle2_00" },
+					{ "time": 1, "name": "idle2_01" },
+					{ "time": 1.2, "name": "idle2_02" },
+					{ "time": 1.4, "name": "idle2_03" },
+					{ "time": 1.6, "name": "idle2_00" },
+					{ "time": 1.7667, "name": "idle_01" },
+					{ "time": 1.9667, "name": "idle_02" },
+					{ "time": 2.1667, "name": "idle_03" },
+					{ "time": 2.3667, "name": "idle_00" }
+				]
+			}
+		}
+	},
+	"idle2": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.2, "name": "idle_01" },
+					{ "time": 0.4, "name": "idle_02" },
+					{ "time": 0.6, "name": "idle_03" },
+					{ "time": 0.8, "name": "idle_00" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,41 @@
+
+bg2019514.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 1013, 950
+  size: 1012, 430
+  orig: 1012, 430
+  offset: 0, 0
+  index: -1
+mae
+  rotate: false
+  xy: 1013, 689
+  size: 1012, 260
+  orig: 1012, 260
+  offset: 0, 0
+  index: -1
+michi
+  rotate: false
+  xy: 0, 833
+  size: 1012, 547
+  orig: 1012, 547
+  offset: 0, 0
+  index: -1
+tree1
+  rotate: false
+  xy: 0, 384
+  size: 1012, 448
+  orig: 1012, 448
+  offset: 0, 0
+  index: -1
+tree2
+  rotate: false
+  xy: 0, 0
+  size: 1012, 383
+  orig: 1012, 383
+  offset: 0, 0
+  index: -1

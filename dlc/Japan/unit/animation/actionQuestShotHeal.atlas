@@ -1,0 +1,160 @@
+
+actionQuestShotHeal.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_flare_back_main_Y
+  rotate: false
+  xy: 519, 43
+  size: 90, 90
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00001
+  rotate: false
+  xy: 83, 16
+  size: 51, 64
+  orig: 150, 150
+  offset: 51, 42
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00002
+  rotate: true
+  xy: 2, 16
+  size: 64, 79
+  orig: 150, 150
+  offset: 45, 35
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00003
+  rotate: false
+  xy: 1971, 162
+  size: 75, 92
+  orig: 150, 150
+  offset: 40, 28
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00004
+  rotate: false
+  xy: 432, 27
+  size: 85, 106
+  orig: 150, 150
+  offset: 35, 22
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00005
+  rotate: true
+  xy: 1853, 160
+  size: 94, 116
+  orig: 150, 150
+  offset: 33, 18
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00006
+  rotate: true
+  xy: 1614, 149
+  size: 105, 124
+  orig: 150, 150
+  offset: 29, 14
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00007
+  rotate: true
+  xy: 1364, 143
+  size: 111, 127
+  orig: 150, 150
+  offset: 27, 13
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00008
+  rotate: true
+  xy: 1233, 142
+  size: 112, 129
+  orig: 150, 150
+  offset: 27, 12
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00009
+  rotate: false
+  xy: 306, 121
+  size: 116, 133
+  orig: 150, 150
+  offset: 25, 10
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00010
+  rotate: true
+  xy: 836, 139
+  size: 115, 135
+  orig: 150, 150
+  offset: 24, 9
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00011
+  rotate: true
+  xy: 698, 138
+  size: 116, 136
+  orig: 150, 150
+  offset: 24, 8
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00012
+  rotate: true
+  xy: 182, 2
+  size: 117, 133
+  orig: 150, 150
+  offset: 25, 9
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00013
+  rotate: true
+  xy: 561, 136
+  size: 118, 135
+  orig: 150, 150
+  offset: 25, 9
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00014
+  rotate: true
+  xy: 424, 135
+  size: 119, 135
+  orig: 150, 150
+  offset: 25, 9
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00015
+  rotate: false
+  xy: 182, 121
+  size: 122, 133
+  orig: 150, 150
+  offset: 25, 11
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00016
+  rotate: true
+  xy: 973, 133
+  size: 121, 130
+  orig: 150, 150
+  offset: 26, 12
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00017
+  rotate: true
+  xy: 1105, 133
+  size: 121, 126
+  orig: 150, 150
+  offset: 25, 13
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00018
+  rotate: true
+  xy: 1493, 136
+  size: 118, 119
+  orig: 150, 150
+  offset: 26, 19
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00019
+  rotate: true
+  xy: 317, 4
+  size: 115, 113
+  orig: 150, 150
+  offset: 25, 25
+  index: -1
+ef_particle_circle_main/ef_particle_circle_main_00020
+  rotate: true
+  xy: 1740, 153
+  size: 101, 111
+  orig: 150, 150
+  offset: 26, 28
+  index: -1
+ef_star_hit_sozai_00001
+  rotate: false
+  xy: 2, 82
+  size: 178, 172
+  orig: 200, 200
+  offset: 11, 21
+  index: -1

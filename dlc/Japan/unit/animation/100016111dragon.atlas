@@ -1,0 +1,34 @@
+
+100016111dragon.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_00
+  rotate: true
+  xy: 819, 1
+  size: 240, 132
+  orig: 361, 259
+  offset: 63, 32
+  index: -1
+dragon_01
+  rotate: false
+  xy: 320, 77
+  size: 251, 164
+  orig: 361, 259
+  offset: 54, 45
+  index: -1
+dragon_02
+  rotate: false
+  xy: 572, 83
+  size: 246, 158
+  orig: 361, 259
+  offset: 68, 37
+  index: -1
+dragon_03
+  rotate: false
+  xy: 1, 32
+  size: 318, 209
+  orig: 361, 259
+  offset: 22, 22
+  index: -1

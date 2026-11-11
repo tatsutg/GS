@@ -1,0 +1,188 @@
+
+104256112idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloak1_00_L
+  rotate: true
+  xy: 1495, 102
+  size: 70, 134
+  orig: 512, 512
+  offset: 188, 178
+  index: -1
+cloak1_00_R
+  rotate: true
+  xy: 1, 18
+  size: 62, 144
+  orig: 512, 512
+  offset: 290, 170
+  index: -1
+cloak1_01_L
+  rotate: true
+  xy: 1626, 179
+  size: 76, 130
+  orig: 512, 512
+  offset: 182, 184
+  index: -1
+cloak1_01_R
+  rotate: true
+  xy: 1757, 183
+  size: 72, 134
+  orig: 512, 512
+  offset: 288, 178
+  index: -1
+cloak1_02_L
+  rotate: false
+  xy: 1309, 127
+  size: 92, 128
+  orig: 512, 512
+  offset: 168, 184
+  index: -1
+cloak1_02_R
+  rotate: true
+  xy: 1630, 100
+  size: 78, 128
+  orig: 512, 512
+  offset: 288, 182
+  index: -1
+cloak1_03_L
+  rotate: true
+  xy: 1495, 173
+  size: 82, 130
+  orig: 512, 512
+  offset: 178, 182
+  index: -1
+cloak1_03_R
+  rotate: false
+  xy: 1402, 133
+  size: 92, 122
+  orig: 512, 512
+  offset: 288, 188
+  index: -1
+cloak1_04_L
+  rotate: true
+  xy: 1759, 108
+  size: 74, 130
+  orig: 512, 512
+  offset: 186, 178
+  index: -1
+cloak1_04_R
+  rotate: true
+  xy: 1309, 46
+  size: 80, 122
+  orig: 512, 512
+  offset: 290, 186
+  index: -1
+cloak1_05_L
+  rotate: true
+  xy: 1890, 120
+  size: 62, 142
+  orig: 512, 512
+  offset: 196, 168
+  index: -1
+cloak1_05_R
+  rotate: true
+  xy: 1892, 183
+  size: 72, 134
+  orig: 512, 512
+  offset: 290, 178
+  index: -1
+cloak1_main_L
+  rotate: true
+  xy: 146, 14
+  size: 66, 80
+  orig: 512, 512
+  offset: 198, 234
+  index: -1
+cloak1_main_R
+  rotate: true
+  xy: 227, 16
+  size: 66, 80
+  orig: 512, 512
+  offset: 284, 234
+  index: -1
+dotEF_idle_00
+  rotate: false
+  xy: 308, 18
+  size: 70, 64
+  orig: 512, 512
+  offset: 118, 266
+  index: -1
+dotEF_idle_01
+  rotate: false
+  xy: 1707, 69
+  size: 30, 30
+  orig: 512, 512
+  offset: 170, 254
+  index: -1
+dotEF_idle_02
+  rotate: false
+  xy: 1525, 19
+  size: 90, 82
+  orig: 512, 512
+  offset: 110, 256
+  index: -1
+dotEF_idle_03
+  rotate: false
+  xy: 1616, 19
+  size: 90, 80
+  orig: 512, 512
+  offset: 104, 266
+  index: -1
+dotEF_idle_04
+  rotate: true
+  xy: 1432, 1
+  size: 98, 92
+  orig: 512, 512
+  offset: 102, 258
+  index: -1
+dotEF_idle_05
+  rotate: false
+  xy: 379, 54
+  size: 30, 28
+  orig: 512, 512
+  offset: 122, 298
+  index: -1
+idle_00
+  rotate: false
+  xy: 224, 83
+  size: 222, 172
+  orig: 512, 512
+  offset: 110, 164
+  index: -1
+idle_01
+  rotate: false
+  xy: 447, 81
+  size: 218, 174
+  orig: 512, 512
+  offset: 110, 164
+  index: -1
+idle_02
+  rotate: false
+  xy: 883, 81
+  size: 214, 174
+  orig: 512, 512
+  offset: 110, 164
+  index: -1
+idle_03
+  rotate: false
+  xy: 1098, 79
+  size: 210, 176
+  orig: 512, 512
+  offset: 110, 164
+  index: -1
+idle_04
+  rotate: false
+  xy: 666, 79
+  size: 216, 176
+  orig: 512, 512
+  offset: 110, 164
+  index: -1
+idle_05
+  rotate: false
+  xy: 1, 81
+  size: 222, 174
+  orig: 512, 512
+  offset: 110, 164
+  index: -1

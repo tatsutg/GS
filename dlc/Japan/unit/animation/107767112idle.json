@@ -1,0 +1,118 @@
+{
+"skeleton": { "hash": "WheTbVrH6Ex4coeQVaVwKeD/jtU", "spine": "3.6.53", "width": 0, "height": 0, "images": "./images/idle/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Luvia", "parent": "root", "x": 1.96, "y": 67.5, "color": "fff371ff" },
+	{ "name": "MAIN", "parent": "root", "y": 75, "color": "055bffff" }
+],
+"slots": [
+	{ "name": "MAIN", "bone": "MAIN" },
+	{ "name": "luvia", "bone": "Luvia" }
+],
+"skins": {
+	"default": {
+		"MAIN": {
+			"front_00": { "x": 2.14, "y": -16.47, "width": 300, "height": 300 },
+			"idle_00": { "x": 2.14, "y": -16, "width": 300, "height": 300 },
+			"idle_01": { "x": 2.14, "y": -16.47, "width": 300, "height": 300 },
+			"idle_02": { "x": 2.14, "y": -16.47, "width": 300, "height": 300 },
+			"idle_03": { "x": 2.14, "y": -16.47, "width": 300, "height": 300 }
+		},
+		"luvia": {
+			"front_L00": { "x": 1.55, "y": -8.37, "width": 300, "height": 300 },
+			"idle_L00": { "x": 1.55, "y": -8.37, "width": 300, "height": 300 },
+			"idle_L01": { "x": 1.55, "y": -8.37, "width": 300, "height": 300 },
+			"idle_L02": { "x": 1.55, "y": -8.37, "width": 300, "height": 300 },
+			"idle_L03": { "x": 1.55, "y": -8.37, "width": 300, "height": 300 }
+		}
+	}
+},
+"events": {
+	"event": {}
+},
+"animations": {
+	"front_L": {
+		"slots": {
+			"luvia": {
+				"attachment": [
+					{ "time": 0, "name": "front_L00" }
+				]
+			}
+		}
+	},
+	"front_R": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "front_00" }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.2, "name": "idle_01" },
+					{ "time": 0.4, "name": "idle_02" },
+					{ "time": 0.6, "name": "idle_03" },
+					{ "time": 0.8, "name": "idle_00" }
+				]
+			},
+			"luvia": {
+				"attachment": [
+					{ "time": 0, "name": "idle_L00" },
+					{ "time": 0.2, "name": "idle_L01" },
+					{ "time": 0.4, "name": "idle_L02" },
+					{ "time": 0.6, "name": "idle_L03" },
+					{ "time": 0.8, "name": "idle_L00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 146.86, "y": 0 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": -170.98, "y": 0 }
+				]
+			},
+			"Luvia": {
+				"translate": [
+					{ "time": 0, "x": 196.37, "y": 0 }
+				]
+			}
+		}
+	},
+	"idle_L": {
+		"slots": {
+			"luvia": {
+				"attachment": [
+					{ "time": 0, "name": "idle_L00" },
+					{ "time": 0.2, "name": "idle_L01" },
+					{ "time": 0.4, "name": "idle_L02" },
+					{ "time": 0.6, "name": "idle_L03" },
+					{ "time": 0.8, "name": "idle_L00" }
+				]
+			}
+		}
+	},
+	"idle_R": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.2, "name": "idle_01" },
+					{ "time": 0.4, "name": "idle_02" },
+					{ "time": 0.6, "name": "idle_03" },
+					{ "time": 0.8, "name": "idle_00" }
+				]
+			}
+		}
+	}
+}
+}

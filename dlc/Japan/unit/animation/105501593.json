@@ -1,0 +1,972 @@
+{
+"skeleton": { "hash": "sAqkta6yGCiyjlpL+wGKSuWjOJE", "spine": "3.0.12", "width": 300, "height": 331, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "MAIN_EF", "parent": "root", "color": "ffae00ff" },
+	{ "name": "ef_graund_wave_main4", "parent": "MAIN_EF", "x": 700, "color": "ff6f47ff" },
+	{ "name": "ef_graund_wave_main3", "parent": "MAIN_EF", "x": 700, "color": "ff6f47ff" },
+	{ "name": "ef_graund_wave_main2", "parent": "MAIN_EF", "x": 700, "color": "ff6f47ff" },
+	{ "name": "ef_graund_wave_main", "parent": "MAIN_EF", "x": 700, "color": "ff6f47ff" },
+	{ "name": "ef_dash_main", "parent": "MAIN_EF", "x": 600, "color": "ffae00ff" },
+	{ "name": "ef_MZL_main", "parent": "MAIN_EF", "x": 600, "y": 600, "scaleX": 2, "scaleY": 2, "color": "ffae00ff" },
+	{ "name": "MAIN", "parent": "root", "y": 62, "color": "ff0008ff" },
+	{ "name": "DAMAGEAREA", "parent": "root", "color": "ff0098ff" }
+],
+"slots": [
+	{ "name": "ef_graund_wave_main", "bone": "ef_graund_wave_main", "blend": "additive" },
+	{ "name": "ef_graund_wave_main2", "bone": "ef_graund_wave_main2", "blend": "additive" },
+	{ "name": "ef_graund_wave_main3", "bone": "ef_graund_wave_main3", "blend": "additive" },
+	{ "name": "ef_graund_wave_main4", "bone": "ef_graund_wave_main4", "blend": "additive" },
+	{ "name": "ef_MZL_main", "bone": "ef_MZL_main", "blend": "additive" },
+	{ "name": "DAMAGEAREA", "bone": "DAMAGEAREA" },
+	{ "name": "MAIN", "bone": "MAIN", "attachment": "idle_00" },
+	{ "name": "ef_dash_main", "bone": "ef_dash_main", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"DAMAGEAREA": {
+			"DAMAGEAREA": {
+				"type": "boundingbox",
+				"vertices": [ -63.86987, 94.94344, -63.86987, 0.5495, 62.56598, 1.41551, 61.70004, 94.94344 ]
+			}
+		},
+		"MAIN": {
+			"back_00": { "y": -5.27, "width": 300, "height": 331 },
+			"back_01": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_00": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_01": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_02": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_03": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_04": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_05": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_06": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_07": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_08": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_09": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_10": { "y": -5.27, "width": 300, "height": 331 },
+			"crouch_11": { "y": -5.27, "width": 300, "height": 331 },
+			"damage_00": { "y": -5.27, "width": 300, "height": 331 },
+			"front_00": { "y": -5.27, "width": 300, "height": 331 },
+			"idle_00": { "y": -5.27, "width": 300, "height": 331 },
+			"idle_01": { "y": -5.27, "width": 300, "height": 331 },
+			"idle_02": { "y": -5.27, "width": 300, "height": 331 },
+			"idle_03": { "y": -5.27, "width": 300, "height": 331 },
+			"kneel1_00": { "y": -3.99, "width": 300, "height": 331 },
+			"kneel1_01": { "y": -4, "width": 300, "height": 331 },
+			"kneel1_02": { "y": -4, "width": 300, "height": 331 },
+			"kneel1_03": { "y": -4, "width": 300, "height": 331 },
+			"kneel2_00": { "y": -4, "width": 300, "height": 331 },
+			"kneel3_00": { "x": -45.32, "y": -36.89, "width": 252, "height": 72 },
+			"rifle_18": { "y": -5.27, "width": 300, "height": 331 },
+			"rifle_19": { "y": -5.27, "width": 300, "height": 331 },
+			"rifle_run1": { "y": -5.27, "width": 300, "height": 331 },
+			"rifle_run2": { "y": -5.27, "width": 300, "height": 331 },
+			"rifle_run3": { "y": -5.27, "width": 300, "height": 331 },
+			"rifle_run4": { "y": -5.27, "width": 300, "height": 331 },
+			"rifle_run5": { "y": -5.27, "width": 300, "height": 331 },
+			"rifle_run6": { "y": -5.27, "width": 300, "height": 331 },
+			"run1": { "y": -5.27, "width": 300, "height": 331 },
+			"run2": { "y": -5.27, "width": 300, "height": 331 },
+			"run3": { "y": -5.27, "width": 300, "height": 331 },
+			"run4": { "y": -5.27, "width": 300, "height": 331 },
+			"run5": { "y": -5.27, "width": 300, "height": 331 },
+			"run6": { "y": -5.27, "width": 300, "height": 331 },
+			"run_b1": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_b2": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_b3": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_b4": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_b5": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_b6": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_b7": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_b8": { "x": 1.03, "y": -3, "width": 300, "height": 331 },
+			"run_c1": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c2": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c3": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c4": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c5": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c6": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c7": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c8": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c9": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c10": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c11": { "y": -3.38, "width": 300, "height": 331 },
+			"run_c12": { "y": -3.38, "width": 300, "height": 331 },
+			"skill2_00": { "y": -5.27, "width": 300, "height": 331 },
+			"skill2_01": { "y": -5.27, "width": 300, "height": 331 },
+			"skill2_02": { "y": -5.27, "width": 300, "height": 331 },
+			"skill2_04": { "y": -5.27, "width": 300, "height": 331 },
+			"skill2_06": { "y": -5.27, "width": 300, "height": 331 },
+			"skill2_07": { "y": -5.27, "width": 300, "height": 331 },
+			"skill2_08": { "y": -5.27, "width": 300, "height": 331 },
+			"skill2_10": { "y": -5.27, "width": 300, "height": 331 },
+			"stance_00": { "y": -5.27, "width": 300, "height": 331 },
+			"stance_01": { "y": -5.27, "width": 300, "height": 331 },
+			"stance_03": { "y": -5.27, "width": 300, "height": 331 },
+			"stance_04": { "y": -5.27, "width": 300, "height": 331 },
+			"stand_00": { "y": -5.27, "width": 300, "height": 331 },
+			"stand_01": { "y": -5.27, "width": 300, "height": 331 },
+			"stand_02": { "y": -5.27, "width": 300, "height": 331 },
+			"stand_03": { "y": -5.27, "width": 300, "height": 331 }
+		},
+		"ef_MZL_main": {
+			"EF/ef_MZL_main/ef_MZL_main_00001": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00002": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00003": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00004": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00005": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00006": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00007": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00008": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00009": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 },
+			"EF/ef_MZL_main/ef_MZL_main_00010": { "x": -43.17, "y": -0.63, "width": 115, "height": 100 }
+		},
+		"ef_dash_main": {
+			"EF/ef_dash_main/ef_dash_main_00001": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00002": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00003": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00004": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00005": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00006": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00007": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00008": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00009": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00010": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00011": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 },
+			"EF/ef_dash_main/ef_dash_main_00012": { "x": 8.51, "y": 30.34, "width": 120, "height": 120 }
+		},
+		"ef_graund_wave_main": {
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00001": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00002": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00003": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00004": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00005": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00006": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00007": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00008": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00009": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00010": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00011": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00012": { "y": 9.59, "width": 200, "height": 120 }
+		},
+		"ef_graund_wave_main2": {
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00001": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00002": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00003": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00004": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00005": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00006": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00007": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00008": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00009": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00010": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00011": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00012": { "y": 9.59, "width": 200, "height": 120 }
+		},
+		"ef_graund_wave_main3": {
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00001": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00002": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00003": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00004": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00005": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00006": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00007": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00008": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00009": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00010": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00011": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00012": { "y": 9.59, "width": 200, "height": 120 }
+		},
+		"ef_graund_wave_main4": {
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00001": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00002": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00003": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00004": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00005": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00006": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00007": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00008": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00009": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00010": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00011": { "y": 9.59, "width": 200, "height": 120 },
+			"EF/ef_graund_wave_main/ef_graund_wave_main_00012": { "y": 9.59, "width": 200, "height": 120 }
+		}
+	}
+},
+"events": {
+	"Event": {},
+	"Event2": {},
+	"Hit": { "string": "resetHitList" },
+	"Sound1": {},
+	"Sound2": {},
+	"Sound3": {},
+	"Voice": {}
+},
+"animations": {
+	"attack1": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.0333, "name": "stand_02" },
+					{ "time": 0.1666, "name": "stand_03" },
+					{ "time": 0.3333, "name": "stand_00" },
+					{ "time": 0.3666, "name": "stand_03" },
+					{ "time": 0.4333, "name": "stand_00" },
+					{ "time": 0.4666, "name": "stand_03" },
+					{ "time": 0.5333, "name": "stand_00" },
+					{ "time": 0.5666, "name": "stand_03" },
+					{ "time": 0.6333, "name": "stand_00" },
+					{ "time": 0.6666, "name": "stand_03" },
+					{ "time": 0.8333, "name": "stand_02" },
+					{ "time": 0.9, "name": "idle_03" },
+					{ "time": 1, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0.0333, "x": 7.88, "y": 1.13, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "Event", "float": 0.05, "string": "kHitStopType_enemyonly" },
+			{ "time": 0.3333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSION,1)" },
+			{ "time": 0.3333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.4333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSION,1)" },
+			{ "time": 0.4333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.5333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSION,1)" },
+			{ "time": 0.5333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.6333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSION,1)" },
+			{ "time": 0.6333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" }
+		]
+	},
+	"back": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.0333, "name": "back_00" },
+					{ "time": 0.4, "name": "back_01" },
+					{ "time": 0.6, "name": "idle_03" },
+					{ "time": 0.6666, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0.0333, "x": 24.88, "y": 0 },
+					{ "time": 0.2, "x": 141.22, "y": 13.58 },
+					{
+						"time": 0.4,
+						"x": 180,
+						"y": 0,
+						"curve": [ 0.151, 0.83, 0.663, 0.97 ]
+					},
+					{ "time": 0.5666, "x": 190.25, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 197.5, "y": 0 },
+					{ "time": 0.6666, "x": 200, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "Sound1", "string": "cri_se_battl" }
+		]
+	},
+	"cast": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.1, "name": "idle_01" },
+					{ "time": 0.2, "name": "idle_02" },
+					{ "time": 0.3, "name": "idle_03" },
+					{ "time": 0.3666, "name": "stand_01" },
+					{ "time": 0.4333, "name": "stand_02" },
+					{ "time": 0.5, "name": "stand_03" },
+					{ "time": 0.8333, "name": "stand_02" },
+					{ "time": 0.9, "name": "idle_03" },
+					{ "time": 1, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0.3666, "x": 8.09, "y": 0.93, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"damage": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "damage_00" }
+				]
+			}
+		}
+	},
+	"empty": {},
+	"front": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "front_00" }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.2666, "name": "idle_01" },
+					{ "time": 0.5, "name": "idle_02" },
+					{ "time": 0.7333, "name": "idle_03" },
+					{ "time": 1, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"in": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "front_00" },
+					{ "time": 0.5666, "name": "idle_02" },
+					{ "time": 0.7, "name": "idle_03" },
+					{ "time": 0.8333, "name": "idle_00" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 613.07, "y": 0 },
+					{
+						"time": 0.5666,
+						"x": 15,
+						"y": 0,
+						"curve": [ 0.204, 0.8, 0.75, 1 ]
+					},
+					{ "time": 0.8, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5666, "name": "Sound1", "string": "cri_se_battle_landing" }
+		]
+	},
+	"kneel1": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "kneel1_00" },
+					{ "time": 0.2666, "name": "kneel1_01" },
+					{ "time": 0.5, "name": "kneel1_02" },
+					{ "time": 0.7666, "name": "kneel1_03" },
+					{ "time": 1, "name": "kneel1_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"kneel2": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "kneel2_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"kneel3": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "kneel3_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"skill1": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.0333, "name": "crouch_07" },
+					{ "time": 0.1, "name": "crouch_08" },
+					{ "time": 0.1666, "name": "crouch_09" },
+					{ "time": 0.3, "name": "crouch_10" },
+					{ "time": 0.3333, "name": "crouch_09" },
+					{ "time": 0.4, "name": "crouch_10" },
+					{ "time": 0.4333, "name": "crouch_09" },
+					{ "time": 0.5, "name": "crouch_10" },
+					{ "time": 0.5333, "name": "crouch_09" },
+					{ "time": 0.6, "name": "crouch_10" },
+					{ "time": 0.6333, "name": "crouch_09" },
+					{ "time": 0.7, "name": "crouch_10" },
+					{ "time": 0.7333, "name": "crouch_09" },
+					{ "time": 0.8, "name": "crouch_10" },
+					{ "time": 0.8333, "name": "crouch_09" },
+					{ "time": 0.9, "name": "crouch_10" },
+					{ "time": 0.9333, "name": "crouch_09" },
+					{ "time": 1, "name": "crouch_10" },
+					{ "time": 1.0333, "name": "crouch_09" },
+					{ "time": 1.1, "name": "crouch_10" },
+					{ "time": 1.1333, "name": "crouch_09" },
+					{ "time": 1.2, "name": "crouch_10" },
+					{ "time": 1.2333, "name": "crouch_09" },
+					{ "time": 1.3, "name": "crouch_10" },
+					{ "time": 1.3333, "name": "crouch_09" },
+					{ "time": 1.4, "name": "crouch_10" },
+					{ "time": 1.4333, "name": "crouch_09" },
+					{ "time": 1.5, "name": "crouch_10" },
+					{ "time": 1.5333, "name": "crouch_09" },
+					{ "time": 1.6333, "name": "crouch_07" },
+					{ "time": 1.7333, "name": "crouch_11" },
+					{ "time": 1.8, "name": "crouch_06" },
+					{ "time": 1.8666, "name": "idle_03" },
+					{ "time": 2, "name": "idle_00" }
+				]
+			},
+			"ef_graund_wave_main": {
+				"attachment": [
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.8333, "name": null },
+					{ "time": 1.1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.1333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 1.1666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.2, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 1.2333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 1.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 1.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 1.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"attachment": [
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.9, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.9333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.9666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1, "name": null },
+					{ "time": 1.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 1.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 1.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 1.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 1.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 1.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1.6666, "name": null }
+				]
+			},
+			"ef_graund_wave_main3": {
+				"attachment": [
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.9, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.9333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.9666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 1.0333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.0666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 1.1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.1333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1.1666, "name": null },
+					{ "time": 1.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 1.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 1.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 1.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 1.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 1.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1.8333, "name": null }
+				]
+			},
+			"ef_graund_wave_main4": {
+				"attachment": [
+					{ "time": 0.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.9333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.9666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.0333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 1.0666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 1.1333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.1666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 1.2, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.2333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 1.2666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.3, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": -5.17, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": -10.69, "y": 1.03, "curve": "stepped" },
+					{ "time": 0.1666, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.3, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.3333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.4, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.4333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.5, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.5333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.6, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.6333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.7, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.7333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.8, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.8333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.9, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.9333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 1, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.0333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.1, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.1333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.2, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.2333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.3, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.3333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.4, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.4333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.5, "x": -9, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.5333, "x": -11.38, "y": 0.89, "curve": "stepped" },
+					{ "time": 1.6333, "x": -4.33, "y": -0.38, "curve": "stepped" },
+					{ "time": 1.7333, "x": 3.2, "y": 0.06, "curve": "stepped" },
+					{ "time": 1.8, "x": -4.44, "y": 0.93, "curve": "stepped" },
+					{ "time": 1.8666, "x": -5.79, "y": 0 }
+				]
+			},
+			"ef_graund_wave_main": {
+				"translate": [
+					{ "time": 0.4333, "x": -711.38, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 1.5, "y": 1.5 },
+					{ "time": 0.8333, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 1.1, "x": 1.5, "y": 1.5 },
+					{ "time": 1.5, "x": 2, "y": 2 }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"translate": [
+					{ "time": 0.6, "x": -711.38, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 1.5, "y": 1.5 },
+					{ "time": 1, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 1.2666, "x": 1.5, "y": 1.5 },
+					{ "time": 1.6666, "x": 2, "y": 2 }
+				]
+			},
+			"ef_graund_wave_main3": {
+				"translate": [
+					{ "time": 0.7666, "x": -711.38, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.7666, "x": 1.5, "y": 1.5 },
+					{ "time": 1.1666, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 1.4333, "x": 1.5, "y": 1.5 },
+					{ "time": 1.8333, "x": 2, "y": 2 }
+				]
+			},
+			"ef_graund_wave_main4": {
+				"translate": [
+					{ "time": 0.2666, "x": -711.38, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 1.5, "y": 1.5 },
+					{ "time": 0.6666, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1.5, "y": 1.5 },
+					{ "time": 1.3333, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "Event", "float": 0.05, "string": "kHitStopType_enemyonly" },
+			{ "time": 0.3, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb,1)" },
+			{ "time": 0.3, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.4, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb2,1)" },
+			{ "time": 0.4, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.5, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb3,1)" },
+			{ "time": 0.5, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.6, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb4,1)" },
+			{ "time": 0.6, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.7, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb5,1)" },
+			{ "time": 0.7, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.8, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb,1)" },
+			{ "time": 0.8, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.9, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb2,1)" },
+			{ "time": 0.9, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb3,1)" },
+			{ "time": 1, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.1, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb4,1)" },
+			{ "time": 1.1, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.2, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb5,1)" },
+			{ "time": 1.2, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.3, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb,1)" },
+			{ "time": 1.3, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.4, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb2,1)" },
+			{ "time": 1.4, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.5, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb3,1)" },
+			{ "time": 1.5, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" }
+		]
+	},
+	"skill2": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.0333, "name": "stand_02" },
+					{ "time": 0.1666, "name": "stand_03" },
+					{ "time": 0.3333, "name": "stand_00" },
+					{ "time": 0.3666, "name": "stand_03" },
+					{ "time": 0.4333, "name": "stand_00" },
+					{ "time": 0.4666, "name": "stand_03" },
+					{ "time": 0.5333, "name": "stand_00" },
+					{ "time": 0.5666, "name": "stand_03" },
+					{ "time": 0.6333, "name": "stand_00" },
+					{ "time": 0.6666, "name": "stand_03" },
+					{ "time": 0.7333, "name": "run_c6" },
+					{ "time": 0.7666, "name": "run_c7" },
+					{ "time": 0.8, "name": "run_c6" },
+					{ "time": 0.8333, "name": "run_c8" },
+					{ "time": 0.8666, "name": "run_c9" },
+					{ "time": 0.9, "name": "run_c8" },
+					{ "time": 0.9333, "name": "run_c10" },
+					{ "time": 0.9666, "name": "run_c11" },
+					{ "time": 1, "name": "run_c10" },
+					{ "time": 1.0333, "name": "run_c12" },
+					{ "time": 1.0666, "name": "run_c1" },
+					{ "time": 1.1, "name": "run_c12" },
+					{ "time": 1.1333, "name": "run_c2" },
+					{ "time": 1.1666, "name": "run_c3" },
+					{ "time": 1.2, "name": "run_c2" },
+					{ "time": 1.2333, "name": "run_c4" },
+					{ "time": 1.2666, "name": "run_c5" },
+					{ "time": 1.3, "name": "run_c4" },
+					{ "time": 1.3333, "name": "run_c6" },
+					{ "time": 1.3666, "name": "run_c7" },
+					{ "time": 1.4, "name": "run_c6" },
+					{ "time": 1.4333, "name": "run_c8" },
+					{ "time": 1.4666, "name": "run_c9" },
+					{ "time": 1.5, "name": "run_c8" },
+					{ "time": 1.5333, "name": "run_c10" },
+					{ "time": 1.5666, "name": "run_c11" },
+					{ "time": 1.6, "name": "run_c10" },
+					{ "time": 1.6333, "name": "run_c12" },
+					{ "time": 1.6666, "name": "run_c1" },
+					{ "time": 1.7, "name": "run_c12" },
+					{ "time": 1.7333, "name": "run_c2" },
+					{ "time": 1.7666, "name": "run_c3" },
+					{ "time": 1.8, "name": "run_c2" },
+					{ "time": 1.8333, "name": "run_c4" },
+					{ "time": 1.8666, "name": "run_c5" },
+					{ "time": 1.9, "name": "run_c4" },
+					{ "time": 1.9333, "name": "run_c6" },
+					{ "time": 1.9666, "name": "run_c7" },
+					{ "time": 2, "name": "run_c6" },
+					{ "time": 2.0333, "name": "run_c8" },
+					{ "time": 2.0666, "name": "run_c9" },
+					{ "time": 2.1, "name": "run_c8" },
+					{ "time": 2.1333, "name": "run_c10" },
+					{ "time": 2.1666, "name": "run_c11" },
+					{ "time": 2.2, "name": "run_c10" },
+					{ "time": 2.2333, "name": "run_c12" },
+					{ "time": 2.2666, "name": "crouch_06" },
+					{ "time": 2.3666, "name": "idle_03" },
+					{ "time": 2.4666, "name": "idle_00" }
+				],
+				"color": [
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 1.7666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8, "color": "ffffff24" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			},
+			"ef_dash_main": {
+				"attachment": [
+					{ "time": 0.7, "name": "EF/ef_dash_main/ef_dash_main_00001" },
+					{ "time": 0.7333, "name": "EF/ef_dash_main/ef_dash_main_00002" },
+					{ "time": 0.7666, "name": "EF/ef_dash_main/ef_dash_main_00003" },
+					{ "time": 0.8, "name": "EF/ef_dash_main/ef_dash_main_00004" },
+					{ "time": 0.8333, "name": "EF/ef_dash_main/ef_dash_main_00005" },
+					{ "time": 0.8666, "name": "EF/ef_dash_main/ef_dash_main_00006" },
+					{ "time": 0.9, "name": "EF/ef_dash_main/ef_dash_main_00007" },
+					{ "time": 0.9333, "name": "EF/ef_dash_main/ef_dash_main_00008" },
+					{ "time": 0.9666, "name": "EF/ef_dash_main/ef_dash_main_00009" },
+					{ "time": 1, "name": "EF/ef_dash_main/ef_dash_main_00010" },
+					{ "time": 1.0333, "name": "EF/ef_dash_main/ef_dash_main_00011" },
+					{ "time": 1.0666, "name": "EF/ef_dash_main/ef_dash_main_00012" },
+					{ "time": 1.1, "name": null }
+				]
+			},
+			"ef_graund_wave_main": {
+				"attachment": [
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.9, "name": null }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"attachment": [
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.7333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.7666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.8, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.8333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.8666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.9, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.9333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.9666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 1.0333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.0666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1.1, "name": null }
+				]
+			},
+			"ef_graund_wave_main4": {
+				"attachment": [
+					{ "time": 0.3333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.3666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.4, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.4333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 0.4666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.5, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.5333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.5666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.6, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.6333, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.6666, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.7, "name": "EF/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": 7.88, "y": 1.13, "curve": "stepped" },
+					{ "time": 0.7333, "x": -41.07, "y": -0.73, "curve": "stepped" },
+					{ "time": 0.7666, "x": -41.63, "y": -0.82 },
+					{ "time": 1.7666, "x": -800, "y": -4.03, "curve": "stepped" },
+					{ "time": 1.8, "x": 400, "y": -4.03 },
+					{ "time": 2.2333, "x": 50.59, "y": -5.95, "curve": "stepped" },
+					{
+						"time": 2.2666,
+						"x": 25.02,
+						"y": 0,
+						"curve": [ 0, 1, 0.75, 1 ]
+					},
+					{ "time": 2.4666, "x": 0, "y": 0 }
+				]
+			},
+			"ef_graund_wave_main": {
+				"translate": [
+					{ "time": 0.5, "x": -695.78, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 1.5, "y": 1.5 },
+					{ "time": 0.9, "x": 2, "y": 2 }
+				]
+			},
+			"ef_graund_wave_main4": {
+				"translate": [
+					{ "time": 0.3333, "x": -695.78, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1.5, "y": 1.5 },
+					{ "time": 0.7333, "x": 2, "y": 2 }
+				]
+			},
+			"ef_dash_main": {
+				"translate": [
+					{ "time": 0.7, "x": -551.44, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 2, "y": 2 }
+				]
+			},
+			"ef_graund_wave_main2": {
+				"translate": [
+					{ "time": 0.7, "x": -695.78, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 1.5, "y": 1.5 },
+					{ "time": 1.1, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "Event", "float": 0.05, "string": "kHitStopType_enemyonly" },
+			{ "time": 0.0666, "name": "Event", "string": "ignoreBorder_true" },
+			{ "time": 0.3333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSIONb,1)" },
+			{ "time": 0.3333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.4333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSIONb2,1)" },
+			{ "time": 0.4333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.5333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSIONb3,1)" },
+			{ "time": 0.5333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.6333, "name": "Event", "string": "addOrbitSystemShot(SHOT,EXPLOSIONb4,1)" },
+			{ "time": 0.6333, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.6333, "name": "Sound2", "string": "cri_se_battle_skill_swish" },
+			{ "time": 0.7333, "name": "Sound2", "string": "cri_se_battle_landing" },
+			{ "time": 0.7666, "name": "Event", "float": 0.05, "string": "kHitStopType_enemyonly" },
+			{ "time": 0.7666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.8666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb,1)" },
+			{ "time": 0.8666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 0.9666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb2,1)" },
+			{ "time": 0.9666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.0333, "name": "Sound2", "string": "cri_se_battle_landing" },
+			{ "time": 1.0666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb3,1)" },
+			{ "time": 1.0666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.1666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb4,1)" },
+			{ "time": 1.1666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.2666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb5,1)" },
+			{ "time": 1.2666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.3333, "name": "Sound2", "string": "cri_se_battle_landing" },
+			{ "time": 1.3666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb,1)" },
+			{ "time": 1.3666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.4666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb2,1)" },
+			{ "time": 1.4666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.5666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb3,1)" },
+			{ "time": 1.5666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.6333, "name": "Sound2", "string": "cri_se_battle_landing" },
+			{ "time": 1.6666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb4,1)" },
+			{ "time": 1.6666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.7666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb5,1)" },
+			{ "time": 1.7666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.8666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb,1)" },
+			{ "time": 1.8666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 1.9333, "name": "Sound2", "string": "cri_se_battle_landing" },
+			{ "time": 1.9666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb2,1)" },
+			{ "time": 1.9666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 2.0666, "name": "Event", "string": "addOrbitSystemShot(SHOT2,EXPLOSIONb3,1)" },
+			{ "time": 2.0666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 2.1666, "name": "Event", "float": 0.05, "string": "kHitStopType_enemyonly" },
+			{ "time": 2.1666, "name": "Sound1", "string": "cri_se_battle_039_weapon_swing" },
+			{ "time": 2.2333, "name": "Sound2", "string": "cri_se_battle_landing" }
+		]
+	},
+	"stance": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "stance_00" },
+					{ "time": 0.2666, "name": "stance_01" },
+					{ "time": 0.5, "name": "stance_03" },
+					{ "time": 0.7666, "name": "stance_04" },
+					{ "time": 1, "name": "stance_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

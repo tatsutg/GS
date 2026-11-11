@@ -1,0 +1,195 @@
+
+windSpeedBar.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_trunade_aura_main_00006
+  rotate: true
+  xy: 1002, 67
+  size: 112, 150
+  orig: 150, 150
+  offset: 9, 0
+  index: -1
+num_ws_BLUE_0
+  rotate: true
+  xy: 1188, 170
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_1
+  rotate: true
+  xy: 0, 20
+  size: 48, 94
+  orig: 48, 94
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_2
+  rotate: true
+  xy: 1337, 0
+  size: 83, 96
+  orig: 83, 96
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_3
+  rotate: true
+  xy: 1287, 170
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_4
+  rotate: false
+  xy: 1153, 74
+  size: 91, 95
+  orig: 91, 95
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_5
+  rotate: true
+  xy: 1782, 85
+  size: 84, 95
+  orig: 84, 95
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_6
+  rotate: true
+  xy: 1386, 170
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_7
+  rotate: true
+  xy: 422, 0
+  size: 82, 94
+  orig: 82, 94
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_8
+  rotate: true
+  xy: 1485, 168
+  size: 87, 98
+  orig: 87, 98
+  offset: 0, 0
+  index: -1
+num_ws_BLUE_9
+  rotate: true
+  xy: 1683, 170
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+num_ws_RED_0
+  rotate: true
+  xy: 1782, 170
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+num_ws_RED_1
+  rotate: true
+  xy: 612, 34
+  size: 48, 94
+  orig: 48, 94
+  offset: 0, 0
+  index: -1
+num_ws_RED_2
+  rotate: true
+  xy: 1434, 0
+  size: 83, 96
+  orig: 83, 96
+  offset: 0, 0
+  index: -1
+num_ws_RED_3
+  rotate: true
+  xy: 1881, 170
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+num_ws_RED_4
+  rotate: false
+  xy: 1245, 74
+  size: 91, 95
+  orig: 91, 95
+  offset: 0, 0
+  index: -1
+num_ws_RED_5
+  rotate: true
+  xy: 1782, 0
+  size: 84, 95
+  orig: 84, 95
+  offset: 0, 0
+  index: -1
+num_ws_RED_6
+  rotate: true
+  xy: 1337, 84
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+num_ws_RED_7
+  rotate: true
+  xy: 517, 0
+  size: 82, 94
+  orig: 82, 94
+  offset: 0, 0
+  index: -1
+num_ws_RED_8
+  rotate: true
+  xy: 1584, 168
+  size: 87, 98
+  orig: 87, 98
+  offset: 0, 0
+  index: -1
+num_ws_RED_9
+  rotate: true
+  xy: 1683, 84
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+txt_BLUE_m_s
+  rotate: false
+  xy: 422, 83
+  size: 206, 96
+  orig: 206, 96
+  offset: 0, 0
+  index: -1
+txt_BLUE_windspeed
+  rotate: false
+  xy: 0, 69
+  size: 210, 110
+  orig: 210, 110
+  offset: 0, 0
+  index: -1
+txt_RED_m_s
+  rotate: false
+  xy: 629, 83
+  size: 206, 96
+  orig: 206, 96
+  offset: 0, 0
+  index: -1
+txt_RED_windspeed
+  rotate: false
+  xy: 211, 69
+  size: 210, 110
+  orig: 210, 110
+  offset: 0, 0
+  index: -1
+windspeed_bar
+  rotate: false
+  xy: 0, 180
+  size: 1187, 75
+  orig: 1187, 75
+  offset: 0, 0
+  index: -1
+windspeed_cursol
+  rotate: true
+  xy: 836, 64
+  size: 115, 165
+  orig: 115, 165
+  offset: 0, 0
+  index: -1

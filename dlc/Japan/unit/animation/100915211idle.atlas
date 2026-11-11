@@ -1,0 +1,118 @@
+
+100915211idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/stone/stone_1
+  rotate: false
+  xy: 794, 214
+  size: 20, 38
+  orig: 280, 280
+  offset: 54, 116
+  index: -1
+EF/stone/stone_10
+  rotate: false
+  xy: 807, 203
+  size: 6, 10
+  orig: 280, 280
+  offset: 170, 166
+  index: -1
+EF/stone/stone_11
+  rotate: false
+  xy: 22, 40
+  size: 16, 24
+  orig: 280, 280
+  offset: 198, 136
+  index: -1
+EF/stone/stone_2
+  rotate: false
+  xy: 22, 27
+  size: 8, 12
+  orig: 280, 280
+  offset: 70, 142
+  index: -1
+EF/stone/stone_3
+  rotate: false
+  xy: 1, 1
+  size: 12, 20
+  orig: 280, 280
+  offset: 90, 118
+  index: -1
+EF/stone/stone_4
+  rotate: false
+  xy: 14, 15
+  size: 6, 6
+  orig: 280, 280
+  offset: 92, 140
+  index: -1
+EF/stone/stone_5
+  rotate: false
+  xy: 815, 232
+  size: 10, 20
+  orig: 280, 280
+  offset: 112, 108
+  index: -1
+EF/stone/stone_6
+  rotate: false
+  xy: 39, 44
+  size: 10, 20
+  orig: 280, 280
+  offset: 124, 110
+  index: -1
+EF/stone/stone_7
+  rotate: false
+  xy: 794, 187
+  size: 12, 26
+  orig: 280, 280
+  offset: 146, 114
+  index: -1
+EF/stone/stone_8
+  rotate: false
+  xy: 794, 174
+  size: 8, 12
+  orig: 280, 280
+  offset: 152, 146
+  index: -1
+EF/stone/stone_9
+  rotate: false
+  xy: 1, 22
+  size: 20, 42
+  orig: 280, 280
+  offset: 164, 120
+  index: -1
+idle_00
+  rotate: false
+  xy: 640, 84
+  size: 153, 168
+  orig: 511, 501
+  offset: 180, 172
+  index: -1
+idle_01
+  rotate: false
+  xy: 483, 81
+  size: 156, 171
+  orig: 511, 501
+  offset: 180, 168
+  index: -1
+idle_02
+  rotate: false
+  xy: 162, 71
+  size: 161, 181
+  orig: 511, 501
+  offset: 176, 161
+  index: -1
+idle_03
+  rotate: false
+  xy: 1, 65
+  size: 160, 187
+  orig: 511, 501
+  offset: 176, 165
+  index: -1
+idle_04
+  rotate: false
+  xy: 324, 75
+  size: 158, 177
+  orig: 511, 501
+  offset: 177, 169
+  index: -1

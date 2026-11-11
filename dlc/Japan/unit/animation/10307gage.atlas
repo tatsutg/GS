@@ -1,0 +1,62 @@
+
+10307gage.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bar
+  rotate: false
+  xy: 632, 26
+  size: 199, 12
+  orig: 199, 12
+  offset: 0, 0
+  index: -1
+base
+  rotate: false
+  xy: 0, 55
+  size: 246, 60
+  orig: 256, 100
+  offset: 5, 20
+  index: -1
+ef_OF_mian/ef_OF_mian_00001
+  rotate: false
+  xy: 442, 0
+  size: 188, 115
+  orig: 200, 125
+  offset: 6, 5
+  index: -1
+ef_OF_mian/ef_OF_mian_00002
+  rotate: false
+  xy: 248, 2
+  size: 192, 113
+  orig: 200, 125
+  offset: 4, 6
+  index: -1
+ef_OF_mian/ef_OF_mian_00003
+  rotate: false
+  xy: 632, 40
+  size: 190, 75
+  orig: 200, 125
+  offset: 5, 25
+  index: -1
+ef_OF_mian/ef_OF_mian_00004
+  rotate: false
+  xy: 0, 2
+  size: 180, 51
+  orig: 200, 125
+  offset: 10, 37
+  index: -1
+ef_OF_mian/ef_OF_mian_00005
+  rotate: false
+  xy: 824, 68
+  size: 96, 47
+  orig: 200, 125
+  offset: 52, 39
+  index: -1
+white
+  rotate: false
+  xy: 632, 12
+  size: 199, 12
+  orig: 199, 12
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+102696312idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/DOT_wing/idle_wing_00
+  rotate: false
+  xy: 1, 104
+  size: 172, 140
+  orig: 500, 500
+  offset: 196, 178
+  index: -1
+EF/DOT_wing/idle_wing_01
+  rotate: false
+  xy: 327, 112
+  size: 154, 132
+  orig: 500, 500
+  offset: 204, 178
+  index: -1
+EF/DOT_wing/idle_wing_02
+  rotate: false
+  xy: 482, 104
+  size: 140, 140
+  orig: 500, 500
+  offset: 208, 174
+  index: -1
+EF/DOT_wing/idle_wing_03
+  rotate: false
+  xy: 174, 100
+  size: 152, 144
+  orig: 500, 500
+  offset: 202, 176
+  index: -1
+idle_00
+  rotate: true
+  xy: 148, 5
+  size: 94, 146
+  orig: 500, 500
+  offset: 214, 180
+  index: -1
+idle_01
+  rotate: false
+  xy: 921, 98
+  size: 94, 146
+  orig: 500, 500
+  offset: 212, 180
+  index: -1
+idle_02
+  rotate: true
+  xy: 623, 148
+  size: 96, 148
+  orig: 500, 500
+  offset: 212, 180
+  index: -1
+idle_02b
+  rotate: true
+  xy: 772, 148
+  size: 96, 148
+  orig: 500, 500
+  offset: 212, 180
+  index: -1
+idle_03
+  rotate: true
+  xy: 1, 1
+  size: 102, 146
+  orig: 500, 500
+  offset: 212, 180
+  index: -1

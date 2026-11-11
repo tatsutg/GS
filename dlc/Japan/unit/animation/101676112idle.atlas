@@ -1,0 +1,90 @@
+
+101676112idle.png
+size: 1024,128
+format: RGBA4444
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: false
+  xy: 299, 1
+  size: 140, 120
+  orig: 512, 512
+  offset: 200, 184
+  index: -1
+idle_01
+  rotate: false
+  xy: 440, 1
+  size: 140, 120
+  orig: 512, 512
+  offset: 200, 182
+  index: -1
+idle_02
+  rotate: false
+  xy: 156, 1
+  size: 142, 120
+  orig: 512, 512
+  offset: 198, 182
+  index: -1
+idle_03
+  rotate: false
+  xy: 1, 1
+  size: 154, 120
+  orig: 512, 512
+  offset: 186, 184
+  index: -1
+shield/mini_shield_1
+  rotate: false
+  xy: 581, 83
+  size: 28, 38
+  orig: 32, 42
+  offset: 2, 2
+  index: -1
+shield/mini_shield_1_chain
+  rotate: false
+  xy: 581, 27
+  size: 12, 16
+  orig: 16, 20
+  offset: 2, 2
+  index: -1
+shield/mini_shield_2
+  rotate: false
+  xy: 581, 44
+  size: 24, 38
+  orig: 28, 42
+  offset: 2, 2
+  index: -1
+shield/mini_shield_2_chain
+  rotate: false
+  xy: 664, 101
+  size: 8, 20
+  orig: 12, 24
+  offset: 2, 2
+  index: -1
+shield/mini_shield_3
+  rotate: false
+  xy: 641, 85
+  size: 22, 36
+  orig: 26, 40
+  offset: 2, 2
+  index: -1
+shield/mini_shield_3_chain
+  rotate: false
+  xy: 581, 6
+  size: 8, 20
+  orig: 12, 24
+  offset: 2, 2
+  index: -1
+shield/mini_shield_4
+  rotate: false
+  xy: 610, 85
+  size: 30, 36
+  orig: 34, 40
+  offset: 2, 2
+  index: -1
+shield/mini_shield_4_chain
+  rotate: false
+  xy: 673, 101
+  size: 8, 20
+  orig: 12, 24
+  offset: 2, 2
+  index: -1

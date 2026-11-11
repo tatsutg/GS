@@ -1,0 +1,90 @@
+
+breakNumber.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/HIT
+  rotate: false
+  xy: 206, 1
+  size: 102, 47
+  orig: 104, 48
+  offset: 1, 0
+  index: -1
+images/coin0
+  rotate: true
+  xy: 309, 13
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin1
+  rotate: true
+  xy: 744, 27
+  size: 21, 46
+  orig: 36, 48
+  offset: 8, 1
+  index: -1
+images/coin2
+  rotate: true
+  xy: 554, 13
+  size: 35, 47
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin3
+  rotate: true
+  xy: 358, 13
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin4
+  rotate: true
+  xy: 602, 12
+  size: 36, 47
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin5
+  rotate: true
+  xy: 650, 14
+  size: 34, 46
+  orig: 36, 48
+  offset: 0, 1
+  index: -1
+images/coin6
+  rotate: true
+  xy: 407, 13
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin7
+  rotate: true
+  xy: 697, 14
+  size: 34, 46
+  orig: 36, 48
+  offset: 0, 1
+  index: -1
+images/coin8
+  rotate: true
+  xy: 456, 13
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/coin9
+  rotate: true
+  xy: 505, 13
+  size: 35, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+images/raid_battle_font_break
+  rotate: false
+  xy: 1, 1
+  size: 204, 47
+  orig: 204, 48
+  offset: 0, 1
+  index: -1

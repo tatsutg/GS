@@ -1,0 +1,76 @@
+
+100453512idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/grave/B_C_grave_5
+  rotate: true
+  xy: 744, 155
+  size: 100, 156
+  orig: 280, 270
+  offset: 97, 61
+  index: -1
+EF/grave/B_L_grave_4
+  rotate: false
+  xy: 1, 1
+  size: 62, 116
+  orig: 280, 270
+  offset: 175, 55
+  index: -1
+EF/grave/B_R_grave_3
+  rotate: false
+  xy: 64, 31
+  size: 52, 86
+  orig: 280, 270
+  offset: 49, 89
+  index: -1
+EF/grave/F_L_cave_1
+  rotate: false
+  xy: 901, 179
+  size: 72, 76
+  orig: 280, 270
+  offset: 153, 29
+  index: -1
+EF/grave/F_R_grave_2
+  rotate: true
+  xy: 117, 47
+  size: 70, 52
+  orig: 280, 270
+  offset: 53, 49
+  index: -1
+idle_00
+  rotate: false
+  xy: 597, 122
+  size: 146, 133
+  orig: 400, 400
+  offset: 126, 103
+  index: -1
+idle_01
+  rotate: false
+  xy: 449, 120
+  size: 147, 135
+  orig: 400, 400
+  offset: 126, 102
+  index: -1
+idle_02
+  rotate: false
+  xy: 1, 118
+  size: 149, 137
+  orig: 400, 400
+  offset: 125, 100
+  index: -1
+idle_03
+  rotate: false
+  xy: 151, 120
+  size: 148, 135
+  orig: 400, 400
+  offset: 125, 101
+  index: -1
+idle_04
+  rotate: false
+  xy: 300, 120
+  size: 148, 135
+  orig: 400, 400
+  offset: 125, 101
+  index: -1

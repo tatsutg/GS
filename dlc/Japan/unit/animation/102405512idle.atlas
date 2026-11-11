@@ -1,0 +1,118 @@
+
+102405512idle.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00003
+  rotate: false
+  xy: 268, 15
+  size: 55, 100
+  orig: 150, 200
+  offset: 46, 42
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00004
+  rotate: true
+  xy: 969, 94
+  size: 57, 107
+  orig: 150, 200
+  offset: 46, 42
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00005
+  rotate: true
+  xy: 1904, 163
+  size: 75, 125
+  orig: 150, 200
+  offset: 46, 44
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00006
+  rotate: true
+  xy: 1374, 156
+  size: 82, 132
+  orig: 150, 200
+  offset: 38, 43
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00007
+  rotate: true
+  xy: 1241, 155
+  size: 83, 132
+  orig: 150, 200
+  offset: 34, 43
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00008
+  rotate: true
+  xy: 844, 152
+  size: 86, 131
+  orig: 150, 200
+  offset: 31, 44
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00009
+  rotate: true
+  xy: 976, 152
+  size: 86, 131
+  orig: 150, 200
+  offset: 31, 44
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00010
+  rotate: true
+  xy: 1108, 154
+  size: 84, 132
+  orig: 150, 200
+  offset: 31, 43
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00011
+  rotate: true
+  xy: 1507, 156
+  size: 82, 132
+  orig: 150, 200
+  offset: 32, 43
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00012
+  rotate: true
+  xy: 1640, 158
+  size: 80, 131
+  orig: 150, 200
+  offset: 32, 44
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00013
+  rotate: true
+  xy: 1772, 158
+  size: 80, 131
+  orig: 150, 200
+  offset: 32, 44
+  index: -1
+EF/ef_blade_dark_aura_main/ef_blade_dark_aura_main_00014
+  rotate: true
+  xy: 844, 88
+  size: 63, 124
+  orig: 150, 200
+  offset: 44, 46
+  index: -1
+idle_00
+  rotate: false
+  xy: 1, 1
+  size: 266, 114
+  orig: 512, 512
+  offset: 174, 200
+  index: -1
+idle_01
+  rotate: false
+  xy: 563, 126
+  size: 280, 112
+  orig: 512, 512
+  offset: 160, 200
+  index: -1
+idle_02
+  rotate: false
+  xy: 280, 126
+  size: 282, 112
+  orig: 512, 512
+  offset: 158, 200
+  index: -1
+idle_03
+  rotate: false
+  xy: 1, 116
+  size: 278, 122
+  orig: 512, 512
+  offset: 160, 192
+  index: -1

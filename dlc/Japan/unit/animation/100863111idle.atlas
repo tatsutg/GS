@@ -1,0 +1,97 @@
+
+100863111idle.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/head_frie/L_arm_fire_1
+  rotate: false
+  xy: 684, 97
+  size: 26, 29
+  orig: 200, 200
+  offset: 126, 113
+  index: -1
+EF/head_frie/L_arm_fire_2
+  rotate: false
+  xy: 711, 97
+  size: 26, 29
+  orig: 200, 200
+  offset: 126, 113
+  index: -1
+EF/head_frie/L_arm_fire_3
+  rotate: true
+  xy: 630, 63
+  size: 28, 22
+  orig: 200, 200
+  offset: 126, 113
+  index: -1
+EF/head_frie/L_arm_fire_4
+  rotate: false
+  xy: 655, 97
+  size: 28, 29
+  orig: 200, 200
+  offset: 126, 113
+  index: -1
+EF/head_frie/R_arm_fire_1
+  rotate: false
+  xy: 630, 92
+  size: 24, 34
+  orig: 200, 200
+  offset: 85, 121
+  index: -1
+EF/head_frie/R_arm_fire_2
+  rotate: false
+  xy: 758, 105
+  size: 21, 21
+  orig: 200, 200
+  offset: 86, 123
+  index: -1
+EF/head_frie/R_arm_fire_3
+  rotate: false
+  xy: 738, 99
+  size: 19, 27
+  orig: 200, 200
+  offset: 86, 123
+  index: -1
+EF/head_frie/R_arm_fire_4
+  rotate: false
+  xy: 630, 31
+  size: 14, 31
+  orig: 200, 200
+  offset: 91, 121
+  index: -1
+idle_00
+  rotate: true
+  xy: 258, 3
+  size: 123, 126
+  orig: 256, 256
+  offset: 66, 65
+  index: -1
+idle_01
+  rotate: false
+  xy: 510, 4
+  size: 119, 122
+  orig: 256, 256
+  offset: 64, 68
+  index: -1
+idle_02
+  rotate: true
+  xy: 385, 3
+  size: 123, 124
+  orig: 256, 256
+  offset: 65, 67
+  index: -1
+idle_03
+  rotate: true
+  xy: 130, 3
+  size: 123, 127
+  orig: 256, 256
+  offset: 67, 65
+  index: -1
+idle_04
+  rotate: true
+  xy: 1, 1
+  size: 125, 128
+  orig: 256, 256
+  offset: 67, 64
+  index: -1

@@ -1,0 +1,83 @@
+
+103596112idle.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack1_00
+  rotate: true
+  xy: 30, 200
+  size: 54, 134
+  orig: 512, 512
+  offset: 230, 186
+  index: -1
+attack1_01
+  rotate: true
+  xy: 2, 38
+  size: 82, 132
+  orig: 512, 512
+  offset: 228, 186
+  index: -1
+attack1_02
+  rotate: true
+  xy: 274, 98
+  size: 80, 132
+  orig: 512, 512
+  offset: 228, 186
+  index: -1
+attack1_03
+  rotate: true
+  xy: 136, 14
+  size: 88, 114
+  orig: 512, 512
+  offset: 202, 200
+  index: -1
+attack1_04
+  rotate: false
+  xy: 408, 88
+  size: 102, 90
+  orig: 512, 512
+  offset: 194, 216
+  index: -1
+attack1_05
+  rotate: false
+  xy: 252, 2
+  size: 100, 94
+  orig: 512, 512
+  offset: 192, 216
+  index: -1
+ball_00
+  rotate: false
+  xy: 2, 228
+  size: 26, 26
+  orig: 512, 512
+  offset: 244, 244
+  index: -1
+idle_00
+  rotate: true
+  xy: 166, 182
+  size: 72, 134
+  orig: 512, 512
+  offset: 218, 186
+  index: -1
+idle_01
+  rotate: true
+  xy: 2, 122
+  size: 76, 134
+  orig: 512, 512
+  offset: 216, 186
+  index: -1
+idle_02
+  rotate: true
+  xy: 138, 104
+  size: 76, 134
+  orig: 512, 512
+  offset: 218, 186
+  index: -1
+idle_03
+  rotate: true
+  xy: 302, 180
+  size: 74, 134
+  orig: 512, 512
+  offset: 218, 186
+  index: -1

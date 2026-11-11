@@ -1,0 +1,202 @@
+
+101573412idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: false
+  xy: 450, 110
+  size: 142, 144
+  orig: 512, 512
+  offset: 178, 162
+  index: -1
+idle_01
+  rotate: false
+  xy: 154, 110
+  size: 146, 144
+  orig: 512, 512
+  offset: 176, 166
+  index: -1
+idle_02
+  rotate: false
+  xy: 2, 110
+  size: 150, 144
+  orig: 512, 512
+  offset: 174, 168
+  index: -1
+idle_03
+  rotate: false
+  xy: 302, 110
+  size: 146, 144
+  orig: 512, 512
+  offset: 176, 164
+  index: -1
+idle_04
+  rotate: false
+  xy: 594, 110
+  size: 142, 144
+  orig: 512, 512
+  offset: 178, 160
+  index: -1
+pod/L_pod_00
+  rotate: false
+  xy: 738, 180
+  size: 28, 44
+  orig: 512, 512
+  offset: 240, 242
+  index: -1
+pod/L_podboost_00
+  rotate: false
+  xy: 872, 236
+  size: 16, 18
+  orig: 512, 512
+  offset: 254, 228
+  index: -1
+pod/R_pod_00
+  rotate: true
+  xy: 826, 226
+  size: 28, 44
+  orig: 512, 512
+  offset: 244, 242
+  index: -1
+pod/R_pod_00_light00
+  rotate: false
+  xy: 176, 62
+  size: 8, 8
+  orig: 512, 512
+  offset: 258, 268
+  index: -1
+pod/R_pod_01
+  rotate: true
+  xy: 48, 2
+  size: 24, 46
+  orig: 512, 512
+  offset: 246, 242
+  index: -1
+pod/R_podboost_00
+  rotate: false
+  xy: 768, 204
+  size: 16, 20
+  orig: 512, 512
+  offset: 244, 228
+  index: -1
+pod/R_podboost_01
+  rotate: false
+  xy: 98, 28
+  size: 14, 24
+  orig: 512, 512
+  offset: 244, 224
+  index: -1
+pod/R_podboost_02
+  rotate: false
+  xy: 210, 88
+  size: 14, 20
+  orig: 512, 512
+  offset: 244, 228
+  index: -1
+pod/R_podboost_03
+  rotate: true
+  xy: 146, 54
+  size: 16, 28
+  orig: 512, 512
+  offset: 242, 220
+  index: -1
+pod/R_podboost_04
+  rotate: false
+  xy: 190, 82
+  size: 18, 26
+  orig: 512, 512
+  offset: 240, 222
+  index: -1
+pod/S2_podB_00
+  rotate: false
+  xy: 2, 16
+  size: 44, 36
+  orig: 512, 512
+  offset: 224, 246
+  index: -1
+pod/S2_podF_00
+  rotate: false
+  xy: 146, 72
+  size: 42, 36
+  orig: 512, 512
+  offset: 226, 246
+  index: -1
+pod/S2_podboost_00
+  rotate: false
+  xy: 738, 162
+  size: 22, 16
+  orig: 512, 512
+  offset: 262, 242
+  index: -1
+pod/S2_podboost_01
+  rotate: true
+  xy: 96, 2
+  size: 24, 16
+  orig: 512, 512
+  offset: 262, 242
+  index: -1
+pod/S2_podboost_02
+  rotate: false
+  xy: 2, 2
+  size: 26, 12
+  orig: 512, 512
+  offset: 264, 246
+  index: -1
+pod/S2_podboost_03
+  rotate: false
+  xy: 2, 2
+  size: 26, 12
+  orig: 512, 512
+  offset: 264, 246
+  index: -1
+pod/S2_podlight_00
+  rotate: false
+  xy: 42, 4
+  size: 4, 10
+  orig: 512, 512
+  offset: 234, 264
+  index: -1
+pod/S_podB_00
+  rotate: false
+  xy: 114, 40
+  size: 18, 12
+  orig: 512, 512
+  offset: 218, 244
+  index: -1
+pod/S_podF_00
+  rotate: false
+  xy: 48, 28
+  size: 48, 24
+  orig: 512, 512
+  offset: 218, 244
+  index: -1
+pod/S_podboost_00
+  rotate: false
+  xy: 2, 54
+  size: 142, 54
+  orig: 512, 512
+  offset: 142, 218
+  index: -1
+pod/S_podboost_03
+  rotate: false
+  xy: 2, 54
+  size: 142, 54
+  orig: 512, 512
+  offset: 142, 218
+  index: -1
+pod/S_podboost_01
+  rotate: true
+  xy: 30, 2
+  size: 12, 10
+  orig: 512, 512
+  offset: 266, 256
+  index: -1
+pod/S_podboost_02
+  rotate: false
+  xy: 738, 226
+  size: 86, 28
+  orig: 512, 512
+  offset: 202, 240
+  index: -1

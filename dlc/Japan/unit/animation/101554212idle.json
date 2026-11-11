@@ -1,0 +1,232 @@
+{
+  "skeleton": {
+    "hash": "mGfi7+1tR1VnDWwYD8U4VeBG3/E",
+    "spine": "3.0.12",
+    "width": 0,
+    "height": 0
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "MAIN",
+      "parent": "root",
+      "y": 50
+    },
+    {
+      "name": "main_front",
+      "parent": "MAIN",
+      "scaleX": 2,
+      "scaleY": 2
+    },
+    {
+      "name": "main_back",
+      "parent": "MAIN",
+      "y": -3.86,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  ],
+  "slots": [
+    {
+      "name": "idle_b_00",
+      "bone": "main_back",
+      "attachment": "idle_b_00"
+    },
+    {
+      "name": "MAIN",
+      "bone": "MAIN",
+      "attachment": "idle_00"
+    },
+    {
+      "name": "idle_a_00",
+      "bone": "main_front",
+      "attachment": "idle_a_00"
+    }
+  ],
+  "skins": {
+    "default": {
+      "idle_a_00": {
+        "idle_a_00": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_a_01": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_a_02": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_a_03": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        }
+      },
+      "idle_b_00": {
+        "idle_b_00": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_b_01": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_b_02": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_b_03": {
+          "y": -2,
+          "width": 286,
+          "height": 286
+        }
+      },
+      "MAIN": {
+        "idle_00": {
+          "x": 9.28,
+          "y": -4,
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_01": {
+          "x": 9.28,
+          "y": -4,
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_02": {
+          "x": 9.28,
+          "y": -4,
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 286,
+          "height": 286
+        },
+        "idle_03": {
+          "x": 9.28,
+          "y": -4,
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 286,
+          "height": 286
+        }
+      }
+    }
+  },
+  "events": {
+    "Event": {},
+    "Hit": {},
+    "Sound1": {},
+    "Sound2": {},
+    "Sound3": {},
+    "Voice": {}
+  },
+  "animations": {
+    "idle": {
+      "slots": {
+        "idle_a_00": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "idle_a_00"
+            },
+            {
+              "time": 0.4,
+              "name": "idle_a_01"
+            },
+            {
+              "time": 0.8,
+              "name": "idle_a_02"
+            },
+            {
+              "time": 1.2,
+              "name": "idle_a_03"
+            },
+            {
+              "time": 1.6,
+              "name": "idle_a_00"
+            }
+          ]
+        },
+        "idle_b_00": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "idle_b_00"
+            },
+            {
+              "time": 0.4,
+              "name": "idle_b_01"
+            },
+            {
+              "time": 0.8,
+              "name": "idle_b_02"
+            },
+            {
+              "time": 1.2,
+              "name": "idle_b_03"
+            },
+            {
+              "time": 1.6,
+              "name": "idle_b_00"
+            }
+          ]
+        },
+        "MAIN": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "idle_00"
+            },
+            {
+              "time": 0.2,
+              "name": "idle_01"
+            },
+            {
+              "time": 0.4,
+              "name": "idle_02"
+            },
+            {
+              "time": 0.6,
+              "name": "idle_03"
+            },
+            {
+              "time": 0.8,
+              "name": "idle_00"
+            },
+            {
+              "time": 1,
+              "name": "idle_01"
+            },
+            {
+              "time": 1.2,
+              "name": "idle_02"
+            },
+            {
+              "time": 1.4,
+              "name": "idle_03"
+            },
+            {
+              "time": 1.6,
+              "name": "idle_00"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

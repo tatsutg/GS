@@ -1,0 +1,76 @@
+
+101166511idle.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_Naga_00
+  rotate: true
+  xy: 481, 279
+  size: 230, 259
+  orig: 500, 500
+  offset: 118, 128
+  index: -1
+idle_Naga_01
+  rotate: true
+  xy: 741, 279
+  size: 230, 258
+  orig: 500, 500
+  offset: 118, 128
+  index: -1
+idle_Naga_02
+  rotate: false
+  xy: 1, 1
+  size: 237, 253
+  orig: 500, 500
+  offset: 114, 127
+  index: -1
+idle_Naga_03
+  rotate: false
+  xy: 240, 259
+  size: 240, 250
+  orig: 500, 500
+  offset: 112, 127
+  index: -1
+idle_Naga_04
+  rotate: false
+  xy: 1, 255
+  size: 238, 254
+  orig: 500, 500
+  offset: 113, 128
+  index: -1
+idle_Rem_00
+  rotate: false
+  xy: 1000, 311
+  size: 240, 198
+  orig: 500, 500
+  offset: 164, 176
+  index: -1
+idle_Rem_01
+  rotate: false
+  xy: 1726, 314
+  size: 241, 195
+  orig: 500, 500
+  offset: 164, 177
+  index: -1
+idle_Rem_02
+  rotate: false
+  xy: 1000, 116
+  size: 242, 194
+  orig: 500, 500
+  offset: 164, 177
+  index: -1
+idle_Rem_03
+  rotate: false
+  xy: 1241, 313
+  size: 242, 196
+  orig: 500, 500
+  offset: 164, 176
+  index: -1
+idle_Rem_04
+  rotate: false
+  xy: 1484, 312
+  size: 241, 197
+  orig: 500, 500
+  offset: 164, 176
+  index: -1

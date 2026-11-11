@@ -1,0 +1,41 @@
+
+102565312idle.png
+size: 1024,128
+format: RGBA4444
+filter: Linear,Linear
+repeat: none
+Weppon_1
+  rotate: true
+  xy: 1, 51
+  size: 74, 184
+  orig: 500, 500
+  offset: 228, 152
+  index: -1
+idle_01
+  rotate: true
+  xy: 581, 11
+  size: 114, 128
+  orig: 500, 500
+  offset: 202, 188
+  index: -1
+idle_02
+  rotate: true
+  xy: 454, 1
+  size: 124, 126
+  orig: 500, 500
+  offset: 196, 188
+  index: -1
+idle_03
+  rotate: true
+  xy: 321, 1
+  size: 124, 132
+  orig: 500, 500
+  offset: 192, 188
+  index: -1
+idle_04
+  rotate: true
+  xy: 186, 15
+  size: 110, 134
+  orig: 500, 500
+  offset: 206, 186
+  index: -1

@@ -1,0 +1,104 @@
+
+101344212idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: true
+  xy: 339, 7
+  size: 136, 140
+  orig: 400, 400
+  offset: 124, 102
+  index: -1
+idle_01
+  rotate: false
+  xy: 480, 5
+  size: 142, 138
+  orig: 400, 400
+  offset: 120, 104
+  index: -1
+idle_02
+  rotate: false
+  xy: 865, 114
+  size: 156, 132
+  orig: 400, 400
+  offset: 114, 108
+  index: -1
+idle_03
+  rotate: false
+  xy: 188, 9
+  size: 150, 134
+  orig: 400, 400
+  offset: 118, 106
+  index: -1
+idle_04
+  rotate: false
+  xy: 623, 1
+  size: 142, 140
+  orig: 400, 400
+  offset: 122, 102
+  index: -1
+idle_water_00
+  rotate: false
+  xy: 678, 142
+  size: 186, 104
+  orig: 400, 400
+  offset: 100, 128
+  index: -1
+idle_water_01
+  rotate: false
+  xy: 109, 144
+  size: 192, 102
+  orig: 400, 400
+  offset: 98, 128
+  index: -1
+idle_water_02
+  rotate: false
+  xy: 302, 144
+  size: 190, 102
+  orig: 400, 400
+  offset: 96, 128
+  index: -1
+idle_water_03
+  rotate: false
+  xy: 493, 144
+  size: 184, 102
+  orig: 400, 400
+  offset: 100, 130
+  index: -1
+idle_water_04
+  rotate: false
+  xy: 1, 39
+  size: 186, 104
+  orig: 400, 400
+  offset: 102, 130
+  index: -1
+whip_01
+  rotate: true
+  xy: 28, 224
+  size: 22, 28
+  orig: 40, 40
+  offset: 9, 5
+  index: -1
+whip_06
+  rotate: false
+  xy: 57, 222
+  size: 26, 24
+  orig: 40, 40
+  offset: 7, 7
+  index: -1
+whip_07
+  rotate: false
+  xy: 84, 222
+  size: 24, 24
+  orig: 40, 40
+  offset: 8, 7
+  index: -1
+whip_08
+  rotate: false
+  xy: 1, 232
+  size: 26, 14
+  orig: 40, 40
+  offset: 11, 14
+  index: -1

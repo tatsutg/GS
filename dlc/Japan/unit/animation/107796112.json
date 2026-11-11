@@ -1,0 +1,1455 @@
+{
+"skeleton": { "hash": "+moPo4OJANVYc0wJPtXjaPzFyaI", "spine": "3.6.53", "width": 512, "height": 512, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "DAMAGEAREA", "parent": "root" },
+	{ "name": "HPBAR", "parent": "root", "rotation": -0.33, "y": 67, "color": "35ff00ff" },
+	{ "name": "MAIN", "parent": "root", "y": 60, "color": "0033ffff" },
+	{ "name": "attack1_ef_00", "parent": "root", "x": 300, "y": -250, "scaleX": 2, "scaleY": 2, "color": "ff0000ff" },
+	{ "name": "ef_aura_0", "parent": "MAIN", "x": 50 },
+	{ "name": "ef_aura_1", "parent": "MAIN", "x": 50 },
+	{ "name": "ef_dash_0", "parent": "root", "x": 200, "y": -100 },
+	{ "name": "ef_fire_smoke_0", "parent": "MAIN", "x": 50, "y": -150, "color": "0033ffff" },
+	{ "name": "ef_flare_back_0", "parent": "root", "x": 300, "y": -300 },
+	{ "name": "ef_flare_back_1", "parent": "root", "x": 300, "y": -300 },
+	{ "name": "ef_flare_back_main", "parent": "MAIN", "x": 300, "y": -360 },
+	{ "name": "ef_graund_wave_0", "parent": "root", "x": 200, "y": -150, "color": "ffa000ff" },
+	{ "name": "ef_graund_wave_1", "parent": "root", "x": 200, "y": -150, "color": "ffa000ff" },
+	{ "name": "ef_move_aura_0", "parent": "root", "x": 200, "y": -200 },
+	{ "name": "ef_power1_0", "parent": "root", "x": 300, "y": -150 },
+	{ "name": "ef_power_flash_0", "parent": "root", "x": 300, "y": -200 },
+	{ "name": "ef_slash_A_0", "parent": "root", "x": 200, "y": -250 },
+	{ "name": "ef_slash_A_1", "parent": "root", "x": 200, "y": -250 },
+	{ "name": "ef_slash_B_0", "parent": "root", "x": 200, "y": -300 },
+	{ "name": "ef_slash_B_1", "parent": "root", "x": 200, "y": -300 },
+	{ "name": "ef_wind_sink_0", "parent": "root", "x": 300, "y": -100 },
+	{ "name": "ef_wind_sink_1", "parent": "root", "x": 300, "y": -100 }
+],
+"slots": [
+	{ "name": "ef_graund_wave_0", "bone": "ef_graund_wave_0", "blend": "additive" },
+	{ "name": "ef_graund_wave_1", "bone": "ef_graund_wave_1", "blend": "additive" },
+	{ "name": "ef_flare_back_0", "bone": "ef_flare_back_0", "blend": "additive" },
+	{ "name": "ef_flare_back_1", "bone": "ef_flare_back_1", "blend": "additive" },
+	{ "name": "ef_flare_back_main", "bone": "ef_flare_back_main", "blend": "additive" },
+	{ "name": "MAIN", "bone": "MAIN", "attachment": "idle_00" },
+	{ "name": "DAMAGEAREA", "bone": "DAMAGEAREA" },
+	{ "name": "ef_aura_0", "bone": "ef_aura_0", "blend": "additive" },
+	{ "name": "ef_aura_1", "bone": "ef_aura_1", "blend": "additive" },
+	{ "name": "ef_dash_0", "bone": "ef_dash_0", "blend": "additive" },
+	{ "name": "ef_move_aura_0", "bone": "ef_move_aura_0", "blend": "additive" },
+	{ "name": "ef_slash_A_0", "bone": "ef_slash_A_0", "blend": "additive" },
+	{ "name": "ef_slash_A_1", "bone": "ef_slash_A_1", "blend": "additive" },
+	{ "name": "ef_slash_B_0", "bone": "ef_slash_B_0", "blend": "additive" },
+	{ "name": "ef_slash_B_1", "bone": "ef_slash_B_1", "blend": "additive" },
+	{ "name": "ef_wind_sink_0", "bone": "ef_wind_sink_0", "blend": "additive" },
+	{ "name": "ef_wind_sink_1", "bone": "ef_wind_sink_1", "blend": "additive" },
+	{ "name": "ef_power1_0", "bone": "ef_power1_0", "blend": "additive" },
+	{ "name": "ef_power_flash_0", "bone": "ef_power_flash_0", "blend": "additive" },
+	{ "name": "attack1_ef_00", "bone": "attack1_ef_00", "blend": "additive" },
+	{ "name": "ef_fire_smoke_0", "bone": "ef_fire_smoke_0", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"DAMAGEAREA": {
+			"DAMAGEAREA": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -64.58, -65.1, 63.64, -65.1, 63.64, 63.11, -64.58, 62.03 ]
+			}
+		},
+		"MAIN": {
+			"attack1_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_01": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_02": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_03": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_04": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_05": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_06": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_07": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_08": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_09": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_10": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"attack1_ex": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"back_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"damage_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"front_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"idle_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"idle_01": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"idle_02": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"idle_03": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill1_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill1_01": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill1_02": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill1_03": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_01": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_02": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_03": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_04": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_05": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_06": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_07": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_08": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_09": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill2_10": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_00": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_01": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_02": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_03": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_04": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_05": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_06": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_07": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_08": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_09": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_10": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_02": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_03": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_04": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_05": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_06": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_11": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_12": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_13": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_14": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_15": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_19": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_20": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_21": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_22": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_24": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_25": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 },
+			"skill5_ex_26": { "x": -5.89, "y": -3.51, "scaleX": 2, "scaleY": 2, "width": 256, "height": 256 }
+		},
+		"attack1_ef_00": {
+			"Dot_ef/attack1_ef_00": { "width": 256, "height": 256 },
+			"Dot_ef/attack1_ef_01": { "width": 256, "height": 256 },
+			"Dot_ef/attack1_ef_02": { "width": 256, "height": 256 },
+			"Dot_ef/attack1_ef_03": { "width": 256, "height": 256 },
+			"Dot_ef/attack1_ef_04": { "width": 256, "height": 256 },
+			"Dot_ef/attack1_ef_05": { "width": 256, "height": 256 }
+		},
+		"ef_aura_0": {
+			"EF/main_ef/ef_aura_main/ef_aura_main_00001": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00002": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00003": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00004": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00005": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00006": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00007": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00008": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00009": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00010": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00011": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00012": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00013": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00014": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00015": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00016": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00017": { "width": 120, "height": 120 }
+		},
+		"ef_aura_1": {
+			"EF/main_ef/ef_aura_main/ef_aura_main_00001": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00002": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00003": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00004": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00005": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00006": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00007": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00008": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00009": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00010": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00011": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00012": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00013": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00014": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00015": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00016": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_aura_main/ef_aura_main_00017": { "width": 120, "height": 120 }
+		},
+		"ef_dash_0": {
+			"EF/main_ef/ef_dash_main/ef_dash_main_00001": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00002": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00003": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00004": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00005": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00006": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00007": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00008": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00009": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00010": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00011": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00012": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00013": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00014": { "y": 27.78, "width": 120, "height": 120 },
+			"EF/main_ef/ef_dash_main/ef_dash_main_00015": { "y": 27.78, "width": 120, "height": 120 }
+		},
+		"ef_fire_smoke_0": {
+			"EF/ef_fire_smoke_main/ef_fire_smoke_main_00016": { "width": 120, "height": 120 }
+		},
+		"ef_flare_back_0": {
+			"EF/ef_flare_back_R_00005": { "width": 100, "height": 100 }
+		},
+		"ef_flare_back_1": {
+			"EF/ef_flare_back_R_00005": { "width": 100, "height": 100 }
+		},
+		"ef_flare_back_main": {
+			"EF/ef_flare_back_R_00005": { "width": 100, "height": 100 }
+		},
+		"ef_graund_wave_0": {
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00002": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00004": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00006": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00008": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00010": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00012": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00014": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015": { "y": 9.32, "width": 192, "height": 126 }
+		},
+		"ef_graund_wave_1": {
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00002": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00004": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00006": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00008": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00010": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00012": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00014": { "y": 9.32, "width": 192, "height": 126 },
+			"EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015": { "y": 9.32, "width": 192, "height": 126 }
+		},
+		"ef_move_aura_0": {
+			"EF/main_ef/ef_move_aura_main/ef_move_aura_main_00001": { "width": 120, "height": 90 },
+			"EF/main_ef/ef_move_aura_main/ef_move_aura_main_00002": { "width": 120, "height": 90 },
+			"EF/main_ef/ef_move_aura_main/ef_move_aura_main_00003": { "width": 120, "height": 90 },
+			"EF/main_ef/ef_move_aura_main/ef_move_aura_main_00004": { "width": 120, "height": 90 },
+			"EF/main_ef/ef_move_aura_main/ef_move_aura_main_00005": { "width": 120, "height": 90 }
+		},
+		"ef_power1_0": {
+			"EF/main_ef/main_power/5250_S2_power1_00001": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00002": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00003": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00004": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00005": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00006": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00007": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00008": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00009": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00010": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00011": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00012": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00013": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00014": { "width": 100, "height": 100 },
+			"EF/main_ef/main_power/5250_S2_power1_00015": { "width": 100, "height": 100 }
+		},
+		"ef_power_flash_0": {
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00001": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00002": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00003": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00004": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00005": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00006": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00007": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00008": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00009": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00010": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00011": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00012": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00013": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00014": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00015": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_power_flash_main/ef_power_flash_main_00016": { "width": 150, "height": 150 }
+		},
+		"ef_slash_A_0": {
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00001": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00002": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00003": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00004": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00005": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00006": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00007": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00008": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00009": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00010": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00011": { "width": 120, "height": 120 }
+		},
+		"ef_slash_A_1": {
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00001": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00002": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00003": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00004": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00005": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00006": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00007": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00008": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00009": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00010": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_A_main/ef_slash_A_main_00011": { "width": 120, "height": 120 }
+		},
+		"ef_slash_B_0": {
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00001": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00002": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00003": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00004": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00005": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00006": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00007": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00008": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00009": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00010": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00011": { "width": 120, "height": 120 }
+		},
+		"ef_slash_B_1": {
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00001": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00002": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00003": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00004": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00005": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00006": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00007": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00008": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00009": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00010": { "width": 120, "height": 120 },
+			"EF/main_ef/ef_slash_B_main/ef_slash_B_main_00011": { "width": 120, "height": 120 }
+		},
+		"ef_wind_sink_0": {
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00001": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00002": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00003": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00004": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00005": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00006": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00007": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00008": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00009": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00010": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00011": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00012": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00013": { "width": 150, "height": 150 }
+		},
+		"ef_wind_sink_1": {
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00001": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00002": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00003": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00004": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00005": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00006": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00007": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00008": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00009": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00010": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00011": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00012": { "width": 150, "height": 150 },
+			"EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00013": { "width": 150, "height": 150 }
+		}
+	}
+},
+"events": {
+	"Event": {},
+	"Event2": {},
+	"Hit": { "string": "resetHitList" },
+	"Sound1": {},
+	"Sound2": {},
+	"Sound3": {},
+	"Voice": {}
+},
+"animations": {
+	"attack1": {
+		"slots": {
+			"DAMAGEAREA": {
+				"attachment": [
+					{ "time": 0.3333, "name": "DAMAGEAREA" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.6333, "name": "DAMAGEAREA" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "attack1_00" },
+					{ "time": 0.0333, "name": "attack1_ex" },
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1667, "name": "attack1_ex" },
+					{ "time": 0.2, "name": "attack1_01" },
+					{ "time": 0.2667, "name": "attack1_02" },
+					{ "time": 0.3333, "name": "attack1_03" },
+					{ "time": 0.3667, "name": "attack1_04" },
+					{ "time": 0.4, "name": "attack1_05" },
+					{ "time": 0.5, "name": "attack1_06" },
+					{ "time": 0.6333, "name": "attack1_07" },
+					{ "time": 0.6667, "name": "attack1_08" },
+					{ "time": 0.7333, "name": "attack1_09" },
+					{ "time": 0.7667, "name": "attack1_10" },
+					{ "time": 0.9, "name": "back_00" },
+					{ "time": 1.2333, "name": "idle_00" },
+					{ "time": 1.5, "name": "idle_00" }
+				]
+			},
+			"attack1_ef_00": {
+				"attachment": [
+					{ "time": 0.3, "name": "Dot_ef/attack1_ef_00" },
+					{ "time": 0.3333, "name": "Dot_ef/attack1_ef_01" },
+					{ "time": 0.4, "name": "Dot_ef/attack1_ef_02" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.6333, "name": "Dot_ef/attack1_ef_03" },
+					{ "time": 0.6667, "name": "Dot_ef/attack1_ef_04" },
+					{ "time": 0.7667, "name": "Dot_ef/attack1_ef_05" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"ef_dash_0": {
+				"attachment": [
+					{ "time": 0.0333, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00006" },
+					{ "time": 0.0667, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00008" },
+					{ "time": 0.1, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00010" },
+					{ "time": 0.1333, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00012" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"ef_move_aura_0": {
+				"attachment": [
+					{ "time": 0.0333, "name": "EF/main_ef/ef_move_aura_main/ef_move_aura_main_00002" },
+					{ "time": 0.0667, "name": "EF/main_ef/ef_move_aura_main/ef_move_aura_main_00004" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.1667, "name": "EF/main_ef/ef_move_aura_main/ef_move_aura_main_00002" },
+					{ "time": 0.2, "name": "EF/main_ef/ef_move_aura_main/ef_move_aura_main_00004" },
+					{ "time": 0.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0.9, "x": 0, "y": 0 },
+					{ "time": 1.1, "x": 263.68, "y": 31.68 },
+					{
+						"time": 1.2333,
+						"x": 296.89,
+						"y": -1,
+						"curve": [ 0.064, 0.36, 0.75, 1 ]
+					},
+					{ "time": 1.5, "x": 316.6, "y": 0 }
+				]
+			},
+			"DAMAGEAREA": {
+				"translate": [
+					{ "time": 0.3, "x": -63.81, "y": 77.78, "curve": "stepped" },
+					{ "time": 0.6, "x": -16.22, "y": 60.79 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1.019, "y": 1.296, "curve": "stepped" },
+					{ "time": 0.6, "x": 1.826, "y": 1.296 }
+				]
+			},
+			"ef_move_aura_0": {
+				"translate": [
+					{ "time": 0.0333, "x": -219.7, "y": 253.5 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2.49, "y": -2.53 }
+				]
+			},
+			"attack1_ef_00": {
+				"translate": [
+					{
+						"time": 0.3,
+						"x": -305.91,
+						"y": 343.3,
+						"curve": [ 0.079, 0.93, 0.75, 1 ]
+					},
+					{ "time": 0.4, "x": -346.7, "y": 343.3, "curve": "stepped" },
+					{ "time": 0.6333, "x": -305.91, "y": 301.38 }
+				],
+				"scale": [
+					{ "time": 0.6333, "x": 1, "y": 0.83 }
+				]
+			},
+			"ef_dash_0": {
+				"translate": [
+					{ "time": 0.0333, "x": -131.03, "y": 96.26 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2.773, "y": 2.773 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound3", "string": "setHitSound(se_battle_025_blow_hit)" },
+			{ "time": 0.0333, "name": "Sound1", "string": "cri_se_battle_teleport" },
+			{ "time": 0.1, "name": "Event", "string": "movePosition_Target_HitBox(0,0,0)" },
+			{ "time": 0.3, "name": "Sound1", "string": "cri_se_battle_033_explosion_element_01" },
+			{ "time": 0.3, "name": "Sound2", "string": "cri_se_battle_monster_swish" },
+			{ "time": 0.3, "name": "Voice", "string": "cri_779_voice_attack_random" },
+			{ "time": 0.6333, "name": "Hit" },
+			{ "time": 0.6333, "name": "Sound2", "string": "cri_se_battle_monster_swish" },
+			{ "time": 0.9, "name": "Sound2", "string": "cri_se_battle_jump" },
+			{ "time": 1.2333, "name": "Sound2", "string": "cri_se_battle_landing" }
+		]
+	},
+	"back": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "back_00" },
+					{ "time": 0.3333, "name": "idle_00" },
+					{ "time": 0.6, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1667, "x": 120.71, "y": 14.87 },
+					{
+						"time": 0.3333,
+						"x": 135,
+						"y": 0,
+						"curve": [ 0.064, 0.36, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": 140, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound2", "string": "cri_se_battle_jump" },
+			{ "time": 0.3333, "name": "Sound2", "string": "cri_se_battle_landing" }
+		]
+	},
+	"cast": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "attack1_06" },
+					{ "time": 0.5, "name": "attack1_07" },
+					{ "time": 0.5333, "name": "attack1_08" },
+					{ "time": 0.5667, "name": "attack1_09" },
+					{ "time": 0.6333, "name": "attack1_10" },
+					{ "time": 0.7333, "name": "attack1_09" },
+					{ "time": 0.9, "name": "attack1_00" },
+					{ "time": 1, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "Voice", "string": "cri_779_voice_item" }
+		]
+	},
+	"damage": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "damage_00" }
+				]
+			}
+		}
+	},
+	"front": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "front_00" }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "idle_00" },
+					{ "time": 0.2, "name": "idle_01" },
+					{ "time": 0.4333, "name": "idle_02" },
+					{ "time": 0.6333, "name": "idle_03" },
+					{ "time": 0.8333, "name": "idle_00" }
+				]
+			}
+		}
+	},
+	"in": {
+		"slots": {
+			"MAIN": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "front_00" },
+					{ "time": 0.3333, "name": "idle_00" },
+					{ "time": 0.6, "name": "idle_03" },
+					{ "time": 0.8333, "name": "idle_00" }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0, "x": 402.3, "y": -7.3 },
+					{
+						"time": 0.3333,
+						"x": 15.83,
+						"y": 0,
+						"curve": [ 0.146, 0.85, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6, "name": "Event", "string": "takeBattleEffectAnimation(summon_3)" }
+		]
+	},
+	"skill1": {
+		"slots": {
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill1_00" },
+					{ "time": 0.4, "name": "skill1_01" },
+					{ "time": 0.4667, "name": "skill1_02" },
+					{ "time": 0.5333, "name": "skill1_03" },
+					{ "time": 0.8667, "name": "idle_00" }
+				]
+			},
+			"ef_graund_wave_0": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 0.5333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 0.5667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 0.6, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 0.6333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 0.6667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 0.7, "name": null }
+				]
+			},
+			"ef_power1_0": {
+				"attachment": [
+					{ "time": 0.0333, "name": "EF/main_ef/main_power/5250_S2_power1_00001" },
+					{ "time": 0.0667, "name": "EF/main_ef/main_power/5250_S2_power1_00002" },
+					{ "time": 0.1, "name": "EF/main_ef/main_power/5250_S2_power1_00003" },
+					{ "time": 0.1333, "name": "EF/main_ef/main_power/5250_S2_power1_00004" },
+					{ "time": 0.1667, "name": "EF/main_ef/main_power/5250_S2_power1_00005" },
+					{ "time": 0.2, "name": "EF/main_ef/main_power/5250_S2_power1_00006" },
+					{ "time": 0.2333, "name": "EF/main_ef/main_power/5250_S2_power1_00007" },
+					{ "time": 0.2667, "name": "EF/main_ef/main_power/5250_S2_power1_00008" },
+					{ "time": 0.3, "name": "EF/main_ef/main_power/5250_S2_power1_00009" },
+					{ "time": 0.3333, "name": "EF/main_ef/main_power/5250_S2_power1_00010" },
+					{ "time": 0.3667, "name": "EF/main_ef/main_power/5250_S2_power1_00011" },
+					{ "time": 0.4, "name": "EF/main_ef/main_power/5250_S2_power1_00012" },
+					{ "time": 0.4333, "name": "EF/main_ef/main_power/5250_S2_power1_00013" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"ef_wind_sink_0": {
+				"attachment": [
+					{ "time": 0.0333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00003" },
+					{ "time": 0.0667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00005" },
+					{ "time": 0.1, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00007" },
+					{ "time": 0.1333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00008" },
+					{ "time": 0.2, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00009" },
+					{ "time": 0.2667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00010" },
+					{ "time": 0.3333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00011" },
+					{ "time": 0.4, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00012" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"ef_wind_sink_1": {
+				"attachment": [
+					{ "time": 0.0333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00001" },
+					{ "time": 0.0667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00005" },
+					{ "time": 0.1, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00007" },
+					{ "time": 0.1333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00008" },
+					{ "time": 0.1667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00009" },
+					{ "time": 0.2, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00010" },
+					{ "time": 0.2333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00011" },
+					{ "time": 0.2667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00012" },
+					{ "time": 0.3, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00013" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{
+						"time": 0.4667,
+						"x": -9.12,
+						"y": 0,
+						"curve": [ 0.09, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "x": 12.16, "y": 0 }
+				]
+			},
+			"ef_wind_sink_0": {
+				"rotate": [
+					{ "time": 0.0333, "angle": 49.72 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": -325.6, "y": 194.41 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2.633, "y": 2.633 },
+					{ "time": 0.4, "x": 2.472, "y": 2.472 }
+				]
+			},
+			"ef_wind_sink_1": {
+				"rotate": [
+					{ "time": 0.0333, "angle": 87.34 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": -325.6, "y": 194.41 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1.916, "y": 1.916 }
+				]
+			},
+			"ef_power1_0": {
+				"translate": [
+					{ "time": 0, "x": -330.23, "y": 243.55 }
+				],
+				"scale": [
+					{
+						"time": 0.0333,
+						"x": 2.695,
+						"y": 2.695,
+						"curve": [ 0.84, 0, 0.495, 1 ]
+					},
+					{ "time": 0.5667, "x": 0.441, "y": 0.441 }
+				]
+			},
+			"ef_graund_wave_0": {
+				"translate": [
+					{ "time": 0.4667, "x": -195.78, "y": 144 }
+				],
+				"scale": [
+					{ "time": 0.4667, "x": 1.773, "y": 1.773 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound1", "string": "cri_se_battle_charge" },
+			{ "time": 0, "name": "Voice", "string": "cri_779_voice_skill_all" },
+			{ "time": 0.4667, "name": "Event", "string": "addOrbitSystemInsightRotation(SHOT,HIT,1,-50,80,0,0)" },
+			{ "time": 0.5, "name": "Sound1", "string": "cri_se_battle_charge_completion" }
+		]
+	},
+	"skill2": {
+		"slots": {
+			"DAMAGEAREA": {
+				"attachment": [
+					{ "time": 0.2667, "name": "DAMAGEAREA" },
+					{ "time": 0.3667, "name": null },
+					{ "time": 0.5667, "name": "DAMAGEAREA" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 0.8667, "name": "DAMAGEAREA" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.9, "name": "DAMAGEAREA" },
+					{ "time": 2.2667, "name": null }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "attack1_00" },
+					{ "time": 0.0333, "name": null },
+					{ "time": 0.1667, "name": "skill2_00" },
+					{ "time": 0.2667, "name": "skill2_01" },
+					{ "time": 0.3333, "name": "skill2_02" },
+					{ "time": 0.4667, "name": "attack1_01" },
+					{ "time": 0.5333, "name": "attack1_02" },
+					{ "time": 0.5667, "name": "attack1_03" },
+					{ "time": 0.6667, "name": "attack1_04" },
+					{ "time": 0.7333, "name": "attack1_05" },
+					{ "time": 0.8, "name": "attack1_06" },
+					{ "time": 0.8333, "name": "attack1_07" },
+					{ "time": 0.8667, "name": "attack1_08" },
+					{ "time": 0.9333, "name": "attack1_09" },
+					{ "time": 0.9667, "name": "attack1_10" },
+					{ "time": 1.1, "name": "back_00" },
+					{ "time": 1.4333, "name": "attack1_00" },
+					{ "time": 1.5333, "name": "skill2_03" },
+					{ "time": 1.5667, "name": "skill2_04" },
+					{ "time": 1.8333, "name": "skill2_05" },
+					{ "time": 1.8667, "name": "skill2_06" },
+					{ "time": 1.9, "name": "skill2_07" },
+					{ "time": 1.9667, "name": "skill2_08" },
+					{ "time": 2.2, "name": "skill2_10" },
+					{ "time": 2.4, "name": "attack1_00" },
+					{ "time": 2.5667, "name": "idle_00" },
+					{ "time": 2.8333, "name": "idle_00" }
+				]
+			},
+			"attack1_ef_00": {
+				"attachment": [
+					{ "time": 0.2667, "name": "Dot_ef/attack1_ef_03" },
+					{ "time": 0.3, "name": "Dot_ef/attack1_ef_04" },
+					{ "time": 0.4, "name": "Dot_ef/attack1_ef_05" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.5333, "name": "Dot_ef/attack1_ef_00" },
+					{ "time": 0.5667, "name": "Dot_ef/attack1_ef_01" },
+					{ "time": 0.7, "name": "Dot_ef/attack1_ef_02" },
+					{ "time": 0.7333, "name": null },
+					{ "time": 0.8333, "name": "Dot_ef/attack1_ef_00" },
+					{ "time": 0.8667, "name": "Dot_ef/attack1_ef_01" },
+					{ "time": 0.9667, "name": "Dot_ef/attack1_ef_02" },
+					{ "time": 1.0333, "name": null },
+					{ "time": 1.9, "name": "Dot_ef/attack1_ef_03" },
+					{ "time": 1.9333, "name": "Dot_ef/attack1_ef_04" },
+					{ "time": 2.1, "name": "Dot_ef/attack1_ef_05" },
+					{ "time": 2.1333, "name": null }
+				]
+			},
+			"ef_graund_wave_0": {
+				"attachment": [
+					{ "time": 1.4, "name": null }
+				]
+			},
+			"ef_graund_wave_1": {
+				"attachment": [
+					{ "time": 1.4, "name": null },
+					{ "time": 1.5667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00002" },
+					{ "time": 1.6, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00004" },
+					{ "time": 1.6333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00006" },
+					{ "time": 1.6667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00008" },
+					{ "time": 1.7, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00010" },
+					{ "time": 1.7333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00012" },
+					{ "time": 1.7667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00014" },
+					{ "time": 1.8, "name": null }
+				]
+			},
+			"ef_move_aura_0": {
+				"attachment": [
+					{ "time": 0.0333, "name": "EF/main_ef/ef_move_aura_main/ef_move_aura_main_00002" },
+					{ "time": 0.0667, "name": null },
+					{ "time": 0.1333, "name": "EF/main_ef/ef_move_aura_main/ef_move_aura_main_00002" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"ef_slash_A_0": {
+				"attachment": [
+					{ "time": 0.2667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00002" },
+					{ "time": 0.3, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00004" },
+					{ "time": 0.3333, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00006" },
+					{ "time": 0.3667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00008" },
+					{ "time": 0.4, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00010" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.8333, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00002" },
+					{ "time": 0.8667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00004" },
+					{ "time": 0.9, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00006" },
+					{ "time": 0.9333, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00008" },
+					{ "time": 0.9667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00010" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"ef_slash_A_1": {
+				"attachment": [
+					{ "time": 0.2667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00002" },
+					{ "time": 0.3, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00004" },
+					{ "time": 0.3333, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00006" },
+					{ "time": 0.3667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00008" },
+					{ "time": 0.4, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00010" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.8333, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00002" },
+					{ "time": 0.8667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00004" },
+					{ "time": 0.9, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00006" },
+					{ "time": 0.9333, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00008" },
+					{ "time": 0.9667, "name": "EF/main_ef/ef_slash_A_main/ef_slash_A_main_00010" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"ef_slash_B_0": {
+				"color": [
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.0333, "color": "ffffffff" },
+					{ "time": 2.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00002" },
+					{ "time": 0.5667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00003" },
+					{ "time": 0.6, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00004" },
+					{ "time": 0.6333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00005" },
+					{ "time": 0.6667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00006" },
+					{ "time": 0.7, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00007" },
+					{ "time": 0.7333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00008" },
+					{ "time": 0.7667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00009" },
+					{ "time": 0.8667, "name": null },
+					{ "time": 1.8667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00002" },
+					{ "time": 1.9, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00003" },
+					{ "time": 1.9333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00004" },
+					{ "time": 1.9667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00005" },
+					{ "time": 2, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00006" },
+					{ "time": 2.0333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00007" },
+					{ "time": 2.0667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00008" },
+					{ "time": 2.1, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00009" },
+					{ "time": 2.2, "name": null }
+				]
+			},
+			"ef_slash_B_1": {
+				"color": [
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.0333, "color": "ffffffff" },
+					{ "time": 2.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00002" },
+					{ "time": 0.5667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00003" },
+					{ "time": 0.6, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00004" },
+					{ "time": 0.6333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00005" },
+					{ "time": 0.6667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00006" },
+					{ "time": 0.7, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00007" },
+					{ "time": 0.7333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00008" },
+					{ "time": 0.7667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00009" },
+					{ "time": 0.8667, "name": null },
+					{ "time": 1.8667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00002" },
+					{ "time": 1.9, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00003" },
+					{ "time": 1.9333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00004" },
+					{ "time": 1.9667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00005" },
+					{ "time": 2, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00006" },
+					{ "time": 2.0333, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00007" },
+					{ "time": 2.0667, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00008" },
+					{ "time": 2.1, "name": "EF/main_ef/ef_slash_B_main/ef_slash_B_main_00009" },
+					{ "time": 2.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"MAIN": {
+				"translate": [
+					{ "time": 0.4667, "x": -23.08, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": -34.02, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 289.05, "y": 14.87 },
+					{ "time": 1.4333, "x": 303.34, "y": -1, "curve": "stepped" },
+					{
+						"time": 1.5667,
+						"x": 303.34,
+						"y": 24.16,
+						"curve": [ 0.05, 0.81, 0.75, 1 ]
+					},
+					{ "time": 1.9, "x": 303.34, "y": 59.68, "curve": "stepped" },
+					{
+						"time": 2.1333,
+						"x": 303.34,
+						"y": 59.68,
+						"curve": [ 0.25, 0, 0.852, 0.49 ]
+					},
+					{ "time": 2.3667, "x": 303.34, "y": -5.44 }
+				]
+			},
+			"DAMAGEAREA": {
+				"translate": [
+					{ "time": 0.2333, "x": -161.25, "y": 102.25, "curve": "stepped" },
+					{ "time": 1.8333, "x": -161.25, "y": 102.25, "curve": "stepped" },
+					{ "time": 1.8667, "x": -144.4, "y": 160.31 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 3.258, "y": 3.247, "curve": "stepped" },
+					{ "time": 1.8333, "x": 3.258, "y": 3.247 },
+					{ "time": 1.8667, "x": 7.834, "y": 6.714 }
+				]
+			},
+			"ef_move_aura_0": {
+				"translate": [
+					{ "time": 0.0333, "x": -212.33, "y": 268.82 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2.48, "y": 2.48 }
+				]
+			},
+			"ef_slash_A_0": {
+				"translate": [
+					{ "time": 0.2667, "x": -227.18, "y": 336.15, "curve": "stepped" },
+					{ "time": 0.8333, "x": -227.18, "y": 336.15 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 3.681, "y": 1.952, "curve": "stepped" },
+					{ "time": 0.8333, "x": 3.681, "y": 3.319 }
+				]
+			},
+			"ef_slash_B_0": {
+				"rotate": [
+					{ "time": 0.4667, "angle": 33.6, "curve": "stepped" },
+					{ "time": 1.7333, "angle": 5.21 }
+				],
+				"translate": [
+					{ "time": 0.4667, "x": -250.75, "y": 383.2, "curve": "stepped" },
+					{ "time": 1.7667, "x": -1.01, "y": 437.2 }
+				],
+				"scale": [
+					{ "time": 0.4667, "x": 3.656, "y": 3.656, "curve": "stepped" },
+					{ "time": 1.8, "x": 5.192, "y": 2.348 }
+				]
+			},
+			"ef_graund_wave_0": {
+				"translate": [
+					{ "time": 1.4333, "x": 24.3, "y": 142.04 }
+				],
+				"scale": [
+					{ "time": 1.4667, "x": 2.399, "y": 2.399 }
+				]
+			},
+			"ef_graund_wave_1": {
+				"translate": [
+					{ "time": 1.4333, "x": 104.88, "y": 142.04 }
+				],
+				"scale": [
+					{ "time": 1.5667, "x": 2.399, "y": 2.399 }
+				]
+			},
+			"attack1_ef_00": {
+				"translate": [
+					{ "time": 0.2667, "x": -273.95, "y": 325.31, "curve": "stepped" },
+					{ "time": 0.5333, "x": -368.7, "y": 359.44, "curve": "stepped" },
+					{ "time": 0.8, "x": -336.41, "y": 294.86, "curve": "stepped" },
+					{ "time": 1.8667, "x": -71.32, "y": 420.37 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 2.049, "y": 1.213, "curve": "stepped" },
+					{ "time": 0.5333, "x": 2.585, "y": 1.53, "curve": "stepped" },
+					{ "time": 0.8, "x": 2.585, "y": -1.681, "curve": "stepped" },
+					{ "time": 1.8667, "x": 2.049, "y": -1.724, "curve": "stepped" },
+					{ "time": 1.9333, "x": 2.049, "y": -0.968 }
+				]
+			},
+			"ef_slash_A_1": {
+				"translate": [
+					{ "time": 0.2667, "x": -227.18, "y": 336.15, "curve": "stepped" },
+					{ "time": 0.8333, "x": -227.18, "y": 336.15 }
+				],
+				"scale": [
+					{ "time": 0.2667, "x": 3.681, "y": 1.952, "curve": "stepped" },
+					{ "time": 0.8333, "x": 3.681, "y": 3.319 }
+				]
+			},
+			"ef_slash_B_1": {
+				"rotate": [
+					{ "time": 0.4667, "angle": 33.6, "curve": "stepped" },
+					{ "time": 1.7333, "angle": 5.21 }
+				],
+				"translate": [
+					{ "time": 0.4667, "x": -250.75, "y": 383.2, "curve": "stepped" },
+					{ "time": 1.7667, "x": -1.01, "y": 437.2 }
+				],
+				"scale": [
+					{ "time": 0.4667, "x": 3.656, "y": 3.656, "curve": "stepped" },
+					{ "time": 1.8, "x": 5.192, "y": 2.348 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound3", "string": "setHitSound(se_battle_explosion_short)" },
+			{ "time": 0, "name": "Voice", "string": "cri_779_voice_fullarts_now" },
+			{ "time": 0.0333, "name": "Sound1", "string": "cri_se_battle_teleport" },
+			{ "time": 0.1, "name": "Event", "string": "movePosition_Target_HitBox(0,0,0)" },
+			{ "time": 0.2, "name": "Event", "float": 0.1, "string": "kHitStopType_normal" },
+			{ "time": 0.2667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.2667, "name": "Sound1", "string": "cri_se_battle_skill_shot" },
+			{ "time": 0.5333, "name": "Hit" },
+			{ "time": 0.5333, "name": "Sound1", "string": "cri_se_battle_skill_shot" },
+			{ "time": 0.5667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.8333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.8333, "name": "Hit" },
+			{ "time": 0.8333, "name": "Sound1", "string": "cri_se_battle_skill_shot" },
+			{ "time": 1.1, "name": "Sound1", "string": "cri_se_battle_jump" },
+			{ "time": 1.5333, "name": "Sound2", "string": "cri_se_battle_033_explosion_element_01" },
+			{ "time": 1.5667, "name": "Sound1", "string": "cri_se_battle_landing" },
+			{ "time": 1.8333, "name": "Event", "float": 0.1, "string": "kHitStopType_normal" },
+			{ "time": 1.8333, "name": "Sound1", "string": "cri_se_battle_skill_swish" },
+			{ "time": 1.8333, "name": "Voice", "string": "cri_779_voice_fullarts_rank5" },
+			{ "time": 1.8667, "name": "Sound2", "string": "cri_se_battle_037_explosion_element_05" },
+			{ "time": 1.9, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.9333, "name": "Event", "float": 0.01, "string": "kHitStopType_normal" },
+			{ "time": 1.9667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.9667, "name": "Hit" },
+			{ "time": 2.0333, "name": "Hit" },
+			{ "time": 2.1, "name": "Hit" },
+			{ "time": 2.4, "name": "Sound1", "string": "cri_se_battle_landing" }
+		]
+	},
+	"skill3": {
+		"slots": {
+			"DAMAGEAREA": {
+				"attachment": [
+					{ "time": 0.6667, "name": "DAMAGEAREA" },
+					{ "time": 2.3, "name": null }
+				]
+			},
+			"MAIN": {
+				"attachment": [
+					{ "time": 0, "name": "skill1_00" },
+					{ "time": 0.6667, "name": "skill1_03" },
+					{ "time": 0.7333, "name": "skill1_02" },
+					{ "time": 2.4333, "name": "idle_01" },
+					{ "time": 2.5333, "name": "idle_02" },
+					{ "time": 2.7333, "name": "idle_03" },
+					{ "time": 2.9, "name": "idle_03" }
+				]
+			},
+			"ef_dash_0": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00001" },
+					{ "time": 0.7333, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00002" },
+					{ "time": 0.7667, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00003" },
+					{ "time": 0.8, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00004" },
+					{ "time": 0.8333, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00005" },
+					{ "time": 0.8667, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00006" },
+					{ "time": 0.9, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00007" },
+					{ "time": 0.9333, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00008" },
+					{ "time": 0.9667, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00009" },
+					{ "time": 1, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00010" },
+					{ "time": 1.0333, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00011" },
+					{ "time": 1.0667, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00012" },
+					{ "time": 1.1, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00013" },
+					{ "time": 1.1333, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00014" },
+					{ "time": 1.1667, "name": "EF/main_ef/ef_dash_main/ef_dash_main_00015" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"ef_flare_back_0": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "EF/ef_flare_back_R_00005" }
+				]
+			},
+			"ef_flare_back_main": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 2.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "EF/ef_flare_back_R_00005" }
+				]
+			},
+			"ef_graund_wave_0": {
+				"attachment": [
+					{ "time": 0.5667, "name": null },
+					{ "time": 0.6667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.7, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.7333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.7667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 0.8, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 0.8667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 0.9333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 1, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 1.0667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.1, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.1333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.1667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.2, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.2667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.3333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 1.4, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 1.4667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.5, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.5333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.5667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.6, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.6667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.7333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 1.8, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 1.8667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.9, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.9333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.9667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 2.0333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 2.1333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 2.2333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 2.3333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 2.4333, "name": null }
+				]
+			},
+			"ef_graund_wave_1": {
+				"attachment": [
+					{ "time": 0.5667, "name": null },
+					{ "time": 0.8667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 0.9, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 0.9333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 0.9667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.0667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.1333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 1.2, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 1.2667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.3, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.3333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.3667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.4, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.4667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.5333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 1.6, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 1.6667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00001" },
+					{ "time": 1.7, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00003" },
+					{ "time": 1.7333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00005" },
+					{ "time": 1.7667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00007" },
+					{ "time": 1.8, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00009" },
+					{ "time": 1.8667, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00011" },
+					{ "time": 1.9333, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00013" },
+					{ "time": 2, "name": "EF/main_ef/ef_graund_wave_main/ef_graund_wave_main_00015" },
+					{ "time": 2.0667, "name": null }
+				]
+			},
+			"ef_power1_0": {
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "EF/main_ef/main_power/5250_S2_power1_00001" },
+					{ "time": 0.0667, "name": "EF/main_ef/main_power/5250_S2_power1_00002" },
+					{ "time": 0.1, "name": "EF/main_ef/main_power/5250_S2_power1_00003" },
+					{ "time": 0.1333, "name": "EF/main_ef/main_power/5250_S2_power1_00004" },
+					{ "time": 0.1667, "name": "EF/main_ef/main_power/5250_S2_power1_00005" },
+					{ "time": 0.2, "name": "EF/main_ef/main_power/5250_S2_power1_00006" },
+					{ "time": 0.2333, "name": "EF/main_ef/main_power/5250_S2_power1_00007" },
+					{ "time": 0.2667, "name": "EF/main_ef/main_power/5250_S2_power1_00008" },
+					{ "time": 0.3, "name": "EF/main_ef/main_power/5250_S2_power1_00009" },
+					{ "time": 0.3333, "name": "EF/main_ef/main_power/5250_S2_power1_00010" },
+					{ "time": 0.3667, "name": "EF/main_ef/main_power/5250_S2_power1_00011" },
+					{ "time": 0.4333, "name": "EF/main_ef/main_power/5250_S2_power1_00012" },
+					{ "time": 0.5, "name": "EF/main_ef/main_power/5250_S2_power1_00013" },
+					{ "time": 0.5333, "name": "EF/main_ef/main_power/5250_S2_power1_00014" },
+					{ "time": 0.6, "name": "EF/main_ef/main_power/5250_S2_power1_00015" },
+					{ "time": 0.6333, "name": null }
+				]
+			},
+			"ef_wind_sink_0": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00001" },
+					{ "time": 0.1333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00002" },
+					{ "time": 0.2, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00003" },
+					{ "time": 0.2333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00004" },
+					{ "time": 0.2667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00005" },
+					{ "time": 0.3333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00006" },
+					{ "time": 0.3667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00007" },
+					{ "time": 0.4, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00008" },
+					{ "time": 0.4333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00009" },
+					{ "time": 0.5, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00010" },
+					{ "time": 0.5333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00011" },
+					{ "time": 0.5667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00012" },
+					{ "time": 0.6333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00013" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"ef_wind_sink_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00004" },
+					{ "time": 0.0667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00005" },
+					{ "time": 0.1333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00006" },
+					{ "time": 0.2, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00007" },
+					{ "time": 0.2667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00008" },
+					{ "time": 0.3333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00009" },
+					{ "time": 0.4, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00010" },
+					{ "time": 0.4667, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00011" },
+					{ "time": 0.5333, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00012" },
+					{ "time": 0.6, "name": "EF/main_ef/ef_wind_sink_main/ef_wind_sink_main_00013" },
+					{ "time": 0.6667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"DAMAGEAREA": {
+				"translate": [
+					{ "time": 0.6667, "x": -498.61, "y": 190.51 }
+				],
+				"scale": [
+					{ "time": 0.6667, "x": 8.945, "y": 3.782 }
+				]
+			},
+			"MAIN": {
+				"translate": [
+					{
+						"time": 0.6667,
+						"x": -23.67,
+						"y": 0,
+						"curve": [ 0.135, 0.64, 0.402, 1 ]
+					},
+					{ "time": 2.4, "x": 2.25, "y": 0 }
+				]
+			},
+			"ef_wind_sink_0": {
+				"translate": [
+					{ "time": 0.0667, "x": -312.85, "y": 201.84 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 5.035, "y": 5.035 },
+					{ "time": 0.4667, "x": 2.472, "y": 2.472 }
+				]
+			},
+			"ef_power_flash_0": {
+				"translate": [
+					{ "time": 1.8667, "x": -321.2, "y": 302.81 }
+				],
+				"scale": [
+					{ "time": 1.9, "x": 4.571, "y": 4.571 },
+					{ "time": 2.4333, "x": 2.406, "y": 2.406 }
+				]
+			},
+			"ef_power1_0": {
+				"translate": [
+					{ "time": 0, "x": -329.69, "y": 249.04 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 3.706,
+						"y": 3.706,
+						"curve": [ 0.84, 0, 0.495, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.347, "y": 0.347 }
+				]
+			},
+			"ef_wind_sink_1": {
+				"rotate": [
+					{ "time": 0, "angle": 87.34 }
+				],
+				"translate": [
+					{ "time": 0, "x": -312.85, "y": 201.84 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.664, "y": 3.664 }
+				]
+			},
+			"ef_graund_wave_0": {
+				"translate": [
+					{ "time": 0.6, "x": -198.24, "y": 144.48 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 2.96, "y": 2.96 }
+				]
+			},
+			"ef_graund_wave_1": {
+				"translate": [
+					{ "time": 0.6, "x": -198.24, "y": 144.48 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 2.96, "y": 2.96 }
+				]
+			},
+			"ef_flare_back_0": {
+				"translate": [
+					{ "time": 0, "x": -327.89, "y": 400.75, "curve": "stepped" },
+					{ "time": 0.6667, "x": -356.59, "y": 370.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.203, "y": 2.203 },
+					{ "time": 0.6, "x": 3.177, "y": 3.177, "curve": "stepped" },
+					{ "time": 0.6667, "x": 5.21, "y": 5.21, "curve": "stepped" },
+					{ "time": 0.9667, "x": 5.21, "y": 5.21 }
+				]
+			},
+			"ef_dash_0": {
+				"translate": [
+					{ "time": 0.6333, "x": -170.02, "y": 99.18 },
+					{ "time": 0.8, "x": -151.8, "y": 99.18 }
+				],
+				"scale": [
+					{ "time": 0.6333, "x": 1.932, "y": 1.932 }
+				]
+			},
+			"ef_flare_back_main": {
+				"translate": [
+					{ "time": 0, "x": -327.89, "y": 400.75, "curve": "stepped" },
+					{ "time": 0.6667, "x": -356.59, "y": 370.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.203, "y": 2.203 },
+					{ "time": 0.6, "x": 3.177, "y": 3.177, "curve": "stepped" },
+					{ "time": 0.6667, "x": 5.21, "y": 5.21 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "Sound1", "string": "cri_se_battle_charge" },
+			{ "time": 0, "name": "Sound3", "string": "setHitSound(se_battle_explosion_short)" },
+			{ "time": 0, "name": "Voice", "string": "cri_779_voice_fullarts_now_b" },
+			{ "time": 0.6667, "name": "Event2", "float": 2, "string": "shakeGround" },
+			{ "time": 0.6667, "name": "Sound2", "string": "cri_se_battle_033_explosion_element_01" },
+			{ "time": 0.7333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.7333, "name": "Hit" },
+			{ "time": 0.8, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.8, "name": "Hit" },
+			{ "time": 0.8667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.8667, "name": "Hit" },
+			{ "time": 0.8667, "name": "Voice", "string": "cri_779_voice_fullarts_rank6" },
+			{ "time": 0.9333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 0.9333, "name": "Hit" },
+			{ "time": 0.9333, "name": "Sound1", "string": "cri_se_battle_029_explosion_01" },
+			{ "time": 1, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1, "name": "Hit" },
+			{ "time": 1.0667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.0667, "name": "Hit" },
+			{ "time": 1.1333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.1333, "name": "Hit" },
+			{ "time": 1.2, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.2, "name": "Hit" },
+			{ "time": 1.2667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.2667, "name": "Hit" },
+			{ "time": 1.3333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.3333, "name": "Hit" },
+			{ "time": 1.4, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.4, "name": "Hit" },
+			{ "time": 1.4667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.4667, "name": "Hit" },
+			{ "time": 1.5333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.5333, "name": "Hit" },
+			{ "time": 1.6, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.6, "name": "Hit" },
+			{ "time": 1.6667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.6667, "name": "Hit" },
+			{ "time": 1.7333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.7333, "name": "Hit" },
+			{ "time": 1.8, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.8, "name": "Hit" },
+			{ "time": 1.8667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.8667, "name": "Hit" },
+			{ "time": 1.9333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 1.9333, "name": "Hit" },
+			{ "time": 2, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2, "name": "Hit" },
+			{ "time": 2.0667, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.0667, "name": "Hit" },
+			{ "time": 2.1333, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.1333, "name": "Hit" },
+			{ "time": 2.2, "name": "Event2", "float": 1, "string": "shakeGround" },
+			{ "time": 2.2, "name": "Hit" },
+			{ "time": 2.2667, "name": "Event2", "float": 1, "string": "shakeGround" }
+		]
+	}
+}
+}

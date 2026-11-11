@@ -1,0 +1,167 @@
+
+shiroField.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG/BG_EF_0
+  rotate: true
+  xy: 697, 2
+  size: 115, 286
+  orig: 186, 315
+  offset: 35, 15
+  index: -1
+BG/BG_front
+  rotate: true
+  xy: 814, 320
+  size: 693, 193
+  orig: 693, 588
+  offset: 0, 0
+  index: -1
+BG/clud
+  rotate: false
+  xy: 2, 92
+  size: 693, 226
+  orig: 693, 588
+  offset: 0, 362
+  index: -1
+BG/ground
+  rotate: false
+  xy: 2, 615
+  size: 514, 398
+  orig: 693, 588
+  offset: 88, 50
+  index: -1
+BG/ground_4
+  rotate: false
+  xy: 697, 119
+  size: 258, 199
+  orig: 347, 294
+  offset: 44, 25
+  index: -1
+BG/sky
+  rotate: false
+  xy: 2, 422
+  size: 514, 191
+  orig: 693, 588
+  offset: 88, 397
+  index: -1
+BG/smoke
+  rotate: true
+  xy: 518, 320
+  size: 693, 294
+  orig: 693, 588
+  offset: 0, 149
+  index: -1
+weapon/weapon_1
+  rotate: false
+  xy: 169, 59
+  size: 185, 31
+  orig: 186, 31
+  offset: 1, 0
+  index: -1
+weapon/weapon_1cut
+  rotate: false
+  xy: 356, 59
+  size: 114, 31
+  orig: 186, 31
+  offset: 72, 0
+  index: -1
+weapon/weapon_2
+  rotate: false
+  xy: 208, 381
+  size: 179, 39
+  orig: 181, 40
+  offset: 2, 0
+  index: -1
+weapon/weapon_2cut
+  rotate: false
+  xy: 387, 340
+  size: 123, 39
+  orig: 181, 40
+  offset: 58, 0
+  index: -1
+weapon/weapon_3
+  rotate: false
+  xy: 2, 330
+  size: 192, 43
+  orig: 194, 44
+  offset: 2, 0
+  index: -1
+weapon/weapon_3cut
+  rotate: false
+  xy: 455, 14
+  size: 109, 43
+  orig: 194, 44
+  offset: 85, 0
+  index: -1
+weapon/weapon_4
+  rotate: true
+  xy: 985, 135
+  size: 183, 37
+  orig: 184, 39
+  offset: 1, 0
+  index: -1
+weapon/weapon_4cut
+  rotate: true
+  xy: 985, 32
+  size: 101, 37
+  orig: 184, 39
+  offset: 83, 0
+  index: -1
+weapon/weapon_5
+  rotate: false
+  xy: 196, 332
+  size: 189, 41
+  orig: 190, 42
+  offset: 1, 0
+  index: -1
+weapon/weapon_5cut
+  rotate: false
+  xy: 566, 49
+  size: 100, 41
+  orig: 190, 42
+  offset: 90, 0
+  index: -1
+weapon/weapon_6
+  rotate: false
+  xy: 2, 11
+  size: 186, 36
+  orig: 187, 37
+  offset: 1, 0
+  index: -1
+weapon/weapon_6cut
+  rotate: false
+  xy: 389, 384
+  size: 108, 36
+  orig: 187, 37
+  offset: 79, 0
+  index: -1
+weapon/weapon_7
+  rotate: false
+  xy: 2, 49
+  size: 165, 41
+  orig: 166, 42
+  offset: 1, 0
+  index: -1
+weapon/weapon_7cut
+  rotate: false
+  xy: 338, 16
+  size: 115, 41
+  orig: 166, 42
+  offset: 51, 0
+  index: -1
+weapon/weapon_8
+  rotate: false
+  xy: 2, 375
+  size: 204, 45
+  orig: 206, 46
+  offset: 2, 0
+  index: -1
+weapon/weapon_8cut
+  rotate: false
+  xy: 190, 12
+  size: 146, 45
+  orig: 206, 46
+  offset: 60, 0
+  index: -1

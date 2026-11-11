@@ -1,0 +1,412 @@
+
+101886512.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/5100_S2_magic1e
+  rotate: false
+  xy: 0, 149
+  size: 364, 363
+  orig: 364, 364
+  offset: 0, 0
+  index: -1
+EF/ef_graund_wave_main/ef_graund_wave_main_00002
+  rotate: false
+  xy: 1435, 385
+  size: 122, 127
+  orig: 400, 240
+  offset: 139, 90
+  index: -1
+EF/ef_graund_wave_main/ef_graund_wave_main_00004
+  rotate: false
+  xy: 1271, 381
+  size: 164, 131
+  orig: 400, 240
+  offset: 120, 86
+  index: -1
+EF/ef_graund_wave_main/ef_graund_wave_main_00006
+  rotate: false
+  xy: 1040, 376
+  size: 231, 136
+  orig: 400, 240
+  offset: 89, 81
+  index: -1
+EF/ef_graund_wave_main/ef_graund_wave_main_00008
+  rotate: false
+  xy: 664, 273
+  size: 302, 141
+  orig: 400, 240
+  offset: 52, 75
+  index: -1
+EF/ef_graund_wave_main/ef_graund_wave_main_00010
+  rotate: false
+  xy: 0, 11
+  size: 359, 138
+  orig: 400, 240
+  offset: 24, 69
+  index: -1
+EF/ef_graund_wave_main/ef_graund_wave_main_00012
+  rotate: false
+  xy: 664, 414
+  size: 376, 98
+  orig: 400, 240
+  offset: 14, 65
+  index: -1
+EF/magic_5dark
+  rotate: false
+  xy: 364, 212
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+attack_00
+  rotate: true
+  xy: 966, 253
+  size: 73, 72
+  orig: 250, 250
+  offset: 93, 89
+  index: -1
+attack_01
+  rotate: true
+  xy: 359, 0
+  size: 61, 72
+  orig: 250, 250
+  offset: 99, 89
+  index: -1
+attack_02
+  rotate: false
+  xy: 1086, 159
+  size: 66, 70
+  orig: 250, 250
+  offset: 94, 89
+  index: -1
+attack_03
+  rotate: false
+  xy: 1211, 305
+  size: 68, 71
+  orig: 250, 250
+  offset: 98, 89
+  index: -1
+attack_04
+  rotate: false
+  xy: 1953, 430
+  size: 83, 82
+  orig: 250, 250
+  offset: 63, 89
+  index: -1
+attack_05
+  rotate: false
+  xy: 781, 209
+  size: 82, 64
+  orig: 250, 250
+  offset: 70, 89
+  index: -1
+attack_06
+  rotate: false
+  xy: 1295, 157
+  size: 68, 69
+  orig: 250, 250
+  offset: 86, 89
+  index: -1
+attack_07
+  rotate: false
+  xy: 458, 101
+  size: 75, 70
+  orig: 250, 250
+  offset: 87, 89
+  index: -1
+attack_08
+  rotate: true
+  xy: 1224, 157
+  size: 69, 71
+  orig: 250, 250
+  offset: 93, 89
+  index: -1
+back_00
+  rotate: true
+  xy: 1363, 167
+  size: 70, 66
+  orig: 250, 250
+  offset: 79, 89
+  index: -1
+damage_00
+  rotate: false
+  xy: 1204, 226
+  size: 77, 79
+  orig: 250, 250
+  offset: 83, 90
+  index: -1
+front_00
+  rotate: false
+  xy: 940, 191
+  size: 73, 62
+  orig: 250, 250
+  offset: 84, 94
+  index: -1
+idle_00
+  rotate: false
+  xy: 1038, 307
+  size: 88, 69
+  orig: 250, 250
+  offset: 76, 89
+  index: -1
+idle_01
+  rotate: false
+  xy: 1126, 305
+  size: 85, 71
+  orig: 250, 250
+  offset: 78, 89
+  index: -1
+idle_02
+  rotate: false
+  xy: 1357, 312
+  size: 80, 69
+  orig: 250, 250
+  offset: 83, 89
+  index: -1
+idle_03
+  rotate: true
+  xy: 1281, 226
+  size: 82, 68
+  orig: 250, 250
+  offset: 81, 89
+  index: -1
+skill1_00
+  rotate: false
+  xy: 1557, 356
+  size: 78, 58
+  orig: 250, 250
+  offset: 83, 89
+  index: -1
+skill1_01
+  rotate: true
+  xy: 664, 162
+  size: 71, 73
+  orig: 250, 250
+  offset: 83, 90
+  index: -1
+skill1_02
+  rotate: false
+  xy: 1413, 242
+  size: 64, 70
+  orig: 250, 250
+  offset: 101, 91
+  index: -1
+skill1_03
+  rotate: false
+  xy: 1429, 173
+  size: 63, 69
+  orig: 250, 250
+  offset: 101, 91
+  index: -1
+skill1_04
+  rotate: true
+  xy: 863, 203
+  size: 70, 77
+  orig: 250, 250
+  offset: 81, 92
+  index: -1
+skill1_05
+  rotate: false
+  xy: 359, 61
+  size: 78, 86
+  orig: 250, 250
+  offset: 86, 92
+  index: -1
+skill1_06
+  rotate: true
+  xy: 1635, 343
+  size: 68, 73
+  orig: 250, 250
+  offset: 94, 92
+  index: -1
+skill1_07
+  rotate: false
+  xy: 1492, 182
+  size: 67, 68
+  orig: 250, 250
+  offset: 92, 91
+  index: -1
+skill1_08
+  rotate: true
+  xy: 1038, 229
+  size: 78, 85
+  orig: 250, 250
+  offset: 69, 91
+  index: -1
+skill1_09
+  rotate: false
+  xy: 1152, 157
+  size: 72, 69
+  orig: 250, 250
+  offset: 92, 92
+  index: -1
+skill1_10
+  rotate: false
+  xy: 1437, 319
+  size: 84, 66
+  orig: 250, 250
+  offset: 76, 90
+  index: -1
+skill1_11
+  rotate: true
+  xy: 1953, 366
+  size: 64, 71
+  orig: 250, 250
+  offset: 95, 90
+  index: -1
+skill1_12
+  rotate: true
+  xy: 431, 0
+  size: 61, 68
+  orig: 250, 250
+  offset: 93, 90
+  index: -1
+skill1_13
+  rotate: true
+  xy: 657, 97
+  size: 65, 71
+  orig: 250, 250
+  offset: 98, 99
+  index: -1
+skill2_00
+  rotate: true
+  xy: 1123, 230
+  size: 75, 81
+  orig: 250, 250
+  offset: 85, 89
+  index: -1
+skill2_01
+  rotate: false
+  xy: 573, 147
+  size: 84, 65
+  orig: 250, 250
+  offset: 91, 89
+  index: -1
+skill2_02
+  rotate: false
+  xy: 1545, 289
+  size: 62, 67
+  orig: 250, 250
+  offset: 97, 89
+  index: -1
+skill2_03
+  rotate: false
+  xy: 1477, 250
+  size: 68, 69
+  orig: 250, 250
+  offset: 95, 89
+  index: -1
+skill2_04
+  rotate: true
+  xy: 1708, 341
+  size: 70, 73
+  orig: 250, 250
+  offset: 95, 89
+  index: -1
+skill2_05
+  rotate: false
+  xy: 1349, 237
+  size: 64, 71
+  orig: 250, 250
+  offset: 102, 89
+  index: -1
+skill2_06
+  rotate: false
+  xy: 1872, 421
+  size: 81, 91
+  orig: 250, 250
+  offset: 83, 91
+  index: -1
+skill2_07
+  rotate: false
+  xy: 1789, 418
+  size: 83, 94
+  orig: 250, 250
+  offset: 82, 91
+  index: -1
+skill2_08
+  rotate: true
+  xy: 1279, 308
+  size: 73, 78
+  orig: 250, 250
+  offset: 97, 89
+  index: -1
+skill2_09
+  rotate: true
+  xy: 1013, 170
+  size: 59, 73
+  orig: 250, 250
+  offset: 107, 91
+  index: -1
+skill2_10
+  rotate: true
+  xy: 364, 147
+  size: 65, 94
+  orig: 250, 250
+  offset: 91, 93
+  index: -1
+weapon/1
+  rotate: true
+  xy: 1676, 411
+  size: 101, 113
+  orig: 148, 125
+  offset: 9, 2
+  index: -1
+weapon/1_1
+  rotate: false
+  xy: 966, 326
+  size: 72, 88
+  orig: 148, 125
+  offset: 38, 2
+  index: -1
+weapon/2
+  rotate: false
+  xy: 1557, 414
+  size: 119, 98
+  orig: 148, 125
+  offset: 22, 20
+  index: -1
+weapon/chain_00
+  rotate: false
+  xy: 1038, 407
+  size: 2, 7
+  orig: 4, 9
+  offset: 1, 1
+  index: -1
+weapon/chain_01
+  rotate: false
+  xy: 1477, 242
+  size: 6, 8
+  orig: 8, 10
+  offset: 1, 1
+  index: -1
+weapon/skill2_0
+  rotate: false
+  xy: 664, 233
+  size: 117, 40
+  orig: 119, 42
+  offset: 1, 1
+  index: -1
+weapon/skill2_1
+  rotate: false
+  xy: 458, 171
+  size: 115, 41
+  orig: 119, 42
+  offset: 3, 0
+  index: -1
+weapon/weapon_00
+  rotate: true
+  xy: 2036, 480
+  size: 32, 12
+  orig: 34, 15
+  offset: 1, 2
+  index: -1
+weapon/weapon_01
+  rotate: true
+  xy: 940, 253
+  size: 20, 17
+  orig: 22, 19
+  offset: 1, 1
+  index: -1

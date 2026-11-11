@@ -1,0 +1,181 @@
+
+501161513.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/aura/aura_00
+  rotate: false
+  xy: 1, 20
+  size: 95, 107
+  orig: 250, 250
+  offset: 75, 84
+  index: -1
+EF/aura/aura_01
+  rotate: false
+  xy: 191, 23
+  size: 93, 104
+  orig: 250, 250
+  offset: 75, 82
+  index: -1
+EF/aura/aura_02
+  rotate: false
+  xy: 97, 21
+  size: 93, 106
+  orig: 250, 250
+  offset: 76, 84
+  index: -1
+EF/aura/aura_03
+  rotate: true
+  xy: 481, 38
+  size: 89, 100
+  orig: 250, 250
+  offset: 78, 86
+  index: -1
+EF/aura/aura_04
+  rotate: true
+  xy: 582, 41
+  size: 86, 103
+  orig: 250, 250
+  offset: 79, 85
+  index: -1
+EF/aura/aura_05
+  rotate: true
+  xy: 686, 43
+  size: 84, 98
+  orig: 250, 250
+  offset: 76, 84
+  index: -1
+EF/aura/aura_06
+  rotate: false
+  xy: 383, 32
+  size: 97, 95
+  orig: 250, 250
+  offset: 68, 82
+  index: -1
+EF/aura/aura_07
+  rotate: false
+  xy: 285, 30
+  size: 97, 97
+  orig: 250, 250
+  offset: 69, 82
+  index: -1
+EF/aura/aura_08
+  rotate: true
+  xy: 785, 36
+  size: 91, 94
+  orig: 250, 250
+  offset: 76, 84
+  index: -1
+spider/B_claw_L
+  rotate: true
+  xy: 785, 11
+  size: 24, 87
+  orig: 121, 121
+  offset: 58, 16
+  index: -1
+spider/B_claw_R
+  rotate: true
+  xy: 880, 29
+  size: 37, 92
+  orig: 121, 121
+  offset: 3, 10
+  index: -1
+spider/B_leg1_L
+  rotate: false
+  xy: 966, 73
+  size: 16, 54
+  orig: 121, 121
+  offset: 61, 25
+  index: -1
+spider/B_leg1_R
+  rotate: false
+  xy: 983, 73
+  size: 16, 54
+  orig: 121, 121
+  offset: 19, 19
+  index: -1
+spider/B_leg2_L
+  rotate: false
+  xy: 612, 15
+  size: 20, 25
+  orig: 121, 121
+  offset: 52, 25
+  index: -1
+spider/B_leg2_R
+  rotate: false
+  xy: 633, 15
+  size: 20, 25
+  orig: 121, 121
+  offset: 26, 23
+  index: -1
+spider/F_claw_L
+  rotate: true
+  xy: 481, 8
+  size: 29, 95
+  orig: 121, 121
+  offset: 91, 9
+  index: -1
+spider/F_claw_R
+  rotate: true
+  xy: 686, 11
+  size: 31, 98
+  orig: 121, 121
+  offset: 49, 5
+  index: -1
+spider/F_leg1_L
+  rotate: false
+  xy: 1000, 75
+  size: 17, 52
+  orig: 121, 121
+  offset: 91, 21
+  index: -1
+spider/F_leg1_R
+  rotate: true
+  xy: 1, 1
+  size: 18, 57
+  orig: 121, 121
+  offset: 52, 17
+  index: -1
+spider/F_leg2_L
+  rotate: false
+  xy: 654, 15
+  size: 20, 25
+  orig: 121, 121
+  offset: 86, 23
+  index: -1
+spider/F_leg2_R
+  rotate: true
+  xy: 59, 4
+  size: 15, 28
+  orig: 121, 121
+  offset: 55, 21
+  index: -1
+spider/body
+  rotate: false
+  xy: 880, 67
+  size: 85, 60
+  orig: 85, 60
+  offset: 0, 0
+  index: -1
+spider/eye
+  rotate: false
+  xy: 973, 42
+  size: 22, 14
+  orig: 121, 121
+  offset: 74, 39
+  index: -1
+spider/head
+  rotate: false
+  xy: 582, 1
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+spider/highlight
+  rotate: false
+  xy: 973, 57
+  size: 22, 15
+  orig: 121, 121
+  offset: 74, 39
+  index: -1

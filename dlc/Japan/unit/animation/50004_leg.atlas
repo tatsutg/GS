@@ -1,0 +1,27 @@
+
+50004_leg.png
+size: 256,256
+format: RGBA4444
+filter: Linear,Linear
+repeat: none
+L-leg2
+  rotate: true
+  xy: 1, 1
+  size: 107, 134
+  orig: 126, 135
+  offset: 19, 0
+  index: -1
+L_leg1
+  rotate: false
+  xy: 1, 109
+  size: 167, 136
+  orig: 167, 136
+  offset: 0, 0
+  index: -1
+L_leg3
+  rotate: true
+  xy: 169, 106
+  size: 139, 71
+  orig: 139, 71
+  offset: 0, 0
+  index: -1

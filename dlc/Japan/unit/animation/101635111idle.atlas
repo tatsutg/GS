@@ -1,0 +1,153 @@
+
+101635111idle.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF_shortsword/EF_L_shortaword_00
+  rotate: true
+  xy: 1, 8
+  size: 16, 47
+  orig: 256, 256
+  offset: 120, 104
+  index: -1
+EF_shortsword/EF_L_shortaword_01
+  rotate: false
+  xy: 236, 1
+  size: 17, 13
+  orig: 256, 256
+  offset: 120, 121
+  index: -1
+EF_shortsword/EF_L_shortaword_02
+  rotate: false
+  xy: 201, 9
+  size: 17, 19
+  orig: 256, 256
+  offset: 120, 118
+  index: -1
+EF_shortsword/EF_L_shortaword_03
+  rotate: false
+  xy: 166, 1
+  size: 17, 27
+  orig: 256, 256
+  offset: 120, 114
+  index: -1
+EF_shortsword/EF_L_shortaword_04
+  rotate: true
+  xy: 234, 15
+  size: 13, 19
+  orig: 256, 256
+  offset: 122, 118
+  index: -1
+EF_shortsword/EF_L_shortaword_05
+  rotate: true
+  xy: 249, 36
+  size: 14, 11
+  orig: 256, 256
+  offset: 121, 122
+  index: -1
+EF_shortsword/EF_R_shortaword_00
+  rotate: false
+  xy: 80, 3
+  size: 33, 24
+  orig: 256, 256
+  offset: 112, 116
+  index: -1
+EF_shortsword/EF_R_shortaword_01
+  rotate: true
+  xy: 236, 36
+  size: 14, 12
+  orig: 256, 256
+  offset: 121, 122
+  index: -1
+EF_shortsword/EF_R_shortaword_02
+  rotate: true
+  xy: 145, 2
+  size: 25, 20
+  orig: 256, 256
+  offset: 116, 118
+  index: -1
+EF_shortsword/EF_R_shortaword_03
+  rotate: true
+  xy: 184, 1
+  size: 27, 16
+  orig: 256, 256
+  offset: 115, 120
+  index: -1
+EF_shortsword/EF_R_shortaword_04
+  rotate: true
+  xy: 219, 10
+  size: 18, 14
+  orig: 256, 256
+  offset: 119, 121
+  index: -1
+EF_shortsword/EF_R_shortaword_05
+  rotate: false
+  xy: 49, 1
+  size: 30, 23
+  orig: 256, 256
+  offset: 113, 116
+  index: -1
+bit/bit
+  rotate: false
+  xy: 219, 1
+  size: 16, 8
+  orig: 256, 256
+  offset: 120, 124
+  index: -1
+idle_00
+  rotate: true
+  xy: 78, 28
+  size: 99, 78
+  orig: 256, 256
+  offset: 81, 85
+  index: -1
+idle_01
+  rotate: true
+  xy: 1, 25
+  size: 102, 76
+  orig: 256, 256
+  offset: 77, 85
+  index: -1
+idle_02
+  rotate: true
+  xy: 420, 25
+  size: 102, 71
+  orig: 256, 256
+  offset: 74, 85
+  index: -1
+idle_03
+  rotate: false
+  xy: 236, 51
+  size: 100, 76
+  orig: 256, 256
+  offset: 77, 85
+  index: -1
+idle_04
+  rotate: true
+  xy: 157, 29
+  size: 98, 78
+  orig: 256, 256
+  offset: 81, 85
+  index: -1
+idle_05
+  rotate: true
+  xy: 337, 35
+  size: 92, 82
+  orig: 256, 256
+  offset: 83, 85
+  index: -1
+shortsword/shortsword_03
+  rotate: false
+  xy: 254, 7
+  size: 28, 28
+  orig: 256, 256
+  offset: 114, 114
+  index: -1
+shortsword/shortsword_08
+  rotate: true
+  xy: 114, 1
+  size: 26, 30
+  orig: 256, 256
+  offset: 115, 113
+  index: -1

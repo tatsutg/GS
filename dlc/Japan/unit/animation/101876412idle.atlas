@@ -1,0 +1,62 @@
+
+101876412idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: false
+  xy: 819, 69
+  size: 86, 114
+  orig: 512, 512
+  offset: 210, 196
+  index: -1
+idle_01
+  rotate: false
+  xy: 906, 69
+  size: 86, 114
+  orig: 512, 512
+  offset: 210, 196
+  index: -1
+idle_02
+  rotate: false
+  xy: 730, 69
+  size: 88, 114
+  orig: 512, 512
+  offset: 210, 196
+  index: -1
+idle_03
+  rotate: false
+  xy: 633, 69
+  size: 96, 114
+  orig: 512, 512
+  offset: 210, 196
+  index: -1
+sonie_6_chair_idle_00
+  rotate: false
+  xy: 162, 1
+  size: 156, 182
+  orig: 512, 512
+  offset: 176, 166
+  index: -1
+sonie_6_chair_idle_01
+  rotate: false
+  xy: 319, 1
+  size: 156, 182
+  orig: 512, 512
+  offset: 176, 166
+  index: -1
+sonie_6_chair_idle_02
+  rotate: false
+  xy: 1, 1
+  size: 160, 182
+  orig: 512, 512
+  offset: 176, 166
+  index: -1
+sonie_6_chair_idle_03
+  rotate: false
+  xy: 476, 1
+  size: 156, 182
+  orig: 512, 512
+  offset: 178, 166
+  index: -1

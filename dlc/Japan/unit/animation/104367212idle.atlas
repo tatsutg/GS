@@ -1,0 +1,62 @@
+
+104367212idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: true
+  xy: 1, 1
+  size: 108, 146
+  orig: 512, 512
+  offset: 210, 182
+  index: -1
+idle_01
+  rotate: true
+  xy: 767, 140
+  size: 106, 146
+  orig: 512, 512
+  offset: 210, 182
+  index: -1
+idle_02
+  rotate: false
+  xy: 914, 104
+  size: 106, 142
+  orig: 512, 512
+  offset: 210, 182
+  index: -1
+idle_03
+  rotate: true
+  xy: 148, 1
+  size: 108, 142
+  orig: 512, 512
+  offset: 210, 182
+  index: -1
+neas_tentacles_idle_00
+  rotate: false
+  xy: 1, 110
+  size: 194, 136
+  orig: 512, 512
+  offset: 164, 196
+  index: -1
+neas_tentacles_idle_01
+  rotate: false
+  xy: 385, 108
+  size: 188, 138
+  orig: 512, 512
+  offset: 176, 192
+  index: -1
+neas_tentacles_idle_02
+  rotate: false
+  xy: 574, 116
+  size: 192, 130
+  orig: 512, 512
+  offset: 178, 198
+  index: -1
+neas_tentacles_idle_03
+  rotate: false
+  xy: 196, 110
+  size: 188, 136
+  orig: 512, 512
+  offset: 170, 196
+  index: -1

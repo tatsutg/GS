@@ -1,0 +1,90 @@
+
+101555212idle.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_00
+  rotate: false
+  xy: 150, 45
+  size: 73, 65
+  orig: 286, 286
+  offset: 106, 118
+  index: -1
+idle_01
+  rotate: false
+  xy: 75, 45
+  size: 74, 65
+  orig: 286, 286
+  offset: 105, 118
+  index: -1
+idle_02
+  rotate: false
+  xy: 1, 28
+  size: 73, 82
+  orig: 286, 286
+  offset: 106, 100
+  index: -1
+idle_03
+  rotate: false
+  xy: 224, 46
+  size: 70, 64
+  orig: 286, 286
+  offset: 107, 118
+  index: -1
+idle_a_00
+  rotate: false
+  xy: 1, 1
+  size: 72, 26
+  orig: 286, 286
+  offset: 106, 138
+  index: -1
+idle_a_01
+  rotate: false
+  xy: 368, 86
+  size: 72, 24
+  orig: 286, 286
+  offset: 106, 139
+  index: -1
+idle_a_02
+  rotate: false
+  xy: 295, 84
+  size: 72, 26
+  orig: 286, 286
+  offset: 106, 138
+  index: -1
+idle_a_03
+  rotate: false
+  xy: 295, 57
+  size: 72, 26
+  orig: 286, 286
+  offset: 106, 139
+  index: -1
+idle_b_00
+  rotate: false
+  xy: 441, 87
+  size: 64, 23
+  orig: 286, 286
+  offset: 111, 151
+  index: -1
+idle_b_01
+  rotate: false
+  xy: 75, 19
+  size: 63, 25
+  orig: 286, 286
+  offset: 111, 150
+  index: -1
+idle_b_02
+  rotate: false
+  xy: 368, 58
+  size: 63, 27
+  orig: 286, 286
+  offset: 111, 149
+  index: -1
+idle_b_03
+  rotate: false
+  xy: 139, 19
+  size: 63, 25
+  orig: 286, 286
+  offset: 111, 150
+  index: -1

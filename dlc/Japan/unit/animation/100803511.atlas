@@ -1,0 +1,307 @@
+
+100803511.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire/L_arm_fire1
+  rotate: false
+  xy: 588, 647
+  size: 130, 198
+  orig: 256, 256
+  offset: 116, 16
+  index: -1
+fire/L_arm_fire2
+  rotate: false
+  xy: 1114, 629
+  size: 130, 194
+  orig: 256, 256
+  offset: 118, 16
+  index: -1
+fire/L_arm_fire3
+  rotate: false
+  xy: 264, 663
+  size: 122, 190
+  orig: 256, 256
+  offset: 120, 18
+  index: -1
+fire/L_arm_fire4
+  rotate: true
+  xy: 501, 340
+  size: 120, 190
+  orig: 256, 256
+  offset: 122, 16
+  index: -1
+fire/L_arm_fire5
+  rotate: true
+  xy: 308, 344
+  size: 116, 192
+  orig: 256, 256
+  offset: 128, 16
+  index: -1
+fire/R_arm_fire1
+  rotate: false
+  xy: 171, 65
+  size: 138, 172
+  orig: 256, 256
+  offset: 20, 54
+  index: -1
+fire/R_arm_fire2
+  rotate: false
+  xy: 310, 179
+  size: 142, 164
+  orig: 256, 256
+  offset: 18, 56
+  index: -1
+fire/R_arm_fire3
+  rotate: false
+  xy: 310, 20
+  size: 144, 158
+  orig: 256, 256
+  offset: 18, 58
+  index: -1
+fire/R_arm_fire4
+  rotate: false
+  xy: 172, 238
+  size: 132, 160
+  orig: 256, 256
+  offset: 18, 60
+  index: -1
+fire/R_arm_fire5
+  rotate: true
+  xy: 453, 203
+  size: 136, 166
+  orig: 256, 256
+  offset: 18, 56
+  index: -1
+skeleton-attack1_0
+  rotate: false
+  xy: 1201, 829
+  size: 212, 186
+  orig: 450, 400
+  offset: 62, 88
+  index: -1
+skeleton-attack1_1
+  rotate: false
+  xy: 700, 852
+  size: 274, 163
+  orig: 450, 400
+  offset: 55, 108
+  index: -1
+skeleton-attack1_2
+  rotate: false
+  xy: 1, 854
+  size: 391, 161
+  orig: 450, 400
+  offset: 34, 107
+  index: -1
+skeleton-attack1_3
+  rotate: true
+  xy: 1, 1
+  size: 309, 169
+  orig: 450, 400
+  offset: 27, 91
+  index: -1
+skeleton-attack1_4
+  rotate: false
+  xy: 393, 846
+  size: 306, 169
+  orig: 450, 400
+  offset: 27, 91
+  index: -1
+skeleton-attack1_5
+  rotate: true
+  xy: 1, 311
+  size: 311, 170
+  orig: 450, 400
+  offset: 25, 90
+  index: -1
+skeleton-attack1_7
+  rotate: false
+  xy: 1245, 646
+  size: 144, 182
+  orig: 450, 400
+  offset: 97, 87
+  index: -1
+skeleton-attack1_8
+  rotate: true
+  xy: 1585, 642
+  size: 183, 171
+  orig: 450, 400
+  offset: 56, 97
+  index: -1
+skeleton-back_0
+  rotate: false
+  xy: 975, 824
+  size: 225, 191
+  orig: 450, 400
+  offset: 91, 79
+  index: -1
+skeleton-damage_0
+  rotate: false
+  xy: 1, 623
+  size: 262, 230
+  orig: 450, 400
+  offset: 94, 49
+  index: -1
+skeleton-front_0
+  rotate: false
+  xy: 1390, 640
+  size: 194, 185
+  orig: 450, 400
+  offset: 128, 78
+  index: -1
+skeleton-idle_0
+  rotate: true
+  xy: 387, 652
+  size: 193, 200
+  orig: 450, 400
+  offset: 126, 61
+  index: -1
+skeleton-skill1_0
+  rotate: true
+  xy: 387, 652
+  size: 193, 200
+  orig: 450, 400
+  offset: 114, 77
+  index: -1
+skeleton-idle_1
+  rotate: true
+  xy: 1623, 827
+  size: 188, 207
+  orig: 450, 400
+  offset: 130, 57
+  index: -1
+skeleton-idle_2
+  rotate: true
+  xy: 1414, 826
+  size: 189, 208
+  orig: 450, 400
+  offset: 131, 59
+  index: -1
+skeleton-idle_3
+  rotate: true
+  xy: 1831, 820
+  size: 195, 201
+  orig: 450, 400
+  offset: 127, 64
+  index: -1
+skeleton-idle_4
+  rotate: false
+  xy: 719, 652
+  size: 197, 199
+  orig: 450, 400
+  offset: 124, 64
+  index: -1
+skeleton-skill1_1
+  rotate: false
+  xy: 917, 627
+  size: 196, 196
+  orig: 450, 400
+  offset: 112, 82
+  index: -1
+skeleton-skill1_2
+  rotate: false
+  xy: 308, 461
+  size: 194, 190
+  orig: 450, 400
+  offset: 113, 87
+  index: -1
+skeleton-skill1_3
+  rotate: false
+  xy: 503, 461
+  size: 192, 185
+  orig: 450, 400
+  offset: 115, 91
+  index: -1
+skeleton-skill1_4
+  rotate: true
+  xy: 1757, 649
+  size: 170, 181
+  orig: 450, 400
+  offset: 124, 82
+  index: -1
+skeleton-skill1_4.5
+  rotate: false
+  xy: 1939, 661
+  size: 106, 158
+  orig: 450, 400
+  offset: 139, 90
+  index: -1
+skeleton-skill1_5
+  rotate: false
+  xy: 172, 399
+  size: 135, 223
+  orig: 450, 400
+  offset: 152, 63
+  index: -1
+skill/L_arm_1
+  rotate: false
+  xy: 620, 200
+  size: 44, 44
+  orig: 256, 256
+  offset: 174, 104
+  index: -1
+skill/L_arm_2
+  rotate: false
+  xy: 620, 245
+  size: 80, 94
+  orig: 256, 256
+  offset: 136, 22
+  index: -1
+skill/L_shoulder
+  rotate: false
+  xy: 455, 120
+  size: 90, 82
+  orig: 256, 256
+  offset: 128, 126
+  index: -1
+skill/R_arm_1
+  rotate: false
+  xy: 264, 624
+  size: 34, 38
+  orig: 256, 256
+  offset: 76, 102
+  index: -1
+skill/R_arm_2
+  rotate: false
+  xy: 455, 51
+  size: 66, 68
+  orig: 256, 256
+  offset: 34, 40
+  index: -1
+skill/R_shoulder
+  rotate: false
+  xy: 546, 140
+  size: 68, 62
+  orig: 256, 256
+  offset: 36, 124
+  index: -1
+skill/stone_s1
+  rotate: true
+  xy: 917, 827
+  size: 24, 40
+  orig: 256, 256
+  offset: 20, 206
+  index: -1
+skill/stone_s2
+  rotate: true
+  xy: 455, 26
+  size: 24, 40
+  orig: 256, 256
+  offset: 24, 28
+  index: -1
+skill/stone_s3
+  rotate: false
+  xy: 254, 8
+  size: 46, 56
+  orig: 256, 256
+  offset: 194, 24
+  index: -1
+skill/stone_s4
+  rotate: true
+  xy: 171, 8
+  size: 56, 82
+  orig: 256, 256
+  offset: 186, 172
+  index: -1

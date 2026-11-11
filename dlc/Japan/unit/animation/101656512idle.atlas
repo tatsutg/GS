@@ -1,0 +1,90 @@
+
+101656512idle.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BW/idle/B_Weapon_00
+  rotate: false
+  xy: 997, 130
+  size: 22, 60
+  orig: 26, 64
+  offset: 2, 2
+  index: -1
+BW/idle/B_Weapon_01
+  rotate: false
+  xy: 997, 130
+  size: 22, 60
+  orig: 26, 64
+  offset: 2, 2
+  index: -1
+BW/idle/B_Weapon_02
+  rotate: false
+  xy: 1, 56
+  size: 36, 54
+  orig: 40, 58
+  offset: 2, 2
+  index: -1
+BW/idle/B_Weapon_03
+  rotate: false
+  xy: 997, 191
+  size: 26, 52
+  orig: 30, 56
+  offset: 2, 2
+  index: -1
+BW/idle/B_Weapon_04
+  rotate: false
+  xy: 38, 50
+  size: 22, 60
+  orig: 26, 64
+  offset: 2, 2
+  index: -1
+BW/idle/B_Weapon_05
+  rotate: false
+  xy: 38, 50
+  size: 22, 60
+  orig: 26, 64
+  offset: 2, 2
+  index: -1
+BW/idle/B_Weapon_06
+  rotate: false
+  xy: 1, 1
+  size: 36, 54
+  orig: 40, 58
+  offset: 2, 2
+  index: -1
+BW/idle/B_Weapon_07
+  rotate: false
+  xy: 1, 1
+  size: 36, 54
+  orig: 40, 58
+  offset: 2, 2
+  index: -1
+idle_00
+  rotate: false
+  xy: 748, 117
+  size: 248, 126
+  orig: 512, 512
+  offset: 130, 190
+  index: -1
+idle_01
+  rotate: false
+  xy: 250, 113
+  size: 248, 130
+  orig: 512, 512
+  offset: 132, 190
+  index: -1
+idle_02
+  rotate: false
+  xy: 1, 111
+  size: 248, 132
+  orig: 512, 512
+  offset: 134, 190
+  index: -1
+idle_03
+  rotate: false
+  xy: 499, 113
+  size: 248, 130
+  orig: 512, 512
+  offset: 132, 190
+  index: -1

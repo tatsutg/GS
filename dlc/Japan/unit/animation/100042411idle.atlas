@@ -1,0 +1,41 @@
+
+100042411idle.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skeleton-idle_0
+  rotate: false
+  xy: 878, 1
+  size: 201, 123
+  orig: 227, 123
+  offset: 10, 0
+  index: -1
+skeleton-idle_1
+  rotate: false
+  xy: 450, 4
+  size: 215, 120
+  orig: 227, 123
+  offset: 4, 0
+  index: -1
+skeleton-idle_2
+  rotate: false
+  xy: 1, 6
+  size: 227, 118
+  orig: 227, 123
+  offset: 0, 0
+  index: -1
+skeleton-idle_3
+  rotate: false
+  xy: 229, 4
+  size: 220, 120
+  orig: 227, 123
+  offset: 3, 0
+  index: -1
+skeleton-idle_4
+  rotate: false
+  xy: 666, 2
+  size: 211, 122
+  orig: 227, 123
+  offset: 6, 0
+  index: -1

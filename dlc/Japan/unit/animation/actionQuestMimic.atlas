@@ -1,0 +1,174 @@
+
+actionQuestMimic.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_flare_back_yellow_00003
+  rotate: false
+  xy: 1, 249
+  size: 262, 262
+  orig: 300, 300
+  offset: 19, 19
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00001
+  rotate: false
+  xy: 306, 87
+  size: 86, 74
+  orig: 240, 240
+  offset: 72, 18
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00002
+  rotate: false
+  xy: 186, 51
+  size: 100, 86
+  orig: 240, 240
+  offset: 65, 16
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00003
+  rotate: true
+  xy: 264, 279
+  size: 109, 95
+  orig: 240, 240
+  offset: 61, 16
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00004
+  rotate: false
+  xy: 110, 141
+  size: 113, 107
+  orig: 240, 240
+  offset: 58, 16
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00005
+  rotate: false
+  xy: 1, 127
+  size: 108, 121
+  orig: 240, 240
+  offset: 59, 17
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00006
+  rotate: false
+  xy: 264, 389
+  size: 103, 122
+  orig: 240, 240
+  offset: 61, 24
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00007
+  rotate: false
+  xy: 1, 1
+  size: 95, 125
+  orig: 240, 240
+  offset: 63, 34
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00008
+  rotate: false
+  xy: 224, 138
+  size: 81, 110
+  orig: 240, 240
+  offset: 76, 63
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00009
+  rotate: false
+  xy: 368, 396
+  size: 89, 115
+  orig: 240, 240
+  offset: 72, 64
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00010
+  rotate: false
+  xy: 97, 11
+  size: 88, 115
+  orig: 240, 240
+  offset: 71, 74
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00011
+  rotate: false
+  xy: 375, 2
+  size: 74, 84
+  orig: 240, 240
+  offset: 79, 109
+  index: -1
+EF/ef_hide_particle_main/ef_hide_particle_main_00012
+  rotate: true
+  xy: 422, 155
+  size: 37, 38
+  orig: 240, 240
+  offset: 116, 144
+  index: -1
+mimic_close
+  rotate: true
+  xy: 407, 319
+  size: 76, 68
+  orig: 128, 128
+  offset: 25, 22
+  index: -1
+mimic_open_1
+  rotate: false
+  xy: 287, 5
+  size: 87, 81
+  orig: 128, 128
+  offset: 15, 22
+  index: -1
+mimic_open_2
+  rotate: true
+  xy: 306, 162
+  size: 116, 81
+  orig: 128, 128
+  offset: 12, 22
+  index: -1
+mimic_open_lower
+  rotate: false
+  xy: 186, 1
+  size: 77, 49
+  orig: 79, 51
+  offset: 1, 1
+  index: -1
+mimic_open_lower_2
+  rotate: false
+  xy: 407, 278
+  size: 77, 40
+  orig: 79, 51
+  offset: 2, 1
+  index: -1
+mimic_open_lower_3
+  rotate: false
+  xy: 388, 241
+  size: 77, 36
+  orig: 79, 51
+  offset: 2, 6
+  index: -1
+mimic_open_upper
+  rotate: true
+  xy: 458, 433
+  size: 78, 48
+  orig: 80, 49
+  offset: 1, 0
+  index: -1
+mimic_open_upper2
+  rotate: true
+  xy: 360, 310
+  size: 78, 46
+  orig: 80, 47
+  offset: 1, 1
+  index: -1
+mimic_tongue
+  rotate: true
+  xy: 388, 162
+  size: 78, 33
+  orig: 79, 35
+  offset: 0, 1
+  index: -1
+mimic_tongue_shadow
+  rotate: false
+  xy: 110, 127
+  size: 31, 13
+  orig: 33, 13
+  offset: 2, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 422, 193
+  size: 44, 47
+  orig: 46, 49
+  offset: 1, 1
+  index: -1

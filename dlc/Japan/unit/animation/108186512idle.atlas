@@ -1,0 +1,146 @@
+
+108186512idle.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle2_00
+  rotate: true
+  xy: 525, 58
+  size: 60, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle2_01
+  rotate: true
+  xy: 656, 58
+  size: 60, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle2_02
+  rotate: true
+  xy: 787, 58
+  size: 60, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle2_03
+  rotate: true
+  xy: 918, 58
+  size: 60, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle2_04
+  rotate: true
+  xy: 394, 52
+  size: 66, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle2_05
+  rotate: true
+  xy: 1, 48
+  size: 70, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle2_06
+  rotate: true
+  xy: 263, 50
+  size: 68, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle2_07
+  rotate: true
+  xy: 132, 50
+  size: 68, 130
+  orig: 512, 512
+  offset: 218, 182
+  index: -1
+idle_00
+  rotate: true
+  xy: 1658, 50
+  size: 68, 118
+  orig: 512, 512
+  offset: 220, 192
+  index: -1
+idle_01
+  rotate: true
+  xy: 1777, 50
+  size: 68, 118
+  orig: 512, 512
+  offset: 220, 192
+  index: -1
+idle_02
+  rotate: true
+  xy: 1537, 50
+  size: 68, 120
+  orig: 512, 512
+  offset: 220, 192
+  index: -1
+idle_03
+  rotate: true
+  xy: 1049, 50
+  size: 68, 122
+  orig: 512, 512
+  offset: 220, 192
+  index: -1
+idle_04
+  rotate: true
+  xy: 1172, 48
+  size: 70, 122
+  orig: 512, 512
+  offset: 220, 192
+  index: -1
+idle_05
+  rotate: true
+  xy: 1295, 46
+  size: 72, 120
+  orig: 512, 512
+  offset: 218, 192
+  index: -1
+idlep_00
+  rotate: true
+  xy: 525, 11
+  size: 46, 114
+  orig: 512, 512
+  offset: 236, 198
+  index: -1
+idlep_01
+  rotate: true
+  xy: 1896, 62
+  size: 56, 118
+  orig: 512, 512
+  offset: 230, 198
+  index: -1
+idlep_02
+  rotate: true
+  xy: 1, 1
+  size: 46, 116
+  orig: 512, 512
+  offset: 236, 198
+  index: -1
+idlep_03
+  rotate: true
+  xy: 1896, 19
+  size: 42, 116
+  orig: 512, 512
+  offset: 236, 198
+  index: -1
+posep_00
+  rotate: true
+  xy: 640, 9
+  size: 48, 112
+  orig: 512, 512
+  offset: 234, 198
+  index: -1
+posep_01
+  rotate: true
+  xy: 1416, 48
+  size: 70, 120
+  orig: 512, 512
+  offset: 222, 198
+  index: -1

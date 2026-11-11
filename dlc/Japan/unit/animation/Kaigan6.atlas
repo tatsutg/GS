@@ -1,0 +1,440 @@
+
+Kaigan6.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF_aura2/ef_MD_aura_00
+  rotate: false
+  xy: 360, 113
+  size: 95, 107
+  orig: 250, 250
+  offset: 75, 84
+  index: -1
+EF_aura2/ef_MD_aura_01
+  rotate: false
+  xy: 647, 739
+  size: 93, 104
+  orig: 250, 250
+  offset: 75, 82
+  index: -1
+EF_aura2/ef_MD_aura_02
+  rotate: true
+  xy: 630, 644
+  size: 93, 106
+  orig: 250, 250
+  offset: 76, 84
+  index: -1
+EF_aura2/ef_MD_aura_03
+  rotate: true
+  xy: 265, 490
+  size: 89, 100
+  orig: 250, 250
+  offset: 78, 86
+  index: -1
+EF_aura2/ef_MD_aura_04
+  rotate: true
+  xy: 614, 486
+  size: 86, 103
+  orig: 250, 250
+  offset: 79, 85
+  index: -1
+EF_aura2/ef_MD_aura_05
+  rotate: true
+  xy: 1379, 715
+  size: 84, 98
+  orig: 250, 250
+  offset: 76, 84
+  index: -1
+EF_aura2/ef_MD_aura_06
+  rotate: false
+  xy: 1479, 704
+  size: 97, 95
+  orig: 250, 250
+  offset: 68, 82
+  index: -1
+EF_aura2/ef_MD_aura_07
+  rotate: false
+  xy: 367, 490
+  size: 97, 97
+  orig: 250, 250
+  offset: 69, 82
+  index: -1
+EF_aura2/ef_MD_aura_08
+  rotate: false
+  xy: 2, 2
+  size: 91, 94
+  orig: 250, 250
+  offset: 76, 84
+  index: -1
+common_icon
+  rotate: false
+  xy: 1664, 880
+  size: 137, 142
+  orig: 216, 216
+  offset: 41, 38
+  index: -1
+ef_aura/ef_aura_00
+  rotate: false
+  xy: 987, 607
+  size: 73, 29
+  orig: 250, 250
+  offset: 84, 47
+  index: -1
+ef_aura/ef_aura_01
+  rotate: false
+  xy: 1487, 868
+  size: 175, 154
+  orig: 250, 250
+  offset: 39, 44
+  index: -1
+ef_aura/ef_aura_02
+  rotate: false
+  xy: 1094, 839
+  size: 186, 183
+  orig: 250, 250
+  offset: 34, 46
+  index: -1
+ef_aura/ef_aura_03
+  rotate: true
+  xy: 901, 833
+  size: 189, 191
+  orig: 250, 250
+  offset: 32, 46
+  index: -1
+ef_aura/ef_aura_04
+  rotate: false
+  xy: 2, 98
+  size: 198, 194
+  orig: 250, 250
+  offset: 28, 46
+  index: -1
+ef_aura/ef_aura_05
+  rotate: false
+  xy: 282, 829
+  size: 204, 193
+  orig: 250, 250
+  offset: 28, 46
+  index: -1
+ef_aura/ef_aura_06
+  rotate: false
+  xy: 2, 294
+  size: 204, 193
+  orig: 250, 250
+  offset: 28, 51
+  index: -1
+ef_aura/ef_aura_07
+  rotate: false
+  xy: 695, 846
+  size: 204, 176
+  orig: 250, 250
+  offset: 28, 65
+  index: -1
+ef_aura/ef_aura_08
+  rotate: false
+  xy: 488, 845
+  size: 205, 177
+  orig: 250, 250
+  offset: 27, 67
+  index: -1
+ef_circle
+  rotate: false
+  xy: 2, 489
+  size: 261, 252
+  orig: 300, 300
+  offset: 20, 23
+  index: -1
+ef_eye_emblem
+  rotate: true
+  xy: 1964, 918
+  size: 104, 70
+  orig: 250, 250
+  offset: 73, 90
+  index: -1
+ef_eye_mark
+  rotate: false
+  xy: 1282, 875
+  size: 203, 147
+  orig: 250, 250
+  offset: 22, 52
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00001
+  rotate: true
+  xy: 875, 591
+  size: 45, 110
+  orig: 120, 200
+  offset: 38, 15
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00002
+  rotate: true
+  xy: 473, 584
+  size: 61, 153
+  orig: 120, 200
+  offset: 33, 6
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00003
+  rotate: true
+  xy: 1803, 845
+  size: 69, 169
+  orig: 120, 200
+  offset: 32, 1
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00004
+  rotate: true
+  xy: 282, 750
+  size: 77, 177
+  orig: 120, 200
+  offset: 26, 1
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00005
+  rotate: false
+  xy: 208, 306
+  size: 70, 181
+  orig: 120, 200
+  offset: 32, 4
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00006
+  rotate: true
+  xy: 1282, 801
+  size: 72, 175
+  orig: 120, 200
+  offset: 32, 16
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00007
+  rotate: true
+  xy: 1459, 801
+  size: 65, 171
+  orig: 120, 200
+  offset: 33, 25
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00008
+  rotate: true
+  xy: 483, 315
+  size: 54, 144
+  orig: 120, 200
+  offset: 37, 31
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00009
+  rotate: true
+  xy: 735, 583
+  size: 51, 138
+  orig: 120, 200
+  offset: 38, 42
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00010
+  rotate: true
+  xy: 1277, 748
+  size: 51, 100
+  orig: 120, 200
+  offset: 37, 57
+  index: -1
+ef_fire_aura_main/ef_fire_aura_main_00011
+  rotate: false
+  xy: 170, 17
+  size: 28, 79
+  orig: 120, 200
+  offset: 60, 83
+  index: -1
+ef_magic_mark/ef_magic_mark
+  rotate: false
+  xy: 2, 743
+  size: 278, 279
+  orig: 300, 300
+  offset: 14, 17
+  index: -1
+ef_particle/ef_particle_00
+  rotate: false
+  xy: 569, 249
+  size: 48, 64
+  orig: 250, 250
+  offset: 100, 76
+  index: -1
+ef_particle/ef_particle_01
+  rotate: true
+  xy: 628, 574
+  size: 68, 105
+  orig: 250, 250
+  offset: 89, 74
+  index: -1
+ef_particle/ef_particle_02
+  rotate: true
+  xy: 440, 230
+  size: 83, 127
+  orig: 250, 250
+  offset: 81, 71
+  index: -1
+ef_particle/ef_particle_03
+  rotate: true
+  xy: 466, 491
+  size: 91, 146
+  orig: 250, 250
+  offset: 76, 69
+  index: -1
+ef_particle/ef_particle_04
+  rotate: true
+  xy: 473, 647
+  size: 95, 155
+  orig: 250, 250
+  offset: 74, 70
+  index: -1
+ef_particle/ef_particle_05
+  rotate: true
+  xy: 488, 744
+  size: 99, 157
+  orig: 250, 250
+  offset: 72, 71
+  index: -1
+ef_particle/ef_particle_06
+  rotate: false
+  xy: 265, 581
+  size: 99, 160
+  orig: 250, 250
+  offset: 72, 70
+  index: -1
+ef_particle/ef_particle_07
+  rotate: true
+  xy: 202, 15
+  size: 101, 156
+  orig: 250, 250
+  offset: 71, 72
+  index: -1
+ef_particle/ef_particle_08
+  rotate: true
+  xy: 202, 118
+  size: 102, 156
+  orig: 250, 250
+  offset: 70, 75
+  index: -1
+ef_particle/ef_particle_09
+  rotate: true
+  xy: 280, 222
+  size: 105, 158
+  orig: 250, 250
+  offset: 69, 76
+  index: -1
+ef_particle/ef_particle_10
+  rotate: false
+  xy: 366, 589
+  size: 105, 159
+  orig: 250, 250
+  offset: 69, 78
+  index: -1
+ef_particle/ef_particle_11
+  rotate: true
+  xy: 1803, 916
+  size: 106, 159
+  orig: 250, 250
+  offset: 69, 80
+  index: -1
+ef_particle/ef_particle_12
+  rotate: false
+  xy: 280, 329
+  size: 106, 159
+  orig: 250, 250
+  offset: 70, 82
+  index: -1
+ef_particle/ef_particle_13
+  rotate: false
+  xy: 388, 329
+  size: 93, 159
+  orig: 250, 250
+  offset: 83, 83
+  index: -1
+ef_particle/ef_particle_14
+  rotate: true
+  xy: 1094, 744
+  size: 93, 117
+  orig: 250, 250
+  offset: 84, 86
+  index: -1
+ef_particle/ef_particle_15
+  rotate: true
+  xy: 738, 636
+  size: 89, 117
+  orig: 250, 250
+  offset: 89, 88
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00031
+  rotate: true
+  xy: 95, 2
+  size: 94, 73
+  orig: 150, 150
+  offset: 38, 25
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00032
+  rotate: false
+  xy: 611, 391
+  size: 100, 93
+  orig: 150, 150
+  offset: 38, 25
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00033
+  rotate: true
+  xy: 991, 727
+  size: 104, 101
+  orig: 150, 150
+  offset: 38, 21
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00034
+  rotate: false
+  xy: 457, 122
+  size: 118, 106
+  orig: 150, 150
+  offset: 27, 21
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00035
+  rotate: false
+  xy: 466, 3
+  size: 125, 117
+  orig: 150, 150
+  offset: 20, 14
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00036
+  rotate: false
+  xy: 483, 371
+  size: 126, 118
+  orig: 150, 150
+  offset: 17, 14
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00037
+  rotate: false
+  xy: 742, 727
+  size: 125, 117
+  orig: 150, 150
+  offset: 17, 17
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00038
+  rotate: false
+  xy: 869, 727
+  size: 120, 104
+  orig: 150, 150
+  offset: 19, 27
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00039
+  rotate: false
+  xy: 360, 2
+  size: 104, 109
+  orig: 150, 150
+  offset: 20, 24
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00040
+  rotate: false
+  xy: 967, 638
+  size: 107, 87
+  orig: 150, 150
+  offset: 20, 29
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00041
+  rotate: false
+  xy: 857, 638
+  size: 108, 87
+  orig: 150, 150
+  offset: 20, 34
+  index: -1
+ef_sphere_aura_main/ef_sphere_aura_main_00042
+  rotate: false
+  xy: 1213, 751
+  size: 62, 86
+  orig: 150, 150
+  offset: 26, 35
+  index: -1
