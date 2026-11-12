@@ -55,10 +55,10 @@ def sheet_date(s):
     return f'{yy}-{int(mm):02d}-{int(dd):02d}'
 
 
-def jp_release_map(date_col='JP\ndd/mm/yy'):
-    """item id -> JP release date from the Google Sheet export (equips.json), Japan server only."""
-    if REGION != 'Japan':
-        return {}
+def release_map():
+    """item (stage image) id -> release date from the Google Sheet export (equips.json):
+    the GL date column on the Global server, the JP date column on the Japan server."""
+    col = 'GL\ndd/mm/yy' if REGION == 'Global' else 'JP\ndd/mm/yy'
     path = os.path.join(GS, 'equips.json')
     if not os.path.exists(path):
         return {}
@@ -67,7 +67,7 @@ def jp_release_map(date_col='JP\ndd/mm/yy'):
     rows = data if isinstance(data, list) else data.get('equips') or []
     out = {}
     for r in rows:
-        d = sheet_date(r.get(date_col))
+        d = sheet_date(r.get(col))
         m = re.search(r'(\d{5,})', str(r.get('Equip ID') or ''))
         if d and m:
             out[int(m.group(1))] = d
@@ -88,7 +88,7 @@ def secs(ms):
 
 def main():
     items = load('item_master')
-    jp_rel = jp_release_map()  # item id -> JP release date (Japan server only)
+    rel_by_id = release_map()  # stage image id -> sheet release date (GL on Global, JP on Japan)
     skills = {s['id']: s for s in load('skill_master')}
     fx = defaultdict(list)
     for row in load('skill_effect_master'):
@@ -236,9 +236,9 @@ def main():
             'lb': [copies, cts],
             'src': src.get(base, []),
         }
-        # JP release date from the sheet: earliest dated stage of the family (Japan server only).
+        # release date from the sheet: earliest dated stage of the family (GL date on Global, JP on Japan).
         # The sheet's Equip ID is the stage IMAGE id (stages row index 2), not the item id.
-        rels = [jp_rel[st[2]] for st in stages if st[2] in jp_rel]
+        rels = [rel_by_id[st[2]] for st in stages if st[2] in rel_by_id]
         if rels:
             rec['rel'] = min(rels)
         out.append(rec)
