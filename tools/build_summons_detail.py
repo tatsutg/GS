@@ -100,9 +100,9 @@ def main():
     units = {}
     for b, u in fam.items():
         f = first.get(b, u)
-        t = f"unit_thumbnail_{f['id']}.png"
-        tt = f"unit_thumbnail_{u['id']}.png"
-        img = f'unit/thumbnail/{t}' if t in uthumb else (f'unit/thumbnail/{tt}' if tt in uthumb else '')
+        # Emit the thumbnail path unconditionally (no local-file gate): the site resolves it across
+        # image hosts (frozen Pages + GS repo), so art missing from this build's checkout still loads.
+        img = f"unit/thumbnail/unit_thumbnail_{f['id']}.png"
         # [summoned form name, its thumbnail, top rarity, summoned rarity, top form name]
         units[b] = [f['name'], img, u['rarity'], f['rarity'], u['name']]
     by_unit_id = {u['id']: u['base_unit_id'] for u in load('unit_master')}
