@@ -1,0 +1,53 @@
+name: Purge jsDelivr
+
+# After each push, tell the jsDelivr edge to drop its cached copy of the changed
+# data files so the website (which reads them from cdn.jsdelivr.net/gh/tatsutg/GS@main)
+# serves the new content right away instead of waiting out the ~12-24h @main cache.
+#
+# Only changed .json / .csv data files are purged. Images are not: new art lives at a
+# new path (never cached yet, so it loads fresh), and purging thousands of files would
+# hit jsDelivr's rate limit. This never deletes anything in the repo — it only flushes
+# the CDN cache so jsDelivr re-fetches from GitHub.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.json'
+      - '**.csv'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: purge-jsdelivr
+  cancel-in-progress: false
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Purge changed data files from the jsDelivr edge
+        run: |
+          set -u
+          # Files changed in this push (data only). First commit falls back to the whole tree.
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            mapfile -t files < <(git diff --name-only HEAD^ HEAD -- '*.json' '*.csv')
+          else
+            mapfile -t files < <(git ls-files '*.json' '*.csv')
+          fi
+          echo "Changed data files: ${#files[@]}"
+          # Safety cap: a huge data push (e.g. a full DB re-export) skips the per-file purge
+          # and lets the cache expire normally, rather than hammering the purge endpoint.
+          if [ "${#files[@]}" -eq 0 ]; then echo "Nothing to purge."; exit 0; fi
+          if [ "${#files[@]}" -gt 400 ]; then echo "Too many changed files (${#files[@]}); skipping to respect rate limits."; exit 0; fi
+          for f in "${files[@]}"; do
+            url="https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f"
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 "$url" || echo "000")
+            echo "$code  $f"
+            sleep 0.3
+          done
