@@ -46,32 +46,17 @@ def clean(text):
     return re.sub(r'\s*\n\s*', ' ', str(text)).strip()
 
 
-def sheet_date(s):
-    """Google Sheet JP date 'd/m/yyyy' -> 'YYYY-MM-DD'; year-only or blank -> ''."""
-    m = re.match(r'^\s*(\d{1,2})/(\d{1,2})/(\d{4})\s*$', str(s or ''))
-    if not m:
-        return ''
-    dd, mm, yy = m.groups()
-    return f'{yy}-{int(mm):02d}-{int(dd):02d}'
-
-
 def release_map():
-    """item (stage image) id -> release date from the Google Sheet export (equips.json):
-    the GL date column on the Global server, the JP date column on the Japan server."""
-    col = 'GL\ndd/mm/yy' if REGION == 'Global' else 'JP\ndd/mm/yy'
-    path = os.path.join(GS, 'equips.json')
+    """stage image id -> release date from release_dates.json (hand-kept, no Google Sheet):
+    the 'gl' date on the Global build, the 'jp' date on the Japan build."""
+    path = os.path.join(GS, 'release_dates.json')
     if not os.path.exists(path):
         return {}
     with open(path, encoding='utf-8') as f:
         data = json.load(f)
-    rows = data if isinstance(data, list) else data.get('equips') or []
-    out = {}
-    for r in rows:
-        d = sheet_date(r.get(col))
-        m = re.search(r'(\d{5,})', str(r.get('Equip ID') or ''))
-        if d and m:
-            out[int(m.group(1))] = d
-    return out
+    section = data.get('equips', {})
+    key = 'gl' if REGION == 'Global' else 'jp'
+    return {int(k): v[key] for k, v in section.items() if isinstance(v, dict) and v.get(key)}
 
 
 def num(v):

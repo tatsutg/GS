@@ -45,33 +45,17 @@ def clean(text):
     return re.sub(r'\s*\n\s*', ' ', str(text)).strip()
 
 
-def sheet_date(s):
-    """Google Sheet JP/GL date 'd/m/yyyy' -> 'YYYY-MM-DD'; year-only or blank -> ''."""
-    m = re.match(r'^\s*(\d{1,2})/(\d{1,2})/(\d{4})\s*$', str(s or ''))
-    if not m:
-        return ''
-    dd, mm, yy = m.groups()
-    return f'{yy}-{int(mm):02d}-{int(dd):02d}'
-
-
-def release_map(id_prefix, id_field):
-    """unit/equip id -> release date from the Google Sheet export (units.json / equips.json):
-    the GL date column on the Global server, the JP date column on the Japan server.
-    '' when the sheet export is missing."""
-    col = 'GL\ndd/mm/yy' if REGION == 'Global' else 'JP\ndd/mm/yy'
-    path = os.path.join(GS, 'units.json' if id_prefix == 'unit' else 'equips.json')
+def release_map(kind):
+    """image id -> release date from release_dates.json (hand-kept, no Google Sheet):
+    the 'gl' date on the Global build, the 'jp' date on the Japan build."""
+    path = os.path.join(GS, 'release_dates.json')
     if not os.path.exists(path):
         return {}
     with open(path, encoding='utf-8') as f:
         data = json.load(f)
-    rows = data if isinstance(data, list) else data.get('units') or data.get('equips') or []
-    out = {}
-    for r in rows:
-        d = sheet_date(r.get(col))
-        m = re.search(r'(\d{5,})', str(r.get(id_field) or ''))
-        if d and m:
-            out[int(m.group(1))] = d
-    return out
+    section = data.get('units' if kind == 'unit' else 'equips', {})
+    key = 'gl' if REGION == 'Global' else 'jp'
+    return {int(k): v[key] for k, v in section.items() if isinstance(v, dict) and v.get(key)}
 
 
 def num(v):
@@ -99,7 +83,7 @@ def form_key(r):
 
 def main():
     units = load('unit_master')
-    rel_by_id = release_map('unit', 'Unit ID')  # unit id -> sheet release date (GL on Global, JP on Japan)
+    rel_by_id = release_map('unit')  # unit image id -> release date (GL on Global, JP on Japan)
     skills = {s['id']: s for s in load('skill_master')}
     relations = load('skill_relation_master')
     fevo = load('unit_fantasy_evo_master')
