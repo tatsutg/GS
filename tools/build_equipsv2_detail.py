@@ -46,6 +46,34 @@ def clean(text):
     return re.sub(r'\s*\n\s*', ' ', str(text)).strip()
 
 
+def sheet_date(s):
+    """Google Sheet JP date 'd/m/yyyy' -> 'YYYY-MM-DD'; year-only or blank -> ''."""
+    m = re.match(r'^\s*(\d{1,2})/(\d{1,2})/(\d{4})\s*$', str(s or ''))
+    if not m:
+        return ''
+    dd, mm, yy = m.groups()
+    return f'{yy}-{int(mm):02d}-{int(dd):02d}'
+
+
+def jp_release_map(date_col='JP\ndd/mm/yy'):
+    """item id -> JP release date from the Google Sheet export (equips.json), Japan server only."""
+    if REGION != 'Japan':
+        return {}
+    path = os.path.join(GS, 'equips.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        data = json.load(f)
+    rows = data if isinstance(data, list) else data.get('equips') or []
+    out = {}
+    for r in rows:
+        d = sheet_date(r.get(date_col))
+        m = re.search(r'(\d{5,})', str(r.get('Equip ID') or ''))
+        if d and m:
+            out[int(m.group(1))] = d
+    return out
+
+
 def num(v):
     try:
         return int(v)
@@ -60,6 +88,7 @@ def secs(ms):
 
 def main():
     items = load('item_master')
+    jp_rel = jp_release_map()  # item id -> JP release date (Japan server only)
     skills = {s['id']: s for s in load('skill_master')}
     fx = defaultdict(list)
     for row in load('skill_effect_master'):
@@ -199,14 +228,20 @@ def main():
             true_units = json.loads(top['true_unit_ids'] or '[]')
         except (TypeError, ValueError):
             true_units = []
-        out.append({
+        rec = {
             'b': base, 'n': name, 'r': top['rarity'], 't': TYPE[top['type']],
             'lore': clean(first['description']) or clean(top['description']),
             'tags': tags, 'true': true_units,
             'st': stages,
             'lb': [copies, cts],
             'src': src.get(base, []),
-        })
+        }
+        # JP release date from the sheet: earliest dated stage of the family (Japan server only).
+        # The sheet's Equip ID is the stage IMAGE id (stages row index 2), not the item id.
+        rels = [jp_rel[st[2]] for st in stages if st[2] in jp_rel]
+        if rels:
+            rec['rel'] = min(rels)
+        out.append(rec)
     out.sort(key=lambda r: r['b'])
     data = {
         'raw': RAW, 'types': TYPE,

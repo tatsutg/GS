@@ -45,6 +45,35 @@ def clean(text):
     return re.sub(r'\s*\n\s*', ' ', str(text)).strip()
 
 
+def sheet_date(s):
+    """Google Sheet JP/GL date 'd/m/yyyy' -> 'YYYY-MM-DD'; year-only or blank -> ''."""
+    m = re.match(r'^\s*(\d{1,2})/(\d{1,2})/(\d{4})\s*$', str(s or ''))
+    if not m:
+        return ''
+    dd, mm, yy = m.groups()
+    return f'{yy}-{int(mm):02d}-{int(dd):02d}'
+
+
+def jp_release_map(id_prefix, id_field, date_col='JP\ndd/mm/yy'):
+    """unit/equip id -> JP release date from the Google Sheet export (units.json / equips.json),
+    only for the Japan server. '' when the sheet export is missing (keeps Global unchanged)."""
+    if REGION != 'Japan':
+        return {}
+    path = os.path.join(GS, 'units.json' if id_prefix == 'unit' else 'equips.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        data = json.load(f)
+    rows = data if isinstance(data, list) else data.get('units') or data.get('equips') or []
+    out = {}
+    for r in rows:
+        d = sheet_date(r.get(date_col))
+        m = re.search(r'(\d{5,})', str(r.get(id_field) or ''))
+        if d and m:
+            out[int(m.group(1))] = d
+    return out
+
+
 def num(v):
     try:
         return int(v)
@@ -70,6 +99,7 @@ def form_key(r):
 
 def main():
     units = load('unit_master')
+    jp_rel = jp_release_map('unit', 'Unit ID')  # unit id -> JP release date (Japan server only)
     skills = {s['id']: s for s in load('skill_master')}
     relations = load('skill_relation_master')
     fevo = load('unit_fantasy_evo_master')
@@ -220,6 +250,10 @@ def main():
         lim = max(num(u.get('limited_id')) for u in forms)
         if lim:
             item['_lim'] = lim
+        # JP release date from the sheet: earliest dated form of the family (Japan server only)
+        rels = [jp_rel[u['id']] for u in forms if u['id'] in jp_rel]
+        if rels:
+            item['rel'] = min(rels)
         e = enh.get(base) or {}
         top_fields = form_data(top, base, e, with_da=True)
         item.update(top_fields)
