@@ -75,7 +75,15 @@ def when(s):
 
 
 def img(rel):
-    return rel if os.path.exists(os.path.join(DLC, rel)) else ''
+    """Repo path of a picture, or ''. Since the dlc restructure pictures live under dlc/<region>/: a bare
+    'event/...' is looked up in the build's region folder first, then flat (old layout). Orb shop (town/)
+    art is shared UI, so Japan falls back to the Global copy."""
+    if not rel:
+        return ''
+    cands = [rel] if rel.startswith(('Global/', 'Japan/')) else [f'{REGION}/{rel}', rel]
+    if rel.startswith('Japan/town/'):
+        cands.append('Global/' + rel[len('Japan/'):])
+    return next((c for c in cands if os.path.exists(os.path.join(DLC, c))), '')
 
 
 def main():
@@ -115,7 +123,7 @@ def main():
 
     def icon_of(t, i):
         if t in FIXED:
-            return FIXED[t]
+            return img(FIXED[t])
         if t == 17:   # dungeon keys (key_master): the game's orb shop key pictures
             return img(f'{REGION}/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{i}.png')
         if t in (7, 8):
@@ -131,7 +139,8 @@ def main():
         key = {5: 'mat', 13: 'food', 22: 'event', 24: 'tool'}.get(t)
         if not key:
             return ''
-        return item_img.get((key, i)) or (img(f'event/event_icon_{i}.png') if t == 22 else '')
+        own = {5: f'material/material_thumbnail_{i}.png', 13: f'cook/thumbnail/cook_thumbnail_{i}.png', 22: f'event/event_icon_{i}.png'}.get(t)
+        return item_img.get((key, i)) or img(own)
 
     def thing(t, i, n=0):
         t, i = num(t), num(i)

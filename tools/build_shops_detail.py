@@ -75,7 +75,15 @@ def num(v):
 
 
 def has(rel):
-    return rel if rel and os.path.exists(os.path.join(DLC, rel)) else ''
+    """Repo path of a picture, or ''. Since the dlc restructure pictures live under dlc/<region>/: a bare
+    'material/...' is looked up in the build's region folder first, then flat (old layout). Orb shop
+    (town/) art is shared UI, so Japan falls back to the Global copy."""
+    if not rel:
+        return ''
+    cands = [rel] if rel.startswith(('Global/', 'Japan/')) else [f'{REGION}/{rel}', rel]
+    if rel.startswith('Japan/town/'):
+        cands.append('Global/' + rel[len('Japan/'):])
+    return next((c for c in cands if os.path.exists(os.path.join(DLC, c))), '')
 
 
 def versions(rel):
@@ -158,13 +166,13 @@ def main():
         if otype == 24:
             return item_img.get(('tool', oid), '')
         if otype == 18:
-            return f'{REGION}/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png'
+            return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png')
         if otype == 25:
             return 'ASSETS/icon_rainbow_gem.png'
         if otype == 17:
             return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{oid}.png')
         if otype == 15:
-            return f'{REGION}/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png'
+            return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png')
         return ''
 
     def limit(v):
