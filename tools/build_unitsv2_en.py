@@ -140,6 +140,28 @@ def fix_nums(jp, en):
     return NUM.sub(lambda m: swap.get(m.group(), m.group()), en)
 
 
+# numbers GL spells out that JP leaves implicit: 快調時 = "HP is 90% or more", ÷20 = "1/20", Lv
+IMPLIED = re.compile(r'HP (?:is )?(?:\d+)%|(?:\d+)% (?:or (?:more|less) )?(?:of )?(?:MAX )?HP|\b1/\d+|Lv ?\d+')
+
+
+def nums_ok(jp, en):
+    """every number in the English is one JP says (JP buffs land before GL: GL's old value must not stay)"""
+    jv = {m.group() for m in NUM.finditer(norm(jp))}
+    ok = {m.group() for c in IMPLIED.finditer(en) for m in NUM.finditer(c.group())}
+    return all(m.group() in jv or m.group() in ok for m in NUM.finditer(en))
+
+
+def fix_nums_aligned(jp, en):
+    """fix_nums per sentence when JP and GL have the same sentences: a value JP uses in one sentence
+    (7秒) must not hide a stale GL value (10s) in another"""
+    js, es = jsplit(jp), esplit(en)
+    if len(js) == len(es) > 1:
+        out = [fix_nums(j, e) for j, e in zip(js, es)]
+        if all(o is not None for o in out):
+            return ' '.join(out)
+    return fix_nums(jp, en)
+
+
 class Memory:
     """JP template -> GL template (+ which JP number fills each GL slot), most common pairing wins"""
     names = subject = None   # regex of GL unit names: a GL line naming its unit ("when Empress is leader") is no template
@@ -226,6 +248,7 @@ class Memory:
 
 class Translator:
     def __init__(self, mem, gloss):
+        self.stale = []
         self.mem = mem
         # hand lines. A key with # stands for any number; in the English, #N is the key's N-th number
         # (JP and English order differ: "#秒間、...#%UP" -> "... by #2% for #1s"), a bare # the next one.
@@ -292,14 +315,20 @@ class Translator:
             return None, ''
         if self.hand(jp):
             return self.hand(jp), 'hand'
+        gl_fx = None
         if hint and not re.search(r'[ぁ-んァ-ヶ一-龯]', hint):
             fx = fix_nums(jp, hint)
-            if fx:
+            if not (fx and nums_ok(jp, fx)):
+                fx = fix_nums_aligned(jp, hint)
+            if fx and nums_ok(jp, fx):
                 return fx, 'gl' if fx == hint else 'gl#'
+            gl_fx = fx   # GL wording keeps a number JP does not have: try JP-built text first
         whole = self.mem.get(jp)
         if whole:
             return whole, 'tm'
         if not detail:
+            if gl_fx:
+                self.stale.append((jp, gl_fx))
             self.miss[canon(jp)] += 1
             return None, 'miss'
         out, bad = [], False
@@ -310,6 +339,8 @@ class Translator:
                 bad = True
             else:
                 out.append(e.rstrip('.') + '.')
+        if bad and gl_fx:
+            self.stale.append((jp, gl_fx))
         return (None, 'miss') if bad else (' '.join(out), 'tm')
 
 
@@ -426,6 +457,11 @@ def main():
     if '--miss' in sys.argv:
         for s, n in tr.miss.most_common():
             print(n, s)
+    if tr.stale:
+        print(f"{len(tr.stale)} lines left out: GL text has a number JP does not (add a glossary line):")
+        for jp, en in dict(tr.stale).items():
+            print('  JP:', norm(jp)[:150])
+            print('  GL:', en[:150])
 
 
 if __name__ == '__main__':

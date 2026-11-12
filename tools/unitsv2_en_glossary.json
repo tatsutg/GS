@@ -441,6 +441,7 @@
  "状態異常でない場合、奥義ゲージ#自然上昇": "Auto-fills Arts gauge by # when not in Status Ailment",
  "自身の超奥義中、自身のクリティカル率#%UP・HP#%以下の敵に対して、自身のスーパークリティカル率#%UP": "During own Super Arts, increases own CRI rate by #1% & Super CRI rate against enemies at #2% HP or less by #3%",
  "#秒間、敵の回避率#%DOWN・被ダメージ#%UP": "Reduces enemy's Evasion rate by #2% & increases enemy's DMG taken by #3% for #1s",
+ "自身のレガリアゲージ#自然上昇。グランドバトルの場合、さらに#自然上昇（ゲージ最大#）": "Auto-fills Regalia gauge by #1 (gauge MAX: #3). #2 more in Grand Crusade.",
  "自分以外の味方の奥義ゲージ#UP": "Increases all allies' Arts gauges by # (Except own self)",
  "#秒間、自身の装備CT速度#%UP": "Increases own Equip CT speed by #2% for #1s",
  "_lore": {
