@@ -89,6 +89,14 @@ class EqTranslator(Translator):
     def __init__(self, mem, gloss):
         super().__init__(mem, gloss)
         self.units = gloss.get('_units', {})   # JP unit name in "X装備時" -> GL-style English name
+        # the Units V2 overlay's names win: an equip must name its unit exactly as the unit's own page does
+        try:
+            ud = load(os.path.join(OTH('Japan'), 'unitsv2_detail.json'))
+            ue = load(os.path.join(OTH('Japan'), 'unitsv2_en.json'))['units']
+            names = {norm(v['Name']): ue[k]['Name'] for k, v in ud.items() if ue.get(k, {}).get('Name')}
+            self.units = {j: names.get(norm(j), e) for j, e in self.units.items()}
+        except (OSError, KeyError, ValueError):
+            pass
 
     def compose(self, s, depth=0):
         e = self.eq(s, depth)
