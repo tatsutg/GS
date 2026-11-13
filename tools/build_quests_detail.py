@@ -34,6 +34,10 @@ DB = os.path.join(DLC, REGION, '_DATABASE')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DB, 'others', 'quests_detail.json')
 
 JP = re.compile(r'[぀-ヿ一-鿿]') if REGION == 'Global' else re.compile(r'(?!)')  # on Japan, names ARE Japanese
+# GL ships a placeholder name for some dungeons (only the banner has the real title): (region, dungeon id) -> name
+NAME_FIX = {
+    ('Global', 6010): 'Awakening Power',   # dungeon_master says "Side Story Dungeon"; Rayas' side story, banner title
+}
 WEEKDAY = {8001: 'Monday', 8002: 'Tuesday', 8003: 'Wednesday', 8004: 'Thursday', 8005: 'Friday', 8006: 'Saturday', 8007: 'Sunday'}
 CAT = {0: 'Story', 2: 'Events', 6: 'Side Stories', 8: 'Summoners Road', 2002: 'Exploring', 7: 'Crest Palace', 4001: 'Material Quests'}
 # reward / drop "type" codes used by quest_master and display_item_list
@@ -229,6 +233,7 @@ def main():
         name = clean(d['name'])
         if not name or JP.search(name):
             continue
+        name = NAME_FIX.get((REGION, d['id']), name)
         t = d['dungeon_type']
         wins = sorted(launch.get(d['id'], []))
         spans = [(b - a).total_seconds() for a, b in wins[-20:]]
