@@ -29,7 +29,134 @@ from datetime import datetime, timezone
 
 # Reuse the unit builder's translation engine. Importing it runs only module-level defs (its main()
 # is guarded by __main__), so nothing is built and no file is read on import.
-from build_unitsv2_en import (Memory, Translator, load, norm, canon, JPCHR, OTH)
+from build_unitsv2_en import (Memory, Translator, load, norm, canon, JPCHR, OTH, ELEM, RACE)
+
+
+def _merge(a, b):
+    """two English lines that differ in one middle part -> one line with "A & B" there:
+    "Increases own Magic DMG by 20%" + "Increases own ATK by 20%" -> "Increases own Magic DMG & ATK by 20%" """
+    wa, wb = a.rstrip('.').split(' '), b.rstrip('.').split(' ')
+    p = 0
+    while p < min(len(wa), len(wb)) and wa[p] == wb[p]:
+        p += 1
+    s = 0
+    while s < min(len(wa), len(wb)) - p and wa[-1 - s] == wb[-1 - s]:
+        s += 1
+    ma, mb = wa[p:len(wa) - s], wb[p:len(wb) - s]
+    if not ma or not mb or not s:
+        return None
+    return ' '.join(wa[:p] + ma + ['&'] + mb + wa[len(wa) - s:])
+
+
+def _low(e):
+    """first word lower case after a lead-in ("If Fire unit, increases ..."); names / stat words keep caps"""
+    if re.match(r'(?:[A-Z]{2,}|Arts|True|Break|Fire|Water|Earth|Light|Dark|Skill|Equip)\b', e):
+        return e
+    return e[:1].lower() + e[1:]
+
+
+def _elems(s):
+    """"樹・光" -> "Earth & Light" (None when a part is not an element)"""
+    parts = s.split('・')
+    return ' & '.join(ELEM[p] for p in parts) if all(p in ELEM for p in parts) else None
+
+
+def _races(s):
+    """"人・竜" / "人族・神族" -> "Human or Dragon" (None when a part is not a race)"""
+    parts = [p[:-1] if p.endswith('族') and len(p) > 1 else p for p in s.split('・')]
+    return ' or '.join(RACE[p] for p in parts) if all(p in RACE for p in parts) else None
+
+
+class EqTranslator(Translator):
+    """The unit engine plus joins equip skills use a lot (rules only: the unit builder is not changed).
+    A rule translates the parts with the normal engine and only rearranges them, the way GL words it:
+    a lead-in condition becomes a trailing clause ("... when this attack is CRI", "(First time only)")."""
+    TAIL = re.compile(r'^(.*?)(\d+(?:\.\d+)?%?(?:UP|DOWN|軽減|回復|自然上昇))$')
+    # lead-in -> (template with {e} = the rest in English, lower-case the rest?)
+    LEAD = [
+        (r'クリティカル時、\s*(.+)$', '{e} when this attack is CRI', False),
+        (r'初回使用時(?:のみ)?、\s*(.+)$', '{e} (First time only)', False),
+        (r'(\d+)回目使用以降は、\s*(.+)$', '{e} from the {1}th use onward', False),
+        (r'(?:自身|使用者)のHPが(\d+)%以上の時、\s*(.+)$', '{e} when own HP is {1}% or more', False),
+        (r'(?:自身|使用者)のHPが(\d+)%未満の時、\s*(.+)$', '{e} when own HP is below {1}%', False),
+        (r'ブレイク中の大型ボスがいる時、\s*(.+)$', '{e} while a large boss is in Break', False),
+        (r'ブレイク中の敵に対して、\s*(.+)$', '{e} against enemies in Break', False),
+        (r'攻撃モード[:：]\s*(.+)$', 'Attack Mode: {e}', False),
+        (r'防御モード[:：]\s*(.+)$', 'Defense Mode: {e}', False),
+        (r'さらに、?\s*(.+)$', '{e}', False),   # GL drops "additionally" ("さらに樹属性ダメージ28%軽減")
+    ]
+
+    def __init__(self, mem, gloss):
+        super().__init__(mem, gloss)
+        self.units = gloss.get('_units', {})   # JP unit name in "X装備時" -> GL-style English name
+
+    def compose(self, s, depth=0):
+        e = self.eq(s, depth)
+        return e if e else super().compose(s, depth)
+
+    def effects(self, x, sub):
+        """A・B・C at top level (not inside brackets) -> A & b & c"""
+        parts, buf, lvl = [], '', 0
+        for ch in x:
+            lvl += ch in '(（[' 
+            lvl -= ch in ')）]'
+            if ch == '・' and lvl == 0:
+                parts.append(buf); buf = ''
+            else:
+                buf += ch
+        parts.append(buf)
+        out = []
+        for i, c in enumerate(p.strip() for p in parts):
+            e = sub(c)
+            if not e:
+                return None
+            e = e.rstrip('.')
+            out.append(self.VERB.sub(lambda v: v.group(1).lower(), e) if i else e)
+        return ' & '.join(out)
+
+    def eq(self, s, depth):
+        if depth > 4:
+            return None
+        sub = lambda x: self.line(x) if depth == 0 else (self.hand(x) or self.mem.get(x) or self.compose(x, depth + 1))
+        # "<unit>装備時、A・B(重複なし)" -> "When equipped by <unit>, A & B (Only once)" (GL's own wording)
+        m = re.match(r'(.+?)装備時、\s*(.+?)\s*(?:\((重複なし|重複あり)\))?$', s)
+        if m and m.group(1) in self.units:
+            e = self.effects(m.group(2), sub)
+            if e:
+                note = {'重複なし': ' (Only once)', '重複あり': ' (Stackable)'}.get(m.group(3), '')
+                return f'When equipped by {self.units[m.group(1)]}, {_low(e)}{note}'
+        if s in ('(重複あり)', '重複あり'):
+            return '(Stackable)'
+        if s in ('(重複なし)', '重複なし'):
+            return '(Only once)'
+        for rx, tpl, low in self.LEAD:
+            m = re.match(rx, s)
+            if m:
+                e = sub(m.groups()[-1])
+                if e:
+                    e = e.rstrip('.')
+                    return tpl.replace('{e}', _low(e) if low else e).replace('{1}', m.group(1))
+                break
+        # "使用者が炎属性の場合、X" / "使用者が人・竜族の場合、X" / "敵が樹属性の場合、X"
+        m = re.match(r'(使用者|敵)が(.+?)(属性|族)の場合、\s*(.+)$', s)
+        if m:
+            who = _elems(m.group(2)) if m.group(3) == '属性' else _races(m.group(2))
+            e = sub(m.group(4))
+            if who and e:
+                art = 'an' if who[:1] in 'AEIOU' else 'a'
+                head = f'If the user is {art} {who} unit' if m.group(1) == '使用者' else f'If enemy is {who}'
+                return f'{head}, {_low(e.rstrip("."))}'
+        # "自身のX・Y<n>%UP" (one value for both): each with the shared tail, then merged
+        m = self.TAIL.match(s)
+        if m and '・' in m.group(1):
+            head = Translator.SUBJ.match(m.group(1))
+            pre = head.group(1) if head else ''
+            parts = m.group(1)[len(pre):].split('・')
+            if len(parts) == 2 and all(parts):
+                a, b = sub(pre + parts[0] + m.group(2)), sub(pre + parts[1] + m.group(2))
+                if a and b:
+                    return _merge(a, b)
+        return None
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(OTH('Japan'), 'equipsv2_en.json')
@@ -79,7 +206,7 @@ def main():
             mem.pair(js[0], gs[0])
             mem.pair(js[1], gs[1])
     mem.done()
-    tr = Translator(mem, gloss)
+    tr = EqTranslator(mem, gloss)
     stats = collections.Counter()
 
     def gl_skill(sid):
