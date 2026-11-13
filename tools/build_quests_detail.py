@@ -6,7 +6,7 @@ Reads the decrypted GL DB exports in dlc/Global/_DATABASE/*/ and writes one row 
   - schedule: the open windows from dungeon_launcher_master (start, end; times are PT, "-08:00" written
     as the game does), only those that end after (build time - 2 days), plus the weekday of the
     Crest Palaces (dungeon_type 8001..8007 = Monday..Sunday)
-  - quests: name, stamina, difficulty, the drops the game shows (display_item_list) and the rewards
+  - quests: name, summary, solo / multi, stamina, difficulty, the drops the game shows (display_item_list) and the rewards
   - bosses: per quest (HP / ATK / DEF / break, art from dlc/unit/thumbnail) and boss_info_master notes
   - stages: per quest the stage count and each stage's spawn variants (chance %), from battle_relation_master
     (the enemy placement per stage is not in the export); per dungeon the enemy roster ('foes') from enemy_master
@@ -84,7 +84,9 @@ def img(rel):
     art is shared UI, so Japan falls back to the Global copy."""
     if not rel:
         return ''
-    cands = [rel] if rel.startswith(('Global/', 'Japan/')) else [f'{REGION}/{rel}', rel]
+    other = 'Japan' if REGION == 'Global' else 'Global'
+    # GL ships only part of the material / item art: the other region's copy of the same id is the same picture
+    cands = [rel] if rel.startswith(('Global/', 'Japan/')) else [f'{REGION}/{rel}', rel, f'{other}/{rel}']
     if rel.startswith('Japan/town/'):
         cands.append('Global/' + rel[len('Japan/'):])
     return next((c for c in cands if os.path.exists(os.path.join(DLC, c))), '')
@@ -114,7 +116,7 @@ def main():
     names[9] = units
 
     # icons for drops / rewards: data['icons']["<type>:<id>"] = repo path (the site shows a badge when there is none)
-    ithumb = set((os.listdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) else []))
+    ithumb = set((os.listdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')) if os.path.isdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')) else []))   # the full set lives in Japan/
     try:
         with open(os.path.join(DB, 'others', 'items_detail.json'), encoding='utf-8') as f:
             item_img = {(x['k'], x['id']): x.get('img', '') for x in json.load(f)['items']}
@@ -267,6 +269,8 @@ def main():
                     rewards.append([label] + r)
             qs.append({'id': q['id'], 'n': clean(q['name']), 'sta': num(q.get('stamina')), 'dif': num(q.get('difficulty')),
                        'rank': num(q.get('need_rank')), 'gren': num(q.get('drop_coin')), 'drops': drops, 'rew': rewards,
+                       # summary (the game breaks its lines by hand: joined), multi = co-op quest (0 = solo only)
+                       'desc': re.sub(r'\s*\n\s*', ' ', clean(q.get('description'))), 'multi': num(q.get('is_multi')),
                        # stages: per stage the spawn variants' chances in % (one entry = always the same battle)
                        'st': [[round(w / max(1, sum(ws)) * 100, 2) for w in ws] for _, ws in sorted(stages.get(q['id'], {}).items())]})
         # bosses: per quest when the id says which, and the dungeon's distinct bosses (strongest copy)

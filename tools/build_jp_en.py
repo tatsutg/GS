@@ -167,6 +167,7 @@ def site_strings():
             add(f[0])
         for x in d.get('q', []) or []:
             add(x.get('n'))
+            add(x.get('desc'))
             for r in x.get('rew', []) or []:
                 add(r[3])
             for r in x.get('drops', []) or []:
@@ -309,7 +310,7 @@ def site_joins(pairs):
             pairs.setdefault(a, b, trusted)
     icon = lambda p: re.sub(r'^(Japan|Global)/', '', str(p or ''))
     qg = j('Global', 'quests_detail.json')
-    gd, gq, grew, gunit = {}, {}, {}, {}
+    gd, gq, gqd, grew, gunit = {}, {}, {}, {}, {}
     for d in qg.get('dungeons', []):
         gd[d['id']] = d.get('n')
         for b in (d.get('boss') or []):
@@ -318,6 +319,7 @@ def site_joins(pairs):
             gunit[f[1]] = f[0]
         for x in d.get('q', []) or []:
             gq[x['id']] = x.get('n')
+            gqd[x['id']] = x.get('desc')
             for r in x.get('rew', []) or []:
                 grew[(r[1], r[2])] = r[3]
             for r in x.get('drops', []) or []:
@@ -334,6 +336,7 @@ def site_joins(pairs):
             put(f[0], gunit.get(f[1]))
         for x in d.get('q', []) or []:
             put(x.get('n'), gq.get(x['id']), True)
+            put(x.get('desc'), gqd.get(x['id']), True)   # quest summary
             for r in x.get('rew', []) or []:
                 put(r[3], grew.get((r[1], r[2])), True)
             for r in x.get('drops', []) or []:
