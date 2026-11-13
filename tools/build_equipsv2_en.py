@@ -288,6 +288,18 @@ def main():
             o['_src'] = 'gl' if g and not JPCHR.search(g.get('n') or '') else 'tl'
             equips[str(e['b'])] = o
 
+    # GL writes an equip's 『』 part in double quotes (True "Regracia", Crimson Machina Blade "Asvelt"):
+    # researched JP-only names follow it. 'X' -> "X" only as a quote pair; apostrophes (Heaven's) stay.
+    dq = lambda t: re.sub(r"(^|\s)'(.+?)'(?=\s|$)", lambda m: f'{m.group(1)}"{m.group(2)}"', t)
+    renamed = {}
+    for o in equips.values():
+        if o.get('_src') == 'tl' and o.get('n') and dq(o['n']) != o['n']:
+            renamed[o['n']] = o['n'] = dq(o['n'])
+    for sk in out_skills.values():
+        if sk.get('0') in renamed:
+            sk['0'] = renamed[sk['0']]
+    stats['names_dq'] = len(renamed)
+
     data = {'built': datetime.now(timezone.utc).isoformat(timespec='seconds'),
             'equips': equips, 'skills': out_skills, 'tagNames': out_tags, 'mats': out_mats,
             'stats': dict(stats)}
