@@ -228,11 +228,21 @@ def main():
             rec['rel'] = min(rels)
         out.append(rec)
     out.sort(key=lambda r: r['b'])
+    # ability icon per ability id (stage row index 7 lists them): skill_master.tumbnail_name1, a file in
+    # dlc/<region>/ability/thumbnail. By id, so JP names and abilities sharing a name still get the right icon.
+    ab_icons = {}
+    for rec in out:
+        for st in rec['st']:
+            for pid in st[7] or []:
+                pic = (skills.get(pid) or {}).get('tumbnail_name1')
+                if pic and pic != 'None':
+                    ab_icons[str(pid)] = pic
     data = {
         'raw': RAW, 'types': TYPE,
         'skills': {str(k): v for k, v in S.items()},
         'mats': {str(k): v for k, v in M.items()},
         'tagNames': {str(k): v for k, v in tag_name.items()},
+        'abIcons': dict(sorted(ab_icons.items())),
         'equips': out,
     }
     with open(OUT, 'w', encoding='utf-8') as f:
