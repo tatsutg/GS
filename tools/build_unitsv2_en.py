@@ -33,6 +33,7 @@ GS = os.path.dirname(HERE)
 DLC = os.path.join(GS, 'dlc')
 OTH = lambda r: os.path.join(DLC, r, '_DATABASE', 'others')
 OUT = os.path.join(OTH('Japan'), 'unitsv2_en.json')
+DIFF_OUT = os.path.join(OTH('Japan'), 'unitsv2_diff.json')   # JP values / sentences GL does not have
 GLOSS = os.path.join(HERE, 'unitsv2_en_glossary.json')
 
 NUM = re.compile(r'\d+(?:\.\d+)?')
@@ -110,7 +111,7 @@ def kind(text, m, jp):
     return '#'
 
 
-def fix_nums(jp, en):
+def fix_nums(jp, en, strict=False):
     """GL wording with JP numbers, on distinct values: GL often says one number twice ("for 20s" per
     effect) or leaves one out ("Chance of Burn"), so counts differ while the values agree.
     Every GL value JP also has stays. A GL value JP lacks (JP 200% vs GL 150%) is swapped for a JP value
@@ -134,6 +135,8 @@ def fix_nums(jp, en):
         if j is not None:
             swap[v] = j
             jo.remove(j)
+    if strict and len(swap) < len(eo):
+        return None   # per sentence, a swap must measure the same thing (1体 is not "by 50")
     for v in eo:                                    # what is left, in order
         if v not in swap:
             swap[v] = jo.pop(0)
@@ -151,12 +154,36 @@ def nums_ok(jp, en):
     return all(m.group() in jv or m.group() in ok for m in NUM.finditer(en))
 
 
+# what a sentence is about, on both sides: a JP / GL sentence pair that shares none of these is no pair
+# (GL put its sentences in another order: "100%の確率で暗闇" next to "Reduces ATK & DEF by 30%")
+TOPICS = [(r'ゲージ', r'gauge'), (r'耐性', r'resist'), (r'攻撃力', r'(?<![A-Za-z])ATK(?![A-Za-z])'), (r'防御力', r'(?<![A-Za-z])DEF(?![A-Za-z])'),
+          (r'CT', r'(?<![A-Za-z])CT(?![A-Za-z])'), (r'回復', r'[Hh]eal|[Rr]ecover|[Rr]estor'), (r'確率', r'[Cc]hance'),
+          (r'ダメージ', r'(?<![A-Za-z])DMG(?![A-Za-z])'), (r'燃焼', r'Burn'), (r'氷結', r'Freez|Frozen'), (r'暗闇', r'Blind'),
+          (r'麻痺', r'Paraly'), (r'気絶', r'Faint'), (r'毒', r'Poison'), (r'睡眠', r'Sleep'), (r'出血', r'Bleed'),
+          (r'呪', r'Curse'), (r'クリティカル', r'CRI'), (r'命中', r'Accuracy'), (r'回避', r'Evasion')]
+
+
+def same_topic(j, e):
+    a = {i for i, (x, _) in enumerate(TOPICS) if re.search(x, j)}
+    b = {i for i, (_, y) in enumerate(TOPICS) if re.search(y, e)}
+    return bool(a & b) or not (a or b)
+
+
 def fix_nums_aligned(jp, en):
     """fix_nums per sentence when JP and GL have the same sentences: a value JP uses in one sentence
     (7秒) must not hide a stale GL value (10s) in another"""
-    js, es = jsplit(jp), esplit(en)
+    js, es = [], esplit(en)
+    for j in jsplit(jp):   # "。（最大4体）" / "。（重複あり）" belong to the sentence before, as on GL
+        if js and re.match(r'[（(]', j):
+            m = re.match(r'[（(][^）)]*[）)]', j)
+            js[-1] += m.group() if m else j
+            j = j[m.end():].strip() if m else ''
+        if j:
+            js.append(j)
     if len(js) == len(es) > 1:
-        out = [fix_nums(j, e) for j, e in zip(js, es)]
+        out = [fix_nums(j, e, True) for j, e in zip(js, es)]
+        if any(o != e and not same_topic(j, e) for j, e, o in zip(js, es, out)):
+            return fix_nums(jp, en)
         if all(o is not None for o in out):
             return ' '.join(out)
     return fix_nums(jp, en)
@@ -317,9 +344,11 @@ class Translator:
             return self.hand(jp), 'hand'
         gl_fx = None
         if hint and not re.search(r'[ぁ-んァ-ヶ一-龯]', hint):
-            fx = fix_nums(jp, hint)
+            # per sentence first: a JP value in one sentence (CRI 100%) must not let a stale GL value pass
+            # in another (ATK 100% where JP says 120%)
+            fx = fix_nums_aligned(jp, hint)
             if not (fx and nums_ok(jp, fx)):
-                fx = fix_nums_aligned(jp, hint)
+                fx = fix_nums(jp, hint)
             if fx and nums_ok(jp, fx):
                 return fx, 'gl' if fx == hint else 'gl#'
             gl_fx = fx   # GL wording keeps a number JP does not have: try JP-built text first
@@ -342,6 +371,151 @@ class Translator:
         if bad and gl_fx:
             self.stale.append((jp, gl_fx))
         return (None, 'miss') if bad else (' '.join(out), 'tm')
+
+
+# ---------------- JP buffs: what the JP text says that GL's does not ----------------
+# unitsv2_diff.json lets the site mark, on the JP server, a value JP changed (62000% where GL says 60000%)
+# and a sentence GL does not have at all (an effect JP added). Built from the English above: it is GL's own
+# sentence with JP's numbers, so a GL sentence and its JP twin share one template.
+BTOK = re.compile(r'\d+(?:\.\d+)?(?:%|s(?![a-z]))?')
+
+
+def btmpl(sent):
+    return re.sub(r'\s+', ' ', BTOK.sub('#', sent)).strip().rstrip('.').lower()
+
+
+def bval(tok):
+    return float(re.match(r'\d+(?:\.\d+)?', tok).group())
+
+
+def nth_of(text, start, lit):
+    """how many times lit occurs in text before start (the site finds the mark by literal + count)"""
+    n, i = 0, text.find(lit)
+    while 0 <= i < start:
+        n += 1
+        i = text.find(lit, i + 1)
+    return n
+
+
+def jp_sentences(raw):
+    """(start, end) of each JP sentence in the raw text, the bracket after 。 kept with its sentence"""
+    out, last = [], 0
+    for m in re.finditer(r'。', raw):
+        out.append([last, m.end()])
+        last = m.end()
+    if raw[last:].strip():
+        out.append([last, len(raw)])
+    merged = []
+    for a, b in out:
+        seg = raw[a:b].lstrip()
+        if merged and re.match(r'[（(][^）)]*[）)]', seg):
+            k = re.match(r'\s*[（(][^）)]*[）)]', raw[a:b]).end()
+            merged[-1][1] = a + k
+            a = a + k
+            if not raw[a:b].strip():
+                continue
+        merged.append([a, b])
+    return [(a + len(raw[a:b]) - len(raw[a:b].lstrip()), b) for a, b in merged if raw[a:b].strip()]
+
+
+def jp_token(raw, tok, used):
+    """the JP raw-text span of an English token: 62000% -> 62000%, 20s -> 20秒, 4 -> 4 (no unit)"""
+    num = re.match(r'\d+(?:\.\d+)?', tok).group()
+    unit = tok[len(num):]
+    zt = raw.translate(ZEN)
+    for m in re.finditer(r'(?<![\d.])' + re.escape(num) + r'(?![\d.])', zt):
+        after = zt[m.end():m.end() + 1]
+        ok = after == '%' if unit == '%' else after == '秒' if unit == 's' else after not in '%秒'
+        if ok and m.start() not in used:
+            used.add(m.start())
+            end = m.end() + (1 if unit in ('%', 's') else 0)
+            return m.start(), end
+    return None
+
+
+def topics_of(text, jp):
+    return {i for i, t in enumerate(TOPICS) if re.search(t[0 if jp else 1], text, 0 if jp else re.I)}
+
+
+def added_sentences(jp, gl):
+    """JP sentences about something GL's text never mentions (JP gave the skill a new effect):
+    [(index among JP sentences, start, end)]. A sentence with no known topic counts as covered."""
+    if not gl or JPCHR.search(gl):
+        return []
+    have = topics_of(gl, False)
+    gl_nums = {float(x) for x in NUM.findall(gl.translate(ZEN))}
+    out = []
+    for i, (a, b) in enumerate(jp_sentences(jp)):
+        sent = jp[a:b].translate(ZEN)
+        t = topics_of(sent, True)
+        nums = {float(x) for x in NUM.findall(sent)}
+        # new = about something GL never mentions AND with a value GL never says (GL words a lot apart:
+        # "Fire Resistance", "own Arts by 3": the value is the safer twin test)
+        if t and not (t & have) and nums and not (nums & gl_nums):
+            out.append((i, a, b))
+    return out
+
+
+def buff_diff(en, gl, jp, how, added=None):
+    """marks for one field: {"e": [[literal, nth, old|null]], "j": [...]} (old None = a whole new sentence)"""
+    if not en or not gl or JPCHR.search(gl) or JPCHR.search(en):
+        return None
+    es, gs = esplit(en), esplit(gl)
+    free = list(range(len(gs)))
+    marks, new_idx = [], []
+    for i, sent in enumerate(es):
+        t = btmpl(sent)
+        j = next((j for j in free if btmpl(gs[j]) == t), None)
+        if j is None:
+            new_idx.append(i)
+            continue
+        free.remove(j)
+        for a, b in zip(BTOK.finditer(sent), BTOK.finditer(gs[j])):
+            x, y = bval(a.group()), bval(b.group())
+            unit = lambda t: re.sub(r'[\d.]', '', t)
+            # same unit and a sane step (x6 at most): "45000%" against GL's "50%" is a mispaired number
+            if a.group() != b.group() and x != y and unit(a.group()) == unit(b.group()) and x and y and 1 / 6 <= x / y <= 6:
+                marks.append((i, a, b.group()))
+    # a new sentence only where every GL sentence found its JP twin: JP kept GL's effects and added one.
+    # Otherwise the English is worded apart from GL's (translated, not GL's text) and nothing is "new".
+    if new_idx and (free or how not in ('gl', 'gl#', 'tm', 'hand')):
+        new_idx = []
+    if added:
+        new_idx = [i for i, sent in enumerate(es) if sent in added]
+    if not marks and not new_idx:
+        return None
+    # English: literal + how many times it occurs before (the site wraps that occurrence)
+    starts, pos = [], 0
+    for sent in es:
+        k = en.find(sent, pos)
+        starts.append(k)
+        pos = k + len(sent)
+    e_out, j_out = [], []
+    for i, a, old in marks:
+        at = starts[i] + a.start()
+        e_out.append([a.group(), nth_of(en, at, a.group()), old])
+    for i in new_idx:
+        e_out.append([es[i], nth_of(en, starts[i], es[i]), None])
+    # Japanese: the same value in the JP text (same unit: % / 秒 / plain), a new sentence by position when
+    # JP and English have as many sentences
+    if jp:
+        used = set()
+        for i, a, old in marks:
+            span = jp_token(jp, a.group(), used)
+            if span:
+                lit = jp[span[0]:span[1]]
+                j_out.append([lit, nth_of(jp, span[0], lit), old])
+        js = jp_sentences(jp)
+        if added:
+            for i in new_idx:
+                lit = added[es[i]]
+                j_out.append([lit, nth_of(jp, jp.find(lit), lit), None])
+        elif new_idx and len(js) == len(es):
+            for i in new_idx:
+                a, b = js[i]
+                lit = jp[a:b]
+                j_out.append([lit, nth_of(jp, a, lit), None])
+    return {'e': e_out, 'j': j_out}
 
 
 def main():
@@ -398,7 +572,7 @@ def main():
             return gl_unit.get(field)
         return None
 
-    def do(src, gl_unit, top, top_name):
+    def do(src, gl_unit, top, top_name, diff=None):
         out = {}
         for k, v in src.items():
             if not isinstance(v, str) or not v or k in ('Unit ID', 'Image', 'SERVER', 'Type', 'Race', 'Rarity'):
@@ -413,6 +587,22 @@ def main():
                     me = tr.hand(top_name) or tr.text(top_name, None, detail=False)[0]
                     hint = Memory.names.sub(me, hint) if me and not Memory.subject.search(hint) else None
                 en, how = tr.text(v, hint, detail=bool(DETAIL.search(k)))
+                added = {}
+                if en and how in ('gl', 'gl#') and DETAIL.search(k):
+                    es_ = esplit(en)
+                    adds = added_sentences(v, hint)
+                    for n_, (i, a, b) in enumerate(adds):
+                        lit = v[a:b]
+                        line = tr.text(lit.strip().rstrip('。'), None, detail=True)[0]
+                        if not line:
+                            continue   # no English for it: leave GL's text whole rather than mix in Japanese
+                        line = line.rstrip('.') + '.'
+                        covered_before = i - n_          # JP sentences before it that GL also has
+                        es_.insert(min(covered_before + n_, len(es_)), line)
+                        added[line] = lit
+                        stats['added'] += 1
+                    if added:   # GL leaves some last periods out ("1900% Dark DMG (Physical)")
+                        en = ' '.join(x if re.search(r'[.!?]$', x) else x + '.' for x in es_)
             elif UNIT_NAME.match(k) or LORE.match(k) or k == 'V.A':
                 gv = (gl_unit or {}).get(k) or (top or {}).get(k)
                 if gv and JPCHR.search(gv):
@@ -431,18 +621,29 @@ def main():
             stats[how] += 1
             if en:
                 out[k] = re.sub(r'\s+', ' ', en).strip()
+                if diff is not None and DETAIL.search(k) and gl_unit:
+                    d = buff_diff(out[k], gl_unit.get(k), v, how, added or None)
+                    if d:
+                        diff[k] = d
         return out
 
-    units = {}
+    units, diffs = {}, {}
     for b, u in J.items():
         g = G.get(b)
-        o = do(u, g, None, u.get('Name'))
-        forms = {}
+        official = g and not JPCHR.search(g.get('Name') or '')   # released on GL: its text is what GL shows
+        dd = {} if official else None
+        o = do(u, g, None, u.get('Name'), dd)
+        forms, dforms = {}, {}
         for fk, fv in (u.get('_forms') or {}).items():
             gf = ((g or {}).get('_forms') or {}).get(fk)
-            fo = do(fv, gf, g, u.get('Name'))
+            fd = {} if official and gf else None
+            fo = do(fv, gf, g, u.get('Name'), fd)
             if fo:
                 forms[fk] = fo
+            if fd:
+                dforms[fk] = fd
+        if dd or dforms:
+            diffs[b] = dict(dd or {}, **({'_forms': dforms} if dforms else {}))
         if forms:
             o['_forms'] = forms
         if o:
@@ -453,6 +654,9 @@ def main():
     data = {'built': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'units': units, 'stats': dict(stats)}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+    with open(DIFF_OUT, 'w', encoding='utf-8') as f:
+        json.dump({'built': data['built'], 'units': diffs}, f, ensure_ascii=False, separators=(',', ':'))
+    print(f"{len(diffs)} units with JP changes -> {DIFF_OUT} ({os.path.getsize(DIFF_OUT) // 1024} KB)")
     print(f"{len(units)} units, {len(mem.best)} templates, {dict(stats)} -> {OUT} ({os.path.getsize(OUT) // 1024} KB)")
     if '--miss' in sys.argv:
         for s, n in tr.miss.most_common():
