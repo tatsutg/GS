@@ -12,7 +12,8 @@ No machine translation. Every English string comes from, in this order:
      JP's numbers (fix_nums from build_unitsv2_en.py).
   2. Translation memory mined from those pairs: a JP line whose template (numbers as slots) GL has
      already translated somewhere gets GL's wording with JP's numbers.
-  3. tools/jp_en_glossary.json, kept by hand: JP-only banners, events, quests and items, researched
+  3. tools/jp_en_glossary.json, kept by hand, only where GL has no text for that id (GL's own English
+     replaces a hand name on the next build once GL ships it): JP-only banners, events, quests and items, researched
      against GL wording / official collab names.
 Only strings that the JP site files really contain are kept (the file stays small).
 Composite strings the site builds ("<item> exchange", "20 × <item>", "【EX】<quest>", "<name> 前編")
@@ -380,9 +381,11 @@ def main():
         if fixed:
             d[jp] = fixed
     mem.done()
+    # hand list only fills what GL lacks: once GL ships that id, its own English takes over on the next build
     gloss = load(GLOSS) if os.path.exists(GLOSS) else {}
-    gloss = {k: v for k, v in gloss.items() if not k.startswith('_')}
-    d.update(gloss)
+    for k, v in gloss.items():
+        if not k.startswith('_') and k not in d:
+            d[k] = v
     # whole strings (and the pieces RULES look up) that only the memory knows
     todo = list(need)
     while todo:
@@ -401,7 +404,13 @@ def main():
         if has_jp(translate(s, out)):
             whole += 1
             translate(s, out, miss)
-    data = {'built': datetime.now(timezone.utc).isoformat(timespec='seconds'), 't': out,
+    # same dictionary as last time: keep its date, so the Action has nothing to commit
+    built = datetime.now(timezone.utc).isoformat(timespec='seconds')
+    if os.path.exists(OUT):
+        old = load(OUT)
+        if old.get('t') == out:
+            built = old.get('built', built)
+    data = {'built': built, 't': out,
             'stats': {'strings': len(need), 'entries': len(out), 'stillJapanese': whole}}
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))

@@ -1,0 +1,82 @@
+name: Build JP English names
+
+# Rebuilds dlc/Japan/_DATABASE/others/jp_en.json (English for the JP server's Summon / Quests / Exchange
+# tabs, js/jpen.js on the site) whenever its inputs change, so a JP-only name switches to Global's own
+# English as soon as Global gets that id (Global text wins over tools/jp_en_glossary.json).
+# The Global detail files are committed by the other build workflows with [skip ci], which does not start
+# push workflows: workflow_run covers those.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dlc/Global/_DATABASE/**/dungeon_master.json'
+      - 'dlc/Global/_DATABASE/**/quest_master.json'
+      - 'dlc/Global/_DATABASE/**/gacha_master.json'
+      - 'dlc/Global/_DATABASE/**/item_master.json'
+      - 'dlc/Global/_DATABASE/**/material_master.json'
+      - 'dlc/Global/_DATABASE/**/event_item_master.json'
+      - 'dlc/Global/_DATABASE/**/unit_master.json'
+      - 'dlc/Global/_DATABASE/**/enemy_master.json'
+      - 'dlc/Global/_DATABASE/**/boss_info_master.json'
+      - 'dlc/Global/_DATABASE/**/dungeon_mission_master.json'
+      - 'dlc/Global/_DATABASE/others/*_detail.json'
+      - 'dlc/Japan/_DATABASE/others/*_detail.json'
+      - 'dlc/Japan/_DATABASE/others/unitsv2_en.json'
+      - 'tools/build_jp_en.py'
+      - 'tools/build_unitsv2_en.py'
+      - 'tools/jp_en_glossary.json'
+      - '.github/workflows/build-jp-en.yml'
+  workflow_run:
+    workflows: ['Build Quests detail', 'Build Summons detail', 'Build Shops detail', 'Build Items detail', 'Build Equips V2 detail', 'Build Units V2 detail']
+    types: [completed]
+  workflow_dispatch: # manual "Run workflow" button
+  schedule:
+    - cron: '30 12 * * *'   # daily safety net
+
+concurrency:
+  group: build-jp-en
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: main   # workflow_run: the latest main, with the detail file the other build just pushed
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build jp_en.json
+        run: python tools/build_jp_en.py
+
+      - name: Commit if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "dlc/Japan/_DATABASE/others/jp_en.json"
+          if git diff --staged --quiet; then
+            echo "No changes in jp_en.json."
+          else
+            git commit -m "Auto-build JP English names [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Purge jsDelivr cache
+        run: |
+          f="dlc/Japan/_DATABASE/others/jp_en.json"
+          for i in 1 2 3; do
+            if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
+              echo "Purged $f"; break
+            fi
+            echo "Purge $f failed (try $i), retrying..."; sleep 5
+          done
