@@ -83,6 +83,50 @@ def stamp(v, region):
     return f'{y:04d}-{mo:02d}-{d:02d}T{h:02d}:{mi:02d}:00{off}'
 
 
+def first_banners(region):
+    """base -> earliest start of a unit summon banner featuring it, from that server's summons_detail.json"""
+    path = os.path.join(GS, 'dlc', region, '_DATABASE', 'others', 'summons_detail.json')
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        banners = json.load(f).get('banners', [])
+    first = {}
+    for b in banners:
+        if b.get('t') != 'unit' or not b.get('s'):
+            continue
+        feat = b.get('feat') or []
+        if isinstance(feat, str):
+            try:
+                feat = json.loads(feat)
+            except ValueError:
+                feat = []
+        at = str(b['s']).replace(' ', 'T')
+        for k in feat:
+            if k not in first or at < first[k]:
+                first[k] = at
+    return first
+
+
+def rerun_only(out):
+    """JP: the DB keeps only some old banners, so an old unit's earliest JP banner can be a rerun (Sumire: only the
+    2026 rerun, Global had her in 2019). JP releases first, so a JP first banner more than a year after the Global
+    release is a rerun: 'rel' becomes '~' + the Global date (an upper bound; the site shows it as an estimate).
+    A hand-kept jp date in release_dates.json always wins."""
+    gl_path = os.path.join(GS, 'dlc', 'Global', '_DATABASE', 'others', 'unitsv2_detail.json')
+    if not os.path.exists(gl_path):
+        return
+    with open(gl_path, encoding='utf-8') as f:
+        gl_items = json.load(f)
+    gl_ban, jp_ban = first_banners('Global'), first_banners('Japan')
+    for k, item in out.items():
+        base = int(k)
+        if item.get('rel') or base not in jp_ban:
+            continue
+        g = (gl_items.get(k) or {}).get('rel') or gl_ban.get(base)
+        if g and not str(g).startswith('~') and (date.fromisoformat(jp_ban[base][:10]) - date.fromisoformat(str(g)[:10])).days > 365:
+            item['rel'] = '~' + str(g)[:10]
+
+
 def num(v):
     try:
         return int(v)
@@ -284,6 +328,8 @@ def main():
 
         out[str(base)] = item
 
+    if REGION == 'Japan':
+        rerun_only(out)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
