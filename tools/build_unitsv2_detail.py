@@ -267,3 +267,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # which bases exist on only one server (the site's EN | JP switch reads it)
+    import build_v2_servers
+    build_v2_servers.main()
