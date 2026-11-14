@@ -60,11 +60,12 @@ def num(v):
 def img(rel):
     """Repo path of a picture, or ''. Pictures live under dlc/<region>/ since the dlc restructure
     (dlc/Japan/material/..., dlc/Global/town/...): a bare 'material/...' is looked up in the build's
-    region folder first, then flat (the old layout). Orb shop (town/) art is shared UI: Japan falls
-    back to the Global copy."""
+    region folder first, then the Japan folder (it holds the complete art set; Global has no
+    material/, event/, cook/ or rune/ folder), then flat (the old layout). Orb shop (town/) art is
+    shared UI: Japan falls back to the Global copy."""
     if not rel:
         return ''
-    cands = [rel] if rel.startswith(('Global/', 'Japan/')) else [f'{REGION}/{rel}', rel]
+    cands = [rel] if rel.startswith(('Global/', 'Japan/')) else list(dict.fromkeys([f'{REGION}/{rel}', f'Japan/{rel}', rel]))
     if rel.startswith('Japan/town/'):
         cands.append('Global/' + rel[len('Japan/'):])
     return next((c for c in cands if os.path.exists(os.path.join(DLC, c))), '')
