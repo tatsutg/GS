@@ -6,7 +6,9 @@ Reads the decrypted GL DB exports in dlc/Global/_DATABASE/*/ and writes one row 
   - schedule: the open windows from dungeon_launcher_master (start, end; times are PT, "-08:00" written
     as the game does), only those that end after (build time - 2 days), plus the weekday of the
     Crest Palaces (dungeon_type 8001..8007 = Monday..Sunday)
-  - quests: name, summary, solo / multi, stamina, difficulty, the drops the game shows (display_item_list) and the rewards
+  - quests: name, summary, solo / multi, stamina, difficulty, the drops the game shows (display_item_list) and the rewards;
+    a mission reward row ends with its condition [type, value(, unit names)] from quest_mission_master: the site
+    words it with the game's own strings (commonstring TXT_QUEST_MISSION_<type>, e.g. 8 = "Clear within {0} seconds.")
   - bosses: per quest (HP / ATK / DEF / break, art from dlc/unit/thumbnail) and boss_info_master notes
   - stages: per quest the stage count and each stage's spawn variants (chance %), from battle_relation_master
     (the enemy placement per stage is not in the export); per dungeon the enemy roster ('foes') from enemy_master
@@ -114,6 +116,23 @@ def main():
     units = {u['id']: clean(u['name']) for u in load('unit_master')}
     thumbs_all = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
     names[9] = units
+    # mission conditions: id -> [type, value] (+ unit names for type 13 "Clear with {0} in party", value_list = base unit ids)
+    base_name = {}
+    for u in sorted(load('unit_master'), key=lambda u: u['id']):
+        nm = clean(u['name'])
+        b = num(u.get('base_unit_id'))
+        if b and nm and not nm.startswith('[') and b not in base_name:
+            base_name[b] = nm
+    missions = {}
+    for m in load('quest_mission_master'):
+        spec = [num(m.get('type')), num(m.get('value'))]
+        try:
+            ids = json.loads(m.get('value_list') or '[]')
+        except (TypeError, ValueError):
+            ids = []
+        if spec[0] == 13 and isinstance(ids, list) and ids:
+            spec.append([base_name.get(num(i), '') for i in ids])
+        missions[num(m['id'])] = spec
 
     # icons for drops / rewards: data['icons']["<type>:<id>"] = repo path (the site shows a badge when there is none)
     ithumb = set((os.listdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')) if os.path.isdir(os.path.join(DLC, 'Japan', 'item', 'thumbnail')) else []))   # the full set lives in Japan/
@@ -266,7 +285,8 @@ def main():
             for k, label in (('questmission1', 'Mission 1'), ('questmission2', 'Mission 2'), ('questmission3', 'Mission 3'), ('complete', 'Clear')):
                 r = thing(q.get(k + '_reward_type'), q.get(k + '_reward_id'), q.get(k + '_reward_value'))
                 if r:
-                    rewards.append([label] + r)
+                    cond = missions.get(num(q.get(k + '_id'))) if k != 'complete' else None
+                    rewards.append([label] + r + ([cond] if cond else []))
             qs.append({'id': q['id'], 'n': clean(q['name']), 'sta': num(q.get('stamina')), 'dif': num(q.get('difficulty')),
                        'rank': num(q.get('need_rank')), 'gren': num(q.get('drop_coin')), 'drops': drops, 'rew': rewards,
                        # summary (the game breaks its lines by hand: joined), multi = co-op quest (0 = solo only)
