@@ -19,6 +19,7 @@ import json
 import os
 import re
 import sys
+from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
@@ -47,7 +48,8 @@ def clean(text):
 
 def release_map(kind):
     """image id -> release date from release_dates.json (hand-kept, no Google Sheet):
-    the 'gl' date on the Global build, the 'jp' date on the Japan build."""
+    the 'gl' date on the Global build, the 'jp' date on the Japan build. A value may carry the time
+    ('2026-11-06 15:00', the server's own clock): then 'rel' is an exact timestamp (see stamp())."""
     path = os.path.join(GS, 'release_dates.json')
     if not os.path.exists(path):
         return {}
@@ -55,7 +57,30 @@ def release_map(kind):
         data = json.load(f)
     section = data.get('units' if kind == 'unit' else 'equips', {})
     key = 'gl' if REGION == 'Global' else 'jp'
-    return {int(k): v[key] for k, v in section.items() if isinstance(v, dict) and v.get(key)}
+    out = {int(k): stamp(v[key], REGION) for k, v in section.items() if isinstance(v, dict) and v.get(key)}
+    return {k: v for k, v in out.items() if v}
+
+def stamp(v, region):
+    """A release_dates.json value -> what the site gets in 'rel':
+    'YYYY-MM-DD' stays a day; 'YYYY-MM-DD HH:MM' becomes 'YYYY-MM-DDTHH:MM:00+09:00' (jp: JST) or the Pacific
+    offset of that day (gl: -08:00 PST / -07:00 PDT, US rule: 2nd Sunday of March to 1st Sunday of November)."""
+    v = str(v or '').strip()
+    m = re.match(r'^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{1,2}):(\d{2}))?$', v)
+    if not m:
+        return ''
+    y, mo, d = int(m[1]), int(m[2]), int(m[3])
+    if m[4] is None:
+        return f'{y:04d}-{mo:02d}-{d:02d}'
+    h, mi = int(m[4]), int(m[5])
+    if region == 'Japan':
+        off = '+09:00'
+    else:
+        def sunday(month, nth):   # day of the nth Sunday of that month
+            first = date(y, month, 1)
+            return 1 + (6 - first.weekday()) % 7 + 7 * (nth - 1)
+        start, end = (3, sunday(3, 2), 2), (11, sunday(11, 1), 2)
+        off = '-07:00' if start <= (mo, d, h) < end else '-08:00'
+    return f'{y:04d}-{mo:02d}-{d:02d}T{h:02d}:{mi:02d}:00{off}'
 
 
 def num(v):

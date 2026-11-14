@@ -1,5 +1,5 @@
 {
- "_about": "Hand-kept release dates for Units V2 / Equips V2, transferred out of the Google Sheet. Keyed by image id (unit_thumbnail_<id> / item_thumbnail_<id>). gl = Global release, jp = Japan release, each YYYY-MM-DD. The build (tools/build_unitsv2_detail.py, build_equipsv2_detail.py) reads this to bake 'rel' per record: gl on the Global build, jp on the Japan build. Add or edit entries here; no Google Sheet involved.",
+ "_about": "Hand-kept release dates for Units V2 / Equips V2, transferred out of the Google Sheet. Keyed by image id (unit_thumbnail_<id> / item_thumbnail_<id>). gl = Global release, jp = Japan release, each YYYY-MM-DD, or YYYY-MM-DD HH:MM with the time on the server's own clock (gl: Pacific, PST/PDT; jp: JST). The build (tools/build_unitsv2_detail.py, build_equipsv2_detail.py) reads this to bake 'rel' per record: gl on the Global build, jp on the Japan build. A day without a time gets the first summon banner's time on the site when that banner opened the same day. Add or edit entries here; no Google Sheet involved.",
  "units": {
   "100566112": {
    "gl": "2018-06-13"
@@ -1191,6 +1191,12 @@
   "108507112": {
    "gl": "2026-09-24",
    "jp": "2026-08-12"
+  },
+  "104397512": {
+   "jp": "2026-11-06 15:00"
+  },
+  "104387412": {
+   "jp": "2026-10-30 15:00"
   }
  },
  "equips": {
@@ -1850,6 +1856,18 @@
   },
   "156131": {
    "jp": "2026-09-28"
+  },
+  "114381": {
+   "jp": "2026-11-06 15:00"
+  },
+  "114371": {
+   "jp": "2026-11-06 15:00"
+  },
+  "114311": {
+   "jp": "2026-10-30 15:00"
+  },
+  "114301": {
+   "jp": "2026-10-30 15:00"
   }
  }
 }
