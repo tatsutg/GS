@@ -245,6 +245,15 @@ def main():
                'skill ct speed up': 'skill ct down', 'break power': 'break power up'}
     key = lambda s: re.sub(r'\s+', ' ', str(s or '')).strip().lower()
     type_by_name = {key(n): t for t, n in rune_type.items() if t < 1000}
+    # crest_drops.json names are the GL (English) panel names; the JP DB names crests in Japanese, so the JP
+    # build matched none of them (no shrine drops, unlinked pills). Crest type ids are the same on both
+    # servers: match the English names through the GL rune_type_master too.
+    if REGION != 'Global':
+        for h in glob.glob(os.path.join(DLC, 'Global', '_DATABASE', '*', 'rune_type_master.json'))[:1]:
+            with open(h, encoding='utf-8') as f:
+                for t in json.load(f):
+                    if t['id'] < 1000 and t['id'] in rune_type:
+                        type_by_name.setdefault(key(clean(t['name'])), t['id'])
     drop_at = defaultdict(list)
     # shrine list for the Crests tab's "Crest Palace week": [{id, n, day, ex/up: [[crest type or None, name]], img, jp?}]
     shrines = []
@@ -328,3 +337,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    import build_crest_campaigns   # dlc/crest_campaigns.json: the crest campaign line on Items > Crests
+    build_crest_campaigns.main()
