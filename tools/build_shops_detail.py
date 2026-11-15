@@ -9,13 +9,19 @@ Each shop: banner picture (dlc/Global/alchemyExchange/<bg_name> when the repo ha
 (name + icon), the exchange window (event_master item_start_at / item_end_at; town shops are permanent)
 and its items: what you get (name, kind, icon), how many, the price and the exchange limit.
 
-Item icons, by reward type:
-  8 / 7 equip / recipe  Japan/item/thumbnail/item_thumbnail_1<base:04><1|0>.png
-  9 unit                unit/thumbnail/unit_thumbnail_<id>.png
-  5 material, 13 food, 22 event item, 24 tool: the image items_detail.json has for it
-  18 Alch               ASSETS/icon_alchemy_stone.png
-  25 Rainbow Gem        ASSETS/icon_rainbow_gem.png (the game's icon/material_icon/alchemy_rainbow_stone.png)
-Others (stamps, LB stones, keys, SP arts, ...) have no icon in the repo: the site shows a badge.
+Item icons, by reward type (each picture is looked up in the build's region folder, then the other one:
+most unit / equip thumbnails only exist under dlc/Japan/, so a Global build must not look in Global/ alone):
+  8 / 7 equip / recipe  <region>/item/thumbnail/item_thumbnail_1<base:04><1|0>.png
+  9 unit                <region>/unit/thumbnail/unit_thumbnail_<id>.png
+  5 material, 13 food, 24 tool: the image items_detail.json has for it
+  22 event item         event/event_item_<id>.png (128 px; event_icon_<id> is the 32 px list icon, so last)
+  18 Alch               town/.../orb_thumbnail.png
+  25 Rainbow Gem        town/.../ball_thumbnail.png (128 px; the old ASSETS icon is 38 px)
+  16 Equip LB Stone     town/.../stone_item_thumbnail_<id:02>.png (1 Phys, 2 Mag, 3 Def, 4 Heal, 5 Sup, ...)
+  33 SP Art             unit/sp_icon/unit_sp_icon_<id // 10>_<id % 10>.png
+  35 Mystika / 36 craft material  material/generic_<id>.png / material/unique_<id>.png
+A reward still without a picture borrows one from an item of the same name (or Material family: "Insignia", ...).
+Others (stamps, collab SP arts, ...) have no icon in the repo: the site shows a badge.
 
 Output: {"built", "shops": [{id, k: 'town'|'event', n, img, imgs, cur: [name, icon], s, e, f, gone, items: [[name, kind,
          icon, amount, price, limit, note, old]]}]}  (s / e empty for permanent shops; limit -1 = no limit)
@@ -80,9 +86,12 @@ def has(rel):
     (town/) art is shared UI, so Japan falls back to the Global copy."""
     if not rel:
         return ''
-    cands = [rel] if rel.startswith(('Global/', 'Japan/')) else [f'{REGION}/{rel}', rel]
-    if rel.startswith('Japan/town/'):
-        cands.append('Global/' + rel[len('Japan/'):])
+    other = 'Japan' if REGION == 'Global' else 'Global'
+    if rel.startswith(('Global/', 'Japan/')):
+        reg, bare = rel.split('/', 1)
+        cands = [rel, ('Japan' if reg == 'Global' else 'Global') + '/' + bare]
+    else:
+        cands = [f'{REGION}/{rel}', f'{other}/{rel}', rel]
     return next((c for c in cands if os.path.exists(os.path.join(DLC, c))), '')
 
 
@@ -115,9 +124,13 @@ def merge_old(shops, now):
             continue
         s['f'] = p.get('f') or s['f']
         have = {(x[0], x[4]) for x in s['items']}
+        icons = {(x[0], x[1]): x[2] for x in s['items'] if x[2]}
         for x in p['items']:
             if (x[0], x[4]) not in have:
                 x = (x + [''] * 8)[:7] + [1]
+                # an old row keeps its icon; an empty one (or one whose file is gone) takes the current row's
+                if not (x[2] and os.path.exists(os.path.join(DLC, x[2]))):
+                    x[2] = icons.get((x[0], x[1]), '')
                 s['items'].append(x)
     for sid, p in prev.items():
         if sid not in ids:
@@ -130,15 +143,25 @@ def merge_old(shops, now):
 
 
 def main():
-    ithumb = set((os.listdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'item', 'thumbnail')) else []))
-    uthumb = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
+    regions = [REGION] + [r for r in ('Japan', 'Global') if r != REGION]
+
+    def thumbs(sub):
+        """file name -> region-prefixed path, the build's region winning over the other one"""
+        out = {}
+        for r in reversed(regions):
+            d = os.path.join(DLC, r, sub)
+            if os.path.isdir(d):
+                out.update({f: f'{r}/{sub}/{f}' for f in os.listdir(d)})
+        return out
+    ithumb = thumbs('item/thumbnail')
+    uthumb = thumbs('unit/thumbnail')
     # icons the Items tab already resolved: (kind key, id) -> image
     try:
         with open(os.path.join(DB, 'others', 'items_detail.json'), encoding='utf-8') as f:
             idet = json.load(f)
         item_img = {(x['k'], x['id']): x.get('img', '') for x in idet['items']}
     except (OSError, ValueError, KeyError):
-        item_img = {}
+        idet, item_img = {'items': []}, {}
     ev_item = {e['id']: clean(e['name']) for e in load('event_item_master')}
 
     def equip_icon(oid):
@@ -148,29 +171,36 @@ def main():
         b = int(s[1:5])
         for t in (f'item_thumbnail_1{b:04d}1.png', f'item_thumbnail_1{b:04d}0.png'):
             if t in ithumb:
-                return f'Japan/item/thumbnail/{t}'
+                return ithumb[t]
         return ''
 
     def icon(otype, oid):
         if otype in (7, 8):
             return equip_icon(oid)
         if otype == 9:
-            t = f'unit_thumbnail_{oid}.png'
-            return f'unit/thumbnail/{t}' if t in uthumb else ''
+            return uthumb.get(f'unit_thumbnail_{oid}.png', '')
         if otype == 5:
             return item_img.get(('mat', oid)) or has(f'material/material_thumbnail_{oid}.png')
         if otype == 13:
             return item_img.get(('food', oid)) or has(f'cook/thumbnail/cook_thumbnail_{oid}.png')
         if otype == 22:
-            return item_img.get(('event', oid)) or has(f'event/event_icon_{oid}.png')
+            return has(f'event/event_item_{oid}.png') or item_img.get(('event', oid)) or has(f'event/event_icon_{oid}.png')
         if otype == 24:
             return item_img.get(('tool', oid), '')
         if otype == 18:
             return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/orb_thumbnail.png')
         if otype == 25:
-            return 'ASSETS/icon_rainbow_gem.png'
+            return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/ball_thumbnail.png') or 'ASSETS/icon_rainbow_gem.png'
+        if otype == 16:
+            return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/stone_item_thumbnail_{oid:02d}.png')
+        if otype == 33:
+            return has(f'unit/sp_icon/unit_sp_icon_{oid // 10}_{oid % 10}.png') if oid >= 100 else ''
         if otype == 17:
             return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/dungeon_key_thumbnail_{oid}.png')
+        if otype == 35:  # Mystika (craft generic material)
+            return has(f'material/generic_{oid}.png')
+        if otype == 36:  # craft unique material (Kraken Skull, Stable Drop, ...)
+            return has(f'material/unique_{oid}.png')
         if otype == 15:
             return has(f'{REGION}/town/alchemy/orb_shop/thumbnail/stone_unit_thumbnail.png')
         return ''
@@ -197,7 +227,10 @@ def main():
         imgs = vers[::-1] if len(vers) > 1 else []
         st = b.get('shop_type')
         if st != 'None' and st is not None and num(st) in by_town:
-            rows = sorted(by_town[num(st)], key=lambda r: (num(r.get('priority')) if 'priority' in r else 0, r['id']))
+            # newest first: a new True equip / unit is added with a later start date and a higher priority,
+            # so the latest additions sit at the top and the 2016 ones at the bottom
+            rows = sorted(by_town[num(st)], key=lambda r: (str(r.get('start_at') or ''), num(r.get('priority')) if 'priority' in r else 0, r['id']),
+                          reverse=True)
             items = []
             for r in rows:
                 cost = [f"{num(r[f'need_value{i}']):,} {NEED.get(r[f'need_type{i}'], 'items')}"
@@ -222,7 +255,13 @@ def main():
         name = en if en and not JP.search(en) else (
             (cur_n if 'exchange' in cur_n.lower() else f'{cur_n} Exchange') if cur_n else f'Event shop {eid}')
         items = []
-        for r in sorted(rows, key=lambda r: (num(r.get('priority')), r['id'])):
+        rows = sorted(rows, key=lambda r: (num(r.get('priority')), r['id']))
+        # catalog shops (the redeem ticket exchanges: mostly units / equips, a new one added each banner)
+        # list the newest first, like the town shops; a normal event shop keeps the game's order.
+        # The row id grows with each addition in both regions (JP's priority runs the other way in some shops).
+        if len(rows) >= 20 and sum(num(r['object_type']) in (7, 8, 9) for r in rows) >= .8 * len(rows):
+            rows.sort(key=lambda r: num(r['id']), reverse=True)
+        for r in rows:
             need = ev_item.get(r['need_item_id'], cur_n) or 'event items'
             items.append([clean(r['name']), KIND.get(r['object_type'], 'Item'), icon(r['object_type'], num(r['object_id'])),
                           num(r['value']), f"{num(r['need_count']):,} {need}", limit(r.get('max_purchase_value')),
@@ -232,6 +271,23 @@ def main():
         shops.append({'id': b['id'], 'k': 'event', 'n': name, 'img': img, 'imgs': imgs, 'f': now,
                       'cur': [cur_n, has(b.get('consume_image') or '') or icon(22, cid)], 's': '' if s == 'None' else s, 'e': '' if e == 'None' else e,
                       'items': items})
+
+    # A reward whose own picture is not in the repo (a new Crossover Gem / Insignia id, ...) borrows the picture
+    # of an item with the same name, then of one of the same family (last word: "Insignia", "Gem", ...).
+    by_name, by_word = {}, {}
+    for x in idet['items']:
+        p, n = x.get('img') or '', (x.get('n') or '').strip()
+        if p and n and os.path.exists(os.path.join(DLC, p)):
+            by_name.setdefault(n.lower(), p)
+            by_word.setdefault((x['k'], n.split()[-1].lower()), p)
+    kind_key = {'Material': 'mat', 'Food': 'food', 'Event item': 'event', 'Item': 'tool'}
+    for sh in shops:
+        for x in sh['items']:
+            if x[2] or x[1] not in kind_key:
+                continue
+            n = re.sub(r'\s+EX$', '', x[0]).lower()
+            x[2] = by_name.get(x[0].lower()) or by_name.get(n) or (
+                by_word.get((kind_key[x[1]], n.split()[-1])) if x[1] == 'Material' and n else '') or ''
 
     shops = merge_old(shops, now)
     data = {'built': now, 'shops': shops}

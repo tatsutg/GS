@@ -1,23 +1,30 @@
 name: Build Shops detail
 
-# Rebuilds dlc/Global/_DATABASE/others/shops_detail.json (the website's Exchange tab data)
-# whenever the GL DB files it reads are pushed, then clears the jsDelivr cache for it.
+# Rebuilds dlc/Global/ and dlc/Japan/_DATABASE/others/shops_detail.json (the website's Exchange tab data,
+# GL and JP server) whenever the DB files or pictures they read are pushed, then clears the jsDelivr cache for them.
 on:
   push:
     branches: [main]
     paths:
-      - 'dlc/Global/_DATABASE/**/shop_banner_master.json'
-      - 'dlc/Global/_DATABASE/**/orb_shop_master.json'
-      - 'dlc/Global/_DATABASE/**/event_shop_master.json'
-      - 'dlc/Global/_DATABASE/**/event_master.json'
-      - 'dlc/Global/_DATABASE/**/event_item_master.json'
-      - 'dlc/Global/_DATABASE/others/items_detail.json'
-      - 'dlc/Global/_DATABASE/others/shops_detail.json'
-      - 'dlc/Global/alchemyExchange/**'
+      - 'dlc/*/_DATABASE/**/shop_banner_master.json'
+      - 'dlc/*/_DATABASE/**/orb_shop_master.json'
+      - 'dlc/*/_DATABASE/**/event_shop_master.json'
+      - 'dlc/*/_DATABASE/**/event_master.json'
+      - 'dlc/*/_DATABASE/**/event_item_master.json'
+      - 'dlc/*/_DATABASE/others/items_detail.json'
+      - 'dlc/*/_DATABASE/others/shops_detail.json'
+      - 'dlc/*/alchemyExchange/**'
+      # item icons: a new unit / equip / event picture fills its Exchange row on the next build
+      - 'dlc/*/unit/thumbnail/**'
+      - 'dlc/*/unit/sp_icon/**'
+      - 'dlc/*/item/thumbnail/**'
+      - 'dlc/*/event/**'
+      - 'dlc/*/material/**'
+      - 'dlc/*/cook/thumbnail/**'
       - 'tools/build_shops_detail.py'
       - '.github/workflows/build-shops.yml'
-      - 'dlc/Global/_DATABASE/**/key_master.json'
-      - 'dlc/Global/town/alchemy/orb_shop/thumbnail/**'
+      - 'dlc/*/_DATABASE/**/key_master.json'
+      - 'dlc/*/town/alchemy/orb_shop/thumbnail/**'
   workflow_dispatch: # manual "Run workflow" button
 
 concurrency:
@@ -41,14 +48,17 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Build shops_detail.json
+      - name: Build shops_detail.json (Global)
         run: python tools/build_shops_detail.py
+
+      - name: Build shops_detail.json (Japan)
+        run: GS_REGION=Japan python tools/build_shops_detail.py
 
       - name: Commit if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "dlc/Global/_DATABASE/others/shops_detail.json"
+          git add "dlc/Global/_DATABASE/others/shops_detail.json" "dlc/Japan/_DATABASE/others/shops_detail.json"
           if git diff --staged --quiet; then
             echo "No changes in shops_detail.json."
           else
@@ -62,10 +72,11 @@ jobs:
       # and jsDelivr would keep serving the old copy for up to 12 hours.
       - name: Purge jsDelivr cache
         run: |
-          f="dlc/Global/_DATABASE/others/shops_detail.json"
-          for i in 1 2 3; do
-            if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
-              echo "Purged $f"; break
-            fi
-            echo "Purge $f failed (try $i), retrying..."; sleep 5
+          for f in "dlc/Global/_DATABASE/others/shops_detail.json" "dlc/Japan/_DATABASE/others/shops_detail.json"; do
+            for i in 1 2 3; do
+              if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
+                echo "Purged $f"; break
+              fi
+              echo "Purge $f failed (try $i), retrying..."; sleep 5
+            done
           done
