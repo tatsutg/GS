@@ -57,14 +57,22 @@ def extract(acb, index, dest):
 
 def main(bases):
     sound = load('Japan', 'sound_master')
+    # a unit row with no name hides that cue for the unit (e.g. a True Arts unit has no plain "During Arts")
     album = load('Global', 'album_voice_master')
     units = load('Global', 'unit_master')
+    # JP-only units (not on Global yet), and unit rows only Japan has: forms / rows come from Japan, labels marked JP:
+    # to translate by hand
+    gl_ids = {num(u['id']) for u in units}
+    units += [u for u in load('Japan', 'unit_master') if num(u['id']) not in gl_ids]
+    gl_album = {(num(a['unit_id']), a['cue_name']) for a in album}
+    album += [dict(a, album_name=a['album_name'] and 'JP:' + a['album_name']) for a in load('Japan', 'album_voice_master')
+              if num(a['unit_id']) and (num(a['unit_id']), a['cue_name']) not in gl_album]
     for base in bases:
         forms = sorted((u for u in units if num(u['base_unit_id']) == base), key=lambda u: num(u['rarity']))
         top = forms[-1]
         stars, sheets = {num(u['rarity']) for u in forms}, [str(top['cue_sheet_name']), str(top['cue_sheet_system_name'])]
         own = {a['cue_name']: a for a in album if num(a['unit_id']) in {num(u['id']) for u in forms}}
-        generic = [a for a in album if a['cue_name'].startswith('^') and (num(a['rarity']) == 0 or num(a['rarity']) in stars)]
+        generic = [a for a in album if a['album_name'] and a['cue_name'].startswith('^') and (num(a['rarity']) == 0 or num(a['rarity']) in stars)]
         rows = []   # (priority, cue id order, label, sheet, cue)
         for s in sound:
             if s['cue_sheet_name'] not in sheets:
@@ -72,7 +80,9 @@ def main(bases):
             cue = s['cue_name']
             hit = own.get(cue) or next((a for a in sorted(generic, key=lambda a: num(a['priority']))
                                         if re.match(a['cue_name'], cue)), None)
-            if hit:
+            if hit and not hit['album_name']:
+                print(f'  - {cue}: hidden for this unit (unnamed unit row)', file=sys.stderr)
+            elif hit:
                 label = ' '.join(hit['album_name'].split())
                 rows.append((num(hit['priority']), sheets.index(s['cue_sheet_name']), num(s['cue_id']), label, s['cue_sheet_name'], cue,
                              num(hit['rarity'])))
@@ -125,7 +135,7 @@ def subtitles(bases):
     langs = {k: {num(u['id']): u for u in load(r, 'unit_master')} for k, r in (('jp', 'Japan'), ('en', 'Global'))}
     out = {}
     for base in bases:
-        forms = sorted((u for u in langs['en'].values() if num(u['base_unit_id']) == base), key=lambda u: num(u['rarity']))
+        forms = sorted((u for u in langs['jp'].values() if num(u['base_unit_id']) == base), key=lambda u: num(u['rarity']))
         folder = os.path.join(OUT, str(base))
         for f in sorted(os.listdir(folder)):
             slug = f[:-4]
@@ -138,6 +148,7 @@ def subtitles(bases):
                 continue
             text = {k: [ln.strip() for ln in (langs[k].get(num(form['id']), {}).get(SUB_FIELDS[m.group(1)]) or '').splitlines() if ln.strip()]
                     for k in ('jp', 'en')}
+            text['jp_only'] = num(form['id']) not in langs['en']   # en is a site translation until Global has it
             if text['jp'] or text['en']:
                 out.setdefault(str(base), {})[slug] = text
     return out
