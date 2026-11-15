@@ -231,11 +231,13 @@ def main():
                 if len(rows) % nq == 0:
                     per = len(rows) // nq
                     qi.update({i: k // per for k, i in enumerate(rows)})
-        out = []
-        for i in ids:
-            q = qi.get(i, (i - base) // stride)
-            out.append((q if q < nq else -1, boss_row(boss_enemies[i])))
-        return out
+        place = {i: qi.get(i, (i - base) // stride) for i in ids}
+        if nq == 1:
+            place = dict.fromkeys(ids, 0)  # one quest: every boss is in it
+        elif len({q for q in place.values() if q < nq}) < nq and len(ids) == nq                 and all(num(boss_enemies[a].get('hp')) <= num(boss_enemies[b].get('hp')) for a, b in zip(ids, ids[1:])):
+            # quests left empty, one boss per quest whose HP rises in id order (e.g. EX1 / SPEX / AWK at +1/+5/+9)
+            place = {i: k for k, i in enumerate(ids)}
+        return [(place[i] if place[i] < nq else -1, boss_row(boss_enemies[i])) for i in ids]
 
     # stages: battle_relation_master = quest -> battle_no (stage 1, 2, ...) -> spawn variants with a weight (of 10000).
     # The enemy placement of each variant (battlemaster) is not in the export, so per quest the site shows the stage
