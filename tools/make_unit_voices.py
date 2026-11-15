@@ -10,7 +10,7 @@ For each base unit:
   - one button per matched cue, as in game; a label used by several buttons is numbered (Skill 1, Skill 2 ...)
   - every line of a cue is extracted (the game picks one at random); the site cycles them per press
 Clips: JP voice banks (<VOICE_DIR>/<sheet>.acb) -> vgmstream -> AAC mono 48 kHz -> dlc/Japan/audio/voice/<base>/<slug>.m4a
-Prints the js/voices.js entry for each unit.
+Prints the js/voices.js entry for each unit. With --subs: prints the subtitle block (unit_master comment text).
 """
 import glob
 import json
@@ -115,5 +115,36 @@ def main(bases):
         print('            ]')
 
 
+# subtitle text per clip: unit_master comment fields (Global = English, Japan = Japanese), per form
+SUB_FIELDS = {'strength': 'comment_powerup', 'drop': 'comment_gain', 'evolution': 'comment_evolution',
+              'limitbreak': 'comment_limitberak', 'luckmax': 'comment_fortune_max'}
+
+
+def subtitles(bases):
+    """window.gsVoices.subs entries: {base: {slug: {jp: [lines], en: [lines]}}} for every clip that has text"""
+    langs = {k: {num(u['id']): u for u in load(r, 'unit_master')} for k, r in (('jp', 'Japan'), ('en', 'Global'))}
+    out = {}
+    for base in bases:
+        forms = sorted((u for u in langs['en'].values() if num(u['base_unit_id']) == base), key=lambda u: num(u['rarity']))
+        folder = os.path.join(OUT, str(base))
+        for f in sorted(os.listdir(folder)):
+            slug = f[:-4]
+            m = re.match(r'^(strength|drop|evolution|limitbreak|luckmax)(?:_0?(\d))?$', slug)
+            if not m:
+                continue
+            star = int(m.group(2)) if m.group(2) and m.group(1) in ('strength', 'drop', 'evolution') else None
+            form = next((u for u in forms if num(u['rarity']) == star), None) if star else forms[-1]
+            if not form:
+                continue
+            text = {k: [ln.strip() for ln in (langs[k].get(num(form['id']), {}).get(SUB_FIELDS[m.group(1)]) or '').splitlines() if ln.strip()]
+                    for k in ('jp', 'en')}
+            if text['jp'] or text['en']:
+                out.setdefault(str(base), {})[slug] = text
+    return out
+
+
 if __name__ == '__main__':
-    main([int(a) for a in sys.argv[1:]])
+    if sys.argv[1:2] == ['--subs']:   # print the subtitle block for js/voices.js (no extraction)
+        print(json.dumps(subtitles([int(a) for a in sys.argv[2:]]), ensure_ascii=False, indent=1))
+    else:
+        main([int(a) for a in sys.argv[1:]])
