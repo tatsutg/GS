@@ -4,7 +4,8 @@ Build dlc/Global/_DATABASE/others/items_detail.json for the website's Items tab.
 Reads the decrypted GL DB exports in dlc/Global/_DATABASE/*/ and writes one row per item:
   - Materials        (material_master)                  image: material/material_thumbnail_<id>.png
   - Crest Materials  (ci_generic_ / ci_unique_material)  image: material/generic_<id>.png, unique_<id>.png
-  - Event Items      (event_item_master)                 image: event/event_icon_<id>.png (when the game has one)
+  - Event Items      (event_item_master)                 image: event/event_item_<id>.png (128 px), else event_icon_<id>.png;
+                                                         else the picture of an item of the same name (reruns)
   - Food             (food_master + cooking_recipe)      image: cook/thumbnail/cook_thumbnail_<id>.png
   - Runes            (rune_master + rune_type_master)    image: rune/thumbnail/runestone_middle_<image>.png
   - Raid Tickets     (raid_ticket_master)                no image in the game files
@@ -221,7 +222,9 @@ def main():
         row('crest', c['id'], clean(c['name']), 0, clean(c['description']), img(f"material/unique_{c['id']}.png"), 'Catalyst')
     for e in events:
         if english(e['name']):
-            row('event', e['id'], clean(e['name']), num(e['rarity']), '', img(f"event/event_icon_{e['id']}.png"),
+            # event_item_<id> is the 128 px picture; event_icon_<id> the 32 px list icon (pixelated when shown big)
+            row('event', e['id'], clean(e['name']), num(e['rarity']), '',
+                img(f"event/event_item_{e['id']}.png") or img(f"event/event_icon_{e['id']}.png"),
                 ev_name.get(e['event_id'], ''), {'max': num(e['limit_value'])})
     for f in foods:
         row('food', f['id'], clean(f['name']), num(f['rarity']), clean(f['description']),
@@ -324,6 +327,23 @@ def main():
             row('tool', t['id'], clean(t['name']), 0, clean(t['description']),
                 img(f"{REGION}/town/alchemy/orb_shop/thumbnail/tool_{t['id']}.png"), tool_kind.get(t['type'], 'Other'),
                 {'max': num(t.get('count_limit'))})
+
+    # an item with no picture of its own (an event item brought back in a rerun has a new id, ...) borrows
+    # the picture of an item of the same kind and name
+    by_name = {}
+    for r in out:
+        if r.get('img'):
+            by_name.setdefault((r['k'], r['n'].lower()), r['img'])
+    # the other server's build matched more by name (JP names stay the same across reruns): same kind + id
+    other = os.path.join(DLC, 'Japan' if REGION == 'Global' else 'Global', '_DATABASE', 'others', 'items_detail.json')
+    try:
+        with open(other, encoding='utf-8') as f:
+            by_id = {(r['k'], r['id']): r['img'] for r in json.load(f)['items'] if r.get('img')}
+    except (OSError, ValueError, KeyError):
+        by_id = {}
+    for r in out:
+        if not r.get('img'):
+            r['img'] = by_name.get((r['k'], r['n'].lower())) or by_id.get((r['k'], r['id']), '')
 
     data = {'cats': {'mat': 'Materials', 'crest': 'Crest Materials', 'event': 'Event Items',
                      'food': 'Food', 'rune': 'Crests', 'tool': 'Tools & Tickets', 'ticket': 'Raid Tickets'},

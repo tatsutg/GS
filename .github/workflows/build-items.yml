@@ -1,33 +1,38 @@
 name: Build Items detail
 
-# Rebuilds dlc/Global/_DATABASE/others/items_detail.json (the website's Items tab data)
-# whenever the GL DB files it reads are pushed, then clears the jsDelivr cache for it.
+# Rebuilds dlc/Global/ and dlc/Japan/_DATABASE/others/items_detail.json (the website's Items tab data,
+# GL and JP server) whenever the DB files or pictures they read are pushed, then clears the jsDelivr cache for them.
 on:
   push:
     branches: [main]
     paths:
-      - 'dlc/Global/_DATABASE/**/material_master.json'
-      - 'dlc/Global/_DATABASE/**/ci_generic_material_master.json'
-      - 'dlc/Global/_DATABASE/**/ci_unique_material_master.json'
-      - 'dlc/Global/_DATABASE/**/event_item_master.json'
-      - 'dlc/Global/_DATABASE/**/food_master.json'
-      - 'dlc/Global/_DATABASE/**/cooking_recipe_master.json'
-      - 'dlc/Global/_DATABASE/**/rune_master.json'
-      - 'dlc/Global/_DATABASE/**/rune_type_master.json'
-      - 'dlc/Global/_DATABASE/**/raid_ticket_master.json'
-      - 'dlc/Global/_DATABASE/**/quest_master.json'
-      - 'dlc/Global/_DATABASE/**/event_shop_master.json'
-      - 'dlc/Global/_DATABASE/**/orb_shop_master.json'
-      - 'dlc/Global/_DATABASE/**/item_evolution_master.json'
-      - 'dlc/Global/_DATABASE/**/item_recipe_master.json'
-      - 'dlc/Global/_DATABASE/**/unit_evolution_master.json'
-      - 'dlc/Global/_DATABASE/**/unit_fantasy_evo_master.json'
-      - 'dlc/Global/_DATABASE/others/items_detail.json'
+      - 'dlc/*/_DATABASE/**/material_master.json'
+      - 'dlc/*/_DATABASE/**/ci_generic_material_master.json'
+      - 'dlc/*/_DATABASE/**/ci_unique_material_master.json'
+      - 'dlc/*/_DATABASE/**/event_item_master.json'
+      - 'dlc/*/_DATABASE/**/food_master.json'
+      - 'dlc/*/_DATABASE/**/cooking_recipe_master.json'
+      - 'dlc/*/_DATABASE/**/rune_master.json'
+      - 'dlc/*/_DATABASE/**/rune_type_master.json'
+      - 'dlc/*/_DATABASE/**/raid_ticket_master.json'
+      - 'dlc/*/_DATABASE/**/quest_master.json'
+      - 'dlc/*/_DATABASE/**/event_shop_master.json'
+      - 'dlc/*/_DATABASE/**/orb_shop_master.json'
+      - 'dlc/*/_DATABASE/**/item_evolution_master.json'
+      - 'dlc/*/_DATABASE/**/item_recipe_master.json'
+      - 'dlc/*/_DATABASE/**/unit_evolution_master.json'
+      - 'dlc/*/_DATABASE/**/unit_fantasy_evo_master.json'
+      - 'dlc/*/_DATABASE/others/items_detail.json'
       - 'tools/build_items_detail.py'
       - 'crest_drops.json'
-      - 'dlc/Global/_DATABASE/**/dungeon_master.json'
+      - 'dlc/*/_DATABASE/**/dungeon_master.json'
       - '.github/workflows/build-items.yml'
-      - 'dlc/Global/town/alchemy/orb_shop/thumbnail/**'
+      - 'dlc/*/town/alchemy/orb_shop/thumbnail/**'
+      # item pictures: a new event / material / crest picture fills its row on the next build
+      - 'dlc/*/event/**'
+      - 'dlc/*/material/**'
+      - 'dlc/*/cook/thumbnail/**'
+      - 'dlc/*/rune/**'
   workflow_dispatch: # manual "Run workflow" button
 
 concurrency:
@@ -51,14 +56,18 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Build items_detail.json
+      # Japan first: the Global build borrows pictures from it by id (JP names match across event reruns)
+      - name: Build items_detail.json (Japan)
+        run: GS_REGION=Japan python tools/build_items_detail.py
+
+      - name: Build items_detail.json (Global)
         run: python tools/build_items_detail.py
 
       - name: Commit if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "dlc/Global/_DATABASE/others/items_detail.json"
+          git add "dlc/Global/_DATABASE/others/items_detail.json" "dlc/Japan/_DATABASE/others/items_detail.json"
           if git diff --staged --quiet; then
             echo "No changes in items_detail.json."
           else
@@ -72,10 +81,11 @@ jobs:
       # and jsDelivr would keep serving the old copy for up to 12 hours.
       - name: Purge jsDelivr cache
         run: |
-          f="dlc/Global/_DATABASE/others/items_detail.json"
-          for i in 1 2 3; do
-            if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
-              echo "Purged $f"; break
-            fi
-            echo "Purge $f failed (try $i), retrying..."; sleep 5
+          for f in "dlc/Global/_DATABASE/others/items_detail.json" "dlc/Japan/_DATABASE/others/items_detail.json"; do
+            for i in 1 2 3; do
+              if curl -fsS "https://purge.jsdelivr.net/gh/tatsutg/GS@main/$f" > /dev/null; then
+                echo "Purged $f"; break
+              fi
+              echo "Purge $f failed (try $i), retrying..."; sleep 5
+            done
           done
