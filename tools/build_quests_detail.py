@@ -218,17 +218,23 @@ def main():
 
     def bosses_of(did, nq):
         """[[quest index or -1, boss row], ...] for a dungeon"""
+        base, stride = (did * 100, 20) if did < 1000000 else (did, 5)
+        ids = [i for i in range(base, base + 100) if i in boss_enemies]
+        # A boss with one row per difficulty (or an even share per quest) sits in its quests in id order,
+        # whatever the id spacing (e.g. Shrine of Oblivion: 4000217/227/237/247). Others keep the stride rule.
+        by_unit = defaultdict(list)
+        for i in ids:
+            by_unit[boss_enemies[i]['unit_id']].append(i)
+        qi = {}
+        if nq > 1:
+            for rows in by_unit.values():
+                if len(rows) % nq == 0:
+                    per = len(rows) // nq
+                    qi.update({i: k // per for k, i in enumerate(rows)})
         out = []
-        if did < 1000000:
-            for i in range(did * 100, did * 100 + 100):
-                if i in boss_enemies:
-                    off = i - did * 100
-                    out.append((off // 20 if off // 20 < nq else -1, boss_row(boss_enemies[i])))
-        else:
-            for i in range(did, did + 100):
-                if i in boss_enemies:
-                    off = i - did
-                    out.append((off // 5 if off // 5 < nq else -1, boss_row(boss_enemies[i])))
+        for i in ids:
+            q = qi.get(i, (i - base) // stride)
+            out.append((q if q < nq else -1, boss_row(boss_enemies[i])))
         return out
 
     # stages: battle_relation_master = quest -> battle_no (stage 1, 2, ...) -> spawn variants with a weight (of 10000).
