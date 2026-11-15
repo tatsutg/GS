@@ -114,7 +114,20 @@ def main():
         eq[x['id']] = clean(x['name'])
     names[7] = names[8] = eq
     units = {u['id']: clean(u['name']) for u in load('unit_master')}
-    thumbs_all = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
+    # unit pictures: the build's region first, then the other region (GL ships no dlc/Global/unit/thumbnail,
+    # and enemy / unit ids are the same on both servers)
+    def thumb_dir(reg):
+        d = os.path.join(DLC, reg, 'unit', 'thumbnail')
+        return set(os.listdir(d)) if os.path.isdir(d) else set()
+    thumb_sets = [(reg, thumb_dir(reg)) for reg in (REGION, 'Japan' if REGION == 'Global' else 'Global')]
+
+    # enemies the game ships no thumbnail for: a picture drawn from their battle sprite (tools/make_enemy_sprites.py)
+    sprites = set(os.listdir(os.path.join(DLC, 'ASSETS', 'enemy_sprite'))) if os.path.isdir(os.path.join(DLC, 'ASSETS', 'enemy_sprite')) else set()
+
+    def unit_thumb(uid):
+        f = f'unit_thumbnail_{uid}.png'
+        return next((f'{reg}/unit/thumbnail/{f}' for reg, s in thumb_sets if f in s),
+                    f'ASSETS/enemy_sprite/enemy_sprite_{uid}.png' if f'enemy_sprite_{uid}.png' in sprites else '')
     names[9] = units
     # mission conditions: id -> [type, value] (+ unit names for type 13 "Clear with {0} in party", value_list = base unit ids)
     base_name = {}
@@ -160,7 +173,7 @@ def main():
                         return f'Japan/item/thumbnail/{f}'
             return ''
         if t == 9:
-            return f'{REGION}/unit/thumbnail/unit_thumbnail_{i}.png' if f'unit_thumbnail_{i}.png' in thumbs_all else ''
+            return unit_thumb(i)
         key = {5: 'mat', 13: 'food', 22: 'event', 24: 'tool'}.get(t)
         if not key:
             return ''
@@ -182,10 +195,9 @@ def main():
     # The export has no battle (enemy placement) table, but boss enemy ids follow the dungeon id:
     #   dungeon D < 1000000: D*100 + 20*(quest index) + k   (488 -> 48800, 48820, 48840, 48863)
     #   dungeon D >= 1000000: D + k                          (5040900 -> 5040900, 5040905, ...)
-    # Art: the enemy's unit thumbnail in dlc/unit/thumbnail when the repo has it.
+    # Art: the enemy's unit thumbnail (dlc/<region>/unit/thumbnail, see unit_thumb) when the repo has it.
     # boss_info_master adds a description and status resistances for some bosses (Summoners Road etc.).
     unit_rows = {u['id']: u for u in load('unit_master')}
-    thumbs = set((os.listdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) if os.path.isdir(os.path.join(DLC, REGION, 'unit', 'thumbnail')) else []))
     boss_enemies = {e['id']: e for e in load('enemy_master') if num(e.get('is_boss')) == 1}
     boss_info = {}
     for b in load('boss_info_master'):
@@ -200,8 +212,7 @@ def main():
     def boss_row(e):
         u = unit_rows.get(e['unit_id'], {})
         name = clean(e.get('name')) or clean(u.get('name')) or f"Enemy {e['unit_id']}"
-        thumb = f"unit_thumbnail_{e['unit_id']}.png"
-        return {'n': name, 'u': e['unit_id'], 'img': f'{REGION}/unit/thumbnail/{thumb}' if thumb in thumbs else '',
+        return {'n': name, 'u': e['unit_id'], 'img': unit_thumb(e['unit_id']),
                 'el': num(u.get('element')), 'lv': num(e.get('level')), 'hp': num(e.get('hp')), 'atk': num(e.get('attack')),
                 'def': num(e.get('deffence')), 'brk': num(e.get('break_capacity'))}
 
