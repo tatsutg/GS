@@ -96,6 +96,8 @@ def img(rel):
 
 def main():
     dungeons = load('dungeon_master')
+    # map_master: map_id -> region/chapter name (the world-map chapter a Story dungeon belongs to)
+    maps = {num(r.get('id')): clean(r.get('name')) for r in load('map_master')}
     quests = load('quest_master')
     launch = defaultdict(list)
     for x in load('dungeon_launcher_master'):
@@ -336,6 +338,14 @@ def main():
                'q': qs}
         if t in WEEKDAY:
             row['day'] = WEEKDAY[t]
+        # Story chapters: group the Story tab by its world-map chapter (map_id -> chapter no + name, dungeon_no = order)
+        if cat == 'Story':
+            mid = num(d.get('map_id'))
+            if mid in maps and mid % 10000 == 0 and 0 < mid < 1000000:
+                row['ch'] = mid // 10000
+                row['cn'] = maps[mid]
+                row['cord'] = num(d.get('dungeon_no'))
+                row['cimg'] = img(f"{REGION}/worldmap/icon/map_icon_{mid // 10000:03d}.png")
         foes = roster(d['id'])
         if foes:
             row['foes'] = foes   # [name, unit id, thumb, element, level, HP, is boss]
