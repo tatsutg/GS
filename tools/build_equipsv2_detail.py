@@ -101,9 +101,11 @@ def main():
     rel_by_id = release_map()  # stage image id -> sheet release date (GL on Global, JP on Japan)
     skills = {s['id']: s for s in load('skill_master')}
     fx = defaultdict(list)
+    fx_row = {}
     for row in load('skill_effect_master'):
         if row.get('skill_id'):
             fx[row['skill_id']].append(row['id'])
+            fx_row[row['id']] = row
     for v in fx.values():
         v.sort()
     rel = defaultdict(list)          # item id -> [relation rows]
@@ -264,8 +266,23 @@ def main():
                 pic = (skills.get(pid) or {}).get('tumbnail_name1')
                 if pic and pic != 'None':
                     ab_icons[str(pid)] = pic
+    # Ultra Relic abilities: the text has {v1:.1f} / {t2:.1f} slots, filled per ability level from
+    # skill_effect_master sacred_item_effect_formula (value) / _time_formula (seconds), x = level - 1
+    # (x = 0 gives the in-game Lv1 numbers; effect_value is not always right). Per effect, in fx order.
+    sacred = {}
+    for sid, row in S.items():
+        if '{' not in row[1]:
+            continue
+        f = []
+        for eid in row[3]:
+            e = fx_row.get(eid) or {}
+            vf, tf = e.get('sacred_item_effect_formula'), e.get('sacred_item_effect_time_formula')
+            f.append([vf if vf not in (None, 'None') else str(e.get('effect_value', 0)),
+                      tf if tf not in (None, 'None') else str(e.get('effect_time', 0))])
+        sacred[str(sid)] = f
     data = {
         'raw': RAW, 'types': TYPE,
+        'sacred': sacred,
         'skills': {str(k): v for k, v in S.items()},
         'mats': {str(k): v for k, v in M.items()},
         'tagNames': {str(k): v for k, v in tag_name.items()},
