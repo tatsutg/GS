@@ -244,7 +244,9 @@ def main():
             'tags': tags, 'true': true_units,
             'st': stages,
             'lb': [copies, cts],
-            'src': src.get(base, []),
+            # True equips never drop: drop_up_item_dict lists them as drop-rate boosters for the event
+            # (the free normal version is the one that drops), so keep only their exchange sources
+            'src': [x for x in src.get(base, []) if not (true_units and x['t'] == 'drop')],
         }
         # release date from the sheet: earliest dated stage of the family (GL date on Global, JP on Japan).
         # The sheet's Equip ID is the stage IMAGE id (stages row index 2), not the item id.
