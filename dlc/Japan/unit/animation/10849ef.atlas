@@ -522,48 +522,6 @@ EF/ef_slash_A_main/ef_slash_A_main_00011
   orig: 210, 180
   offset: 78, 96
   index: -1
-EF/ef_slash_B_main 2/ef_slash_B_main 2_00001
-  rotate: true
-  xy: 574, 1
-  size: 131, 97
-  orig: 200, 200
-  offset: 35, 21
-  index: -1
-EF/ef_slash_B_main 2/ef_slash_B_main 2_00002
-  rotate: false
-  xy: 374, 523
-  size: 138, 142
-  orig: 200, 200
-  offset: 32, 22
-  index: -1
-EF/ef_slash_B_main 2/ef_slash_B_main 2_00003
-  rotate: false
-  xy: 273, 1288
-  size: 144, 143
-  orig: 200, 200
-  offset: 33, 27
-  index: -1
-EF/ef_slash_B_main 2/ef_slash_B_main 2_00004
-  rotate: true
-  xy: 754, 542
-  size: 143, 102
-  orig: 200, 200
-  offset: 38, 70
-  index: -1
-EF/ef_slash_B_main 2/ef_slash_B_main 2_00005
-  rotate: false
-  xy: 839, 991
-  size: 92, 58
-  orig: 200, 200
-  offset: 82, 111
-  index: -1
-EF/ef_slash_B_main 2/ef_slash_B_main 2_00006
-  rotate: false
-  xy: 925, 1072
-  size: 47, 64
-  orig: 200, 200
-  offset: 130, 106
-  index: -1
 EF/ef_slash_B_main/ef_slash_B_main_00001
   rotate: false
   xy: 1069, 1545
@@ -605,6 +563,48 @@ EF/ef_slash_B_main/ef_slash_B_main_00006
   size: 103, 32
   orig: 200, 200
   offset: 67, 119
+  index: -1
+EF/ef_slash_B_main2/ef_slash_B_main2_00001
+  rotate: true
+  xy: 574, 1
+  size: 131, 97
+  orig: 200, 200
+  offset: 35, 21
+  index: -1
+EF/ef_slash_B_main2/ef_slash_B_main2_00002
+  rotate: false
+  xy: 374, 523
+  size: 138, 142
+  orig: 200, 200
+  offset: 32, 22
+  index: -1
+EF/ef_slash_B_main2/ef_slash_B_main2_00003
+  rotate: false
+  xy: 273, 1288
+  size: 144, 143
+  orig: 200, 200
+  offset: 33, 27
+  index: -1
+EF/ef_slash_B_main2/ef_slash_B_main2_00004
+  rotate: true
+  xy: 754, 542
+  size: 143, 102
+  orig: 200, 200
+  offset: 38, 70
+  index: -1
+EF/ef_slash_B_main2/ef_slash_B_main2_00005
+  rotate: false
+  xy: 839, 991
+  size: 92, 58
+  orig: 200, 200
+  offset: 82, 111
+  index: -1
+EF/ef_slash_B_main2/ef_slash_B_main2_00006
+  rotate: false
+  xy: 925, 1072
+  size: 47, 64
+  orig: 200, 200
+  offset: 130, 106
   index: -1
 EF/ef_slash_bolt_main/ef_slash_bolt_main_00002
   rotate: true

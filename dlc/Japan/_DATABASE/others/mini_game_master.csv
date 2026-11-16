@@ -281,3 +281,36 @@ id,name,class_name,description,game_config,initial_user_data,tutorial_scenario_i
   },
   ""bgm_cue"": ""GS508_KOUZAN""
 }","{""squad_lv"": 0, ""patrol_lv"": 0, ""jam_drone_lv"": 0, ""exp"": 0}",0,ko
+1005,ヘリオルド斬魔伝,Heliold,宝を守れ,"{
+    ""max_lv"": 3,
+    ""need_exp"": { ""1"": 1, ""2"": 2, ""3"": 3 },
+    ""get_exp_clear"": 1,
+    ""get_exp_failure"": 1,
+    ""lv_param"": {
+        ""life"":    { ""0"": 3,  ""1"": 4,  ""2"": 5,  ""3"": 6 },
+        ""stamina"": { ""0"": 70, ""1"": 80, ""2"": 90, ""3"": 100 },
+        ""celesta"": { ""0"": 0,  ""1"": 2,  ""2"": 5,  ""3"": 10 }
+    },
+    ""items"": [
+        { ""key"": ""life"",    ""name"": ""TXT_HELIOLD_PU_LIFE"",    ""name_text"": ""ライフブースト"",
+          ""icon"": ""ability_minigame_life_heliold.png"",    ""value_format"": ""int"" },
+        { ""key"": ""stamina"", ""name"": ""TXT_HELIOLD_PU_STAMINA"", ""name_text"": ""スタミナブースト"",
+          ""icon"": ""ability_minigame_stamina_heliold.png"", ""value_format"": ""int"", ""value_label_text"": ""{0}%"" },
+        { ""key"": ""celesta"", ""name"": ""TXT_HELIOLD_PU_CELESTA"", ""name_text"": ""うらうらうら〜！！"",
+          ""icon"": ""ability_minigame_celesta_heliold.png"", ""value_format"": ""int"", ""value_label_text"": ""{0}%"" }
+    ],
+    ""boost_target_ui"": {
+        ""mode"": ""sprite"",
+        ""sprite"": {
+            ""frames"": [
+                ""CocoStudio/resources/minigame/heliold_frame_01.png"",
+                ""CocoStudio/resources/minigame/heliold_frame_02.png"",
+                ""CocoStudio/resources/minigame/heliold_frame_03.png"",
+                ""CocoStudio/resources/minigame/heliold_frame_04.png""
+            ],
+        ""frame_duration"": 0.12,
+        ""scale"": 1.5,
+        ""flip_x"": false
+        }
+    }
+}","{ ""life_lv"": 0, ""stamina_lv"": 0, ""celesta_lv"": 0, ""exp"": 0 }",0,pt

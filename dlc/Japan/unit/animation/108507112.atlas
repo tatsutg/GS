@@ -172,133 +172,133 @@ DE_skill2_01
   orig: 256, 256
   offset: 111, 112
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00006
+EF/ef_block_particle_main2/ef_block_particle_main2_00006
   rotate: false
   xy: 597, 956
   size: 175, 239
   orig: 400, 400
   offset: 123, 71
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00007
+EF/ef_block_particle_main2/ef_block_particle_main2_00007
   rotate: false
   xy: 595, 1467
   size: 180, 246
   orig: 400, 400
   offset: 118, 64
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00008
+EF/ef_block_particle_main2/ef_block_particle_main2_00008
   rotate: true
   xy: 347, 1012
   size: 183, 249
   orig: 400, 400
   offset: 115, 62
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00009
+EF/ef_block_particle_main2/ef_block_particle_main2_00009
   rotate: true
   xy: 776, 1401
   size: 180, 242
   orig: 400, 400
   offset: 114, 64
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00010
+EF/ef_block_particle_main2/ef_block_particle_main2_00010
   rotate: true
   xy: 766, 1223
   size: 177, 238
   orig: 400, 400
   offset: 115, 66
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00011
+EF/ef_block_particle_main2/ef_block_particle_main2_00011
   rotate: false
   xy: 773, 990
   size: 166, 232
   orig: 400, 400
   offset: 116, 71
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00012
+EF/ef_block_particle_main2/ef_block_particle_main2_00012
   rotate: false
   xy: 371, 399
   size: 157, 217
   orig: 400, 400
   offset: 119, 79
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00013
+EF/ef_block_particle_main2/ef_block_particle_main2_00013
   rotate: true
   xy: 737, 712
   size: 125, 165
   orig: 400, 400
   offset: 124, 114
   index: -1
-EF/ef_block_particle_main 2/ef_block_particle_main 2_00014
+EF/ef_block_particle_main2/ef_block_particle_main2_00014
   rotate: true
   xy: 989, 583
   size: 57, 127
   orig: 400, 400
   offset: 158, 154
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00005
+EF/ef_block_particle_main3/ef_block_particle_main3_00005
   rotate: false
   xy: 678, 240
   size: 156, 158
   orig: 400, 400
   offset: 130, 108
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00006
+EF/ef_block_particle_main3/ef_block_particle_main3_00006
   rotate: true
   xy: 700, 399
   size: 156, 160
   orig: 400, 400
   offset: 130, 107
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00007
+EF/ef_block_particle_main3/ef_block_particle_main3_00007
   rotate: false
   xy: 204, 1
   size: 166, 161
   orig: 400, 400
   offset: 120, 107
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00008
+EF/ef_block_particle_main3/ef_block_particle_main3_00008
   rotate: false
   xy: 564, 734
   size: 172, 163
   orig: 400, 400
   offset: 117, 107
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00009
+EF/ef_block_particle_main3/ef_block_particle_main3_00009
   rotate: false
   xy: 555, 573
   size: 172, 160
   orig: 400, 400
   offset: 117, 111
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00010
+EF/ef_block_particle_main3/ef_block_particle_main3_00010
   rotate: false
   xy: 529, 414
   size: 170, 158
   orig: 400, 400
   offset: 118, 114
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00011
+EF/ef_block_particle_main3/ef_block_particle_main3_00011
   rotate: false
   xy: 728, 556
   size: 165, 155
   orig: 400, 400
   offset: 120, 117
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00012
+EF/ef_block_particle_main3/ef_block_particle_main3_00012
   rotate: true
   xy: 1005, 1228
   size: 158, 147
   orig: 400, 400
   offset: 123, 122
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00013
+EF/ef_block_particle_main3/ef_block_particle_main3_00013
   rotate: false
   xy: 570, 79
   size: 140, 128
   orig: 400, 400
   offset: 129, 130
   index: -1
-EF/ef_block_particle_main 3/ef_block_particle_main 3_00014
+EF/ef_block_particle_main3/ef_block_particle_main3_00014
   rotate: false
   xy: 1527, 1744
   size: 88, 80
@@ -410,42 +410,42 @@ EF/ef_flare_back_main_00007
   orig: 350, 350
   offset: 23, 23
   index: -1
-EF/ef_flare_ray_main 2/ef_flare_ray_main 2_00001
+EF/ef_flare_ray_main2/ef_flare_ray_main2_00001
   rotate: false
   xy: 1460, 1452
   size: 44, 44
   orig: 140, 350
   offset: 50, 295
   index: -1
-EF/ef_flare_ray_main 2/ef_flare_ray_main 2_00003
+EF/ef_flare_ray_main2/ef_flare_ray_main2_00003
   rotate: true
   xy: 1074, 442
   size: 53, 68
   orig: 140, 350
   offset: 45, 271
   index: -1
-EF/ef_flare_ray_main 2/ef_flare_ray_main 2_00005
+EF/ef_flare_ray_main2/ef_flare_ray_main2_00005
   rotate: true
   xy: 1060, 1739
   size: 63, 105
   orig: 140, 350
   offset: 40, 234
   index: -1
-EF/ef_flare_ray_main 2/ef_flare_ray_main 2_00007
+EF/ef_flare_ray_main2/ef_flare_ray_main2_00007
   rotate: true
   xy: 525, 1
   size: 77, 172
   orig: 140, 350
   offset: 33, 167
   index: -1
-EF/ef_flare_ray_main 2/ef_flare_ray_main 2_00009
+EF/ef_flare_ray_main2/ef_flare_ray_main2_00009
   rotate: false
   xy: 238, 623
   size: 96, 330
   orig: 140, 350
   offset: 23, 9
   index: -1
-EF/ef_flare_ray_main 2/ef_flare_ray_main 2_00010
+EF/ef_flare_ray_main2/ef_flare_ray_main2_00010
   rotate: true
   xy: 1182, 1822
   size: 110, 339

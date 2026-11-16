@@ -1,1 +1,5 @@
 id,name,default_wallpaper_id,priority
+1,データ更新画面,None,10
+2,ホーム画面,None,20
+3,バトル前ダウンロード,None,30
+4,バトル前タイトル,None,40

@@ -230,3 +230,7 @@ id,mini_game_event_id,stage_no,name,unlock_condition,stage_config
  ""inner_radius_ratio"": 0.19,
  ""field_scale"": 4.0
 }"
+1005001,1005001,0,Heliold,,"{""difficulty_mode"":0, ""intro_talk"":{""scenario_id"":800010501}, ""break_talk"":{""scenario_id"":800010502}}"
+1005002,1005001,1,Heliold,,"{""difficulty_mode"":1, ""time_limit_sec"":40, ""survival_bonus"":5000, ""speed_start"":120, ""speed_end"":300, ""ramp_sec"":25, ""interval_start"":0.95, ""interval_end"":0.70, ""light_trap_rate"":0, ""light_trap_until_sec"":60}"
+1005003,1005001,2,Heliold,,"{""difficulty_mode"":2, ""time_limit_sec"":80, ""survival_bonus"":10000, ""speed_start"":200, ""speed_end"":450, ""ramp_sec"":55, ""interval_start"":0.55, ""interval_end"":0.30, ""light_trap_rate"":0, ""light_trap_until_sec"":60} "
+1005004,1005001,3,Heliold,,"{""difficulty_mode"":3, ""time_limit_sec"":180, ""survival_bonus"":50000, ""speed_start"":400, ""speed_end"":900, ""ramp_sec"":120, ""interval_start"":0.48, ""interval_end"":0.30, ""light_trap_rate"":0.10, ""light_trap_until_sec"":60}"

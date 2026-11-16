@@ -1,48 +1,195 @@
 
 104327112idle.png
-size: 512,256
+size: 2048,256
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Bike
+  rotate: false
+  xy: 484, 177
+  size: 170, 78
+  orig: 512, 512
+  offset: 156, 196
+  index: -1
+attack1_00
+  rotate: true
+  xy: 655, 120
+  size: 82, 118
+  orig: 512, 512
+  offset: 214, 194
+  index: -1
+attack1_01
+  rotate: true
+  xy: 484, 102
+  size: 74, 122
+  orig: 512, 512
+  offset: 218, 194
+  index: -1
+back_00
+  rotate: true
+  xy: 774, 106
+  size: 96, 118
+  orig: 512, 512
+  offset: 212, 198
+  index: -1
 idle2_00
   rotate: false
-  xy: 1, 80
+  xy: 170, 127
   size: 156, 128
   orig: 512, 512
   offset: 168, 192
   index: -1
 idle2_01
   rotate: false
-  xy: 158, 82
+  xy: 327, 129
   size: 156, 126
   orig: 512, 512
   offset: 168, 192
   index: -1
 idle_00
   rotate: true
-  xy: 315, 132
+  xy: 1555, 179
   size: 76, 128
   orig: 512, 512
   offset: 218, 192
   index: -1
 idle_01
   rotate: true
-  xy: 1, 1
+  xy: 1424, 177
   size: 78, 130
   orig: 512, 512
   offset: 218, 192
   index: -1
 idle_02
   rotate: true
-  xy: 315, 57
+  xy: 1684, 181
   size: 74, 130
   orig: 512, 512
   offset: 220, 192
   index: -1
 idle_03
   rotate: true
-  xy: 158, 9
+  xy: 1815, 183
   size: 72, 128
   orig: 512, 512
   offset: 220, 192
+  index: -1
+skill2_00a
+  rotate: true
+  xy: 1150, 169
+  size: 86, 136
+  orig: 512, 512
+  offset: 218, 192
+  index: -1
+skill2_00b
+  rotate: true
+  xy: 1287, 175
+  size: 80, 136
+  orig: 512, 512
+  offset: 218, 192
+  index: -1
+skill2_01z
+  rotate: true
+  xy: 614, 1
+  size: 94, 98
+  orig: 512, 512
+  offset: 206, 192
+  index: -1
+skill2_02z
+  rotate: false
+  xy: 1226, 62
+  size: 96, 106
+  orig: 512, 512
+  offset: 208, 194
+  index: -1
+skill5_00a
+  rotate: true
+  xy: 404, 1
+  size: 94, 104
+  orig: 512, 512
+  offset: 214, 214
+  index: -1
+skill5_00b
+  rotate: true
+  xy: 509, 1
+  size: 94, 104
+  orig: 512, 512
+  offset: 214, 214
+  index: -1
+skill5_01a
+  rotate: false
+  xy: 1, 12
+  size: 166, 120
+  orig: 512, 512
+  offset: 180, 192
+  index: -1
+skill5_01b
+  rotate: false
+  xy: 1, 133
+  size: 168, 122
+  orig: 512, 512
+  offset: 178, 192
+  index: -1
+skill5_Ba
+  rotate: false
+  xy: 168, 28
+  size: 130, 98
+  orig: 512, 512
+  offset: 200, 206
+  index: -1
+skill5_Ba2
+  rotate: false
+  xy: 893, 96
+  size: 110, 106
+  orig: 512, 512
+  offset: 204, 214
+  index: -1
+skill5_Ba3a
+  rotate: false
+  xy: 1944, 155
+  size: 100, 100
+  orig: 512, 512
+  offset: 206, 214
+  index: -1
+skill5_Ba3b
+  rotate: false
+  xy: 299, 1
+  size: 104, 100
+  orig: 512, 512
+  offset: 206, 214
+  index: -1
+skill5_Bb
+  rotate: false
+  xy: 1004, 104
+  size: 110, 98
+  orig: 512, 512
+  offset: 200, 206
+  index: -1
+skill5_Bf
+  rotate: true
+  xy: 1115, 72
+  size: 96, 110
+  orig: 512, 512
+  offset: 204, 212
+  index: -1
+wheel1
+  rotate: false
+  xy: 655, 203
+  size: 164, 52
+  orig: 512, 512
+  offset: 158, 192
+  index: -1
+wheel2
+  rotate: false
+  xy: 820, 203
+  size: 164, 52
+  orig: 512, 512
+  offset: 158, 192
+  index: -1
+wheel3
+  rotate: false
+  xy: 985, 203
+  size: 164, 52
+  orig: 512, 512
+  offset: 158, 192
   index: -1

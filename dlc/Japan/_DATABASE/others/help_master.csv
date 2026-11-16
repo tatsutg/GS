@@ -16,6 +16,9 @@ id,key,value1,value2,pos_x,pos_y,layer_id,rel_url,scenario_id,image_files
 500,ExtraQuestSelect,990000,500,640,210,0,web/help/ExtraQuestSelect_990000_500.html,0,
 501,ExtraQuestSelect,990000,501,640,210,0,web/help/ExtraQuestSelect_990000_501.html,0,
 503,GrandBattle,2,0,0,0,0,web/help/ExtraQuestSelect_990000_3000001.html,0,
+1000,ExtraQuestSelect,990000,1000,640,210,0,web/help/ExtraQuestSelect_990000_1000.html,0,
+3000,ExtraQuestSelect,990000,3000,640,210,0,web/help/ExtraQuestSelect_990000_3000.html,0,
+3001,ExtraQuestSelect,990000,3001,640,210,0,web/help/ExtraQuestSelect_990000_3001.html,0,
 6010,ExtraQuestSelect,990000,6010,640,210,0,web/help/ExtraQuestSelect_990000_6010.html,0,
 6020,ExtraQuestSelect,990000,6020,640,210,0,web/help/ExtraQuestSelect_990000_6020.html,0,
 6030,ExtraQuestSelect,990000,6030,640,210,0,web/help/ExtraQuestSelect_990000_6030.html,0,
@@ -107,8 +110,14 @@ id,key,value1,value2,pos_x,pos_y,layer_id,rel_url,scenario_id,image_files
 100068,PageHelp_FavoriteVote,0,0,0,0,0,0,0,"[""information/pagehelp_favoritevote_1.png""]"
 100069,PageHelp_Emperor_Iliya,0,0,0,0,0,0,0,"[""information/pagehelp_emperor_iliya.png""]"
 100070,PageHelp_MiniGame,1002,0,0,0,0,0,0,"[""information/pagehelp_minigame_3.png""]"
+100071,PageHelp_SeasonPassMission,0,0,0,0,0,0,0,"[""information/pagehelp_seasonpassmission.png""]"
+100072,PageHelp_SeasonPassLogin,0,0,0,0,0,0,0,"[""information/pagehelp_seasonpasslogin.png""]"
 100073,PageHelp_MiniGame,1003,0,0,0,0,0,0,"[""information/pagehelp_minigame_4.png"",""information/pagehelp_minigame_5.png""]"
+100074,PageHelp_CustomWallpaperSelect,0,0,0,0,0,0,0,"[""information/pagehelp_wallpaperlist.png""]"
 100075,PageHelp_MiniGame,1004,0,0,0,0,0,0,"[""information/pagehelp_minigame_6.png""]"
+100076,PageHelp_WallpaperList,0,0,0,0,0,0,0,"[""information/pagehelp_wallpaperlist.png""]"
+100077,PageHelp_SpIllustList,0,0,0,0,0,0,0,"[""information/pagehelp_illustchange_1.png"",""information/pagehelp_illustchange_2.png"",""information/pagehelp_illustchange_3.png""]"
+100078,PageHelp_MiniGame,1005,0,0,0,0,0,0,"[""information/pagehelp_minigame_7.png""]"
 990100,ExtraQuestSelect,990000,990100,640,210,0,web/help/ExtraQuestSelect_990000_990100.html,0,
 990200,ExtraQuestSelect,990000,990200,640,210,0,web/help/ExtraQuestSelect_990000_990200.html,0,
 990300,ExtraQuestSelect,990000,990300,640,210,0,web/help/ExtraQuestSelect_990000_990300.html,0,
@@ -363,9 +372,9 @@ id,key,value1,value2,pos_x,pos_y,layer_id,rel_url,scenario_id,image_files
 2084600,ExtraQuestSelect,990000,2084600,640,210,0,web/help/ExtraQuestSelect_990000_2084600.html,0,
 2084700,ExtraQuestSelect,990000,2084700,640,210,0,web/help/ExtraQuestSelect_990000_2084700.html,0,
 2085000,ExtraQuestSelect,990000,2085000,640,210,0,web/help/ExtraQuestSelect_990000_2085000.html,0,
-2085500,ExtraQuestSelect,990000,2085500,640,210,0,web/help/ExtraQuestSelect_990000_2085500.html,0,
 2085700,ExtraQuestSelect,990000,2085700,640,210,0,web/help/ExtraQuestSelect_990000_2085700.html,0,
 2086000,ExtraQuestSelect,990000,2086000,640,210,0,web/help/ExtraQuestSelect_990000_2086000.html,0,
+2086400,ExtraQuestSelect,990000,2086400,640,210,0,web/help/ExtraQuestSelect_990000_2086400.html,0,
 3000001,ExtraQuestSelect,990000,3000001,640,210,0,web/help/ExtraQuestSelect_990000_3000001.html,0,
 3000003,ExtraQuestSelect,990000,3000003,640,210,0,web/help/ExtraQuestSelect_990000_3000003.html,0,
 3000004,ExtraQuestSelect,990000,3000004,640,210,0,web/help/ExtraQuestSelect_990000_3000004.html,0,

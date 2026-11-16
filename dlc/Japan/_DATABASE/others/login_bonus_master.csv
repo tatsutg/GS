@@ -1744,9 +1744,5 @@ id,message_title,message_content,daily_reward_id_list,termview_flag,comeback,inf
 ログイン{succession_count}日目の報酬です","1,8,1,13,1,15,2",1,0,0,2026-11-04 04:00:00+09:00,2026-11-11 03:59:59+09:00,None,100,None,base_login_frame.png,0,1
 20261111,ログイン{succession_count}日目,"週間ログインボーナス
 ログイン{succession_count}日目の報酬です","1,9,1,14,1,16,2",1,0,0,2026-11-11 04:00:00+09:00,2026-11-18 03:59:59+09:00,None,100,None,base_login_frame.png,0,1
-20261118,ログイン{succession_count}日目,"週間ログインボーナス
-ログイン{succession_count}日目の報酬です","1,5,1,10,1,17,2",1,0,0,2026-11-18 04:00:00+09:00,2026-11-25 03:59:59+09:00,None,100,None,base_login_frame.png,0,1
-20261125,ログイン{succession_count}日目,"週間ログインボーナス
-ログイン{succession_count}日目の報酬です","1,6,1,11,1,15,2",1,0,0,2026-11-25 04:00:00+09:00,2026-12-02 03:59:59+09:00,None,100,None,base_login_frame.png,0,1
-20261202,ログイン{succession_count}日目,"週間ログインボーナス
-ログイン{succession_count}日目の報酬です","1,7,1,12,1,16,2",1,0,0,2026-12-02 04:00:00+09:00,2026-12-09 03:59:59+09:00,None,100,None,base_login_frame.png,0,1
+20261116,{name},サイバーマンシー・ロストピア PHASE-5公開記念ログインキャンペーン{succession_count}日目の報酬です,"2627,1110,503,2454,2511,1110,2431,2627,26,1110",1,0,0,2026-11-16 15:00:00+09:00,2026-11-30 03:59:59+09:00,None,2265,None,gold_login_frame.png,7,2
+20261117,{name},ヘリオルド斬魔伝ログインキャンペーン{succession_count}日目の報酬です,"3315,3315,3315,3315,3316",1,0,0,2026-11-16 15:00:00+09:00,2026-11-30 03:59:59+09:00,None,2264,None,platium_login_frame.png,7,2

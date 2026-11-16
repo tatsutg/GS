@@ -168,6 +168,7 @@ id,receive_grace,present_type,present_id,present_value,present_custom_parameter,
 168,90,15,0,3,,None
 169,90,9,101765411,1,"{""fortune_level"":30}",None
 170,None,13,1065,3,,None
+171,None,11,None,1000,,None
 201,None,9,101034211,1,,None
 202,None,9,101044111,1,,None
 203,None,9,101134411,1,,None
@@ -1754,6 +1755,8 @@ id,receive_grace,present_type,present_id,present_value,present_custom_parameter,
 3312,90,24,110030131,10,,None
 3313,90,24,510001196,10,,None
 3314,90,24,510001196,20,,None
+3315,90,24,110040005,2,,None
+3316,90,24,110040005,5,,None
 8001,None,8,103111500,1,,None
 8002,None,8,103121500,1,,None
 8003,None,8,103133500,1,,None
@@ -3049,6 +3052,7 @@ id,receive_grace,present_type,present_id,present_value,present_custom_parameter,
 30442,None,33,4141,1,,None
 30443,None,33,4371,1,,None
 30444,None,33,4041,1,,None
+30445,None,33,4401,1,,None
 60001,None,22,6000001,5,,None
 60002,None,22,6000001,2,,None
 60003,None,22,6000001,1,,None

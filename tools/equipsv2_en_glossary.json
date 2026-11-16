@@ -46,7 +46,10 @@
   "神樹の双剣『哭霧』",
   "真『八煌帶剣』",
   "駆鎧『疾風朧雲』",
-  "超神具『凍湖白鳳』"
+  "超神具『凍湖白鳳』",
+  "百刃不知火",
+  "真『百刃不知火』",
+  "桃幻郷の魔眼"
  ],
  "Rジョッキー": "R Jockey",
  "アルゴノウト・レプリカ": "Argonaut Replica",
@@ -692,5 +695,10 @@
  "自身の回避率#%UP": "Increases own Evasion rate by #%",
  "使用者が炎属性の場合、さらにHP#%回復": "If the user is a Fire unit, recovers an additional #% HP",
  "敵の回避率#%DOWN": "Reduces enemy's Evasion rate by #%",
- "敵の命中率#%DOWN": "Reduces enemy's Accuracy by #%"
+ "敵の命中率#%DOWN": "Reduces enemy's Accuracy by #%",
+ "百刃不知火": "Hundred Blades Shiranui",
+ "真『百刃不知火』": "True 'Hundred Blades Shiranui'",
+ "天暁剣・皆伝": "Heavenly Dawn Blade: Mastery",
+ "桃幻郷の魔眼": "Peach Paradise Evil Eye",
+ "剣客怪盗ヘリオルド装備時、命中率#%UP・クエスト開始時、奥義ゲージ#UP(重複なし)": "When equipped by Heliord, Swordsman Phantom Thief, Accuracy #1% UP & Arts gauge #2 UP when quest starts (Only once)"
 }

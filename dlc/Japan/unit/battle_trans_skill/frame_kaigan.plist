@@ -20,7 +20,33 @@
             <key>battle_kaigan_time_gray.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,43},{40,40}}</string>
+                <string>{{1,44},{40,40}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{40,40}}</string>
+                <key>sourceSize</key>
+                <string>{40,40}</string>
+            </dict>
+            <key>battle_maketsukaigan_time.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,87},{40,40}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{40,40}}</string>
+                <key>sourceSize</key>
+                <string>{40,40}</string>
+            </dict>
+            <key>battle_maketsukaigan_time_gray.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{44,1},{40,40}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,7 +59,7 @@
             <key>battle_shinkaigan_time.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,85},{40,40}}</string>
+                <string>{{44,44},{40,40}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +72,7 @@
             <key>battle_shinkaigan_time_gray.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{43,1},{40,40}}</string>
+                <string>{{44,87},{40,40}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -68,9 +94,9 @@
             <key>realTextureFileName</key>
             <string>frame_kaigan.png</string>
             <key>size</key>
-            <string>{128,128}</string>
+            <string>{85,128}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:7c53d8302637e44275a8f2a7b71ca394:2e3ec0cc28c0bb89adc08a2fd4bec74d:dec28da230cb4c6005f84cec08d23c83$</string>
+            <string>$TexturePacker:SmartUpdate:cf6620a48f4f2de5ea3be3c7f0d0e9f7:b6f15995f10df6fa31694fd27405ce70:dec28da230cb4c6005f84cec08d23c83$</string>
             <key>textureFileName</key>
             <string>frame_kaigan.png</string>
         </dict>

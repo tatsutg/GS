@@ -131,6 +131,8 @@ CRAFT_SPINE_EFFECT_SETTING,"{
   ""effect_16.png"": ""GB_WeaponAura_normal""
 }",クラフト画像エフェクト名、背景Spineエフェクト名の対応MAP（JSON）
 CRAFT_VALUE_COLOR,#ffd700,クラフト装備の補正値用カラーコード（通常）
+DAILY_MISSION_REWARD_GROUP_ID,1,現在有効な新デイリーの報酬グループ番号
+DAILY_MISSION_SWITCH_DATE,2026-11-16 15:00:00,新デイリーミッションが有効となる日付
 DEFAULT_CRAFT_ITEM_COUNT_MAX,3,初期クラフト装備最大所持数
 DEFEAT_EVENT_NEXT_COUNT_WAIT_TIME,2,討伐数イベント、次の報酬リセット時の待機時間
 DISCORD_URL,https://discord.gg/FHMHCCeAgY,
@@ -585,10 +587,13 @@ GLOBAL_BOTTOM_GACHA_IMAGE_INFO,"{
 }
 }",
 GOOGLEPLAY_URL,https://play.google.com/store/apps/details?id=jp.goodsmile.grandsummoners_android,GooglePlayのURL
+GOOGLE_PLAY_STORE_SUBS_URL,https://play.google.com/store/account/subscriptions,GooglePlayStoreの定期購入管理画面へのリンクURL
 GPS_ON,0,GPSチェックフラグ 0:ON 1:OFF
 GRAND_BATTLE_OPEN,20,グランドバトル入場許可
 GRAPASS_FLAG,1,0:OFF　1:ON
 GRAPASS_WARNING_DIALOG_DISPLAY_PERIOD,3,グラパス購入ダイアログ表示期間
+HELIOLD_SE_OVERRIDES,"{""go"":""SE_SYSTEM_003_SALLY"",""swing"":""SE_SWISH_SMALLSWORD"",""enemy_cut"":""SE_BATTLE_SWORDSLASH_HEAVY"",""combo_10"":""SE_BATTLE_009_FULLARTS_MAX"",""damage"":""SE_BATTLE_025_BLOW_HIT"",""onigiri_cut"":""SE_BATTLE_SWORD_SRASH"",""onigiri_get"":""SE_BATTLE_CURE_02"",""heart_cut"":""SE_BATTLE_SWORD_SRASH"",""heart_get"":""SE_BATTLE_005_RECOVERY"",""stamina_empty"":""SE_BATTLE_045_PARALYS"",""celesta_ram"":""SE_BATTLE_030_EXPLOSION_02"",""time_up"":""SE_BATTLE_MACHINEGUN_02"",""finale_charge"":""SE_BATTLE_015_BOSS_ALERT_01"",""ougi_cutin"":""SE_BATTLE_012_FULLARTS_SHOOT2"",""ougi_slash"":""SE_BATTLE_SWORD_SRASH"",""ougi_split"":""SE_BATTLE_SWORD_SRASH_02"",""bonus"":""SE_SYSTEM_073_QUEST_MISSION""}",
+HELIOLD_VOICE_OVERRIDES,"{""azurite_come"":""HELIOLD_431_VOICE_ATTACK_A"",""onyx_come"":""HELIOLD_3435_VOICE_PARTY"",""celesta_come"":""HELIOLD_432_VOICE_FULLARTS_RANK7_B""}",
 HELPANIME,NO,すべてのヘルプボタンのアニメを有効にします。
 HELPDENY,NO,すべてのヘルプボタンを利かなく(非表示に)します。
 HELP_ExtraQuestSelect_990000_1000200,"610,260,web/help/ExtraQuestSelect_990000_1000200.html",HELP_ExtraQuestSelect_990000_1000200
@@ -777,6 +782,10 @@ NATIVE_INFORMATION_WINDOW_SUB_BUTTON_JSON,"{
 }",ネイティブお知らせのサブボタン
 NOT_COVERED_FOOD_IDS,"{""food_id_list"": [1065]}",料理の「ホストに合わせる」の際に例外の料理
 NOT_UNLOCK_DUNGEON_MINUTE,10,ダンジョンが解放できない時間（◯分前）
+OLD_GRAPASS_DX_SHOP_DIA_DB_ID_ANDROID,10000,
+OLD_GRAPASS_DX_SHOP_DIA_DB_ID_IOS,10001,
+OLD_GRAPASS_SHOP_DIA_DB_ID_ANDROID,2433,
+OLD_GRAPASS_SHOP_DIA_DB_ID_IOS,2434,
 PARTY_EXTEND_MAX,5,パーティデッキ数上限
 PARTY_PRESETS_PRESS_TIME_RATE,0.12,プリセット入れ替えが始まるまでの長押し時間
 PAYMENT_RANDOM_STRING_LIMIT,64,課金ランダム文字列の文字数
@@ -823,6 +832,8 @@ SCENARIO_AUTO_WAIT_TIME,1,シナリオのオート時のテキスト送りまで
 SCENARIO_DUNGEON_OPEN_QUEST_ID,50705,外伝クエスト解放タイミング（クリア対象クエスト）
 SCENARIO_TEXT_SPEED_MAX_RATE,2.5,シナリオテキスト速度のデフォルトの速さに掛ける最大倍率
 SCENARIO_VOICE_BUS_SEND_LEVEL_DEFAULT_VALUE,0.5,バスセンドレベルのデフォルト値
+SEASON_PASS_LOGIN_BONUS_VALID_DAYS,30,パス機能・ログインボーナスパスの有効日数(購入日からの日数)
+SEASON_PASS_MISSION_VALID_DAYS,30,パス機能・ミッションパスの有効日数(購入日からの日数)
 SENIOR_PLAYER,9999999,マスターズの定員数
 SHARPEN_MAX_EXEC_STOCK_NUM,99,"精錬のストック上限数設定
 例　一回に必要な経験値100
@@ -840,6 +851,7 @@ SHOP_EXTERNAL_BILLING_BANNER_ENABLE,1,ショップにAppPay誘導のバナーを
 SHOP_EXTERNAL_BILLING_URL,https://grandsummoners.com/,AppPay誘導のバナーの遷移先
 SHOW_COMIC_FORMULA1,(-10 * math.atan(0.1 * x) * 2 / math.pi) + 11,グラサマ劇場表示計算式(その日初めて)
 SHOW_COMIC_FORMULA2,(-300 * math.atan(0.2 * x) * 2 / math.pi) + 315,グラサマ劇場表示計算式(その日2回目以降)
+SLOT_LOGIN_BONUS_HOME_BUTTON_ENABLE,1,ホームの右上に「スロット」ボタンを出すか（1 で出す）。押すとその日の結果画面（回さずに止まった状態）が出て、そこからもシェアできる
 SOUND_PLAYER_SCENARIO_VOICE_KEYWORDS,"{""keyword_list"": [""MNST""]}",サウンドプレイヤー内でシナリオボイスに振り分けられるキューシートファイルの接頭定義
 SPECIALIZE_CRAFT_UNIT_FORTUNE_LV,50,スペシャライズ・クラフト「ユニットの運レベル条件」
 SPECIALIZE_CRAFT_UNIT_LIMIT_BREAK_LV,6,スペシャライズ・クラフト「ユニットの限界突破値条件」
@@ -861,9 +873,9 @@ TITLE_CALL_SETTING,"{
     ""events"" :
     [
         {
-            ""cue_name"" : ""unit_439"",
-            ""start_time"" : ""2026-11-06 15:00:00"",
-            ""end_time"" : ""2026-11-16 14:59:59""
+            ""cue_name"" : ""unit_440"",
+            ""start_time"" : ""2026-11-16 15:00:00"",
+            ""end_time"" : ""2026-11-30 14:59:59""
         }
     ]
 }",
@@ -871,14 +883,14 @@ TITLE_LWF_SETTING,"{
     ""events"" :
     [
        {
-            ""lwf_path"" : ""lwf/title_event_voxhalloween_20261106/title_event_voxhalloween_20261106.lwf"",
-            ""lua_path"" : ""lwf/title_event_voxhalloween_20261106/title_event_voxhalloween_20261106.lua"",
+            ""lwf_path"" : ""lwf/title_event_heliord_20261116/title_event_heliord_20261116.lwf"",
+            ""lua_path"" : ""lwf/title_event_heliord_20261116/title_event_heliord_20261116.lua"",
             ""skip_pass"" : ""bbxx"",
             ""tap_image_path"" : """",
             ""tap_image_posX"" : 0,
             ""tap_image_posY"" : 0,
-            ""start_time"" : ""2026-11-06 15:00:00"",
-            ""end_time"" : ""2026-11-16 14:59:59""
+            ""start_time"" : ""2026-11-16 15:00:00"",
+            ""end_time"" : ""2026-11-30 14:59:59""
         }
    ],
     ""default"" :
@@ -944,6 +956,7 @@ VALUE_MAX_EVENT_ITEM,999999,イベントアイテム上限値
 VALUE_MAX_EVENT_ITEM_DISPLAY,999,英雄石表示上限
 VALUE_MAX_GACHA_PT,0,ガチャポイント上限
 VALUE_MAX_ORB,999999999,錬金石所持上限
+WALLPAPER_DUPLICATE_ORB_VALUE,500,重複した壁紙を錬金石に変換するときの数
 WEBVIEW_AGREEMENT_PATH,web/agreement.html,webview利用規約のPATH
 WEBVIEW_COMMERCIAL_PATH,web/commercial.html,webview特商法のPATH
 WEBVIEW_CREDIT_PATH,web/credit.html,webviewクレジットのPATH
@@ -982,3 +995,16 @@ WORLD_AREA_2_BG_CHANGE_RATE,70,ワールドマップのアルトヘルム背景�
 WORLD_AREA_2_OPEN_SCENARIO_PLAY_ID,1,アルトヘルム解放時シナリオのPlayID
 WORLD_MAP_ZOOM_IN_SCALE_LIMIT,1.5,
 WORLD_MAP_ZOOM_OUT_SCALE_LIMIT,0.5,
+X_SHARE_ENABLE,1,投稿のボタンを全部の場面で止めるときは 0（無ければ止めない）
+X_SHARE_REWARD_FORMAT,【{reward}】,投稿の文の報酬 1 つの書き方。{reward} に報酬の名前と数（例 クリスタル×9）
+X_SHARE_SLOT_LOGIN_BONUS_ENABLE,1,結果画面に「シェア」のボタンを出すか（1 で出す）
+X_SHARE_SLOT_LOGIN_BONUS_IMAGE,1,1 なら結果画面を撮った画像を付けて、端末の共有シートを出す（出す先は X・LINE・Discord・写真に保存などからユーザーが選ぶ）。1 以外なら画像なしで X の投稿画面を開く
+X_SHARE_SLOT_LOGIN_BONUS_PRESENT_ID,86,設定マスタ X_SHARE_<場面の ID>_PRESENT_ID に、報酬のマスタ（SnsPresentMaster）の ID を入れます
+X_SHARE_SLOT_LOGIN_BONUS_PRESENT_TEXT,シェアでクリスタル1個！,
+X_SHARE_SLOT_LOGIN_BONUS_TEXT,"{name} {count}/{limit}回目の結果は{rewards}でした！
+#グラサマ #グラサマ999
+https://pr.grandsummoners.com/",投稿の文（そろわなかったとき）
+X_SHARE_SLOT_LOGIN_BONUS_TEXT_JACKPOT,"{name} {count}/{limit}回目で999がそろって{rewards}をGET！
+#グラサマ #グラサマ999
+https://pr.grandsummoners.com/",投稿の文（そろったとき）
+X_SHARE_URL,https://x.com/intent/post?text={text},X の投稿画面の URL。{text} に投稿の文が入る（画像なしで投稿するときに使う）

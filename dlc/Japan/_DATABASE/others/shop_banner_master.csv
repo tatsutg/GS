@@ -2,6 +2,7 @@ id,shop_type,event_id,bg_name,description_text,priority,consume_image,consume_ty
 1,1,None,alchemy_exchange_banner_1.png,,50,icon/material_icon/city_alchemy_alchemy_stone.png,18,0,0
 2,2,None,alchemy_exchange_banner_2.png,,110000000,icon/material_icon/alchemy_rainbow_stone.png,25,0,0
 3,3,None,alchemy_exchange_banner_3.png,,30,,0,0,1
+1000,None,1000,alchemy_exchange_banner_60001.png,,12200181,event/event_icon_100001.png,22,100001,0
 1001,None,1001,alchemy_exchange_banner_1001.png,,5,event/event_icon_100101.png,22,100101,0
 1002,None,1002,alchemy_exchange_banner_1002.png,,3,event/event_icon_100201.png,22,100201,0
 1003,None,1003,alchemy_exchange_banner_1003.png,,2,event/event_icon_100301.png,22,100301,0
@@ -34,6 +35,8 @@ id,shop_type,event_id,bg_name,description_text,priority,consume_image,consume_ty
 1030,None,1030,alchemy_exchange_banner_1030.png,,100000335,event/event_icon_103001.png,22,103001,0
 1031,None,1031,alchemy_exchange_banner_1031.png,,100000335,event/event_icon_103101.png,22,103101,0
 1032,None,1032,alchemy_exchange_banner_1032.png,,100000334,event/event_icon_103201.png,22,103201,0
+3000,None,3000,alchemy_exchange_banner_3000.png,,12200181,event/event_icon_300001.png,22,300001,0
+3001,None,3001,alchemy_exchange_banner_3001.png,,12200181,event/event_icon_300101.png,22,300101,0
 10001,None,10001,alchemy_exchange_banner_10001.png,,99999999,event/event_icon_1000101.png,22,1000101,0
 10002,None,10002,alchemy_exchange_banner_10002.png,,100000000,event/event_icon_1000201.png,22,1000201,0
 10003,None,10003,alchemy_exchange_banner_10003.png,,100000001,event/event_icon_1000301.png,22,1000301,0
@@ -1204,6 +1207,10 @@ id,shop_type,event_id,bg_name,description_text,priority,consume_image,consume_ty
 2086100,None,2086100,alchemy_exchange_banner_2003700.png,,11100100,event/event_icon_208610001.png,22,208610001,0
 2086200,None,2086200,alchemy_exchange_banner_2025800.png,,11100101,event/event_icon_208620001.png,22,208620001,0
 2086300,None,2086300,alchemy_exchange_banner_2013800.png,,11100102,event/event_icon_208630001.png,22,208630001,0
+2086400,None,2086400,alchemy_exchange_banner_2086400.png,,12200192,event/event_icon_208640001.png,22,208640001,0
+2086500,None,2086500,alchemy_exchange_banner_2016400.png,,11100103,event/event_icon_208650001.png,22,208650001,0
+2086600,None,2086600,alchemy_exchange_banner_2016600.png,,11100104,event/event_icon_208660001.png,22,208660001,0
+2086700,None,2086700,alchemy_exchange_banner_2002100.png,,11100105,event/event_icon_208670001.png,22,208670001,0
 3000001,7,3000001,alchemy_exchange_banner_3000001.png,,12200167,event/event_icon_300000101.png,22,300000101,0
 3000003,7,3000003,alchemy_exchange_banner_3000003.png,,12200167,event/event_icon_300000301.png,22,300000301,0
 3000004,7,3000004,alchemy_exchange_banner_3000004.png,,12200167,event/event_icon_300000401.png,22,300000401,0

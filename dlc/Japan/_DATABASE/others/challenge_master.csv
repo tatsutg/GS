@@ -1,4 +1,12 @@
 id,group_id,group_no,reset_interval,challenge_type,challenge_ids,challenge_value,name,description,transition_type,transition_id,transition_detail,present1_type,present1_id,present1_value,present1_custom_parameter,present2_type,present2_id,present2_value,present2_custom_parameter,present3_type,present3_id,present3_value,present3_custom_parameter,present4_type,present4_id,present4_value,present4_custom_parameter,present5_type,present5_id,present5_value,present5_custom_parameter,init_unlock,pri,challenge_event_id
+1001,1,1,4,24,,1,ログインする,ログインする,0,0,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,8,None
+2001,2,1,4,117,,1,秘宝探索の報酬を受け取る,秘宝探索の報酬を受け取る,17,0,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,7,None
+3001,3,1,4,25,,3,異界クエストを3回クリアする,異界にあるクエストを3回クリアする,1,990000,DESTINATION_OW_EVENT,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,6,None
+4001,4,1,4,16,,1,マルチでクエストをクリアする,マルチでクエストをクリアする,1,990000,DESTINATION_OW_EVENT,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,5,None
+5001,5,1,4,119,,1,アリーナでバトルをする,アリーナでバトルをする,6,0,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,4,None
+6001,6,1,4,118,,1,グランドバトルでAPを消費する,グランドバトルでAPを消費する,18,0,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,3,None
+7001,7,1,4,17,,1,料理をする,街の料理屋で料理をする,3,0,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,2,None
+8001,8,1,4,3,,1,街で採取する,街で採取する,13,0,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,1,None
 114514,114514,1,3,49,[2010410],1,Knights of BloodⅠをクリアする,"異界>イベント>【Knights of Blood
  Ⅰ】>「魔血の獄炎」をクリアする",1,990000,DESTINATION_OW_EVENT,11,1,5,0,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,10000,2002
 114515,114515,1,3,49,[2010710],1,Knights of Blood Ⅱをクリアする,"異界>イベント>【Knights of Blood
@@ -695,107 +703,107 @@ id,group_id,group_no,reset_interval,challenge_type,challenge_ids,challenge_value
 1024031,1024000,31,0,24,,850,通算ログイン850日を達成する,通算ログイン850日を達成する,0,0,,11,1,5,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
 1024032,1024000,32,0,24,,900,通算ログイン900日を達成する,通算ログイン900日を達成する,0,0,,11,1,5,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
 1024033,1024000,33,0,24,,950,通算ログイン950日を達成する,通算ログイン950日を達成する,0,0,,11,1,5,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024034,1024000,34,0,24,,1000,通算ログイン1000日を達成する,通算ログイン1000日を達成する,0,0,,11,1,1000,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024035,1024000,35,0,24,,1050,通算ログイン1050日を達成する,通算ログイン1050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024036,1024000,36,0,24,,1100,通算ログイン1100日を達成する,通算ログイン1100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024037,1024000,37,0,24,,1150,通算ログイン1150日を達成する,通算ログイン1150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024038,1024000,38,0,24,,1200,通算ログイン1200日を達成する,通算ログイン1200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024039,1024000,39,0,24,,1250,通算ログイン1250日を達成する,通算ログイン1250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024040,1024000,40,0,24,,1300,通算ログイン1300日を達成する,通算ログイン1300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024041,1024000,41,0,24,,1350,通算ログイン1350日を達成する,通算ログイン1350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024042,1024000,42,0,24,,1400,通算ログイン1400日を達成する,通算ログイン1400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024043,1024000,43,0,24,,1450,通算ログイン1450日を達成する,通算ログイン1450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024044,1024000,44,0,24,,1500,通算ログイン1500日を達成する,通算ログイン1500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024045,1024000,45,0,24,,1550,通算ログイン1550日を達成する,通算ログイン1550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024046,1024000,46,0,24,,1600,通算ログイン1600日を達成する,通算ログイン1600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024047,1024000,47,0,24,,1650,通算ログイン1650日を達成する,通算ログイン1650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024048,1024000,48,0,24,,1700,通算ログイン1700日を達成する,通算ログイン1700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024049,1024000,49,0,24,,1750,通算ログイン1750日を達成する,通算ログイン1750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024050,1024000,50,0,24,,1800,通算ログイン1800日を達成する,通算ログイン1800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024051,1024000,51,0,24,,1850,通算ログイン1850日を達成する,通算ログイン1850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024052,1024000,52,0,24,,1900,通算ログイン1900日を達成する,通算ログイン1900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024053,1024000,53,0,24,,1950,通算ログイン1950日を達成する,通算ログイン1950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024054,1024000,54,0,24,,2000,通算ログイン2000日を達成する,通算ログイン2000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024055,1024000,55,0,24,,2050,通算ログイン2050日を達成する,通算ログイン2050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024056,1024000,56,0,24,,2100,通算ログイン2100日を達成する,通算ログイン2100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024057,1024000,57,0,24,,2150,通算ログイン2150日を達成する,通算ログイン2150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024058,1024000,58,0,24,,2200,通算ログイン2200日を達成する,通算ログイン2200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024059,1024000,59,0,24,,2250,通算ログイン2250日を達成する,通算ログイン2250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024060,1024000,60,0,24,,2300,通算ログイン2300日を達成する,通算ログイン2300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024061,1024000,61,0,24,,2350,通算ログイン2350日を達成する,通算ログイン2350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024062,1024000,62,0,24,,2400,通算ログイン2400日を達成する,通算ログイン2400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024063,1024000,63,0,24,,2450,通算ログイン2450日を達成する,通算ログイン2450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024064,1024000,64,0,24,,2500,通算ログイン2500日を達成する,通算ログイン2500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024065,1024000,65,0,24,,2550,通算ログイン2550日を達成する,通算ログイン2550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024066,1024000,66,0,24,,2600,通算ログイン2600日を達成する,通算ログイン2600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024067,1024000,67,0,24,,2650,通算ログイン2650日を達成する,通算ログイン2650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024068,1024000,68,0,24,,2700,通算ログイン2700日を達成する,通算ログイン2700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024069,1024000,69,0,24,,2750,通算ログイン2750日を達成する,通算ログイン2750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024070,1024000,70,0,24,,2800,通算ログイン2800日を達成する,通算ログイン2800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024071,1024000,71,0,24,,2850,通算ログイン2850日を達成する,通算ログイン2850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024072,1024000,72,0,24,,2900,通算ログイン2900日を達成する,通算ログイン2900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024073,1024000,73,0,24,,2950,通算ログイン2950日を達成する,通算ログイン2950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024074,1024000,74,0,24,,3000,通算ログイン3000日を達成する,通算ログイン3000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
-1024075,1024000,75,0,24,,3050,通算ログイン3050日を達成する,通算ログイン3050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024076,1024000,76,0,24,,3100,通算ログイン3100日を達成する,通算ログイン3100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024077,1024000,77,0,24,,3150,通算ログイン3150日を達成する,通算ログイン3150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024078,1024000,78,0,24,,3200,通算ログイン3200日を達成する,通算ログイン3200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024079,1024000,79,0,24,,3250,通算ログイン3250日を達成する,通算ログイン3250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024080,1024000,80,0,24,,3300,通算ログイン3300日を達成する,通算ログイン3300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024081,1024000,81,0,24,,3350,通算ログイン3350日を達成する,通算ログイン3350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024082,1024000,82,0,24,,3400,通算ログイン3400日を達成する,通算ログイン3400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024083,1024000,83,0,24,,3450,通算ログイン3450日を達成する,通算ログイン3450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024084,1024000,84,0,24,,3500,通算ログイン3500日を達成する,通算ログイン3500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024085,1024000,85,0,24,,3550,通算ログイン3550日を達成する,通算ログイン3550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024086,1024000,86,0,24,,3600,通算ログイン3600日を達成する,通算ログイン3600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024087,1024000,87,0,24,,3650,通算ログイン3650日を達成する,通算ログイン3650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024088,1024000,88,0,24,,3700,通算ログイン3700日を達成する,通算ログイン3700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024089,1024000,89,0,24,,3750,通算ログイン3750日を達成する,通算ログイン3750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024090,1024000,90,0,24,,3800,通算ログイン3800日を達成する,通算ログイン3800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024091,1024000,91,0,24,,3850,通算ログイン3850日を達成する,通算ログイン3850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024092,1024000,92,0,24,,3900,通算ログイン3900日を達成する,通算ログイン3900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024093,1024000,93,0,24,,3950,通算ログイン3950日を達成する,通算ログイン3950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024094,1024000,94,0,24,,4000,通算ログイン4000日を達成する,通算ログイン4000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024095,1024000,95,0,24,,4050,通算ログイン4050日を達成する,通算ログイン4050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024096,1024000,96,0,24,,4100,通算ログイン4100日を達成する,通算ログイン4100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024097,1024000,97,0,24,,4150,通算ログイン4150日を達成する,通算ログイン4150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024098,1024000,98,0,24,,4200,通算ログイン4200日を達成する,通算ログイン4200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024099,1024000,99,0,24,,4250,通算ログイン4250日を達成する,通算ログイン4250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024100,1024000,100,0,24,,4300,通算ログイン4300日を達成する,通算ログイン4300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024101,1024000,101,0,24,,4350,通算ログイン4350日を達成する,通算ログイン4350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024102,1024000,102,0,24,,4400,通算ログイン4400日を達成する,通算ログイン4400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024103,1024000,103,0,24,,4450,通算ログイン4450日を達成する,通算ログイン4450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024104,1024000,104,0,24,,4500,通算ログイン4500日を達成する,通算ログイン4500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024105,1024000,105,0,24,,4550,通算ログイン4550日を達成する,通算ログイン4550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024106,1024000,106,0,24,,4600,通算ログイン4600日を達成する,通算ログイン4600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024107,1024000,107,0,24,,4650,通算ログイン4650日を達成する,通算ログイン4650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024108,1024000,108,0,24,,4700,通算ログイン4700日を達成する,通算ログイン4700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024109,1024000,109,0,24,,4750,通算ログイン4750日を達成する,通算ログイン4750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024110,1024000,110,0,24,,4800,通算ログイン4800日を達成する,通算ログイン4800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024111,1024000,111,0,24,,4850,通算ログイン4850日を達成する,通算ログイン4850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024112,1024000,112,0,24,,4900,通算ログイン4900日を達成する,通算ログイン4900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024113,1024000,113,0,24,,4950,通算ログイン4950日を達成する,通算ログイン4950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024114,1024000,114,0,24,,5000,通算ログイン5000日を達成する,通算ログイン5000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024115,1024000,115,0,24,,5050,通算ログイン5050日を達成する,通算ログイン5050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024116,1024000,116,0,24,,5100,通算ログイン5100日を達成する,通算ログイン5100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024117,1024000,117,0,24,,5150,通算ログイン5150日を達成する,通算ログイン5150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024118,1024000,118,0,24,,5200,通算ログイン5200日を達成する,通算ログイン5200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024119,1024000,119,0,24,,5250,通算ログイン5250日を達成する,通算ログイン5250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024120,1024000,120,0,24,,5300,通算ログイン5300日を達成する,通算ログイン5300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024121,1024000,121,0,24,,5350,通算ログイン5350日を達成する,通算ログイン5350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024122,1024000,122,0,24,,5400,通算ログイン5400日を達成する,通算ログイン5400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024123,1024000,123,0,24,,5450,通算ログイン5450日を達成する,通算ログイン5450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024124,1024000,124,0,24,,5500,通算ログイン5500日を達成する,通算ログイン5500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024125,1024000,125,0,24,,5550,通算ログイン5550日を達成する,通算ログイン5550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024126,1024000,126,0,24,,5600,通算ログイン5600日を達成する,通算ログイン5600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024127,1024000,127,0,24,,5650,通算ログイン5650日を達成する,通算ログイン5650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024128,1024000,128,0,24,,5700,通算ログイン5700日を達成する,通算ログイン5700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024129,1024000,129,0,24,,5750,通算ログイン5750日を達成する,通算ログイン5750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024130,1024000,130,0,24,,5800,通算ログイン5800日を達成する,通算ログイン5800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024131,1024000,131,0,24,,5850,通算ログイン5850日を達成する,通算ログイン5850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024132,1024000,132,0,24,,5900,通算ログイン5900日を達成する,通算ログイン5900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024133,1024000,133,0,24,,5950,通算ログイン5950日を達成する,通算ログイン5950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
-1024134,1024000,134,0,24,,6000,通算ログイン6000日を達成する,通算ログイン6000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024034,1024000,1,3,24,,1000,通算ログイン1000日を達成する,通算ログイン1000日を達成する,0,0,,11,1,1000,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,3081,1180
+1024035,1024000,34,0,24,,1050,通算ログイン1050日を達成する,通算ログイン1050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024036,1024000,35,0,24,,1100,通算ログイン1100日を達成する,通算ログイン1100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024037,1024000,36,0,24,,1150,通算ログイン1150日を達成する,通算ログイン1150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024038,1024000,37,0,24,,1200,通算ログイン1200日を達成する,通算ログイン1200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024039,1024000,38,0,24,,1250,通算ログイン1250日を達成する,通算ログイン1250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024040,1024000,39,0,24,,1300,通算ログイン1300日を達成する,通算ログイン1300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024041,1024000,40,0,24,,1350,通算ログイン1350日を達成する,通算ログイン1350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024042,1024000,41,0,24,,1400,通算ログイン1400日を達成する,通算ログイン1400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024043,1024000,42,0,24,,1450,通算ログイン1450日を達成する,通算ログイン1450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024044,1024000,43,0,24,,1500,通算ログイン1500日を達成する,通算ログイン1500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024045,1024000,44,0,24,,1550,通算ログイン1550日を達成する,通算ログイン1550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024046,1024000,45,0,24,,1600,通算ログイン1600日を達成する,通算ログイン1600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024047,1024000,46,0,24,,1650,通算ログイン1650日を達成する,通算ログイン1650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024048,1024000,47,0,24,,1700,通算ログイン1700日を達成する,通算ログイン1700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024049,1024000,48,0,24,,1750,通算ログイン1750日を達成する,通算ログイン1750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024050,1024000,49,0,24,,1800,通算ログイン1800日を達成する,通算ログイン1800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024051,1024000,50,0,24,,1850,通算ログイン1850日を達成する,通算ログイン1850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024052,1024000,51,0,24,,1900,通算ログイン1900日を達成する,通算ログイン1900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024053,1024000,52,0,24,,1950,通算ログイン1950日を達成する,通算ログイン1950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024054,1024000,2,3,24,,2000,通算ログイン2000日を達成する,通算ログイン2000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,1180
+1024055,1024000,53,0,24,,2050,通算ログイン2050日を達成する,通算ログイン2050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024056,1024000,54,0,24,,2100,通算ログイン2100日を達成する,通算ログイン2100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024057,1024000,55,0,24,,2150,通算ログイン2150日を達成する,通算ログイン2150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024058,1024000,56,0,24,,2200,通算ログイン2200日を達成する,通算ログイン2200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024059,1024000,57,0,24,,2250,通算ログイン2250日を達成する,通算ログイン2250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024060,1024000,58,0,24,,2300,通算ログイン2300日を達成する,通算ログイン2300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024061,1024000,59,0,24,,2350,通算ログイン2350日を達成する,通算ログイン2350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024062,1024000,60,0,24,,2400,通算ログイン2400日を達成する,通算ログイン2400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024063,1024000,61,0,24,,2450,通算ログイン2450日を達成する,通算ログイン2450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024064,1024000,62,0,24,,2500,通算ログイン2500日を達成する,通算ログイン2500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024065,1024000,63,0,24,,2550,通算ログイン2550日を達成する,通算ログイン2550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024066,1024000,64,0,24,,2600,通算ログイン2600日を達成する,通算ログイン2600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024067,1024000,65,0,24,,2650,通算ログイン2650日を達成する,通算ログイン2650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024068,1024000,66,0,24,,2700,通算ログイン2700日を達成する,通算ログイン2700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024069,1024000,67,0,24,,2750,通算ログイン2750日を達成する,通算ログイン2750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024070,1024000,68,0,24,,2800,通算ログイン2800日を達成する,通算ログイン2800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024071,1024000,69,0,24,,2850,通算ログイン2850日を達成する,通算ログイン2850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024072,1024000,70,0,24,,2900,通算ログイン2900日を達成する,通算ログイン2900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024073,1024000,71,0,24,,2950,通算ログイン2950日を達成する,通算ログイン2950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,None
+1024074,1024000,3,3,24,,3000,通算ログイン3000日を達成する,通算ログイン3000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,0,3081,1180
+1024075,1024000,72,0,24,,3050,通算ログイン3050日を達成する,通算ログイン3050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024076,1024000,73,0,24,,3100,通算ログイン3100日を達成する,通算ログイン3100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024077,1024000,74,0,24,,3150,通算ログイン3150日を達成する,通算ログイン3150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024078,1024000,75,0,24,,3200,通算ログイン3200日を達成する,通算ログイン3200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024079,1024000,76,0,24,,3250,通算ログイン3250日を達成する,通算ログイン3250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024080,1024000,77,0,24,,3300,通算ログイン3300日を達成する,通算ログイン3300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024081,1024000,78,0,24,,3350,通算ログイン3350日を達成する,通算ログイン3350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024082,1024000,79,0,24,,3400,通算ログイン3400日を達成する,通算ログイン3400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024083,1024000,80,0,24,,3450,通算ログイン3450日を達成する,通算ログイン3450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024084,1024000,81,0,24,,3500,通算ログイン3500日を達成する,通算ログイン3500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024085,1024000,82,0,24,,3550,通算ログイン3550日を達成する,通算ログイン3550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024086,1024000,83,0,24,,3600,通算ログイン3600日を達成する,通算ログイン3600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024087,1024000,84,0,24,,3650,通算ログイン3650日を達成する,通算ログイン3650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024088,1024000,85,0,24,,3700,通算ログイン3700日を達成する,通算ログイン3700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024089,1024000,86,0,24,,3750,通算ログイン3750日を達成する,通算ログイン3750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024090,1024000,87,0,24,,3800,通算ログイン3800日を達成する,通算ログイン3800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024091,1024000,88,0,24,,3850,通算ログイン3850日を達成する,通算ログイン3850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024092,1024000,89,0,24,,3900,通算ログイン3900日を達成する,通算ログイン3900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024093,1024000,90,0,24,,3950,通算ログイン3950日を達成する,通算ログイン3950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024094,1024000,4,3,24,,4000,通算ログイン4000日を達成する,通算ログイン4000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,1180
+1024095,1024000,91,0,24,,4050,通算ログイン4050日を達成する,通算ログイン4050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024096,1024000,92,0,24,,4100,通算ログイン4100日を達成する,通算ログイン4100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024097,1024000,93,0,24,,4150,通算ログイン4150日を達成する,通算ログイン4150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024098,1024000,94,0,24,,4200,通算ログイン4200日を達成する,通算ログイン4200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024099,1024000,95,0,24,,4250,通算ログイン4250日を達成する,通算ログイン4250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024100,1024000,96,0,24,,4300,通算ログイン4300日を達成する,通算ログイン4300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024101,1024000,97,0,24,,4350,通算ログイン4350日を達成する,通算ログイン4350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024102,1024000,98,0,24,,4400,通算ログイン4400日を達成する,通算ログイン4400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024103,1024000,99,0,24,,4450,通算ログイン4450日を達成する,通算ログイン4450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024104,1024000,100,0,24,,4500,通算ログイン4500日を達成する,通算ログイン4500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024105,1024000,101,0,24,,4550,通算ログイン4550日を達成する,通算ログイン4550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024106,1024000,102,0,24,,4600,通算ログイン4600日を達成する,通算ログイン4600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024107,1024000,103,0,24,,4650,通算ログイン4650日を達成する,通算ログイン4650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024108,1024000,104,0,24,,4700,通算ログイン4700日を達成する,通算ログイン4700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024109,1024000,105,0,24,,4750,通算ログイン4750日を達成する,通算ログイン4750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024110,1024000,106,0,24,,4800,通算ログイン4800日を達成する,通算ログイン4800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024111,1024000,107,0,24,,4850,通算ログイン4850日を達成する,通算ログイン4850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024112,1024000,108,0,24,,4900,通算ログイン4900日を達成する,通算ログイン4900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024113,1024000,109,0,24,,4950,通算ログイン4950日を達成する,通算ログイン4950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024114,1024000,5,3,24,,5000,通算ログイン5000日を達成する,通算ログイン5000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,1180
+1024115,1024000,110,0,24,,5050,通算ログイン5050日を達成する,通算ログイン5050日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024116,1024000,111,0,24,,5100,通算ログイン5100日を達成する,通算ログイン5100日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024117,1024000,112,0,24,,5150,通算ログイン5150日を達成する,通算ログイン5150日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024118,1024000,113,0,24,,5200,通算ログイン5200日を達成する,通算ログイン5200日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024119,1024000,114,0,24,,5250,通算ログイン5250日を達成する,通算ログイン5250日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024120,1024000,115,0,24,,5300,通算ログイン5300日を達成する,通算ログイン5300日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024121,1024000,116,0,24,,5350,通算ログイン5350日を達成する,通算ログイン5350日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024122,1024000,117,0,24,,5400,通算ログイン5400日を達成する,通算ログイン5400日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024123,1024000,118,0,24,,5450,通算ログイン5450日を達成する,通算ログイン5450日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024124,1024000,119,0,24,,5500,通算ログイン5500日を達成する,通算ログイン5500日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024125,1024000,120,0,24,,5550,通算ログイン5550日を達成する,通算ログイン5550日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024126,1024000,121,0,24,,5600,通算ログイン5600日を達成する,通算ログイン5600日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024127,1024000,122,0,24,,5650,通算ログイン5650日を達成する,通算ログイン5650日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024128,1024000,123,0,24,,5700,通算ログイン5700日を達成する,通算ログイン5700日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024129,1024000,124,0,24,,5750,通算ログイン5750日を達成する,通算ログイン5750日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024130,1024000,125,0,24,,5800,通算ログイン5800日を達成する,通算ログイン5800日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024131,1024000,126,0,24,,5850,通算ログイン5850日を達成する,通算ログイン5850日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024132,1024000,127,0,24,,5900,通算ログイン5900日を達成する,通算ログイン5900日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024133,1024000,128,0,24,,5950,通算ログイン5950日を達成する,通算ログイン5950日を達成する,0,0,,11,1,5,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,None
+1024134,1024000,6,3,24,,6000,通算ログイン6000日を達成する,通算ログイン6000日を達成する,0,0,,11,1,1000,,None,None,None,,None,None,0,,None,None,0,,None,None,0,,0,3081,1180
 1027061,10270002,1,0,27,,2,RANK2を達成する,RANK2を達成する,0,0,,11,1,1,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,1,3071,None
 1027062,10270002,2,0,27,,3,RANK3を達成する,RANK3を達成する,0,0,,11,1,1,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,3071,None
 1027063,10270002,3,0,27,,4,RANK4を達成する,RANK4を達成する,0,0,,11,1,1,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,3071,None
@@ -3438,6 +3446,7 @@ id,group_id,group_no,reset_interval,challenge_type,challenge_ids,challenge_value
 1049013,1049000,13,3,49,[2007213],13,はじまりの塔 １３階をクリアする,異界にある「はじまりの塔 １３階」をクリアする,2,2007200,,11,1,1,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,5870,20001
 1049014,1049000,14,3,49,[2007214],14,はじまりの塔 １４階をクリアする,異界にある「はじまりの塔 １４階」をクリアする,2,2007200,,11,1,1,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,5870,20001
 1049015,1049000,15,3,49,[2007215],15,はじまりの塔 １５階をクリアする,異界にある「はじまりの塔 １５階」をクリアする,2,2007200,,11,1,1,,None,None,0,,None,None,0,,None,None,0,,None,None,0,,0,5870,20001
+1050001,1050000,1,0,120,,1,ミッションパスの報酬を1回受け取る,ミッションパスの報酬を1回受け取る,0,None,,41,21,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,9007,None
 1520101,1520100,1,0,52,[6015],1,外伝「目覚める力」をクリア,"外伝クエスト『目覚める力』の
 「レイアスの決意」をクリアする",2,6010,,5,500001,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,4991,None
 1520201,1520200,1,0,52,[6026],1,外伝「伝えたい想い」をクリア,"外伝クエスト『伝えたい想い』の
@@ -18314,6 +18323,34 @@ ACT.8』の「【真EX・極】蒼き鉄槌」をクリア
 124501201,124501200,1,3,52,[2086012],1,「【EX2】暗黒の化身」をクリア,『ドラクレア三世の野望 後編～ハロウィン2026～』の「【EX2】暗黒の化身」をクリア 期限：11月16日 14:59まで,2,2086000,,5,111350,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32339,1185
 124501301,124501300,1,3,52,[2086013],1,「【真EX】赤月の魔王ヴォックス」をクリア,『ドラクレア三世の野望 後編～ハロウィン2026～』の「【真EX】赤月の魔王ヴォックス」をクリア 期限：11月16日 14:59まで,2,2086000,,5,111350,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32338,1185
 124501401,124501400,1,3,52,[2086014],1,「【真EX・極】巨神の鎧」をクリア,『ドラクレア三世の野望 後編～ハロウィン2026～』の「【真EX・極】巨神の鎧」をクリア 期限：11月16日 14:59まで,2,2086000,,22,208600001,2000,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32337,1185
+124600101,124600100,1,3,52,[2086401],1,「魔眼と種」をクリア,"『Cybermancy;Lostpia PHASE-5』の「魔眼と種」をクリア
+期限：11月30日 14:59まで",2,2086400,,11,1,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32336,1186
+124600201,124600200,1,3,52,[2086402],1,「街の外の世界」をクリア,"『Cybermancy;Lostpia PHASE-5』の「街の外の世界」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,100711,10,,5,100812,10,,5,100913,10,,5,101014,10,,5,101115,10,,1,32335,1186
+124600301,124600300,1,3,52,[2086403],1,「黄と緑」をクリア,"『Cybermancy;Lostpia PHASE-5』の「黄と緑」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,101231,5,,5,101332,5,,5,101433,5,,5,101534,5,,5,101635,5,,1,32334,1186
+124600401,124600400,1,3,52,[2086404],1,「８０秒の攻防」をクリア,"『Cybermancy;Lostpia PHASE-5』の「８０秒の攻防」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,101751,2,,5,101852,2,,5,101953,2,,5,102054,2,,5,102155,2,,1,32333,1186
+124600501,124600500,1,3,52,[2086405],1,「２８秒の死闘」をクリア,"『Cybermancy;Lostpia PHASE-5』の「２８秒の死闘」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,895305,2,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32332,1186
+124600601,124600600,1,3,52,[2086406],1,「天暁を見上げて」をクリア,"『Cybermancy;Lostpia PHASE-5』の「天暁を見上げて」をクリア
+期限：11月30日 14:59まで",2,2086400,,9,100975411,1,"{""level"":1}",None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32331,1186
+124600701,124600700,1,3,52,[2086407],1,「もう二つの目」をクリア,"『Cybermancy;Lostpia PHASE-5』の「もう二つの目」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,896201,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32330,1186
+124600801,124600800,1,3,52,[2086408],1,「ヘリオルド斬魔伝」をクリア,"『Cybermancy;Lostpia PHASE-5』の「ヘリオルド斬魔伝」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,897202,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32329,1186
+124600901,124600900,1,3,52,[2086409],1,「冥府の剣士」をクリア,"『Cybermancy;Lostpia PHASE-5』の「冥府の剣士」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,898203,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32328,1186
+124601001,124601000,1,3,52,[2086410],1,「瞬きのその手前」をクリア,"『Cybermancy;Lostpia PHASE-5』の「瞬きのその手前」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,117650,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32327,1186
+124601101,124601100,1,3,52,[2086411],1,「【EX1】黒きまぼろし」をクリア,"『Cybermancy;Lostpia PHASE-5』の「【EX1】黒きまぼろし」をクリア
+期限：11月30日 14:59まで",2,2086400,,8,114401500,1,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32326,1186
+124601201,124601200,1,3,52,[2086412],1,「【EX2】日陰の神」をクリア,"『Cybermancy;Lostpia PHASE-5』の「【EX2】日陰の神」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,111350,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32325,1186
+124601301,124601300,1,3,52,[2086413],1,「【真EX】剣客怪盗」をクリア,"『Cybermancy;Lostpia PHASE-5』の「【真EX】剣客怪盗」をクリア
+期限：11月30日 14:59まで",2,2086400,,5,111350,5,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32324,1186
+124601401,124601400,1,3,52,[2086414],1,「【真EX・極】荒れ狂う太陽」をクリア,"『Cybermancy;Lostpia PHASE-5』の「【真EX・極】荒れ狂う太陽」をクリア
+期限：11月30日 14:59まで",2,2086400,,22,208640001,2000,,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,32323,1186
 206100101,206100100,1,3,56,,1,①レイドバトルへ参加する,"年末レイドイベントでレイドバトルへ参加する
 報酬:クリスタル1個",8,0,,11,1,1,0,None,None,None,,None,None,None,,None,None,None,,None,None,None,,1,2000,2001
 206100201,206100200,1,3,57,,1,②レイド討伐隊を結成する,"年末レイドイベントでいずれかのレイド討伐隊を結成する
