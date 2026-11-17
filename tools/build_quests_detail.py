@@ -218,8 +218,9 @@ def main():
                 'el': num(u.get('element')), 'lv': num(e.get('level')), 'hp': num(e.get('hp')), 'atk': num(e.get('attack')),
                 'def': num(e.get('deffence')), 'brk': num(e.get('break_capacity'))}
 
-    def bosses_of(did, nq):
-        """[[quest index or -1, boss row], ...] for a dungeon"""
+    def bosses_of(did, names):
+        """[[quest index or -1, boss row], ...] for a dungeon (names = its quest names in order)"""
+        nq = len(names)
         base, stride = (did * 100, 20) if did < 1000000 else (did, 5)
         ids = [i for i in range(base, base + 100) if i in boss_enemies]
         # A boss with one row per difficulty (or an even share per quest) sits in its quests in id order,
@@ -234,6 +235,18 @@ def main():
                     per = len(rows) // nq
                     qi.update({i: k // per for k, i in enumerate(rows)})
         place = {i: qi.get(i, (i - base) // stride) for i in ids}
+        # Bosses of the first k quests sit at the stride (+0, +5, ... for k quests); after a gap, the last quests
+        # (EX1 / EX2 / true EX / true EX extreme) take the remaining ids in order at a wider spacing
+        # (e.g. Cybermancy;Lostpia: 10 quests at +0..+45, then 4 EX quests at +60/+70/+80/+90).
+        # A Daily EX quest is listed first but was added last: its boss has the last id (+75 after +60/+65/+70).
+        have = set(ids)
+        k = 0
+        while base + k * stride in have:
+            k += 1
+        tail = [i for i in ids if i - base >= k * stride and i not in qi]
+        slots = sorted(range(k, nq), key=lambda n: bool(re.search(r'Daily EX|デイリーEX', names[n])))
+        if 0 < k < nq and len(tail) == nq - k and any(place[i] != n for n, i in zip(slots, tail)):
+            place.update(dict(zip(tail, slots)))
         if nq == 1:
             place = dict.fromkeys(ids, 0)  # one quest: every boss is in it
         elif len({q for q in place.values() if q < nq}) < nq and len(ids) == nq                 and all(num(boss_enemies[a].get('hp')) <= num(boss_enemies[b].get('hp')) for a, b in zip(ids, ids[1:])):
@@ -316,7 +329,7 @@ def main():
                        'st': [[round(w / max(1, sum(ws)) * 100, 2) for w in ws] for _, ws in sorted(stages.get(q['id'], {}).items())]})
         # bosses: per quest when the id says which, and the dungeon's distinct bosses (strongest copy)
         uniq = {}
-        for i, b in bosses_of(d['id'], len(qs)):
+        for i, b in bosses_of(d['id'], [q['n'] for q in qs]):
             if i >= 0:
                 qs[i].setdefault('boss', []).append(b)
             if b['u'] not in uniq or b['hp'] > uniq[b['u']]['hp']:
