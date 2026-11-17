@@ -1,0 +1,153 @@
+
+itemskill2175.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/EF_tower/ef_MD_tower_06
+  rotate: false
+  xy: 1, 25
+  size: 54, 230
+  orig: 250, 250
+  offset: 98, 2
+  index: -1
+EF/EF_tower/ef_MD_tower_07
+  rotate: false
+  xy: 56, 27
+  size: 52, 228
+  orig: 250, 250
+  offset: 99, 3
+  index: -1
+EF/EF_tower/ef_MD_tower_08
+  rotate: false
+  xy: 109, 33
+  size: 50, 222
+  orig: 250, 250
+  offset: 100, 5
+  index: -1
+EF/ef_charge_ball_main/ef_charge_ball_main_00001
+  rotate: false
+  xy: 160, 123
+  size: 132, 132
+  orig: 140, 140
+  offset: 4, 4
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00001
+  rotate: true
+  xy: 1, 1
+  size: 23, 19
+  orig: 120, 120
+  offset: 12, 57
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00002
+  rotate: false
+  xy: 399, 109
+  size: 59, 31
+  orig: 120, 120
+  offset: 10, 48
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00003
+  rotate: false
+  xy: 388, 75
+  size: 64, 33
+  orig: 120, 120
+  offset: 10, 47
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00004
+  rotate: false
+  xy: 276, 34
+  size: 85, 41
+  orig: 120, 120
+  offset: 8, 39
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00005
+  rotate: false
+  xy: 292, 76
+  size: 95, 41
+  orig: 120, 120
+  offset: 7, 39
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00006
+  rotate: false
+  xy: 160, 51
+  size: 105, 42
+  orig: 120, 120
+  offset: 7, 38
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00007
+  rotate: false
+  xy: 185, 7
+  size: 90, 43
+  orig: 120, 120
+  offset: 22, 37
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00008
+  rotate: false
+  xy: 109, 1
+  size: 75, 31
+  orig: 120, 120
+  offset: 37, 43
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00009
+  rotate: false
+  xy: 276, 2
+  size: 63, 31
+  orig: 120, 120
+  offset: 49, 44
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00010
+  rotate: false
+  xy: 362, 43
+  size: 51, 31
+  orig: 120, 120
+  offset: 56, 44
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00011
+  rotate: false
+  xy: 482, 225
+  size: 29, 30
+  orig: 120, 120
+  offset: 78, 45
+  index: -1
+EF/ef_particle_road_main2/ef_particle_road_main_00012
+  rotate: false
+  xy: 340, 15
+  size: 21, 18
+  orig: 120, 120
+  offset: 85, 45
+  index: -1
+EF/ef_smash_wave_main/ef_smash_wave_main_00001
+  rotate: true
+  xy: 293, 118
+  size: 22, 105
+  orig: 120, 200
+  offset: 50, 48
+  index: -1
+EF/ef_smash_wave_main/ef_smash_wave_main_00002
+  rotate: true
+  xy: 160, 94
+  size: 28, 131
+  orig: 120, 200
+  offset: 48, 35
+  index: -1
+EF/ef_smash_wave_main/ef_smash_wave_main_00003
+  rotate: true
+  xy: 293, 141
+  size: 34, 156
+  orig: 120, 200
+  offset: 47, 22
+  index: -1
+EF/ef_smash_wave_main/ef_smash_wave_main_00004
+  rotate: true
+  xy: 293, 176
+  size: 37, 179
+  orig: 120, 200
+  offset: 45, 11
+  index: -1
+EF/ef_smash_wave_main/ef_smash_wave_main_00005
+  rotate: true
+  xy: 293, 214
+  size: 41, 188
+  orig: 120, 200
+  offset: 45, 6
+  index: -1

@@ -1,0 +1,195 @@
+
+itemskill1050.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/A1_attack1/9040B_A1_attack1_00000
+  rotate: false
+  xy: 1169, 76
+  size: 134, 51
+  orig: 250, 250
+  offset: 34, 97
+  index: -1
+EF/A1_attack1/9040B_A1_attack1_00001
+  rotate: false
+  xy: 213, 61
+  size: 206, 66
+  orig: 250, 250
+  offset: 31, 90
+  index: -1
+EF/A1_attack1/9040B_A1_attack1_00002
+  rotate: false
+  xy: 1, 59
+  size: 211, 68
+  orig: 250, 250
+  offset: 28, 89
+  index: -1
+EF/A1_attack1/9040B_A1_attack1_00003
+  rotate: false
+  xy: 420, 63
+  size: 207, 64
+  orig: 250, 250
+  offset: 30, 92
+  index: -1
+EF/A1_attack1/9040B_A1_attack1_00004
+  rotate: false
+  xy: 213, 1
+  size: 201, 59
+  orig: 250, 250
+  offset: 33, 94
+  index: -1
+EF/A1_attack1/9040B_A1_attack1_00005
+  rotate: false
+  xy: 1, 5
+  size: 193, 53
+  orig: 250, 250
+  offset: 37, 97
+  index: -1
+EF/A1_attack2/9040B_A1_attack2_00001
+  rotate: true
+  xy: 628, 1
+  size: 84, 77
+  orig: 250, 250
+  offset: 74, 84
+  index: -1
+EF/A1_attack2/9040B_A1_attack2_00003
+  rotate: false
+  xy: 1304, 33
+  size: 110, 94
+  orig: 250, 250
+  offset: 56, 77
+  index: -1
+EF/A1_attack2/9040B_A1_attack2_00004
+  rotate: false
+  xy: 1519, 26
+  size: 102, 101
+  orig: 250, 250
+  offset: 56, 71
+  index: -1
+EF/A1_attack2/9040B_A1_attack2_00005
+  rotate: true
+  xy: 1415, 30
+  size: 97, 103
+  orig: 250, 250
+  offset: 57, 67
+  index: -1
+EF/A1_attack2/9040B_A1_attack2_00006
+  rotate: true
+  xy: 1622, 48
+  size: 79, 107
+  orig: 250, 250
+  offset: 78, 65
+  index: -1
+EF/A1_attack2/9040B_A1_attack2_00007
+  rotate: true
+  xy: 706, 7
+  size: 78, 109
+  orig: 250, 250
+  offset: 78, 64
+  index: -1
+EF/A1_attack3/9040B_A1_attack3_00001
+  rotate: true
+  xy: 816, 59
+  size: 15, 71
+  orig: 250, 250
+  offset: 116, 86
+  index: -1
+EF/A1_attack3/9040B_A1_attack3_00002
+  rotate: true
+  xy: 1730, 24
+  size: 17, 90
+  orig: 250, 250
+  offset: 116, 76
+  index: -1
+EF/A1_attack3/9040B_A1_attack3_00003
+  rotate: true
+  xy: 1622, 26
+  size: 21, 107
+  orig: 250, 250
+  offset: 115, 68
+  index: -1
+EF/A1_attack3/9040B_A1_attack3_00004
+  rotate: true
+  xy: 1863, 103
+  size: 24, 123
+  orig: 250, 250
+  offset: 116, 60
+  index: -1
+EF/A1_attack3/9040B_A1_attack3_00005
+  rotate: true
+  xy: 1730, 74
+  size: 26, 129
+  orig: 250, 250
+  offset: 114, 57
+  index: -1
+EF/A1_attack4/9040B_A1_attack4_00001
+  rotate: true
+  xy: 1730, 101
+  size: 26, 132
+  orig: 250, 250
+  offset: 97, 57
+  index: -1
+EF/A1_attack4/9040B_A1_attack4_00003
+  rotate: true
+  xy: 1007, 95
+  size: 32, 161
+  orig: 250, 250
+  offset: 92, 44
+  index: -1
+EF/A1_attack4/9040B_A1_attack4_00005
+  rotate: true
+  xy: 823, 91
+  size: 36, 183
+  orig: 250, 250
+  offset: 89, 32
+  index: -1
+EF/A1_attack4/9040B_A1_attack4_00007
+  rotate: true
+  xy: 628, 86
+  size: 41, 194
+  orig: 250, 250
+  offset: 85, 23
+  index: -1
+EF/S2_arrow1/9040B_S2_arrow1_00000
+  rotate: true
+  xy: 195, 8
+  size: 50, 16
+  orig: 140, 140
+  offset: 45, 60
+  index: -1
+EF/S2_arrow1/9040B_S2_arrow1_00002
+  rotate: false
+  xy: 816, 43
+  size: 62, 15
+  orig: 140, 140
+  offset: 40, 60
+  index: -1
+EF/S2_arrow1/9040B_S2_arrow1_00004
+  rotate: false
+  xy: 913, 75
+  size: 75, 15
+  orig: 140, 140
+  offset: 34, 60
+  index: -1
+EF/S2_arrow1/9040B_S2_arrow1_00006
+  rotate: false
+  xy: 823, 75
+  size: 89, 15
+  orig: 140, 140
+  offset: 27, 60
+  index: -1
+EF/S2_arrow1/9040B_S2_arrow1_00008
+  rotate: false
+  xy: 1730, 42
+  size: 103, 15
+  orig: 140, 140
+  offset: 20, 60
+  index: -1
+EF/S2_arrow1/9040B_S2_arrow1_00009
+  rotate: false
+  xy: 1730, 58
+  size: 110, 15
+  orig: 140, 140
+  offset: 17, 60
+  index: -1

@@ -1,0 +1,111 @@
+
+itemskill1025.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_dark_main/ef_dark_main_00001
+  rotate: true
+  xy: 217, 7
+  size: 87, 104
+  orig: 240, 240
+  offset: 48, 65
+  index: -1
+EF/ef_dark_main/ef_dark_main_00002
+  rotate: false
+  xy: 191, 170
+  size: 142, 85
+  orig: 240, 240
+  offset: 52, 64
+  index: -1
+EF/ef_dark_main/ef_dark_main_00003
+  rotate: false
+  xy: 334, 162
+  size: 131, 93
+  orig: 240, 240
+  offset: 57, 64
+  index: -1
+EF/ef_dark_main/ef_dark_main_00004
+  rotate: false
+  xy: 738, 150
+  size: 118, 105
+  orig: 240, 240
+  offset: 62, 64
+  index: -1
+EF/ef_dark_main/ef_dark_main_00005
+  rotate: false
+  xy: 857, 158
+  size: 109, 97
+  orig: 240, 240
+  offset: 67, 67
+  index: -1
+EF/ef_dark_main/ef_dark_main_00006
+  rotate: false
+  xy: 322, 74
+  size: 101, 87
+  orig: 240, 240
+  offset: 73, 69
+  index: -1
+EF/ef_dark_main/ef_dark_main_00007
+  rotate: true
+  xy: 141, 0
+  size: 94, 75
+  orig: 240, 240
+  offset: 72, 72
+  index: -1
+EF/ef_slash_main/ef_slash_main_00002
+  rotate: false
+  xy: 0, 112
+  size: 97, 143
+  orig: 128, 160
+  offset: 16, 7
+  index: -1
+EF/ef_slash_main/ef_slash_main_00004
+  rotate: false
+  xy: 98, 112
+  size: 92, 143
+  orig: 128, 160
+  offset: 16, 7
+  index: -1
+EF/ef_slash_main/ef_slash_main_00006
+  rotate: true
+  xy: 0, 23
+  size: 88, 140
+  orig: 128, 160
+  offset: 19, 7
+  index: -1
+EF/ef_slash_main/ef_slash_main_00008
+  rotate: true
+  xy: 466, 168
+  size: 87, 130
+  orig: 128, 160
+  offset: 20, 8
+  index: -1
+EF/lightning7/5140_S2_attack4_00003
+  rotate: false
+  xy: 191, 95
+  size: 113, 74
+  orig: 225, 225
+  offset: 48, 84
+  index: -1
+EF/lightning7/5140_S2_attack4_00004
+  rotate: false
+  xy: 597, 181
+  size: 140, 74
+  orig: 225, 225
+  offset: 21, 83
+  index: -1
+EF/lightning7/5140_S2_attack4_00005
+  rotate: false
+  xy: 597, 109
+  size: 107, 71
+  orig: 225, 225
+  offset: 56, 85
+  index: -1
+EF/lightning7/5140_S2_attack4_00006
+  rotate: false
+  xy: 857, 81
+  size: 105, 76
+  orig: 225, 225
+  offset: 57, 76
+  index: -1

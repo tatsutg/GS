@@ -1,0 +1,244 @@
+
+itemskill1048.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+190_S1_bom1/190_S1_bom1_00053
+  rotate: true
+  xy: 1772, 316
+  size: 74, 94
+  orig: 320, 283
+  offset: 126, 99
+  index: -1
+190_S1_bom1/190_S1_bom1_00054
+  rotate: false
+  xy: 1298, 290
+  size: 89, 99
+  orig: 320, 283
+  offset: 118, 100
+  index: -1
+190_S1_bom1/190_S1_bom1_00055
+  rotate: true
+  xy: 420, 2
+  size: 85, 98
+  orig: 320, 283
+  offset: 119, 101
+  index: -1
+190_S1_bom1/190_S1_bom1_00056
+  rotate: false
+  xy: 964, 398
+  size: 155, 113
+  orig: 320, 283
+  offset: 85, 89
+  index: -1
+190_S1_bom1/190_S1_bom1_00057
+  rotate: false
+  xy: 643, 178
+  size: 260, 129
+  orig: 320, 283
+  offset: 33, 76
+  index: -1
+190_S1_bom1/190_S1_bom1_00058
+  rotate: false
+  xy: 1, 297
+  size: 320, 214
+  orig: 320, 283
+  offset: 0, 31
+  index: -1
+190_S1_bom1/190_S1_bom1_00059
+  rotate: false
+  xy: 1, 82
+  size: 320, 214
+  orig: 320, 283
+  offset: 0, 31
+  index: -1
+190_S1_bom1/190_S1_bom1_00060
+  rotate: false
+  xy: 322, 297
+  size: 320, 214
+  orig: 320, 283
+  offset: 0, 31
+  index: -1
+190_S1_bom1/190_S1_bom1_00061
+  rotate: false
+  xy: 322, 88
+  size: 320, 208
+  orig: 320, 283
+  offset: 0, 34
+  index: -1
+190_S1_bom1/190_S1_bom1_00062
+  rotate: false
+  xy: 643, 308
+  size: 320, 203
+  orig: 320, 283
+  offset: 0, 36
+  index: -1
+190_S1_bom1/190_S1_bom1_00063
+  rotate: false
+  xy: 643, 60
+  size: 119, 117
+  orig: 320, 283
+  offset: 101, 97
+  index: -1
+190_S1_bom1/190_S1_bom1_00064
+  rotate: false
+  xy: 1632, 391
+  size: 125, 120
+  orig: 320, 283
+  offset: 100, 95
+  index: -1
+190_S1_bom1/190_S1_bom1_00065
+  rotate: false
+  xy: 1377, 392
+  size: 127, 119
+  orig: 320, 283
+  offset: 96, 93
+  index: -1
+190_S1_bom1/190_S1_bom1_00066
+  rotate: false
+  xy: 1120, 386
+  size: 128, 125
+  orig: 320, 283
+  offset: 95, 88
+  index: -1
+190_S1_bom1/190_S1_bom1_00067
+  rotate: false
+  xy: 1758, 391
+  size: 125, 120
+  orig: 320, 283
+  offset: 97, 91
+  index: -1
+190_S1_bom1/190_S1_bom1_00068
+  rotate: false
+  xy: 1884, 393
+  size: 126, 118
+  orig: 320, 283
+  offset: 97, 93
+  index: -1
+190_S1_bom1/190_S1_bom1_00069
+  rotate: false
+  xy: 1249, 390
+  size: 127, 121
+  orig: 320, 283
+  offset: 96, 88
+  index: -1
+190_S1_bom1/190_S1_bom1_00070
+  rotate: false
+  xy: 1505, 391
+  size: 126, 120
+  orig: 320, 283
+  offset: 97, 87
+  index: -1
+190_S1_bom1/190_S1_bom1_00071
+  rotate: false
+  xy: 763, 66
+  size: 115, 111
+  orig: 320, 283
+  offset: 96, 87
+  index: -1
+190_S1_bom1/190_S1_bom1_00072
+  rotate: false
+  xy: 964, 287
+  size: 115, 110
+  orig: 320, 283
+  offset: 96, 86
+  index: -1
+190_S1_bom1/190_S1_bom1_00073
+  rotate: false
+  xy: 1080, 282
+  size: 115, 103
+  orig: 320, 283
+  offset: 95, 84
+  index: -1
+190_S1_bom1/190_S1_bom1_00074
+  rotate: true
+  xy: 1196, 272
+  size: 113, 101
+  orig: 320, 283
+  offset: 97, 85
+  index: -1
+190_S1_bom1/190_S1_bom1_00075
+  rotate: false
+  xy: 2011, 501
+  size: 17, 10
+  orig: 320, 283
+  offset: 192, 174
+  index: -1
+attack_00
+  rotate: false
+  xy: 519, 15
+  size: 98, 72
+  orig: 250, 250
+  offset: 80, 116
+  index: -1
+front_00
+  rotate: false
+  xy: 322, 1
+  size: 97, 86
+  orig: 250, 250
+  offset: 77, 83
+  index: -1
+front_01
+  rotate: false
+  xy: 1485, 303
+  size: 95, 87
+  orig: 250, 250
+  offset: 78, 83
+  index: -1
+front_02
+  rotate: false
+  xy: 1677, 302
+  size: 94, 88
+  orig: 250, 250
+  offset: 77, 81
+  index: -1
+front_03
+  rotate: false
+  xy: 1581, 302
+  size: 95, 88
+  orig: 250, 250
+  offset: 76, 81
+  index: -1
+front_04
+  rotate: false
+  xy: 1388, 303
+  size: 96, 88
+  orig: 250, 250
+  offset: 77, 81
+  index: -1
+jamp_00
+  rotate: true
+  xy: 879, 72
+  size: 105, 63
+  orig: 250, 250
+  offset: 82, 101
+  index: -1
+jamp_01
+  rotate: false
+  xy: 1388, 239
+  size: 104, 63
+  orig: 250, 250
+  offset: 83, 103
+  index: -1
+jamp_02
+  rotate: false
+  xy: 1, 11
+  size: 116, 70
+  orig: 250, 250
+  offset: 76, 92
+  index: -1
+jamp_03
+  rotate: false
+  xy: 118, 21
+  size: 114, 60
+  orig: 250, 250
+  offset: 76, 106
+  index: -1
+jamp_04
+  rotate: false
+  xy: 879, 1
+  size: 98, 70
+  orig: 250, 250
+  offset: 78, 107
+  index: -1

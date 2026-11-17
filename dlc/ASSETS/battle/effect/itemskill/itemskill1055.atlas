@@ -1,0 +1,188 @@
+
+itemskill1055.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/130_S1_lightning1/130_S1_lightning1_00000
+  rotate: true
+  xy: 177, 1
+  size: 43, 164
+  orig: 250, 250
+  offset: 101, 86
+  index: -1
+EF/130_S1_lightning1/130_S1_lightning1_00001
+  rotate: true
+  xy: 1, 85
+  size: 42, 247
+  orig: 250, 250
+  offset: 102, 3
+  index: -1
+EF/130_S1_lightning1/130_S1_lightning1_00002
+  rotate: true
+  xy: 1, 45
+  size: 39, 246
+  orig: 250, 250
+  offset: 105, 4
+  index: -1
+EF/130_S1_lightning1/130_S1_lightning1_00003
+  rotate: true
+  xy: 249, 89
+  size: 38, 246
+  orig: 250, 250
+  offset: 105, 4
+  index: -1
+EF/130_S1_lightning1/130_S1_lightning1_00004
+  rotate: true
+  xy: 496, 91
+  size: 36, 246
+  orig: 250, 250
+  offset: 105, 4
+  index: -1
+EF/130_S1_lightning1/130_S1_lightning1_00005
+  rotate: true
+  xy: 743, 92
+  size: 35, 188
+  orig: 250, 250
+  offset: 105, 4
+  index: -1
+EF/130_S1_lightning1/130_S1_lightning1_00006
+  rotate: true
+  xy: 1386, 94
+  size: 33, 159
+  orig: 250, 250
+  offset: 105, 1
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00000
+  rotate: false
+  xy: 1872, 1
+  size: 62, 59
+  orig: 175, 175
+  offset: 55, 71
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00002
+  rotate: true
+  xy: 1984, 50
+  size: 77, 63
+  orig: 175, 175
+  offset: 47, 70
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00004
+  rotate: false
+  xy: 1882, 61
+  size: 101, 66
+  orig: 175, 175
+  offset: 35, 67
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00005
+  rotate: false
+  xy: 1546, 62
+  size: 117, 65
+  orig: 175, 175
+  offset: 28, 66
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00006
+  rotate: false
+  xy: 1250, 62
+  size: 135, 65
+  orig: 175, 175
+  offset: 19, 64
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00007
+  rotate: false
+  xy: 1099, 66
+  size: 150, 61
+  orig: 175, 175
+  offset: 11, 63
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00008
+  rotate: false
+  xy: 932, 71
+  size: 166, 56
+  orig: 175, 175
+  offset: 4, 62
+  index: -1
+EF/130_S1_wave1/130_S1_wave1_00010
+  rotate: false
+  xy: 1, 1
+  size: 175, 43
+  orig: 175, 175
+  offset: 0, 58
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00000
+  rotate: true
+  xy: 1386, 1
+  size: 92, 57
+  orig: 200, 200
+  offset: 46, 75
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00001
+  rotate: false
+  xy: 1779, 1
+  size: 92, 59
+  orig: 200, 200
+  offset: 46, 73
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00003
+  rotate: false
+  xy: 1444, 32
+  size: 97, 61
+  orig: 200, 200
+  offset: 49, 72
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00004
+  rotate: false
+  xy: 1779, 61
+  size: 102, 66
+  orig: 200, 200
+  offset: 47, 71
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00005
+  rotate: false
+  xy: 570, 1
+  size: 107, 69
+  orig: 200, 200
+  offset: 44, 71
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00006
+  rotate: false
+  xy: 459, 1
+  size: 110, 69
+  orig: 200, 200
+  offset: 43, 72
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00008
+  rotate: false
+  xy: 790, 20
+  size: 114, 71
+  orig: 200, 200
+  offset: 41, 72
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00009
+  rotate: false
+  xy: 342, 1
+  size: 116, 69
+  orig: 200, 200
+  offset: 40, 74
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00010
+  rotate: false
+  xy: 1664, 56
+  size: 114, 71
+  orig: 200, 200
+  offset: 42, 74
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00012
+  rotate: false
+  xy: 678, 1
+  size: 111, 60
+  orig: 200, 200
+  offset: 44, 74
+  index: -1
+EF/130_S2_ex1/130_S2_ex1_00013
+  rotate: false
+  xy: 1542, 24
+  size: 109, 37
+  orig: 200, 200
+  offset: 45, 76
+  index: -1

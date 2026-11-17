@@ -1,0 +1,1454 @@
+
+BattleUIEffect.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/01_quest start/start
+  rotate: false
+  xy: 548, 91
+  size: 309, 55
+  orig: 310, 56
+  offset: 1, 0
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00025
+  rotate: false
+  xy: 1958, 11
+  size: 76, 121
+  orig: 250, 250
+  offset: 85, 89
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00003
+  rotate: true
+  xy: 1457, 577
+  size: 74, 122
+  orig: 250, 250
+  offset: 89, 81
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00013
+  rotate: true
+  xy: 1581, 577
+  size: 74, 119
+  orig: 250, 250
+  offset: 90, 80
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00015
+  rotate: true
+  xy: 730, 12
+  size: 77, 127
+  orig: 250, 250
+  offset: 89, 80
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00021
+  rotate: true
+  xy: 2, 7
+  size: 45, 76
+  orig: 250, 250
+  offset: 102, 92
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00022
+  rotate: true
+  xy: 1628, 366
+  size: 39, 65
+  orig: 250, 250
+  offset: 105, 95
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00023
+  rotate: false
+  xy: 1714, 745
+  size: 33, 55
+  orig: 250, 250
+  offset: 108, 98
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00024
+  rotate: false
+  xy: 1695, 361
+  size: 26, 44
+  orig: 250, 250
+  offset: 112, 102
+  index: -1
+image/UI_cutin_circle_01
+  rotate: true
+  xy: 1168, 361
+  size: 214, 240
+  orig: 256, 256
+  offset: 21, 8
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00008
+  rotate: false
+  xy: 296, 36
+  size: 250, 147
+  orig: 250, 250
+  offset: 0, 52
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00009
+  rotate: false
+  xy: 1473, 7
+  size: 238, 125
+  orig: 250, 250
+  offset: 7, 63
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00008
+  rotate: false
+  xy: 1751, 724
+  size: 250, 156
+  orig: 250, 250
+  offset: 0, 47
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00009
+  rotate: false
+  xy: 1221, 3
+  size: 250, 129
+  orig: 250, 250
+  offset: 0, 61
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00008
+  rotate: false
+  xy: 1462, 653
+  size: 250, 147
+  orig: 250, 250
+  offset: 0, 52
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00009
+  rotate: false
+  xy: 1713, 7
+  size: 243, 125
+  orig: 250, 250
+  offset: 4, 63
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00008
+  rotate: false
+  xy: 1714, 575
+  size: 250, 147
+  orig: 250, 250
+  offset: 0, 52
+  index: -1
+image/UI_touch1_02/UI_touch1_02_00005
+  rotate: false
+  xy: 1880, 409
+  size: 166, 164
+  orig: 200, 200
+  offset: 17, 18
+  index: -1
+image/UI_touch2_02/UI_touch2_02_00005
+  rotate: false
+  xy: 1880, 243
+  size: 166, 164
+  orig: 200, 200
+  offset: 17, 18
+  index: -1
+image/UI_wave2_01/boss_skl_00001
+  rotate: false
+  xy: 1628, 407
+  size: 250, 166
+  orig: 250, 250
+  offset: 0, 38
+  index: -1
+image/UI_wave2_01/boss_skl_00003
+  rotate: false
+  xy: 1001, 2
+  size: 218, 130
+  orig: 250, 250
+  offset: 13, 62
+  index: -1
+image/UI_wave2_01/boss_skl_00004
+  rotate: false
+  xy: 1844, 134
+  size: 201, 107
+  orig: 250, 250
+  offset: 21, 74
+  index: -1
+image/UI_wave2_01/boss_skl_00005
+  rotate: false
+  xy: 548, 4
+  size: 180, 85
+  orig: 250, 250
+  offset: 32, 85
+  index: -1
+image/UI_wave2_01/boss_skl_00007
+  rotate: true
+  xy: 1966, 584
+  size: 138, 76
+  orig: 250, 250
+  offset: 53, 90
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00003
+  rotate: false
+  xy: 859, 2
+  size: 140, 138
+  orig: 250, 250
+  offset: 55, 56
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00009
+  rotate: false
+  xy: 1410, 361
+  size: 216, 214
+  orig: 250, 250
+  offset: 17, 18
+  index: -1
+image/skilline/skilline_00000
+  rotate: false
+  xy: 1163, 134
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+image/skilline/skilline_00002
+  rotate: false
+  xy: 1390, 134
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+image/skilline/skilline_00005
+  rotate: false
+  xy: 1617, 134
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+image/weapon-change1/UI_soubihenka1_00000
+  rotate: false
+  xy: 590, 369
+  size: 287, 219
+  orig: 460, 400
+  offset: 86, 86
+  index: -1
+image/weapon-change1/UI_soubihenka1_00002
+  rotate: false
+  xy: 879, 365
+  size: 287, 219
+  orig: 460, 400
+  offset: 86, 86
+  index: -1
+image/weapon-change1/UI_soubihenka1_00004
+  rotate: false
+  xy: 585, 148
+  size: 287, 219
+  orig: 460, 400
+  offset: 86, 86
+  index: -1
+image/weapon-change1/UI_soubihenka1_00006
+  rotate: false
+  xy: 874, 142
+  size: 287, 221
+  orig: 460, 400
+  offset: 86, 85
+  index: -1
+image/weapon-change1/UI_soubihenka1_00008
+  rotate: false
+  xy: 1178, 1555
+  size: 287, 221
+  orig: 460, 400
+  offset: 86, 85
+  index: -1
+image/weapon-change1/UI_soubihenka1_00010
+  rotate: false
+  xy: 1751, 1105
+  size: 287, 221
+  orig: 460, 400
+  offset: 86, 85
+  index: -1
+image/weapon-change1/UI_soubihenka1_00012
+  rotate: false
+  xy: 1173, 800
+  size: 287, 221
+  orig: 460, 400
+  offset: 86, 85
+  index: -1
+image/weapon-change1/UI_soubihenka1_00014
+  rotate: false
+  xy: 1462, 802
+  size: 287, 221
+  orig: 460, 400
+  offset: 86, 85
+  index: -1
+image/weapon-change1/UI_soubihenka1_00016
+  rotate: false
+  xy: 1751, 882
+  size: 287, 221
+  orig: 460, 400
+  offset: 86, 85
+  index: -1
+image/weapon-change1/UI_soubihenka1_00018
+  rotate: false
+  xy: 1168, 577
+  size: 287, 221
+  orig: 460, 400
+  offset: 86, 85
+  index: -1
+image/weapon-change1/UI_soubihenka1_00020
+  rotate: false
+  xy: 1467, 1555
+  size: 287, 225
+  orig: 460, 400
+  offset: 86, 83
+  index: -1
+image/weapon-change1/UI_soubihenka1_00022
+  rotate: false
+  xy: 1756, 1555
+  size: 287, 225
+  orig: 460, 400
+  offset: 86, 83
+  index: -1
+image/weapon-change1/UI_soubihenka1_00023
+  rotate: false
+  xy: 1751, 1328
+  size: 287, 225
+  orig: 460, 400
+  offset: 86, 83
+  index: -1
+image/weapon-change2/UI_soubihenka2_00000
+  rotate: false
+  xy: 884, 850
+  size: 287, 262
+  orig: 460, 400
+  offset: 86, 69
+  index: -1
+image/weapon-change2/UI_soubihenka2_00002
+  rotate: false
+  xy: 879, 586
+  size: 287, 262
+  orig: 460, 400
+  offset: 86, 69
+  index: -1
+image/weapon-change2/UI_soubihenka2_00004
+  rotate: false
+  xy: 1462, 1025
+  size: 287, 262
+  orig: 460, 400
+  offset: 86, 69
+  index: -1
+image/weapon-change2/UI_soubihenka2_00006
+  rotate: false
+  xy: 590, 590
+  size: 287, 264
+  orig: 460, 400
+  offset: 86, 68
+  index: -1
+image/weapon-change2/UI_soubihenka2_00008
+  rotate: false
+  xy: 884, 1114
+  size: 287, 264
+  orig: 460, 400
+  offset: 86, 68
+  index: -1
+image/weapon-change2/UI_soubihenka2_00010
+  rotate: false
+  xy: 1467, 1782
+  size: 287, 264
+  orig: 460, 400
+  offset: 86, 68
+  index: -1
+image/weapon-change2/UI_soubihenka2_00012
+  rotate: false
+  xy: 1756, 1782
+  size: 287, 264
+  orig: 460, 400
+  offset: 86, 68
+  index: -1
+image/weapon-change2/UI_soubihenka2_00014
+  rotate: false
+  xy: 1173, 1289
+  size: 287, 264
+  orig: 460, 400
+  offset: 86, 68
+  index: -1
+image/weapon-change2/UI_soubihenka2_00016
+  rotate: false
+  xy: 1173, 1023
+  size: 287, 264
+  orig: 460, 400
+  offset: 86, 68
+  index: -1
+image/weapon-change2/UI_soubihenka2_00018
+  rotate: false
+  xy: 1462, 1289
+  size: 287, 264
+  orig: 460, 400
+  offset: 86, 68
+  index: -1
+image/weapon-change2/UI_soubihenka2_00020
+  rotate: false
+  xy: 884, 1380
+  size: 287, 268
+  orig: 460, 400
+  offset: 86, 66
+  index: -1
+image/weapon-change2/UI_soubihenka2_00022
+  rotate: false
+  xy: 1178, 1778
+  size: 287, 268
+  orig: 460, 400
+  offset: 86, 66
+  index: -1
+image/weapon-change2/UI_soubihenka2_00023
+  rotate: false
+  xy: 296, 185
+  size: 287, 268
+  orig: 460, 400
+  offset: 86, 66
+  index: -1
+image/weapon-change3/UI_soubihenka3_00000
+  rotate: false
+  xy: 2, 54
+  size: 292, 394
+  orig: 460, 400
+  offset: 85, 2
+  index: -1
+image/weapon-change3/UI_soubihenka3_00002
+  rotate: false
+  xy: 296, 455
+  size: 292, 394
+  orig: 460, 400
+  offset: 85, 2
+  index: -1
+image/weapon-change3/UI_soubihenka3_00004
+  rotate: false
+  xy: 590, 856
+  size: 292, 394
+  orig: 460, 400
+  offset: 85, 2
+  index: -1
+image/weapon-change3/UI_soubihenka3_00006
+  rotate: false
+  xy: 2, 848
+  size: 292, 396
+  orig: 460, 400
+  offset: 85, 1
+  index: -1
+image/weapon-change3/UI_soubihenka3_00008
+  rotate: false
+  xy: 296, 1249
+  size: 292, 396
+  orig: 460, 400
+  offset: 85, 1
+  index: -1
+image/weapon-change3/UI_soubihenka3_00010
+  rotate: false
+  xy: 590, 1650
+  size: 292, 396
+  orig: 460, 400
+  offset: 85, 1
+  index: -1
+image/weapon-change3/UI_soubihenka3_00012
+  rotate: false
+  xy: 2, 450
+  size: 292, 396
+  orig: 460, 400
+  offset: 85, 1
+  index: -1
+image/weapon-change3/UI_soubihenka3_00014
+  rotate: false
+  xy: 296, 851
+  size: 292, 396
+  orig: 460, 400
+  offset: 85, 1
+  index: -1
+image/weapon-change3/UI_soubihenka3_00016
+  rotate: false
+  xy: 590, 1252
+  size: 292, 396
+  orig: 460, 400
+  offset: 85, 1
+  index: -1
+image/weapon-change3/UI_soubihenka3_00018
+  rotate: false
+  xy: 884, 1650
+  size: 292, 396
+  orig: 460, 400
+  offset: 85, 1
+  index: -1
+image/weapon-change3/UI_soubihenka3_00020
+  rotate: false
+  xy: 2, 1647
+  size: 292, 399
+  orig: 460, 400
+  offset: 85, 0
+  index: -1
+image/weapon-change3/UI_soubihenka3_00022
+  rotate: false
+  xy: 2, 1246
+  size: 292, 399
+  orig: 460, 400
+  offset: 85, 0
+  index: -1
+image/weapon-change3/UI_soubihenka3_00023
+  rotate: false
+  xy: 296, 1647
+  size: 292, 399
+  orig: 460, 400
+  offset: 85, 0
+  index: -1
+
+BattleUIEffect2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/CO_bossgage/CO_bossgage2a_00001
+  rotate: false
+  xy: 974, 610
+  size: 77, 107
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00003
+  rotate: false
+  xy: 812, 605
+  size: 79, 112
+  orig: 250, 250
+  offset: 85, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00005
+  rotate: false
+  xy: 774, 365
+  size: 78, 118
+  orig: 250, 250
+  offset: 85, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00007
+  rotate: false
+  xy: 1598, 901
+  size: 79, 115
+  orig: 250, 250
+  offset: 84, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00009
+  rotate: true
+  xy: 1224, 816
+  size: 76, 106
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00011
+  rotate: false
+  xy: 1034, 269
+  size: 77, 108
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00013
+  rotate: true
+  xy: 682, 12
+  size: 78, 114
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00015
+  rotate: false
+  xy: 932, 372
+  size: 79, 115
+  orig: 250, 250
+  offset: 85, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00017
+  rotate: false
+  xy: 893, 610
+  size: 79, 107
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00019
+  rotate: false
+  xy: 1051, 786
+  size: 77, 107
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00021
+  rotate: false
+  xy: 996, 494
+  size: 75, 114
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00023
+  rotate: false
+  xy: 854, 365
+  size: 76, 118
+  orig: 250, 250
+  offset: 85, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00027
+  rotate: false
+  xy: 957, 255
+  size: 75, 115
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2a_00029
+  rotate: false
+  xy: 804, 243
+  size: 76, 120
+  orig: 250, 250
+  offset: 86, 90
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00001
+  rotate: true
+  xy: 1897, 1202
+  size: 72, 135
+  orig: 250, 250
+  offset: 90, 82
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00005
+  rotate: true
+  xy: 815, 1502
+  size: 75, 131
+  orig: 250, 250
+  offset: 88, 81
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00007
+  rotate: false
+  xy: 530, 350
+  size: 78, 136
+  orig: 250, 250
+  offset: 88, 81
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00009
+  rotate: false
+  xy: 814, 719
+  size: 71, 134
+  orig: 250, 250
+  offset: 90, 81
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00011
+  rotate: false
+  xy: 882, 242
+  size: 73, 121
+  orig: 250, 250
+  offset: 90, 80
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00017
+  rotate: false
+  xy: 922, 489
+  size: 72, 119
+  orig: 250, 250
+  offset: 92, 84
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00018
+  rotate: false
+  xy: 879, 994
+  size: 61, 107
+  orig: 250, 250
+  offset: 94, 86
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00019
+  rotate: true
+  xy: 887, 719
+  size: 57, 94
+  orig: 250, 250
+  offset: 97, 88
+  index: -1
+image/CO_bossgage/CO_bossgage2b_00020
+  rotate: false
+  xy: 449, 6
+  size: 51, 87
+  orig: 250, 250
+  offset: 99, 90
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00001
+  rotate: false
+  xy: 1130, 801
+  size: 92, 92
+  orig: 250, 250
+  offset: 79, 79
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00002
+  rotate: false
+  xy: 220, 1389
+  size: 120, 119
+  orig: 250, 250
+  offset: 65, 66
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00003
+  rotate: false
+  xy: 519, 209
+  size: 140, 139
+  orig: 250, 250
+  offset: 55, 56
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00004
+  rotate: false
+  xy: 202, 645
+  size: 158, 157
+  orig: 250, 250
+  offset: 46, 47
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00005
+  rotate: true
+  xy: 1505, 1018
+  size: 174, 172
+  orig: 250, 250
+  offset: 38, 39
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00006
+  rotate: false
+  xy: 1142, 1371
+  size: 186, 185
+  orig: 250, 250
+  offset: 32, 33
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00007
+  rotate: false
+  xy: 2, 776
+  size: 198, 197
+  orig: 250, 250
+  offset: 26, 27
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00008
+  rotate: false
+  xy: 448, 1839
+  size: 208, 207
+  orig: 250, 250
+  offset: 21, 22
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00009
+  rotate: false
+  xy: 2, 1384
+  size: 216, 216
+  orig: 250, 250
+  offset: 17, 17
+  index: -1
+image/UI_cutin_wave1/UI_cutin_wave1_00010
+  rotate: false
+  xy: 2, 1602
+  size: 218, 217
+  orig: 250, 250
+  offset: 16, 17
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00010
+  rotate: false
+  xy: 1833, 1909
+  size: 213, 137
+  orig: 250, 250
+  offset: 19, 57
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00011
+  rotate: false
+  xy: 950, 1025
+  size: 188, 151
+  orig: 250, 250
+  offset: 32, 50
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00012
+  rotate: false
+  xy: 202, 804
+  size: 169, 163
+  orig: 250, 250
+  offset: 41, 44
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00013
+  rotate: true
+  xy: 1504, 1194
+  size: 175, 173
+  orig: 250, 250
+  offset: 38, 39
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00014
+  rotate: false
+  xy: 1142, 1186
+  size: 183, 183
+  orig: 250, 250
+  offset: 34, 34
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00015
+  rotate: false
+  xy: 561, 1296
+  size: 191, 191
+  orig: 250, 250
+  offset: 30, 30
+  index: -1
+image/UI_item_play_01/UI_item_play_01_00016
+  rotate: false
+  xy: 562, 1104
+  size: 191, 190
+  orig: 250, 250
+  offset: 30, 31
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00010
+  rotate: false
+  xy: 1348, 1905
+  size: 235, 141
+  orig: 250, 250
+  offset: 8, 55
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00011
+  rotate: false
+  xy: 1348, 1750
+  size: 208, 153
+  orig: 250, 250
+  offset: 21, 49
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00012
+  rotate: false
+  xy: 1140, 1019
+  size: 179, 165
+  orig: 250, 250
+  offset: 36, 43
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00013
+  rotate: false
+  xy: 2, 3
+  size: 177, 177
+  orig: 250, 250
+  offset: 37, 37
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00014
+  rotate: false
+  xy: 950, 1178
+  size: 187, 185
+  orig: 250, 250
+  offset: 32, 33
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00015
+  rotate: false
+  xy: 426, 1489
+  size: 194, 193
+  orig: 250, 250
+  offset: 28, 29
+  index: -1
+image/UI_item_play_02/UI_item_play_02_00016
+  rotate: false
+  xy: 229, 1633
+  size: 195, 195
+  orig: 250, 250
+  offset: 28, 28
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00010
+  rotate: false
+  xy: 1809, 1768
+  size: 219, 139
+  orig: 250, 250
+  offset: 16, 56
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00011
+  rotate: false
+  xy: 366, 1141
+  size: 194, 153
+  orig: 250, 250
+  offset: 29, 49
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00012
+  rotate: false
+  xy: 378, 974
+  size: 171, 165
+  orig: 250, 250
+  offset: 40, 43
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00013
+  rotate: false
+  xy: 1327, 1194
+  size: 175, 175
+  orig: 250, 250
+  offset: 38, 38
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00014
+  rotate: false
+  xy: 1710, 1581
+  size: 185, 185
+  orig: 250, 250
+  offset: 33, 33
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00015
+  rotate: false
+  xy: 366, 1296
+  size: 193, 191
+  orig: 250, 250
+  offset: 29, 30
+  index: -1
+image/UI_item_play_03/UI_item_play_03_00016
+  rotate: false
+  xy: 754, 1296
+  size: 192, 191
+  orig: 250, 250
+  offset: 30, 30
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00009
+  rotate: false
+  xy: 1585, 1921
+  size: 246, 125
+  orig: 250, 250
+  offset: 2, 63
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00010
+  rotate: false
+  xy: 1108, 1751
+  size: 222, 139
+  orig: 250, 250
+  offset: 15, 56
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00011
+  rotate: true
+  xy: 211, 1186
+  size: 196, 153
+  orig: 250, 250
+  offset: 28, 49
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00012
+  rotate: false
+  xy: 1679, 863
+  size: 172, 165
+  orig: 250, 250
+  offset: 39, 43
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00013
+  rotate: false
+  xy: 1679, 1030
+  size: 175, 175
+  orig: 250, 250
+  offset: 38, 38
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00014
+  rotate: false
+  xy: 1710, 1394
+  size: 185, 185
+  orig: 250, 250
+  offset: 33, 33
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00015
+  rotate: true
+  xy: 622, 1489
+  size: 193, 191
+  orig: 250, 250
+  offset: 29, 30
+  index: -1
+image/UI_item_play_04/UI_item_play_04_00016
+  rotate: false
+  xy: 755, 1103
+  size: 193, 191
+  orig: 250, 250
+  offset: 29, 30
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00008
+  rotate: false
+  xy: 860, 1899
+  size: 250, 147
+  orig: 250, 250
+  offset: 0, 52
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00009
+  rotate: false
+  xy: 860, 1772
+  size: 246, 125
+  orig: 250, 250
+  offset: 2, 63
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00010
+  rotate: false
+  xy: 1585, 1780
+  size: 222, 139
+  orig: 250, 250
+  offset: 15, 56
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00011
+  rotate: false
+  xy: 448, 1684
+  size: 196, 153
+  orig: 250, 250
+  offset: 28, 49
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00012
+  rotate: false
+  xy: 1853, 858
+  size: 172, 165
+  orig: 250, 250
+  offset: 39, 43
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00013
+  rotate: false
+  xy: 1856, 1025
+  size: 175, 175
+  orig: 250, 250
+  offset: 38, 38
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00014
+  rotate: false
+  xy: 1710, 1207
+  size: 185, 185
+  orig: 250, 250
+  offset: 33, 33
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00015
+  rotate: false
+  xy: 815, 1579
+  size: 193, 191
+  orig: 250, 250
+  offset: 29, 30
+  index: -1
+image/UI_item_play_05/UI_item_play_05_00016
+  rotate: false
+  xy: 1010, 1558
+  size: 193, 191
+  orig: 250, 250
+  offset: 29, 30
+  index: -1
+image/UI_skl2/UI_skl2_00000
+  rotate: false
+  xy: 222, 1510
+  size: 162, 121
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00002
+  rotate: false
+  xy: 202, 364
+  size: 162, 121
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00004
+  rotate: false
+  xy: 942, 902
+  size: 162, 121
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00006
+  rotate: false
+  xy: 715, 979
+  size: 162, 122
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00008
+  rotate: false
+  xy: 1106, 895
+  size: 162, 122
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00010
+  rotate: false
+  xy: 1270, 894
+  size: 162, 122
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00012
+  rotate: false
+  xy: 1434, 894
+  size: 162, 122
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00014
+  rotate: true
+  xy: 362, 640
+  size: 162, 122
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00016
+  rotate: false
+  xy: 366, 364
+  size: 162, 122
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00018
+  rotate: false
+  xy: 551, 855
+  size: 162, 122
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00020
+  rotate: true
+  xy: 1205, 1587
+  size: 162, 123
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00022
+  rotate: true
+  xy: 1897, 1604
+  size: 162, 123
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2/UI_skl2_00023
+  rotate: true
+  xy: 1897, 1440
+  size: 162, 123
+  orig: 200, 200
+  offset: 18, 46
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00000
+  rotate: false
+  xy: 983, 720
+  size: 82, 56
+  orig: 120, 120
+  offset: 18, 36
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00002
+  rotate: true
+  xy: 1053, 633
+  size: 82, 56
+  orig: 120, 120
+  offset: 18, 36
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00004
+  rotate: false
+  xy: 1136, 743
+  size: 82, 56
+  orig: 120, 120
+  offset: 18, 36
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00006
+  rotate: true
+  xy: 798, 8
+  size: 82, 56
+  orig: 120, 120
+  offset: 18, 36
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00008
+  rotate: false
+  xy: 1136, 685
+  size: 82, 56
+  orig: 120, 120
+  offset: 18, 36
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00010
+  rotate: false
+  xy: 1111, 627
+  size: 82, 56
+  orig: 120, 120
+  offset: 18, 36
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00012
+  rotate: false
+  xy: 1224, 758
+  size: 82, 56
+  orig: 120, 120
+  offset: 18, 36
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00014
+  rotate: true
+  xy: 502, 2
+  size: 82, 58
+  orig: 120, 120
+  offset: 18, 35
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00016
+  rotate: true
+  xy: 562, 2
+  size: 82, 58
+  orig: 120, 120
+  offset: 18, 35
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00018
+  rotate: true
+  xy: 622, 2
+  size: 82, 58
+  orig: 120, 120
+  offset: 18, 35
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00020
+  rotate: true
+  xy: 879, 910
+  size: 82, 58
+  orig: 120, 120
+  offset: 18, 35
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00022
+  rotate: false
+  xy: 1412, 834
+  size: 82, 58
+  orig: 120, 120
+  offset: 18, 35
+  index: -1
+image/UI_skl2_03/UI_skl2_03_00023
+  rotate: false
+  xy: 1496, 834
+  size: 82, 58
+  orig: 120, 120
+  offset: 18, 35
+  index: -1
+image/UI_skl_link/UI_skl_link_00000_green
+  rotate: false
+  xy: 648, 608
+  size: 162, 121
+  orig: 162, 121
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00002_green
+  rotate: false
+  xy: 639, 485
+  size: 162, 121
+  orig: 162, 121
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00004_green
+  rotate: false
+  xy: 502, 86
+  size: 162, 121
+  orig: 162, 121
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00006_green
+  rotate: false
+  xy: 715, 855
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00008_green
+  rotate: false
+  xy: 486, 731
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00010_green
+  rotate: false
+  xy: 650, 731
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00012_green
+  rotate: true
+  xy: 515, 488
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00014_green
+  rotate: false
+  xy: 610, 361
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00016_green
+  rotate: false
+  xy: 666, 92
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00018_green
+  rotate: false
+  xy: 887, 778
+  size: 162, 122
+  orig: 162, 122
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00020_green
+  rotate: true
+  xy: 1897, 1276
+  size: 162, 123
+  orig: 162, 123
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00022_green
+  rotate: false
+  xy: 551, 979
+  size: 162, 123
+  orig: 162, 123
+  offset: 0, 0
+  index: -1
+image/UI_skl_link/UI_skl_link_00023_green
+  rotate: false
+  xy: 355, 239
+  size: 162, 123
+  orig: 162, 123
+  offset: 0, 0
+  index: -1
+image/UI_touch1_01/UI_touch1_01_00000
+  rotate: false
+  xy: 357, 95
+  size: 143, 142
+  orig: 200, 200
+  offset: 28, 29
+  index: -1
+image/UI_touch1_02/UI_touch1_02_00004
+  rotate: false
+  xy: 201, 212
+  size: 152, 150
+  orig: 200, 200
+  offset: 24, 25
+  index: -1
+image/UI_touch1_02/UI_touch1_02_00006
+  rotate: true
+  xy: 181, 4
+  size: 176, 174
+  orig: 200, 200
+  offset: 12, 13
+  index: -1
+image/UI_touch1_02/UI_touch1_02_00007
+  rotate: false
+  xy: 1330, 1371
+  size: 186, 184
+  orig: 200, 200
+  offset: 7, 8
+  index: -1
+image/UI_touch1_02/UI_touch1_02_00008
+  rotate: false
+  xy: 1330, 1557
+  size: 192, 191
+  orig: 200, 200
+  offset: 4, 5
+  index: -1
+image/UI_touch1_02/UI_touch1_02_00009
+  rotate: false
+  xy: 2, 578
+  size: 198, 196
+  orig: 200, 200
+  offset: 1, 2
+  index: -1
+image/UI_touch1_02/UI_touch1_02_00010
+  rotate: false
+  xy: 658, 1847
+  size: 200, 199
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+image/UI_touch2_01/UI_touch2_01_00000
+  rotate: true
+  xy: 661, 216
+  size: 143, 141
+  orig: 200, 200
+  offset: 29, 29
+  index: -1
+image/UI_touch2_02/UI_touch2_02_00004
+  rotate: false
+  xy: 361, 488
+  size: 152, 150
+  orig: 200, 200
+  offset: 24, 25
+  index: -1
+image/UI_touch2_02/UI_touch2_02_00006
+  rotate: false
+  xy: 1327, 1018
+  size: 176, 174
+  orig: 200, 200
+  offset: 12, 13
+  index: -1
+image/UI_touch2_02/UI_touch2_02_00007
+  rotate: true
+  xy: 1524, 1562
+  size: 186, 184
+  orig: 200, 200
+  offset: 7, 8
+  index: -1
+image/UI_touch2_02/UI_touch2_02_00008
+  rotate: false
+  xy: 948, 1365
+  size: 192, 191
+  orig: 200, 200
+  offset: 4, 5
+  index: -1
+image/UI_touch2_02/UI_touch2_02_00009
+  rotate: false
+  xy: 2, 380
+  size: 198, 196
+  orig: 200, 200
+  offset: 1, 2
+  index: -1
+image/UI_touch2_02/UI_touch2_02_00010
+  rotate: false
+  xy: 2, 975
+  size: 200, 199
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+image/UI_wave2_01/boss_skl_00002
+  rotate: false
+  xy: 1112, 1892
+  size: 234, 154
+  orig: 250, 250
+  offset: 5, 50
+  index: -1
+image/UI_wave2_01/boss_skl_00006
+  rotate: false
+  xy: 486, 652
+  size: 160, 77
+  orig: 250, 250
+  offset: 42, 88
+  index: -1
+image/UI_wave2_01/boss_skl_00008
+  rotate: true
+  xy: 1013, 379
+  size: 113, 74
+  orig: 250, 250
+  offset: 66, 90
+  index: -1
+image/UI_wave2_01/boss_skl_00009
+  rotate: false
+  xy: 1332, 819
+  size: 78, 73
+  orig: 250, 250
+  offset: 83, 90
+  index: -1
+image/UI_wave2_01/boss_skl_00010
+  rotate: false
+  xy: 1067, 717
+  size: 67, 67
+  orig: 250, 250
+  offset: 87, 93
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00001
+  rotate: true
+  xy: 357, 2
+  size: 91, 90
+  orig: 250, 250
+  offset: 79, 80
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00002
+  rotate: true
+  xy: 803, 485
+  size: 118, 117
+  orig: 250, 250
+  offset: 66, 67
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00004
+  rotate: false
+  xy: 202, 487
+  size: 157, 156
+  orig: 250, 250
+  offset: 46, 47
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00005
+  rotate: false
+  xy: 204, 969
+  size: 172, 170
+  orig: 250, 250
+  offset: 39, 40
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00006
+  rotate: true
+  xy: 1524, 1374
+  size: 186, 184
+  orig: 250, 250
+  offset: 32, 33
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00007
+  rotate: false
+  xy: 2, 182
+  size: 197, 196
+  orig: 250, 250
+  offset: 26, 27
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00008
+  rotate: false
+  xy: 2, 1176
+  size: 207, 206
+  orig: 250, 250
+  offset: 21, 22
+  index: -1
+image/UI_wave2_02/UI_wave2_02_00010
+  rotate: false
+  xy: 229, 1830
+  size: 217, 216
+  orig: 250, 250
+  offset: 16, 17
+  index: -1
+image/skilline/skilline_00008
+  rotate: false
+  xy: 2, 1821
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1

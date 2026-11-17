@@ -1,0 +1,139 @@
+
+itemskill1040.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+110_S1_ex1/110_S1_ex1_00000
+  rotate: true
+  xy: 739, 36
+  size: 84, 109
+  orig: 250, 250
+  offset: 84, 79
+  index: -1
+110_S1_ex1/110_S1_ex1_00002
+  rotate: true
+  xy: 739, 121
+  size: 97, 109
+  orig: 250, 250
+  offset: 79, 79
+  index: -1
+110_S1_ex1/110_S1_ex1_00004
+  rotate: false
+  xy: 866, 399
+  size: 135, 111
+  orig: 250, 250
+  offset: 61, 79
+  index: -1
+110_S1_ex1/110_S1_ex1_00006
+  rotate: false
+  xy: 859, 227
+  size: 154, 111
+  orig: 250, 250
+  offset: 52, 76
+  index: -1
+110_S1_ex1/110_S1_ex1_00008
+  rotate: true
+  xy: 541, 331
+  size: 179, 109
+  orig: 250, 250
+  offset: 41, 75
+  index: -1
+110_S1_ex1/110_S1_ex1_00010
+  rotate: false
+  xy: 668, 219
+  size: 190, 101
+  orig: 250, 250
+  offset: 35, 72
+  index: -1
+110_S1_ice1/110_S1_ice1_00000
+  rotate: true
+  xy: 393, 265
+  size: 245, 147
+  orig: 500, 500
+  offset: 121, 153
+  index: -1
+110_S1_ice2/110_S1_ice2_00000
+  rotate: true
+  xy: 1, 142
+  size: 368, 195
+  orig: 500, 500
+  offset: 54, 153
+  index: -1
+110_S1_icebreak1/110_S1_icebreak1_00000
+  rotate: false
+  xy: 1, 32
+  size: 185, 109
+  orig: 500, 500
+  offset: 157, 175
+  index: -1
+110_S1_icebreak1/110_S1_icebreak1_00002
+  rotate: false
+  xy: 393, 6
+  size: 228, 160
+  orig: 500, 500
+  offset: 134, 174
+  index: -1
+110_S1_icebreak1/110_S1_icebreak1_00004
+  rotate: true
+  xy: 197, 243
+  size: 267, 195
+  orig: 500, 500
+  offset: 124, 170
+  index: -1
+110_S2_ice1/110_S2_ice1_00000
+  rotate: false
+  xy: 944, 44
+  size: 79, 182
+  orig: 500, 500
+  offset: 218, 149
+  index: -1
+110_S2_ice2/110_S2_ice2_00000
+  rotate: true
+  xy: 197, 167
+  size: 75, 258
+  orig: 500, 500
+  offset: 220, 112
+  index: -1
+610_S2_water1/610_S2_water1_00000
+  rotate: true
+  xy: 755, 339
+  size: 171, 110
+  orig: 250, 250
+  offset: 36, 79
+  index: -1
+610_S2_water1/610_S2_water1_00002
+  rotate: true
+  xy: 622, 1
+  size: 173, 116
+  orig: 250, 250
+  offset: 37, 74
+  index: -1
+610_S2_water1/610_S2_water1_00004
+  rotate: true
+  xy: 651, 321
+  size: 189, 103
+  orig: 250, 250
+  offset: 30, 72
+  index: -1
+610_S2_water1/610_S2_water1_00006
+  rotate: false
+  xy: 187, 43
+  size: 205, 98
+  orig: 250, 250
+  offset: 22, 72
+  index: -1
+610_S2_water1/610_S2_water1_00010
+  rotate: false
+  xy: 456, 175
+  size: 211, 89
+  orig: 250, 250
+  offset: 21, 75
+  index: -1
+610_S2_water1/610_S2_water1_00012
+  rotate: true
+  xy: 859, 24
+  size: 202, 84
+  orig: 250, 250
+  offset: 28, 76
+  index: -1

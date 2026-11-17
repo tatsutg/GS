@@ -1,0 +1,461 @@
+
+itemskill2145.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_beam_jet_main/ef_beam_jet_main_00001
+  rotate: false
+  xy: 1791, 685
+  size: 56, 89
+  orig: 140, 140
+  offset: 47, 25
+  index: -1
+EF/ef_beam_jet_main/ef_beam_jet_main_00002
+  rotate: true
+  xy: 1739, 775
+  size: 74, 119
+  orig: 140, 140
+  offset: 36, 10
+  index: -1
+EF/ef_beam_jet_main/ef_beam_jet_main_00003
+  rotate: false
+  xy: 1460, 683
+  size: 73, 95
+  orig: 140, 140
+  offset: 36, 22
+  index: -1
+EF/ef_beam_jet_main/ef_beam_jet_main_00004
+  rotate: false
+  xy: 1153, 546
+  size: 80, 101
+  orig: 140, 140
+  offset: 29, 19
+  index: -1
+EF/ef_beam_jet_main/ef_beam_jet_main_00005
+  rotate: false
+  xy: 1169, 663
+  size: 82, 107
+  orig: 140, 140
+  offset: 26, 16
+  index: -1
+EF/ef_beam_jet_main/ef_beam_jet_main_00006
+  rotate: false
+  xy: 1937, 646
+  size: 81, 87
+  orig: 140, 140
+  offset: 26, 29
+  index: -1
+EF/ef_beam_jet_main/ef_beam_jet_main_00007
+  rotate: true
+  xy: 1697, 611
+  size: 80, 82
+  orig: 140, 140
+  offset: 26, 34
+  index: -1
+EF/ef_beam_jet_main/ef_beam_jet_main_00008
+  rotate: true
+  xy: 1613, 621
+  size: 78, 83
+  orig: 140, 140
+  offset: 26, 33
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00001
+  rotate: false
+  xy: 1534, 692
+  size: 78, 90
+  orig: 350, 140
+  offset: 272, 30
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00002
+  rotate: false
+  xy: 696, 148
+  size: 254, 98
+  orig: 350, 140
+  offset: 96, 29
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00003
+  rotate: false
+  xy: 1, 907
+  size: 350, 116
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00004
+  rotate: false
+  xy: 1, 790
+  size: 350, 116
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00005
+  rotate: false
+  xy: 352, 907
+  size: 350, 116
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00006
+  rotate: false
+  xy: 1, 675
+  size: 350, 114
+  orig: 350, 140
+  offset: 0, 12
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00007
+  rotate: false
+  xy: 352, 794
+  size: 350, 112
+  orig: 350, 140
+  offset: 0, 13
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00008
+  rotate: false
+  xy: 703, 913
+  size: 350, 110
+  orig: 350, 140
+  offset: 0, 14
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00009
+  rotate: false
+  xy: 1, 565
+  size: 350, 109
+  orig: 350, 140
+  offset: 0, 15
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00010
+  rotate: false
+  xy: 1054, 916
+  size: 348, 107
+  orig: 350, 140
+  offset: 0, 16
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00011
+  rotate: false
+  xy: 1403, 918
+  size: 341, 105
+  orig: 350, 140
+  offset: 0, 17
+  index: -1
+EF/ef_beam_stroke_A_main/ef_beam_stroke_A_main_00012
+  rotate: true
+  xy: 407, 46
+  size: 328, 95
+  orig: 350, 140
+  offset: 4, 22
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00001
+  rotate: false
+  xy: 1702, 692
+  size: 88, 82
+  orig: 350, 140
+  offset: 258, 31
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00002
+  rotate: false
+  xy: 696, 55
+  size: 257, 92
+  orig: 350, 140
+  offset: 90, 29
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00003
+  rotate: false
+  xy: 352, 682
+  size: 347, 111
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00004
+  rotate: false
+  xy: 703, 801
+  size: 347, 111
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00005
+  rotate: false
+  xy: 1, 453
+  size: 346, 111
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00006
+  rotate: false
+  xy: 352, 572
+  size: 346, 109
+  orig: 350, 140
+  offset: 0, 12
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00007
+  rotate: false
+  xy: 1, 345
+  size: 345, 107
+  orig: 350, 140
+  offset: 0, 13
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00008
+  rotate: true
+  xy: 1, 1
+  size: 343, 105
+  orig: 350, 140
+  offset: 0, 14
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00009
+  rotate: false
+  xy: 699, 503
+  size: 338, 103
+  orig: 350, 140
+  offset: 0, 15
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00010
+  rotate: false
+  xy: 348, 375
+  size: 331, 102
+  orig: 350, 140
+  offset: 0, 16
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00011
+  rotate: true
+  xy: 503, 51
+  size: 323, 99
+  orig: 350, 140
+  offset: 0, 17
+  index: -1
+EF/ef_beam_stroke_B_main/ef_beam_stroke_B_main_00012
+  rotate: false
+  xy: 1745, 932
+  size: 278, 91
+  orig: 350, 140
+  offset: 4, 21
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00001
+  rotate: true
+  xy: 1976, 751
+  size: 98, 71
+  orig: 350, 140
+  offset: 243, 29
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00002
+  rotate: false
+  xy: 1745, 850
+  size: 258, 81
+  orig: 350, 140
+  offset: 85, 28
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00003
+  rotate: true
+  xy: 107, 1
+  size: 343, 99
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00004
+  rotate: true
+  xy: 207, 1
+  size: 343, 99
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00005
+  rotate: true
+  xy: 307, 1
+  size: 343, 99
+  orig: 350, 140
+  offset: 0, 11
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00006
+  rotate: false
+  xy: 703, 703
+  size: 342, 97
+  orig: 350, 140
+  offset: 0, 12
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00007
+  rotate: false
+  xy: 700, 607
+  size: 340, 95
+  orig: 350, 140
+  offset: 0, 13
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00008
+  rotate: false
+  xy: 352, 478
+  size: 335, 93
+  orig: 350, 140
+  offset: 0, 14
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00009
+  rotate: true
+  xy: 603, 46
+  size: 328, 92
+  orig: 350, 140
+  offset: 0, 15
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00010
+  rotate: false
+  xy: 688, 413
+  size: 321, 89
+  orig: 350, 140
+  offset: 0, 16
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00011
+  rotate: false
+  xy: 696, 325
+  size: 312, 87
+  orig: 350, 140
+  offset: 2, 18
+  index: -1
+EF/ef_beam_stroke_C_main/ef_beam_stroke_C_main_00012
+  rotate: false
+  xy: 696, 247
+  size: 285, 77
+  orig: 350, 140
+  offset: 6, 22
+  index: -1
+EF/ef_flare_back_blue_00007
+  rotate: false
+  xy: 1613, 700
+  size: 88, 88
+  orig: 120, 120
+  offset: 16, 16
+  index: -1
+EF/ef_flare_back_main_00007
+  rotate: false
+  xy: 951, 148
+  size: 97, 98
+  orig: 100, 100
+  offset: 2, 1
+  index: -1
+EF/ef_flare_back_white_00005
+  rotate: false
+  xy: 1848, 645
+  size: 88, 88
+  orig: 120, 120
+  offset: 16, 16
+  index: -1
+EF/ef_flash_main_00014
+  rotate: false
+  xy: 954, 43
+  size: 95, 104
+  orig: 120, 120
+  offset: 12, 10
+  index: -1
+EF/ef_ice_aura_A_main_00007
+  rotate: false
+  xy: 1038, 427
+  size: 109, 109
+  orig: 160, 160
+  offset: 27, 25
+  index: -1
+EF/ef_ice_smash_main 2/ef_ice_smash_main 2_00001
+  rotate: false
+  xy: 448, 8
+  size: 37, 37
+  orig: 120, 120
+  offset: 42, 41
+  index: -1
+EF/ef_ice_smash_main 2/ef_ice_smash_main 2_00002
+  rotate: false
+  xy: 1780, 626
+  size: 56, 58
+  orig: 120, 120
+  offset: 32, 32
+  index: -1
+EF/ef_ice_smash_main 2/ef_ice_smash_main 2_00003
+  rotate: false
+  xy: 1920, 563
+  size: 79, 81
+  orig: 120, 120
+  offset: 22, 19
+  index: -1
+EF/ef_ice_smash_main 2/ef_ice_smash_main 2_00004
+  rotate: false
+  xy: 1041, 537
+  size: 111, 110
+  orig: 120, 120
+  offset: 4, 8
+  index: -1
+EF/ef_stamp_flare_main/ef_stamp_flare_main_00001
+  rotate: false
+  xy: 407, 3
+  size: 40, 42
+  orig: 150, 150
+  offset: 55, 54
+  index: -1
+EF/ef_stamp_flare_main/ef_stamp_flare_main_00002
+  rotate: false
+  xy: 1475, 783
+  size: 134, 134
+  orig: 150, 150
+  offset: 8, 8
+  index: -1
+EF/ef_stamp_flare_main/ef_stamp_flare_main_00003
+  rotate: false
+  xy: 1054, 771
+  size: 144, 144
+  orig: 150, 150
+  offset: 3, 3
+  index: -1
+EF/ef_stamp_flare_main/ef_stamp_flare_main_00004
+  rotate: false
+  xy: 1338, 779
+  size: 136, 136
+  orig: 150, 150
+  offset: 7, 7
+  index: -1
+EF/ef_stamp_flare_main/ef_stamp_flare_main_00005
+  rotate: false
+  xy: 1046, 648
+  size: 122, 122
+  orig: 150, 150
+  offset: 14, 14
+  index: -1
+EF/ef_stamp_flare_main/ef_stamp_flare_main_00006
+  rotate: false
+  xy: 1252, 670
+  size: 106, 106
+  orig: 150, 150
+  offset: 22, 22
+  index: -1
+EF/ef_wave_main/ef_wave_main_00001
+  rotate: false
+  xy: 982, 256
+  size: 68, 68
+  orig: 144, 144
+  offset: 38, 38
+  index: -1
+EF/ef_wave_main/ef_wave_main_00002
+  rotate: false
+  xy: 1837, 562
+  size: 82, 82
+  orig: 144, 144
+  offset: 31, 31
+  index: -1
+EF/ef_wave_main/ef_wave_main_00003
+  rotate: false
+  xy: 1359, 677
+  size: 100, 101
+  orig: 144, 144
+  offset: 22, 22
+  index: -1
+EF/ef_wave_main/ef_wave_main_00004
+  rotate: false
+  xy: 1859, 734
+  size: 116, 115
+  orig: 144, 144
+  offset: 14, 15
+  index: -1
+EF/ef_wave_main/ef_wave_main_00005
+  rotate: false
+  xy: 1610, 789
+  size: 128, 128
+  orig: 144, 144
+  offset: 8, 8
+  index: -1
+EF/ef_wave_main/ef_wave_main_00006
+  rotate: false
+  xy: 1199, 777
+  size: 138, 138
+  orig: 144, 144
+  offset: 3, 3
+  index: -1

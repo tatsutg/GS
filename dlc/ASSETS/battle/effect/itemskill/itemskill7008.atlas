@@ -1,0 +1,349 @@
+
+itemskill7008.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+./images/yami/kof98167-2
+  rotate: false
+  xy: 1561, 65
+  size: 59, 62
+  orig: 304, 224
+  offset: 68, 63
+  index: -1
+./images/yami/kof98169-2
+  rotate: true
+  xy: 1064, 0
+  size: 60, 62
+  orig: 304, 224
+  offset: 68, 60
+  index: -1
+./images/yami/kof98171-2
+  rotate: false
+  xy: 1621, 70
+  size: 58, 57
+  orig: 304, 224
+  offset: 68, 65
+  index: -1
+./images/yami/kof98173-2
+  rotate: false
+  xy: 564, 29
+  size: 99, 98
+  orig: 304, 224
+  offset: 67, 24
+  index: -1
+./images/yami/kof98177-2
+  rotate: false
+  xy: 443, 28
+  size: 120, 99
+  orig: 304, 224
+  offset: 68, 23
+  index: -1
+./images/yami/kof98181-2
+  rotate: false
+  xy: 307, 29
+  size: 135, 98
+  orig: 304, 224
+  offset: 68, 23
+  index: -1
+./images/yami/kof98185-2
+  rotate: false
+  xy: 157, 28
+  size: 149, 99
+  orig: 304, 224
+  offset: 68, 23
+  index: -1
+./images/yami/kof98189-2
+  rotate: false
+  xy: 0, 34
+  size: 156, 93
+  orig: 304, 224
+  offset: 69, 24
+  index: -1
+./images/yami/kof98193-2
+  rotate: false
+  xy: 664, 72
+  size: 132, 55
+  orig: 304, 224
+  offset: 100, 23
+  index: -1
+./images/yami/kof98197-2
+  rotate: false
+  xy: 1127, 25
+  size: 27, 35
+  orig: 304, 224
+  offset: 187, 24
+  index: -1
+./images/yami/kof98221-2
+  rotate: false
+  xy: 1127, 25
+  size: 27, 35
+  orig: 304, 224
+  offset: 239, 24
+  index: -1
+./images/yami/kof98200-2
+  rotate: true
+  xy: 797, 77
+  size: 50, 72
+  orig: 304, 224
+  offset: 186, 23
+  index: -1
+./images/yami/kof98204-2
+  rotate: true
+  xy: 1378, 0
+  size: 61, 74
+  orig: 304, 224
+  offset: 190, 23
+  index: -1
+./images/yami/kof98208-2
+  rotate: false
+  xy: 1483, 53
+  size: 77, 74
+  orig: 304, 224
+  offset: 188, 23
+  index: -1
+./images/yami/kof98213-2
+  rotate: false
+  xy: 1680, 93
+  size: 77, 34
+  orig: 304, 224
+  offset: 200, 24
+  index: -1
+./images/yami/kof98217-2
+  rotate: false
+  xy: 0, 21
+  size: 69, 12
+  orig: 304, 224
+  offset: 215, 23
+  index: -1
+images/yami/kof98164
+  rotate: true
+  xy: 953, 64
+  size: 63, 111
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98165
+  rotate: true
+  xy: 953, 0
+  size: 63, 110
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98166
+  rotate: false
+  xy: 877, 20
+  size: 75, 107
+  orig: 304, 224
+  offset: 70, 23
+  index: -1
+images/yami/kof98167
+  rotate: false
+  xy: 877, 20
+  size: 75, 107
+  orig: 304, 224
+  offset: 70, 23
+  index: -1
+images/yami/kof98169
+  rotate: false
+  xy: 877, 20
+  size: 75, 107
+  orig: 304, 224
+  offset: 70, 23
+  index: -1
+images/yami/kof98171
+  rotate: true
+  xy: 664, 0
+  size: 71, 107
+  orig: 304, 224
+  offset: 77, 23
+  index: -1
+images/yami/kof98173
+  rotate: true
+  xy: 664, 0
+  size: 71, 107
+  orig: 304, 224
+  offset: 77, 23
+  index: -1
+images/yami/kof98175
+  rotate: true
+  xy: 664, 0
+  size: 71, 107
+  orig: 304, 224
+  offset: 77, 23
+  index: -1
+images/yami/kof98177
+  rotate: true
+  xy: 772, 0
+  size: 71, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98179
+  rotate: true
+  xy: 772, 0
+  size: 71, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98181
+  rotate: true
+  xy: 772, 0
+  size: 71, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98183
+  rotate: true
+  xy: 772, 0
+  size: 71, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98185
+  rotate: true
+  xy: 772, 0
+  size: 71, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98187
+  rotate: true
+  xy: 772, 0
+  size: 71, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98189
+  rotate: true
+  xy: 1172, 57
+  size: 70, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98191
+  rotate: true
+  xy: 1172, 57
+  size: 70, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98193
+  rotate: true
+  xy: 1172, 57
+  size: 70, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98195
+  rotate: true
+  xy: 1172, 57
+  size: 70, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98198
+  rotate: true
+  xy: 1172, 57
+  size: 70, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98200
+  rotate: true
+  xy: 1172, 57
+  size: 70, 104
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98202
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98204
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98206
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98208
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98210
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98211
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98213
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98215
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98217
+  rotate: true
+  xy: 1065, 61
+  size: 66, 106
+  orig: 304, 224
+  offset: 78, 23
+  index: -1
+images/yami/kof98219
+  rotate: true
+  xy: 1378, 62
+  size: 65, 104
+  orig: 304, 224
+  offset: 76, 23
+  index: -1
+images/yami/kof98221
+  rotate: true
+  xy: 1378, 62
+  size: 65, 104
+  orig: 304, 224
+  offset: 76, 23
+  index: -1
+images/yami/kof98223
+  rotate: true
+  xy: 1378, 62
+  size: 65, 104
+  orig: 304, 224
+  offset: 76, 23
+  index: -1
+images/yami/kof98224
+  rotate: true
+  xy: 1277, 55
+  size: 72, 100
+  orig: 304, 224
+  offset: 71, 23
+  index: -1

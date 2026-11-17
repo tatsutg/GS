@@ -1,0 +1,118 @@
+
+itemskill1136.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_leaf_main/ef_leaf_main_00002
+  rotate: false
+  xy: 1698, 386
+  size: 124, 113
+  orig: 300, 300
+  offset: 87, 89
+  index: -1
+ef_leaf_main/ef_leaf_main_00004
+  rotate: false
+  xy: 1530, 349
+  size: 166, 150
+  orig: 300, 300
+  offset: 66, 76
+  index: -1
+ef_leaf_main/ef_leaf_main_00006
+  rotate: false
+  xy: 1340, 319
+  size: 188, 180
+  orig: 300, 300
+  offset: 54, 63
+  index: -1
+ef_leaf_main/ef_leaf_main_00008
+  rotate: true
+  xy: 1138, 308
+  size: 191, 200
+  orig: 300, 300
+  offset: 51, 56
+  index: -1
+ef_leaf_main/ef_leaf_main_00010
+  rotate: true
+  xy: 921, 305
+  size: 194, 215
+  orig: 300, 300
+  offset: 47, 49
+  index: -1
+ef_leaf_main/ef_leaf_main_00012
+  rotate: false
+  xy: 204, 24
+  size: 201, 220
+  orig: 300, 300
+  offset: 45, 45
+  index: -1
+ef_leaf_main/ef_leaf_main_00016
+  rotate: true
+  xy: 688, 306
+  size: 193, 231
+  orig: 300, 300
+  offset: 51, 38
+  index: -1
+ef_leaf_main/ef_leaf_main_00018
+  rotate: false
+  xy: 0, 0
+  size: 202, 244
+  orig: 300, 300
+  offset: 47, 34
+  index: -1
+ef_leaf_main/ef_leaf_main_00022
+  rotate: true
+  xy: 422, 279
+  size: 220, 264
+  orig: 300, 300
+  offset: 38, 29
+  index: -1
+ef_slash_bolt_main/ef_slash_bolt_main_00001
+  rotate: true
+  xy: 1993, 338
+  size: 161, 53
+  orig: 420, 200
+  offset: 0, 64
+  index: -1
+ef_slash_bolt_main/ef_slash_bolt_main_00002
+  rotate: false
+  xy: 0, 361
+  size: 420, 138
+  orig: 420, 200
+  offset: 0, 22
+  index: -1
+ef_slash_bolt_main/ef_slash_bolt_main_00003
+  rotate: false
+  xy: 0, 246
+  size: 420, 113
+  orig: 420, 200
+  offset: 0, 24
+  index: -1
+ef_thrust_main/ef_thrust_main_00001
+  rotate: false
+  xy: 422, 227
+  size: 137, 50
+  orig: 189, 112
+  offset: 3, 31
+  index: -1
+ef_thrust_main/ef_thrust_main_00002
+  rotate: false
+  xy: 1824, 391
+  size: 146, 53
+  orig: 189, 112
+  offset: 2, 29
+  index: -1
+ef_thrust_main/ef_thrust_main_00003
+  rotate: false
+  xy: 561, 225
+  size: 137, 52
+  orig: 189, 112
+  offset: 10, 29
+  index: -1
+ef_thrust_main/ef_thrust_main_00004
+  rotate: false
+  xy: 1824, 446
+  size: 167, 53
+  orig: 189, 112
+  offset: 6, 29
+  index: -1

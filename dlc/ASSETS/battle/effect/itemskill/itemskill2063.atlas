@@ -1,0 +1,230 @@
+
+itemskill2063.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00001
+  rotate: true
+  xy: 1932, 904
+  size: 100, 115
+  orig: 180, 180
+  offset: 38, 36
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00003
+  rotate: false
+  xy: 1932, 784
+  size: 112, 119
+  orig: 180, 180
+  offset: 31, 38
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00005
+  rotate: true
+  xy: 1091, 533
+  size: 116, 124
+  orig: 180, 180
+  offset: 29, 38
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00007
+  rotate: false
+  xy: 1091, 650
+  size: 132, 127
+  orig: 180, 180
+  offset: 17, 39
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00009
+  rotate: true
+  xy: 1908, 453
+  size: 151, 127
+  orig: 180, 180
+  offset: 7, 38
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00011
+  rotate: false
+  xy: 530, 626
+  size: 150, 140
+  orig: 180, 180
+  offset: 11, 31
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00012
+  rotate: true
+  xy: 1646, 431
+  size: 157, 132
+  orig: 180, 180
+  offset: 6, 30
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00013
+  rotate: true
+  xy: 681, 623
+  size: 143, 135
+  orig: 180, 180
+  offset: 15, 30
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00014
+  rotate: false
+  xy: 817, 638
+  size: 148, 135
+  orig: 180, 180
+  offset: 9, 31
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00015
+  rotate: true
+  xy: 1779, 441
+  size: 154, 128
+  orig: 180, 180
+  offset: 6, 30
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00016
+  rotate: true
+  xy: 966, 636
+  size: 137, 124
+  orig: 180, 180
+  offset: 12, 36
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00017
+  rotate: false
+  xy: 959, 526
+  size: 131, 109
+  orig: 180, 180
+  offset: 18, 49
+  index: -1
+ef_fire_smoke_sumi/ef_fire_smoke_sumi_00018
+  rotate: false
+  xy: 1908, 352
+  size: 103, 100
+  orig: 180, 180
+  offset: 36, 51
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00001
+  rotate: true
+  xy: 1465, 434
+  size: 154, 180
+  orig: 300, 300
+  offset: 72, 72
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00002
+  rotate: false
+  xy: 1858, 605
+  size: 178, 178
+  orig: 300, 300
+  offset: 62, 74
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00003
+  rotate: true
+  xy: 1667, 596
+  size: 197, 190
+  orig: 300, 300
+  offset: 55, 66
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00004
+  rotate: false
+  xy: 1465, 589
+  size: 201, 201
+  orig: 300, 300
+  offset: 48, 58
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00005
+  rotate: false
+  xy: 1250, 577
+  size: 214, 213
+  orig: 300, 300
+  offset: 43, 55
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00006
+  rotate: false
+  xy: 1023, 778
+  size: 226, 226
+  orig: 300, 300
+  offset: 36, 46
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00007
+  rotate: false
+  xy: 783, 774
+  size: 239, 230
+  orig: 300, 300
+  offset: 29, 41
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00008
+  rotate: false
+  xy: 1, 36
+  size: 247, 229
+  orig: 300, 300
+  offset: 28, 31
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00009
+  rotate: false
+  xy: 1, 266
+  size: 253, 236
+  orig: 300, 300
+  offset: 26, 26
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00010
+  rotate: false
+  xy: 273, 757
+  size: 256, 247
+  orig: 300, 300
+  offset: 29, 16
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00011
+  rotate: false
+  xy: 1, 753
+  size: 271, 251
+  orig: 300, 300
+  offset: 17, 12
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00012
+  rotate: false
+  xy: 1, 503
+  size: 266, 249
+  orig: 300, 300
+  offset: 25, 11
+  index: -1
+ef_fire_sprash_main/ef_fire_sprash_main_00013
+  rotate: true
+  xy: 530, 767
+  size: 237, 252
+  orig: 300, 300
+  offset: 22, 5
+  index: -1
+ef_shock_wave_main/ef_shock_wave_main_00001
+  rotate: false
+  xy: 1, 1
+  size: 39, 34
+  orig: 300, 300
+  offset: 131, 134
+  index: -1
+ef_shock_wave_main/ef_shock_wave_main_00003
+  rotate: false
+  xy: 817, 545
+  size: 141, 92
+  orig: 300, 300
+  offset: 81, 104
+  index: -1
+ef_shock_wave_main/ef_shock_wave_main_00005
+  rotate: true
+  xy: 255, 275
+  size: 227, 193
+  orig: 300, 300
+  offset: 34, 52
+  index: -1
+ef_shock_wave_main/ef_shock_wave_main_00007
+  rotate: false
+  xy: 1250, 791
+  size: 228, 213
+  orig: 300, 300
+  offset: 33, 42
+  index: -1
+ef_shock_wave_main/ef_shock_wave_main_00009
+  rotate: false
+  xy: 1479, 794
+  size: 227, 210
+  orig: 300, 300
+  offset: 33, 40
+  index: -1
+ef_shock_wave_main/ef_shock_wave_main_00010
+  rotate: false
+  xy: 1707, 800
+  size: 224, 204
+  orig: 300, 300
+  offset: 36, 47
+  index: -1

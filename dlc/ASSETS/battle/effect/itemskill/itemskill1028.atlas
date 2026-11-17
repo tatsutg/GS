@@ -1,0 +1,111 @@
+
+itemskill1028.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+110_S1_ice1/110_S1_ice1_00000
+  rotate: false
+  xy: 215, 0
+  size: 167, 101
+  orig: 350, 350
+  offset: 90, 109
+  index: -1
+110_S1_ice2/110_S1_ice2_00000
+  rotate: false
+  xy: 0, 119
+  size: 259, 136
+  orig: 350, 350
+  offset: 37, 108
+  index: -1
+110_S1_icebreak1/110_S1_icebreak1_00003
+  rotate: false
+  xy: 875, 148
+  size: 148, 107
+  orig: 300, 300
+  offset: 78, 104
+  index: -1
+110_S1_icebreak1/110_S1_icebreak1_00005
+  rotate: false
+  xy: 705, 139
+  size: 169, 116
+  orig: 300, 300
+  offset: 71, 101
+  index: -1
+110_S1_icebreak1/110_S1_icebreak1_00007
+  rotate: false
+  xy: 672, 13
+  size: 161, 125
+  orig: 300, 300
+  offset: 58, 92
+  index: -1
+630_S2_tower2/630_S2_tower2_00000
+  rotate: false
+  xy: 383, 29
+  size: 118, 72
+  orig: 250, 250
+  offset: 55, 102
+  index: -1
+630_S2_tower2/630_S2_tower2_00004
+  rotate: true
+  xy: 834, 6
+  size: 132, 68
+  orig: 250, 250
+  offset: 55, 97
+  index: -1
+630_S2_tower2/630_S2_tower2_00008
+  rotate: false
+  xy: 502, 57
+  size: 149, 55
+  orig: 250, 250
+  offset: 47, 99
+  index: -1
+630_S2_tower2/630_S2_tower2_00012
+  rotate: true
+  xy: 903, 4
+  size: 143, 48
+  orig: 250, 250
+  offset: 51, 102
+  index: -1
+9140_A3_attack1/9140_A3_attack1_00002
+  rotate: false
+  xy: 481, 155
+  size: 223, 100
+  orig: 225, 225
+  offset: 1, 62
+  index: -1
+9140_A3_attack1/9140_A3_attack1_00003
+  rotate: false
+  xy: 260, 150
+  size: 220, 105
+  orig: 225, 225
+  offset: 3, 61
+  index: -1
+9140_A3_attack1/9140_A3_attack1_00004
+  rotate: false
+  xy: 0, 4
+  size: 214, 114
+  orig: 225, 225
+  offset: 7, 59
+  index: -1
+9140_A4_beam4/9140_A4_beam4_00000
+  rotate: true
+  xy: 502, 23
+  size: 33, 155
+  orig: 250, 250
+  offset: 105, 44
+  index: -1
+9140_A4_beam4/9140_A4_beam4_00002
+  rotate: true
+  xy: 481, 113
+  size: 41, 190
+  orig: 250, 250
+  offset: 99, 27
+  index: -1
+9140_A4_beam4/9140_A4_beam4_00004
+  rotate: true
+  xy: 260, 102
+  size: 47, 217
+  orig: 250, 250
+  offset: 94, 15
+  index: -1

@@ -1,0 +1,153 @@
+
+itemskill1065.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/skill1/ef/SKI1_6_ef_cross_main/ef_cross_main_00001
+  rotate: true
+  xy: 0, 144
+  size: 177, 169
+  orig: 360, 360
+  offset: 99, 80
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main/ef_cross_main_00003
+  rotate: true
+  xy: 368, 121
+  size: 205, 176
+  orig: 360, 360
+  offset: 102, 82
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main/ef_cross_main_00006
+  rotate: false
+  xy: 368, 326
+  size: 204, 177
+  orig: 360, 360
+  offset: 102, 81
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main/ef_cross_main_00011
+  rotate: true
+  xy: 184, 123
+  size: 199, 171
+  orig: 360, 360
+  offset: 106, 85
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main/ef_cross_main_00012
+  rotate: true
+  xy: 721, 127
+  size: 194, 165
+  orig: 360, 360
+  offset: 109, 90
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main2/ef_cross_main 2_00001
+  rotate: true
+  xy: 572, 321
+  size: 182, 177
+  orig: 360, 360
+  offset: 117, 85
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main2/ef_cross_main 2_00003
+  rotate: false
+  xy: 0, 321
+  size: 184, 182
+  orig: 360, 360
+  offset: 114, 85
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main2/ef_cross_main 2_00006
+  rotate: false
+  xy: 184, 322
+  size: 184, 181
+  orig: 360, 360
+  offset: 114, 85
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main2/ef_cross_main 2_00011
+  rotate: true
+  xy: 544, 152
+  size: 169, 177
+  orig: 360, 360
+  offset: 118, 88
+  index: -1
+EF/skill1/ef/SKI1_6_ef_cross_main2/ef_cross_main 2_00012
+  rotate: true
+  xy: 0, 0
+  size: 144, 166
+  orig: 360, 360
+  offset: 121, 97
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00001
+  rotate: false
+  xy: 902, 369
+  size: 101, 134
+  orig: 240, 240
+  offset: 64, 37
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00003
+  rotate: true
+  xy: 697, 20
+  size: 107, 149
+  orig: 240, 240
+  offset: 61, 36
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00004
+  rotate: true
+  xy: 749, 392
+  size: 111, 153
+  orig: 240, 240
+  offset: 60, 36
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00006
+  rotate: true
+  xy: 544, 38
+  size: 114, 153
+  orig: 240, 240
+  offset: 60, 43
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00007
+  rotate: true
+  xy: 166, 6
+  size: 117, 122
+  orig: 240, 240
+  offset: 64, 41
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00009
+  rotate: false
+  xy: 314, 7
+  size: 135, 114
+  orig: 240, 240
+  offset: 56, 40
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00010
+  rotate: false
+  xy: 846, 21
+  size: 144, 106
+  orig: 240, 240
+  offset: 51, 40
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00011
+  rotate: true
+  xy: 886, 183
+  size: 147, 104
+  orig: 240, 240
+  offset: 49, 44
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00013
+  rotate: false
+  xy: 749, 330
+  size: 146, 62
+  orig: 240, 240
+  offset: 50, 46
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00014
+  rotate: false
+  xy: 449, 4
+  size: 144, 34
+  orig: 240, 240
+  offset: 51, 49
+  index: -1
+EF/skill1/ef/SKI1_ef_fire_dash_main/ef_fire_dash_main_00016
+  rotate: true
+  xy: 288, 21
+  size: 102, 26
+  orig: 240, 240
+  offset: 70, 54
+  index: -1

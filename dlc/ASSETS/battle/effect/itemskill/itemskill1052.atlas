@@ -1,0 +1,202 @@
+
+itemskill1052.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_water_dash_main/ef_water_dash_main_00001
+  rotate: false
+  xy: 542, 1
+  size: 102, 138
+  orig: 240, 240
+  offset: 63, 37
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00002
+  rotate: true
+  xy: 1548, 151
+  size: 104, 147
+  orig: 240, 240
+  offset: 61, 37
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00003
+  rotate: true
+  xy: 1232, 147
+  size: 108, 153
+  orig: 240, 240
+  offset: 60, 36
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00004
+  rotate: true
+  xy: 184, 1
+  size: 113, 156
+  orig: 240, 240
+  offset: 58, 36
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00005
+  rotate: true
+  xy: 912, 136
+  size: 119, 160
+  orig: 240, 240
+  offset: 57, 36
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00006
+  rotate: true
+  xy: 1073, 139
+  size: 116, 158
+  orig: 240, 240
+  offset: 58, 42
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00007
+  rotate: true
+  xy: 364, 1
+  size: 118, 126
+  orig: 240, 240
+  offset: 63, 41
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00008
+  rotate: false
+  xy: 1540, 38
+  size: 126, 112
+  orig: 240, 240
+  offset: 60, 40
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00009
+  rotate: true
+  xy: 645, 4
+  size: 135, 114
+  orig: 240, 240
+  offset: 56, 40
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00010
+  rotate: false
+  xy: 1844, 150
+  size: 144, 105
+  orig: 240, 240
+  offset: 51, 40
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00011
+  rotate: false
+  xy: 1696, 150
+  size: 147, 105
+  orig: 240, 240
+  offset: 49, 44
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00012
+  rotate: true
+  xy: 760, 1
+  size: 144, 75
+  orig: 240, 240
+  offset: 51, 45
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00013
+  rotate: false
+  xy: 1808, 87
+  size: 146, 62
+  orig: 240, 240
+  offset: 50, 46
+  index: -1
+EF/ef_water_dash_main/ef_water_dash_main_00014
+  rotate: true
+  xy: 836, 1
+  size: 144, 34
+  orig: 240, 240
+  offset: 51, 49
+  index: -1
+EF/ef_water_main/ef_water_main_00002
+  rotate: false
+  xy: 871, 14
+  size: 66, 121
+  orig: 180, 204
+  offset: 62, 30
+  index: -1
+EF/ef_water_main/ef_water_main_00003
+  rotate: true
+  xy: 1667, 67
+  size: 82, 140
+  orig: 180, 204
+  offset: 61, 27
+  index: -1
+EF/ef_water_main/ef_water_main_00004
+  rotate: true
+  xy: 1386, 162
+  size: 93, 161
+  orig: 180, 204
+  offset: 52, 15
+  index: -1
+EF/ef_water_main/ef_water_main_00005
+  rotate: true
+  xy: 542, 140
+  size: 115, 183
+  orig: 180, 204
+  offset: 44, 3
+  index: -1
+EF/ef_water_main/ef_water_main_00006
+  rotate: true
+  xy: 1, 14
+  size: 98, 181
+  orig: 180, 204
+  offset: 43, 7
+  index: -1
+EF/ef_water_main/ef_water_main_00007
+  rotate: true
+  xy: 726, 146
+  size: 109, 185
+  orig: 180, 204
+  offset: 42, 15
+  index: -1
+EF/ef_water_main/ef_water_main_00008
+  rotate: false
+  xy: 1369, 1
+  size: 98, 145
+  orig: 180, 204
+  offset: 42, 31
+  index: -1
+EF/ef_water_main/ef_water_main_00009
+  rotate: false
+  xy: 1468, 19
+  size: 71, 142
+  orig: 180, 204
+  offset: 42, 29
+  index: -1
+EF/ef_water_main/ef_water_main_00010
+  rotate: false
+  xy: 1808, 1
+  size: 67, 85
+  orig: 180, 204
+  offset: 44, 42
+  index: -1
+EF/ef_water_main/ef_water_main_00011
+  rotate: false
+  xy: 1876, 1
+  size: 66, 85
+  orig: 180, 204
+  offset: 42, 53
+  index: -1
+EF/ef_water_slash_main/ef_water_slash_main_00004
+  rotate: true
+  xy: 1232, 1
+  size: 145, 136
+  orig: 200, 200
+  offset: 8, 24
+  index: -1
+EF/ef_water_slash_main/ef_water_slash_main_00006
+  rotate: false
+  xy: 1, 113
+  size: 182, 142
+  orig: 200, 200
+  offset: 11, 24
+  index: -1
+EF/ef_water_slash_main/ef_water_slash_main_00014
+  rotate: false
+  xy: 184, 115
+  size: 179, 140
+  orig: 200, 200
+  offset: 13, 25
+  index: -1
+EF/ef_water_slash_main/ef_water_slash_main_00015
+  rotate: false
+  xy: 364, 120
+  size: 177, 135
+  orig: 200, 200
+  offset: 14, 29
+  index: -1

@@ -1,0 +1,272 @@
+
+itemskill2177.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_aura_dash_main/ef_aura_dash_main_00001
+  rotate: false
+  xy: 269, 30
+  size: 132, 42
+  orig: 150, 60
+  offset: 5, 8
+  index: -1
+EF/ef_aura_dash_main/ef_aura_dash_main_00002
+  rotate: false
+  xy: 402, 31
+  size: 126, 41
+  orig: 150, 60
+  offset: 13, 9
+  index: -1
+EF/ef_aura_dash_main/ef_aura_dash_main_00003
+  rotate: false
+  xy: 1442, 85
+  size: 102, 42
+  orig: 150, 60
+  offset: 12, 8
+  index: -1
+EF/ef_aura_dash_main/ef_aura_dash_main_00004
+  rotate: false
+  xy: 825, 11
+  size: 126, 43
+  orig: 150, 60
+  offset: 9, 7
+  index: -1
+EF/ef_aura_dash_main/ef_aura_dash_main_00005
+  rotate: false
+  xy: 642, 35
+  size: 94, 37
+  orig: 150, 60
+  offset: 6, 12
+  index: -1
+EF/ef_aura_dash_main/ef_aura_dash_main_00006
+  rotate: false
+  xy: 660, 1
+  size: 72, 33
+  orig: 150, 60
+  offset: 22, 12
+  index: -1
+EF/ef_aura_dash_main/ef_aura_dash_main_00007
+  rotate: false
+  xy: 733, 10
+  size: 91, 24
+  orig: 150, 60
+  offset: 11, 18
+  index: -1
+EF/ef_aura_dash_main/ef_aura_dash_main_00008
+  rotate: false
+  xy: 472, 16
+  size: 96, 14
+  orig: 150, 60
+  offset: 26, 22
+  index: -1
+EF/ef_beam_line_main/ef_beam_line_main_00006
+  rotate: false
+  xy: 1, 15
+  size: 234, 14
+  orig: 240, 90
+  offset: 4, 38
+  index: -1
+EF/ef_beam_line_main/ef_beam_line_main_00007
+  rotate: false
+  xy: 1, 2
+  size: 235, 12
+  orig: 240, 90
+  offset: 3, 39
+  index: -1
+EF/ef_beam_line_main/ef_beam_line_main_00008
+  rotate: false
+  xy: 236, 17
+  size: 235, 12
+  orig: 240, 90
+  offset: 3, 39
+  index: -1
+EF/ef_beam_line_main/ef_beam_line_main_00009
+  rotate: false
+  xy: 237, 9
+  size: 234, 7
+  orig: 240, 90
+  offset: 3, 42
+  index: -1
+EF/ef_beam_line_main/ef_beam_line_main_00010
+  rotate: false
+  xy: 237, 3
+  size: 235, 5
+  orig: 240, 90
+  offset: 2, 42
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00001
+  rotate: false
+  xy: 737, 36
+  size: 27, 38
+  orig: 150, 150
+  offset: 61, 46
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00002
+  rotate: true
+  xy: 1545, 86
+  size: 41, 61
+  orig: 150, 150
+  offset: 54, 45
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00003
+  rotate: true
+  xy: 1696, 6
+  size: 49, 75
+  orig: 150, 150
+  offset: 49, 43
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00004
+  rotate: true
+  xy: 1355, 72
+  size: 55, 86
+  orig: 150, 150
+  offset: 46, 42
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00005
+  rotate: true
+  xy: 1602, 29
+  size: 56, 93
+  orig: 150, 150
+  offset: 45, 42
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00006
+  rotate: true
+  xy: 1164, 69
+  size: 58, 94
+  orig: 150, 150
+  offset: 44, 43
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00007
+  rotate: true
+  xy: 1068, 68
+  size: 59, 95
+  orig: 150, 150
+  offset: 43, 43
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00008
+  rotate: true
+  xy: 1431, 11
+  size: 60, 92
+  orig: 150, 150
+  offset: 43, 44
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00009
+  rotate: true
+  xy: 1337, 10
+  size: 61, 93
+  orig: 150, 150
+  offset: 42, 45
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00010
+  rotate: true
+  xy: 1145, 5
+  size: 62, 95
+  orig: 150, 150
+  offset: 42, 46
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00011
+  rotate: true
+  xy: 1241, 6
+  size: 62, 95
+  orig: 150, 150
+  offset: 42, 47
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00012
+  rotate: true
+  xy: 1049, 3
+  size: 63, 95
+  orig: 150, 150
+  offset: 41, 48
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00013
+  rotate: true
+  xy: 952, 3
+  size: 63, 96
+  orig: 150, 150
+  offset: 42, 49
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00014
+  rotate: true
+  xy: 1259, 72
+  size: 55, 95
+  orig: 150, 150
+  offset: 50, 50
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00015
+  rotate: false
+  xy: 1696, 56
+  size: 56, 71
+  orig: 150, 150
+  offset: 50, 51
+  index: -1
+EF/ef_charge_particle_main/ef_charge_particle_main_00016
+  rotate: false
+  xy: 1753, 57
+  size: 52, 70
+  orig: 150, 150
+  offset: 54, 53
+  index: -1
+EF/ef_eye_flash_green/ef_eye_flash_main_00002
+  rotate: false
+  xy: 569, 5
+  size: 90, 28
+  orig: 140, 140
+  offset: 25, 56
+  index: -1
+EF/ef_eye_flash_green/ef_eye_flash_main_00006
+  rotate: false
+  xy: 808, 55
+  size: 128, 72
+  orig: 140, 140
+  offset: 6, 34
+  index: -1
+EF/ef_eye_flash_green/ef_eye_flash_main_00007
+  rotate: false
+  xy: 937, 67
+  size: 130, 60
+  orig: 140, 140
+  offset: 5, 40
+  index: -1
+EF/ef_eye_flash_green/ef_eye_flash_main_00008
+  rotate: false
+  xy: 548, 73
+  size: 128, 54
+  orig: 140, 140
+  offset: 6, 43
+  index: -1
+EF/ef_eye_flash_green/ef_eye_flash_main_00009
+  rotate: false
+  xy: 677, 75
+  size: 130, 52
+  orig: 140, 140
+  offset: 5, 44
+  index: -1
+EF/ef_eye_flash_green/ef_eye_flash_main_00010
+  rotate: false
+  xy: 529, 34
+  size: 112, 38
+  orig: 140, 140
+  offset: 14, 51
+  index: -1
+EF/ef_ice_aura_AA_main_00011
+  rotate: false
+  xy: 1524, 7
+  size: 77, 77
+  orig: 120, 120
+  offset: 22, 21
+  index: -1
+EF/ef_slash_bolt_main/ef_slash_bolt_main_00002
+  rotate: false
+  xy: 1, 30
+  size: 267, 97
+  orig: 350, 140
+  offset: 43, 20
+  index: -1
+EF/ef_slash_line_mian/ef_slash_line_mian_00005
+  rotate: true
+  xy: 269, 73
+  size: 54, 278
+  orig: 140, 294
+  offset: 43, 5
+  index: -1

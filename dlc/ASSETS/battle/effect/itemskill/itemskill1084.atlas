@@ -1,0 +1,384 @@
+
+itemskill1084.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/460_S1_beam3/460_S1_beam3_00000
+  rotate: true
+  xy: 1129, 148
+  size: 25, 86
+  orig: 250, 250
+  offset: 116, 85
+  index: -1
+EF/460_S1_beam3/460_S1_beam3_00001
+  rotate: false
+  xy: 1220, 268
+  size: 28, 96
+  orig: 250, 250
+  offset: 115, 80
+  index: -1
+EF/460_S1_beam3/460_S1_beam3_00002
+  rotate: true
+  xy: 1938, 362
+  size: 31, 105
+  orig: 250, 250
+  offset: 114, 76
+  index: -1
+EF/460_S1_beam3/460_S1_beam3_00003
+  rotate: true
+  xy: 708, 165
+  size: 34, 114
+  orig: 250, 250
+  offset: 113, 71
+  index: -1
+EF/460_S1_beam3/460_S1_beam3_00004
+  rotate: true
+  xy: 1, 1
+  size: 37, 119
+  orig: 250, 250
+  offset: 112, 68
+  index: -1
+EF/460_S1_beam3/460_S1_beam3_00005
+  rotate: false
+  xy: 1076, 240
+  size: 38, 122
+  orig: 250, 250
+  offset: 112, 65
+  index: -1
+EF/460_S1_beam3/460_S1_beam3_00006
+  rotate: true
+  xy: 708, 200
+  size: 40, 123
+  orig: 250, 250
+  offset: 111, 64
+  index: -1
+EF/460_S1_beam3/460_S1_beam3_00007
+  rotate: true
+  xy: 584, 193
+  size: 40, 123
+  orig: 250, 250
+  offset: 111, 64
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00000
+  rotate: false
+  xy: 1220, 241
+  size: 27, 26
+  orig: 125, 125
+  offset: 50, 52
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00001
+  rotate: false
+  xy: 1544, 142
+  size: 34, 35
+  orig: 125, 125
+  offset: 45, 45
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00002
+  rotate: false
+  xy: 121, 2
+  size: 59, 36
+  orig: 125, 125
+  offset: 33, 46
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00003
+  rotate: false
+  xy: 1214, 189
+  size: 79, 51
+  orig: 125, 125
+  offset: 23, 38
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00004
+  rotate: false
+  xy: 1294, 189
+  size: 79, 51
+  orig: 125, 125
+  offset: 23, 38
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00005
+  rotate: false
+  xy: 1216, 138
+  size: 79, 50
+  orig: 125, 125
+  offset: 23, 38
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00006
+  rotate: false
+  xy: 1296, 139
+  size: 77, 49
+  orig: 125, 125
+  offset: 24, 39
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00007
+  rotate: true
+  xy: 1374, 167
+  size: 73, 46
+  orig: 125, 125
+  offset: 26, 40
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00008
+  rotate: true
+  xy: 1374, 117
+  size: 49, 46
+  orig: 125, 125
+  offset: 38, 39
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00009
+  rotate: false
+  xy: 1487, 86
+  size: 52, 41
+  orig: 125, 125
+  offset: 36, 37
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00010
+  rotate: false
+  xy: 1544, 119
+  size: 32, 22
+  orig: 125, 125
+  offset: 45, 52
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00011
+  rotate: false
+  xy: 1540, 100
+  size: 25, 18
+  orig: 125, 125
+  offset: 49, 53
+  index: -1
+EF/460_S1_hit1/460_S1_hit1_00012
+  rotate: true
+  xy: 639, 360
+  size: 4, 8
+  orig: 125, 125
+  offset: 70, 56
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00001
+  rotate: false
+  xy: 1487, 128
+  size: 56, 49
+  orig: 150, 150
+  offset: 47, 53
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00002
+  rotate: true
+  xy: 1072, 152
+  size: 87, 56
+  orig: 150, 150
+  offset: 32, 48
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00003
+  rotate: false
+  xy: 832, 169
+  size: 119, 74
+  orig: 150, 150
+  offset: 16, 38
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00004
+  rotate: false
+  xy: 952, 153
+  size: 119, 86
+  orig: 150, 150
+  offset: 16, 35
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00005
+  rotate: true
+  xy: 1938, 394
+  size: 117, 99
+  orig: 150, 150
+  offset: 17, 29
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00008
+  rotate: false
+  xy: 831, 244
+  size: 120, 120
+  orig: 150, 150
+  offset: 15, 16
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00009
+  rotate: false
+  xy: 584, 234
+  size: 123, 125
+  orig: 150, 150
+  offset: 14, 12
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00010
+  rotate: false
+  xy: 323, 230
+  size: 131, 131
+  orig: 150, 150
+  offset: 10, 10
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00011
+  rotate: true
+  xy: 1663, 377
+  size: 134, 136
+  orig: 150, 150
+  offset: 8, 8
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00012
+  rotate: true
+  xy: 1250, 241
+  size: 132, 134
+  orig: 150, 150
+  offset: 9, 9
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00013
+  rotate: true
+  xy: 1385, 242
+  size: 131, 133
+  orig: 150, 150
+  offset: 10, 7
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00014
+  rotate: true
+  xy: 1524, 377
+  size: 134, 138
+  orig: 150, 150
+  offset: 8, 6
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00015
+  rotate: true
+  xy: 1800, 378
+  size: 133, 137
+  orig: 150, 150
+  offset: 9, 6
+  index: -1
+EF/ef_energy_ball_ray_main_skill1/ef_energy_ball_ray_main_00016
+  rotate: false
+  xy: 455, 231
+  size: 128, 128
+  orig: 150, 150
+  offset: 11, 11
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00001
+  rotate: false
+  xy: 639, 365
+  size: 156, 146
+  orig: 200, 200
+  offset: 22, 26
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00002
+  rotate: false
+  xy: 323, 362
+  size: 158, 149
+  orig: 200, 200
+  offset: 21, 25
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00003
+  rotate: false
+  xy: 1, 353
+  size: 160, 158
+  orig: 200, 200
+  offset: 20, 20
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00004
+  rotate: false
+  xy: 1, 39
+  size: 156, 154
+  orig: 200, 200
+  offset: 22, 21
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00005
+  rotate: false
+  xy: 952, 363
+  size: 148, 148
+  orig: 200, 200
+  offset: 27, 24
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00006
+  rotate: false
+  xy: 1250, 374
+  size: 136, 137
+  orig: 200, 200
+  offset: 32, 32
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00007
+  rotate: false
+  xy: 708, 241
+  size: 122, 123
+  orig: 200, 200
+  offset: 39, 39
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00008
+  rotate: false
+  xy: 796, 365
+  size: 155, 146
+  orig: 200, 200
+  offset: 22, 26
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00009
+  rotate: false
+  xy: 1, 194
+  size: 158, 158
+  orig: 200, 200
+  offset: 21, 20
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00010
+  rotate: false
+  xy: 162, 356
+  size: 160, 155
+  orig: 200, 200
+  offset: 20, 21
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00011
+  rotate: false
+  xy: 482, 360
+  size: 156, 151
+  orig: 200, 200
+  offset: 22, 24
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00012
+  rotate: false
+  xy: 1101, 365
+  size: 148, 146
+  orig: 200, 200
+  offset: 27, 27
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00013
+  rotate: false
+  xy: 1387, 374
+  size: 136, 137
+  orig: 200, 200
+  offset: 32, 32
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00014
+  rotate: true
+  xy: 952, 240
+  size: 122, 123
+  orig: 200, 200
+  offset: 39, 39
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00015
+  rotate: false
+  xy: 1115, 259
+  size: 104, 105
+  orig: 200, 200
+  offset: 48, 47
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00016
+  rotate: false
+  xy: 1129, 174
+  size: 84, 84
+  orig: 200, 200
+  offset: 58, 58
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00017
+  rotate: false
+  xy: 1421, 178
+  size: 67, 63
+  orig: 200, 200
+  offset: 67, 68
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00018
+  rotate: false
+  xy: 1489, 178
+  size: 65, 63
+  orig: 200, 200
+  offset: 68, 68
+  index: -1
+EF/ef_energy_sink_main/ef_energy_sink_main_00019
+  rotate: false
+  xy: 1421, 115
+  size: 65, 62
+  orig: 200, 200
+  offset: 68, 69
+  index: -1

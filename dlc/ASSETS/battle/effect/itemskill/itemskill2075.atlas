@@ -1,0 +1,132 @@
+
+itemskill2075.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_lazer_main/ef_lazer_main_00001
+  rotate: false
+  xy: 480, 8
+  size: 54, 43
+  orig: 188, 113
+  offset: 121, 35
+  index: -1
+ef_lazer_main/ef_lazer_main_00002
+  rotate: false
+  xy: 814, 205
+  size: 121, 49
+  orig: 188, 113
+  offset: 52, 32
+  index: -1
+ef_lazer_main/ef_lazer_main_00003
+  rotate: false
+  xy: 397, 146
+  size: 149, 51
+  orig: 188, 113
+  offset: 18, 30
+  index: -1
+ef_lazer_main/ef_lazer_main_00004
+  rotate: false
+  xy: 397, 199
+  size: 154, 55
+  orig: 188, 113
+  offset: 17, 30
+  index: -1
+ef_lazer_main/ef_lazer_main_00005
+  rotate: false
+  xy: 553, 201
+  size: 131, 53
+  orig: 188, 113
+  offset: 30, 30
+  index: -1
+ef_lazer_main/ef_lazer_main_00006
+  rotate: false
+  xy: 2, 2
+  size: 109, 50
+  orig: 188, 113
+  offset: 31, 31
+  index: -1
+ef_lazer_main/ef_lazer_main_00007
+  rotate: false
+  xy: 386, 6
+  size: 92, 45
+  orig: 188, 113
+  offset: 28, 35
+  index: -1
+ef_lazer_main/ef_lazer_main_00008
+  rotate: false
+  xy: 686, 164
+  size: 87, 42
+  orig: 188, 113
+  offset: 27, 36
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00001
+  rotate: true
+  xy: 532, 91
+  size: 53, 41
+  orig: 188, 113
+  offset: 110, 36
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00002
+  rotate: false
+  xy: 113, 9
+  size: 100, 43
+  orig: 188, 113
+  offset: 61, 35
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00003
+  rotate: false
+  xy: 397, 53
+  size: 122, 43
+  orig: 188, 113
+  offset: 34, 35
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00004
+  rotate: false
+  xy: 397, 98
+  size: 133, 46
+  orig: 188, 113
+  offset: 26, 34
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00005
+  rotate: false
+  xy: 686, 208
+  size: 126, 46
+  orig: 188, 113
+  offset: 20, 34
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00006
+  rotate: false
+  xy: 215, 27
+  size: 96, 43
+  orig: 188, 113
+  offset: 21, 36
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00007
+  rotate: false
+  xy: 937, 212
+  size: 78, 42
+  orig: 188, 113
+  offset: 17, 36
+  index: -1
+ef_lazer_main_b/ef_lazer_main_b_00008
+  rotate: false
+  xy: 313, 29
+  size: 71, 41
+  orig: 188, 113
+  offset: 17, 36
+  index: -1
+ef_magic_ruby_A_render_00001
+  rotate: false
+  xy: 211, 72
+  size: 184, 182
+  orig: 186, 186
+  offset: 2, 3
+  index: -1
+ef_magic_ruby_B_render_00001
+  rotate: false
+  xy: 2, 54
+  size: 207, 200
+  orig: 210, 210
+  offset: 3, 10
+  index: -1

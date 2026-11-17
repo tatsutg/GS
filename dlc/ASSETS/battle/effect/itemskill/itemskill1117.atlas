@@ -1,0 +1,286 @@
+
+itemskill1117.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a1_smash_wave_A_yellow/ef_smash_wave_A_yellow_00001
+  rotate: false
+  xy: 2017, 233
+  size: 29, 121
+  orig: 250, 250
+  offset: 113, 74
+  index: -1
+a1_smash_wave_A_yellow/ef_smash_wave_A_yellow_00002
+  rotate: true
+  xy: 1557, 278
+  size: 35, 143
+  orig: 250, 250
+  offset: 108, 60
+  index: -1
+a1_smash_wave_A_yellow/ef_smash_wave_A_yellow_00003
+  rotate: true
+  xy: 1709, 301
+  size: 43, 169
+  orig: 250, 250
+  offset: 102, 47
+  index: -1
+a1_smash_wave_A_yellow/ef_smash_wave_A_yellow_00004
+  rotate: true
+  xy: 1196, 340
+  size: 45, 195
+  orig: 250, 250
+  offset: 98, 34
+  index: -1
+a1_smash_wave_A_yellow/ef_smash_wave_A_yellow_00005
+  rotate: true
+  xy: 343, 302
+  size: 53, 208
+  orig: 250, 250
+  offset: 96, 30
+  index: -1
+arrow
+  rotate: false
+  xy: 1396, 469
+  size: 274, 28
+  orig: 274, 31
+  offset: 0, 0
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00005
+  rotate: true
+  xy: 1856, 221
+  size: 79, 22
+  orig: 250, 250
+  offset: 158, 110
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00006
+  rotate: true
+  xy: 1832, 200
+  size: 100, 23
+  orig: 250, 250
+  offset: 136, 109
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00007
+  rotate: true
+  xy: 2016, 355
+  size: 142, 23
+  orig: 250, 250
+  offset: 93, 110
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00008
+  rotate: true
+  xy: 149, 85
+  size: 210, 24
+  orig: 250, 250
+  offset: 24, 109
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00009
+  rotate: false
+  xy: 985, 346
+  size: 210, 23
+  orig: 250, 250
+  offset: 24, 110
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00010
+  rotate: false
+  xy: 563, 337
+  size: 211, 23
+  orig: 250, 250
+  offset: 23, 110
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00011
+  rotate: false
+  xy: 552, 313
+  size: 211, 23
+  orig: 250, 250
+  offset: 23, 110
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00012
+  rotate: false
+  xy: 552, 289
+  size: 162, 23
+  orig: 250, 250
+  offset: 23, 110
+  index: -1
+s1_line_A_yellow/ef_line_A_yellow_00013
+  rotate: false
+  xy: 733, 178
+  size: 66, 22
+  orig: 250, 250
+  offset: 23, 110
+  index: -1
+s1_smash_attack_A_yellow/ef_smash_attack_A_yellow_00001
+  rotate: false
+  xy: 1862, 347
+  size: 153, 150
+  orig: 200, 200
+  offset: 30, 22
+  index: -1
+s1_smash_attack_A_yellow/ef_smash_attack_A_yellow_00002
+  rotate: false
+  xy: 1709, 345
+  size: 152, 152
+  orig: 200, 200
+  offset: 31, 20
+  index: -1
+s1_smash_attack_A_yellow/ef_smash_attack_A_yellow_00003
+  rotate: false
+  xy: 1557, 314
+  size: 151, 154
+  orig: 200, 200
+  offset: 33, 18
+  index: -1
+s1_smash_attack_A_yellow/ef_smash_attack_A_yellow_00004
+  rotate: false
+  xy: 1879, 192
+  size: 137, 154
+  orig: 200, 200
+  offset: 47, 18
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00001
+  rotate: false
+  xy: 626, 176
+  size: 106, 112
+  orig: 200, 200
+  offset: 58, 52
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00002
+  rotate: false
+  xy: 174, 30
+  size: 103, 120
+  orig: 200, 200
+  offset: 58, 47
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00003
+  rotate: false
+  xy: 278, 29
+  size: 103, 129
+  orig: 200, 200
+  offset: 55, 41
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00004
+  rotate: false
+  xy: 387, 166
+  size: 102, 135
+  orig: 200, 200
+  offset: 56, 36
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00005
+  rotate: false
+  xy: 174, 151
+  size: 100, 144
+  orig: 200, 200
+  offset: 58, 32
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00006
+  rotate: true
+  xy: 490, 189
+  size: 99, 135
+  orig: 200, 200
+  offset: 59, 32
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00007
+  rotate: true
+  xy: 624, 80
+  size: 95, 137
+  orig: 200, 200
+  offset: 61, 32
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00008
+  rotate: true
+  xy: 1701, 205
+  size: 95, 130
+  orig: 200, 200
+  offset: 63, 39
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00009
+  rotate: true
+  xy: 490, 113
+  size: 75, 133
+  orig: 200, 200
+  offset: 67, 34
+  index: -1
+s1_smash_sprash_A_yellow/ef_smash_sprash_A_yellow_00010
+  rotate: true
+  xy: 1, 1
+  size: 79, 137
+  orig: 200, 200
+  offset: 70, 32
+  index: -1
+tsut_wind/ef_trust_dash_main_00001
+  rotate: false
+  xy: 733, 201
+  size: 80, 111
+  orig: 210, 250
+  offset: 54, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00002
+  rotate: false
+  xy: 179, 300
+  size: 163, 197
+  orig: 210, 250
+  offset: 3, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00003
+  rotate: true
+  xy: 783, 344
+  size: 153, 201
+  orig: 210, 250
+  offset: 22, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00004
+  rotate: false
+  xy: 1, 81
+  size: 147, 214
+  orig: 210, 250
+  offset: 33, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00005
+  rotate: true
+  xy: 563, 361
+  size: 136, 219
+  orig: 210, 250
+  offset: 44, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00006
+  rotate: true
+  xy: 1193, 386
+  size: 111, 202
+  orig: 210, 250
+  offset: 52, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00007
+  rotate: true
+  xy: 985, 370
+  size: 127, 207
+  orig: 210, 250
+  offset: 36, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00008
+  rotate: true
+  xy: 343, 356
+  size: 141, 219
+  orig: 210, 250
+  offset: 45, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00009
+  rotate: false
+  xy: 1, 296
+  size: 177, 201
+  orig: 210, 250
+  offset: 13, 23
+  index: -1
+tsut_wind/ef_trust_dash_main_00010
+  rotate: false
+  xy: 1396, 310
+  size: 160, 158
+  orig: 210, 250
+  offset: 18, 29
+  index: -1
+tsut_wind/ef_trust_dash_main_00011
+  rotate: false
+  xy: 275, 159
+  size: 111, 140
+  orig: 210, 250
+  offset: 46, 47
+  index: -1

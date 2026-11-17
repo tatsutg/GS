@@ -1,0 +1,209 @@
+
+itemskill1115.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Guts_00
+  rotate: true
+  xy: 1999, 191
+  size: 64, 48
+  orig: 100, 100
+  offset: 22, 16
+  index: -1
+Guts_01
+  rotate: false
+  xy: 1018, 114
+  size: 80, 42
+  orig: 100, 100
+  offset: 8, 34
+  index: -1
+Guts_02
+  rotate: false
+  xy: 1099, 106
+  size: 68, 50
+  orig: 100, 100
+  offset: 22, 16
+  index: -1
+ef_dash/ef_dash_main_00001
+  rotate: true
+  xy: 1791, 173
+  size: 82, 114
+  orig: 150, 150
+  offset: 42, 10
+  index: -1
+ef_dash/ef_dash_main_00002
+  rotate: true
+  xy: 1672, 165
+  size: 90, 118
+  orig: 150, 150
+  offset: 36, 10
+  index: -1
+ef_dash/ef_dash_main_00003
+  rotate: false
+  xy: 296, 2
+  size: 97, 120
+  orig: 150, 150
+  offset: 30, 11
+  index: -1
+ef_dash/ef_dash_main_00004
+  rotate: false
+  xy: 1, 1
+  size: 107, 121
+  orig: 150, 150
+  offset: 21, 13
+  index: -1
+ef_dash/ef_dash_main_00005
+  rotate: true
+  xy: 1297, 149
+  size: 106, 122
+  orig: 150, 150
+  offset: 20, 15
+  index: -1
+ef_dash/ef_dash_main_00006
+  rotate: true
+  xy: 623, 55
+  size: 77, 90
+  orig: 150, 150
+  offset: 37, 19
+  index: -1
+ef_smoke/guts_smoke_00001
+  rotate: false
+  xy: 1297, 141
+  size: 7, 7
+  orig: 256, 256
+  offset: 33, 76
+  index: -1
+ef_smoke/guts_smoke_00002
+  rotate: true
+  xy: 394, 1
+  size: 30, 20
+  orig: 256, 256
+  offset: 33, 75
+  index: -1
+ef_smoke/guts_smoke_00003
+  rotate: false
+  xy: 1247, 104
+  size: 58, 36
+  orig: 256, 256
+  offset: 29, 73
+  index: -1
+ef_smoke/guts_smoke_00004
+  rotate: false
+  xy: 1168, 91
+  size: 78, 49
+  orig: 256, 256
+  offset: 31, 72
+  index: -1
+ef_smoke/guts_smoke_00005
+  rotate: false
+  xy: 1538, 109
+  size: 100, 60
+  orig: 256, 256
+  offset: 29, 71
+  index: -1
+ef_smoke/guts_smoke_00006
+  rotate: false
+  xy: 508, 60
+  size: 114, 72
+  orig: 256, 256
+  offset: 33, 70
+  index: -1
+ef_smoke/guts_smoke_00007
+  rotate: false
+  xy: 1538, 170
+  size: 133, 85
+  orig: 256, 256
+  offset: 31, 68
+  index: -1
+ef_smoke/guts_smoke_00008
+  rotate: false
+  xy: 1018, 157
+  size: 153, 98
+  orig: 256, 256
+  offset: 30, 67
+  index: -1
+ef_smoke/guts_smoke_00009
+  rotate: false
+  xy: 555, 133
+  size: 166, 122
+  orig: 256, 256
+  offset: 30, 66
+  index: -1
+ef_smoke/guts_smoke_00010
+  rotate: false
+  xy: 204, 123
+  size: 182, 132
+  orig: 256, 256
+  offset: 31, 65
+  index: -1
+ef_smoke/guts_smoke_00011
+  rotate: false
+  xy: 1, 123
+  size: 202, 132
+  orig: 256, 256
+  offset: 29, 65
+  index: -1
+ef_smoke/guts_smoke_00012
+  rotate: false
+  xy: 109, 2
+  size: 186, 120
+  orig: 256, 256
+  offset: 45, 61
+  index: -1
+ef_smoke/guts_smoke_00013
+  rotate: false
+  xy: 387, 133
+  size: 167, 122
+  orig: 256, 256
+  offset: 60, 62
+  index: -1
+ef_smoke/guts_smoke_00014
+  rotate: false
+  xy: 722, 135
+  size: 161, 120
+  orig: 256, 256
+  offset: 71, 62
+  index: -1
+ef_smoke/guts_smoke_00015
+  rotate: false
+  xy: 884, 135
+  size: 133, 120
+  orig: 256, 256
+  offset: 90, 67
+  index: -1
+ef_smoke/guts_smoke_00016
+  rotate: false
+  xy: 1172, 141
+  size: 124, 114
+  orig: 256, 256
+  offset: 103, 66
+  index: -1
+ef_smoke/guts_smoke_00017
+  rotate: false
+  xy: 1420, 147
+  size: 117, 108
+  orig: 256, 256
+  offset: 110, 67
+  index: -1
+ef_smoke/guts_smoke_00018
+  rotate: false
+  xy: 394, 32
+  size: 113, 100
+  orig: 256, 256
+  offset: 120, 67
+  index: -1
+ef_smoke/guts_smoke_00019
+  rotate: false
+  xy: 1906, 173
+  size: 92, 82
+  orig: 256, 256
+  offset: 134, 72
+  index: -1
+ef_smoke/guts_smoke_00020
+  rotate: false
+  xy: 508, 12
+  size: 82, 47
+  orig: 256, 256
+  offset: 150, 81
+  index: -1

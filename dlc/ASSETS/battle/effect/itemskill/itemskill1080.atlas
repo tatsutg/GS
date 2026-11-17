@@ -1,0 +1,62 @@
+
+itemskill1080.png
+size: 128,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_slash_line_main/ef_slash_line_main_00001
+  rotate: false
+  xy: 111, 328
+  size: 14, 173
+  orig: 88, 500
+  offset: 40, 327
+  index: -1
+ef_slash_line_main/ef_slash_line_main_00002
+  rotate: false
+  xy: 91, 148
+  size: 19, 353
+  orig: 88, 500
+  offset: 38, 147
+  index: -1
+ef_slash_line_main/ef_slash_line_main_00003
+  rotate: false
+  xy: 67, 17
+  size: 23, 484
+  orig: 88, 500
+  offset: 37, 16
+  index: -1
+ef_slash_line_main/ef_slash_line_main_00004
+  rotate: false
+  xy: 44, 1
+  size: 11, 500
+  orig: 88, 500
+  offset: 42, 0
+  index: -1
+ef_slash_line_main/ef_slash_line_main_00005
+  rotate: false
+  xy: 56, 1
+  size: 10, 500
+  orig: 88, 500
+  offset: 42, 0
+  index: -1
+ef_slash_line_main/ef_slash_line_main_00006
+  rotate: false
+  xy: 31, 1
+  size: 12, 500
+  orig: 88, 500
+  offset: 41, 0
+  index: -1
+ef_slash_line_main/ef_slash_line_main_00007
+  rotate: false
+  xy: 1, 1
+  size: 14, 500
+  orig: 88, 500
+  offset: 40, 0
+  index: -1
+ef_slash_line_main/ef_slash_line_main_00008
+  rotate: false
+  xy: 16, 1
+  size: 14, 500
+  orig: 88, 500
+  offset: 40, 0
+  index: -1

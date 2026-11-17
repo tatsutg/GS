@@ -1,0 +1,209 @@
+
+itemskill2068.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_fire_main/ef_fire_main_00001
+  rotate: false
+  xy: 1147, 336
+  size: 71, 67
+  orig: 160, 160
+  offset: 37, 29
+  index: -1
+EF/ef_fire_main/ef_fire_main_00002
+  rotate: false
+  xy: 216, 56
+  size: 82, 102
+  orig: 160, 160
+  offset: 38, 28
+  index: -1
+EF/ef_fire_main/ef_fire_main_00003
+  rotate: false
+  xy: 1059, 308
+  size: 87, 94
+  orig: 160, 160
+  offset: 38, 28
+  index: -1
+EF/ef_fire_main/ef_fire_main_00004
+  rotate: true
+  xy: 942, 302
+  size: 100, 116
+  orig: 160, 160
+  offset: 32, 16
+  index: -1
+EF/ef_fire_main/ef_fire_main_00005
+  rotate: true
+  xy: 812, 180
+  size: 119, 135
+  orig: 160, 160
+  offset: 26, 6
+  index: -1
+EF/ef_fire_main/ef_fire_main_00006
+  rotate: false
+  xy: 948, 164
+  size: 112, 137
+  orig: 160, 160
+  offset: 24, 7
+  index: -1
+EF/ef_fire_main/ef_fire_main_00007
+  rotate: true
+  xy: 670, 177
+  size: 127, 141
+  orig: 160, 160
+  offset: 17, 15
+  index: -1
+EF/ef_fire_main/ef_fire_main_00008
+  rotate: true
+  xy: 1, 1
+  size: 111, 104
+  orig: 160, 160
+  offset: 27, 27
+  index: -1
+EF/ef_fire_main/ef_fire_main_00009
+  rotate: false
+  xy: 299, 50
+  size: 67, 108
+  orig: 160, 160
+  offset: 29, 26
+  index: -1
+EF/ef_fire_main/ef_fire_main_00010
+  rotate: false
+  xy: 1061, 235
+  size: 63, 72
+  orig: 160, 160
+  offset: 31, 32
+  index: -1
+EF/ef_new/ef_slash_bolt_main/ef_slash_bolt_main_00002
+  rotate: false
+  xy: 76, 371
+  size: 296, 140
+  orig: 300, 171
+  offset: 2, 10
+  index: -1
+EF/ef_new/ef_slash_bolt_main/ef_slash_bolt_main_00003
+  rotate: false
+  xy: 76, 255
+  size: 296, 115
+  orig: 300, 171
+  offset: 2, 12
+  index: -1
+EF/ef_new/ef_slash_bolt_main/ef_slash_bolt_main_00004
+  rotate: false
+  xy: 76, 159
+  size: 296, 95
+  orig: 300, 171
+  offset: 2, 33
+  index: -1
+EF/ef_new/ef_slash_bolt_main/ef_slash_bolt_main_00005
+  rotate: false
+  xy: 373, 315
+  size: 296, 94
+  orig: 300, 171
+  offset: 2, 34
+  index: -1
+EF/ef_new/ef_slash_bolt_main/ef_slash_bolt_main_00016
+  rotate: false
+  xy: 373, 410
+  size: 296, 101
+  orig: 300, 171
+  offset: 2, 29
+  index: -1
+EF/ef_slash_bolt_main/ef_slash_bolt_main_00002
+  rotate: false
+  xy: 670, 411
+  size: 274, 100
+  orig: 400, 160
+  offset: 61, 29
+  index: -1
+EF/ef_slash_bolt_main/ef_slash_line_mian_00005
+  rotate: false
+  xy: 1, 113
+  size: 74, 398
+  orig: 200, 420
+  offset: 63, 7
+  index: -1
+EF/ef_smash/ef_smash_main_00001
+  rotate: true
+  xy: 543, 204
+  size: 110, 126
+  orig: 180, 180
+  offset: 45, 27
+  index: -1
+EF/ef_smash/ef_smash_main_00002
+  rotate: true
+  xy: 814, 300
+  size: 110, 127
+  orig: 180, 180
+  offset: 42, 26
+  index: -1
+EF/ef_smash/ef_smash_main_00003
+  rotate: false
+  xy: 106, 17
+  size: 109, 141
+  orig: 180, 180
+  offset: 41, 21
+  index: -1
+EF/ef_smash/ef_smash_main_00004
+  rotate: true
+  xy: 945, 403
+  size: 108, 162
+  orig: 180, 180
+  offset: 39, 10
+  index: -1
+EF/ef_smash/ef_smash_main_00005
+  rotate: true
+  xy: 373, 207
+  size: 107, 169
+  orig: 180, 180
+  offset: 40, 7
+  index: -1
+EF/ef_smash/ef_smash_main_00006
+  rotate: true
+  xy: 1260, 405
+  size: 106, 151
+  orig: 180, 180
+  offset: 41, 14
+  index: -1
+EF/ef_smash/ef_smash_main_00007
+  rotate: true
+  xy: 670, 305
+  size: 105, 143
+  orig: 180, 180
+  offset: 42, 13
+  index: -1
+EF/ef_wind_main/ef_wind_main_00001
+  rotate: false
+  xy: 1108, 404
+  size: 151, 107
+  orig: 160, 120
+  offset: 5, 6
+  index: -1
+EF/ef_wind_main/ef_wind_main_00002
+  rotate: false
+  xy: 1412, 404
+  size: 150, 107
+  orig: 160, 120
+  offset: 6, 6
+  index: -1
+EF/ef_wind_main/ef_wind_main_00003
+  rotate: false
+  xy: 1865, 404
+  size: 149, 107
+  orig: 160, 120
+  offset: 6, 6
+  index: -1
+EF/ef_wind_main/ef_wind_main_00004
+  rotate: false
+  xy: 1563, 403
+  size: 150, 108
+  orig: 160, 120
+  offset: 5, 6
+  index: -1
+EF/ef_wind_main/ef_wind_main_00005
+  rotate: false
+  xy: 1714, 403
+  size: 150, 108
+  orig: 160, 120
+  offset: 5, 6
+  index: -1

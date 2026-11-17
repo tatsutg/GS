@@ -1,0 +1,76 @@
+
+itemskill1041.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+120_S1_pt1/120_S1_pt1_00003
+  rotate: false
+  xy: 640, 122
+  size: 307, 117
+  orig: 333, 333
+  offset: 13, 108
+  index: -1
+120_S1_pt1/120_S1_pt1_00005
+  rotate: false
+  xy: 557, 240
+  size: 304, 129
+  orig: 333, 333
+  offset: 16, 102
+  index: -1
+120_S1_pt1/120_S1_pt1_00006
+  rotate: false
+  xy: 557, 370
+  size: 301, 137
+  orig: 333, 333
+  offset: 16, 99
+  index: -1
+120_S1_shine1/120_S1_shine1_00000
+  rotate: false
+  xy: 1, 29
+  size: 343, 204
+  orig: 345, 345
+  offset: 0, 69
+  index: -1
+120_S1_shine1/120_S1_shine1_00001
+  rotate: false
+  xy: 345, 90
+  size: 294, 143
+  orig: 345, 345
+  offset: 25, 100
+  index: -1
+120_S2_slash1/120_S2_slash1_00000
+  rotate: true
+  xy: 345, 41
+  size: 48, 304
+  orig: 318, 318
+  offset: 133, 10
+  index: -1
+120_S2_slash1/120_S2_slash1_00002
+  rotate: true
+  xy: 650, 76
+  size: 45, 303
+  orig: 318, 318
+  offset: 134, 11
+  index: -1
+120_S2_slash1/120_S2_slash1_00004
+  rotate: true
+  xy: 345, 1
+  size: 39, 304
+  orig: 318, 318
+  offset: 138, 10
+  index: -1
+120_S2_wave1/120_S2_wave1_00000
+  rotate: false
+  xy: 1, 234
+  size: 277, 273
+  orig: 277, 273
+  offset: 0, 0
+  index: -1
+120_S2_wave1/120_S2_wave1_00002
+  rotate: false
+  xy: 279, 234
+  size: 277, 273
+  orig: 277, 273
+  offset: 0, 0
+  index: -1

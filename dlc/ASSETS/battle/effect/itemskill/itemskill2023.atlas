@@ -1,0 +1,209 @@
+
+itemskill2023.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/5210_A1_power1/5210_A1_power1_00000
+  rotate: false
+  xy: 1215, 14
+  size: 104, 80
+  orig: 350, 350
+  offset: 126, 134
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00004
+  rotate: false
+  xy: 999, 14
+  size: 107, 91
+  orig: 350, 350
+  offset: 125, 127
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00006
+  rotate: false
+  xy: 1107, 12
+  size: 107, 82
+  orig: 350, 350
+  offset: 125, 132
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00008
+  rotate: true
+  xy: 1558, 100
+  size: 107, 80
+  orig: 350, 350
+  offset: 125, 134
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00010
+  rotate: false
+  xy: 1639, 126
+  size: 107, 80
+  orig: 350, 350
+  offset: 125, 134
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00012
+  rotate: false
+  xy: 1747, 126
+  size: 107, 80
+  orig: 350, 350
+  offset: 125, 134
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00014
+  rotate: false
+  xy: 1639, 45
+  size: 107, 80
+  orig: 350, 350
+  offset: 125, 134
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00016
+  rotate: true
+  xy: 918, 0
+  size: 105, 80
+  orig: 350, 350
+  offset: 125, 134
+  index: -1
+EF/5210_A1_power1/5210_A1_power1_00018
+  rotate: false
+  xy: 1747, 45
+  size: 102, 80
+  orig: 350, 350
+  offset: 127, 134
+  index: -1
+EF/5210_A2_wave1/5210_A2_wave1_00000
+  rotate: true
+  xy: 1155, 172
+  size: 33, 172
+  orig: 350, 350
+  offset: 157, 86
+  index: -1
+EF/5210_A2_wave1/5210_A2_wave1_00002
+  rotate: true
+  xy: 918, 148
+  size: 42, 210
+  orig: 350, 350
+  offset: 154, 67
+  index: -1
+EF/5210_A2_wave1/5210_A2_wave1_00004
+  rotate: true
+  xy: 1397, 208
+  size: 47, 241
+  orig: 350, 350
+  offset: 153, 51
+  index: -1
+EF/5210_A2_wave1/5210_A2_wave1_00005
+  rotate: true
+  xy: 1155, 206
+  size: 49, 241
+  orig: 350, 350
+  offset: 153, 50
+  index: -1
+EF/5210_S2_beam1/5210_S2_beam1_00000
+  rotate: true
+  xy: 1397, 172
+  size: 35, 160
+  orig: 350, 350
+  offset: 160, 97
+  index: -1
+EF/5210_S2_beam1/5210_S2_beam1_00002
+  rotate: true
+  xy: 918, 106
+  size: 41, 195
+  orig: 350, 350
+  offset: 158, 79
+  index: -1
+EF/5210_S2_beam1/5210_S2_beam1_00004
+  rotate: true
+  xy: 1639, 207
+  size: 48, 221
+  orig: 350, 350
+  offset: 156, 65
+  index: -1
+EF/9120_S2_beam1/9120_S2_beam1_00002
+  rotate: false
+  xy: 0, 0
+  size: 288, 63
+  orig: 350, 350
+  offset: 22, 145
+  index: -1
+EF/9120_S2_beam1/9120_S2_beam1_00004
+  rotate: false
+  xy: 289, 95
+  size: 288, 69
+  orig: 350, 350
+  offset: 22, 142
+  index: -1
+EF/9120_S2_beam1/9120_S2_beam1_00006
+  rotate: false
+  xy: 866, 191
+  size: 288, 64
+  orig: 350, 350
+  offset: 22, 144
+  index: -1
+EF/9120_S2_beam1/9120_S2_beam1_00031
+  rotate: false
+  xy: 289, 27
+  size: 288, 67
+  orig: 350, 350
+  offset: 21, 143
+  index: -1
+EF/9120_S2_beam2/9120_S2_beam2_00001
+  rotate: false
+  xy: 578, 186
+  size: 287, 69
+  orig: 350, 350
+  offset: 28, 140
+  index: -1
+EF/9120_S2_beam2/9120_S2_beam2_00003
+  rotate: false
+  xy: 0, 156
+  size: 288, 99
+  orig: 350, 350
+  offset: 28, 125
+  index: -1
+EF/9120_S2_beam2/9120_S2_beam2_00005
+  rotate: false
+  xy: 0, 64
+  size: 288, 91
+  orig: 350, 350
+  offset: 28, 130
+  index: -1
+EF/9120_S2_beam2/9120_S2_beam2_00006
+  rotate: false
+  xy: 289, 165
+  size: 288, 90
+  orig: 350, 350
+  offset: 28, 130
+  index: -1
+EF/9120_S2_beam3/9120_S2_beam3_00003
+  rotate: false
+  xy: 578, 0
+  size: 149, 185
+  orig: 350, 350
+  offset: 125, 85
+  index: -1
+EF/9120_S2_beam3/9120_S2_beam3_00007
+  rotate: true
+  xy: 728, 28
+  size: 157, 189
+  orig: 350, 350
+  offset: 125, 83
+  index: -1
+EF/disk_purple2
+  rotate: true
+  xy: 1861, 179
+  size: 76, 158
+  orig: 367, 367
+  offset: 11, 200
+  index: -1
+EF/disk_white
+  rotate: true
+  xy: 1855, 128
+  size: 50, 124
+  orig: 327, 327
+  offset: 7, 194
+  index: -1
+EF/disk_white2
+  rotate: true
+  xy: 1129, 95
+  size: 76, 158
+  orig: 367, 367
+  offset: 11, 200
+  index: -1

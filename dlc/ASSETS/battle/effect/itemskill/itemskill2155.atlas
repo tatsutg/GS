@@ -1,0 +1,615 @@
+
+itemskill2155.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_flare_back_purple_00007
+  rotate: false
+  xy: 1825, 366
+  size: 88, 88
+  orig: 120, 120
+  offset: 16, 16
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00001
+  rotate: false
+  xy: 439, 454
+  size: 212, 57
+  orig: 350, 280
+  offset: 49, 64
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00002
+  rotate: false
+  xy: 1, 355
+  size: 219, 80
+  orig: 350, 280
+  offset: 72, 63
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00003
+  rotate: false
+  xy: 1, 96
+  size: 189, 83
+  orig: 350, 280
+  offset: 112, 71
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00004
+  rotate: true
+  xy: 940, 310
+  size: 143, 104
+  orig: 350, 280
+  offset: 157, 86
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00005
+  rotate: false
+  xy: 315, 285
+  size: 117, 89
+  orig: 350, 280
+  offset: 184, 110
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00006
+  rotate: false
+  xy: 883, 173
+  size: 130, 75
+  orig: 350, 280
+  offset: 172, 135
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00007
+  rotate: false
+  xy: 1045, 257
+  size: 156, 68
+  orig: 350, 280
+  offset: 141, 154
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00008
+  rotate: false
+  xy: 759, 332
+  size: 157, 58
+  orig: 350, 280
+  offset: 129, 168
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00009
+  rotate: false
+  xy: 1045, 219
+  size: 138, 37
+  orig: 350, 280
+  offset: 125, 196
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00010
+  rotate: true
+  xy: 1098, 18
+  size: 66, 33
+  orig: 350, 280
+  offset: 126, 199
+  index: -1
+EF/ef_leaf_tornade_A_main 1/ef_leaf_tornade_A_main 1_00011
+  rotate: false
+  xy: 1098, 1
+  size: 54, 16
+  orig: 350, 280
+  offset: 128, 204
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00001
+  rotate: true
+  xy: 532, 45
+  size: 150, 45
+  orig: 350, 280
+  offset: 74, 73
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00002
+  rotate: false
+  xy: 1, 436
+  size: 227, 75
+  orig: 350, 280
+  offset: 66, 65
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00003
+  rotate: false
+  xy: 1, 180
+  size: 189, 84
+  orig: 350, 280
+  offset: 105, 69
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00004
+  rotate: false
+  xy: 191, 1
+  size: 123, 99
+  orig: 350, 280
+  offset: 174, 89
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00005
+  rotate: false
+  xy: 1433, 368
+  size: 115, 89
+  orig: 350, 280
+  offset: 182, 107
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00006
+  rotate: false
+  xy: 868, 4
+  size: 115, 80
+  orig: 350, 280
+  offset: 183, 130
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00007
+  rotate: false
+  xy: 579, 201
+  size: 145, 69
+  orig: 350, 280
+  offset: 153, 151
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00008
+  rotate: false
+  xy: 729, 5
+  size: 138, 56
+  orig: 350, 280
+  offset: 144, 173
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00009
+  rotate: false
+  xy: 578, 1
+  size: 150, 49
+  orig: 350, 280
+  offset: 102, 185
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00010
+  rotate: false
+  xy: 940, 284
+  size: 104, 25
+  orig: 350, 280
+  offset: 147, 187
+  index: -1
+EF/ef_leaf_tornade_A_main 2/ef_leaf_tornade_A_main 2_00011
+  rotate: false
+  xy: 887, 311
+  size: 24, 20
+  orig: 350, 280
+  offset: 221, 193
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00001
+  rotate: false
+  xy: 875, 85
+  size: 116, 47
+  orig: 350, 280
+  offset: 144, 74
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00002
+  rotate: false
+  xy: 1, 265
+  size: 197, 89
+  orig: 350, 280
+  offset: 90, 59
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00003
+  rotate: false
+  xy: 1, 16
+  size: 177, 79
+  orig: 350, 280
+  offset: 110, 77
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00004
+  rotate: false
+  xy: 1045, 326
+  size: 152, 91
+  orig: 350, 280
+  offset: 142, 91
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00005
+  rotate: false
+  xy: 1622, 363
+  size: 112, 91
+  orig: 350, 280
+  offset: 185, 106
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00006
+  rotate: false
+  xy: 984, 3
+  size: 113, 81
+  orig: 350, 280
+  offset: 183, 127
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00007
+  rotate: false
+  xy: 1014, 85
+  size: 134, 68
+  orig: 350, 280
+  offset: 158, 149
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00008
+  rotate: false
+  xy: 720, 118
+  size: 154, 51
+  orig: 350, 280
+  offset: 125, 176
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00009
+  rotate: true
+  xy: 1151, 129
+  size: 89, 32
+  orig: 350, 280
+  offset: 120, 198
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00010
+  rotate: true
+  xy: 917, 307
+  size: 83, 22
+  orig: 350, 280
+  offset: 125, 205
+  index: -1
+EF/ef_leaf_tornade_A_main 3/ef_leaf_tornade_A_main 3_00011
+  rotate: true
+  xy: 1, 1
+  size: 14, 9
+  orig: 350, 280
+  offset: 125, 204
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00001
+  rotate: true
+  xy: 191, 101
+  size: 163, 55
+  orig: 350, 280
+  offset: 96, 142
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00002
+  rotate: false
+  xy: 652, 454
+  size: 199, 57
+  orig: 350, 280
+  offset: 61, 135
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00003
+  rotate: false
+  xy: 711, 62
+  size: 149, 55
+  orig: 350, 280
+  offset: 60, 136
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00004
+  rotate: false
+  xy: 578, 51
+  size: 132, 78
+  orig: 350, 280
+  offset: 59, 109
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00005
+  rotate: true
+  xy: 247, 198
+  size: 124, 67
+  orig: 350, 280
+  offset: 61, 94
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00006
+  rotate: false
+  xy: 315, 375
+  size: 123, 67
+  orig: 350, 280
+  offset: 61, 85
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00007
+  rotate: false
+  xy: 776, 391
+  size: 163, 62
+  orig: 350, 280
+  offset: 62, 81
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00008
+  rotate: false
+  xy: 1626, 455
+  size: 175, 56
+  orig: 350, 280
+  offset: 56, 67
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00009
+  rotate: false
+  xy: 439, 399
+  size: 169, 54
+  orig: 350, 280
+  offset: 77, 65
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00010
+  rotate: false
+  xy: 1211, 407
+  size: 157, 51
+  orig: 350, 280
+  offset: 88, 65
+  index: -1
+EF/ef_leaf_tornade_B_main 1/ef_leaf_tornade_B_main 1_00011
+  rotate: false
+  xy: 883, 133
+  size: 130, 39
+  orig: 350, 280
+  offset: 88, 69
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00001
+  rotate: false
+  xy: 1047, 461
+  size: 199, 50
+  orig: 350, 280
+  offset: 84, 153
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00002
+  rotate: false
+  xy: 852, 454
+  size: 194, 57
+  orig: 350, 280
+  offset: 70, 137
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00003
+  rotate: true
+  xy: 1549, 354
+  size: 103, 72
+  orig: 350, 280
+  offset: 56, 121
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00004
+  rotate: true
+  xy: 229, 323
+  size: 119, 85
+  orig: 350, 280
+  offset: 56, 108
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00005
+  rotate: false
+  xy: 579, 130
+  size: 140, 70
+  orig: 350, 280
+  offset: 56, 98
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00006
+  rotate: false
+  xy: 585, 271
+  size: 150, 69
+  orig: 350, 280
+  offset: 58, 86
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00007
+  rotate: false
+  xy: 609, 391
+  size: 166, 62
+  orig: 350, 280
+  offset: 56, 85
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00008
+  rotate: false
+  xy: 1439, 458
+  size: 186, 53
+  orig: 350, 280
+  offset: 57, 76
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00009
+  rotate: false
+  xy: 439, 344
+  size: 159, 54
+  orig: 350, 280
+  offset: 84, 59
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00010
+  rotate: false
+  xy: 725, 170
+  size: 157, 37
+  orig: 350, 280
+  offset: 86, 67
+  index: -1
+EF/ef_leaf_tornade_B_main 2/ef_leaf_tornade_B_main 2_00011
+  rotate: false
+  xy: 887, 249
+  size: 157, 34
+  orig: 350, 280
+  offset: 85, 70
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00001
+  rotate: false
+  xy: 1247, 459
+  size: 191, 52
+  orig: 350, 280
+  offset: 77, 147
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00002
+  rotate: false
+  xy: 229, 443
+  size: 209, 68
+  orig: 350, 280
+  offset: 60, 133
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00003
+  rotate: false
+  xy: 1014, 154
+  size: 136, 64
+  orig: 350, 280
+  offset: 53, 130
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00004
+  rotate: false
+  xy: 1184, 176
+  size: 127, 73
+  orig: 350, 280
+  offset: 51, 111
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00005
+  rotate: false
+  xy: 1198, 337
+  size: 154, 69
+  orig: 350, 280
+  offset: 49, 99
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00006
+  rotate: false
+  xy: 433, 279
+  size: 151, 64
+  orig: 350, 280
+  offset: 48, 88
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00007
+  rotate: false
+  xy: 1047, 418
+  size: 163, 42
+  orig: 350, 280
+  offset: 57, 84
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00008
+  rotate: false
+  xy: 1802, 455
+  size: 168, 56
+  orig: 350, 280
+  offset: 63, 70
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00009
+  rotate: false
+  xy: 599, 341
+  size: 159, 49
+  orig: 350, 280
+  offset: 91, 65
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00010
+  rotate: false
+  xy: 725, 208
+  size: 157, 49
+  orig: 350, 280
+  offset: 93, 64
+  index: -1
+EF/ef_leaf_tornade_B_main 3/ef_leaf_tornade_B_main 3_00011
+  rotate: true
+  xy: 1914, 365
+  size: 89, 48
+  orig: 350, 280
+  offset: 110, 65
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00001
+  rotate: false
+  xy: 1622, 324
+  size: 114, 38
+  orig: 175, 125
+  offset: 44, 58
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00002
+  rotate: false
+  xy: 736, 258
+  size: 150, 73
+  orig: 175, 125
+  offset: 7, 24
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00003
+  rotate: false
+  xy: 432, 196
+  size: 146, 82
+  orig: 175, 125
+  offset: 7, 15
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00004
+  rotate: false
+  xy: 391, 17
+  size: 136, 81
+  orig: 175, 125
+  offset: 7, 15
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00005
+  rotate: false
+  xy: 315, 202
+  size: 116, 82
+  orig: 175, 125
+  offset: 7, 14
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00006
+  rotate: true
+  xy: 1971, 423
+  size: 88, 76
+  orig: 175, 125
+  offset: 5, 14
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00007
+  rotate: true
+  xy: 1369, 369
+  size: 89, 63
+  orig: 175, 125
+  offset: 6, 14
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00008
+  rotate: true
+  xy: 1312, 163
+  size: 86, 48
+  orig: 175, 125
+  offset: 12, 12
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00009
+  rotate: true
+  xy: 1352, 250
+  size: 86, 36
+  orig: 175, 125
+  offset: 25, 12
+  index: -1
+EF/ef_tornade_fire_main 2/ef_tornade_fire_main 2_00010
+  rotate: true
+  xy: 199, 271
+  size: 83, 29
+  orig: 175, 125
+  offset: 41, 12
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00001
+  rotate: false
+  xy: 1737, 320
+  size: 113, 43
+  orig: 175, 125
+  offset: 18, 15
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00002
+  rotate: false
+  xy: 1202, 250
+  size: 149, 86
+  orig: 175, 125
+  offset: 19, 14
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00003
+  rotate: false
+  xy: 247, 101
+  size: 147, 96
+  orig: 175, 125
+  offset: 22, 15
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00004
+  rotate: false
+  xy: 395, 99
+  size: 136, 96
+  orig: 175, 125
+  offset: 33, 16
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00005
+  rotate: false
+  xy: 1184, 79
+  size: 117, 96
+  orig: 175, 125
+  offset: 52, 16
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00006
+  rotate: false
+  xy: 1735, 364
+  size: 89, 90
+  orig: 175, 125
+  offset: 82, 23
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00007
+  rotate: true
+  xy: 315, 10
+  size: 90, 75
+  orig: 175, 125
+  offset: 80, 38
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00008
+  rotate: true
+  xy: 1302, 75
+  size: 87, 58
+  orig: 175, 125
+  offset: 77, 58
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00009
+  rotate: true
+  xy: 1361, 161
+  size: 88, 43
+  orig: 175, 125
+  offset: 63, 71
+  index: -1
+EF/ef_tornade_fire_main/ef_tornade_fire_main_00010
+  rotate: true
+  xy: 1361, 75
+  size: 85, 36
+  orig: 175, 125
+  offset: 50, 80
+  index: -1

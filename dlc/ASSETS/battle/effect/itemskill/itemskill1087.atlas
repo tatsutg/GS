@@ -1,0 +1,307 @@
+
+itemskill1087.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images2/ef/ef_dash_red/ef_dash_red_00007
+  rotate: false
+  xy: 1282, 236
+  size: 82, 89
+  orig: 200, 200
+  offset: 41, 75
+  index: -1
+images2/ef/ef_dash_red/ef_dash_red_00008
+  rotate: false
+  xy: 487, 99
+  size: 73, 78
+  orig: 200, 200
+  offset: 41, 76
+  index: -1
+images2/ef/ef_dash_red/ef_dash_red_00009
+  rotate: false
+  xy: 668, 257
+  size: 72, 76
+  orig: 200, 200
+  offset: 42, 79
+  index: -1
+images2/ef/ef_dash_red/ef_dash_red_00010
+  rotate: false
+  xy: 741, 279
+  size: 72, 72
+  orig: 200, 200
+  offset: 43, 82
+  index: -1
+images2/ef/ef_dash_red/ef_dash_red_00011
+  rotate: true
+  xy: 814, 280
+  size: 71, 67
+  orig: 200, 200
+  offset: 44, 86
+  index: -1
+images2/ef/ef_dash_red/ef_dash_red_00012
+  rotate: false
+  xy: 882, 300
+  size: 71, 53
+  orig: 200, 200
+  offset: 44, 99
+  index: -1
+images2/ef/ef_dash_red/ef_dash_red_00013
+  rotate: false
+  xy: 954, 307
+  size: 69, 46
+  orig: 200, 200
+  offset: 45, 102
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00001
+  rotate: false
+  xy: 487, 178
+  size: 82, 78
+  orig: 200, 200
+  offset: 50, 41
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00002
+  rotate: true
+  xy: 1044, 268
+  size: 94, 118
+  orig: 200, 200
+  offset: 52, 41
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00003
+  rotate: false
+  xy: 300, 143
+  size: 102, 110
+  orig: 200, 200
+  offset: 51, 39
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00004
+  rotate: true
+  xy: 1875, 251
+  size: 117, 134
+  orig: 200, 200
+  offset: 44, 26
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00005
+  rotate: true
+  xy: 1044, 363
+  size: 139, 158
+  orig: 200, 200
+  offset: 37, 14
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00006
+  rotate: true
+  xy: 1548, 372
+  size: 130, 161
+  orig: 200, 200
+  offset: 35, 15
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00007
+  rotate: true
+  xy: 878, 354
+  size: 148, 165
+  orig: 200, 200
+  offset: 27, 24
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00008
+  rotate: false
+  xy: 170, 132
+  size: 129, 121
+  orig: 200, 200
+  offset: 38, 39
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00009
+  rotate: true
+  xy: 170, 53
+  size: 78, 126
+  orig: 200, 200
+  offset: 41, 38
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00010
+  rotate: true
+  xy: 403, 91
+  size: 73, 83
+  orig: 200, 200
+  offset: 43, 45
+  index: -1
+images2/ef/ef_fire_red/ef_fire_red_00011
+  rotate: true
+  xy: 664, 188
+  size: 68, 81
+  orig: 200, 200
+  offset: 44, 60
+  index: -1
+images2/ef/ef_line_main/ef_line_main_00004
+  rotate: false
+  xy: 526, 334
+  size: 165, 20
+  orig: 200, 75
+  offset: 19, 28
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00002
+  rotate: false
+  xy: 708, 352
+  size: 169, 150
+  orig: 320, 320
+  offset: 127, 82
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00003
+  rotate: false
+  xy: 349, 337
+  size: 176, 165
+  orig: 320, 320
+  offset: 120, 78
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00004
+  rotate: true
+  xy: 1, 121
+  size: 178, 168
+  orig: 320, 320
+  offset: 118, 74
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00005
+  rotate: false
+  xy: 174, 309
+  size: 174, 193
+  orig: 320, 320
+  offset: 122, 62
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00006
+  rotate: false
+  xy: 1, 300
+  size: 172, 202
+  orig: 320, 320
+  offset: 124, 57
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00007
+  rotate: true
+  xy: 526, 355
+  size: 147, 181
+  orig: 320, 320
+  offset: 125, 65
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00008
+  rotate: true
+  xy: 1203, 378
+  size: 124, 171
+  orig: 320, 320
+  offset: 127, 65
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00009
+  rotate: true
+  xy: 1375, 381
+  size: 121, 172
+  orig: 320, 320
+  offset: 130, 65
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00010
+  rotate: true
+  xy: 1, 1
+  size: 119, 163
+  orig: 320, 320
+  offset: 132, 75
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00011
+  rotate: true
+  xy: 1710, 398
+  size: 104, 167
+  orig: 320, 320
+  offset: 136, 70
+  index: -1
+images2/ef/ef_smash_main/ef_smash_main_00012
+  rotate: false
+  xy: 403, 165
+  size: 83, 97
+  orig: 320, 320
+  offset: 150, 141
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00001
+  rotate: true
+  xy: 570, 191
+  size: 65, 93
+  orig: 150, 300
+  offset: 52, 186
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00002
+  rotate: true
+  xy: 1163, 251
+  size: 74, 118
+  orig: 150, 300
+  offset: 43, 160
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00003
+  rotate: true
+  xy: 514, 257
+  size: 76, 153
+  orig: 150, 300
+  offset: 41, 125
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00004
+  rotate: true
+  xy: 1878, 424
+  size: 78, 169
+  orig: 150, 300
+  offset: 39, 109
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00005
+  rotate: true
+  xy: 349, 263
+  size: 73, 164
+  orig: 150, 300
+  offset: 39, 102
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00006
+  rotate: true
+  xy: 1878, 369
+  size: 54, 161
+  orig: 150, 300
+  offset: 39, 88
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00007
+  rotate: true
+  xy: 1710, 351
+  size: 46, 164
+  orig: 150, 300
+  offset: 39, 64
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00008
+  rotate: true
+  xy: 1203, 326
+  size: 51, 159
+  orig: 150, 300
+  offset: 39, 38
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00009
+  rotate: true
+  xy: 174, 254
+  size: 54, 132
+  orig: 150, 300
+  offset: 41, 25
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00010
+  rotate: true
+  xy: 165, 16
+  size: 36, 103
+  orig: 150, 300
+  offset: 60, 8
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00011
+  rotate: false
+  xy: 2010, 282
+  size: 31, 86
+  orig: 150, 300
+  offset: 65, 8
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00012
+  rotate: true
+  xy: 741, 257
+  size: 21, 75
+  orig: 150, 300
+  offset: 74, 8
+  index: -1
+images2/ef/ef_trunade_line_main/ef_trunade_line_main_00013
+  rotate: true
+  xy: 165, 4
+  size: 11, 45
+  orig: 150, 300
+  offset: 80, 8
+  index: -1

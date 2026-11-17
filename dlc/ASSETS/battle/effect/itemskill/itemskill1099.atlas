@@ -1,0 +1,216 @@
+
+itemskill1099.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef/ef_wave_main/ef_wave_main_00001
+  rotate: false
+  xy: 1211, 77
+  size: 146, 24
+  orig: 320, 140
+  offset: 87, 56
+  index: -1
+ef/ef_wave_main/ef_wave_main_00002
+  rotate: false
+  xy: 1669, 177
+  size: 174, 30
+  orig: 320, 140
+  offset: 73, 52
+  index: -1
+ef/ef_wave_main/ef_wave_main_00003
+  rotate: false
+  xy: 483, 24
+  size: 219, 38
+  orig: 320, 140
+  offset: 51, 46
+  index: -1
+ef/ef_wave_main/ef_wave_main_00004
+  rotate: false
+  xy: 1403, 206
+  size: 265, 49
+  orig: 320, 140
+  offset: 24, 39
+  index: -1
+ef/ef_wave_main/ef_wave_main_00005
+  rotate: false
+  xy: 852, 204
+  size: 279, 51
+  orig: 320, 140
+  offset: 21, 36
+  index: -1
+ef/ef_wave_main/ef_wave_main_00006
+  rotate: false
+  xy: 266, 199
+  size: 304, 56
+  orig: 320, 140
+  offset: 8, 33
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00001
+  rotate: true
+  xy: 1351, 133
+  size: 68, 19
+  orig: 300, 150
+  offset: 25, 65
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00002
+  rotate: false
+  xy: 1187, 34
+  size: 130, 42
+  orig: 300, 150
+  offset: 19, 55
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00003
+  rotate: false
+  xy: 1403, 155
+  size: 196, 50
+  orig: 300, 150
+  offset: 8, 51
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00004
+  rotate: false
+  xy: 266, 18
+  size: 216, 57
+  orig: 300, 150
+  offset: 12, 48
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00005
+  rotate: false
+  xy: 1669, 208
+  size: 251, 47
+  orig: 300, 150
+  offset: 17, 52
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00006
+  rotate: false
+  xy: 503, 89
+  size: 272, 51
+  orig: 300, 150
+  offset: 16, 50
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00007
+  rotate: false
+  xy: 503, 141
+  size: 279, 57
+  orig: 300, 150
+  offset: 16, 47
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00008
+  rotate: false
+  xy: 571, 199
+  size: 280, 56
+  orig: 300, 150
+  offset: 10, 47
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00009
+  rotate: false
+  xy: 1132, 202
+  size: 270, 53
+  orig: 300, 150
+  offset: 17, 50
+  index: -1
+image2/ef/ef_beam_A_main/ef_beam_A_main_00010
+  rotate: false
+  xy: 503, 63
+  size: 260, 25
+  orig: 300, 150
+  offset: 27, 63
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00003
+  rotate: false
+  xy: 1600, 150
+  size: 66, 55
+  orig: 300, 150
+  offset: 12, 45
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00004
+  rotate: true
+  xy: 783, 107
+  size: 91, 67
+  orig: 300, 150
+  offset: 21, 40
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00005
+  rotate: false
+  xy: 1087, 8
+  size: 99, 80
+  orig: 300, 150
+  offset: 49, 36
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00006
+  rotate: false
+  xy: 1667, 83
+  size: 112, 93
+  orig: 300, 150
+  offset: 72, 32
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00007
+  rotate: false
+  xy: 1211, 102
+  size: 139, 99
+  orig: 300, 150
+  offset: 77, 31
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00008
+  rotate: false
+  xy: 1081, 89
+  size: 129, 112
+  orig: 300, 150
+  offset: 68, 24
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00009
+  rotate: false
+  xy: 957, 70
+  size: 123, 133
+  orig: 300, 150
+  offset: 97, 11
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00010
+  rotate: false
+  xy: 1921, 173
+  size: 126, 82
+  orig: 300, 150
+  offset: 136, 23
+  index: -1
+image2/ef/ef_boost_particle_main/ef_boost_particle_main_00011
+  rotate: true
+  xy: 1780, 72
+  size: 104, 92
+  orig: 300, 150
+  offset: 178, 17
+  index: -1
+image2/ef/ef_shock_wave_A_main/ef_shock_wave_A_main_00001
+  rotate: true
+  xy: 957, 2
+  size: 67, 129
+  orig: 200, 300
+  offset: 62, 87
+  index: -1
+image2/ef/ef_shock_wave_A_main/ef_shock_wave_A_main_00002
+  rotate: false
+  xy: 852, 1
+  size: 104, 202
+  orig: 200, 300
+  offset: 37, 51
+  index: -1
+image2/ef/ef_shock_wave_A_main/ef_shock_wave_A_main_00003
+  rotate: true
+  xy: 266, 76
+  size: 122, 236
+  orig: 200, 300
+  offset: 24, 35
+  index: -1
+image2/ef/ef_shock_wave_A_main/ef_shock_wave_A_main_00004
+  rotate: false
+  xy: 1, 5
+  size: 131, 250
+  orig: 200, 300
+  offset: 18, 28
+  index: -1
+image2/ef/ef_shock_wave_A_main/ef_shock_wave_A_main_00005
+  rotate: false
+  xy: 133, 6
+  size: 132, 249
+  orig: 200, 300
+  offset: 17, 29
+  index: -1

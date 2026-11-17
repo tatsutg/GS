@@ -1,0 +1,76 @@
+
+itemskill2067.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_attack_sprash_main/ef_attack_sprash_main_00001
+  rotate: false
+  xy: 623, 22
+  size: 88, 96
+  orig: 120, 150
+  offset: 24, 29
+  index: -1
+ef_attack_sprash_main/ef_attack_sprash_main_00003
+  rotate: false
+  xy: 368, 6
+  size: 88, 112
+  orig: 120, 150
+  offset: 25, 19
+  index: -1
+ef_attack_sprash_main/ef_attack_sprash_main_00005
+  rotate: false
+  xy: 457, 4
+  size: 85, 114
+  orig: 120, 150
+  offset: 28, 12
+  index: -1
+ef_attack_sprash_main/ef_attack_sprash_main_00007
+  rotate: false
+  xy: 543, 1
+  size: 79, 117
+  orig: 120, 150
+  offset: 32, 12
+  index: -1
+ef_attack_sprash_main/ef_attack_sprash_main_00009
+  rotate: false
+  xy: 895, 3
+  size: 65, 115
+  orig: 120, 150
+  offset: 36, 14
+  index: -1
+ef_slash_bolt_main/ef_slash_bolt_main_00001
+  rotate: true
+  xy: 1, 6
+  size: 112, 366
+  orig: 150, 375
+  offset: 21, 3
+  index: -1
+ef_slash_bolt_main/ef_slash_bolt_main_00011
+  rotate: true
+  xy: 623, 2
+  size: 19, 271
+  orig: 113, 281
+  offset: 47, 5
+  index: -1
+s2_ef_slash_sprash_main/ef_slash_sprash_main_00001
+  rotate: false
+  xy: 961, 53
+  size: 58, 65
+  orig: 160, 160
+  offset: 51, 92
+  index: -1
+s2_ef_slash_sprash_main/ef_slash_sprash_main_00002
+  rotate: false
+  xy: 791, 30
+  size: 76, 88
+  orig: 160, 160
+  offset: 41, 43
+  index: -1
+s2_ef_slash_sprash_main/ef_slash_sprash_main_00003
+  rotate: false
+  xy: 712, 25
+  size: 78, 93
+  orig: 160, 160
+  offset: 38, 0
+  index: -1

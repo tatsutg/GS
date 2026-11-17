@@ -1,0 +1,83 @@
+
+itemskill1022.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5160_S2_light1/5160_S2_light1_00003
+  rotate: false
+  xy: 816, 18
+  size: 181, 109
+  orig: 225, 225
+  offset: 21, 59
+  index: -1
+5160_S2_line1/5160_S2_line1_00007
+  rotate: false
+  xy: 0, 21
+  size: 201, 21
+  orig: 225, 225
+  offset: 16, 98
+  index: -1
+540_S2_yari1
+  rotate: true
+  xy: 565, 3
+  size: 59, 250
+  orig: 59, 250
+  offset: 0, 0
+  index: -1
+9100_A5D_attack5/9100_A5D_attack5_00001
+  rotate: true
+  xy: 0, 0
+  size: 20, 96
+  orig: 225, 225
+  offset: 101, 64
+  index: -1
+9100_A5D_attack5/9100_A5D_attack5_00002
+  rotate: true
+  xy: 457, 3
+  size: 22, 107
+  orig: 225, 225
+  offset: 100, 58
+  index: -1
+9100_A5D_attack5/9100_A5D_attack5_00003
+  rotate: true
+  xy: 339, 2
+  size: 23, 117
+  orig: 225, 225
+  offset: 99, 54
+  index: -1
+9100_A5D_attack5/9100_A5D_attack5_00004
+  rotate: true
+  xy: 339, 26
+  size: 26, 127
+  orig: 225, 225
+  offset: 97, 49
+  index: -1
+9100_A5D_attack5/9100_A5D_attack5_00005
+  rotate: true
+  xy: 202, 14
+  size: 28, 136
+  orig: 225, 225
+  offset: 95, 44
+  index: -1
+yari_blar1
+  rotate: true
+  xy: 502, 63
+  size: 64, 250
+  orig: 500, 500
+  offset: 217, 125
+  index: -1
+yari_blar2
+  rotate: true
+  xy: 251, 53
+  size: 74, 250
+  orig: 500, 500
+  offset: 212, 125
+  index: -1
+yari_blar3
+  rotate: true
+  xy: 0, 43
+  size: 84, 250
+  orig: 500, 500
+  offset: 207, 125
+  index: -1

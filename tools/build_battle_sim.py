@@ -18,9 +18,12 @@ rarity: 2 Ascension, 1 Awoken, 0 lower. element: 1 fire, 2 water, 3 earth, 4 lig
 attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense, 4 healing, 5 support.
 
 A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects, flags, name]
-  effects = [[type, target, seconds, value, chance %, icon, script, mode], ...] from skill_effect_master:
+  effects = [[type, target, seconds, value, chance %, icon, script, mode, animation], ...] from skill_effect_master:
     target 1 self, 2 allies, 4 enemy, 5 one ally, 6 on hit; icon = condition_icon_<n>.png (0 none);
     mode: 0 always, 1 only during the unit's mode, -1 only outside it, k>=2 time x k/10 during the mode
+    type 67 / 69 on equips is the equip's physical / magic hit (value = damage %), not a buff
+    animation: < 1000 SkillEffect animation '<n>', >= 1000 effect/itemskill/itemskill<n // 10> 'attack<n % 10>'
+      (dlc/ASSETS/battle/effect, copied by tools/copy_battle_effects.py)
   flags: 1 damage only during the unit's mode, 2 damage x2 during the mode
 Some Arts (modes, "Increases ATK & DMG ...") are scripted in the game, not in skill_effect_master:
 those effects are read from the English skill text.
@@ -87,7 +90,7 @@ def effect(e):
     if sv1 > 10 ** 9:            # a unit's mode id (unit id + digit)
         mode = MODE_SCRIPT.get(script, max(2, num(e.get('script_value_2'))) if script == 327 else 0)
     return [num(e['effect_type']), num(e['target']), num(e['effect_time']), num(e['effect_value']),
-            num(e.get('weight'), 100), num(e.get('tumbnail_name')), script, mode]
+            num(e.get('weight'), 100), num(e.get('tumbnail_name')), script, mode, num(e.get('animation_id'))]
 
 
 def skill(sid, text=''):
@@ -110,9 +113,9 @@ def skill(sid, text=''):
         elif j:
             tg, secs, val, dmg = (2 if j.group(2) == '味方全体' else 1), num(j.group(1)), num(j.group(4)), bool(j.group(3))
         if m or j:
-            effects.append([13, tg, secs, val, 100, 3, 0, 0])
+            effects.append([13, tg, secs, val, 100, 3, 0, 0, 0])
             if dmg:
-                effects.append([17, tg, secs, val, 100, 26, 0, 0])
+                effects.append([17, tg, secs, val, 100, 26, 0, 0, 0])
     return [num(r['damage_value']), num(r['break_value']), num(r['element']), num(r['attribute']),
             round(num(r['cooltime']) / 100, 2), num(r['need_sp']), effects, flags, r.get('name') or '']
 

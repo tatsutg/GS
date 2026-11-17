@@ -1,0 +1,279 @@
+
+itemskill2188.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00002
+  rotate: false
+  xy: 977, 243
+  size: 109, 74
+  orig: 140, 140
+  offset: 16, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00003
+  rotate: false
+  xy: 1, 1
+  size: 114, 98
+  orig: 140, 140
+  offset: 16, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00004
+  rotate: false
+  xy: 302, 188
+  size: 119, 118
+  orig: 140, 140
+  offset: 10, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00005
+  rotate: false
+  xy: 1814, 219
+  size: 121, 118
+  orig: 140, 140
+  offset: 10, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00006
+  rotate: false
+  xy: 1935, 79
+  size: 112, 118
+  orig: 140, 140
+  offset: 18, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00007
+  rotate: false
+  xy: 422, 188
+  size: 114, 118
+  orig: 140, 140
+  offset: 17, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00008
+  rotate: false
+  xy: 537, 192
+  size: 112, 118
+  orig: 140, 140
+  offset: 18, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00009
+  rotate: false
+  xy: 1814, 100
+  size: 120, 118
+  orig: 140, 140
+  offset: 11, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00014
+  rotate: false
+  xy: 650, 192
+  size: 107, 118
+  orig: 140, 140
+  offset: 20, 11
+  index: -1
+EF/ef_aura_tornade_main2/ef_aura_tornade_main_00015
+  rotate: false
+  xy: 871, 199
+  size: 105, 117
+  orig: 140, 140
+  offset: 22, 11
+  index: -1
+EF/ef_ex_dash_main 2/ef_ex_dash_main 2_00001
+  rotate: true
+  xy: 430, 137
+  size: 50, 100
+  orig: 140, 140
+  offset: 53, 7
+  index: -1
+EF/ef_ex_dash_main 2/ef_ex_dash_main 2_00003
+  rotate: true
+  xy: 230, 117
+  size: 62, 99
+  orig: 140, 140
+  offset: 41, 7
+  index: -1
+EF/ef_ex_dash_main 2/ef_ex_dash_main 2_00005
+  rotate: false
+  xy: 1972, 383
+  size: 75, 122
+  orig: 140, 140
+  offset: 33, 7
+  index: -1
+EF/ef_ex_dash_main 2/ef_ex_dash_main 2_00007
+  rotate: true
+  xy: 116, 27
+  size: 72, 125
+  orig: 140, 140
+  offset: 37, 7
+  index: -1
+EF/ef_ex_dash_main 2/ef_ex_dash_main 2_00009
+  rotate: true
+  xy: 1936, 198
+  size: 61, 111
+  orig: 140, 140
+  offset: 48, 7
+  index: -1
+EF/ef_ex_dash_main 2/ef_ex_dash_main 2_00010
+  rotate: false
+  xy: 383, 48
+  size: 44, 76
+  orig: 140, 140
+  offset: 64, 7
+  index: -1
+EF/ef_ex_dash_main 2/ef_ex_dash_main 2_00011
+  rotate: true
+  xy: 1527, 336
+  size: 27, 44
+  orig: 140, 140
+  offset: 77, 7
+  index: -1
+EF/ef_ex_dash_main/ef_ex_dash_main_00001
+  rotate: false
+  xy: 332, 25
+  size: 50, 99
+  orig: 140, 140
+  offset: 53, 7
+  index: -1
+EF/ef_ex_dash_main/ef_ex_dash_main_00003
+  rotate: true
+  xy: 330, 125
+  size: 62, 99
+  orig: 140, 140
+  offset: 41, 7
+  index: -1
+EF/ef_ex_dash_main/ef_ex_dash_main_00005
+  rotate: false
+  xy: 1972, 260
+  size: 75, 122
+  orig: 140, 140
+  offset: 33, 7
+  index: -1
+EF/ef_ex_dash_main/ef_ex_dash_main_00007
+  rotate: false
+  xy: 230, 180
+  size: 71, 124
+  orig: 140, 140
+  offset: 37, 7
+  index: -1
+EF/ef_ex_dash_main/ef_ex_dash_main_00009
+  rotate: true
+  xy: 977, 182
+  size: 60, 110
+  orig: 140, 140
+  offset: 48, 7
+  index: -1
+EF/ef_ex_dash_main/ef_ex_dash_main_00010
+  rotate: true
+  xy: 1087, 274
+  size: 43, 76
+  orig: 140, 140
+  offset: 64, 7
+  index: -1
+EF/ef_ex_dash_main/ef_ex_dash_main_00011
+  rotate: false
+  xy: 1936, 293
+  size: 27, 44
+  orig: 140, 140
+  offset: 77, 7
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00001
+  rotate: false
+  xy: 242, 22
+  size: 89, 94
+  orig: 280, 238
+  offset: 99, 16
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00002
+  rotate: false
+  xy: 758, 204
+  size: 112, 112
+  orig: 280, 238
+  offset: 86, 13
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00003
+  rotate: true
+  xy: 1683, 195
+  size: 134, 130
+  orig: 280, 238
+  offset: 76, 9
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00004
+  rotate: false
+  xy: 1527, 184
+  size: 155, 145
+  orig: 280, 238
+  offset: 65, 6
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00005
+  rotate: false
+  xy: 1355, 206
+  size: 171, 157
+  orig: 280, 238
+  offset: 57, 5
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00006
+  rotate: false
+  xy: 1786, 338
+  size: 185, 167
+  orig: 280, 238
+  offset: 50, 5
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00007
+  rotate: false
+  xy: 1589, 330
+  size: 196, 175
+  orig: 280, 238
+  offset: 44, 5
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00008
+  rotate: false
+  xy: 1149, 323
+  size: 205, 182
+  orig: 280, 238
+  offset: 40, 8
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00009
+  rotate: false
+  xy: 933, 318
+  size: 215, 187
+  orig: 280, 238
+  offset: 37, 12
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00010
+  rotate: false
+  xy: 475, 311
+  size: 225, 194
+  orig: 280, 238
+  offset: 32, 15
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00011
+  rotate: false
+  xy: 241, 307
+  size: 233, 198
+  orig: 280, 238
+  offset: 28, 19
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00012
+  rotate: false
+  xy: 1, 305
+  size: 239, 200
+  orig: 280, 238
+  offset: 23, 24
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00013
+  rotate: false
+  xy: 1, 100
+  size: 228, 204
+  orig: 280, 238
+  offset: 19, 29
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00014
+  rotate: false
+  xy: 701, 317
+  size: 231, 188
+  orig: 280, 238
+  offset: 18, 36
+  index: -1
+EF/ef_sprash_ice_main/ef_ice_sprash_main_00015
+  rotate: false
+  xy: 1355, 364
+  size: 233, 141
+  orig: 280, 238
+  offset: 18, 46
+  index: -1

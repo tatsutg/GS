@@ -1,0 +1,118 @@
+
+itemskill2074.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_flare_back_blue_00004
+  rotate: false
+  xy: 757, 10
+  size: 88, 88
+  orig: 100, 100
+  offset: 6, 6
+  index: -1
+new_EF/ef_cross_line/ef_cross_line_blue_00004
+  rotate: true
+  xy: 2, 90
+  size: 36, 289
+  orig: 75, 300
+  offset: 20, 5
+  index: -1
+new_EF/ef_cross_line/ef_cross_line_blue_00005
+  rotate: true
+  xy: 2, 57
+  size: 31, 285
+  orig: 75, 300
+  offset: 22, 7
+  index: -1
+new_EF/ef_cross_line/ef_cross_line_blue_00006
+  rotate: true
+  xy: 293, 99
+  size: 27, 275
+  orig: 75, 300
+  offset: 24, 13
+  index: -1
+new_EF/ef_cross_line/ef_cross_line_blue_00007
+  rotate: true
+  xy: 2, 28
+  size: 27, 274
+  orig: 75, 300
+  offset: 24, 13
+  index: -1
+new_EF/ef_cross_line/ef_cross_line_blue_00008
+  rotate: true
+  xy: 570, 100
+  size: 26, 274
+  orig: 75, 300
+  offset: 25, 13
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00001
+  rotate: false
+  xy: 1197, 77
+  size: 63, 49
+  orig: 100, 100
+  offset: 19, 25
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00002
+  rotate: false
+  xy: 1115, 60
+  size: 80, 66
+  orig: 100, 100
+  offset: 10, 18
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00003
+  rotate: false
+  xy: 937, 46
+  size: 90, 80
+  orig: 100, 100
+  offset: 5, 12
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00004
+  rotate: false
+  xy: 571, 13
+  size: 92, 85
+  orig: 100, 100
+  offset: 4, 9
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00005
+  rotate: false
+  xy: 289, 2
+  size: 92, 86
+  orig: 100, 100
+  offset: 4, 9
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00006
+  rotate: false
+  xy: 383, 8
+  size: 92, 89
+  orig: 100, 100
+  offset: 4, 6
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00007
+  rotate: false
+  xy: 477, 8
+  size: 92, 89
+  orig: 100, 100
+  offset: 4, 6
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00008
+  rotate: false
+  xy: 665, 13
+  size: 90, 85
+  orig: 100, 100
+  offset: 5, 7
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00009
+  rotate: false
+  xy: 847, 41
+  size: 88, 85
+  orig: 100, 100
+  offset: 5, 6
+  index: -1
+new_EF/ef_shock_wave_main/ef_shock_wave_main_00010
+  rotate: true
+  xy: 1029, 49
+  size: 77, 84
+  orig: 100, 100
+  offset: 10, 6
+  index: -1

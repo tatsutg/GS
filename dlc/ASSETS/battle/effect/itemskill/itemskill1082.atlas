@@ -1,0 +1,76 @@
+
+itemskill1082.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_smash_main/ef_smash_main_00001
+  rotate: true
+  xy: 860, 4
+  size: 130, 150
+  orig: 200, 240
+  offset: 40, 42
+  index: -1
+EF/ef_smash_main/ef_smash_main_00002
+  rotate: true
+  xy: 687, 1
+  size: 131, 151
+  orig: 200, 240
+  offset: 36, 41
+  index: -1
+EF/ef_smash_main/ef_smash_main_00003
+  rotate: false
+  xy: 386, 86
+  size: 129, 168
+  orig: 200, 240
+  offset: 35, 34
+  index: -1
+EF/ef_smash_main/ef_smash_main_00004
+  rotate: false
+  xy: 129, 61
+  size: 129, 193
+  orig: 200, 240
+  offset: 32, 22
+  index: -1
+EF/ef_smash_main/ef_smash_main_00005
+  rotate: false
+  xy: 1, 52
+  size: 127, 202
+  orig: 200, 240
+  offset: 34, 17
+  index: -1
+EF/ef_smash_main/ef_smash_main_00006
+  rotate: false
+  xy: 259, 73
+  size: 126, 181
+  orig: 200, 240
+  offset: 35, 25
+  index: -1
+EF/ef_smash_main/ef_smash_main_00007
+  rotate: true
+  xy: 516, 130
+  size: 124, 170
+  orig: 200, 240
+  offset: 37, 25
+  index: -1
+EF/ef_smash_main/ef_smash_main_00008
+  rotate: true
+  xy: 687, 133
+  size: 121, 172
+  orig: 200, 240
+  offset: 40, 25
+  index: -1
+EF/ef_smash_main/ef_smash_main_00009
+  rotate: true
+  xy: 860, 135
+  size: 119, 163
+  orig: 200, 240
+  offset: 42, 35
+  index: -1
+EF/white-BG
+  rotate: false
+  xy: 516, 65
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

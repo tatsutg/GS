@@ -1,0 +1,55 @@
+
+itemskill2012.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ATK5/9050_beam2_00039
+  rotate: true
+  xy: 76, 33
+  size: 28, 95
+  orig: 200, 200
+  offset: 84, 52
+  index: -1
+EF/ATK5/9050_beam2_00043
+  rotate: true
+  xy: 76, 62
+  size: 31, 105
+  orig: 200, 200
+  offset: 82, 47
+  index: -1
+EF/ATK5/9050_beam3_00038
+  rotate: false
+  xy: 0, 28
+  size: 75, 65
+  orig: 200, 200
+  offset: 63, 67
+  index: -1
+EF/ATK5/9050_beam3_00042
+  rotate: false
+  xy: 0, 0
+  size: 33, 27
+  orig: 200, 200
+  offset: 84, 86
+  index: -1
+EF/ATK5/9110_A5_laser1_00001
+  rotate: false
+  xy: 0, 94
+  size: 219, 4
+  orig: 250, 250
+  offset: 8, 123
+  index: -1
+EF/ATK5/9110_A5_laser1_00002
+  rotate: false
+  xy: 0, 99
+  size: 220, 5
+  orig: 250, 250
+  offset: 7, 123
+  index: -1
+funnel_b
+  rotate: false
+  xy: 182, 25
+  size: 70, 68
+  orig: 70, 68
+  offset: 0, 0
+  index: -1

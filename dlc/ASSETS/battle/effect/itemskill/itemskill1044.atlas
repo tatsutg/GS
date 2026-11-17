@@ -1,0 +1,153 @@
+
+itemskill1044.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bullet_00001
+  rotate: true
+  xy: 124, 6
+  size: 44, 18
+  orig: 60, 50
+  offset: 8, 16
+  index: -1
+ef_OF3_main/ef_OF3_main_00002
+  rotate: true
+  xy: 86, 1
+  size: 49, 37
+  orig: 160, 140
+  offset: 55, 100
+  index: -1
+ef_OF3_main/ef_OF3_main_00003
+  rotate: false
+  xy: 143, 7
+  size: 95, 74
+  orig: 160, 140
+  offset: 32, 56
+  index: -1
+ef_OF3_main/ef_OF3_main_00004
+  rotate: false
+  xy: 152, 82
+  size: 125, 97
+  orig: 160, 140
+  offset: 17, 28
+  index: -1
+ef_OF3_main/ef_OF3_main_00005
+  rotate: false
+  xy: 1, 51
+  size: 141, 103
+  orig: 160, 140
+  offset: 8, 14
+  index: -1
+ef_OF3_main/ef_OF3_main_00006
+  rotate: false
+  xy: 1, 155
+  size: 150, 100
+  orig: 160, 140
+  offset: 4, 11
+  index: -1
+ef_bullet_rain_render 2/ef_bullet_rain_render 2_00007
+  rotate: false
+  xy: 995, 223
+  size: 13, 32
+  orig: 160, 520
+  offset: 73, 16
+  index: -1
+ef_bullet_rain_render 2/ef_bullet_rain_render 2_00008
+  rotate: false
+  xy: 458, 59
+  size: 21, 46
+  orig: 160, 520
+  offset: 69, 16
+  index: -1
+ef_bullet_rain_render 2/ef_bullet_rain_render 2_00009
+  rotate: false
+  xy: 484, 118
+  size: 29, 59
+  orig: 160, 520
+  offset: 65, 15
+  index: -1
+ef_bullet_rain_render 2/ef_bullet_rain_render 2_00010
+  rotate: false
+  xy: 239, 12
+  size: 35, 69
+  orig: 160, 520
+  offset: 62, 14
+  index: -1
+ef_bullet_rain_render 2/ef_bullet_rain_render 2_00011
+  rotate: false
+  xy: 952, 177
+  size: 42, 78
+  orig: 160, 520
+  offset: 58, 12
+  index: -1
+ef_bullet_rain_render 2/ef_bullet_rain_render 2_00012
+  rotate: true
+  xy: 1, 4
+  size: 46, 84
+  orig: 160, 520
+  offset: 56, 11
+  index: -1
+ef_bullet_rain_render/ef_bullet_rain_render_00004
+  rotate: true
+  xy: 487, 178
+  size: 23, 97
+  orig: 80, 260
+  offset: 31, 47
+  index: -1
+wave_ground/740_S1_wave1_00003
+  rotate: false
+  xy: 361, 24
+  size: 96, 81
+  orig: 250, 250
+  offset: 79, 94
+  index: -1
+wave_ground/740_S1_wave1_00004
+  rotate: true
+  xy: 278, 71
+  size: 108, 82
+  orig: 250, 250
+  offset: 73, 93
+  index: -1
+wave_ground/740_S1_wave1_00005
+  rotate: false
+  xy: 361, 106
+  size: 122, 84
+  orig: 250, 250
+  offset: 66, 91
+  index: -1
+wave_ground/740_S1_wave1_00006
+  rotate: false
+  xy: 816, 172
+  size: 135, 83
+  orig: 250, 250
+  offset: 60, 90
+  index: -1
+wave_ground/740_S1_wave1_00007
+  rotate: false
+  xy: 666, 175
+  size: 149, 80
+  orig: 250, 250
+  offset: 52, 89
+  index: -1
+wave_ground/740_S1_wave1_00008
+  rotate: false
+  xy: 152, 180
+  size: 161, 75
+  orig: 250, 250
+  offset: 47, 88
+  index: -1
+wave_ground/740_S1_wave1_00009
+  rotate: false
+  xy: 314, 191
+  size: 172, 64
+  orig: 250, 250
+  offset: 41, 88
+  index: -1
+wave_ground/740_S1_wave1_00010
+  rotate: false
+  xy: 487, 202
+  size: 178, 53
+  orig: 250, 250
+  offset: 37, 90
+  index: -1

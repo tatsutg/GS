@@ -1,0 +1,482 @@
+
+itemskill2035.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00001
+  rotate: false
+  xy: 959, 97
+  size: 47, 41
+  orig: 160, 160
+  offset: 52, 47
+  index: -1
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00002
+  rotate: false
+  xy: 1770, 303
+  size: 68, 88
+  orig: 160, 160
+  offset: 40, 46
+  index: -1
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00003
+  rotate: false
+  xy: 1224, 210
+  size: 77, 93
+  orig: 160, 160
+  offset: 36, 46
+  index: -1
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00004
+  rotate: false
+  xy: 1965, 417
+  size: 82, 94
+  orig: 160, 160
+  offset: 32, 46
+  index: -1
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00005
+  rotate: false
+  xy: 926, 139
+  size: 84, 95
+  orig: 160, 160
+  offset: 31, 45
+  index: -1
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00006
+  rotate: true
+  xy: 1302, 202
+  size: 83, 95
+  orig: 160, 160
+  offset: 31, 44
+  index: -1
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00007
+  rotate: false
+  xy: 1965, 323
+  size: 82, 93
+  orig: 160, 160
+  offset: 31, 44
+  index: -1
+EF/ef_burst_aura_sumi 2/ef_burst_aura_sumi 2_00008
+  rotate: true
+  xy: 1256, 331
+  size: 44, 41
+  orig: 160, 160
+  offset: 31, 80
+  index: -1
+EF/ef_flare_back_main_00005
+  rotate: false
+  xy: 1398, 197
+  size: 90, 90
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+EF/ef_flare_back_main_00006
+  rotate: false
+  xy: 1489, 215
+  size: 90, 90
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+EF/ef_flare_back_main_00007
+  rotate: false
+  xy: 1024, 291
+  size: 97, 98
+  orig: 100, 100
+  offset: 2, 1
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00001
+  rotate: false
+  xy: 987, 257
+  size: 36, 30
+  orig: 150, 150
+  offset: 56, 54
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00002
+  rotate: false
+  xy: 909, 92
+  size: 49, 46
+  orig: 150, 150
+  offset: 49, 46
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00003
+  rotate: false
+  xy: 795, 79
+  size: 60, 59
+  orig: 150, 150
+  offset: 44, 40
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00004
+  rotate: false
+  xy: 658, 76
+  size: 69, 69
+  orig: 150, 150
+  offset: 40, 36
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00005
+  rotate: false
+  xy: 1914, 219
+  size: 75, 76
+  orig: 150, 150
+  offset: 37, 33
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00006
+  rotate: true
+  xy: 1482, 306
+  size: 79, 82
+  orig: 150, 150
+  offset: 35, 30
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00007
+  rotate: true
+  xy: 1668, 222
+  size: 83, 87
+  orig: 150, 150
+  offset: 32, 28
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00008
+  rotate: false
+  xy: 1398, 288
+  size: 83, 92
+  orig: 150, 150
+  offset: 32, 26
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00009
+  rotate: true
+  xy: 490, 57
+  size: 84, 96
+  orig: 150, 150
+  offset: 31, 25
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00010
+  rotate: true
+  xy: 1669, 306
+  size: 85, 100
+  orig: 150, 150
+  offset: 30, 23
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00011
+  rotate: true
+  xy: 1565, 310
+  size: 88, 103
+  orig: 150, 150
+  offset: 29, 22
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00012
+  rotate: false
+  xy: 279, 1
+  size: 90, 106
+  orig: 150, 150
+  offset: 28, 21
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00013
+  rotate: true
+  xy: 376, 39
+  size: 92, 108
+  orig: 150, 150
+  offset: 27, 20
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00014
+  rotate: true
+  xy: 168, 1
+  size: 93, 110
+  orig: 150, 150
+  offset: 27, 19
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00015
+  rotate: true
+  xy: 815, 139
+  size: 95, 110
+  orig: 150, 150
+  offset: 26, 19
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00016
+  rotate: false
+  xy: 539, 250
+  size: 97, 114
+  orig: 150, 150
+  offset: 25, 17
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00017
+  rotate: false
+  xy: 276, 108
+  size: 99, 116
+  orig: 150, 150
+  offset: 24, 16
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00018
+  rotate: true
+  xy: 904, 288
+  size: 101, 119
+  orig: 150, 150
+  offset: 23, 15
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00019
+  rotate: true
+  xy: 780, 288
+  size: 102, 123
+  orig: 150, 150
+  offset: 22, 14
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00020
+  rotate: false
+  xy: 192, 225
+  size: 105, 126
+  orig: 150, 150
+  offset: 21, 13
+  index: -1
+EF/ef_leaf_dark/ef_leaf_dark_00021
+  rotate: false
+  xy: 168, 95
+  size: 107, 129
+  orig: 150, 150
+  offset: 20, 12
+  index: -1
+EF/ef_plant_main/ef_plant_main_00001
+  rotate: true
+  xy: 817, 235
+  size: 25, 160
+  orig: 75, 200
+  offset: 27, 12
+  index: -1
+EF/ef_plant_main/ef_plant_main_00002
+  rotate: true
+  xy: 637, 250
+  size: 30, 179
+  orig: 75, 200
+  offset: 25, 12
+  index: -1
+EF/ef_plant_main/ef_plant_main_00003
+  rotate: true
+  xy: 817, 261
+  size: 26, 169
+  orig: 75, 200
+  offset: 26, 12
+  index: -1
+EF/ef_plant_main/ef_plant_main_00015
+  rotate: true
+  xy: 1, 19
+  size: 62, 146
+  orig: 75, 200
+  offset: 5, 13
+  index: -1
+EF/ef_shine_dark/ef_shine_dark_00002
+  rotate: false
+  xy: 637, 281
+  size: 142, 91
+  orig: 150, 150
+  offset: 4, 30
+  index: -1
+EF/ef_shine_dark/ef_shine_dark_00004
+  rotate: false
+  xy: 1122, 304
+  size: 133, 71
+  orig: 150, 150
+  offset: 8, 39
+  index: -1
+EF/ef_shine_dark/ef_shine_dark_00006
+  rotate: false
+  xy: 1122, 232
+  size: 101, 71
+  orig: 150, 150
+  offset: 24, 39
+  index: -1
+EF/ef_shine_dark/ef_shine_dark_00008
+  rotate: true
+  xy: 587, 66
+  size: 75, 70
+  orig: 150, 150
+  offset: 37, 40
+  index: -1
+EF/ef_shine_dark/ef_shine_dark_00009
+  rotate: false
+  xy: 1489, 147
+  size: 76, 67
+  orig: 150, 150
+  offset: 37, 41
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00001
+  rotate: false
+  xy: 856, 87
+  size: 52, 51
+  orig: 150, 150
+  offset: 48, 50
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00002
+  rotate: false
+  xy: 728, 82
+  size: 66, 65
+  orig: 150, 150
+  offset: 42, 43
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00003
+  rotate: false
+  xy: 1836, 218
+  size: 77, 77
+  orig: 150, 150
+  offset: 36, 37
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00004
+  rotate: false
+  xy: 1580, 223
+  size: 87, 86
+  orig: 150, 150
+  offset: 31, 32
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00005
+  rotate: false
+  xy: 1302, 286
+  size: 95, 94
+  orig: 150, 150
+  offset: 27, 28
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00006
+  rotate: false
+  xy: 712, 148
+  size: 102, 101
+  orig: 150, 150
+  offset: 24, 25
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00007
+  rotate: false
+  xy: 490, 142
+  size: 109, 107
+  orig: 150, 150
+  offset: 20, 22
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00008
+  rotate: true
+  xy: 376, 132
+  size: 114, 113
+  orig: 150, 150
+  offset: 18, 19
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00009
+  rotate: false
+  xy: 298, 247
+  size: 118, 118
+  orig: 150, 150
+  offset: 16, 16
+  index: -1
+EF/ef_shine_wave_dark/ef_shine_wave_dark_00010
+  rotate: false
+  xy: 1841, 389
+  size: 123, 122
+  orig: 150, 150
+  offset: 13, 14
+  index: -1
+EF/ef_snow_crash_main/ef_snow_crash_main_00007
+  rotate: false
+  xy: 1565, 399
+  size: 141, 112
+  orig: 225, 225
+  offset: 73, 57
+  index: -1
+EF/ef_snow_crash_main/ef_snow_crash_main_00008
+  rotate: false
+  xy: 958, 390
+  size: 163, 121
+  orig: 225, 225
+  offset: 50, 53
+  index: -1
+EF/ef_snow_crash_main/ef_snow_crash_main_00009
+  rotate: false
+  xy: 779, 391
+  size: 178, 120
+  orig: 225, 225
+  offset: 24, 60
+  index: -1
+EF/ef_snow_crash_main/ef_snow_crash_main_00010
+  rotate: false
+  xy: 1, 225
+  size: 190, 126
+  orig: 225, 225
+  offset: 2, 57
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00006
+  rotate: false
+  xy: 1756, 223
+  size: 79, 79
+  orig: 200, 170
+  offset: 62, 10
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00007
+  rotate: false
+  xy: 1839, 296
+  size: 96, 92
+  orig: 200, 170
+  offset: 54, 7
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00008
+  rotate: false
+  xy: 600, 146
+  size: 111, 103
+  orig: 200, 170
+  offset: 46, 5
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00009
+  rotate: false
+  xy: 417, 251
+  size: 121, 113
+  orig: 200, 170
+  offset: 41, 3
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00010
+  rotate: false
+  xy: 1707, 392
+  size: 133, 119
+  orig: 200, 170
+  offset: 35, 3
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00011
+  rotate: false
+  xy: 1425, 386
+  size: 139, 125
+  orig: 200, 170
+  offset: 32, 4
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00012
+  rotate: false
+  xy: 1277, 381
+  size: 147, 130
+  orig: 200, 170
+  offset: 29, 6
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00013
+  rotate: false
+  xy: 1122, 376
+  size: 154, 135
+  orig: 200, 170
+  offset: 26, 8
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00014
+  rotate: false
+  xy: 617, 373
+  size: 161, 138
+  orig: 200, 170
+  offset: 23, 11
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00015
+  rotate: false
+  xy: 1, 82
+  size: 166, 142
+  orig: 200, 170
+  offset: 20, 13
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00016
+  rotate: false
+  xy: 282, 366
+  size: 171, 145
+  orig: 200, 170
+  offset: 16, 16
+  index: -1
+EF/ef_sprash_ice_main/ef_sprash_ice_main_00017
+  rotate: false
+  xy: 454, 365
+  size: 162, 146
+  orig: 200, 170
+  offset: 14, 20
+  index: -1
+EF/ef_wood_leaf_main/ef_wood_leaf_main_00020
+  rotate: false
+  xy: 1, 352
+  size: 280, 159
+  orig: 600, 600
+  offset: 160, 220
+  index: -1

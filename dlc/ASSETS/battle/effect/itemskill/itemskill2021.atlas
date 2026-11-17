@@ -1,0 +1,83 @@
+
+itemskill2021.png
+size: 2048,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/ef_sword_aura_main/ef_sword_aura_main_00002
+  rotate: true
+  xy: 1577, 19
+  size: 43, 62
+  orig: 150, 240
+  offset: 41, 142
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00004
+  rotate: true
+  xy: 1310, 9
+  size: 53, 103
+  orig: 150, 240
+  offset: 39, 105
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00006
+  rotate: true
+  xy: 1024, 10
+  size: 52, 150
+  orig: 150, 240
+  offset: 54, 66
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00008
+  rotate: true
+  xy: 844, 15
+  size: 47, 179
+  orig: 150, 240
+  offset: 59, 40
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00010
+  rotate: true
+  xy: 664, 7
+  size: 55, 179
+  orig: 150, 240
+  offset: 46, 43
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00012
+  rotate: true
+  xy: 480, 10
+  size: 52, 183
+  orig: 150, 240
+  offset: 41, 32
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00014
+  rotate: true
+  xy: 1175, 0
+  size: 62, 134
+  orig: 150, 240
+  offset: 45, 26
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00016
+  rotate: true
+  xy: 1414, 9
+  size: 53, 93
+  orig: 150, 240
+  offset: 54, 21
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00017
+  rotate: true
+  xy: 1508, 11
+  size: 51, 68
+  orig: 150, 240
+  offset: 48, 19
+  index: -1
+EF/ef_sword_aura_main/ef_sword_aura_main_00018
+  rotate: false
+  xy: 1640, 20
+  size: 27, 42
+  orig: 150, 240
+  offset: 49, 20
+  index: -1
+EF/line_slash1/5220_S3_slash1_00006
+  rotate: false
+  xy: 0, 20
+  size: 479, 42
+  orig: 500, 500
+  offset: 12, 228
+  index: -1

@@ -1,0 +1,27 @@
+
+itemskill2024.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+EF/CO_ISKL_DS_magic2/CO_ISKL_DS_magic2_00024
+  rotate: false
+  xy: 0, 99
+  size: 149, 151
+  orig: 320, 320
+  offset: 84, 81
+  index: -1
+EF/thunder
+  rotate: true
+  xy: 0, 0
+  size: 98, 111
+  orig: 120, 120
+  offset: 10, 5
+  index: -1
+EF/thunder2
+  rotate: false
+  xy: 150, 135
+  size: 60, 115
+  orig: 120, 120
+  offset: 46, 0
+  index: -1

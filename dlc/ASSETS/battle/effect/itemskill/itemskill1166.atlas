@@ -1,0 +1,237 @@
+
+itemskill1166.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Aura_EF/ef_go_arm_aura/ef_go_arm_aura_00005
+  rotate: true
+  xy: 776, 73
+  size: 74, 135
+  orig: 100, 150
+  offset: 13, 7
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00001
+  rotate: false
+  xy: 1574, 126
+  size: 138, 128
+  orig: 167, 200
+  offset: 14, 14
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00002
+  rotate: true
+  xy: 429, 118
+  size: 136, 171
+  orig: 167, 200
+  offset: 16, 19
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00004
+  rotate: true
+  xy: 254, 124
+  size: 130, 173
+  orig: 167, 200
+  offset: 19, 19
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00006
+  rotate: true
+  xy: 602, 135
+  size: 119, 172
+  orig: 167, 200
+  offset: 28, 22
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00008
+  rotate: true
+  xy: 936, 166
+  size: 88, 171
+  orig: 167, 200
+  offset: 45, 22
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00010
+  rotate: true
+  xy: 1109, 174
+  size: 80, 172
+  orig: 167, 200
+  offset: 48, 22
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00012
+  rotate: true
+  xy: 0, 0
+  size: 72, 162
+  orig: 167, 200
+  offset: 53, 27
+  index: -1
+ef_fire_wall_main/ef_fire_wall_main_00013
+  rotate: false
+  xy: 164, 20
+  size: 34, 52
+  orig: 167, 200
+  offset: 75, 129
+  index: -1
+ef_fire_wave_A_main/ef_fire_wave_A_main_00002
+  rotate: false
+  xy: 669, 1
+  size: 85, 61
+  orig: 200, 200
+  offset: 31, 69
+  index: -1
+ef_fire_wave_A_main/ef_fire_wave_A_main_00004
+  rotate: false
+  xy: 1109, 62
+  size: 132, 110
+  orig: 200, 200
+  offset: 31, 49
+  index: -1
+ef_fire_wave_A_main/ef_fire_wave_A_main_00006
+  rotate: false
+  xy: 1853, 131
+  size: 137, 123
+  orig: 200, 200
+  offset: 31, 41
+  index: -1
+ef_fire_wave_A_main/ef_fire_wave_A_main_00008
+  rotate: false
+  xy: 1714, 127
+  size: 137, 127
+  orig: 200, 200
+  offset: 31, 38
+  index: -1
+ef_fire_wave_A_main/ef_fire_wave_A_main_00010
+  rotate: true
+  xy: 1853, 31
+  size: 98, 100
+  orig: 200, 200
+  offset: 44, 56
+  index: -1
+ef_fire_wave_A_main/ef_fire_wave_A_main_00012
+  rotate: true
+  xy: 756, 0
+  size: 71, 70
+  orig: 200, 200
+  offset: 59, 47
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00002
+  rotate: false
+  xy: 828, 1
+  size: 105, 70
+  orig: 150, 100
+  offset: 25, 7
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00004
+  rotate: true
+  xy: 1492, 51
+  size: 109, 75
+  orig: 150, 100
+  offset: 24, 9
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00006
+  rotate: false
+  xy: 1376, 79
+  size: 114, 81
+  orig: 150, 100
+  offset: 20, 9
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00008
+  rotate: true
+  xy: 212, 0
+  size: 122, 83
+  orig: 150, 100
+  offset: 14, 9
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00010
+  rotate: false
+  xy: 1243, 84
+  size: 131, 82
+  orig: 150, 100
+  offset: 8, 9
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00012
+  rotate: false
+  xy: 936, 79
+  size: 141, 85
+  orig: 150, 100
+  offset: 4, 9
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00014
+  rotate: false
+  xy: 1283, 168
+  size: 145, 86
+  orig: 150, 100
+  offset: 3, 9
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00015
+  rotate: false
+  xy: 426, 32
+  size: 142, 84
+  orig: 150, 100
+  offset: 3, 9
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00016
+  rotate: false
+  xy: 602, 64
+  size: 137, 69
+  orig: 150, 100
+  offset: 2, 14
+  index: -1
+ef_firework_smoke_main/ef_firework_smoke_main_00017
+  rotate: false
+  xy: 935, 14
+  size: 90, 63
+  orig: 150, 100
+  offset: 26, 13
+  index: -1
+rock_crash_rock_main 2/ef_crash_rock_main 2_00002
+  rotate: true
+  xy: 1992, 172
+  size: 82, 49
+  orig: 200, 200
+  offset: 65, 55
+  index: -1
+rock_crash_rock_main 2/ef_crash_rock_main 2_00004
+  rotate: false
+  xy: 570, 0
+  size: 97, 62
+  orig: 200, 200
+  offset: 53, 53
+  index: -1
+rock_crash_rock_main 2/ef_crash_rock_main 2_00006
+  rotate: false
+  xy: 1569, 54
+  size: 111, 70
+  orig: 200, 200
+  offset: 45, 55
+  index: -1
+rock_crash_rock_main 2/ef_crash_rock_main 2_00008
+  rotate: false
+  xy: 297, 39
+  size: 127, 83
+  orig: 200, 200
+  offset: 38, 56
+  index: -1
+rock_crash_rock_main 2/ef_crash_rock_main 2_00010
+  rotate: false
+  xy: 1430, 162
+  size: 142, 92
+  orig: 200, 200
+  offset: 27, 63
+  index: -1
+rock_crash_rock_main 2/ef_crash_rock_main 2_00012
+  rotate: false
+  xy: 776, 149
+  size: 158, 105
+  orig: 200, 200
+  offset: 17, 68
+  index: -1
+rock_go_arm_graund_main/ef_go_arm_graund_main_00001
+  rotate: false
+  xy: 0, 176
+  size: 252, 78
+  orig: 300, 200
+  offset: 23, 61
+  index: -1
+rock_go_arm_main/ef_go_arm_main_00005
+  rotate: true
+  xy: 0, 74
+  size: 100, 210
+  orig: 200, 300
+  offset: 50, 45
+  index: -1
