@@ -3,16 +3,28 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
 
 {
   "u": {unit_id: base}                       every form's unit id -> unitsv2 base (sprite + face use the unit id)
-  "s": {base: [name, element, hp, atk, def, rarity, top_unit_id,
-               attack_delay_s, break_power, attribute, skill, arts, true_arts, super_arts]}
+  "s": {base: {"n": name, "el": element, "hp", "atk", "def", "r": rarity, "id": top unit id,
+               "dl": attack delay s, "bp": break power, "at": attribute,
+               "sk": [skill, arts, true_arts, super_arts],
+               "m": [mode name, seconds, icon id, activated by 1 arts / 2 true arts / 3 super arts] or 0}}
   "e": {image_id: [name, type, hp, atk, def, ct_s, skill]}   equips by picture id (the site's equip ID)
-  "q": [[quest_id, dungeon, quest, difficulty, [[unit_id, name, element, lv, hp, atk, def, break], ...]], ...]
+  "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
+       boss = [unit_id, name, element, lv, hp, atk, def, break, attack delay s, skill %, skill chance %,
+               arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9]]
+       ailment order: faint, poison, paralysis, seal, blind, disease, curse, freeze, burn
 }
 rarity: 2 Ascension, 1 Awoken, 0 lower. element: 1 fire, 2 water, 3 earth, 4 light, 5 dark.
 attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense, 4 healing, 5 support.
-A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects],
-effects = [[effect_type, target, seconds, value], ...] from skill_effect_master (target 1 self, 2 allies, 4 enemy).
+
+A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects, flags]
+  effects = [[type, target, seconds, value, chance %, icon, script, mode], ...] from skill_effect_master:
+    target 1 self, 2 allies, 4 enemy, 5 one ally, 6 on hit; icon = condition_icon_<n>.png (0 none);
+    mode: 0 always, 1 only during the unit's mode, -1 only outside it, k>=2 time x k/10 during the mode
+  flags: 1 damage only during the unit's mode, 2 damage x2 during the mode
+Some Arts (modes, "Increases ATK & DMG ...") are scripted in the game, not in skill_effect_master:
+those effects are read from the English skill text.
 Equip CT: item_master min_limitbreak_cooltime (the MLB value), centiseconds.
+Boss stats: enemy_master row of the quest boss (unit id + HP), attack delay from unit_master.
 
 Manual run from the repo root (GS_REGION=Global or Japan):
     python tools/build_battle_sim.py [output-path]
@@ -20,6 +32,8 @@ Manual run from the repo root (GS_REGION=Global or Japan):
 import ast
 import json
 import os
+import re
+import shutil
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -27,6 +41,9 @@ GS = os.path.dirname(HERE)
 REGION = os.environ.get('GS_REGION', 'Global')
 OTHERS = os.path.join(GS, 'dlc', REGION, '_DATABASE', 'others')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(OTHERS, 'battle_sim.json')
+# mode icons (ai_cond_icon_<id>.png) are copied from the game dump when it is present
+ICON_SRC = os.environ.get('GS_AI_COND_ICONS', r'G:\game data\GL GRAND SUMMONERS\dlc\ai_cond_icon')
+ICON_DST = os.path.join(GS, 'dlc', 'ASSETS', 'battle', 'mode')
 
 
 def load(name):
@@ -58,19 +75,61 @@ fx = {}
 for e in load('skill_effect_master.json'):
     fx.setdefault(e['skill_id'], []).append(e)
 
+# 305: only during the mode, 328: only outside it, 327: effect time x value_2 / 10 during it
+MODE_SCRIPT = {305: 1, 328: -1}
 
-def skill(sid):
+
+def effect(e):
+    sv1 = num(e.get('script_value_1'))
+    script = num(e.get('script_id'))
+    mode = 0
+    if sv1 > 10 ** 9:            # a unit's mode id (unit id + digit)
+        mode = MODE_SCRIPT.get(script, max(2, num(e.get('script_value_2'))) if script == 327 else 0)
+    return [num(e['effect_type']), num(e['target']), num(e['effect_time']), num(e['effect_value']),
+            num(e.get('weight'), 100), num(e.get('tumbnail_name')), script, mode]
+
+
+def skill(sid, text=''):
     r = sm.get(num(sid))
     if not r:
         return 0
-    effects = [[num(e['effect_type']), num(e['target']), num(e['effect_time']), num(e['effect_value'])]
-               for e in sorted(fx.get(r['id'], []), key=lambda e: e['id'])]
+    effects = [effect(e) for e in sorted(fx.get(r['id'], []), key=lambda e: e['id'])]
+    flags = 0
+    t = text or ''
+    if re.search(r'DMG when used during|状態のとき使用すると', t):
+        flags |= 1
+    if re.search(r'Doubles (?:Super |True )?Arts DMG during|ダメージ倍率を2倍', t):
+        flags |= 2
+    # scripted buffs only in the text: "Increases (own) ATK & DMG by 200% for 35s"
+    if not effects:
+        m = re.search(r'Increases (?:own |all allies\' )?ATK (?:& DMG )?by (\d+)% for (\d+)s', t)
+        j = re.search(r'(\d+)秒間、(自身|味方全体)の攻撃力(・ダメージ)?(\d+)%UP', t)
+        if m:
+            tg, secs, val, dmg = (2 if 'all allies' in m.group(0) else 1), num(m.group(2)), num(m.group(1)), '& DMG' in m.group(0)
+        elif j:
+            tg, secs, val, dmg = (2 if j.group(2) == '味方全体' else 1), num(j.group(1)), num(j.group(4)), bool(j.group(3))
+        if m or j:
+            effects.append([13, tg, secs, val, 100, 3, 0, 0])
+            if dmg:
+                effects.append([17, tg, secs, val, 100, 26, 0, 0])
     return [num(r['damage_value']), num(r['break_value']), num(r['element']), num(r['attribute']),
-            round(num(r['cooltime']) / 100, 2), num(r['need_sp']), effects]
+            round(num(r['cooltime']) / 100, 2), num(r['need_sp']), effects, flags]
 
+
+# modes with their own battle icon (ai_cond_master, icon type 101, by unit base)
+mode_icon = {}
+for c in load('ai_cond_master.json'):
+    if num(c.get('icon_type')) != 101 or not c.get('base_unit_ids'):
+        continue
+    try:
+        bases = json.loads(c['base_unit_ids'])
+    except ValueError:
+        continue
+    for b in bases:
+        mode_icon.setdefault(str(b), num(c['id']))
 
 EL = {'fire': 1, 'water': 2, 'earth': 3, 'light': 4, 'dark': 5}
-uid_base, stats = {}, {}
+uid_base, stats, icons_used = {}, {}, set()
 for base, rec in units.items():
     ids = obj(rec.get('_ids'))
     top = num(ids.get('unit'))
@@ -78,11 +137,23 @@ for base, rec in units.items():
     if not u:
         continue
     rar = str(rec.get('Rarity') or '').lower()
-    stats[base] = [rec.get('Name') or '', EL.get(str(rec.get('Type') or '').lower(), num(u['element'])),
-                   num(rec.get('HP')), num(rec.get('ATK')), num(rec.get('DEF')),
-                   2 if 'ascension' in rar else 1 if 'awoken' in rar else 0, top,
-                   round(num(u['attack_delay'], 300) / 100, 2), num(u['break_power']), num(u['attribute']),
-                   skill(ids.get('Skill')), skill(ids.get('Arts')), skill(ids.get('True Arts')), skill(ids.get('Super Arts'))]
+    keys = ['Skill', 'Arts', 'True Arts', 'Super Arts']
+    sks = [skill(ids.get(k), rec.get(k + ' Detail')) for k in keys]
+    mode = 0
+    for i, k in enumerate(keys[1:], 1):
+        txt = str(rec.get(k + ' Detail') or '')
+        m = re.search(r'Activates ([^.]+?) for (\d+)s', txt)
+        j = re.search(r'(\d+)秒間、([^、。]+?)状態になる', txt)
+        if m or j:
+            icon = mode_icon.get(base, 0)
+            mode = [m.group(1).strip(), num(m.group(2)), icon, i] if m else [j.group(2).strip(), num(j.group(1)), icon, i]
+            if icon:
+                icons_used.add(icon)
+    stats[base] = {'n': rec.get('Name') or '', 'el': EL.get(str(rec.get('Type') or '').lower(), num(u['element'])),
+                   'hp': num(rec.get('HP')), 'atk': num(rec.get('ATK')), 'def': num(rec.get('DEF')),
+                   'r': 2 if 'ascension' in rar else 1 if 'awoken' in rar else 0, 'id': top,
+                   'dl': round(num(u['attack_delay'], 300) / 100, 2), 'bp': num(u['break_power']),
+                   'at': num(u['attribute']), 'sk': sks, 'm': mode}
     uid_base[str(top)] = base
     for form in obj(rec.get('_forms')).values():
         fid = ''.join(c for c in str(obj(form).get('Unit ID') or '') if c.isdigit())
@@ -102,6 +173,24 @@ for r in load('item_master.json'):
     if not old or row[2] + row[3] + row[4] >= old[2] + old[3] + old[4]:
         equips[img] = row
 
+# quest bosses with their enemy_master row
+enemies = {}
+for e in load('enemy_master.json'):
+    enemies.setdefault((num(e['unit_id']), num(e['hp'])), e)
+RES = ['stun', 'poison', 'paralyze', 'silent', 'darkness', 'sickness', 'injury', 'freeze', 'burn']
+
+
+def boss_row(b):
+    uid, hp = num(b.get('u')), num(b.get('hp'))
+    e = enemies.get((uid, hp)) or {}
+    u = um.get(uid) or {}
+    res = [num(e.get(f'resistant_{k}_base')) for k in RES]
+    return [uid, b.get('n') or '', num(b.get('el')), num(b.get('lv')), hp, num(b.get('atk')), num(b.get('def')),
+            num(b.get('brk')), round(num(u.get('attack_delay'), 300) / 100, 2), num(e.get('skill1_damage_value'), 300),
+            num(e.get('skill_invocation_weight'), 20), num(e.get('full_skill_damage_value'), 300),
+            num(e.get('need_sp'), 100), num(e.get('drop_sp'), 4), num(u.get('attribute'), 1), res]
+
+
 quests = []
 qd = load('quests_detail.json')
 for d in qd.get('dungeons', []):
@@ -111,11 +200,17 @@ for d in qd.get('dungeons', []):
             bosses = obj(bosses)
         if not bosses:
             continue
-        quests.append([num(q['id']), d.get('n') or '', q.get('n') or '', num(q.get('dif')),
-                       [[num(b.get('u')), b.get('n') or '', num(b.get('el')), num(b.get('lv')), num(b.get('hp')),
-                         num(b.get('atk')), num(b.get('def')), num(b.get('brk'))] for b in bosses]])
+        quests.append([num(q['id']), d.get('n') or '', q.get('n') or '', num(q.get('dif')), [boss_row(b) for b in bosses]])
 
 out = {'u': uid_base, 's': stats, 'e': equips, 'q': quests}
 with open(OUT, 'w', encoding='utf-8') as f:
     json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
-print(REGION, len(stats), 'units', len(uid_base), 'ids', len(equips), 'equips', len(quests), 'quests ->', OUT)
+
+if os.path.isdir(ICON_SRC):
+    os.makedirs(ICON_DST, exist_ok=True)
+    for i in icons_used:
+        src = os.path.join(ICON_SRC, f'ai_cond_icon_{i}.png')
+        if os.path.exists(src):
+            shutil.copyfile(src, os.path.join(ICON_DST, f'ai_cond_icon_{i}.png'))
+print(REGION, len(stats), 'units', sum(1 for s in stats.values() if s['m']), 'modes', len(equips), 'equips',
+      len(quests), 'quests ->', OUT)
