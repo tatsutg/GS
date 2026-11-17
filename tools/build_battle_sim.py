@@ -10,8 +10,9 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "e": {image_id: [name, type, hp, atk, def, ct_s, skill]}   equips by picture id (the site's equip ID)
   "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
        boss = [unit_id, name, element, lv, hp, atk, def, break, attack delay s, skill %, skill chance %,
-               arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9]]
+               arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9], size]
        ailment order: faint, poison, paralysis, seal, blind, disease, curse, freeze, burn
+       size: enemy_master size, 1 unit-sized, 3 big boss (dragons, birds, fortresses)
 }
 rarity: 2 Ascension, 1 Awoken, 0 lower. element: 1 fire, 2 water, 3 earth, 4 light, 5 dark.
 attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense, 4 healing, 5 support.
@@ -188,7 +189,8 @@ def boss_row(b):
     return [uid, b.get('n') or '', num(b.get('el')), num(b.get('lv')), hp, num(b.get('atk')), num(b.get('def')),
             num(b.get('brk')), round(num(u.get('attack_delay'), 300) / 100, 2), num(e.get('skill1_damage_value'), 300),
             num(e.get('skill_invocation_weight'), 20), num(e.get('full_skill_damage_value'), 300),
-            num(e.get('need_sp'), 100), num(e.get('drop_sp'), 4), num(u.get('attribute'), 1), res]
+            num(e.get('need_sp'), 100), num(e.get('drop_sp'), 4), num(u.get('attribute'), 1), res,
+            num(e.get('size'), 1)]
 
 
 quests = []
