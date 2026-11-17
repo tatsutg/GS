@@ -17,7 +17,7 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
 rarity: 2 Ascension, 1 Awoken, 0 lower. element: 1 fire, 2 water, 3 earth, 4 light, 5 dark.
 attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense, 4 healing, 5 support.
 
-A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects, flags]
+A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects, flags, name]
   effects = [[type, target, seconds, value, chance %, icon, script, mode], ...] from skill_effect_master:
     target 1 self, 2 allies, 4 enemy, 5 one ally, 6 on hit; icon = condition_icon_<n>.png (0 none);
     mode: 0 always, 1 only during the unit's mode, -1 only outside it, k>=2 time x k/10 during the mode
@@ -114,7 +114,7 @@ def skill(sid, text=''):
             if dmg:
                 effects.append([17, tg, secs, val, 100, 26, 0, 0])
     return [num(r['damage_value']), num(r['break_value']), num(r['element']), num(r['attribute']),
-            round(num(r['cooltime']) / 100, 2), num(r['need_sp']), effects, flags]
+            round(num(r['cooltime']) / 100, 2), num(r['need_sp']), effects, flags, r.get('name') or '']
 
 
 # modes with their own battle icon (ai_cond_master, icon type 101, by unit base)
