@@ -1,0 +1,923 @@
+
+MainUiEffects.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+textures/Large_needle
+  rotate: false
+  xy: 0, 1762
+  size: 280, 280
+  orig: 300, 300
+  offset: 10, 10
+  index: -1
+textures/aura_circle_blue/00001
+  rotate: false
+  xy: 760, 1816
+  size: 267, 113
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_blue/00002
+  rotate: false
+  xy: 492, 1929
+  size: 269, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00003
+  rotate: false
+  xy: 1030, 1929
+  size: 268, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00004
+  rotate: true
+  xy: 0, 536
+  size: 268, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00005
+  rotate: false
+  xy: 1298, 1929
+  size: 268, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00006
+  rotate: false
+  xy: 1027, 1816
+  size: 267, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00007
+  rotate: true
+  xy: 0, 268
+  size: 268, 113
+  orig: 420, 420
+  offset: 76, 84
+  index: -1
+textures/aura_circle_blue/00008
+  rotate: false
+  xy: 1566, 1929
+  size: 268, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00009
+  rotate: true
+  xy: 0, 0
+  size: 268, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00010
+  rotate: false
+  xy: 492, 1816
+  size: 268, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00011
+  rotate: true
+  xy: 0, 1073
+  size: 269, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00012
+  rotate: false
+  xy: 761, 1929
+  size: 269, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00013
+  rotate: true
+  xy: 0, 804
+  size: 269, 113
+  orig: 420, 420
+  offset: 77, 84
+  index: -1
+textures/aura_circle_blue/00014
+  rotate: false
+  xy: 1294, 1816
+  size: 267, 113
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_blue/00015
+  rotate: true
+  xy: 219, 1496
+  size: 266, 113
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_blue/00016
+  rotate: true
+  xy: 332, 1555
+  size: 266, 113
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_blue/00017
+  rotate: false
+  xy: 445, 1703
+  size: 266, 113
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_blue/00018
+  rotate: true
+  xy: 1776, 1552
+  size: 264, 113
+  orig: 420, 420
+  offset: 81, 84
+  index: -1
+textures/aura_circle_blue/00019
+  rotate: true
+  xy: 1775, 1288
+  size: 264, 113
+  orig: 420, 420
+  offset: 81, 84
+  index: -1
+textures/aura_circle_blue/00020
+  rotate: false
+  xy: 1561, 1816
+  size: 267, 113
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00001
+  rotate: true
+  xy: 337, 225
+  size: 265, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_green/00002
+  rotate: false
+  xy: 445, 1591
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00003
+  rotate: false
+  xy: 711, 1592
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00004
+  rotate: false
+  xy: 978, 1704
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00005
+  rotate: true
+  xy: 1888, 1287
+  size: 265, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_green/00006
+  rotate: false
+  xy: 448, 1368
+  size: 265, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00007
+  rotate: false
+  xy: 713, 1368
+  size: 265, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00008
+  rotate: false
+  xy: 977, 1592
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00009
+  rotate: false
+  xy: 1244, 1704
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00010
+  rotate: false
+  xy: 1243, 1592
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00011
+  rotate: false
+  xy: 1510, 1704
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00012
+  rotate: true
+  xy: 113, 1075
+  size: 267, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00013
+  rotate: true
+  xy: 113, 808
+  size: 267, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00014
+  rotate: false
+  xy: 448, 920
+  size: 264, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_green/00015
+  rotate: false
+  xy: 978, 1368
+  size: 265, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00016
+  rotate: false
+  xy: 1243, 1368
+  size: 265, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_green/00017
+  rotate: false
+  xy: 448, 1256
+  size: 265, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_green/00018
+  rotate: true
+  xy: 897, 283
+  size: 262, 112
+  orig: 420, 420
+  offset: 82, 84
+  index: -1
+textures/aura_circle_green/00019
+  rotate: true
+  xy: 1006, 552
+  size: 262, 112
+  orig: 420, 420
+  offset: 82, 84
+  index: -1
+textures/aura_circle_green/00020
+  rotate: false
+  xy: 713, 1032
+  size: 264, 112
+  orig: 420, 420
+  offset: 80, 84
+  index: -1
+textures/aura_circle_purple/00001
+  rotate: false
+  xy: 978, 1145
+  size: 265, 111
+  orig: 420, 420
+  offset: 79, 85
+  index: -1
+textures/aura_circle_purple/00002
+  rotate: false
+  xy: 1509, 1593
+  size: 267, 111
+  orig: 420, 420
+  offset: 78, 85
+  index: -1
+textures/aura_circle_purple/00003
+  rotate: false
+  xy: 445, 1480
+  size: 266, 111
+  orig: 420, 420
+  offset: 78, 85
+  index: -1
+textures/aura_circle_purple/00004
+  rotate: false
+  xy: 1509, 1370
+  size: 266, 111
+  orig: 420, 420
+  offset: 78, 85
+  index: -1
+textures/aura_circle_purple/00005
+  rotate: true
+  xy: 225, 1022
+  size: 266, 111
+  orig: 420, 420
+  offset: 78, 85
+  index: -1
+textures/aura_circle_purple/00006
+  rotate: false
+  xy: 1243, 1257
+  size: 265, 111
+  orig: 420, 420
+  offset: 78, 85
+  index: -1
+textures/aura_circle_purple/00007
+  rotate: false
+  xy: 712, 921
+  size: 265, 111
+  orig: 420, 420
+  offset: 78, 85
+  index: -1
+textures/aura_circle_purple/00008
+  rotate: true
+  xy: 225, 756
+  size: 266, 111
+  orig: 420, 420
+  offset: 78, 85
+  index: -1
+textures/aura_circle_purple/00009
+  rotate: false
+  xy: 711, 1480
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_purple/00010
+  rotate: true
+  xy: 113, 541
+  size: 267, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_purple/00011
+  rotate: true
+  xy: 113, 274
+  size: 267, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_purple/00012
+  rotate: true
+  xy: 113, 7
+  size: 267, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_purple/00013
+  rotate: false
+  xy: 711, 1704
+  size: 267, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_purple/00014
+  rotate: false
+  xy: 448, 808
+  size: 264, 112
+  orig: 420, 420
+  offset: 80, 84
+  index: -1
+textures/aura_circle_purple/00015
+  rotate: false
+  xy: 1243, 1145
+  size: 264, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_purple/00016
+  rotate: false
+  xy: 712, 809
+  size: 264, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_purple/00017
+  rotate: false
+  xy: 1508, 1258
+  size: 264, 112
+  orig: 420, 420
+  offset: 80, 84
+  index: -1
+textures/aura_circle_purple/00018
+  rotate: true
+  xy: 785, 546
+  size: 263, 112
+  orig: 420, 420
+  offset: 81, 84
+  index: -1
+textures/aura_circle_purple/00019
+  rotate: true
+  xy: 1118, 552
+  size: 262, 112
+  orig: 420, 420
+  offset: 82, 84
+  index: -1
+textures/aura_circle_purple/00020
+  rotate: false
+  xy: 448, 1144
+  size: 265, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00001
+  rotate: false
+  xy: 713, 1256
+  size: 265, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00002
+  rotate: false
+  xy: 448, 1032
+  size: 265, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00003
+  rotate: false
+  xy: 977, 1480
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00004
+  rotate: false
+  xy: 1243, 1480
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00005
+  rotate: false
+  xy: 713, 1144
+  size: 265, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00006
+  rotate: true
+  xy: 449, 544
+  size: 264, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00007
+  rotate: false
+  xy: 978, 1256
+  size: 265, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00008
+  rotate: false
+  xy: 1509, 1481
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00009
+  rotate: true
+  xy: 225, 490
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00010
+  rotate: true
+  xy: 225, 224
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00011
+  rotate: true
+  xy: 336, 1022
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00012
+  rotate: true
+  xy: 336, 756
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00013
+  rotate: true
+  xy: 337, 490
+  size: 266, 112
+  orig: 420, 420
+  offset: 78, 84
+  index: -1
+textures/aura_circle_red/00014
+  rotate: true
+  xy: 449, 280
+  size: 264, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00015
+  rotate: true
+  xy: 561, 544
+  size: 264, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00016
+  rotate: true
+  xy: 561, 280
+  size: 264, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00017
+  rotate: true
+  xy: 673, 544
+  size: 264, 112
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_red/00018
+  rotate: true
+  xy: 785, 283
+  size: 263, 112
+  orig: 420, 420
+  offset: 81, 84
+  index: -1
+textures/aura_circle_red/00019
+  rotate: true
+  xy: 1009, 290
+  size: 262, 112
+  orig: 420, 420
+  offset: 82, 84
+  index: -1
+textures/aura_circle_red/00020
+  rotate: true
+  xy: 673, 280
+  size: 264, 112
+  orig: 420, 420
+  offset: 80, 84
+  index: -1
+textures/aura_circle_yellow/00001
+  rotate: true
+  xy: 1121, 290
+  size: 262, 110
+  orig: 420, 420
+  offset: 80, 85
+  index: -1
+textures/aura_circle_yellow/00002
+  rotate: false
+  xy: 977, 814
+  size: 263, 109
+  orig: 420, 420
+  offset: 80, 85
+  index: -1
+textures/aura_circle_yellow/00003
+  rotate: true
+  xy: 897, 545
+  size: 264, 109
+  orig: 420, 420
+  offset: 79, 85
+  index: -1
+textures/aura_circle_yellow/00004
+  rotate: false
+  xy: 449, 171
+  size: 264, 109
+  orig: 420, 420
+  offset: 79, 85
+  index: -1
+textures/aura_circle_yellow/00005
+  rotate: true
+  xy: 1452, 329
+  size: 262, 110
+  orig: 420, 420
+  offset: 80, 85
+  index: -1
+textures/aura_circle_yellow/00006
+  rotate: false
+  xy: 1506, 926
+  size: 261, 110
+  orig: 420, 420
+  offset: 80, 85
+  index: -1
+textures/aura_circle_yellow/00007
+  rotate: false
+  xy: 1240, 813
+  size: 263, 110
+  orig: 420, 420
+  offset: 79, 85
+  index: -1
+textures/aura_circle_yellow/00008
+  rotate: true
+  xy: 1231, 328
+  size: 263, 110
+  orig: 420, 420
+  offset: 79, 85
+  index: -1
+textures/aura_circle_yellow/00009
+  rotate: false
+  xy: 1241, 923
+  size: 263, 111
+  orig: 420, 420
+  offset: 80, 84
+  index: -1
+textures/aura_circle_yellow/00010
+  rotate: false
+  xy: 1508, 1147
+  size: 264, 111
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_yellow/00011
+  rotate: false
+  xy: 978, 1034
+  size: 264, 111
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_yellow/00012
+  rotate: false
+  xy: 1242, 1034
+  size: 264, 111
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_yellow/00013
+  rotate: false
+  xy: 977, 923
+  size: 264, 111
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_yellow/00014
+  rotate: true
+  xy: 1341, 329
+  size: 262, 111
+  orig: 420, 420
+  offset: 80, 84
+  index: -1
+textures/aura_circle_yellow/00015
+  rotate: false
+  xy: 1230, 702
+  size: 263, 111
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_yellow/00016
+  rotate: false
+  xy: 1230, 591
+  size: 263, 111
+  orig: 420, 420
+  offset: 79, 84
+  index: -1
+textures/aura_circle_yellow/00017
+  rotate: false
+  xy: 1507, 1036
+  size: 262, 111
+  orig: 420, 420
+  offset: 80, 84
+  index: -1
+textures/aura_circle_yellow/00018
+  rotate: false
+  xy: 1503, 704
+  size: 260, 111
+  orig: 420, 420
+  offset: 82, 84
+  index: -1
+textures/aura_circle_yellow/00019
+  rotate: false
+  xy: 1493, 593
+  size: 260, 111
+  orig: 420, 420
+  offset: 83, 84
+  index: -1
+textures/aura_circle_yellow/00020
+  rotate: false
+  xy: 1504, 815
+  size: 261, 111
+  orig: 420, 420
+  offset: 81, 84
+  index: -1
+textures/ef_flare_back_main_00004
+  rotate: false
+  xy: 225, 8
+  size: 90, 90
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+textures/ef_lightning_A_dark/ef_lightning_A_dark_00001
+  rotate: true
+  xy: 628, 106
+  size: 65, 71
+  orig: 160, 160
+  offset: 52, 47
+  index: -1
+textures/ef_lightning_A_dark/ef_lightning_A_dark_00002
+  rotate: true
+  xy: 1946, 1222
+  size: 65, 63
+  orig: 160, 160
+  offset: 51, 54
+  index: -1
+textures/ef_lightning_A_dark/ef_lightning_A_dark_00003
+  rotate: false
+  xy: 1881, 1223
+  size: 65, 64
+  orig: 160, 160
+  offset: 50, 56
+  index: -1
+textures/ef_lightning_A_dark/ef_lightning_A_dark_00004
+  rotate: false
+  xy: 1902, 1904
+  size: 58, 64
+  orig: 160, 160
+  offset: 56, 56
+  index: -1
+textures/ef_lightning_A_dark/ef_lightning_A_dark_00005
+  rotate: false
+  xy: 1902, 1830
+  size: 53, 74
+  orig: 160, 160
+  offset: 58, 47
+  index: -1
+textures/ef_lightning_A_dark/ef_lightning_A_dark_00006
+  rotate: false
+  xy: 1839, 1213
+  size: 42, 75
+  orig: 160, 160
+  offset: 62, 46
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00001
+  rotate: false
+  xy: 1633, 337
+  size: 66, 127
+  orig: 210, 230
+  offset: 63, 60
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00003
+  rotate: false
+  xy: 1633, 464
+  size: 67, 129
+  orig: 210, 230
+  offset: 62, 61
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00005
+  rotate: false
+  xy: 1562, 466
+  size: 71, 127
+  orig: 210, 230
+  offset: 61, 67
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00007
+  rotate: true
+  xy: 1834, 1968
+  size: 74, 126
+  orig: 210, 230
+  offset: 58, 71
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00009
+  rotate: false
+  xy: 713, 170
+  size: 73, 110
+  orig: 210, 230
+  offset: 62, 74
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00011
+  rotate: false
+  xy: 201, 1385
+  size: 80, 111
+  orig: 210, 230
+  offset: 55, 75
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00013
+  rotate: true
+  xy: 332, 1473
+  size: 82, 113
+  orig: 210, 230
+  offset: 57, 77
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00015
+  rotate: false
+  xy: 1700, 479
+  size: 76, 114
+  orig: 210, 230
+  offset: 62, 78
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00017
+  rotate: false
+  xy: 1828, 1816
+  size: 74, 113
+  orig: 210, 230
+  offset: 62, 81
+  index: -1
+textures/kakusei_tower_rainbow 2/kakusei_tower_rainbow 2_00019
+  rotate: true
+  xy: 446, 115
+  size: 56, 91
+  orig: 210, 230
+  offset: 75, 88
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00001
+  rotate: true
+  xy: 868, 217
+  size: 66, 127
+  orig: 210, 230
+  offset: 63, 60
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00003
+  rotate: false
+  xy: 1772, 1159
+  size: 67, 129
+  orig: 210, 230
+  offset: 62, 61
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00005
+  rotate: false
+  xy: 1562, 339
+  size: 71, 127
+  orig: 210, 230
+  offset: 61, 67
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00007
+  rotate: false
+  xy: 225, 98
+  size: 74, 126
+  orig: 210, 230
+  offset: 58, 71
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00009
+  rotate: false
+  xy: 373, 115
+  size: 73, 110
+  orig: 210, 230
+  offset: 62, 74
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00011
+  rotate: false
+  xy: 1960, 1931
+  size: 80, 111
+  orig: 210, 230
+  offset: 55, 75
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00013
+  rotate: false
+  xy: 786, 170
+  size: 82, 113
+  orig: 210, 230
+  offset: 57, 77
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00015
+  rotate: true
+  xy: 868, 141
+  size: 76, 114
+  orig: 210, 230
+  offset: 62, 78
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00017
+  rotate: false
+  xy: 299, 111
+  size: 74, 113
+  orig: 210, 230
+  offset: 62, 81
+  index: -1
+textures/kakusei_tower_rainbow 3/kakusei_tower_rainbow 2_00019
+  rotate: true
+  xy: 537, 115
+  size: 56, 91
+  orig: 210, 230
+  offset: 75, 88
+  index: -1
+textures/magic5
+  rotate: false
+  xy: 0, 1543
+  size: 219, 219
+  orig: 219, 219
+  offset: 0, 0
+  index: -1
+textures/magic7
+  rotate: false
+  xy: 280, 1821
+  size: 212, 221
+  orig: 300, 300
+  offset: 43, 51
+  index: -1
+textures/small_needle
+  rotate: false
+  xy: 0, 1342
+  size: 201, 201
+  orig: 300, 300
+  offset: 49, 49
+  index: -1
