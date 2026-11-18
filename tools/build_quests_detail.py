@@ -50,6 +50,10 @@ RTYPE = {2: 'Gren', 5: 'Material', 7: 'Equip recipe', 8: 'Equip', 9: 'Unit', 11:
 RES_EN = {'毒耐性': 'Poison Res.', '暗闇耐性': 'Blind Res.', '封印耐性': 'Seal Res.', '麻痺耐性': 'Paralysis Res.', '病気耐性': 'Disease Res.',
           '気絶耐性': 'Faint Res.', '氷結耐性': 'Freeze Res.', '燃焼耐性': 'Burn Res.', '凍結耐性': 'Freeze Res.', '呪い耐性': 'Curse Res.'}
 MAX_WIN = 200     # open windows kept per dungeon
+# dungeons whose enemy ids do not follow their quests, so the id rule in bosses_of() puts bosses in the wrong quest:
+# only the quests that name their boss (quest_master succession_enemy_id) get one; the rest stay in the dungeon roster
+# (Training: 13 enemies for 12 tutorial quests, e.g. Takedown Battle's Valzandeth had landed in "Faster Arts")
+NO_ID_RULE = {1001500}
 
 
 def load(name):
@@ -219,7 +223,7 @@ def main():
                 'def': num(e.get('deffence')), 'brk': num(e.get('break_capacity'))}
 
     def bosses_of(did, names):
-        """[[quest index or -1, boss row], ...] for a dungeon (names = its quest names in order)"""
+        """[[quest index or -1, boss row, enemy id], ...] for a dungeon (names = its quest names in order)"""
         nq = len(names)
         base, stride = (did * 100, 20) if did < 1000000 else (did, 5)
         ids = [i for i in range(base, base + 100) if i in boss_enemies]
@@ -252,7 +256,7 @@ def main():
         elif len({q for q in place.values() if q < nq}) < nq and len(ids) == nq                 and all(num(boss_enemies[a].get('hp')) <= num(boss_enemies[b].get('hp')) for a, b in zip(ids, ids[1:])):
             # quests left empty, one boss per quest whose HP rises in id order (e.g. EX1 / SPEX / AWK at +1/+5/+9)
             place = {i: k for k, i in enumerate(ids)}
-        return [(place[i] if place[i] < nq else -1, boss_row(boss_enemies[i])) for i in ids]
+        return [(place[i] if place[i] < nq else -1, boss_row(boss_enemies[i]), i) for i in ids]
 
     # stages: battle_relation_master = quest -> battle_no (stage 1, 2, ...) -> spawn variants with a weight (of 10000).
     # The enemy placement of each variant (battlemaster) is not in the export, so per quest the site shows the stage
@@ -329,7 +333,16 @@ def main():
                        'st': [[round(w / max(1, sum(ws)) * 100, 2) for w in ws] for _, ws in sorted(stages.get(q['id'], {}).items())]})
         # bosses: per quest when the id says which, and the dungeon's distinct bosses (strongest copy)
         uniq = {}
-        for i, b in bosses_of(d['id'], [q['n'] for q in qs]):
+        # a quest that names its boss (succession_enemy_id: the boss whose HP carries over between tries) gets it
+        idx = {q['id']: k for k, q in enumerate(qs)}
+        named = {num(q.get('succession_enemy_id')): idx[q['id']] for q in by_dungeon.get(d['id'], [])
+                 if q['id'] in idx and num(q.get('succession_enemy_id'))}
+        # (RUSH quests may reuse a quest's own boss, so elsewhere the id rule's place is kept as well)
+        for i, b, eid in bosses_of(d['id'], [q['n'] for q in qs]):
+            if d['id'] in NO_ID_RULE:
+                i = -1
+            if eid in named and named[eid] != i:
+                qs[named[eid]].setdefault('boss', []).append(b)
             if i >= 0:
                 qs[i].setdefault('boss', []).append(b)
             if b['u'] not in uniq or b['hp'] > uniq[b['u']]['hp']:
