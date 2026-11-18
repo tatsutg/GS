@@ -28,9 +28,18 @@ import re
 STR = r'"((?:[^"\\]|\\.)*)"'
 EL = {'fire': 1, 'water': 2, 'earth': 3, 'light': 4, 'dark': 5}
 ELS = r'(fire|water|earth|light|dark)'
-MECH = re.compile(r'negat|nullif|immun|killer|resist|reflect|\bDMG\b|damage|crit|\bCRI\b|gauge|break|invincib|barrier|'
-                  r'\bUP\b|\bDOWN\b|evasion|ailment|\bATK\b|\bDEF\b|heal|regen|accuracy|'
-                  r'無効|耐性|キラー|ダメージ|アップ|ダウン|反射|奥義', re.I)
+MECH_WORDS = re.compile(r'negat|nullif|immun|killer|resist|reflect|damage|critical|gauge|break|invincib|barrier|evasion|ailment|'
+                        r'regenerat|accuracy|無効|耐性|キラー|ダメージ|アップ|ダウン|反射|奥義', re.I)
+MECH_CAPS = re.compile(r'\b(?:DMG|CRI|UP|DOWN|ATK|DEF|HP)\b')     # the game writes these in capitals; "show up" is a line
+
+
+class _Mech:
+    @staticmethod
+    def search(t):
+        return MECH_WORDS.search(t) or MECH_CAPS.search(t)
+
+
+MECH = _Mech
 
 
 def _blocks(text):
