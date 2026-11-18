@@ -11,12 +11,16 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
        boss = [unit_id, name, element, lv, hp, atk, def, break, attack delay s, skill %, skill chance %,
                arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9], size, race, [[hp %, skip], ...],
-               look]
+               look, mechanics]
        ailment order: faint, poison, paralysis, seal, blind, disease, curse, freeze, burn
        size: enemy_master size, 1 unit-sized, 3 big boss (dragons, birds, fortresses)
        look: [[[sub skeleton, z order], ...], skin, setup animation] from the enemy / unit Lua start (0 none)
        hp markers: the diamonds on the HP bar, from the enemy Lua (addNumHpMarker); skip 1 = cyan marker
+       mechanics: [[message, from the start 1 / later 0, [[rule, value], ...]], ...] the game's battle messages for the
+                  enemy (tools/lua_boss_text.py: immunities to physical / magic / an element / critical ...), 0 none
        race: unit_master race, 1 Human, 2 Beast, 3 Spirit, 4 Giant, 5 Machine, 6 Dragon, 7 God, 8 Demon (0 none)
+  "x": [[quest_id, dungeon, quest, difficulty, [enemy, ...]], ...] quests with an enemy whose rules change damage, with
+       every enemy of the quest (same rows as a boss), e.g. event waves before the boss
 }
 rarity: 2 Ascension, 1 Awoken, 0 lower. element: 1 fire, 2 water, 3 earth, 4 light, 5 dark.
 attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense, 4 healing, 5 support.
@@ -51,6 +55,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lua_hp_markers import markers as lua_markers  # noqa: E402
 from lua_boss_look import look as lua_look  # noqa: E402
+from lua_boss_text import Texts  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
@@ -238,6 +243,10 @@ def boss_look(eid, uid):
     return 0
 
 
+LUA = lambda r: os.path.join(GS, 'dlc', r, 'additional_lua')
+TEXTS = Texts([LUA('Global'), LUA(REGION)], [LUA(REGION), LUA('Japan')])
+
+
 def boss_row(b):
     uid, hp = num(b.get('u')), num(b.get('hp'))
     e = enemies.get((uid, hp)) or {}
@@ -248,7 +257,8 @@ def boss_row(b):
             num(e.get('skill_invocation_weight'), 20), num(e.get('full_skill_damage_value'), 300),
             num(e.get('need_sp'), 100), num(e.get('drop_sp'), 4), num(u.get('attribute'), 1), res,
             num(e.get('size'), 1), num(u.get('race')), hp_markers(num(e.get('id'))) if e else [],
-            boss_look(num(e.get('id')) if e else 0, uid)]
+            boss_look(num(e.get('id')) if e else 0, uid),
+            TEXTS.mechanics([num(e.get('id')) if e else 0, uid], b.get('n') or '') or 0]
 
 
 quests = []
@@ -262,6 +272,26 @@ for d in qd.get('dungeons', []):
             continue
         quests.append([num(q['id']), d.get('n') or '', q.get('n') or '', num(q.get('dif')), [boss_row(b) for b in bosses]])
 
+# quests with an enemy whose rules change damage (immunities), every enemy of the quest as a wave: the enemy ids
+# of a quest follow its id (quest 2000209 -> enemies 200020900..99); bosses that are not tied to their quest
+# above (e.g. event waves before the boss) are found this way
+names = {num(q['id']): (d.get('n') or '', q.get('n') or '', num(q.get('dif'))) for d in qd.get('dungeons', []) for q in d.get('q', [])}
+by_id = {num(e['id']): e for e in load('enemy_master.json')}
+extra = []
+for qid, (dn, qn, dif) in sorted(names.items()):
+    rows, seen = [], set()
+    for i in range(qid * 100, qid * 100 + 100):
+        e = by_id.get(i)
+        if not e or (num(e['unit_id']), num(e['hp'])) in seen:
+            continue
+        seen.add((num(e['unit_id']), num(e['hp'])))
+        u = um.get(num(e['unit_id'])) or {}
+        rows.append(boss_row({'u': e['unit_id'], 'n': (e.get('name') if e.get('name') not in (None, 'None') else '') or u.get('name') or '',
+                              'el': u.get('element'), 'lv': e.get('level'), 'hp': e.get('hp'), 'atk': e.get('attack'),
+                              'def': e.get('deffence'), 'brk': e.get('break_capacity')}))
+    if any(r[20] and any(m[1] and m[2] for m in r[20]) for r in rows):
+        extra.append([qid, dn, qn, dif, rows])
+
 # game constants (initial/setting_master): damage formula, crit, break, element, Battle Ether
 consts = {}
 try:
@@ -272,7 +302,7 @@ try:
 except OSError:
     pass
 
-out = {'u': uid_base, 's': stats, 'e': equips, 'q': quests, 'c': consts,
+out = {'u': uid_base, 's': stats, 'e': equips, 'q': quests, 'x': extra, 'c': consts,
        'o': {b: {k: v for k, v in o.items() if not k.startswith('_')} for b, o in overrides.items()}}
 with open(OUT, 'w', encoding='utf-8') as f:
     json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
@@ -284,4 +314,4 @@ if os.path.isdir(ICON_SRC):
         if os.path.exists(src):
             shutil.copyfile(src, os.path.join(ICON_DST, f'ai_cond_icon_{i}.png'))
 print(REGION, len(stats), 'units', sum(1 for s in stats.values() if s['m']), 'modes', len(equips), 'equips',
-      len(quests), 'quests ->', OUT)
+      len(quests), 'quests', len(extra), 'quests with immune enemies ->', OUT)
