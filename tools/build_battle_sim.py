@@ -277,6 +277,25 @@ for d in qd.get('dungeons', []):
 # above (e.g. event waves before the boss) are found this way
 names = {num(q['id']): (d.get('n') or '', q.get('n') or '', num(q.get('dif'))) for d in qd.get('dungeons', []) for q in d.get('q', [])}
 by_id = {num(e['id']): e for e in load('enemy_master.json')}
+
+
+def enemy_row(e):
+    """an enemy_master row as a boss row"""
+    u = um.get(num(e['unit_id'])) or {}
+    return boss_row({'u': e['unit_id'], 'n': (e.get('name') if e.get('name') not in (None, 'None') else '') or u.get('name') or '',
+                     'el': u.get('element'), 'lv': e.get('level'), 'hp': e.get('hp'), 'atk': e.get('attack'),
+                     'def': e.get('deffence'), 'brk': e.get('break_capacity')})
+
+
+# quests that name their boss (quest_master succession_enemy_id: the boss whose HP carries over between tries, e.g.
+# Training > Takedown Battle, RUSH, Ultra) but got none above: that enemy is the boss
+have = {q[0] for q in quests}
+for q in load('quest_master.json'):
+    qid, sid = num(q['id']), num(q.get('succession_enemy_id'))
+    if sid in by_id and qid in names and qid not in have:
+        dn, qn, dif = names[qid]
+        quests.append([qid, dn, qn, dif, [enemy_row(by_id[sid])]])
+
 extra = []
 for qid, (dn, qn, dif) in sorted(names.items()):
     rows, seen = [], set()
@@ -285,10 +304,7 @@ for qid, (dn, qn, dif) in sorted(names.items()):
         if not e or (num(e['unit_id']), num(e['hp'])) in seen:
             continue
         seen.add((num(e['unit_id']), num(e['hp'])))
-        u = um.get(num(e['unit_id'])) or {}
-        rows.append(boss_row({'u': e['unit_id'], 'n': (e.get('name') if e.get('name') not in (None, 'None') else '') or u.get('name') or '',
-                              'el': u.get('element'), 'lv': e.get('level'), 'hp': e.get('hp'), 'atk': e.get('attack'),
-                              'def': e.get('deffence'), 'brk': e.get('break_capacity')}))
+        rows.append(enemy_row(e))
     if any(r[20] and any(m[1] and m[2] for m in r[20]) for r in rows):
         extra.append([qid, dn, qn, dif, rows])
 
