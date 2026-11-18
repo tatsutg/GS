@@ -7,7 +7,8 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
                "dl": attack delay s, "bp": break power, "at": attribute,
                "sk": [skill, arts, true_arts, super_arts],
                "m": [mode name, seconds, icon id, activated by 1 arts / 2 true arts / 3 super arts] or 0}}
-  "e": {image_id: [name, type, hp, atk, def, ct_s, skill]}   equips by picture id (the site's equip ID)
+  "e": {image_id: [name, type, hp, atk, def, ct_s, skill, [[passive name, effects], ...]]}   equips by picture id
+       (the site's equip ID); passive effects as a skill's, script 35 = only on the unit whose base is value 1
   "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
        boss = [unit_id, name, element, lv, hp, atk, def, break, attack delay s, skill %, skill chance %,
                arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9], size, race, [[hp %, skip], ...],
@@ -198,6 +199,31 @@ for base, rec in units.items():
             uid_base.setdefault(fid, base)
 
 # equips: the top evolution of each picture id (highest stats), CT at MLB
+# passives: the item's abilities (skill_relation_master relation_type 1), one per name (highest Lv), with their
+# effects; script 35 = only when equipped by the unit whose base is script_value_1 (e.g. True "ZANKETSU" on Vox)
+ability_rel = {}
+for rr in load('skill_relation_master.json'):
+    if num(rr.get('relation_type')) == 1:
+        ability_rel.setdefault(num(rr['relation_id']), []).append(num(rr['skill_id']))
+
+
+def equip_passives(iid):
+    best = {}
+    for sid in sorted(ability_rel.get(iid, [])):
+        r = sm.get(sid)
+        if not r or not r.get('name'):
+            continue
+        key = re.sub(r'\s*Lv\.?\s*\d+$', '', r['name'])
+        if key not in best or sid > best[key]:
+            best[key] = sid
+    out = []
+    for sid in best.values():
+        eff = [effect(e) for e in sorted(fx.get(sid, []), key=lambda e: e['id'])]
+        if eff:
+            out.append([sm[sid].get('name') or '', eff])
+    return out
+
+
 equips = {}
 for r in load('item_master.json'):
     if num(r.get('is_material')) or not num(r.get('item_skill_id')):
@@ -205,7 +231,7 @@ for r in load('item_master.json'):
     img = str(num(r['image_id']))
     row = [r.get('name') or '', num(r['type']), num(r['hitpoint']), num(r['offence']), num(r['defence']),
            round(num(r.get('min_limitbreak_cooltime') or r.get('max_limitbreak_cooltime')) / 100, 2),
-           skill(r['item_skill_id'])]
+           skill(r['item_skill_id']), equip_passives(num(r['id']))]
     old = equips.get(img)
     if not old or row[2] + row[3] + row[4] >= old[2] + old[3] + old[4]:
         equips[img] = row
