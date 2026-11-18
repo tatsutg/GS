@@ -18,7 +18,9 @@ rarity: 2 Ascension, 1 Awoken, 0 lower. element: 1 fire, 2 water, 3 earth, 4 lig
 attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense, 4 healing, 5 support.
 
 A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects, flags, name]
-  effects = [[type, target, seconds, value, chance %, icon, script, mode, animation], ...] from skill_effect_master:
+  effects = [[type, target, seconds, value, chance %, icon, script, mode, animation,
+              script_value_1, script_value_2, script_value_3, group, priority, buff_type], ...] from skill_effect_master
+    (what each script id checks: dlc/<Region>/additional_lua/other/skill_effect.lua, see js/battle-engine.js):
     target 1 self, 2 allies, 4 enemy, 5 one ally, 6 on hit; icon = condition_icon_<n>.png (0 none);
     mode: 0 always, 1 only during the unit's mode, -1 only outside it, k>=2 time x k/10 during the mode
     type 67 / 69 on equips is the equip's physical / magic hit (value = damage %), not a buff
@@ -27,6 +29,8 @@ A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, ef
   flags: 1 damage only during the unit's mode, 2 damage x2 during the mode
 Some Arts (modes, "Increases ATK & DMG ...") are scripted in the game, not in skill_effect_master:
 those effects are read from the English skill text.
+Units also carry "race" (unit_master), "lv" (level_max) and "p": [[passive name, effects], ...].
+"c": game constants from initial/setting_master; "o": tools/battle_overrides.json (Lua-only unit rules by base).
 Equip CT: item_master min_limitbreak_cooltime (the MLB value), centiseconds.
 Boss stats: enemy_master row of the quest boss (unit id + HP), attack delay from unit_master.
 
@@ -73,6 +77,13 @@ def obj(v):
 
 
 units = load('unitsv2_detail.json')
+# hand-written unit rules read from the game's Lua (dlc/<Region>/additional_lua/unit/<unit id>.lua)
+with open(os.path.join(HERE, 'battle_overrides.json'), encoding='utf-8') as f:
+    overrides = {k: v for k, v in json.load(f).items() if not k.startswith('_')}
+CONST_KEYS = {'CONF_DAMAGE_CAP', 'CONF_DAMAGE_CRITICALPOINT', 'CONF_DEFENCE_CRITICALPOINT', 'CONF_DAMAGE_OFFSET_PvE',
+              'CONF_DAMAGE_OFFSET_EvP', 'CONF_CRITICAL_RATE', 'CONF_SUPER_CRITICAL_RATE', 'CONF_BREAK_RATE',
+              'CONF_ELEMENT_WEAK', 'CONF_ELEMENT_RESIST', 'CONF_SPDROP_VALUE', 'CONF_SPDROP_DIV_ITEMDAMAGE',
+              'CONF_DoT_OFFSET_PvE', 'CONF_BOSS_RESISTCONDITION_REDUCE_PER_SEC'}
 um = {r['id']: r for r in load('unit_master.json')}
 sm = {r['id']: r for r in load('skill_master.json')}
 fx = {}
@@ -90,16 +101,18 @@ def effect(e):
     if sv1 > 10 ** 9:            # a unit's mode id (unit id + digit)
         mode = MODE_SCRIPT.get(script, max(2, num(e.get('script_value_2'))) if script == 327 else 0)
     return [num(e['effect_type']), num(e['target']), num(e['effect_time']), num(e['effect_value']),
-            num(e.get('weight'), 100), num(e.get('tumbnail_name')), script, mode, num(e.get('animation_id'))]
+            num(e.get('weight'), 100), num(e.get('tumbnail_name')), script, mode, num(e.get('animation_id')),
+            sv1, num(e.get('script_value_2')), num(e.get('script_value_3')), num(e.get('group_id')),
+            num(e.get('priority')), num(e.get('buff_type'))]
 
 
-def skill(sid, text=''):
+def skill(sid, text='', lua=False):
     r = sm.get(num(sid))
     if not r:
         return 0
     effects = [effect(e) for e in sorted(fx.get(r['id'], []), key=lambda e: e['id'])]
     flags = 0
-    t = text or ''
+    t = '' if lua else (text or '')       # units in battle_overrides.json: the Lua rules replace the text guesses
     if re.search(r'DMG when used during|状態のとき使用すると', t):
         flags |= 1
     if re.search(r'Doubles (?:Super |True )?Arts DMG during|ダメージ倍率を2倍', t):
@@ -142,7 +155,13 @@ for base, rec in units.items():
         continue
     rar = str(rec.get('Rarity') or '').lower()
     keys = ['Skill', 'Arts', 'True Arts', 'Super Arts']
-    sks = [skill(ids.get(k), rec.get(k + ' Detail')) for k in keys]
+    lua = base in overrides
+    sks = [skill(ids.get(k), rec.get(k + ' Detail'), lua) for k in keys]
+    passives = []
+    for k in sorted(x for x in ids if re.fullmatch(r'Passives \d+', x)):
+        p = skill(ids.get(k))
+        if p:
+            passives.append([p[8], p[6]])
     mode = 0
     for i, k in enumerate(keys[1:], 1):
         txt = str(rec.get(k + ' Detail') or '')
@@ -157,7 +176,8 @@ for base, rec in units.items():
                    'hp': num(rec.get('HP')), 'atk': num(rec.get('ATK')), 'def': num(rec.get('DEF')),
                    'r': 2 if 'ascension' in rar else 1 if 'awoken' in rar else 0, 'id': top,
                    'dl': round(num(u['attack_delay'], 300) / 100, 2), 'bp': num(u['break_power']),
-                   'at': num(u['attribute']), 'sk': sks, 'm': mode}
+                   'at': num(u['attribute']), 'sk': sks, 'm': mode, 'race': num(u.get('race')),
+                   'lv': num(u.get('level_max')), 'p': passives}
     uid_base[str(top)] = base
     for form in obj(rec.get('_forms')).values():
         fid = ''.join(c for c in str(obj(form).get('Unit ID') or '') if c.isdigit())
@@ -207,7 +227,18 @@ for d in qd.get('dungeons', []):
             continue
         quests.append([num(q['id']), d.get('n') or '', q.get('n') or '', num(q.get('dif')), [boss_row(b) for b in bosses]])
 
-out = {'u': uid_base, 's': stats, 'e': equips, 'q': quests}
+# game constants (initial/setting_master): damage formula, crit, break, element, Battle Ether
+consts = {}
+try:
+    with open(os.path.join(os.path.dirname(OTHERS), 'initial', 'setting_master.json'), encoding='utf-8') as f:
+        for r in json.load(f):
+            if r['key'] in CONST_KEYS:
+                consts[r['key']] = float(r['value'])
+except OSError:
+    pass
+
+out = {'u': uid_base, 's': stats, 'e': equips, 'q': quests, 'c': consts,
+       'o': {b: {k: v for k, v in o.items() if not k.startswith('_')} for b, o in overrides.items()}}
 with open(OUT, 'w', encoding='utf-8') as f:
     json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
 

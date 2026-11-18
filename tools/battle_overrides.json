@@ -1,0 +1,44 @@
+{
+  "_about": "Unit rules the master tables do not hold, read by hand from the game's Lua (dlc/<Region>/additional_lua/unit/<unit id>.lua). Keyed by unitsv2 base. build_battle_sim.py copies them into battle_sim.json 'o'; js/battle-engine.js runs them. Effects use the battle_sim effect layout: [type, target, seconds, value, chance, icon, script, mode, animation, sv1, sv2, sv3, group, priority, buff_type]. Keys starting with _ are notes and are not exported.",
+  "777": {
+    "_unit": "Shirou Emiya 107777212",
+    "_src": "dlc/Japan/additional_lua/unit/107777212.lua",
+    "_notes": [
+      "takeSkill index 5 without buff 1077772121: start UBW (BUFF_BOX_LIST[1]: type 33, value 100, 180 s); no restart when used again (else branch only adds the final-arts flag)",
+      "takeSkill index 5 with the buff: animation skill5_2 and superSkillFLG -> update adds BUFF_BOX_LIST[8] ATK +200 (group 1006, priority 200) and [9] DMG +200 (group 1029, priority 200), 35 s",
+      "update while the buff is on: getBurstSkill2():setDamageRate(default x 2) = True Arts damage x2",
+      "level >= 90 while the buff is on: orbit sword every orbitTime 8 s, setActiveSkill(5), damage rate offset orbitDamage/skill5Damage = 100/1700 of the Super Arts rate (1700) = 100x = 10000 %, break rate 0; teamAddBuff BUFF_BOX_LIST[6] type 21 -30 for 1 s every frame",
+      "level >= 90 when UBW starts: antiBadCondition(54) and (59) = types 54/103 and 59/108 value 100 for 180 s; BUFF_BOX_LIST[7] type 27 -100 for 180 s",
+      "Super Arts damage only when used during UBW: skill text; the Lua swaps the animation to skill5_2, which carries the hits"
+    ],
+    "mode": { "name": "Unlimited Blade Works", "buff": 1077772121, "secs": 180, "tier": 3, "restart": false },
+    "tiers": {
+      "3": {
+        "outMode": { "dmg": 0 },
+        "inMode": {
+          "anim": "skill5_2",
+          "effects": [
+            [13, 1, 35, 200, 100, 3, 0, 0, 0, 0, 0, 0, 1006, 200, 1],
+            [17, 1, 35, 200, 100, 26, 0, 0, 0, 0, 0, 0, 1029, 200, 1]
+          ]
+        }
+      },
+      "2": { "inMode": { "dmgX": 2 } }
+    },
+    "modeStart": {
+      "minLv": 90,
+      "effects": [
+        [54, 1, 180, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [103, 1, 180, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [59, 1, 180, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [108, 1, 180, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [27, 1, 180, -100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+      ]
+    },
+    "whileMode": {
+      "minLv": 90,
+      "effects": [[21, 2, 1, -30, 100, 20, 0, 0, 0, 0, 0, 0, 0, 0, 1]],
+      "orbit": { "every": 8, "pct": 10000, "brk": 0, "tier": 3 }
+    }
+  }
+}
