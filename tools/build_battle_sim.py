@@ -10,9 +10,10 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "e": {image_id: [name, type, hp, atk, def, ct_s, skill]}   equips by picture id (the site's equip ID)
   "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
        boss = [unit_id, name, element, lv, hp, atk, def, break, attack delay s, skill %, skill chance %,
-               arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9], size, race]
+               arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9], size, race, [[hp %, skip], ...]]
        ailment order: faint, poison, paralysis, seal, blind, disease, curse, freeze, burn
        size: enemy_master size, 1 unit-sized, 3 big boss (dragons, birds, fortresses)
+       hp markers: the diamonds on the HP bar, from the enemy Lua (addNumHpMarker); skip 1 = cyan marker
        race: unit_master race, 1 Human, 2 Beast, 3 Spirit, 4 Giant, 5 Machine, 6 Dragon, 7 God, 8 Demon (0 none)
 }
 rarity: 2 Ascension, 1 Awoken, 0 lower. element: 1 fire, 2 water, 3 earth, 4 light, 5 dark.
@@ -44,6 +45,9 @@ import os
 import re
 import shutil
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lua_hp_markers import markers as lua_markers  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
@@ -205,6 +209,18 @@ for e in load('enemy_master.json'):
 RES = ['stun', 'poison', 'paralyze', 'silent', 'darkness', 'sickness', 'injury', 'freeze', 'burn']
 
 
+LUA_DIRS = [os.path.join(GS, 'dlc', r, 'additional_lua', 'enemy') for r in (REGION, 'Japan')]
+
+
+def hp_markers(eid):
+    for d in LUA_DIRS:
+        f = os.path.join(d, f'{eid}.lua')
+        if os.path.exists(f):
+            with open(f, encoding='utf-8', errors='replace') as h:
+                return lua_markers(h.read()) or []
+    return []
+
+
 def boss_row(b):
     uid, hp = num(b.get('u')), num(b.get('hp'))
     e = enemies.get((uid, hp)) or {}
@@ -214,7 +230,7 @@ def boss_row(b):
             num(b.get('brk')), round(num(u.get('attack_delay'), 300) / 100, 2), num(e.get('skill1_damage_value'), 300),
             num(e.get('skill_invocation_weight'), 20), num(e.get('full_skill_damage_value'), 300),
             num(e.get('need_sp'), 100), num(e.get('drop_sp'), 4), num(u.get('attribute'), 1), res,
-            num(e.get('size'), 1), num(u.get('race'))]
+            num(e.get('size'), 1), num(u.get('race')), hp_markers(num(e.get('id'))) if e else []]
 
 
 quests = []
