@@ -1,0 +1,482 @@
+local Bootstrap, Color, Random, Utility = summoner.import("Bootstrap", "Color", "Random", "Utility")
+local class = summoner.Bootstrap.createEnemyClass({label="戸愚呂", version=1.3, id=2021349});
+class:inheritFromUnit("unitBossBase");
+
+--使用する通常攻撃とその確率
+class.ATTACK_WEIGHTS = {
+    ATTACK1 = 40,
+    ATTACK2 = 60
+}
+
+--使用する奥義とその確率
+class.SKILL_WEIGHTS = {
+    SKILL2 = 100
+}
+
+class.ACTIVE_SKILLS = {
+    ATTACK1 = 1,
+    SKILL1 = 2,
+    SKILL2 = 3,
+    SKILL3 = 4
+}
+
+--怒り時にかかるバフ内容
+class.HP60_BUFF_ARGS = {
+    {
+        ID = 40075,
+        EFID = 17,         --ダメージアップ
+        VALUE = 30,        --効果量
+        DURATION = 9999999,
+        ICON = 26
+    },
+    {
+        ID = 40076,
+        EFID = 13,         --攻撃アップ
+        VALUE = 30,        --効果量
+        DURATION = 9999999,
+        ICON = 3
+    }
+}
+
+class.HP30_BUFF_ARGS = {
+    {
+        ID = 40077,
+        EFID = 32,         --命中アップ
+        VALUE = 50,        --効果量
+        DURATION = 9999999,
+        ICON = 14
+    },
+    {
+        ID = 40078,
+        EFID = 15,          --防御力アップ
+        VALUE = 100,        --効果量
+        DURATION = 9999999,
+        ICON = 5
+    }
+}
+
+class.BREAK_BUFF_ARGS = {
+    {
+        ID = 40079,
+        EFID = 27,          --ブレイク耐性
+        VALUE = -99,        --効果量
+        DURATION = 9999999,
+        ICON = 0
+    }
+}
+
+
+class.BUFF_VALUE = 30;
+class.DAMAGE_OFFSET = 0.05;
+
+
+function class:start(event)
+    self.fromHost = false;
+    self.gameUnit = nil;
+    self.spValue = 20;
+    self.attackCheckFlg = false;
+    self.skillCheckFlg = false;
+    self.skillCheckFlg2 = false;
+    self.isRage = false;
+    event.unit:setSkillInvocationWeight(0);
+    self.canDead = false;
+    self.deadFlag = false;
+    self.deadTimer = 12;
+    self.forceSkillIndex = 0;
+    self.breaked = false;
+    self.HP_TRIGGERS = {
+        [0] = {
+            HP = 60,
+            trigger = "HP60",
+            isActive = true
+        },
+        [1] = {
+            HP = 30,
+            trigger = "HP30",
+            isActive = true
+        },
+        [2] = {
+            HP = 0.01,
+            trigger = "HP0",
+            isActive = true
+        }
+    }
+
+    self.START_MESSAGES = {
+        [0] = {
+            MESSAGE = self.TEXT.START_MESSAGE1 or "楽しみだねェ…",
+            COLOR = Color.magenta,
+            DURATION = 6
+        },
+        [1] = {
+            MESSAGE = self.TEXT.START_MESSAGE2 or "鉄壁状態：被ダメージ大幅軽減",
+            COLOR = Color.yellow,
+            DURATION = 10
+        },
+        [2] = {
+            MESSAGE = self.TEXT.START_MESSAGE3 or "ブレイクで鉄壁状態を解除",
+            COLOR = Color.yellow,
+            DURATION = 10
+        }
+    }
+
+    --怒り時のメッセージ
+    self.HP60_MESSAGES = {
+        [0] = {
+            MESSAGE = self.TEXT.HP60_MESSAGE1 or "技を越えた純粋な強さ　それがパワーだ！",
+            COLOR = Color.magenta,
+            DURATION = 6
+        },
+        [1] = {
+            MESSAGE = self.TEXT.HP60_MESSAGE2 or "攻撃力・与ダメージアップ",
+            COLOR = Color.yellow,
+            DURATION = 10
+        }
+    }
+
+    self.HP30_MESSAGES = {
+        [0] = {
+            MESSAGE = self.TEXT.HP30_MESSAGE1 or "その程度じゃ俺には勝てん！",
+            COLOR = Color.magenta,
+            DURATION = 6
+        },
+        [1] = {
+            MESSAGE = self.TEXT.HP30_MESSAGE2 or "命中率・防御力アップ",
+            COLOR = Color.yellow,
+            DURATION = 10
+        }
+    }
+
+    self.BREAK_MESSAGES = {
+        [0] = {
+            MESSAGE = self.TEXT.BREAK_MESSAGE1 or "ほう…",
+            COLOR = Color.magenta,
+            DURATION = 6
+        },
+        [1] = {
+            MESSAGE = self.TEXT.BREAK_MESSAGE2 or "鉄壁状態 解除",
+            COLOR = Color.yellow,
+            DURATION = 10
+        }
+    }
+
+    self:showMessage(self.START_MESSAGES);
+    self.gameUnit = event.unit;
+    event.unit:setSPGainValue(0);
+    return 1;
+end
+
+function class:startWave(event)
+    -- summoner.Utility.messageByEnemy(self.TEXT.mess1,5,summoner.Color.magenta);
+    return 1;
+end
+
+function class:update(event)
+    event.unit:setReduceHitStop(20, 0.99);
+    self:HPTriggersCheck(event.unit);
+    self:deadCountDown(event.unit,event.deltaTime);
+    return 1;
+end
+
+function class:attackBranch(unit)
+    local attackStr = summoner.Random.sampleWeighted(self.ATTACK_WEIGHTS);
+    local attackIndex = string.gsub(attackStr,"ATTACK","");
+    if tonumber(attackIndex) == 1 then
+        unit:takeAttack(tonumber(attackIndex));
+    else
+        self.skillCheckFlg = true;
+        unit:takeSkill(1);
+        megast.Battle:getInstance():sendEventToLua(self.scriptID,2,tonumber(1));
+        return 0;
+    end
+    megast.Battle:getInstance():sendEventToLua(self.scriptID,1,tonumber(attackIndex));
+    return 0;
+end
+
+function class:takeAttack(event)
+
+    if not self.attackCheckFlg and megast.Battle:getInstance():isHost() then
+        self.attackCheckFlg = true;
+        return self:attackBranch(event.unit);
+    end
+    self.attackCheckFlg = false;
+    if not megast.Battle:getInstance():isHost() and not self.fromHost then
+        event.unit:takeIdle();
+        return 0;
+    end
+    self.fromHost = false;
+    self:attackActiveSkillSetter(event.unit, event.index);
+    self:addSP(event.unit);
+    return 1
+end
+
+function class:skillBranch(unit)
+    local skillStr = summoner.Random.sampleWeighted(self.SKILL_WEIGHTS);
+    local skillIndex = string.gsub(skillStr,"SKILL","");
+
+    if self.forceSkillIndex ~= 0 then
+        skillIndex = self.forceSkillIndex;
+        self.forceSkillIndex = 0;
+    end
+
+    unit:takeSkill(tonumber(skillIndex));
+    megast.Battle:getInstance():sendEventToLua(self.scriptID,2,tonumber(skillIndex));
+    return 0;
+end
+
+
+function class:takeSkill(event)
+    if not self.skillCheckFlg and megast.Battle:getInstance():isHost() then
+        self.skillCheckFlg = true;
+        return self:skillBranch(event.unit);
+    end
+    if not megast.Battle:getInstance():isHost() and not self.fromHost then
+        event.unit:takeIdle();
+        return 0;
+    end
+    if event.index == 3 and not self.skillCheckFlg2 then
+        self.skillCheckFlg2 = true;
+        event.unit:takeSkillWithCutin(3,1);
+        return 0;
+    end
+    self.skillCheckFlg = false;
+    self.skillCheckFlg2 = false;
+    self.fromHost = false;
+    self:skillActiveSkillSetter(event.unit,event.index);
+    return 1
+end
+
+function class:deadCountDown(unit,deltaTime)
+    if self.deadFlag then
+        self.deadTimer = self.deadTimer - deltaTime;
+        if self.deadTimer <= 0 or (self.deadTimer < 6 and unit:getBurstState() ~= kBurstState_active) then
+            self.canDead = true;
+            unit:setInvincibleTime(0);
+            megast.Battle:getInstance():sendEventToLua(self.scriptID,6,0);
+        end
+    end
+end
+
+function class:takeDamageValue(event)
+    if not self.breaked then
+        return event.value * self.DAMAGE_OFFSET;
+    end
+    return event.value;
+end
+
+function class:takeBreake(event)
+    if not self.breaked then
+        self.breaked = true;
+        self:addBuffs(event.unit,self.BREAK_BUFF_ARGS);
+        self:showMessage(self.BREAK_MESSAGES);
+    end
+    return 1;
+end
+
+function class:dead(event)
+    if not self.canDead then
+        event.unit:setHP(1);
+        return 0;
+    end
+    return 1;
+end
+
+
+function class:addSP(unit)
+  
+    unit:addSP(self.spValue);
+    
+    return 1;
+end
+
+--===================================================================================================================
+--HPトリガー
+function class:HPTriggersCheck(unit)
+    if not self:getIsHost() then
+        return;
+    end
+
+    local hpRate = summoner.Utility.getUnitHealthRate(unit) * 100;
+
+    for i,v in pairs(self.HP_TRIGGERS) do
+        
+        if v.HP >= hpRate and v.isActive then
+
+            if self:excuteTrigger(unit,v.trigger) then
+
+                v.isActive = false;
+            end
+        end
+    end
+
+end
+
+function class:excuteTrigger(unit,trigger)
+    if trigger == "HP60" then
+        self:HP60(unit);
+        megast.Battle:getInstance():sendEventToLua(self.scriptID,3,0);
+        return true;
+    end
+    if trigger == "HP30" then
+        self:HP30(unit);
+        megast.Battle:getInstance():sendEventToLua(self.scriptID,4,0);
+        return true;
+    end
+    if trigger == "HP0" then
+        self:HP0(unit);
+        megast.Battle:getInstance():sendEventToLua(self.scriptID,5,0);
+        return true;
+    end
+    return false;
+end
+
+--===================================================================================================================
+--怒り関係
+
+function class:HP60(unit)
+    self:addBuffs(unit,self.HP60_BUFF_ARGS);
+    self:showMessage(self.HP60_MESSAGES);
+end
+
+function class:HP30(unit)
+    self:addBuffs(unit,self.HP30_BUFF_ARGS);
+    self:showMessage(self.HP30_MESSAGES);
+end
+
+
+function class:HP0(unit)
+    self.forceSkillIndex = 3;
+    unit:addSP(100);
+    self.deadFlag = true;
+    unit:setInvincibleTime(10);
+end
+
+
+function class:addBuffs(unit,buffs)
+    for k,v in pairs(buffs) do
+        self:addBuff(unit,v);
+    end
+end
+
+--===================================================================================================================
+-- メッセージ表示系
+--[[
+showMessage(<table> messageBoxList,<number> index)
+   messageBoxList : 
+      必須。以下のようなメッセージ表示用のテーブルを用意して投げる
+      TEKITOUNA_MESSAGES = [
+         [0] = [
+            <String> MESSAGE = 本文,
+            <Color> COLOR = 色,
+            <number> DURATION = 表示期間(秒)]
+
+         ],
+         [1] = ...
+      ]
+   index : 
+      任意。messageBoxList[index]の内容を表示する。
+      この引数がない場合、messageBoxListの全ての内容を表示する。
+]]
+function class:showMessage(messageBoxList,index)
+   if index == nil then 
+      self:showMessageRange(messageBoxList,0,table.maxn(messageBoxList))
+   return
+   end
+   self:execShowMessage(messageBoxList[index])
+end
+
+--[[
+showMessageRange(<table> messageBoxList,<number> start,<number> last)
+   messageBoxList : 
+      必須。
+   start,last : 
+      必須。messageBoxList[start]からmessageBoxList[last]の内容を表示する。
+      この引数がない場合、何も表示しない。
+]]
+function class:showMessageRange(messageBoxList,start,last)
+   for i = start,last do
+      self:execShowMessage(messageBoxList[i])
+   end
+end
+
+--[[
+showMessageRange(<table> messageBox)
+   敵側のメッセージ欄にmessageBoxの内容を表示する
+]]
+function class:execShowMessage(messageBox)
+   summoner.Utility.messageByEnemy(messageBox.MESSAGE,messageBox.DURATION,messageBox.COLOR);
+end
+
+--===================================================================================================================
+-- バフ、デバフ追加系
+--[[
+addBuffs(<event.unit> unit,<table> buffs)
+   unit :
+      必須。バフを与える対象
+   buffs :
+      必須。以下のようなバフ用の配列を用意して投げる
+      HP60_BUFFS = {
+         {
+            <number> ID = 必須。一意のID
+            <number> EFID = 必須。バフの効果ID。IDの一覧はDBテーブル定義.スキル効果マスタ参照
+            <number> VALUE = 必須。バフ効果量
+            <number> DURATION = 必須。持続時間
+            <number> ICON = 必須。アイコンID。IDの一覧は企画*多部署連携用シート.バフ・デバフアイコン参照
+            <number> EFFECT = 任意。エフェクトID。IDの一覧は企画*多部署連携用シート.スキル効果アニメーション参照
+            <number> SCRIPT = 任意。skill_effect内の関数用ID。IDの一覧はDBテーブル定義.スキル効果マスタ参照
+            <number> SCRIPTVALUE1 = 任意。skill_effectの第一引数の値
+         }
+      }
+]]
+function class:addBuffs(unit,buffs)
+    for k,v in pairs(buffs) do
+        self:addBuff(unit,v);
+    end
+end
+
+function class:addBuff(unit,args)
+    local buff  = nil;
+    if args.EFFECT ~= nil then
+        buff = unit:getTeamUnitCondition():addCondition(args.ID,args.EFID,args.VALUE,args.DURATION,args.ICON,args.EFFECT);
+    else
+        buff = unit:getTeamUnitCondition():addCondition(args.ID,args.EFID,args.VALUE,args.DURATION,args.ICON);
+    end
+    if args.SCRIPT ~= nil then
+        buff:setScriptID(args.SCRIPT);
+    end
+    if args.SCRIPTVALUE1 ~= nil then
+        buff:setValue1(args.SCRIPTVALUE1);
+    end
+
+end
+
+--=====================================================================================================================================
+function class:receive3(args)
+    self:HP60(self.gameUnit);
+    return 1;
+end
+
+function class:receive4(args)
+    self:HP30(self.gameUnit);
+    return 1;
+end
+
+function class:receive5(args)
+    self:HP0(self.gameUnit);
+    return 1;
+end
+
+function class:receive6(args)
+    self.canDead = true;
+    self.gameUnit:setInvincibleTime(0);
+    return 1;
+end
+
+function class:getIsHost()
+    return megast.Battle:getInstance():isHost();
+end
+
+
+class:publish();
+
+return class;

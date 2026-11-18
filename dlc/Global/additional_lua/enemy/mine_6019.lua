@@ -1,0 +1,874 @@
+local Bootstrap, Color, Random, Utility, Vector2 = summoner.import("Bootstrap", "Color", "Random", "Utility", "Vector2")
+local class = summoner.Bootstrap.createEnemyClass({label="鉱山ラグシェルムファントム絶", version=1.3, id="mine_6019"});
+class:inheritFromUnit("unitBossBase");
+
+--使用する通常攻撃とその確率
+class.ATTACK_SET_LIST = {
+    DEFAULT = {
+        { ATTACK1 = 50,ATTACK2 = 50,ATTACK4 = 50,ATTACK5 = 50},
+        { ATTACK3 = 50},
+        { ATTACK1 = 50,ATTACK2 = 50,ATTACK4 = 50,ATTACK5 = 50},
+        { ATTACK1 = 50,ATTACK2 = 50,ATTACK4 = 50,ATTACK5 = 50}
+    }
+}
+
+--使用する奥義とその確率
+class.SKILL_SET_LIST  = {
+    DEFAULT = {
+        { SKILL1 = 50 }
+    }
+}
+
+class.ACTIVE_SKILLS = {
+    ATTACK1 = 1,
+    ATTACK2 = 2,
+    ATTACK3 = 3,
+    ATTACK4 = 4,
+    ATTACK5 = 5,
+    SKILL1 = 6,
+    SKILL2 = 7,
+    SKILL3 = 6
+}
+
+class.cutInSkill = {
+    [3] = 1
+}
+
+--------[[バフ]]--------
+function class:setBuffBoxList()
+    self.BUFF_LIST = {
+        ID = 0000,
+        BUFF_ID = 0,
+        VALUE = 0,
+        DURATION = 99999,
+        ICON = 0
+    }
+    self.BUFF_LIST2 = {
+        ID = 0,
+        BUFF_ID = 23,---クリティカル耐性
+        VALUE = -100,
+        DURATION = 99999,
+        ICON = 188
+    }
+    ---鉱山ギミック
+    self.TIMEUP_BUFF_BOX_LIST = {
+        [1] = {
+            ID = 5000033,
+            BUFF_ID = 17,      --ダメージ
+            VALUE = 500,       --効果量
+            DURATION = 9999999,
+            ICON = 26
+        },
+        [2] = {
+            ID = 5000036,
+            BUFF_ID = 13,      --攻撃力
+            VALUE = 500,       --効果量
+            DURATION = 9999999,
+            ICON = 3
+        }
+    }
+end
+
+--------[[メッセージ]]--------
+-- MESSAGE以外だいたい同じなので自動で設定する
+function class:setMessageInfo(messageBox)
+    local message = {
+        MESSAGE = messageBox.MESSAGE or "メッセージ",
+        COLOR = messageBox.COLOR or Color.yellow,
+        DURATION = messageBox.DURATION or 7,
+        isPlayer = messageBox.isPlayer or false
+    }
+    return message
+end
+
+function class:setMessageBoxList()
+    self.START_MESSAGE_LIST = {
+        [1] = self:setMessageInfo({
+            MESSAGE = self.TEXT.START_MESSAGE1 or "反射・HP吸収・奥義ゲージ低下耐性"
+        }),
+        [2] = self:setMessageInfo({
+            MESSAGE = self.TEXT.START_MESSAGE2 or "ダメージ無効化無効・光属性キラー"
+        }),
+        [3] = self:setMessageInfo({
+            MESSAGE = self.TEXT.START_MESSAGE3 or "毒状態のとき被ダメージアップ"
+        }),
+        [4] = self:setMessageInfo({
+            MESSAGE = self.TEXT.START_MESSAGE4 or "ブレイクするほど被ダメージアップ"
+        })
+    }
+
+    self.CHARGE_MESSAGE_LIST = {
+        [1] = self:setMessageInfo({
+            MESSAGE = self.TEXT.CHARGE_MESSAGE1 or "トゥルーナイトメア：HPの高い者をターゲット",
+            COLOR = Color.red,
+            DURATION = 3
+        }),
+        [2] = self:setMessageInfo({
+            MESSAGE = self.TEXT.CHARGE_MESSAGE2 or "トゥルーナイトメア：物理ダメージで解除",
+            COLOR = Color.red,
+            DURATION = 3
+        })
+    }
+
+    self.CHARGE_CANCEL_MESSAGE_LIST = {
+        [1] = self:setMessageInfo({
+            MESSAGE = self.TEXT.CHARGE_CANCEL_MESSAGE1 or "物理ダメージでトゥルーナイトメア解除成功！",
+            COLOR = Color.cyan
+        })
+    }
+
+    self.BREAK_MESSAGE_LIST = {
+        [1] = self:setMessageInfo({
+            MESSAGE = self.TEXT.BREAK_MESSAGE1 or "ブレイク成功！被ダメージアップ！"
+        })
+    }
+
+    self.BREAK_END_MESSAGE_LIST = {
+        [1] = self:setMessageInfo({
+            MESSAGE = self.TEXT.BREAK_END_MESSAGE1 or "ブレイク耐性アップ",
+            DURATION = 3
+        })
+    }
+
+    self.SKILL3_MESSAGE_LIST = {
+        [1] = self:setMessageInfo({
+            MESSAGE = self.TEXT.SKILL3_MESSAGE1 or "最大HP%d％の割合ダメージ"
+        })
+    }
+
+    self.HP50_MESSAGE_LIST = {
+        self:setMessageInfo({MESSAGE = self.TEXT.HP50_MESSAGE1 or "クリティカル耐性アップ", COLOR = Color.yellow})
+    }
+
+    self.TIMEUP_BUFF_MESSAGE_LIST = {
+        self:setMessageInfo({MESSAGE = self.TEXT.TIMEUP_BUFF_MESSAGE1 or "攻撃力アップ",COLOR=Color.red}),
+        self:setMessageInfo({MESSAGE = self.TEXT.TIMEUP_BUFF_MESSAGE2 or "ダメージアップ",COLOR=Color.red})
+    }
+end
+
+--------[[特殊行動]]--------
+function class:setTriggerList()
+    self.TIME_UP_ID = 2
+    self.TRIGGERS = {
+        [1] = {
+            tag = "HP_FLG",
+            action = function (status) self:hp50(status) end,
+            HP = 50,
+            used = false
+        },
+        [self.TIME_UP_ID] = {
+            tag = "TIME_UP",
+            action = function (status) self:timeUp(status) end,
+            used = false
+        }
+    }
+    self.HP_TRIGGERS = {}
+    self.hpMarkers = {}
+    for index,trigger in pairs(self.TRIGGERS) do
+        if trigger.tag == "HP_FLG" then
+            self.HP_TRIGGERS[index] = trigger
+            self.hpMarkers[self.TRIGGERS[index].HP] = self.gameUnit:addNumHpMarker(self.TRIGGERS[index].HP * 0.01)
+        end
+    end
+end
+
+function class:timeUp(status)
+    if status == "use3" then
+        self:showMessage(self.TIMEUP_BUFF_MESSAGE_LIST)
+        self:execAddBuff(self.gameUnit,self.TIMEUP_BUFF_BOX_LIST[1])
+        self:execAddBuff(self.gameUnit,self.TIMEUP_BUFF_BOX_LIST[2])
+    end
+end
+
+function class:hp50(status)
+    if status == "use3" then
+        self.hpSkill = 3
+        self.gameUnit:setInvincibleTime(10)
+        self.saveBP = self.gameUnit:getBurstPoint()
+        self.gameUnit:addSP(100)
+        self:execAddBuff(self.gameUnit,self.BUFF_LIST2)
+        self:showMessage(self.HP50_MESSAGE_LIST)
+    end
+end
+
+---------------------------------------------------------------------------------
+-- start
+---------------------------------------------------------------------------------
+function class:start(event)
+    self.fromHost = false;
+    self.gameUnit = event.unit;
+    --------------------------------
+    self.spValue = 20;---addSPの量
+    event.unit:setAttackDelay(7);---アタックディレイ
+    --event.unit:addSP(40)---戦闘開始時の奥義ゲージ量
+    --------------------------------
+    self.attackCheckFlg = false;
+    self.skillCheckFlg = false;
+    self.afterSkillFLG = false;
+
+    event.unit:setSPGainValue(0);
+    event.unit:setSkillInvocationWeight(0);
+
+    self.isRage = false
+    self.isFury = false
+
+    self:setMessageBoxList()
+    self:setTriggerList()
+    self:setBuffBoxList()
+
+    self:initAttackWeight({DEFAULT = 100})
+    self:initSkillWeight({DEFAULT = 100})
+    self:showMessage(self.START_MESSAGE_LIST)
+
+    self.stateName = "NORMAL"
+
+    self.breakSkip = true
+
+    self.hpSkill = 0
+
+    self.attack3Timer = 99999
+
+    self.breakFLG = false
+    self.chargeFLG = false
+    self.breakCount = 0
+    self.damageTable = {
+        [0] = 0.01,
+        [1] = 0.07,
+        [2] = 0.2,
+        [3] = 0.5,
+        [4] = 0.8
+    }
+    self.breakDamageTable = {
+        [0] = 1.0,
+        [1] = 0.9,
+        [2] = 0.8,
+        [3] = 0.7,
+        [4] = 0.6
+    }
+
+    ---サブHP表示用
+    self.subBar =  BattleControl:get():createSubBar();
+    self.subBar:setWidth(200); ---バーの全体の長さを指定
+    self.subBar:setHeight(13);---バーの幅を指定
+    self.subBar:setPercent(0); ---バーの残量を0%に指定
+    self.subBar:setVisible(false);
+    self.SUB_HP = 0---サブバーのHP
+    self.damage = 0---サブバー表示時のダメージ
+
+    ---チャージ用
+    self.chargeTime = 20
+    self.count10 = self.chargeTime---チャージ時間
+    self.count2 = 0---4秒ごとのカウント
+    self.isCharging = false---チャージフラグ
+    self.chargeFLG = false
+
+    ---ホールド用
+    self.isGlab = false
+    self.glabTarget = nil
+    self.glabEffect = {
+        orbitSystem = nil,
+        position = nil
+    }
+    self.SPEED = 300
+    self.gameUnit:addNumBreakBadge(5)
+
+    self.saveBP = 0
+    return 1
+end
+
+---------------------------------------------------------------------------------
+-- update
+---------------------------------------------------------------------------------
+function class:update(event)
+    self.attack3Timer = self.attack3Timer - event.deltaTime
+    if self.attack3Timer < 0 then
+        self.attack3Timer = 99999
+        local floor = megast.Battle:getInstance():getCurrentMineFloor();
+        local myTeam = megast.Battle:getInstance():getTeam(true);
+        ---HITに関係なく最大HPの[階層×0.3+25]%のダメージ
+        local damagePer = (floor * 0.003) + 0.25
+        for i = 0,6 do
+            local myTeamUnit = myTeam:getTeamUnit(i)
+            if myTeamUnit ~= nil then
+                if damagePer > 0.99 then damagePer = 0.99 end
+                local hp = myTeamUnit:getHP() - (myTeamUnit:getCalcHPMAX() * damagePer)
+                if hp <= 0 then hp = 0 end
+                myTeamUnit:setHP(hp)
+            end
+        end
+        self:showFormatMessages(self.SKILL3_MESSAGE_LIST,math.floor(damagePer * 100))
+    end
+    if self.breakFLG and event.unit.m_breaktime == 0 then
+        if self.breakCount <= 5 then
+            self:showMessage(self.BREAK_END_MESSAGE_LIST)
+        end
+        self.breakFLG = false
+        self:chargeStart()
+    end
+    if self.isGlab then
+        self:glabControll(event.unit,event.deltaTime);
+    end
+    self:subBarControll(event.unit,self.damage);---サブバー表示
+    self:charge(event.deltaTime)---チャージ
+    self:HPTriggersCheck(event.unit)
+    event.unit:setReduceHitStop(2,1)---ヒットストップ無効or時止め無効
+    self:setTimeUp()
+    return 1
+end
+
+---180秒経ったらタイムアップ
+function class:setTimeUp()
+    if BattleControl:get():getTime() > 300 and not self.TRIGGERS[self.TIME_UP_ID].used then
+        self:execTrigger(self.TIME_UP_ID)
+    end
+end
+
+function class:chargeStart()
+    self.gameUnit:setUnitState(3)
+    self.SUB_HP = self.gameUnit:getCalcHPMAX() * 0.1
+    self.damage = 0
+    self.isCharging = true
+    self.afterSkillFLG = true
+    self.count10 = self.chargeTime
+    self.gameUnit:setBurstPoint(0)
+    self.gameUnit:setAnimationTimeScale(0.9)
+    self.gameUnit:takeAnimation(0,"attack6",true);
+    self.gameUnit:takeAnimationEffect(0,"1-attack6",true);
+    self:tryGlab(self.gameUnit)
+    self:showMessage(self.CHARGE_MESSAGE_LIST)
+end
+
+---チャージ中のカウント
+function class:charge(deltaTime)
+    if self.isCharging then
+        self.count10 = self.count10 - deltaTime
+        ---数秒ごとに奥義玉1つアップ
+        if self.gameUnit:getBurstPoint() < 80 then
+            self.count2 = self.count2 + deltaTime
+            local chargeTime5 = self.chargeTime / 5
+            if self.count2 > chargeTime5 then
+                self.count2 = 0
+                self.gameUnit:addSP(20)
+            end
+        end
+        ---サブHPが時間内に0にならなかった場合の処理
+        if self.count10 < 0 then
+            ---奥義発動
+            self.gameUnit:addSP(100)
+            self.gameUnit:setInvincibleTime(5)
+            self.hpSkill = 2
+            self.isCharging = false---チャージFLGオフ
+            ---サブHPリセット
+            self.SUB_HP = 0
+            self.damage = 0
+            self.gameUnit:setAnimationTimeScale(1)
+        end
+    end
+end
+
+---サブHP表示
+function class:subBarControll(unit,damage)
+    ---位置を指定
+    self.subBar:setPositionX(unit:getPositionX());
+    self.subBar:setPositionY(unit:getPositionY());
+    self.subBar:setVisible(true);
+    ---ゲージ量を指定
+    self.subBar:setPercent(100 * (self.SUB_HP - damage)/self.SUB_HP);
+    ---ゲージ0になった場合非表示
+    if self.SUB_HP - damage <= 0 then
+        self.subBar:setVisible(false);
+        ---サブHPが0になった場合の処理
+        if self.isCharging then
+            self:glabEnd(unit)
+            self.gameUnit:takeAttack(1)
+            self.gameUnit:setBurstPoint(0)
+            self.isCharging = false---チャージFLGオフ
+            self.gameUnit:setAnimationTimeScale(1)
+            self.gameUnit:getTeamUnitCondition():addCondition(0,89,1,5,79);
+            self:showMessage(self.CHARGE_CANCEL_MESSAGE_LIST)
+        end
+    end
+end
+
+function class:tryGlab(unit)
+    local index = self:hpMost();
+    self:executeGlab(unit,index)
+end
+
+
+--HP実数値が最も低いユニットを対象に取る（常にpositive）
+function class:hpMost()
+    local targetHP = 0;
+    local targetIndex = 0;
+    for i=0,3 do
+        local targetUnit = megast.Battle:getInstance():getTeam(true):getTeamUnit(i);
+        if targetUnit ~= nil then
+            local hp = targetUnit:getHP();
+
+            if hp >= targetHP then
+                targetIndex = targetUnit:getIndex();
+                targetHP = hp;
+            end
+
+        end
+    end
+    return targetIndex;
+end
+
+function class:executeGlab(unit,index)
+    self.glabTarget = megast.Battle:getInstance():getTeam(true):getTeamUnit(index)
+    if self.glabTarget == nil then
+        return
+    end
+
+    -- unit:getTeamUnitCondition():addCondition(-11,113,500,2000,0);
+    self.isGlab = true;
+    self.glabEffect.orbitSystem = unit:addOrbitSystem("lock-on");
+    self.glabEffect.orbitSystem:takeAnimation(0,"lock-on",true);
+    self.glabEffect.position = Vector2:new(self.glabTarget:getAnimationPositionX(),self.glabTarget:getAnimationPositionY())
+    self.glabEffect.orbitSystem:setPosition(self.glabEffect.position.x,self.glabEffect.position.y);
+    self.glabTarget:getTeamUnitCondition():addCondition(-10,89,1,35,0);
+end
+
+function class:glabEnd(unit)
+    if not self.isGlab then
+        return
+    end
+
+    if self.glabTarget ~= nil then
+        self:removeCondition(self.glabTarget,-10)
+        self.glabTarget = nil
+    end
+    self.isGlab = false
+    if self.glabEffect ~= nil then
+        self.glabEffect.orbitSystem:takeAnimation(0,"none",false)
+        self.glabEffect.orbitSystem = nil
+    end
+end
+
+function class:glabControll(unit,deltaTime)
+    if self.glabTarget ~= nil then
+        local x = 150 + unit:getPositionX();
+        local y = 464 + unit:getPositionY();
+        local distance = Vector2.subtracts(Vector2:new(x,y),self.glabEffect.position)
+
+        if self.SPEED * deltaTime >= math.abs(distance.magnitude) then
+            self.glabEffect.position = self.glabEffect.position + distance
+        else
+            self.glabEffect.position = self.glabEffect.position + (distance:normalize() * self.SPEED * deltaTime)
+        end
+
+
+        self.glabEffect.orbitSystem:setPosition(self.glabEffect.position.x,self.glabEffect.position.y);
+        self.glabTarget:setPosition(self.glabEffect.position.x - self.glabTarget:getSkeleton():getBoneWorldPositionX("MAIN"),self.glabTarget:getPositionY());
+        self.glabTarget:getSkeleton():setPosition(0,self.glabEffect.position.y - self.glabTarget:getPositionY() - self.glabTarget:getSkeleton():getBoneWorldPositionY("MAIN"));
+    end
+end
+
+function class:removeCondition(unit,buffID)
+    local buff = unit:getTeamUnitCondition():findConditionWithID(buffID);
+    if buff ~= nil then
+        unit:getTeamUnitCondition():removeCondition(buff);
+    end
+end
+
+---------------------------------------------------------------------------------
+-- run
+---------------------------------------------------------------------------------
+function class:run (event)
+    if not self.isCharging then
+        if event.spineEvent == "addSP" then
+            return self:addSP(event.unit)
+        end
+    end
+    if event.spineEvent == "glabEnd" then
+        self:glabEnd(event.unit)
+    end
+    return 1;
+end
+
+---------------------------------------------------------------------------------
+-- takeAttack
+---------------------------------------------------------------------------------
+function class:takeAttack(event)
+    if not self.attackCheckFlg and megast.Battle:getInstance():isHost() then
+        self.attackCheckFlg = true;
+        return self:attackReroll(event.unit);
+    end
+    self.attackCheckFlg = false;
+    if not megast.Battle:getInstance():isHost() and not self.fromHost then
+        event.unit:takeIdle();
+        return 0;
+    end
+
+    if event.index == 3 then
+        self.attack3Timer = 0.01
+    end
+
+    self.fromHost = false;
+    if self.afterSkillFLG then
+        event.unit:addSP(self.saveBP)
+        self.saveBP = 0
+        self:refresh(self.gameUnit) ---停止系状態異常除去(状態異常のまま動いてしまう場合があり、その対策)
+        self.gameUnit:setInvincibleTime(0)
+        self.afterSkillFLG = false
+    end
+    self:attackActiveSkillSetter(event.unit,event.index);
+    return 1
+end
+
+function class:attackReroll(unit)
+    local attackIndex = self:getAttackIndex()
+    
+    if self.bugCheckFLG then summoner.Utility.messageByEnemy(self.STATE_ATTACK.actCount); end
+    self:movePatternState(self.ATTACK_SET_LIST,self.STATE_ATTACK)
+
+    unit:takeAttack(attackIndex);
+    megast.Battle:getInstance():sendEventToLua(self.scriptID,1,attackIndex);
+    return 0;
+end
+
+function class:addSP(unit)
+    unit:addSP(self.spValue);
+    return 1;
+end
+
+function class:takeIdle(event)
+    if self.afterSkillFLG then
+        self.gameUnit:setInvincibleTime(0)
+    end
+    return 1;
+end
+
+
+---------------------------------------------------------------------------------
+-- takeSkill
+---------------------------------------------------------------------------------
+function class:takeSkill(event)
+    if not self.skillCheckFlg and megast.Battle:getInstance():isHost() then
+        self.skillCheckFlg = true;
+        return self:skillReroll(event.unit);
+    end
+
+    if not megast.Battle:getInstance():isHost() and not self.fromHost then
+        event.unit:takeIdle();
+        return 0;
+    end
+
+    if event.index == 3 then
+        event.unit:setNextAnimationName("skill1")
+        event.unit:setNextAnimationEffectName("1-skill1")
+    end
+    
+    self.skillCheckFlg = false;
+    self.afterSkillFLG = true;
+    self.fromHost = false;
+    self:skillActiveSkillSetter(event.unit,event.index);
+    return 1
+end
+
+
+function class:skillReroll(unit)
+    local skillIndex = self:getSkillIndex()
+
+    if self.hpSkill ~= 0 then
+        skillIndex = self.hpSkill
+        self.hpSkill = 0
+    else
+        self:movePatternState(self.SKILL_SET_LIST,self.STATE_SKILL)
+    end
+
+    if self.cutInSkill[skillIndex] ~= nil then
+        unit:takeSkillWithCutin(tonumber(skillIndex),self.cutInSkill[skillIndex]);
+    else
+        unit:takeSkill(tonumber(skillIndex));
+    end
+    megast.Battle:getInstance():sendEventToLua(self.scriptID,2,tonumber(skillIndex));
+    return 0;
+end
+
+function class:takeSkillFromHost(unit,index)
+    self.fromHost = true;
+    if self.cutInSkill[index] ~= nil then
+        unit:takeSkillWithCutin(index,self.cutInSkill[index]);
+    else
+        unit:takeSkill(index);
+    end
+end
+
+----// takeDamageValue //-----------------------------------------------------------------------------
+-- スキップ不可
+---------------------------------------------------------------------------------
+function class:takeDamageValue(event)
+    local cond = event.unit:getTeamUnitCondition():findConditionWithType(90)
+    if cond ~= nil then
+        event.value = event.value * 1.0
+    else
+        event.value = event.value * 0.02
+    end
+    local attribute = event.enemy:getTeamUnitCondition():getDamageAffectInfo().skillAttribute;
+    if attribute == 1 then
+        self.damage = self.damage + event.value
+    end
+    if self.breakCount <= 4 then
+        event.value = event.value * self.damageTable[self.breakCount]
+    else
+        event.value = event.value * (0.4 + (self.breakCount*0.1))
+    end
+    event.value = self:adjustHpFlg(event.unit,event.value)
+    if self.isCharging then
+        event.value = 1
+    end
+    return event.value
+end
+
+
+function class:adjustHpFlg(unit,value)
+    local anotherHp = unit:getHP() - value
+    for _,trigger in pairs(self.HP_TRIGGERS) do
+        local stopBorder = self.gameUnit:getCalcHPMAX() * trigger.HP * 0.01
+        if not trigger.used and stopBorder >= anotherHp then
+            self:refresh(self.gameUnit) ---停止系状態異常除去(このタイミングでないとたまにバグる)
+        return self:calcDamageValue(unit,stopBorder,value)
+        end
+    end
+
+    return value
+end
+
+function class:calcDamageValue(unit,border,value)
+    self.breakSkip = true
+    return unit:getHP() - border + 1
+end
+
+----// takeBreakeDamageValue //-----------------------------------------------------------------------------
+-- 条件 : 被ダメージ時。
+-- 引数 : event.unit / 自ユニット  event.enemy / 攻撃者  event.value / 被ブレイクダメージ量
+---------------------------------------------------------------------------------
+function class:takeBreakeDamageValue(event)
+    if self.breakCount <= 4 then
+        event.value = event.value * self.breakDamageTable[self.breakCount]
+    else
+        event.value = event.value * 0.5
+    end
+    if self.breakSkip then
+        self.breakSkip = false
+        return 0
+    end
+    if self.isCharging then
+        event.value = 0
+    end
+    return event.value
+end
+
+----// takeBreake //-----------------------------------------------------------------------------
+-- 条件 : トリガー条件に到達する攻撃を受けた際、ブレイクしない(スキップ不可が必要)
+---------------------------------------------------------------------------------
+function class:takeBreake(event)
+    for i = 1,table.getn(self.HP_TRIGGERS) do
+        local stopBorder = self.gameUnit:getCalcHPMAX() * self.HP_TRIGGERS[i].HP * 0.01
+        if event.unit:getHP() <= stopBorder and event.unit:getHP() > stopBorder - 2 then
+            return 0
+        end
+    end
+    if event.unit.m_breaktime == 0 then
+        self.breakCount = self.breakCount + 1
+        self.gameUnit:removeNumBreakBadge()
+        self.breakFLG = true
+        self:showMessage(self.BREAK_MESSAGE_LIST)
+    end
+    return 1
+end
+
+---------------------------------------------------------------------------------
+-- dead
+---------------------------------------------------------------------------------
+function class:dead(event)
+    return 1
+end
+
+--===================================================================================================================
+-- メッセージ関係
+--===================================================================================================================
+function class:showMessage(messageBoxList,index)
+    if index == nil then
+        self:showMessageAll(messageBoxList)
+        return
+    end
+    self:execShowMessage(messageBoxList[index])
+end
+
+function class:showMessageAll(messageBoxList)
+    for _,messageBox in ipairs(messageBoxList) do
+        self:execShowMessage(messageBox)
+    end
+end
+
+function class:showMessageRange(messageBoxList,start,finish)
+    for i = start,finish do
+        self:execShowMessage(messageBoxList[i])
+    end
+end
+
+function class:execShowMessage(messageBox)
+    if messageBox.isPlayer then
+        summoner.Utility.messageByPlayer(messageBox.MESSAGE,messageBox.DURATION,messageBox.COLOR);
+    else
+        summoner.Utility.messageByEnemy(messageBox.MESSAGE,messageBox.DURATION,messageBox.COLOR);
+    end
+end
+
+function class:showFormatMessages(messages,count)
+    for k,v in pairs(messages) do
+        summoner.Utility.messageByEnemy(string.format(v.MESSAGE,count),v.DURATION,v.COLOR);
+    end
+end
+
+--===================================================================================================================
+--トリガー
+--===================================================================================================================
+function class:HPTriggersCheck(unit)
+    if not self:getIsHost() then
+        return;
+    end
+
+    local hpRate = summoner.Utility.getUnitHealthRate(unit) * 100;
+
+    for index,trigger in pairs(self.HP_TRIGGERS) do
+        if trigger.HP >= hpRate and not trigger.used then
+            self:execTrigger(index)
+        end
+    end
+end
+
+-- トリガー実行。ホストのみ使用可能
+function class:execTrigger(index,receiveNumber)
+    if not self:getIsHost() or index == nil or table.maxn(self.TRIGGERS) < index then
+        return
+    end
+
+    receiveNumber = receiveNumber ~= nil and receiveNumber or 3
+
+    local action = "use" .. receiveNumber
+
+    self.TRIGGERS[index].used = true
+    self.TRIGGERS[index].action(action)
+    if self.TRIGGERS[index].tag == "HP_FLG" then
+        self.gameUnit:removeHpMarker(self.hpMarkers[self.TRIGGERS[index].HP])
+    end
+
+    if receiveNumber ~= 0 then
+        megast.Battle:getInstance():sendEventToLua(self.scriptID,receiveNumber,index)
+    end
+end
+
+function class:getIsHost()
+    return megast.Battle:getInstance():isHost();
+end
+---------------------------------------------------------------------------------
+-- receive3(トリガー時ゲスト側)
+---------------------------------------------------------------------------------
+function class:receive3(args)
+    self.TRIGGERS[args.arg].used = true
+    self.TRIGGERS[args.arg].action("use3")
+    if self.TRIGGERS[args.arg].tag == "HP_FLG" then
+        self.gameUnit:removeHpMarker(self.hpMarkers[self.TRIGGERS[args.arg].HP])
+    end
+    return 1
+end
+
+
+-- バフ処理実行
+function class:execAddBuff(unit,buffBox)
+    local buff  = nil;
+    if buffBox.EFFECT ~= nil then
+        buff = unit:getTeamUnitCondition():addCondition(buffBox.ID,buffBox.BUFF_ID,buffBox.VALUE,buffBox.DURATION,buffBox.ICON,buffBox.EFFECT);
+    else
+        buff = unit:getTeamUnitCondition():addCondition(buffBox.ID,buffBox.BUFF_ID,buffBox.VALUE,buffBox.DURATION,buffBox.ICON);
+    end
+
+    if buffBox.SCRIPT ~= nil then
+        buff:setScriptID(buffBox.SCRIPT.SCRIPT_ID)
+        if buffBox.SCRIPT.VALUE1 ~= nil then buff:setValue1(buffBox.SCRIPT.VALUE1) end
+        if buffBox.SCRIPT.VALUE2 ~= nil then buff:setValue2(buffBox.SCRIPT.VALUE2) end
+        if buffBox.SCRIPT.VALUE3 ~= nil then buff:setValue3(buffBox.SCRIPT.VALUE3) end
+        if buffBox.SCRIPT.VALUE4 ~= nil then buff:setValue4(buffBox.SCRIPT.VALUE4) end
+        if buffBox.SCRIPT.VALUE5 ~= nil then buff:setValue5(buffBox.SCRIPT.VALUE5) end
+    end
+end
+
+
+
+function class:movePatternState(SET_LIST,stateBox)
+    stateBox.actCount = stateBox.actCount + 1
+    if #SET_LIST[stateBox.setChar] < stateBox.actCount then
+        stateBox.actCount = 1
+        stateBox.setCount = stateBox.setCount + 1
+        if #stateBox.SET_WEIGHT < stateBox.setCount then
+            stateBox.setCount = 1
+        end
+        stateBox.setChar = summoner.Random.sampleWeighted(stateBox.SET_WEIGHT[stateBox.setCount])
+    end
+end
+
+class.STATE_ATTACK = {}
+function class:initAttackWeight(...)
+    --setCountの選択対象。引数を二重カッコにするのが嫌だったのでここでテーブルを作っている。
+    local attackList = {...}
+    self.STATE_ATTACK = self:initState(#attackList ~= 0 and attackList or self.STATE_ATTACK.SET_WEIGHT)
+end
+
+function class:getAttackIndex()
+    local attackStr = summoner.Random.sampleWeighted(self.ATTACK_SET_LIST[self.STATE_ATTACK.setChar][self.STATE_ATTACK.actCount]);
+    local attackIndex = string.gsub(attackStr,"ATTACK","");
+    return tonumber(attackIndex)
+end
+
+
+class.STATE_SKILL = {}
+function class:initSkillWeight(...)
+    local skillList = {...}
+    self.STATE_SKILL = self:initState(#skillList ~= 0 and skillList or self.STATE_SKILL.SET_WEIGHT)
+end
+
+function class:getSkillIndex()
+    local skillStr = summoner.Random.sampleWeighted(self.SKILL_SET_LIST[self.STATE_SKILL.setChar][self.STATE_SKILL.actCount]);
+    local skillIndex = string.gsub(skillStr,"SKILL","");
+    return tonumber(skillIndex)
+end
+
+function class:initState(weightList)
+    local state = {}
+    state.SET_WEIGHT = weightList
+    state.actCount = 1
+    state.setCount = 1
+    state.setChar = summoner.Random.sampleWeighted(state.SET_WEIGHT[state.setCount])
+    return state
+end
+
+---トリガー時状態異常除去---
+function class:refresh(unit)
+    local badStatusIDs = {89,91,96};
+    for i=1,table.maxn(badStatusIDs) do
+        local targetID = badStatusIDs[i];
+        local flag = true;--whileを出るためだけのフラグ　これ以上同種のバッドステータスが取れなければfalseになります
+        local count = 0
+        while flag do
+            local cond = unit:getTeamUnitCondition():findConditionWithType(targetID);
+            if cond ~= nil then
+                unit:getTeamUnitCondition():removeCondition(cond);
+            else
+                flag = false;
+            end
+            ---100回以上ループした場合はbreak
+            count = count + 1
+            if count > 100 then
+                break
+            end
+        end
+    end
+end
+
+class:publish();
+
+return class;
