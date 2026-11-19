@@ -8,6 +8,8 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
                "nh": hits in one normal attack from the attack1 animation (resetHitList + 1), 0 = unknown,
                "sk": [skill, arts, true_arts, super_arts],
                "m": [mode name, seconds, icon id, activated by 1 arts / 2 true arts / 3 super arts] or 0}}
+  "cr": [[type id, name, stone image (dlc path) or '', [[level label, rune id, effects], ...]], ...]  crests with a
+        damage effect (type 12 / 13 / 17 / 80 / 22 / 142 / boss 14 / 15 / 21 / 61-65)
   "e": {image_id: [name, type, hp, atk, def, ct_s, skill, [[passive name, effects], ...]]}   equips by picture id
        (the site's equip ID); passive effects as a skill's, script 35 = only on the unit whose base is value 1
   "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
@@ -366,7 +368,35 @@ try:
 except OSError:
     pass
 
-out = {'u': uid_base, 's': stats, 'e': equips, 'q': quests, 'x': extra, 'c': consts,
+# crests (rune_master, the game's name for runes): families with an effect the damage calculator reads, every level
+# with its effects; img = a special crest's own stone (region path), '' = the plain level stone (rune_level_<n>.png)
+def db_rows(name):
+    for root, _, files in os.walk(os.path.join(GS, 'dlc', REGION, '_DATABASE')):
+        if name in files:
+            with open(os.path.join(root, name), encoding='utf-8') as f:
+                d = json.load(f)
+            return d if isinstance(d, list) else next(iter(d.values()))
+    return []
+
+
+ALLY_DMG, FOE_DMG = {12, 13, 17, 80, 22, 142}, {14, 15, 21, 61, 62, 63, 64, 65}   # as js/dmgcalc.js reads them
+dmg_eff = lambda e: (e[0] in ALLY_DMG and e[1] in (1, 2, 5, 8)) or (e[0] in FOE_DMG and e[1] == 4)
+rune_type = {num(r['id']): (r.get('name') or '').strip() for r in db_rows('rune_type_master.json')}
+fam = {}
+for r in sorted(db_rows('rune_master.json'), key=lambda r: (num(r['type_id']), num(r['level']), num(r['is_plus']))):
+    eff = [effect(e) for e in sorted(fx.get(num(r['skill_id']), []), key=lambda e: e['id'])]
+    t = num(r['type_id'])
+    f = fam.setdefault(t, [t, rune_type.get(t) or re.sub(r'\s*Lv\d\+?$', '', r.get('name') or ''), '', []])
+    if r.get('image') and not f[2]:
+        for reg in (REGION, 'Japan'):
+            rel = f"{reg}/rune/thumbnail/runestone_middle_{r['image']}.png"
+            if os.path.exists(os.path.join(GS, 'dlc', rel)):
+                f[2] = rel
+                break
+    f[3].append([f"Lv{num(r['level'])}{'+' if num(r['is_plus']) else ''}", num(r['id']), eff])
+crests = [f for f in fam.values() if any(dmg_eff(e) for lv in f[3] for e in lv[2])]
+
+out = {'u': uid_base, 's': stats, 'e': equips, 'q': quests, 'x': extra, 'c': consts, 'cr': crests,
        'o': {b: {k: v for k, v in o.items() if not k.startswith('_')} for b, o in overrides.items()}}
 with open(OUT, 'w', encoding='utf-8') as f:
     json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
