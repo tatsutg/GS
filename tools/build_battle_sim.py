@@ -31,7 +31,7 @@ attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense,
 
 A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects, flags, name]
   effects = [[type, target, seconds, value, chance %, icon, script, mode, animation,
-              script_value_1, script_value_2, script_value_3, group, priority, buff_type], ...] from skill_effect_master
+              script_value_1, script_value_2, script_value_3, group, priority, buff_type, script_value_4, script_value_5], ...] from skill_effect_master
     (what each script id checks: dlc/<Region>/additional_lua/other/skill_effect.lua, see js/battle-engine.js):
     target 1 self, 2 allies, 4 enemy, 5 one ally, 6 on hit; icon = condition_icon_<n>.png (0 none);
     mode: 0 always, 1 only during the unit's mode, -1 only outside it, k>=2 time x k/10 during the mode
@@ -141,7 +141,7 @@ def effect(e):
     return [num(e['effect_type']), num(e['target']), num(e['effect_time']), num(e['effect_value']),
             num(e.get('weight'), 100), num(e.get('tumbnail_name')), script, mode, num(e.get('animation_id')),
             sv1, num(e.get('script_value_2')), num(e.get('script_value_3')), num(e.get('group_id')),
-            num(e.get('priority')), num(e.get('buff_type'))]
+            num(e.get('priority')), num(e.get('buff_type')), num(e.get('script_value_4')), num(e.get('script_value_5'))]
 
 
 def skill(sid, text='', lua=False):
