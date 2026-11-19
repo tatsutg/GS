@@ -23,6 +23,9 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
        mechanics: [[message, from the start 1 / later 0, [[rule, value], ...]], ...] the game's battle messages for the
                   enemy (tools/lua_boss_text.py: immunities to physical / magic / an element / critical ...), 0 none
        race: unit_master race, 1 Human, 2 Beast, 3 Spirit, 4 Giant, 5 Machine, 6 Dragon, 7 God, 8 Demon (0 none)
+       resist (field 21): [[passive name, effects], ...] the enemy's passives (skill_relation_master relation_type 4)
+                  with a damage-taken effect: 14 / 15 DEF, 21 DMG taken (script 2 physical, 3 magic, 14 attacker element,
+                  70 move element, 75 in Break, 192 attacker race), 23 CRI resist (negative = fewer crits), 61-65 element
   "x": [[quest_id, dungeon, quest, difficulty, [enemy, ...]], ...] quests with an enemy whose rules change damage, with
        every enemy of the quest (same rows as a boss), e.g. event waves before the boss
 }
@@ -225,10 +228,25 @@ for base, rec in units.items():
 # equips: the top evolution of each picture id (highest stats), CT at MLB
 # passives: the item's abilities (skill_relation_master relation_type 1), one per name (highest Lv), with their
 # effects; script 35 = only when equipped by the unit whose base is script_value_1 (e.g. True "ZANKETSU" on Vox)
-ability_rel = {}
+ability_rel, enemy_rel = {}, {}
 for rr in load('skill_relation_master.json'):
     if num(rr.get('relation_type')) == 1:
         ability_rel.setdefault(num(rr['relation_id']), []).append(num(rr['skill_id']))
+    elif num(rr.get('relation_type')) == 4:          # an enemy's passives, by enemy id
+        enemy_rel.setdefault(num(rr['relation_id']), []).append(num(rr['skill_id']))
+
+# boss resistances: the enemy's passives (relation_type 4) that change the damage it takes, e.g.
+# "Physical resistance 80%" (type 21 -80, script 2) or "Dark resistance 80%" (type 65 80)
+RES_T = {14, 15, 21, 23, 61, 62, 63, 64, 65}
+
+
+def enemy_passives(eid):
+    out = []
+    for sid in enemy_rel.get(eid, []):
+        eff = [effect(e) for e in sorted(fx.get(sid, []), key=lambda e: e['id']) if num(e['effect_type']) in RES_T and num(e['target']) == 1]
+        if eff:
+            out.append([(sm.get(sid) or {}).get('name') or '', eff])
+    return out
 
 
 def equip_passives(iid):
@@ -308,7 +326,8 @@ def boss_row(b):
             num(e.get('need_sp'), 100), num(e.get('drop_sp'), 4), num(u.get('attribute'), 1), res,
             num(e.get('size'), 1), num(u.get('race')), hp_markers(num(e.get('id'))) if e else [],
             boss_look(num(e.get('id')) if e else 0, uid),
-            TEXTS.mechanics([num(e.get('id')) if e else 0, uid], b.get('n') or '') or 0]
+            TEXTS.mechanics([num(e.get('id')) if e else 0, uid], b.get('n') or '') or 0,
+            enemy_passives(num(e.get('id'))) if e else []]
 
 
 quests = []
