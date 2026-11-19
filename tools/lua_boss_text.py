@@ -33,6 +33,14 @@ MECH_WORDS = re.compile(r'negat|nullif|immun|killer|resist|reflect|damage|critic
 MECH_CAPS = re.compile(r'\b(?:DMG|CRI|UP|DOWN|ATK|DEF|HP)\b')     # the game writes these in capitals; "show up" is a line
 
 
+# kana / kanji, not the "・" separator the English texts also use
+JP = re.compile(r'[぀-ゟ゠-ヺー-ヿ一-鿿]')
+
+
+def _clean(t):
+    return t.replace('\\n', ' ').replace('\\"', '"').strip()
+
+
 class _Mech:
     @staticmethod
     def search(t):
@@ -102,6 +110,31 @@ class Texts:
                     with open(f, encoding='utf-8', errors='replace') as h:
                         for k, v in _blocks(h.read()).items():
                             self.loc.setdefault(k, v)
+        self.ja2en = self._ja2en(locale_roots)
+
+    def _ja2en(self, locale_roots):
+        """{Japanese message: English} from the game's own translations: for every id the English locale has, the
+        same key's Japanese text (ja_jp.lua, else the script's fallback) -> the English text. When a boss has no
+        English text (its script is newer than the Global locale), the same Japanese line translated for another
+        enemy is used; several translations -> the most common one. Lines never translated stay Japanese."""
+        en, ja = {}, {}
+        for root in locale_roots:
+            for name, d in (('en_us.lua', en), ('ja_jp.lua', ja)):
+                f = os.path.join(root, 'lib', 'summoner', 'locale', name)
+                if os.path.exists(f):
+                    with open(f, encoding='utf-8', errors='replace') as h:
+                        for k, v in _blocks(h.read()).items():
+                            d.setdefault(k, v)
+        pairs = {}
+        for i, e in en.items():
+            src = dict(self._defaults(i))
+            src.update(ja.get(i, {}))
+            for k, t in e.items():
+                j, t = _clean(src.get(k, '')), _clean(t)
+                if j and t and JP.search(j) and not JP.search(t):
+                    c = pairs.setdefault(j, {})
+                    c[t] = c.get(t, 0) + 1
+        return {j: max(c.items(), key=lambda x: (x[1], x[0]))[0] for j, c in pairs.items()}
 
     def _defaults(self, i):
         """the script's own fallback texts: {key: text}"""
@@ -122,12 +155,15 @@ class Texts:
             texts = dict(self._defaults(i))
             texts.update(self.loc.get(i, {}))
             for key, t in texts.items():
-                t = t.replace('\\n', ' ').replace('\\"', '"').strip()
+                ja = _clean(t)
+                t = self.ja2en.get(ja, ja)                   # Japanese fallback -> the game's English for that line
                 if not t or t in seen or '%' in t.replace('％', '%') and re.search(r'%[sd]', t) or not MECH.search(t):
                     continue
                 seen.add(t)
                 who = re.match(r'\s*([^:：]{1,40}?)\s*[:：]', t)
                 r = rules(t)
+                if ja != t:                                  # translated: the Japanese wording's rules count too
+                    r += [x for x in rules(ja) if x not in r]
                 if who and who.group(1).strip().lower() != own:
                     r = []                                   # another unit's rule
                 out.append([t, 1 if re.match(r'(START|WAVE)', key) else 0, r])
