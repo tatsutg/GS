@@ -5,6 +5,7 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "u": {unit_id: base}                       every form's unit id -> unitsv2 base (sprite + face use the unit id)
   "s": {base: {"n": name, "el": element, "hp", "atk", "def", "r": rarity, "id": top unit id,
                "dl": attack delay s, "bp": break power, "at": attribute,
+               "nh": hits in one normal attack from the attack1 animation (resetHitList + 1), 0 = unknown,
                "sk": [skill, arts, true_arts, super_arts],
                "m": [mode name, seconds, icon id, activated by 1 arts / 2 true arts / 3 super arts] or 0}}
   "e": {image_id: [name, type, hp, atk, def, ct_s, skill, [[passive name, effects], ...]]}   equips by picture id
@@ -66,6 +67,27 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(OTHERS, 'battle_sim.jso
 # mode icons (ai_cond_icon_<id>.png) are copied from the game dump when it is present
 ICON_SRC = os.environ.get('GS_AI_COND_ICONS', r'G:\game data\GL GRAND SUMMONERS\dlc\ai_cond_icon')
 ICON_DST = os.path.join(GS, 'dlc', 'ASSETS', 'battle', 'mode')
+
+
+ANIM_DIR = os.path.join(GS, 'dlc', 'Japan', 'unit', 'animation')
+
+
+def normal_hits(uid):
+    """hits in one normal attack, read from the unit's attack1 animation: each "Hit" event "resetHitList" lets the
+    hitbox hit again, so hits = resets + 1. 0 = not readable this way (no resets, other Hit events, shots):
+    the calculator then shows the swing total only. Checked in game for Awoken Vox only (2 resets, 3 hits)."""
+    f = os.path.join(ANIM_DIR, f'{uid}.json')
+    if not os.path.exists(f):
+        return 0
+    try:
+        with open(f, encoding='utf-8') as h:
+            a = json.load(h).get('animations', {}).get('attack1') or {}
+    except (OSError, ValueError):
+        return 0
+    ev = [e for e in a.get('events', []) if e.get('name') == 'Hit']
+    if not ev or any(str(e.get('string') or '').lower() != 'resethitlist' for e in ev):
+        return 0
+    return len(ev) + 1
 
 
 def load(name):
@@ -191,7 +213,7 @@ for base, rec in units.items():
                    'r': 2 if 'ascension' in rar else 1 if 'awoken' in rar else 0, 'id': top,
                    'dl': round(num(u['attack_delay'], 300) / 100, 2), 'bp': num(u['break_power']),
                    'at': num(u['attribute']), 'sk': sks, 'm': mode, 'race': num(u.get('race')),
-                   'lv': num(u.get('level_max')), 'p': passives}
+                   'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top)}
     uid_base[str(top)] = base
     for form in obj(rec.get('_forms')).values():
         fid = ''.join(c for c in str(obj(form).get('Unit ID') or '') if c.isdigit())
