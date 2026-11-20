@@ -68,6 +68,12 @@ BOSS_FIX = {
     2061112: [2061165, 2061166],    # [Challenge] Area 8: Auge + Demented Scientist Keit
     2061113: [2061170, 2061177],    # Area 9: Insect Princess Radachne + Wyrm
     2061114: [2061180, 2061187],    # [Challenge] Area 9: Radachne + Wyrm
+    # Glowing Sanctuary / 光耀竜の強襲 (Radiant Dragon Fosradius): daily-dungeon tiers the id rule mis-mapped.
+    # HP matches Altema (rinkounoseiiki): INT/中級 400k, ADV/上級 630k, PRO/超級 1M, AWK/覚醒 3M.
+    5000501: [500144109],
+    5000502: [500144209],
+    5000503: [500144409],
+    5000504: [50123],
 }
 
 
