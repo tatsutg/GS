@@ -88,6 +88,28 @@ BOSS_FIX = {
     2027003: [2027004],
     2027004: [2027005],
     2027005: [2027006, 2027007],
+    # Frozen Calamity (Ice Fortress Zagnus): id rule put the AWK boss (4.8M) into the PRO tier and dropped the rest.
+    # Matches Altema (kyokutennoyakusai): 超級/PRO 2M, 覚醒/AWK 4.8M.
+    4890002: [4890024],
+    4890001: [48901],
+    # Crimson King (Degilmagna): daily-dungeon tiers in a shared base pool, id rule mis-mapped INT to the AWK boss.
+    # Matches Altema (gurennohasya): 中級 300k, 上級 500k, 超級 600k, 覚醒 1.5M.
+    993201: [500111109],
+    993202: [500111209],
+    993203: [500111409],
+    993204: [99320018],
+    # Fortress of the Machine God (CODE XTF:ERASER): no quest->enemy link in export, boss rows in base pool.
+    # Matches Altema (kishinnoyousai): 中級 400k, 上級 630k, 超級 750k, 覚醒 1.3M (all 毒100).
+    5000801: [500721935],
+    5000802: [500721945],
+    5000803: [500721955],
+    5000804: [500080123],
+    # Shrine of Remembrance (Oldeus): site showed wrong boss (Abaddon); real tiers in base pool.
+    # Matches Altema (sousounoshinden): 中級 300k, 上級 400k, 超級 550k, 覚醒 650k (all 凍結35).
+    993001: [500061109],
+    993002: [500061209],
+    993003: [500061409],
+    993004: [99300019],
 }
 
 
