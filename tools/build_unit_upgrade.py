@@ -81,11 +81,14 @@ for v in lb_tables.values():
     v['rows'].sort(key=lambda x: x[0])
 
 # per-form lookup: each form id -> {chain forms+rarity+name, steps, lbId}
-RK = ['2★', '3★', '4★', '5★', 'AWK', 'ASC']
+# rank comes from the form id's rarity digit (position 5): 1-5 = N★, 6 = AWK, 7 = ASC
+RK_DIGIT = {'1': '1★', '2': '2★', '3': '3★', '4': '4★', '5': '5★', '6': 'AWK', '7': 'ASC', '8': 'ASC2'}
+def rank_of(fid):
+    s = str(fid)
+    return RK_DIGIT.get(s[5], 'EX') if len(s) >= 6 else 'EX'
 units = {}
 for forms, steps in chains:
-    formmeta = [{'id': f, 'n': uname.get(str(f), str(f)), 'rk': RK[i] if i < len(RK) else 'EX'}
-                for i, f in enumerate(forms)]
+    formmeta = [{'id': f, 'n': uname.get(str(f), str(f)), 'rk': rank_of(f)} for f in forms]
     entry = {'forms': formmeta, 'steps': steps, 'lb': lbexp.get(str(forms[-1]), 0)}
     for f in forms:
         units[str(f)] = entry
