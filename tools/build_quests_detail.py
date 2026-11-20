@@ -433,6 +433,10 @@ def main():
             row['foes'] = foes   # [name, unit id, thumb, element, level, HP, is boss]
         if uniq:
             row['boss'] = [{k: v for k, v in b.items() if k in ('n', 'u', 'img', 'el')} for b in uniq.values()]
+        # Boss & Trials sub-type, for the site's chip filter (dungeon_master view_type / count_timing)
+        if cat == 'Boss & Trials':
+            row['sub'] = 'Daily' if num(d.get('count_timing')) == 2 else \
+                {6: 'Giant Boss', 5: 'Super god-rank', 3: 'Assault', 2: 'Invasion', 1: 'Event', 0: 'Other'}.get(num(d.get('view_type')), 'Other')
         out.append(row)
     out.sort(key=lambda r: r['id'])
     data = {'built': now.isoformat(timespec='seconds'), 'dungeons': out,
