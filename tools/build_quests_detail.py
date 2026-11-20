@@ -91,6 +91,12 @@ BOSS_FIX = {
     # The Master Chef's Test / 【AWK】The Full Course: 3-wave invasion, id rule attached no bosses.
     # In-game gimmicks confirmed: wave1 Rem 4.5M, wave2 Est 6.5M, wave3 Sophie 8.5M.
     2000209: [200020903, 200020904, 200020905],
+    2000210: [200020027],   # [DREAM] Crème de la Crème: Sophie (20M, gimmicks)
+    # Echoes of Invasion: single-stage boss per difficulty, id rule attached none.
+    2003101: [200310001],   # [EX1] Attack of the Androids (650k)
+    2003102: [200310004],   # [EX2] Invasion Anew (1M)
+    2003103: [200310008],   # [SPEX] Full Power (1M)
+    2003104: [200310012],   # [AWK] Overdrive: Edram (20M, gimmicks)
     # Frozen Calamity (Ice Fortress Zagnus): id rule put the AWK boss (4.8M) into the PRO tier and dropped the rest.
     # Matches Altema (kyokutennoyakusai): 超級/PRO 2M, 覚醒/AWK 4.8M.
     4890002: [4890024],
