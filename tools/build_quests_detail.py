@@ -88,6 +88,9 @@ BOSS_FIX = {
     2027003: [2027004],
     2027004: [2027005],
     2027005: [2027006, 2027007],
+    # The Master Chef's Test / 【AWK】The Full Course: 3-wave invasion, id rule attached no bosses.
+    # In-game gimmicks confirmed: wave1 Rem 4.5M, wave2 Est 6.5M, wave3 Sophie 8.5M.
+    2000209: [200020903, 200020904, 200020905],
     # Frozen Calamity (Ice Fortress Zagnus): id rule put the AWK boss (4.8M) into the PRO tier and dropped the rest.
     # Matches Altema (kyokutennoyakusai): 超級/PRO 2M, 覚醒/AWK 4.8M.
     4890002: [4890024],
