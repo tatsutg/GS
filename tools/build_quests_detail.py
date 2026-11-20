@@ -370,6 +370,8 @@ def main():
                     rewards.append([label] + r + ([cond] if cond else []))
             qs.append({'id': q['id'], 'n': clean(q['name']), 'sta': num(q.get('stamina')), 'dif': num(q.get('difficulty')),
                        'rank': num(q.get('need_rank')), 'gren': num(q.get('drop_coin')), 'drops': drops, 'rew': rewards,
+                       # clear rewards the game shows: Rank EXP (drop_user_exp) and unit EXP (drop_unit_exp)
+                       'rexp': num(q.get('drop_user_exp')), 'uexp': num(q.get('drop_unit_exp')),
                        # summary (the game breaks its lines by hand: joined), multi = co-op quest (0 = solo only)
                        'desc': re.sub(r'\s*\n\s*', ' ', clean(q.get('description'))), 'multi': num(q.get('is_multi')),
                        # stages: per stage the spawn variants' chances in % (one entry = always the same battle)

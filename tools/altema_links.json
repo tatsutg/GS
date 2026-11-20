@@ -1,0 +1,7 @@
+{
+  "_note": "Altema reference pages for boss-stat filling, keyed by dungeon id. Use for per-tier HP when the export has no quest->enemy link. User-provided.",
+  "489":    { "url": "https://altema.jp/grandsummoners/kyokutennoyakusai", "jp": "極点の災叄", "en": "Frozen Calamity in the North" },
+  "993200": { "url": "https://altema.jp/grandsummoners/gurennohasya",      "jp": "紅蓬の覇者", "en": "The Crimson King" },
+  "498":    { "url": "https://altema.jp/grandsummoners/kishinnoyousai",    "jp": "機神の要塞", "en": "Fortress of the Machine God" },
+  "993000": { "url": "https://altema.jp/grandsummoners/sousounoshinden",   "jp": "葬送の神殿", "en": "Shrine of Remembrance" }
+}
