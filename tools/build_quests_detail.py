@@ -54,6 +54,15 @@ MAX_WIN = 200     # open windows kept per dungeon
 # only the quests that name their boss (quest_master succession_enemy_id) get one; the rest stay in the dungeon roster
 # (Training: 13 enemies for 12 tutorial quests, e.g. Takedown Battle's Valzandeth had landed in "Faster Arts")
 NO_ID_RULE = {1001500}
+# quests the id rule places on the wrong boss: quest_id -> [enemy_id, ...] (is_boss rows), set by hand from
+# enemy_master. Mankind Ruins: the heuristic put Sealed God Auge on Area 9 (it is Area 8) and dropped the real
+# Area 9 (Insect Princess Radachne + Wyrm). These override the quest's boss list.
+BOSS_FIX = {
+    2061111: [2061160],             # Area 8: Sealed God Auge
+    2061112: [2061165, 2061166],    # [Challenge] Area 8: Auge + Demented Scientist Keit
+    2061113: [2061170, 2061177],    # Area 9: Insect Princess Radachne + Wyrm
+    2061114: [2061180, 2061187],    # [Challenge] Area 9: Radachne + Wyrm
+}
 
 
 def load(name):
@@ -349,6 +358,19 @@ def main():
                 uniq[b['u']] = b
             if str(b['u']) in boss_info:
                 used_info.add(str(b['u']))
+        # manual boss fixes: replace the quest's boss list with the hand-mapped enemies (Mankind Ruins Area 8 / 9)
+        for q in qs:
+            ov = BOSS_FIX.get(q['id'])
+            if not ov:
+                continue
+            rows = [boss_row(boss_enemies[e]) for e in ov if e in boss_enemies]
+            if rows:
+                q['boss'] = rows
+                for b in rows:
+                    if b['u'] not in uniq or b['hp'] > uniq[b['u']]['hp']:
+                        uniq[b['u']] = b
+                    if str(b['u']) in boss_info:
+                        used_info.add(str(b['u']))
         # the final stage is the boss fight in every difficulty, but the enemy ids only tie some quests to the boss:
         # when the dungeon has one boss, give it to the other quests too ('bossX': portrait only, the stats of that
         # difficulty are not in the DB)
