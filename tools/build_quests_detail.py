@@ -35,6 +35,12 @@ REGION = os.environ.get('GS_REGION', 'Global')  # 'Global' or 'Japan'
 DB = os.path.join(DLC, REGION, '_DATABASE')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(DB, 'others', 'quests_detail.json')
 
+sys.path.insert(0, HERE)
+from lua_boss_text import Texts  # noqa: E402
+# the game's battle-message mechanics for each boss (immunities, "only crit", ...), same source as battle_sim field 20
+TEXTS = Texts([os.path.join(DLC, 'Global', 'additional_lua'), os.path.join(DLC, REGION, 'additional_lua')],
+              [os.path.join(DLC, REGION, 'additional_lua'), os.path.join(DLC, 'Japan', 'additional_lua')])
+
 JP = re.compile(r'[぀-ヿ一-鿿]') if REGION == 'Global' else re.compile(r'(?!)')  # on Japan, names ARE Japanese
 # GL ships a placeholder name for some dungeons (only the banner has the real title): (region, dungeon id) -> name
 NAME_FIX = {
@@ -227,9 +233,13 @@ def main():
     def boss_row(e):
         u = unit_rows.get(e['unit_id'], {})
         name = clean(e.get('name')) or clean(u.get('name')) or f"Enemy {e['unit_id']}"
-        return {'n': name, 'u': e['unit_id'], 'img': unit_thumb(e['unit_id']),
-                'el': num(u.get('element')), 'lv': num(e.get('level')), 'hp': num(e.get('hp')), 'atk': num(e.get('attack')),
-                'def': num(e.get('deffence')), 'brk': num(e.get('break_capacity'))}
+        row = {'n': name, 'u': e['unit_id'], 'img': unit_thumb(e['unit_id']),
+               'el': num(u.get('element')), 'lv': num(e.get('level')), 'hp': num(e.get('hp')), 'atk': num(e.get('attack')),
+               'def': num(e.get('deffence')), 'brk': num(e.get('break_capacity'))}
+        mech = TEXTS.mechanics([num(e.get('id')), num(e['unit_id'])], name)
+        if mech:
+            row['mech'] = mech
+        return row
 
     def bosses_of(did, names):
         """[[quest index or -1, boss row, enemy id], ...] for a dungeon (names = its quest names in order)"""
