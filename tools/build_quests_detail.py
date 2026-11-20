@@ -74,6 +74,20 @@ BOSS_FIX = {
     5000502: [500144209],
     5000503: [500144409],
     5000504: [50123],
+    # Cross Battle β (MEGA Goldola β) and Awakening Cursed Armor X (Phantom Ragsherum): 6 boss rows in the dungeon's
+    # id range (stats rise with the id) for 5 quests; battle_relation_master gives the top quest 2 battles and the
+    # others 1, so ids in order = BGN, INT, ADV, PRO, top battle 1, top battle 2 (Ragsherum's battle 2 has its own
+    # BGM GS506_EVENT_03 and the long 227-line script 2027007).
+    2001201: [2001201],
+    2001202: [2001202],
+    2001203: [2001203],
+    2001204: [2001204],
+    2001205: [2001205, 2001206],
+    2027001: [2027002],
+    2027002: [2027003],
+    2027003: [2027004],
+    2027004: [2027005],
+    2027005: [2027006, 2027007],
 }
 
 
