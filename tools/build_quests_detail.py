@@ -239,6 +239,10 @@ def main():
         mech = TEXTS.mechanics([num(e.get('id')), num(e['unit_id'])], name)
         if mech:
             row['mech'] = mech
+        # exact per-enemy ailment resistance % (enemy_master.resistant_*_base), the values Altema lists;
+        # order: poison, blind(darkness), seal(silent), paralysis(paralyze), disease(sickness), faint(stun), freeze, burn
+        row['ail'] = [num(e.get(f'resistant_{k}_base')) for k in
+                      ('poison', 'darkness', 'silent', 'paralyze', 'sickness', 'stun', 'freeze', 'burn')]
         return row
 
     def bosses_of(did, names):
