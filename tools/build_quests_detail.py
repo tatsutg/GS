@@ -64,10 +64,14 @@ NO_ID_RULE = {1001500}
 # enemy_master. Mankind Ruins: the heuristic put Sealed God Auge on Area 9 (it is Area 8) and dropped the real
 # Area 9 (Insect Princess Radachne + Wyrm). These override the quest's boss list.
 BOSS_FIX = {
+    # Mankind Ruins 2-boss waves ordered per Altema (hitoiseki): WAVE1 = guest boss, WAVE2 Final = area boss.
+    2061106: [2061126, 2061125],    # [Challenge] Area 5: WAVE1 Vaid, WAVE2 Code XTF: Eraser
+    2061108: [2061136, 2061135],    # [Challenge] Area 6: WAVE1 Tamae, WAVE2 Demon Fox Ugetsu
+    2061110: [2061146, 2061145],    # [Challenge] Area 7: WAVE1 Hades Knight Regulus, WAVE2 Flame Spirit Ignis
     2061111: [2061160],             # Area 8: Sealed God Auge
-    2061112: [2061165, 2061166],    # [Challenge] Area 8: Auge + Demented Scientist Keit
-    2061113: [2061170, 2061177],    # Area 9: Insect Princess Radachne + Wyrm
-    2061114: [2061180, 2061187],    # [Challenge] Area 9: Radachne + Wyrm
+    2061112: [2061166, 2061165],    # [Challenge] Area 8: WAVE1 Demented Scientist Keit, WAVE2 Sealed God Auge
+    2061113: [2061177, 2061170],    # Area 9: WAVE1 Wyrm, WAVE2 Insect Princess Radachne
+    2061114: [2061187, 2061180],    # [Challenge] Area 9: WAVE1 Wyrm, WAVE2 Insect Princess Radachne
     # Glowing Sanctuary / 光耀竜の強襲 (Radiant Dragon Fosradius): daily-dungeon tiers the id rule mis-mapped.
     # HP matches Altema (rinkounoseiiki): INT/中級 400k, ADV/上級 630k, PRO/超級 1M, AWK/覚醒 3M.
     5000501: [500144109],
