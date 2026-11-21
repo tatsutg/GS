@@ -38,6 +38,22 @@ def matname(mid):
     return mname.get(s) or uname.get(s) or ('#' + s)
 
 
+DLC_ROOT = os.path.join(HERE, '..', 'dlc')
+
+
+def icon_rel(t, i):
+    # repo-relative art path the site's getCdnUrl serves (material -> jsdelivr, unit/item -> pages.dev)
+    tpl = {5: 'material/material_thumbnail_%s.png', 9: 'unit/thumbnail/unit_thumbnail_%s.png',
+           7: 'item/thumbnail/item_thumbnail_%s.png', 8: 'item/thumbnail/item_thumbnail_%s.png'}.get(t)
+    if not tpl:
+        return ''
+    for reg in (REGION, 'Japan', 'Global'):
+        rel = '%s/%s' % (reg, tpl % i)
+        if os.path.exists(os.path.join(DLC_ROOT, rel)):
+            return rel
+    return ''
+
+
 # evolution map: base_unit_id -> row
 nexts = {r['base_unit_id']: r for r in ev if isinstance(r, dict)}
 allnext = {r['next_unit_id'] for r in ev if isinstance(r, dict)}
@@ -54,10 +70,11 @@ for root in roots:
         r = nexts[cur]
         mats = []
         for k in range(1, 6):
+            t = num(r.get('material_%d_type' % k))
             mid = r.get('material_%d_id' % k)
             v = num(r.get('material_%d_value' % k))
             if mid and v:
-                mats.append([matname(mid), v])
+                mats.append([matname(mid), v, icon_rel(t, mid)])
         steps.append({'to': r['next_unit_id'], 'coin': num(r.get('need_coin')), 'mats': mats})
         cur = r['next_unit_id']
         forms.append(cur)
