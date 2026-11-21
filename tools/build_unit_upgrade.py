@@ -30,7 +30,7 @@ lb = load('unit_limitbreak_master')
 
 uname = {str(r['id']): r.get('name') for r in um if isinstance(r, dict)}
 mname = {str(r['id']): r.get('name') for r in mat if isinstance(r, dict)}
-lbexp = {str(r['id']): num(r.get('limit_break_exp_id')) for r in um if isinstance(r, dict)}
+ubase = {str(r['id']): num(r.get('base_unit_id')) for r in um if isinstance(r, dict)}  # LB table is keyed by the unit's base_unit_id
 
 
 def matname(mid):
@@ -90,7 +90,8 @@ for r in lb:
     slots = [num(r.get(s + '_rarity')) if num(r.get(s + '_type')) != -1 else -1
              for s in ('equipped1', 'equipped2', 'equipped3', 'equipped3_2')]
     types = [num(r.get(s + '_type')) for s in ('equipped1', 'equipped2', 'equipped3', 'equipped3_2')]
-    lb_tables.setdefault(key, {'rows': [], 'types': types})
+    e = lb_tables.setdefault(key, {'rows': [], 'types': [-1, -1, -1, -1]})
+    e['types'] = [max(a, b) for a, b in zip(e['types'], types)]   # slot3_2 type is -1 until it unlocks; keep the real one
     lb_tables[key]['rows'].append([num(r.get('limit_break_level')), num(r.get('buff_hp')),
                                    num(r.get('buff_attack')), num(r.get('buff_defence')),
                                    num(r.get('buff_fortune_level')), slots])
@@ -106,7 +107,7 @@ def rank_of(fid):
 units = {}
 for forms, steps in chains:
     formmeta = [{'id': f, 'n': uname.get(str(f), str(f)), 'rk': rank_of(f)} for f in forms]
-    entry = {'forms': formmeta, 'steps': steps, 'lb': lbexp.get(str(forms[-1]), 0)}
+    entry = {'forms': formmeta, 'steps': steps, 'lb': ubase.get(str(forms[-1]), 0)}
     for f in forms:
         units[str(f)] = entry
 
