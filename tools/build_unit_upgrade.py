@@ -7,11 +7,12 @@ sys.stdout.reconfigure(encoding='utf-8')
 REGION = os.environ.get('GS_REGION', 'Global')
 HERE = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(HERE, '..', 'dlc', REGION, '_DATABASE', 'others')
+DATA1 = os.path.join(HERE, '..', 'dlc', REGION, '_DATABASE', 'data1')
 OUT = os.path.join(HERE, '..', 'dlc', REGION, '_DATABASE', 'others', 'unit_upgrade.json')
 
 
-def load(name):
-    p = os.path.join(DB, name + '.json')
+def load(name, sub=DB):
+    p = os.path.join(sub, name + '.json')
     d = json.load(open(p, encoding='utf-8'))
     return d if isinstance(d, list) else d.get('data', d)
 
@@ -31,6 +32,15 @@ lb = load('unit_limitbreak_master')
 uname = {str(r['id']): r.get('name') for r in um if isinstance(r, dict)}
 mname = {str(r['id']): r.get('name') for r in mat if isinstance(r, dict)}
 ubase = {str(r['id']): num(r.get('base_unit_id')) for r in um if isinstance(r, dict)}  # LB table is keyed by the unit's base_unit_id
+uexp = {str(r['id']): num(r.get('limit_break_exp_id')) for r in um if isinstance(r, dict)}  # copies-per-LB curve
+
+# cumulative copies needed to reach each LB level, per limit_break_exp_id (1 copy = 1 exp).
+# Free/farmable units use a steep curve (e.g. 0,1,3,7,12,20,50); premium = 0,1,2,3,4,5,6.
+lbe = load('unit_limitbreak_exp_master', DATA1)
+curve = {}
+for r in lbe:
+    if isinstance(r, dict):
+        curve.setdefault(num(r.get('exp_id')), {})[num(r.get('level'))] = num(r.get('exp'))
 
 
 def matname(mid):
@@ -104,10 +114,23 @@ RK_DIGIT = {'1': '1★', '2': '2★', '3': '3★', '4': '4★', '5': '5★', '6'
 def rank_of(fid):
     s = str(fid)
     return RK_DIGIT.get(s[5], 'EX') if len(s) >= 6 else 'EX'
+def copies_for(form_id, base):
+    # cumulative copies to reach each LB level of this unit's LB table (top form's exp curve)
+    t = lb_tables.get(str(base))
+    if not t:
+        return []
+    c = curve.get(uexp.get(str(form_id), 0), {})
+    if not c:
+        return []
+    top = max(c)
+    return [c.get(l, c[top]) for l in range(len(t['rows']))]
+
+
 units = {}
 for forms, steps in chains:
     formmeta = [{'id': f, 'n': uname.get(str(f), str(f)), 'rk': rank_of(f)} for f in forms]
-    entry = {'forms': formmeta, 'steps': steps, 'lb': ubase.get(str(forms[-1]), 0)}
+    base = ubase.get(str(forms[-1]), 0)
+    entry = {'forms': formmeta, 'steps': steps, 'lb': base, 'cp': copies_for(forms[-1], base)}
     for f in forms:
         units[str(f)] = entry
 
