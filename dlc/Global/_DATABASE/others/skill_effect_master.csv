@@ -14816,6 +14816,7 @@ HP20自然回復",2,72006100,1,-1,-10,-1,1,-10,,,,None,None,100,2,None,None,None
 88578602,地上モード時、奥義ダメージ50%UP　Hit時、100%燃焼5秒間、1000ダメージ,97,88578600,4,5,10000,-1,1,10000,,,,None,None,100,2,None,None,None,None,None,None,87,None,None,None,None,None,0
 88581401,22秒間、敵に最大HPの7%持続ダメージ,129,88581400,4,22,7,-1,1,7,,,,None,None,100,2,228,None,None,None,None,None,180,None,None,None,None,None,0
 88581501,この奥義中、自身のクリティカル率100%UP。,22,88581500,1,600,100,-1,1,100,,,,None,None,100,1,8,0,None,None,None,None,11,None,None,None,None,None,0
+88586101,被ダメージ割合,21,88586100,3,9999,40,-1,1,40,,,,None,None,100,2,None,None,None,None,None,None,139,None,None,None,None,None,0
 88586401,Hit時80%確率で5秒間毒(毒は秒間30ダメージ),90,88586400,4,5,300,-1,1,300,,,,None,None,100,2,None,None,None,None,None,None,80,None,None,None,None,None,0
 88586601,Hit時100%確率で5秒間毒(毒は秒間150ダメージ),90,88586600,4,5,1500,-1,1,1500,,,,None,None,100,2,None,None,None,None,None,None,80,None,None,None,None,None,0
 88586701,Hit時100%確率で5秒間毒(毒は秒間150ダメージ・重複なし),90,88586700,4,5,1500,-1,1,1500,,,,None,None,100,2,None,None,None,None,None,None,80,None,None,None,None,None,0
@@ -15586,6 +15587,14 @@ HITに関係なく、敵を猛炎状態にする（effect_value=300、script_val
 88774701,永続で自身の与ダメージ,17,88774700,1,99999,30,-1,1,30,,,,None,None,100,1,None,None,None,None,None,None,26,None,None,None,None,None,0
 88774702,回避率30%アップ,31,88774700,1,99999,10,-1,1,10,,,,None,None,100,1,None,None,None,None,None,None,16,None,None,None,94,10,0
 88774801,永続で敵の被ダメージ15%アップ（重複あり）,21,88774800,4,99999,15,-1,1,15,,,,None,None,100,2,None,None,None,None,None,None,139,None,None,None,None,None,0
+88775101,この奥義中、防御力10%無視,80,88775100,1,99999,10,-1,1,10,,,,None,None,100,1,8,None,None,None,None,None,89,None,None,None,None,None,0
+88775301,この奥義中、防御力100%無視,80,88775300,1,99999,100,-1,1,100,,,,None,None,100,1,8,None,None,None,None,None,89,None,None,None,None,None,0
+88775401,100%の確率で、敵の闇属性耐性5%ダウン（ターゲット4）,65,88775400,4,99999,-5,-1,1,-5,,,,None,None,100,2,None,None,None,None,None,None,47,None,None,None,None,None,0
+88775501,70%の確率で、20秒間、敵を毒状態（秒間150ダメージ）にする（重複あり）,90,88775500,4,20,1500,-1,1,1500,,,,None,None,70,2,None,None,None,None,None,None,80,None,None,2,None,None,0
+88775601,90%の確率で、5秒間、敵を沈黙状態にする,92,88775600,4,5,1,-1,1,1,,,,None,None,90,2,None,None,None,None,None,None,82,None,None,12,None,None,0
+88775701,永続で自身のHP20000自然回復,7,88775700,1,99999,20000,-1,1,20000,,,,None,None,100,1,None,None,None,None,None,None,35,None,None,None,None,None,0
+88775702,プレイヤーユニットに永続で奥義ゲージ10自然上昇,10,88775700,3,99999,10,-1,1,10,,,,None,None,100,1,None,None,None,None,None,None,36,None,None,None,None,None,0
+88775703,プレイヤーユニットに永続でHP5%自然回復を付与,7,88775700,3,99999,5,-1,1,5,,,,None,None,100,1,238,None,None,None,None,None,35,None,None,None,None,None,0
 88779501,50%の確率で、20秒間、敵を暗闇状態（命中率30%DOWN）にする,93,88779500,4,20,30,-1,1,30,,,,None,None,50,2,None,None,None,None,None,None,83,None,None,4,None,None,0
 88779601,10秒間、味方全体の被ダメージ10%軽減,21,88779600,2,10,-10,-1,1,-10,,,,None,None,100,1,None,None,None,None,None,None,20,None,None,None,None,None,0
 88779901,ヒットに関係なく、永続で敵の魔法耐性10%DOWN,21,88779900,3,9999,10,-1,1,10,,,,None,None,100,2,3,None,None,None,None,None,175,None,None,None,None,None,0
@@ -17235,6 +17244,8 @@ HITに関係なく、敵を猛炎状態にする（effect_value=300、script_val
 98595601,特殊系補正。300秒間、敵の被ダメージ30%UP（重複あり）,21,98595600,4,300,30,-1,1,30,,,,None,None,100,2,None,None,None,None,None,None,139,None,None,None,None,None,0
 98596701,70%の確率で20秒間敵を暗闇状態（命中率-5%）にする（重複あり）,93,98596700,4,20,5,-1,1,5,,,,None,None,70,2,None,None,None,None,None,None,83,None,None,4,None,None,0
 98596801,70%の確率で20秒間敵を暗闇状態（命中率-5%）にする（重複あり）,93,98596800,4,20,5,-1,1,5,,,,None,None,70,2,None,None,None,None,None,None,83,None,None,4,None,None,0
+98600001,麻痺効果,91,98600000,4,5,50,-1,1,50,,,,None,None,50,2,None,None,None,None,None,None,81,None,None,3,None,None,0
+98600201,麻痺効果,91,98600200,4,5,50,-1,1,50,,,,None,None,50,2,None,None,None,None,None,None,81,None,None,3,None,None,0
 98600801,Hit時100%確率で5秒間毒(毒は秒間50ダメージ・重複なし),90,98600800,4,5,500,-1,1,500,,,,None,None,100,2,None,None,None,None,None,None,80,None,None,None,None,None,0
 98601001,Hit時100%の確率でHitしたユニットの命中率を5秒間20%DOWN,32,98601000,4,5,-20,-1,1,-20,,,,None,None,100,2,None,None,None,None,None,None,15,None,None,None,None,None,0
 98603601,hit時80%の確率で8秒間燃焼状態重複あり(秒間50ダメージ),97,98603600,4,8,500,-1,1,500,,,,None,None,80,2,None,None,None,None,None,None,87,None,None,None,None,None,0
@@ -17748,6 +17759,12 @@ HITに関係なく、敵を猛炎状態にする（effect_value=300、script_val
 98847902,50%の確率で、20秒間、敵の防御力30%ダウン,15,98847900,4,20,-30,-1,1,-30,,,,None,None,50,2,None,None,None,None,None,None,6,None,None,None,93,30,0
 98848101,70%の確率で、20秒間、敵の攻撃力50%ダウン,13,98848100,4,20,-50,-1,1,-50,,,,None,None,70,2,None,None,None,None,None,None,4,None,None,None,None,None,0
 98848102,70%の確率で、20秒間、敵の防御力50%ダウン,15,98848100,4,20,-50,-1,1,-50,,,,None,None,70,2,None,None,None,None,None,None,6,None,None,None,93,50,0
+98848601,100%の確率で、10秒間、敵の全状態異常耐性20%ダウン（ターゲット4）,112,98848600,4,10,-20,-1,1,-20,,,,None,None,100,2,None,None,None,None,None,None,77,None,None,None,None,None,0
+98848602,100%の確率で、10秒間、敵の全状態異常耐性20%ダウン（ターゲット4）,113,98848600,4,10,-20,-1,1,-20,,,,None,None,100,2,None,None,None,None,None,None,,None,None,None,None,None,0
+98848701,自身の毒、燃焼、暗闇、病気を回復,44,98848700,1,0,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
+98848702,自身の毒、燃焼、暗闇、病気を回復,51,98848700,1,0,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
+98848703,自身の毒、燃焼、暗闇、病気を回復,47,98848700,1,0,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
+98848704,自身の毒、燃焼、暗闇、病気を回復,48,98848700,1,0,1,-1,1,1,,,,None,None,100,1,None,None,None,None,None,None,,None,None,None,None,None,0
 98853501,スキルCT速度500%UP,29,98853500,3,9999,500,-1,1,500,,,,None,None,100,1,None,None,None,None,None,None,34,None,None,None,None,None,0
 98854501,20%の確率で、10秒間、敵を燃焼状態（5ダメージ/秒）にする,97,98854500,4,10,50,-1,1,50,,,,None,None,20,2,None,None,None,None,None,None,87,None,None,8,None,None,0
 98856801,50%の確率で、20秒間、ヒットした敵の物理耐性10%ダウン,21,98856800,4,20,10,-1,1,10,,,,None,None,50,2,2,None,None,None,None,None,185,None,None,None,None,None,0

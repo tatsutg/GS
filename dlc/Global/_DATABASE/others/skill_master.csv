@@ -2191,9 +2191,9 @@ Increases Arts gauge by 50.",,,,0,0,0,,0,0,0,
 Increases DMG to enemy by 15% for 10s (Stacks).",,,,0,0,0,DMG taken UP,0,0,0,
 10843700,Sword Saint's Hand Blade,1,-1,0,5000,700,100,1,1,None,1500,None,None,"5000% Fire DMG (Physical).
 Increases DMG to enemy by 25% for 10s (Stacks).",,,,0,0,0,DMG taken UP,0,0,0,
-10844600,Relaxing Tea Party,1,0,0,0,0,100,0,0,None,1600,None,None,"Heals Status ailment (except Faint, Paralysis, Seal, & Freeze).
+10844600,Relaxing Tea Party,1,0,0,0,0,100,0,0,None,1600,None,None,"Heals Status Ailment (except Faint, Paralysis, Seal, & Freeze).
 Auto-fills Arts gauge by 2 for 12s.",,,,0,0,0,,0,0,0,
-10844700,Relaxing Tea Party,1,0,0,0,0,100,0,0,None,1500,None,None,"Heals Status ailment (except Faint, Paralysis, Seal, & Freeze).
+10844700,Relaxing Tea Party,1,0,0,0,0,100,0,0,None,1500,None,None,"Heals Status Ailment (except Faint, Paralysis, Seal, & Freeze).
 Auto-fills Arts gauge by 3 for 12s.",,,,0,0,0,,0,0,0,
 10845600,El Huma,1,0,0,2800,300,100,2,1,None,1400,None,None,"2800% Water DMG (Physical).
 Increases Arts gauge by 20.",,,,0,0,0,Arts gauge UP,0,0,0,
@@ -6655,17 +6655,17 @@ Reduces enemy's Magic resistance by 40% for 60s (Stacks).",,,,0,0,0,,0,0,0,
 Increases Magic DMG by 30% every time True Arts is used (MAX 300%).",,,,0,0,0,Magic DMG UP,0,0,0,
 20844900,Butterfly's Whim,2,-1,0,100000,1700,100,3,2,200,None,None,None,"100000% Earth DMG (Magic).
 Increases Magic DMG by 50% every time True Arts is used (MAX 500%).",,,,0,0,0,Magic DMG UP,0,0,0,
-20845000,Witch's Blessing,2,3550,200,0,0,100,0,0,300,None,None,None,Auto-fills all allies' Arts gauge by 8 & auto-recovers HP by 8% for 25s.,,,,0,0,0,"HP auto-recovery
+20845000,Witch's Blessing,2,3550,200,0,0,100,0,0,300,None,None,None,Auto-fills all allies' Arts gauges by 8 & auto-recovers HP by 8% for 25s.,,,,0,0,0,"HP auto-recovery
 Arts gauge auto-fill",0,0,0,
-20845600,Ice Barrier,2,3484,25,0,0,100,0,0,100,None,None,None,Reduces all allies' Physical DMG taken by 25% & Negates all allies' DMG taken for a total of 10000 for 30s.,,,,0,0,0,,0,0,0,
-20845700,Ice Barrier,2,3484,35,0,0,100,0,0,100,None,None,None,Reduces all allies' Physical DMG taken by 35% & Negates all allies' DMG taken for a total of 15000 for 30s.,,,,0,0,0,,0,0,0,
+20845600,Ice Barrier,2,3484,25,0,0,100,0,0,100,None,None,None,Reduces all allies' Physical DMG taken by 25% & negates all allies' DMG taken for a total of 10000 for 30s.,,,,0,0,0,,0,0,0,
+20845700,Ice Barrier,2,3484,35,0,0,100,0,0,100,None,None,None,Reduces all allies' Physical DMG taken by 35% & negates all allies' DMG taken for a total of 15000 for 30s.,,,,0,0,0,,0,0,0,
 20845800,Land Tremor,2,1067,100,75000,1500,100,5,1,200,None,None,None,"75000% Dark DMG (Physical).
 Ignores enemy's DEF by 100% & reduces enemy's Physical resistance by 50% for 45s.",,,,0,0,0,,0,0,0,
 20845900,Land Tremor,2,1067,100,80000,2000,100,5,1,200,None,None,None,"80000% Dark DMG (Physical).
 Ignores enemy's DEF by 100% & reduces enemy's Physical resistance by 70% for 45s.",,,,0,0,0,,0,0,0,
 20846000,Raging Flail,2,0,0,200000,2500,100,5,1,300,None,None,None,"200000% Dark DMG (Physical).
 Doubles own Super Arts DMG (Max 3 Times per quest).
-The more HP Demonic Rem has when activating Super Arts, reduces enemy's Dark resistance for 20s (MAX 200%).",,,,0,0,0,,0,0,0,
+The more HP Demonified Rem has when activating Super Arts, reduces enemy's Dark resistance for 20s (MAX 200%).",,,,0,0,0,,0,0,0,
 20846600,Ice Brand Arts,2,2009,3,20000,600,100,2,1,100,None,None,None,"20000% Water DMG (Physical).
 50% chance of Fainting enemy for 3s.",,,,0,0,0,,0,0,0,
 20846700,Ice Brand Arts,2,2009,3,25000,1100,100,2,1,100,None,None,None,"25000% Water DMG (Physical).
@@ -6778,7 +6778,7 @@ Reduces enemy's Physical resistance by 100% for 60s.",,,,0,0,0,,0,0,0,
 40004700,Seal Resistance Lv5,4,3005,1400,None,0,100,None,None,None,None,0,None,Seal Time Reduction & Seal Evasion rate 50% UP.,,ability_anti_silence.png,,0,0,0,,0,0,0,
 40004800,Seal Resistance Lv6,4,3005,1500,None,0,100,None,None,None,None,0,None,Seal Time Reduction & Seal Evasion rate 60% UP.,,ability_anti_silence.png,,0,0,0,,0,0,0,
 40004900,Seal Resistance Lv7,4,3005,1600,None,0,100,None,None,None,None,0,None,Seal Time Reduction & Seal Evasion rate 70% UP ,0,ability_anti_silence.png,,0,0,0,,0,0,0,
-40005000,Seal Resistance Lv8,4,3005,1700,None,0,100,None,None,None,None,0,None,Seal Time Reduction & Seal Evasion rate 80% UP.,,ability_anti_silence.png,,0,0,0,,0,0,0,
+40005000,Seal Resistance Lv8,4,3005,1700,None,0,100,None,None,None,None,0,None,Seal resistance 80% UP.,,ability_anti_silence.png,,0,0,0,,0,0,0,
 40005100,Seal Resistance Lv9,4,3005,1800,None,None,100,None,None,None,None,0,None,Seal resistance 90% UP.,,ability_anti_silence.png,,0,0,0,,0,0,0,
 40005200,Seal Resistance Lv10,4,3005,1900,None,None,100,None,None,None,None,0,None,Seal resistance 100% UP.,,ability_anti_silence.png,,0,0,0,,0,0,0,
 40005300,Physical Resistance Lv1,4,3024,1000,None,None,100,None,None,None,None,0,None,Physical DMG from enemy 5% DOWN.,,ability_physical_cut.png,,0,0,0,,0,0,0,
@@ -15217,6 +15217,12 @@ HITに関係なく、敵を猛炎状態にする（effect_value=1000、script_va
 88582500,Envy Pressure,1,-1,0,5000,300,100,2,2,None,None,None,None,5000%の水属性魔法ダメージ,,,,0,0,0,,0,0,0,
 88582600,Gamma Void,1,-1,0,0,2000,100,0,0,None,None,None,None,2000の無属性固定ダメージ,,,,0,0,0,,0,0,0,
 88582700,Murderous Eclipse,1,-1,0,28000,2000,100,5,2,None,None,None,None,28000%の闇属性魔法ダメージ,,,,0,0,0,,0,0,0,
+88586000,Santa Rovina,1,-1,0,35000,2000,100,4,2,None,None,None,None,"35000%の光属性魔法ダメージ
+",,,,0,0,0,,0,0,0,
+88586100,Treamaltia,1,-1,0,45000,2000,100,4,2,None,None,None,None,"45000%の光属性魔法ダメージ
+HITに関係なく、永続で敵全体の被ダメージ40%UP（重複あり）",,,,0,0,0,DMG taken UP,0,0,0,
+88586200,Mega Lava,1,0,0,12000,1000,100,1,2,None,None,None,None,"12000%の炎属性魔法ダメージ
+",,,,0,0,0,,0,0,0,
 88586300,Ivy Soul,1,-1,0,1600,200,100,3,1,None,None,None,None,1600%の樹属性物理ダメージ,,,,0,0,0,,0,0,0,
 88586400,Verdant Slash,1,90,1,5000,300,100,3,1,None,None,None,None,5000%の樹属性物理ダメージHit時80%確率で5秒間毒(毒は秒間30ダメージ),,,,0,0,0,,0,0,0,
 88586500,Ivy Soul,1,-1,0,2100,200,100,3,1,None,None,None,None,2100%の樹属性物理ダメージ,,,,0,0,0,,0,0,0,
@@ -16871,6 +16877,21 @@ HITに関わらず永続で敵に継続ダメージ（100ダメージ/秒）を�
 88774800,Gale Slash,1,-1,0,25000,2000,100,1,1,None,None,None,None,"25000%の炎属性物理ダメージ
 永続で敵の被ダメージ15%アップ（重複あり）",,,,0,0,0,DMG taken UP,0,0,0,
 88774900,Spinning Kick,1,-1,0,10000,2000,100,1,1,None,None,None,None,10000%の炎属性物理ダメージ,,,,0,0,0,,0,0,0,
+88775000,Ice Barrier,1,-1,0,3500,2000,100,5,1,None,None,None,None,3500%の闇属性物理ダメージ,,,,0,0,0,,0,0,0,
+88775100,Land Tremor,1,90,1,4200,2000,100,5,1,None,None,None,None,"4200%の闇属性物理ダメージ
+この奥義中、防御力10%無視",,,,0,0,0,Armor Penetration,0,0,0,
+88775200,Ice Barrier,1,-1,0,4000,2000,100,5,1,None,None,None,None,4000%の闇属性物理ダメージ,,,,0,0,0,,0,0,0,
+88775300,Land Tremor,1,90,1,6500,2000,100,5,1,None,None,None,None,"6500%の闇属性物理ダメージ
+この奥義中、防御力100%無視",,,,0,0,0,Armor Penetration,0,0,0,
+88775400,Raging Flail,1,91,1,8500,2000,100,5,1,None,None,None,None,"8500%の闇属性物理ダメージ
+100%の確率で、敵の闇属性耐性5%ダウン（ターゲット4）",,,,0,0,0,Dark resistance DOWN,0,0,0,
+88775500,Witch's Misfortune,1,-1,0,20000,2000,100,3,2,None,None,None,None,"20000%の樹属性魔法ダメージ
+70%の確率で、20秒間、敵を毒状態（秒間150ダメージ）にする（重複あり）",,,,0,0,0,,0,0,0,
+88775600,Butterfly's Whim,1,91,1,25000,2000,100,3,2,None,None,None,None,"25000%の樹属性魔法ダメージ
+90%の確率で、5秒間、敵を沈黙状態にする",,,,0,0,0,,0,0,0,
+88775700,Witch's Blessing,1,92,1,0,0,100,3,2,None,None,None,None,永続で自身のHP20000自然回復　プレイヤーユニットに永続で奥義ゲージ10自然上昇、HP5%自然回復を付与,,,,0,0,0,,0,0,0,
+88775800,Somersault,1,-1,0,2000,2000,100,1,1,None,None,None,None,2000%の炎属性物理ダメージ,,,,0,0,0,,0,0,0,
+88775900,Flame Roar,1,-1,0,3000,2000,100,1,2,None,None,None,None,3000%の炎属性魔法ダメージ,,,,0,0,0,,0,0,0,
 88778800,Woge Lanze,1,91,1,3000,2000,100,2,1,None,None,None,None,3000%の水属性物理ダメージ,,,,0,0,0,,0,0,0,
 88778900,Catch of the Day,1,91,1,4500,2000,100,2,1,None,None,None,None,4500%の水属性物理ダメージ,,,,0,0,0,,0,0,0,
 88779000,Woge Lanze Zwei,1,91,1,4500,2000,100,2,1,None,None,None,None,4500%の水属性物理ダメージ,,,,0,0,0,,0,0,0,
@@ -21221,6 +21242,14 @@ Hit時、80%の確率で5秒間暗闇",,,,0,0,0,,0,0,0,
 98596800,拡散レーザー,5,-1,0,3000,1000,100,5,2,None,None,None,None,3000%の闇属性魔法ダメージ70%の確率で20秒間敵を暗闇状態（命中率-5%）にする（重複あり）,,,,0,0,0,,0,0,0,
 98596900,衝撃波,5,-1,0,3000,1000,100,5,1,None,None,None,None,3000%の闇属性物理ダメージ,,,,0,0,0,,0,0,0,
 98597000,接近攻撃,5,-1,0,3000,1000,100,5,1,None,None,None,None,3000%の闇属性物理ダメージ,,,,0,0,0,,0,0,0,
+98600000,天からレーザー（敵座標）,5,90,0,6000,1000,100,4,2,None,None,None,None,"6000%の光属性魔法ダメージ
+50%の確率で、5秒間敵を麻痺状態にする。",,,,0,0,0,Paralyzed,0,0,0,
+98600100,玉からレーザー乱射,5,-1,0,11000,1000,100,4,2,None,None,None,None,"11000%の光属性魔法ダメージ
+",,,,0,0,0,,0,0,0,
+98600200,その場でドッスン,5,91,0,14000,1000,100,4,1,None,None,None,None,"14000%の光属性物理ダメージ
+50%の確率で、5秒間敵を麻痺状態にする。",,,,0,0,0,Paralyzed,0,0,0,
+98600300,ドッスンして接近,5,-1,0,12000,1000,100,4,1,None,None,None,None,"12000%の光属性物理ダメージ
+",,,,0,0,0,,0,0,0,
 98600400,通常攻撃,5,-1,0,100,50,100,3,1,None,None,None,None,100%の樹属性物理ダメージ,,,,0,0,0,,0,0,0,
 98600500,Thorn Wind,5,-1,0,300,100,100,3,1,None,None,None,None,300%の樹属性物理ダメージ,,,,0,0,0,,0,0,0,
 98600600,通常攻撃,5,-1,0,150,50,100,3,1,None,None,None,None,150%の樹属性物理ダメージ,,,,0,0,0,,0,0,0,
@@ -23147,6 +23176,18 @@ HITに関係なく、敵を猛毒状態にする（effect_value=600、script_val
 98848000,通常攻撃,5,-1,0,3000,1000,100,1,1,None,None,None,None,3000%の炎属性物理ダメージ,,,,0,0,0,,0,0,0,
 98848100,Sword Saint's Hand Blade,5,90,1,4500,1000,100,1,1,None,None,None,None,"4500%の炎属性物理ダメージ
 70%の確率で、20秒間、敵の攻撃力50%ダウン　70%の確率で、20秒間、敵の防御力50%ダウン",,,,0,0,0,,0,0,0,
+98848200,通常攻撃,5,-1,0,500,1000,100,5,1,None,None,None,None,500%の闇属性物理ダメージ,,,,0,0,0,,0,0,0,
+98848300,El Huma,5,-1,0,2000,1000,100,2,1,None,None,None,None,2000%の水属性物理ダメージ,,,,0,0,0,,0,0,0,
+98848400,通常攻撃,5,-1,0,1000,1000,100,5,1,None,None,None,None,1000%の闇属性物理ダメージ,,,,0,0,0,,0,0,0,
+98848500,El Huma,5,-1,0,2500,1000,100,2,1,None,None,None,None,2500%の水属性物理ダメージ,,,,0,0,0,,0,0,0,
+98848600,通常攻撃,5,90,1,300,1000,100,3,2,None,None,None,None,"300%の樹属性魔法ダメージ
+100%の確率で、10秒間、敵の全状態異常耐性20%ダウン（ターゲット4）",,,,0,0,0,Status Ailment Resistance DOWN,0,0,0,
+98848700,Relaxing Tea Party,5,-1,0,0,0,100,3,2,None,None,None,None,自身の毒、燃焼、暗闇、病気を回復,,,,0,0,0,,0,0,0,
+98848800,お手,5,-1,0,1000,1000,100,1,1,None,None,None,None,1000%の炎属性物理ダメージ,,,,0,0,0,,0,0,0,
+98848900,引っ搔き,5,-1,0,1000,1000,100,1,1,None,None,None,None,1000%の炎属性物理ダメージ,,,,0,0,0,,0,0,0,
+98849000,噛みつき,5,-1,0,1000,1000,100,1,1,None,None,None,None,1000%の炎属性物理ダメージ,,,,0,0,0,,0,0,0,
+98849100,2連引っ搔き,5,-1,0,1000,1000,100,1,1,None,None,None,None,1000%の炎属性物理ダメージ,,,,0,0,0,,0,0,0,
+98849200,咆哮,5,-1,0,1000,1000,100,1,2,None,None,None,None,1000%の炎属性魔法ダメージ,,,,0,0,0,,0,0,0,
 98853200,通常攻撃,5,0,1,500,1000,100,2,1,None,None,None,None,500%の水属性物理ダメージ,,,,0,0,0,,0,0,0,
 98853300,Proud Beast's Melancholy,5,90,1,2000,1000,100,2,1,None,None,None,None,2000%の水属性物理ダメージ,,,,0,0,0,,0,0,0,
 98853400,通常攻撃,5,0,1,500,1000,100,1,2,None,None,None,None,500%の炎属性魔法ダメージ,,,,0,0,0,,0,0,0,
@@ -79113,43 +79154,43 @@ Dark resistance DOWN.
 User Demon: ATK UP.",,,0,0,0,,0,0,0,
 305572000,"True ""Witch of Greed's Dress""",3,40249,10,0,500,100,3,2,None,None,None,None,"5000% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 10% for 8s.
-If the user is a God unit, increases DMG to enemy by 10% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 10% for 8s.","Earth DMG 5000%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572010,"True ""Witch of Greed's Dress""",3,40249,12,0,500,100,3,2,None,None,None,None,"5500% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 12% for 8s.
-If the user is a God unit, increases DMG to enemy by 11% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 11% for 8s.","Earth DMG 5500%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572020,"True ""Witch of Greed's Dress""",3,40249,14,0,500,100,3,2,None,None,None,None,"6000% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 14% for 8s.
-If the user is a God unit, increases DMG to enemy by 12% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 12% for 8s.","Earth DMG 6000%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572030,"True ""Witch of Greed's Dress""",3,40249,16,0,500,100,3,2,None,None,None,None,"6500% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 16% for 8s.
-If the user is a God unit, increases DMG to enemy by 13% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 13% for 8s.","Earth DMG 6500%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572040,"True ""Witch of Greed's Dress""",3,40249,18,0,500,100,3,2,None,None,None,None,"7000% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 18% for 8s.
-If the user is a God unit, increases DMG to enemy by 14% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 14% for 8s.","Earth DMG 7000%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572050,"True ""Witch of Greed's Dress""",3,40249,20,0,500,100,3,2,None,None,None,None,"7500% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 20% for 8s.
-If the user is a God unit, increases DMG to enemy by 15% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 15% for 8s.","Earth DMG 7500%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572060,"True ""Witch of Greed's Dress""",3,40249,22,0,500,100,3,2,None,None,None,None,"8000% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 22% for 8s.
-If the user is a God unit, increases DMG to enemy by 16% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 16% for 8s.","Earth DMG 8000%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572070,"True ""Witch of Greed's Dress""",3,40249,24,0,500,100,3,2,None,None,None,None,"8500% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 24% for 8s.
-If the user is a God unit, increases DMG to enemy by 17% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 17% for 8s.","Earth DMG 8500%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572080,"True ""Witch of Greed's Dress""",3,40249,26,0,500,100,3,2,None,None,None,None,"9000% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 26% for 8s.
-If the user is a God unit, increases DMG to enemy by 18% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 18% for 8s.","Earth DMG 9000%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572090,"True ""Witch of Greed's Dress""",3,40249,28,0,500,100,3,2,None,None,None,None,"9500% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 28% for 8s.
-If the user is a God unit, increases DMG to enemy by 19% for 8s.","Earth DMG 10000%.
+If the user is a God unit, increases DMG to enemy by 19% for 8s.","Earth DMG 9500%.
 Earth resistance DOWN. User God: DMG to enemy UP.",,,0,0,0,Earth resistance DOWN,0,0,0,
 305572100,"True ""Witch of Greed's Dress""",3,40249,30,0,500,100,3,2,None,None,None,None,"10000% Earth DMG (Magic).
 Reduces enemy's Earth resistance by 30% for 8s.
@@ -79321,37 +79362,37 @@ Increases Arts gauge by 80 (First time only).","Earth DMG 7000%.
 Earth DMG UP.
 Arts gauge UP (First time only).",,,0,0,0,Earth DMG UP,0,0,0,
 305577000,Beatrice's Tome of Wisdom,3,50716,10,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 10.
-Increases God & Spirit units HP recovery amount by 30% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 30% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577010,Beatrice's Tome of Wisdom,3,50716,12,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 12.
-Increases God & Spirit units HP recovery amount by 33% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 33% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577020,Beatrice's Tome of Wisdom,3,50716,14,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 14.
-Increases God & Spirit units HP recovery amount by 36% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 36% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577030,Beatrice's Tome of Wisdom,3,50716,16,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 16.
-Increases God & Spirit units HP recovery amount by 39% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 39% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577040,Beatrice's Tome of Wisdom,3,50716,18,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 18.
-Increases God & Spirit units HP recovery amount by 42% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 42% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577050,Beatrice's Tome of Wisdom,3,50716,20,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 20.
-Increases God & Spirit units HP recovery amount by 45% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 45% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577060,Beatrice's Tome of Wisdom,3,50716,22,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 22.
-Increases God & Spirit units HP recovery amount by 48% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 48% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577070,Beatrice's Tome of Wisdom,3,50716,24,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 24.
-Increases God & Spirit units HP recovery amount by 51% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 51% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577080,Beatrice's Tome of Wisdom,3,50716,26,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 26.
-Increases God & Spirit units HP recovery amount by 54% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 54% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577090,Beatrice's Tome of Wisdom,3,50716,28,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 28.
-Increases God & Spirit units HP recovery amount by 57% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 57% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305577100,Beatrice's Tome of Wisdom,3,50716,30,0,0,100,0,0,None,None,None,None,"Increases all allies' Arts gauges by 30.
-Increases God & Spirit units HP recovery amount by 60% for 13s.","Arts gauge UP.
+Increases God & Spirit units' HP recovery amount by 60% for 12s.","Arts gauge UP.
 God & Spirit units' HP recovery amount UP.",,,0,0,0,,0,0,0,
 305578000,Petelgeuse's Robe,3,50718,10,0,600,100,5,2,None,None,None,None,"2100% Dark DMG (Magic).
 Reduces Giant Boss' Magic resistance by 10% for 10s.","Dark DMG 2100%.

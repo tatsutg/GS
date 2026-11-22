@@ -4743,6 +4743,48 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
         ""unit/with_animation_108437112_500_60_skill5.png""
     ]
 }",2026-11-14 00:00:00-08:00,2026-11-16 23:59:59-08:00,,0
+10642,Hero Summon,106421,106422,106423,1,0,summon/banner/10642_summon_banner.png,,"{
+    ""information_image_list"": [ 
+        ""unit/unit_summon_10642.png"", 
+        ""unit/with_animation_108447312_500_60_bg.png"",
+        ""unit/unit_summon_844_p_d.png"",
+        ""unit/with_animation_108457512_500_60_bg.png"",
+        ""unit/unit_summon_845_p_d.png""
+    ],
+    ""optional_images"": [
+        ""unit/with_animation_108447312_500_60_name.png"",
+        ""unit/with_animation_108447312_500_60_skill1.png"",
+        ""unit/with_animation_108447312_500_60_skill2.png"",
+        ""unit/with_animation_108447312_500_60_skill3.png"",
+        ""unit/with_animation_108447312_500_60_skill5.png"",
+        ""unit/with_animation_108457512_500_60_name.png"",
+        ""unit/with_animation_108457512_500_60_skill1.png"",
+        ""unit/with_animation_108457512_500_60_skill2.png"",
+        ""unit/with_animation_108457512_500_60_skill3.png"",
+        ""unit/with_animation_108457512_500_60_skill5.png""
+    ]
+}",2026-11-17 18:00:00-08:00,2026-12-24 17:59:59-08:00,,0
+10643,Hero Summon,106431,0,0,1,0,summon/banner/10643_summon_banner.png,,"{
+    ""information_image_list"": [ 
+        ""unit/unit_summon_10642.png"", 
+        ""unit/with_animation_108447312_500_60_bg.png"",
+        ""unit/unit_summon_844_p_d.png"",
+        ""unit/with_animation_108457512_500_60_bg.png"",
+        ""unit/unit_summon_845_p_d.png""
+    ],
+    ""optional_images"": [
+        ""unit/with_animation_108447312_500_60_name.png"",
+        ""unit/with_animation_108447312_500_60_skill1.png"",
+        ""unit/with_animation_108447312_500_60_skill2.png"",
+        ""unit/with_animation_108447312_500_60_skill3.png"",
+        ""unit/with_animation_108447312_500_60_skill5.png"",
+        ""unit/with_animation_108457512_500_60_name.png"",
+        ""unit/with_animation_108457512_500_60_skill1.png"",
+        ""unit/with_animation_108457512_500_60_skill2.png"",
+        ""unit/with_animation_108457512_500_60_skill3.png"",
+        ""unit/with_animation_108457512_500_60_skill5.png""
+    ]
+}",2026-11-22 00:00:00-08:00,2026-11-24 23:59:59-08:00,,0
 10883,Hero Summon,108831,108832,108833,1,0,summon/banner/10066_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_20190605.png"",""unit/unit_summon_718_I.png"",""unit/unit_summon_719_I.png"",""unit/unit_summon_720_I.png"",""unit/unit_summon_107_l.png"",""unit/unit_summon_108_l.png"",""unit/unit_summon_204_l.png""] }",2019-07-03 18:00:00-08:00,2019-07-31 17:59:59-08:00,,0
 10884,Hero Summon,108841,108842,108843,1,0,summon/banner/10884_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_20190731.png"",""unit/unit_summon_707_p_d.png"",""unit/unit_summon_709_p_d.png"",""unit/unit_summon_178_l.png"",""unit/unit_summon_187_l.png"",""unit/unit_summon_104_l.png"",""unit/unit_summon_105_l.png"",""unit/unit_summon_106_l.png"",""unit/unit_summon_107_l.png"",""unit/unit_summon_114_l.png""] }",2019-07-31 18:00:00-08:00,2019-09-04 17:59:59-08:00,,0
 10885,Hero Summon,108851,108852,108853,1,0,summon/banner/10885_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_20190828.png"",""unit/unit_summon_724_r.png"",""unit/unit_summon_224_p.png"",""unit/unit_summon_245_p.png"",""unit/unit_summon_180_l.png"",""unit/unit_summon_186_l.png"",""unit/unit_summon_202_l.png"",""unit/unit_summon_182_l.png"",""unit/unit_summon_183_l.png""] }",2019-08-28 18:00:00-08:00,2019-10-02 17:59:59-08:00,,0
@@ -5566,9 +5608,12 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
 20808,Equip Summon,208081,208082,0,2,0,summon/banner/equip_summon_banner_Heal.png,,"{""information_image_list"":[""item/item_summon_38_p.png"",""item/item_summon_396_p.png"",""item/item_summon_104_p.png"",""item/item_summon_34_p.png""] }",2026-10-27 18:00:00-08:00,2026-11-03 17:59:59-08:00,,0
 20809,Equip Summon,208091,208092,0,2,0,summon/banner/20809_summon_banner.png,,"	{""information_image_list"":[""item/item_summon_20809.png"",""item/item_summon_5098_p_d.png"",""item/item_summon_5208_p_d.png"",""item/item_summon_5095_p_d.png"",""item/item_summon_5094_p_d.png"",""item/item_summon_5209_p_d.png"",""item/item_summon_5207_p_d.png"",""item/item_summon_5211_p_d.png""]}",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00,,0
 20810,Equip Summon,208101,208102,0,2,0,summon/banner/20810_summon_banner.png,,"	{""information_image_list"":[""item/item_summon_20810.png"",""item/item_summon_5565_p_d.png"",""item/item_summon_5566_p_d.png"",""item/item_summon_5567_p_d.png"",""item/item_summon_5568_p_d.png"",""item/item_summon_5569_p_d.png""]}",2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00,,0
+20811,Equip Summon,208111,208112,0,2,0,summon/banner/20811_summon_banner.png,,"{""information_image_list"":[""item/item_summon_20811.png"",""item/item_summon_5573_p_d.png"",""item/item_summon_5574_p_d.png"",""item/item_summon_5575_p_d.png"",""item/item_summon_5576_p_d.png"",""item/item_summon_5577_p_d.png""]}",2026-11-17 18:00:00-08:00,2026-12-24 17:59:59-08:00,,0
 20812,Equip Summon,208121,208122,0,2,0,summon/banner/equip_summon_banner_Magic.png,,"{""information_image_list"":[""item/item_summon_140_p.png"",""item/item_summon_164_p.png"",""item/item_summon_397_p.png"",""item/item_summon_114_p.png""] }",2026-11-03 18:00:00-08:00,2026-11-10 17:59:59-08:00,,0
 20813,Equip Summon,208131,208132,0,2,0,summon/banner/equip_summon_banner_Physical.png,,"{""information_image_list"":[""item/item_summon_122_p.png"",""item/item_summon_58_p.png"",""item/item_summon_395_p.png"",""item/item_summon_121_p.png""] }",2026-11-10 18:00:00-08:00,2026-11-17 17:59:59-08:00,,0
 20814,Equip Summon,208141,208142,0,2,0,summon/banner/equip_summon_banner_Defense.png,,"{""information_image_list"":[""item/item_summon_59_p.png"",""item/item_summon_249_p.png"",""item/item_summon_125_p.png"",""item/item_summon_126_p.png""] }",2026-11-17 18:00:00-08:00,2026-11-24 17:59:59-08:00,,0
+20815,Equip Summon,208151,208152,0,2,0,summon/banner/equip_summon_banner_Support.png,,"{""information_image_list"":[""item/item_summon_168_p.png"",""item/item_summon_398_p.png"",""item/item_summon_105_p.png"",""item/item_summon_28_p.png""] }",2026-11-24 18:00:00-08:00,2026-12-01 17:59:59-08:00,,0
+20816,Equip Summon,208161,208162,0,2,0,summon/banner/equip_summon_banner_Heal.png,,"{""information_image_list"":[""item/item_summon_38_p.png"",""item/item_summon_396_p.png"",""item/item_summon_104_p.png"",""item/item_summon_34_p.png""] }",2026-12-01 18:00:00-08:00,2026-12-08 17:59:59-08:00,,0
 30001,Alch Summon,300011,300012,0,3,0,summon/banner/30001_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_173.png"",""unit/unit_summon_175.png"",""unit/unit_summon_005.png"",""unit/unit_summon_004.png"",""unit/unit_summon_1.png"",""unit/unit_summon_2.png"",""unit/unit_summon_3.png""] }",2018-01-01 07:00:00-08:00,2020-09-17 17:59:59-08:00,,0
 30002,Alch Summon,300021,0,0,3,0,summon/banner/30002_summon_banner.png,summon/banner/30002_summon_banner_last.png,"{""information_image_list"" : [""unit/unit_summon_705_p.png"",""unit/unit_summon_706_p.png"",""unit/unit_summon_707_p.png""] }
 ",2018-04-18 17:00:00-08:00,2018-05-16 17:59:59-08:00,,0
@@ -5823,6 +5868,7 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
 30262,Deluxe Alch Summon,302621,0,0,3,0,summon/banner/30262_summon_banner.png,,"{""information_image_list"" :
 [""unit/unit_summon_30262.png"",""unit/unit_summon_406_l.png"",""unit/unit_summon_363_l.png"",""unit/unit_summon_298_l.png"",""unit/unit_summon_349_l.png"",""unit/unit_summon_200_l.png"",""unit/unit_summon_251_l.png"",""unit/unit_summon_206_l.png""] }",2026-10-26 18:00:00-08:00,2026-11-17 17:59:59-08:00,,0
 30263,ALL STAR Alch Summon,302631,302632,0,3,0,summon/banner/30263_summon_banner.png,,"{""information_image_list"" : [""unit/alch_summon_30263.png"",""unit/unit_summon_846.png"",""unit/unit_summon_843.png"",""unit/unit_summon_734.png"",""unit/unit_summon_735.png"",""unit/unit_summon_736.png"",""unit/unit_summon_737.png""] }",2026-11-05 18:00:00-08:00,2026-11-17 17:59:59-08:00,,0
+30265,ALL STAR Alch Summon,302651,302652,0,3,0,summon/banner/30265_summon_banner.png,,"{""information_image_list"" : [""unit/alch_summon_30265.png"",""unit/unit_summon_844.png"",""unit/unit_summon_845.png"",""unit/unit_summon_846.png"",""unit/unit_summon_843.png"",""unit/unit_summon_734.png"",""unit/unit_summon_735.png"",""unit/unit_summon_736.png"",""unit/unit_summon_737.png""] }",2026-11-17 18:00:00-08:00,2026-12-24 17:59:59-08:00,,0
 40001,★5 Evolved unit Summon,400011,400012,0,6,0,summon/banner/40001_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2018-01-01 07:00:00-08:00,2030-05-05 22:59:59-08:00,,0
 40003,Hero Summon,400031,400032,0,6,0,summon/banner/40003_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_714_l.png"",""unit/unit_summon_712_l.png"",""unit/unit_summon_103_l.png"",""unit/unit_summon_104_l.png"",""unit/unit_summon_105_l.png"",""unit/unit_summon_114_l.png"",""unit/unit_summon_177_l.png"",""unit/unit_summon_178_l.png""] }",2018-08-29 18:00:00-08:00,2018-10-04 03:59:59-08:00,,0
 40004,Hero Summon,400041,400042,0,6,0,summon/banner/40004_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_705_p.png"",""unit/unit_summon_706_p.png"",""unit/unit_summon_707_p.png"",""unit/unit_summon_103_l.png"",""unit/unit_summon_104_l.png"",""unit/unit_summon_114_l.png"",""unit/unit_summon_204_l.png"",""unit/unit_summon_107_l.png""] }",2018-10-03 23:00:00-08:00,2018-11-29 03:59:59-08:00,,0
@@ -7276,6 +7322,27 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
     ]
 }",2026-11-05 18:00:00-08:00,2026-12-31 17:59:59-08:00,,0
 40228,Equip Summon,402281,402282,0,7,0,summon/banner/40228_summon_banner.png,,"	{""information_image_list"":[""item/item_summon_5565_p_d.png"",""item/item_summon_5566_p_d.png"",""item/item_summon_5567_p_d.png"",""item/item_summon_5568_p_d.png"",""item/item_summon_5569_p_d.png""]}",2026-11-05 18:00:00-08:00,2026-12-31 17:59:59-08:00,,0
+40229,Hero Summon,402291,402292,0,6,0,summon/banner/40229_summon_banner.png,,"{
+    ""information_image_list"": [ 
+        ""unit/with_animation_108447312_500_60_bg.png"",
+        ""unit/unit_summon_844_p_d.png"",
+        ""unit/with_animation_108457512_500_60_bg.png"",
+        ""unit/unit_summon_845_p_d.png""
+    ],
+    ""optional_images"": [
+        ""unit/with_animation_108447312_500_60_name.png"",
+        ""unit/with_animation_108447312_500_60_skill1.png"",
+        ""unit/with_animation_108447312_500_60_skill2.png"",
+        ""unit/with_animation_108447312_500_60_skill3.png"",
+        ""unit/with_animation_108447312_500_60_skill5.png"",
+        ""unit/with_animation_108457512_500_60_name.png"",
+        ""unit/with_animation_108457512_500_60_skill1.png"",
+        ""unit/with_animation_108457512_500_60_skill2.png"",
+        ""unit/with_animation_108457512_500_60_skill3.png"",
+        ""unit/with_animation_108457512_500_60_skill5.png""
+    ]
+}",2026-11-17 18:00:00-08:00,2026-12-31 17:59:59-08:00,,0
+40230,Equip Summon,402301,402302,0,7,0,summon/banner/40230_summon_banner.png,,"{""information_image_list"":[""item/item_summon_5573_p_d.png"",""item/item_summon_5574_p_d.png"",""item/item_summon_5575_p_d.png"",""item/item_summon_5576_p_d.png"",""item/item_summon_5577_p_d.png""]}",2026-11-17 18:00:00-08:00,2026-12-31 17:59:59-08:00,,0
 40231,Equip Summon,402311,0,0,7,0,summon/banner/40231_summon_banner.png,,"	{""information_image_list"":[""item/item_summon_5098_p_d.png"",""item/item_summon_5208_p_d.png"",""item/item_summon_5095_p_d.png"",""item/item_summon_5094_p_d.png"",""item/item_summon_5209_p_d.png"",""item/item_summon_5207_p_d.png"",""item/item_summon_5210_p_d.png""]}",2026-11-05 18:00:00-08:00,2026-12-31 17:59:59-08:00,,0
 50001,STEP-UP Summon,0,0,0,1,1,summon/banner/50001_summon_banner.png,,,2019-01-09 18:00:00-08:00,2019-01-16 17:59:59-08:00,,0
 50002,STEP-UP Summon,0,0,0,1,1,summon/banner/50002_summon_banner.png,,,2019-02-27 18:00:00-08:00,2019-03-13 17:59:59-08:00,,0
@@ -7478,6 +7545,7 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
 50201,STEP-UP Summon,0,0,0,1,1,summon/banner/50201_summon_banner.png,,,2026-10-15 18:00:00-08:00,2026-11-05 17:59:59-08:00,,0
 50202,STEP-UP Summon,0,0,0,1,1,summon/banner/50202_summon_banner.png,,,2026-10-15 18:00:00-08:00,2026-11-05 17:59:59-08:00,,0
 50203,STEP-UP Summon,0,0,0,1,1,summon/banner/50203_summon_banner.png,,,2026-11-05 18:00:00-08:00,2026-12-24 17:59:59-08:00,,0
+50204,STEP-UP Summon,0,0,0,1,1,summon/banner/50204_summon_banner.png,,,2026-11-17 18:00:00-08:00,2026-12-24 17:59:59-08:00,,0
 70002,Hero Summon,700021,0,0,10,0,summon/banner/70002_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_20190206.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png"",""unit/unit_summon_182.png"",""unit/unit_summon_183.png"",""unit/unit_summon_187.png"",""unit/unit_summon_184.png"",""unit/unit_summon_185.png"",""unit/unit_summon_186.png""] }",2019-02-06 18:00:00-08:00,2019-04-01 03:59:59-08:00,,0
 70003,Hero Summon,700031,0,0,10,0,summon/banner/70003_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_004.png"",""unit/unit_summon_005.png"",""unit/unit_summon_182.png"",""unit/unit_summon_183.png"",""unit/unit_summon_187.png"",""unit/unit_summon_184.png"",""unit/unit_summon_185.png"",""unit/unit_summon_186.png""] }",2020-01-24 00:00:00-08:00,2020-04-10 03:59:59-08:00,,0
 70004,Hero Summon,700041,0,0,10,0,summon/banner/70004_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_004.png"",""unit/unit_summon_005.png"",""unit/unit_summon_182.png"",""unit/unit_summon_183.png"",""unit/unit_summon_187.png"",""unit/unit_summon_184.png"",""unit/unit_summon_185.png"",""unit/unit_summon_186.png""] }",2021-01-12 18:00:00-08:00,2021-02-07 03:59:59-08:00,,0
@@ -7526,8 +7594,9 @@ id,name,gacha_button_id1,gacha_button_id2,gacha_button_id3,gacha_type,gacha_syst
 80004,Summoner's Lottery,800041,0,0,8,0,summon/banner/80004_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_129.png"",""unit/unit_summon_238.png"",""unit/unit_summon_125.png"",""unit/unit_summon_118.png"",""unit/unit_summon_156.png"",""unit/unit_summon_120.png"",""unit/unit_summon_119.png""] }",2021-11-24 04:00:00-08:00,2022-11-23 03:59:59-08:00,,0
 80005,Summoner's Lottery,800051,0,0,8,0,summon/banner/80005_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_129.png"",""unit/unit_summon_238.png"",""unit/unit_summon_125.png"",""unit/unit_summon_118.png"",""unit/unit_summon_156.png"",""unit/unit_summon_120.png"",""unit/unit_summon_119.png""] }",2022-11-23 04:00:00-08:00,2023-11-15 03:59:59-08:00,,0
 80006,Summoner's Lottery,800061,0,0,8,0,summon/banner/80006_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2023-11-15 04:00:00-08:00,2024-11-12 03:59:59-08:00,,0
-80007,Summoner's Lottery,800071,0,0,8,0,summon/banner/80006_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2024-11-12 04:00:00-08:00,2030-12-15 17:59:59-08:00,,0
-80008,Summoner's Lottery,800081,0,0,8,0,summon/banner/80006_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2025-11-11 04:00:00-08:00,2030-12-15 17:59:59-08:00,,0
+80007,Summoner's Lottery,800071,0,0,8,0,summon/banner/80006_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2024-11-12 04:00:00-08:00,2026-11-18 03:59:59-08:00,,0
+80008,Summoner's Lottery,800081,0,0,8,0,summon/banner/80006_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2025-11-11 04:00:00-08:00,2026-11-18 03:59:59-08:00,,0
+80009,Summoner's Lottery,800091,0,0,8,0,summon/banner/80006_summon_banner.png,,"{""information_image_list"" : [""unit/unit_summon_105.png"",""unit/unit_summon_108.png"",""unit/unit_summon_116.png"",""unit/unit_summon_166.png"",""unit/unit_summon_167.png"",""unit/unit_summon_168.png"",""unit/unit_summon_004.png"",""unit/unit_summon_005.png""] }",2026-11-18 04:00:00-08:00,2030-12-15 17:59:59-08:00,,0
 90001,Raid Summons,900011,900012,0,9,0,summon/banner/90001_summon_banner.png,,"{""information_image_list"" : [""unit/box_summon_20190626.png"",""item/item_summon_528.png""] }",2019-06-26 18:00:00-08:00,2019-07-10 22:59:59-08:00,,0
 90002,Raid Summons,900021,900022,0,9,0,summon/banner/90001_summon_banner.png,,"{""information_image_list"" : [""unit/box_summon_20190828.png"",""item/item_summon_528.png""] }",2019-08-28 18:00:00-08:00,2019-09-11 22:59:59-08:00,,0
 90003,Raid Summons,900031,900032,0,9,0,summon/banner/90001_summon_banner.png,,"{""information_image_list"" : [""unit/box_summon_20191231.png"",""item/item_summon_528.png""] }",2019-12-31 07:00:00-08:00,2020-01-16 23:59:59-08:00,,0

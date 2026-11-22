@@ -1001,10 +1001,12 @@ X_SHARE_SLOT_LOGIN_BONUS_ENABLE,1,結果画面に「シェア」のボタンを�
 X_SHARE_SLOT_LOGIN_BONUS_IMAGE,1,1 なら結果画面を撮った画像を付けて、端末の共有シートを出す（出す先は X・LINE・Discord・写真に保存などからユーザーが選ぶ）。1 以外なら画像なしで X の投稿画面を開く
 X_SHARE_SLOT_LOGIN_BONUS_PRESENT_ID,86,設定マスタ X_SHARE_<場面の ID>_PRESENT_ID に、報酬のマスタ（SnsPresentMaster）の ID を入れます
 X_SHARE_SLOT_LOGIN_BONUS_PRESENT_TEXT,シェアでクリスタル1個！,
-X_SHARE_SLOT_LOGIN_BONUS_TEXT,"{name} {count}/{limit}回目の結果は{rewards}でした！
-#グラサマ #グラサマ999
-https://pr.grandsummoners.com/",投稿の文（そろわなかったとき）
-X_SHARE_SLOT_LOGIN_BONUS_TEXT_JACKPOT,"{name} {count}/{limit}回目で999がそろって{rewards}をGET！
-#グラサマ #グラサマ999
-https://pr.grandsummoners.com/",投稿の文（そろったとき）
+X_SHARE_SLOT_LOGIN_BONUS_TEXT,"{name} {count}/{limit}回目！
+{rewards}ゲット！
+#グラサマ #グラサマ10周年フルスロットル
+go.onelink.me/LVWC/twitter",投稿の文（そろわなかったとき）
+X_SHARE_SLOT_LOGIN_BONUS_TEXT_JACKPOT,"1️⃣0️⃣大当たり！！1️⃣0️⃣
+{name} {count}/{limit}回目で大当たり！{rewards}をGET！
+#グラサマ #グラサマ10周年フルスロットル
+go.onelink.me/LVWC/twitter",投稿の文（そろったとき）
 X_SHARE_URL,https://x.com/intent/post?text={text},X の投稿画面の URL。{text} に投稿の文が入る（画像なしで投稿するときに使う）
