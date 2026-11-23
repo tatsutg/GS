@@ -20,6 +20,7 @@ on:
       - 'dlc/unit/sp_manifest.json'
       - 'tools/build_sp_manifest.py'
       - 'tools/build_unitsv2_detail.py'
+      - 'units.json'
       - '.github/workflows/build-unitsv2.yml'
   workflow_dispatch: # manual "Run workflow" button
 

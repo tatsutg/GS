@@ -127,6 +127,23 @@ def rerun_only(out):
             item['rel'] = '~' + str(g)[:10]
 
 
+def sheet_equips(out):
+    """Copy 'True Equip' / 'Rec Equip' from the Units sheet (units.json) onto each record.
+    Match by Unit ID; else by the base id inside it (digits 2-5 of the unit id, e.g. an EX form)."""
+    with open(os.path.join(GS, 'units.json'), encoding='utf-8') as f:
+        rows = json.load(f)
+    by_uid = {r['Unit ID']: r for r in out.values()}
+    for row in rows:
+        vals = {k: str(row.get(k) or '').strip() for k in ('True Equip', 'Rec Equip')}
+        if not any(vals.values()):
+            continue
+        uid = row.get('Unit ID') or ''
+        m = re.search(r'\d{9}', uid)
+        rec = by_uid.get(uid) or (m and out.get(str(int(m.group()[1:5]))))
+        if rec:
+            rec.update({k: v for k, v in vals.items() if v})
+
+
 def num(v):
     try:
         return int(v)
@@ -328,6 +345,7 @@ def main():
 
         out[str(base)] = item
 
+    sheet_equips(out)
     if REGION == 'Japan':
         rerun_only(out)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
