@@ -6,7 +6,7 @@ self.TEXT is the locale table keyed by the same id (additional_lua/lib/summoner/
 [200020903] = { START_MESSAGE3 = "Negates Magic DMG taken & Light killer", ... }).
 Immunities are not coded in those scripts, so the message is the only place that states them.
 
-Texts(...).mechanics(ids, own_name) -> [[text, from the start 1 / later 0, rules], ...]
+Texts(...).mechanics(ids, own_name) -> [[text, from the start 1 / later 0, rules(, Japanese text)], ...]
   only messages that read as a rule (DMG, killer, resist, negates, UP / DOWN, ...), not the boss's lines.
   from the start: START_* / WAVE* messages; any other message is shown later in the fight (rage, HP triggers).
   rules: what the damage calculator can apply, [kind, value]:
@@ -22,6 +22,7 @@ Texts(...).mechanics(ids, own_name) -> [[text, from the start 1 / later 0, rules
   A message that names another unit ("Mokyuon:Negates Physical DMG") belongs to that unit: it is kept only
   when the name is the enemy's own.
 """
+import json
 import os
 import re
 
@@ -64,7 +65,7 @@ def rules(t):
     out = []
     if re.search(r'(物理|魔法)ダメージ無効', t):
         out += [['attr', 1 if m == '物理' else 2] for m in re.findall(r'(物理|魔法)ダメージ無効', t)]
-    if 'クリティカル' in t and '無効' in t:
+    if 'クリティカル' in t and '無効' in t and '以外' not in t:   # "クリティカル以外…無効" = only crits hit
         out.append(['crit', 0])
     if 'negat' not in s:
         return out
@@ -110,6 +111,13 @@ class Texts:
                     with open(f, encoding='utf-8', errors='replace') as h:
                         for k, v in _blocks(h.read()).items():
                             self.loc.setdefault(k, v)
+        self.ja_loc = {}
+        for root in locale_roots:
+            f = os.path.join(root, 'lib', 'summoner', 'locale', 'ja_jp.lua')
+            if os.path.exists(f):
+                with open(f, encoding='utf-8', errors='replace') as h:
+                    for k, v in _blocks(h.read()).items():
+                        self.ja_loc.setdefault(k, v)
         self.ja2en = self._ja2en(locale_roots)
 
     def _ja2en(self, locale_roots):
@@ -134,7 +142,11 @@ class Texts:
                 if j and t and JP.search(j) and not JP.search(t):
                     c = pairs.setdefault(j, {})
                     c[t] = c.get(t, 0) + 1
-        return {j: max(c.items(), key=lambda x: (x[1], x[0]))[0] for j, c in pairs.items()}
+        out = {j: max(c.items(), key=lambda x: (x[1], x[0]))[0] for j, c in pairs.items()}
+        # hand translations (Global glossary style) for lines the game never translated + fixes for tied picks
+        with open(os.path.join(os.path.dirname(__file__), 'boss_text_ja2en.json'), encoding='utf-8') as h:
+            out.update(json.load(h))
+        return out
 
     def _defaults(self, i):
         """the script's own fallback texts: {key: text}"""
@@ -143,7 +155,15 @@ class Texts:
                 f = os.path.join(r, sub, f'{i}.lua')
                 if os.path.exists(f):
                     with open(f, encoding='utf-8', errors='replace') as h:
-                        return dict(re.findall(r'self\.TEXT\.(\w+)\s+or\s+' + STR, h.read()))
+                        src = h.read()
+                    out = dict(re.findall(r'self\.TEXT\.(\w+)\s+or\s+' + STR, src))
+                    # newer scripts: boss:add(C.Start{ C.Say{ key = "START_MESSAGE2", text = "..." }, ... }); a Say
+                    # without a key gets one named after its trigger (Start -> START_..., so it counts from the start)
+                    for n, line in enumerate(src.splitlines()):
+                        trig = re.search(r'C\.(\w+)\{', line)
+                        for k, (key, t) in enumerate(re.findall(r'C\.Say\{[^}]*?(?:key\s*=\s*"(\w+)"\s*,\s*)?text\s*=\s*' + STR, line)):
+                            out.setdefault(key or f"{(trig.group(1) if trig else 'SAY').upper()}_SAY{n}_{k}", t)
+                    return out
         return {}
 
     def mechanics(self, ids, own=''):
@@ -152,6 +172,8 @@ class Texts:
         for i in ids:
             if not i:
                 continue
+            jtexts = dict(self._defaults(i))
+            jtexts.update(self.ja_loc.get(i, {}))
             texts = dict(self._defaults(i))
             texts.update(self.loc.get(i, {}))
             for key, t in texts.items():
@@ -166,5 +188,9 @@ class Texts:
                     r += [x for x in rules(ja) if x not in r]
                 if who and who.group(1).strip().lower() != own:
                     r = []                                   # another unit's rule
-                out.append([t, 1 if re.match(r'(START|WAVE)', key) else 0, r])
+                row = [t, 1 if re.match(r'(START|WAVE)', key) else 0, r]
+                jp = _clean(jtexts.get(key, ''))
+                if jp != t and JP.search(jp):
+                    row.append(jp)                           # the Japanese text, for the site's 日本語 toggle
+                out.append(row)
         return out

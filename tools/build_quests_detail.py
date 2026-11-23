@@ -78,6 +78,11 @@ BOSS_FIX = {
     5000502: [500144209],
     5000503: [500144409],
     5000504: [50123],
+    # The Demon's Dream (2002600): bosses at D*100 + n. Story quests 1-4 (3 stages each) hold one boss each at +0/+6/
+    # +12/+18 (HP 140k, 140k, 350k, 630k); the 1-stage quests 5-8 (dif 6/7/8/10) are one boss unit in 4 HP tiers
+    # (+22/+23/+24/+29). AWK (2 battles) vs +903/+904/+905 is NEEDS CONFIRMATION: left in the roster.
+    2002601: [200260000], 2002602: [200260006], 2002603: [200260012], 2002604: [200260018],
+    2002605: [200260022], 2002606: [200260023], 2002607: [200260024], 2002608: [200260029],
     # Cross Battle β (MEGA Goldola β) and Awakening Cursed Armor X (Phantom Ragsherum): 6 boss rows in the dungeon's
     # id range (stats rise with the id) for 5 quests; battle_relation_master gives the top quest 2 battles and the
     # others 1, so ids in order = BGN, INT, ADV, PRO, top battle 1, top battle 2 (Ragsherum's battle 2 has its own
@@ -305,6 +310,10 @@ def main():
         nq = len(names)
         base, stride = (did * 100, 20) if did < 1000000 else (did, 5)
         ids = [i for i in range(base, base + 100) if i in boss_enemies]
+        if not ids and did >= 1000000:
+            # older events keep their enemies at D*100 + n (The Demon's Dream 2002600 -> 200260000..200260905) with
+            # no fixed spacing per quest: they join the dungeon roster only; BOSS_FIX places the ones that are clear
+            return [(-1, boss_row(boss_enemies[i]), i) for i in range(did * 100, did * 100 + 1000) if i in boss_enemies]
         # A boss with one row per difficulty (or an even share per quest) sits in its quests in id order,
         # whatever the id spacing (e.g. Shrine of Oblivion: 4000217/227/237/247). Others keep the stride rule.
         by_unit = defaultdict(list)
