@@ -1,0 +1,833 @@
+{
+ "_note": "Site translations for voice subtitles of JP-only units (unit_master comment text). Key = the Japanese lines joined with \\n; value = English lines (same count, so subtitle timing matches). Shown with tl=1 until Global releases the official text. Used by tools/build_all_voices.py.",
+ "もとからわたしは強いのに…\nさらに余計に力なんか注いで！\nこれ以上はほどほどにして！": [
+  "I was already strong to begin with...",
+  "and you pour even more power into me!",
+  "Go easy from here on, okay!"
+ ],
+ "大きくならなかったからよかったけど…\nほんと！いい加減にしてよねっ！": [
+  "Good thing I didn't get any bigger...",
+  "Seriously! Give it a rest already!"
+ ],
+ "見くびらないでよね。\n私はあの人と世界を股にかけて\n強者をぶっ飛ばしまくった豪傑なんだから！": [
+  "Don't underestimate me.",
+  "I traveled the world with that person",
+  "and sent every strong guy flying!"
+ ],
+ "なんかわからないけど…\n無敵な感じがしてきた！": [
+  "I don't know why, but...",
+  "I feel invincible!"
+ ],
+ "ふぁ〜、別にいいけどさ…\n大きくなりそうなことは\nあんまり好きじゃないの…！": [
+  "Fwah~ I don't mind, but...",
+  "anything that might make me bigger",
+  "isn't really my thing...!"
+ ],
+ "ははははははははっ！　手応えあり！": [
+  "Hahahahahaha! I can feel it!"
+ ],
+ "恐縮でーす！": [
+  "Much obliged!"
+ ],
+ "パワーアップ！\nうん、イイ感じだね！\nこの調子で次もよろしく！": [
+  "Power up!",
+  "Yep, feeling good!",
+  "Keep it coming next time too!"
+ ],
+ "継続は力なり！\n日々の積み重ねが本当に大事！\n自分のこと褒めてあげなきゃ！": [
+  "Persistence is power!",
+  "Little by little, every day, really matters!",
+  "I should give myself some praise!"
+ ],
+ "私には成し遂げたいことがある。\nもっと成長する必要があるの。\n希望を持つことは始めの一歩よ。": [
+  "There's something I want to achieve.",
+  "I need to grow even more.",
+  "Holding on to hope is the first step."
+ ],
+ "もう大丈夫よ。\nだから諦めないで。\n私が最後まで協力してあげるからね！": [
+  "It's all right now.",
+  "So don't give up.",
+  "I'll help you all the way to the end!"
+ ],
+ "あなたの期待に応えること…\nそれが私の理想なの。\n純粋に一緒に楽しんでいこうね！": [
+  "Living up to your expectations...",
+  "that's my ideal.",
+  "Let's just enjoy this together!"
+ ],
+ "運が良いって言うこと。\nそれだけで運が良くなるの。\n自分で運を起こすのよ。": [
+  "Say that you're lucky.",
+  "That alone makes you luckier.",
+  "You make your own luck."
+ ],
+ "やってみないと分からない。\nけど、私は出来ると思ってた。\nそうやって突き進むだけよ！": [
+  "You never know until you try.",
+  "But I knew I could do it.",
+  "So I'll just keep pushing forward!"
+ ],
+ "今日の恵みに感謝を。\n努力と謙虚さこそが成長の秘訣なのですね。": [
+  "Thanks be for today's blessings.",
+  "Effort and humility are the secret to growth."
+ ],
+ "真実の眼でより多くの人々を救うため。\n私は絶えず成長しなければならないのです。": [
+  "To save more people with the Eye of Truth,",
+  "I must never stop growing."
+ ],
+ "あまねく人々に慈悲と恵みを。\n私はそのために聖女となる道を選んだのです。": [
+  "Mercy and blessings for all people.",
+  "That is why I chose the path of a saint."
+ ],
+ "クーシーと申します。\n真実の聖女と呼ばれることもありますが\n少し嘘に敏感なだけですから、お気遣いなく。": [
+  "My name is Cu Sith.",
+  "Some call me the Saint of Truth,",
+  "but I'm just a little sensitive to lies, so don't mind me."
+ ],
+ "私はクーシー。嘘と欺瞞を見抜く\n真実の眼を持つ聖女と呼ばれています。\nあなたの心が真であらんことを。": [
+  "I am Cu Sith. They call me the saint",
+  "with the Eye of Truth that sees through lies and deceit.",
+  "May your heart be true."
+ ],
+ "この幸運…\nあなたと出会えたことこそが\n運命の与え給うた奇跡なのかもしれませんね。": [
+  "This good fortune...",
+  "perhaps meeting you was itself",
+  "a miracle granted by fate."
+ ],
+ "この力にまだ先があっただなんて…\n神から授かったこの真実の眼\n必ず役に立ててみせますね。": [
+  "To think this power could go even further...",
+  "This Eye of Truth, a gift from the gods,",
+  "I will surely put it to good use."
+ ],
+ "まだまだ油断できないな。\n俺はもっと強くならなくちゃ\nいけないんだ！": [
+  "I can't let my guard down yet.",
+  "I have to get",
+  "even stronger!"
+ ],
+ "俺はレボル！\nこの剣と名誉にかけて\n魔族のために全力で戦おう！": [
+  "I'm Revol!",
+  "On this sword and my honor,",
+  "I'll fight with all I have for the Demons!"
+ ],
+ "…この程度では満足出来ん。": [
+  "...This is not enough to satisfy me."
+ ],
+ "…この恩は必ず返す。": [
+  "...I will repay this debt."
+ ],
+ "新たな一歩を踏み出すは今…。": [
+  "Now is the time to take a new step..."
+ ],
+ "…イオだ。": [
+  "...I am Io."
+ ],
+ "お前は必ず守る。": [
+  "I will protect you, no matter what."
+ ],
+ "俺は…幸運だ。": [
+  "I am... fortunate."
+ ],
+ "壁があれば越えるまでのこと。": [
+  "If there is a wall, I simply climb over it."
+ ],
+ "良い手応えだ。\nこの先も手落ちのないようにな。\n私を失望させてくれるなよ？": [
+  "A fine result.",
+  "See that you make no slips from here on.",
+  "Don't you dare disappoint me."
+ ],
+ "フッフッフ……力が滾ってくる！\nだが、満足しているわけではない。\n私の真価はこれからだ……！": [
+  "Heh heh heh... Power is surging through me!",
+  "But I am far from satisfied.",
+  "My true worth is yet to come...!"
+ ],
+ "微に入り細を穿つ。\nこの執念が私を更なる高みへと導いた。\nフ…フフフ…ハーハッハッハ！": [
+  "Attention to every last detail.",
+  "This obsession has led me to greater heights.",
+  "Heh... heh heh... Ha ha ha ha!"
+ ],
+ "ほう、私の力が必要か？\nいいだろう、手を貸そうではないか。\n契約成立だ。": [
+  "Oh? You need my power?",
+  "Very well, I shall lend you a hand.",
+  "The contract is sealed."
+ ],
+ "私の上に立つなど万死に値する！\nその蛮勇は誉めてやるが……\n跪く準備は出来ているだろうな？": [
+  "Standing above me deserves ten thousand deaths!",
+  "I'll praise your recklessness, but...",
+  "I trust you're ready to kneel?"
+ ],
+ "フフフ…ハーハッハッハ！\nどうやら天運も私に味方したようだ。": [
+  "Heh heh heh... Ha ha ha ha!",
+  "It seems even fortune is on my side."
+ ],
+ "邪魔なものは全て消し去るのみ。\n己の限界さえも例外ではない。": [
+  "Anything in my way, I simply erase.",
+  "Not even my own limits are an exception."
+ ],
+ "よーし、滾ってきた\n分かるぜ…\n俺はもっと強くなる！": [
+  "All right, I'm fired up.",
+  "I can feel it...",
+  "I'm gonna get even stronger!"
+ ],
+ "最強にまた一歩近づいた！\n俺はどこまでも成長するぜ！\nさあ、前に進もう！": [
+  "One step closer to being the strongest!",
+  "I'll keep growing no matter what!",
+  "Come on, let's move forward!"
+ ],
+ "俺の強さに惚れ込んだか？\nだが、真の力は、\nまだまだこんなもんじゃないぜ！": [
+  "Fallen for my strength?",
+  "But my true power",
+  "is way more than this!"
+ ],
+ "俺はサイってんだ！\n覚えておいて損はないぜ。\nいずれ世界中に知れ渡る名だからな！": [
+  "The name's Sai!",
+  "It's worth remembering.",
+  "Someday the whole world will know it!"
+ ],
+ "いつでも俺を頼ってくれよ！\n仕事はきっちりこなすぜ。": [
+  "Count on me anytime!",
+  "I always get the job done."
+ ],
+ "おっしゃぁ！\n来ることまで来たって感じ！\n掴んだ運は手放さないぜ！": [
+  "Yeah!",
+  "Feels like I've made it all the way!",
+  "I'm not letting go of the luck I've grabbed!"
+ ],
+ "限界に挑んでこそ男だろ！\nそして限界を破った男が俺だ！\n誰も俺を止められないぜ！": [
+  "A real man takes on his limits!",
+  "And I'm the man who broke them!",
+  "Nobody can stop me now!"
+ ],
+ "あら？　ふふ…今日は負ける気がしないわね。\nフルハウスよ。": [
+  "Oh? Heh heh... I don't feel like losing today.",
+  "Full house."
+ ],
+ "あら？　降りちゃった？\n私の役？　ふふ…知らぬが仏じゃないかしら。": [
+  "Oh? You folded?",
+  "My hand? Heh heh... Ignorance is bliss, isn't it?"
+ ],
+ "ここから先は、一天地六の賽の目次第。\nさぁ、始めましょう。魂を焦がす本当の勝負を。": [
+  "From here on, it all comes down to the roll of the dice.",
+  "Now, let's begin. A real game that sets the soul ablaze."
+ ],
+ "貴方、良い目をしてるわね。 氷のように冷たく…けれども奥底には熱を秘めた、私の好きな、勝負師の目。": [
+  "You have good eyes. Cold as ice... yet hiding a fire deep inside. The eyes of a gambler, the kind I love."
+ ],
+ "そのギラギラとした瞳…たまらないわ。\n来なさい。今から絶望の色に染めてあげる。": [
+  "Those burning eyes... I can't resist them.",
+  "Come. I'll dye them in the color of despair."
+ ],
+ "運頼み？　神頼み？\nいいえ、ここぞという時は、自分自身に賭けるのよ。": [
+  "Trust to luck? Pray to the gods?",
+  "No. When it counts, you bet on yourself."
+ ],
+ "これが、技術も、智慧も、直感すらも超えた境地。\n今ならすべてを見通せる…！": [
+  "This is a realm beyond skill, wisdom, and even intuition.",
+  "Now I can see through everything...!"
+ ],
+ "怪力じゃないデスよ！？　匠の技デス！\nゴ、ゴリラでもないデス！　可愛いうさぎデス！！": [
+  "It's not brute strength!? It's master craftsmanship!",
+  "And I'm n-not a gorilla either! I'm a cute bunny!!"
+ ],
+ "匠の技、しかとその目に刻むデース！\nどりゃああああああああああああ！！": [
+  "Burn this master craftsmanship into your eyes!",
+  "Hyaaaaaaaaaaaaaaah!!"
+ ],
+ "無理を通して、道理はぶっとばして、最後はイイ感じにハッピーエンド！ゼファーとコメット・ライナーに全部任せるデース！": [
+  "Push through the impossible, blast away reason, and wrap it up with a nice happy ending! Leave it all to Zephyr and the Comet Liner!"
+ ],
+ "獣族希望の星――\n可憐なる少女戦士、ゼファー見・参！！\nアルトヘルムの平和はゼファーが護るデース！！": [
+  "The shining hope of the Beasts—",
+  "Lovely girl warrior Zephyr, here I come!!",
+  "Zephyr will protect the peace of Altheim!!"
+ ],
+ "可憐なる少女戦士、ゼファー推参！\n蝶のように舞い、蜂のように刺す！\nどりゃああああああああああああ！！": [
+  "Lovely girl warrior Zephyr, at your service!",
+  "Float like a butterfly, sting like a bee!",
+  "Hyaaaaaaaaaaaaaaah!!"
+ ],
+ "イエーイ、強化ぁ～！\nレベルアップしたもんね～！　ウワーオ！": [
+  "Yaaay, power-up~!",
+  "I leveled up~! Wow-ow!"
+ ],
+ "あたしはシャウラ。記念学園生徒会の《会計》で\n文化部の参謀長なのです。\nつまりちょー賢いよー！ウーッ♪": [
+  "I'm Shaula, <Treasurer> of the Memorial Academy Student Council",
+  "and Chief of Staff of the culture clubs.",
+  "Which means I'm super smart! Woo♪"
+ ],
+ "お前らもカラダを鍛えな！\n強化された肉体は……オトコを無敵の戦士に変える。": [
+  "You lot, train your bodies too!",
+  "A body made stronger... turns a man into an invincible warrior."
+ ],
+ "オレは、生徒会《副会長》兼\n体育会統一王者、ハイランダー。\n……答えな。お前は戦士か、それ以外か？": [
+  "I'm Highlander, <Vice President> of the Student Council",
+  "and Unified Champion of the athletic clubs.",
+  "...Answer me. Are you a warrior, or something else?"
+ ],
+ "アルゴノウトの性能が向上した？…なるほどね。\nならこのまま限界まで強化して貰えるとありがたいわ。": [
+  "Argonaut's performance went up? ...I see.",
+  "Then I'd appreciate it if you kept enhancing it to the limit."
+ ],
+ "いいわね！\nアルゴノウトの輝きがどんどん増していくわ！": [
+  "Nice!",
+  "Argonaut is shining brighter and brighter!"
+ ],
+ "この高揚感…ファメルを駆け巡ったあの一年間を思い出すわ。何のことかって？知りたいなら付いて来なさい。私が歩む未来への旅路に。": [
+  "This thrill... it reminds me of that year I spent racing across Famel. What do I mean? If you want to know, follow me. On my journey toward the future."
+ ],
+ "ファメル王国第一王女、アンリエッタ。召喚に応じ、参上したわ。……それで？私の『最っ高に可愛い妹たち』はどこにいるのかしら。": [
+  "Henrietta, First Princess of the Kingdom of Famel, answering your summons. ...So? Where are my absolutely adorable little sisters?"
+ ],
+ "アンリエッタ及び幽騎士ジーク・フリード。召喚に応じ、参上したわ。…あら、\n貴方だったの。久しぶりね、元気にしてた？": [
+  "Henrietta and the phantom knight Sieg Freed, answering your summons. ...Oh,",
+  "it was you. Long time no see. Have you been well?"
+ ],
+ "おおー！　なんかすごく運気が高まってる気がするわ！\nこれは運試しのチャンス！\nファメル百貨店の一番くじコーナーに急がなきゃ！": [
+  "Ooh! I feel like my luck is way up!",
+  "Time to test it!",
+  "I have to hurry to the prize lottery corner at the Famel department store!"
+ ],
+ "あら、ありがとう。\nアルゴノウトの記憶領域拡張に使わせて貰うわね。": [
+  "Oh, thank you.",
+  "I'll use this to expand Argonaut's memory."
+ ],
+ "わたくしは、強くあらねばならないのです。\nミーナスさんの隣にいるために。": [
+  "I must be strong.",
+  "So that I can stand beside Minus."
+ ],
+ "いかがです？\nホントはねぇ……わたくし、強いんです。": [
+  "How's that?",
+  "Truth is... I'm actually strong."
+ ],
+ "わたくしは知りました。\nこのエチカは、あなたと出会うため、\n世界に生まれてきたのです。": [
+  "I have learned something.",
+  "I, Ethica, was born into this world",
+  "to meet you."
+ ],
+ "わたくしはエチカ。精霊国の姫にして、\n記念学園の生徒会長――\nそして今は、ミーナスさんの妻です。": [
+  "I am Ethica. Princess of the Spirit Kingdom,",
+  "President of the Memorial Academy Student Council—",
+  "and now, Minus's wife."
+ ],
+ "精霊王ジエンの娘、エチカです。\n『裁定のエチカ』とお呼びください。": [
+  "I am Ethica, daughter of the Spirit King Zien.",
+  "Please call me Ethica the Arbiter."
+ ],
+ "幸運とは、わたくしにとっては授かるものでなく、\n人に与えるものなのです。": [
+  "For me, good fortune is not something I receive,",
+  "but something I give to others."
+ ],
+ "限界は……突破します！\nわたくしの愛するあの人なら、きっとそうするはずですから！": [
+  "Limits... are there to be broken!",
+  "Because that's surely what the one I love would do!"
+ ],
+ "よし、順調順調。\n慢心せず、これからも精進していきます。": [
+  "All right, going smoothly.",
+  "I won't get complacent. I'll keep working hard."
+ ],
+ "僕には、憧れている人がいるんです。\n今日、また一歩近づけた気がします。": [
+  "There's someone I look up to.",
+  "I feel like I got one step closer today."
+ ],
+ "こんなことになるなんて――\nこんな自分になれるなんて思いもしなかった。\nあの岬での選択が、僕のすべてを変えたんだ。": [
+  "I never thought it would come to this—",
+  "that I could become someone like this.",
+  "The choice I made on that cape changed everything."
+ ],
+ "フィリルといいます。昔はカンパニーで堅実に働いていたんですけど、あの人と出会って、冒険家に…いや、海賊になりました！": [
+  "My name is Philil. I used to work a steady job at the Company, but then I met that person and became an adventurer... no, a pirate!"
+ ],
+ "今日は、僕の人生で二回目の岐路。\n不安半分。期待も半分。\n――けれど、気力は十分だ！": [
+  "Today is the second crossroads of my life.",
+  "Half worry. Half hope.",
+  "—But I've got plenty of spirit!"
+ ],
+ "うっ、うっ…僕、生まれてこの方、\nツキなんてものは感じたことがなかったんです。\nああ、今日はイイ日だなあ。": [
+  "Sniff, sniff... Ever since I was born,",
+  "I've never once felt lucky.",
+  "Ah, what a good day this is."
+ ],
+ "限界なんてものはない。\n僕以外の、誰にも決められない！": [
+  "There's no such thing as a limit.",
+  "Nobody but me gets to decide that!"
+ ],
+ "ありがとうございます！\nこのまま本来の性能に戻るまで、\nちゃんと強化してくださいね？": [
+  "Thank you very much!",
+  "Please keep enhancing me properly",
+  "until I'm back to my original performance, okay?"
+ ],
+ "まだまだ足りませんよ！\nもっともっとください！": [
+  "It's not nearly enough!",
+  "Give me more, more!"
+ ],
+ "これが超覚醒…ありがとうございます。\nでもまだです。わたくしが完全体になるには\n超・超・超覚醒ぐらい必要ですよ！": [
+  "So this is Ascension... thank you very much.",
+  "But not yet. To reach my complete form,",
+  "I'd need something like a super-super-super Ascension!"
+ ],
+ "わたくしはダンタリア。ラビッツ小隊の魔術師兼ファメル大学の客員教授です。魔術関連で質問があれば、気軽に聞いてくださいね。": [
+  "I am Dantalia, mage of the Rabbits Squad and visiting professor at Famel University. If you have any questions about magic, feel free to ask."
+ ],
+ "魔術師のダンタリアと申します。\n巷では「叡智の白竜公」なんて呼ばれてたりします。ふふ、大仰で少し恥ずかしいですけどね。": [
+  "I am Dantalia, a mage.",
+  "People call me the White Dragon Duke of Wisdom. Heh heh, it's grandiose and a little embarrassing."
+ ],
+ "おおっ！\nまさかこんなに集めていただけるとは。\n資料用として大切に保管しておきますね。": [
+  "Oh!",
+  "I never thought you'd gather this many.",
+  "I'll keep them safe as research material."
+ ],
+ "ありがとうございます。また一つ、\n性能限界値が引き上げられたようですね。": [
+  "Thank you very much. It seems",
+  "my performance limit has been raised once more."
+ ],
+ "いっくよぉーーっ！！\nパワぁああああアーーップ！！": [
+  "Here I gooo!!",
+  "Powerrrr uuup!!"
+ ],
+ "やあ、こんにちは。記念学園生徒会の《渉外》兼 帰宅部第十三代目総長モルクだよ。夜露死苦ゥ！": [
+  "Hey, hello there. I'm Morc, <Public Relations> of the Memorial Academy Student Council and 13th Grand Leader of the Go-Home Club. Nice ta meetcha!"
+ ],
+ "まだ剣に使われてるな……\nそうじゃないだろ、ギルドマスター！": [
+  "The sword's still using me...",
+  "That's not how it should be, Guild Master!"
+ ],
+ "グランスケル・アルビオン…とんでもない剣だ。\nけど…ようやくコツが掴めてきた！": [
+  "Granskel Albion... what an incredible sword.",
+  "But... I'm finally getting the hang of it!"
+ ],
+ "世界の命運なんて一人が背負うものじゃない。\nけれど、これは俺にしかできないことなんだ。\n俺が俺としてすべきことなんだ。": [
+  "The fate of the world isn't something one person should carry.",
+  "But this is something only I can do.",
+  "It's what I have to do, as myself."
+ ],
+ "俺は、レイアス。\n冒険者ギルド、アルトヘルム支部\nギルドマスターのレイアスだ。": [
+  "I'm Rayas.",
+  "Rayas, Guild Master of the Adventurers' Guild,",
+  "Altheim branch."
+ ],
+ "守護者。真なる王。特異。\n今まで、色んな呼ばれ方をしたけど……\nうん！やっぱり「冒険者」が一番しっくりくるな！": [
+  "Guardian. True King. Singularity.",
+  "I've been called a lot of things...",
+  "Yep! Adventurer still suits me best!"
+ ],
+ "一人じゃ見られなかった景色だ。\n今日あらためて思ったよ。\n俺は、仲間に恵まれている。": [
+  "A view I could never have seen alone.",
+  "Today it hit me all over again.",
+  "I'm blessed with great friends."
+ ],
+ "そんなに驚かないでくれよ。\nギルドマスターの肩書は伊達じゃないんだぜ。": [
+  "Don't look so surprised.",
+  "The Guild Master title isn't just for show."
+ ],
+ "力を求めるのは人の常。\n夢の中でも同様だ。": [
+  "Seeking power is human nature.",
+  "It is the same within dreams."
+ ],
+ "夢は現実となる。\nこの精霊王ジエンが保証しよう。": [
+  "Dreams become reality.",
+  "I, the Spirit King Zien, guarantee it."
+ ],
+ "技の極意も、シノビの在り方も\nこの神樹の剣が教えてくれる。": [
+  "The secrets of my art and the way of the shinobi—",
+  "this sacred tree sword teaches me both."
+ ],
+ "絶好調！\nまた歴代最高を叩き出してしまったかな？": [
+  "In top form!",
+  "Did I just set a new all-time best again?"
+ ],
+ "あの日、それぞれが新しい道を探すべく旅立った。あの地にイマリの里は、もうない。――今は、この胸の内にだけ。": [
+  "That day, we each set out to find a new path. The village of Imari is no longer in that land. —Now it lives only in my heart."
+ ],
+ "イマリ出身のシノビ、ミズキだ。\n今はあまり忍んでいないけどね。": [
+  "I'm Mizuki, a shinobi from Imari.",
+  "Not that I do much hiding these days."
+ ],
+ "取り戻してみせる。\n記憶の彼方に忘れられた者たちを――\nシノビを生んだ者たちを。": [
+  "I will bring them back.",
+  "Those forgotten beyond memory—",
+  "the ones who gave birth to the shinobi."
+ ],
+ "さぁ、結果発表だ。\n私は人事を尽くせたかな？": [
+  "Now, for the results.",
+  "Did I do everything I could?"
+ ],
+ "無理だと思ったら、やり方を変えればいい。\nシノビの技だって、そうやって進化させてきたんだ。": [
+  "If you think it's impossible, change how you do it.",
+  "That's how the shinobi arts evolved, too."
+ ],
+ "いくつになっても、知らないことを知るの、楽しい。": [
+  "No matter how old I get, learning what I don't know is fun."
+ ],
+ "分かった瞬間、次の「分からない」が見えてくる。": [
+  "The moment I understand, the next thing I don't understand comes into view."
+ ],
+ "これが、何周目だろう。\nシンギュラリティってやつ。": [
+  "I wonder how many loops this is.",
+  "The so-called singularity."
+ ],
+ "ウルとは文字通り「一心同体」\n思考も判断も、切り離せない。\n合理的で効率的。たぶんこれが最適解。": [
+  "Ur and I are literally one body and soul.",
+  "Our thoughts and judgments can't be separated.",
+  "Rational and efficient. Probably the optimal solution."
+ ],
+ "魔法は技術として99%理解できた。\nでも、あと1%がすごく遠い……\nまぁ、絶対諦めないけどね。": [
+  "I understand 99% of magic as a technology.",
+  "But that last 1% is so far away...",
+  "Well, I'm never giving up."
+ ],
+ "単なる偶然じゃ説明できないこともあるよ。": [
+  "Some things can't be explained as mere coincidence."
+ ],
+ "同期率って、100%超えるんだね。\nこの先が楽しみ。": [
+  "So the sync rate can go over 100%.",
+  "Can't wait to see what's next."
+ ],
+ "アークギア『千年鎖の剣』。\n何故『剣』なのかは…まぁ、そのうち分かるさ。": [
+  "Arc Gear: Millennium Chain Sword.",
+  "Why a sword? ...Well, you'll find out eventually."
+ ],
+ "手を伸ばせ。掴み取れ。\n『5秒先の未来』を。": [
+  "Reach out. Seize it.",
+  "The future, five seconds ahead."
+ ],
+ "面白きこともなきこの街をくそ面白く――\n怪盗団『アスタリスク』、今宵も参上！": [
+  "Making this dull city damn interesting—",
+  "the Phantom Thieves Asterisk strike again tonight!"
+ ],
+ "心を解き放て。\n自由に翔ぶ姿を思い描け。\nさぁ、俺たちの夜を始めよう。": [
+  "Set your heart free.",
+  "Picture yourself soaring freely.",
+  "Now, let our night begin."
+ ],
+ "怪盗団『アスタリスク』へようこそ。\nさぁ、お前の価値を示してみろ。\n遠慮はいらない。名の通り『なんでもあり』だ。": [
+  "Welcome to the Phantom Thieves Asterisk.",
+  "Now, show me what you're worth.",
+  "No need to hold back. As the name says, anything goes."
+ ],
+ "いやぁ、運が良かった。\nまぁ、少しばかりイカサマはしたけどな。": [
+  "Man, that was lucky.",
+  "Well, I did cheat a little."
+ ],
+ "怪盗団『アスタリスク』は、『なんでもあり』。\nゆえに、限界も不可能もない。": [
+  "With the Phantom Thieves Asterisk, anything goes.",
+  "So there are no limits, and nothing is impossible."
+ ],
+ "ペンは拳と同じぐらい強い！\nいや、拳はペンと同じぐらい…あれ？\nどっちだっけ、おじいちゃん。": [
+  "The pen is as mighty as the fist!",
+  "No, the fist is as mighty as the pen... huh?",
+  "Which was it, Grandpa?"
+ ],
+ "永夜拳は、東方の流れを汲む拳法。\n敵手に永遠の夜を与える、一撃必殺の拳。": [
+  "Eternal Night Fist is a martial art of the Eastern school.",
+  "A one-hit-kill fist that gives the foe an endless night."
+ ],
+ "新聞記者の誇りに懸けて、この街が……GFRが隠した不都合な真実を、暴き出してみせる！たとえ、残業代が出なくとも！": [
+  "On my pride as a reporter, I'll expose the inconvenient truths this city... the GFR has hidden! Even if I don't get paid overtime!"
+ ],
+ "魔眼なんて大っ嫌い！！欲しいのは奇跡なんか\nじゃない。昨日よりも今日確実に世界を\n良くしていける――人の強さ。": [
+  "I hate Magic Eyes!! What I want isn't some miracle.",
+  "It's the strength of people—",
+  "making the world surely better today than yesterday."
+ ],
+ "GFタブロイド社所属、\n駆け出し敏腕新聞記者セレスタよ。\nひょっとしなくても、事件起きてない？": [
+  "From GF Tabloid,",
+  "I'm Celesta, rookie ace reporter.",
+  "Don't tell me—there's a story here, isn't there?"
+ ],
+ "これが……あの伝説の……ボーナス。\n本当に存在したのね。ありがとう、頑張った私。\nありがとう、GFタブロイド社。": [
+  "So this is... the legendary... bonus.",
+  "It really exists. Thank you, hardworking me.",
+  "Thank you, GF Tabloid."
+ ],
+ "爆走れ！GF-Funny type-R！\n貴方を縛るものなんて――何もない！！": [
+  "Tear it up! GF-Funny type-R!",
+  "Nothing can hold you back—nothing!!"
+ ],
+ "色を奪う。それが私の魔眼。\nえらい人たちが欲した魔性の力。": [
+  "Stealing colors. That's my Magic Eye.",
+  "The bewitching power the big shots wanted."
+ ],
+ "夜の私が一番すき。\nこれが私の、本当の色。": [
+  "I like myself best at night.",
+  "This is my true color."
+ ],
+ "このギルティーフォートを、もっと鮮やかに。花籠の杖「オンリー・ロンリー・フラワー」よ\n今こそ、すべての色を、解き放て――": [
+  "Make this Guilty Fort more vivid. O flower-basket staff, Only Lonely Flower,",
+  "now, set every color free—"
+ ],
+ "世界が恋した色泥棒――\nオニキス・モノクローム参上。\nこれは、激アツ引いちゃったね。": [
+  "The color thief the world fell in love with—",
+  "Onyx Monochrome has arrived.",
+  "Looks like you pulled a big one."
+ ],
+ "星が見える。空に色が溢れている。\nふふふ、きっと今日は特別な夜だね。": [
+  "I can see the stars. The sky is overflowing with color.",
+  "Heh heh heh, tonight must be a special night."
+ ],
+ "いつだってラッキーガール。\nふふふ、私は好きな色を纏えるからね。": [
+  "Always a lucky girl.",
+  "Heh heh heh, I can wear any color I like."
+ ],
+ "さぁ、檻は開かれた。\n蝶よ、飛べ。どこまでも――飛べ。": [
+  "Now, the cage is open.",
+  "Fly, butterfly. As far as you can—fly."
+ ],
+ "楽に越えられる波なんて一つもない。\nけど――\n越えられない波だって一つもない！": [
+  "There's no wave that's easy to get over.",
+  "But—",
+  "there's no wave you can't get over, either!"
+ ],
+ "海に出る時、\n生きて帰ろうだなんて思わない。\n本気になる、ってそういうことでしょ？": [
+  "When I head out to sea,",
+  "I don't think about coming back alive.",
+  "That's what going all in means, right?"
+ ],
+ "レガリアに宿るプリマエーテルが\n手にした者の資質を見極める……\nアタシはね、レガリアに選ばれたの。": [
+  "The Prima Ether dwelling in a Regalia",
+  "judges the worth of whoever holds it...",
+  "And me? The Regalia chose me."
+ ],
+ "陸影発見、錨を投げて！\n海賊団オクタゴンはキャプテン、\nネアス、ここに着船！": [
+  "Land ho, drop anchor!",
+  "Captain of the Octagon Pirates,",
+  "Neas, has made port!"
+ ],
+ "出会えた、ってことは友達になる、ってこと！\nよろしく。アタシ、ネアス。\n呼び捨てオッケーだよ♪": [
+  "If we met, that means we're friends!",
+  "Nice to meet you. I'm Neas.",
+  "Just Neas is fine♪"
+ ],
+ "これってお宝？\nちまたで有名なあの秘宝！？\nツイてる…！": [
+  "Is this treasure?",
+  "That famous hidden treasure everyone talks about!?",
+  "I'm so lucky...!"
+ ],
+ "大波の後こそ、海は凪ぐ。\n優しく、穏やかに、\nすべてのしがらみを飲みこむ静けさで。": [
+  "After the great wave, the sea falls calm.",
+  "Gently, peacefully,",
+  "with a stillness that swallows every tie that binds."
+ ],
+ "身の程を知ること。\nそれが成長への第一歩です。": [
+  "Knowing your place.",
+  "That is the first step toward growth."
+ ],
+ "この理不尽な世界でただ一つ手にした力。\nそれが――『鋼鉄』。": [
+  "The one power I obtained in this unreasonable world.",
+  "That is—Steel."
+ ],
+ "GFR秩序執行官――\nそんなもので終わるつもりはない。\n私は、上り詰めてみせる。この鋼鉄と共に。": [
+  "GFR Order Enforcer—",
+  "I have no intention of ending there.",
+  "I will rise to the top. Together with this steel."
+ ],
+ "GFR秩序執行官。\n人呼んで『鋼鉄のヴォルフリート』。\n以後、お見知りおきください。": [
+  "GFR Order Enforcer.",
+  "Known as Wolfried of Steel.",
+  "I look forward to working with you."
+ ],
+ "捜査へのご協力深く感謝いたします。\n貴方が善良なギルティーフォート市民である限り\n身の安全はGFRが保障しましょう。": [
+  "My deepest thanks for your cooperation with the investigation.",
+  "As long as you remain a good citizen of Guilty Fort,",
+  "the GFR will guarantee your safety."
+ ],
+ "あぁ――\nこれは、計算に入れていませんでした。\nふふふ、貴方は幸運の女神かもしれませんね。": [
+  "Ah—",
+  "this I had not accounted for.",
+  "Heh heh heh, perhaps you are a goddess of fortune."
+ ],
+ "身の程を知ってもなお、諦めきれない。\nそんな者たちが手を伸ばすのです――『禁忌』に。": [
+  "Even knowing their place, they cannot give up.",
+  "Such people reach out—for the forbidden."
+ ],
+ "其の壱、『真域』とは己を伽藍洞にすること。\n天暁剣の基礎にして神髄だ。": [
+  "First: the True Realm means emptying yourself completely.",
+  "It is the foundation and essence of the Daybreak Sword."
+ ],
+ "其の弐、『真域』とは真なる己をとらえること。\n壱と弐を矛盾なく受け入れた時、天暁剣は成る。": [
+  "Second: the True Realm means grasping your true self.",
+  "When one and two are accepted without contradiction, the Daybreak Sword is complete."
+ ],
+ "沈まれよ、太陽。\n今は隠せ。その光を。その熱を。\nヤツをぶった斬る、その刻まで――": [
+  "Set, O sun.",
+  "Hide it for now. Your light. Your heat.",
+  "Until the moment I cut that bastard down—"
+ ],
+ "怪盗団アスタリスクの剣客、\n天暁剣剣士ヘリオルド。\nお前は荒れ狂う太陽を見たことがあるか？": [
+  "Swordsman of the Phantom Thieves Asterisk,",
+  "Heliold of the Daybreak Sword.",
+  "Have you ever seen a raging sun?"
+ ],
+ "怪盗団アスタリスクは「なんでもあり」。\nあいつらとは契約だけの関係だが、\nそんな邪道上等なところは少し気に入っている。": [
+  "With the Phantom Thieves Asterisk, anything goes.",
+  "I'm only with them by contract,",
+  "but I kind of like how they don't care about doing things the right way."
+ ],
+ "太陽と呼ぶには穏やかな光。\n日常と呼ぶには穏やかな日だ。\nこんなのも、たまには悪くはない。": [
+  "A light too gentle to call the sun.",
+  "A day too peaceful to call ordinary.",
+  "Something like this isn't bad, once in a while."
+ ],
+ "どこまでも強くなれるさ。\nとっくに底は抜けちまってるからな。": [
+  "I can get as strong as I want.",
+  "I blew through the bottom a long time ago."
+ ],
+ "よーし、いい感じだ！\nこれだけ力があれば\n魔族にだって負けないぜ！": [
+  "All right, feeling good!",
+  "With this much power,",
+  "I won't lose even to the Demons!"
+ ],
+ "俺は少しは強くなれたのかな？\n大切な仲間を守れるくらいには…\nよし、次の冒険に出発だ！": [
+  "Did I get a little stronger?",
+  "Strong enough to protect my precious friends...",
+  "All right, off to the next adventure!"
+ ],
+ "さーて、\n今度はどこを冒険しようかな♪\n世界の謎が俺を待ってるぜ！": [
+  "Now then,",
+  "where should I explore next♪",
+  "The mysteries of the world are waiting for me!"
+ ],
+ "やっぱりだ…世界にはまだ\n知らないことがたくさんあるんだ…\n次の冒険が俺を待ってるぜ！": [
+  "Just as I thought... the world still has",
+  "so much I don't know...",
+  "My next adventure awaits!"
+ ],
+ "俺は自分の力で強くなる。\nだから、そう構わなくていいぞ。\n…もちろん感謝はしているがな！": [
+  "I'll get stronger on my own.",
+  "So you don't need to fuss over me.",
+  "...I'm grateful, of course!"
+ ],
+ "体の奥底から力が溢れてくるようだ。\nまた一つ強さを理解した気がする。": [
+  "Power seems to be welling up from deep within me.",
+  "I feel I've come to understand strength a little more."
+ ],
+ "いつも心配してくれてありがとう！\nエヘヘ、あなたにお礼がしたいな…\n何でも言ってね♪": [
+  "Thanks for always worrying about me!",
+  "Ehehe, I want to thank you...",
+  "Just say the word♪"
+ ],
+ "力が…満ちてくる…\n私…もっと変われるの…？\nありがとう…": [
+  "Power... is filling me...",
+  "Can I... change even more...?",
+  "Thank you..."
+ ],
+ "だいぶ昔の勘が戻ってきたな…\nいや…それ以上か…\nフッ、お前に俺が助けられるとはな。": [
+  "My old instincts are coming back...",
+  "No... it's more than that...",
+  "Heh, to think I'd be the one helped by you."
+ ],
+ "うわっはっはっはっ！\nこりゃ、お前に一本取られたな！\nったく、年甲斐もなく熱くなっちまうぜ…！": [
+  "Wahahahaha!",
+  "You got me there!",
+  "Geez, getting all fired up at my age...!"
+ ],
+ "エヘヘッ、なんか嬉しいです♪\nこうやって助けてもらえるのが…\nありがとうございます！": [
+  "Ehehe, this makes me happy♪",
+  "Being helped like this...",
+  "Thank you so much!"
+ ],
+ "とても力強くて…少し熱いくらいです。\n一体この先はどんな世界があるのでしょう？\nまだまだご一緒させてください♪": [
+  "It's so powerful... almost a little hot.",
+  "I wonder what kind of world lies ahead?",
+  "Please let me keep going with you♪"
+ ],
+ "少しはマシになったじゃない！\nうんうん、これも私のおかげかな♪\nじょ、冗談よ！そんな顔しないで！": [
+  "Look at you, a little better now!",
+  "Yep, yep, I guess that's thanks to me♪",
+  "J-just kidding! Don't make that face!"
+ ],
+ "私はいつでも真剣に夢を追いかけている。\nあなたにもそれがわかるのね…。\nそりゃー限界とか言ってられないわよね。": [
+  "I'm always chasing my dreams for real.",
+  "You understand that too, don't you...",
+  "Guess there's no time to talk about limits then."
+ ],
+ "ボクにもカンロクがでてきたニャ！\n風格を感じますかニャ？": [
+  "I'm starting to look dignified, meow!",
+  "Can you feel my presence, meow?"
+ ],
+ "レベルアップ…したってことか…": [
+  "So I... leveled up..."
+ ],
+ "俺は……もっと強くなれる！": [
+  "I can... get even stronger!"
+ ],
+ "力は手に入れた…誰かを二度と失わないための…": [
+  "I've got the power... so I never lose anyone again..."
+ ],
+ "…オレはルド……お前、ここの人間だよな？　ここは何なんだ！？　この世界は何なんだよ！": [
+  "...I'm Rudo... You're from here, right? What is this place!? What the hell is this world!"
+ ],
+ "LUCK MAX…？　ツイてるなんて思ったこと、今まで一度もないけどよぉ！！": [
+  "LUCK MAX...? I've never once thought I was lucky!!"
+ ],
+ "限界突破だぁ…？　そんなもん、いつだってやってんだよ！": [
+  "Limit break...? I do that all the damn time!"
+ ],
+ "レベルアップはいいねぇ。安心感ハンパねー。": [
+  "Leveling up is nice. Real reassuring."
+ ],
+ "んじゃ、ご厚意に甘えて強化されときますか。": [
+  "Well then, guess I'll take you up on it and get enhanced."
+ ],
+ "成長に必要なのは“気付くこと”…\n俺ら伸びしろしかねぇな。": [
+  "What you need to grow is to notice things...",
+  "We've got nothing but room to grow."
+ ],
+ "俺はエンジン。しがない掃除屋だ。": [
+  "I'm Enjin. Just a lowly Cleaner."
+ ],
+ "ツキがマックスなんだとさ。ありがてぇ。": [
+  "Says my luck's maxed out. Much obliged."
+ ],
+ "大人でもよ、限界超えて成長しなきゃいけねえ時は\nくそほどあんだ。": [
+  "Even grown-ups, there are times you gotta push past your limits and grow,",
+  "and there's a damn lot of 'em."
+ ],
+ "俺が…もっと強くなりゃ何の問題もねえんじゃ！": [
+  "If I just... get stronger, there's no problem at all!"
+ ],
+ "天才サンはええのぉ。\nこちとら、よぉやっと次のレベルじゃ。": [
+  "Must be nice being a genius.",
+  "Me, I'm only just reaching the next level."
+ ],
+ "まだじゃ…まだ努力が足りん…\n俺はまだ負けとらん！！": [
+  "Not yet... I'm still not working hard enough...",
+  "I haven't lost yet!!"
+ ],
+ "俺は掃除屋、ザンカ・ニジク。\nお前の世話を任された。": [
+  "I'm a Cleaner, Zanka Nijiku.",
+  "I've been put in charge of looking after you."
+ ],
+ "運なんてなくても、俺は強くなれるんじゃ。\n舐めんなよ。": [
+  "I can get strong without any luck.",
+  "Don't underestimate me."
+ ],
+ "あんなぁ！俺みたいな限界だらけの“凡”は…\nいつだって限界突破せな、やっとれんのじゃ！！": [
+  "Listen! An ordinary guy like me, full of limits...",
+  "has to break them every single time just to keep going!!"
+ ],
+ "ハイハーイ、おまたせー。強化したよー。": [
+  "Hi hiii, sorry for the wait. You're enhanced."
+ ],
+ "お、強化された？\nレベルアップすると心の余裕が出るよねー。": [
+  "Oh, I got enhanced?",
+  "Leveling up gives you some peace of mind, huh."
+ ],
+ "安心して。\n強くなってもザ・リッパー（ハサミ）に\n血を付ける気は無いから。": [
+  "Don't worry.",
+  "Even if I get stronger, I've got no plans",
+  "to get blood on The Ripper (my scissors)."
+ ],
+ "ありがと、排出してくれたんだ。\n――リヨウでよろしく。掃除屋だよ。": [
+  "Thanks for pulling me.",
+  "—Call me Riyo. I'm a Cleaner."
+ ],
+ "色々わかんないけど……今ちょっとツイてるんだって。": [
+  "Not sure about a lot of things... but they say I'm a bit lucky right now."
+ ],
+ "限界突破、するね。\n「仲間は敵から守らなきゃいけない」から。": [
+  "I'm gonna break my limit.",
+  "Because you have to protect your friends from enemies."
+ ],
+ "怪盗団アスタリスクの剣客、\n天暁剣剣士ヘリオルドだ。\nお前は荒れ狂う太陽を見たことがあるか？": [
+  "Swordsman of the Phantom Thieves Asterisk,",
+  "I am Heliold of the Daybreak Sword.",
+  "Have you ever seen a raging sun?"
+ ]
+}
