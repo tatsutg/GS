@@ -2,14 +2,20 @@
 
 Input : dlc/Japan/unit/animation/<unit id>.json/.atlas/.png   (Spine 3.0.12 / 3.6.53 exports, copied from the JP dlc)
 Output: dlc/Japan/unit/animation/sprite_manifest.json
-        {"v": 1, "units": {"<unit id>": ["idle", "attack1", ...]}}
-        animation names in the skeleton's own order; zero-length / helper animations are left out.
+        {"v": 2, "units": {"<unit id>": ["idle", "attack1", ...]}, "ef": {"<unit id>": ["10001ef", "5"]}}
+        units: animation names in battle order; zero-length / helper animations are left out.
+        ef: the unit's battle-effect skeleton 1<base>ef (fire, beams, rocks … drawn with the moves) and the
+            prefix of its animations for this form: "<prefix>-skill2" plays with the unit's "skill2".
+            prefix = unit_master.evolution_stage (Clyde 2★ 100012111 = 1 … Awoken 100016111 = 5; matches 1261
+            of 1281 units); when that prefix is missing and the file has only one, that one (20 units, all
+            evolution_stage 1 with only "2-" moves: NEEDS CONFIRMATION that the game does the same).
 
 The site plays the files straight from this folder with spine-ts 3.6 (js/unitsprite.js renames the 3.0-only
 mesh types the same way js/battlesim.js does), so nothing is converted here.
 
 Run: python -I tools/build_sprite_manifest.py
 """
+import csv
 import json
 import re
 import sys
@@ -19,6 +25,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 ANIM = ROOT / 'dlc' / 'Japan' / 'unit' / 'animation'
 OUT = ANIM / 'sprite_manifest.json'
+DBS = [ROOT / 'dlc' / s / '_DATABASE' / 'others' / 'unit_master.csv' for s in ('Japan', 'Global')]
 
 # helper / clone / gallery animations nobody wants as a button
 SKIP = re.compile(r'^(empty|enpty|none)$|^zclone|library|origin', re.I)
@@ -51,6 +58,36 @@ def duration(anim):
     return t
 
 
+def stages():
+    """unit id -> evolution_stage (JP DB first, Global for ids JP lacks)."""
+    csv.field_size_limit(10 ** 8)
+    out = {}
+    for db in DBS:
+        if db.exists():
+            with db.open(encoding='utf-8') as fh:
+                for r in csv.DictReader(fh):
+                    out.setdefault(r['id'], r['evolution_stage'])
+    return out
+
+
+def effects(units):
+    """unit id -> [effect skeleton name, animation prefix] for units whose 1<base>ef file has moves for them."""
+    stage, cache, out = stages(), {}, {}
+    for uid in units:
+        name = f'1{uid[1:5]}ef'
+        if name not in cache:
+            f = ANIM / f'{name}.json'
+            anims = json.loads(f.read_bytes().decode('utf-8', 'replace')).get('animations', {}) if f.exists() else {}
+            cache[name] = sorted({m.group(1) for m in (re.match(r'^(\d+)-', n) for n in anims) if m})
+        pre = cache[name]
+        st = stage.get(uid)
+        if st in pre:
+            out[uid] = [name, st]
+        elif len(pre) == 1:
+            out[uid] = [name, pre[0]]
+    return out
+
+
 def main():
     units, bad = {}, []
     for f in sorted(ANIM.glob('1' + '[0-9]' * 8 + '.json')):
@@ -70,11 +107,13 @@ def main():
         names.sort(key=order)
         if names:
             units[uid] = names
-    OUT.write_text(json.dumps({'v': 1, 'units': units}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    print(f'{len(units)} units -> {OUT.relative_to(ROOT)} ({OUT.stat().st_size // 1024} KB)')
+    ef = effects(units)
+    OUT.write_text(json.dumps({'v': 2, 'units': units, 'ef': ef}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print(f'{len(units)} units, {len(ef)} with effects -> {OUT.relative_to(ROOT)} ({OUT.stat().st_size // 1024} KB)')
     for b in bad:
         print('  skipped', b)
     assert units.get('100016111', [None])[0] == 'idle', 'Clyde (100016111) should start with idle'
+    assert ef.get('100016111') == ['10001ef', '5'] and ef.get('100012111') == ['10001ef', '1'], 'Clyde effect prefixes'
 
 
 if __name__ == '__main__':
