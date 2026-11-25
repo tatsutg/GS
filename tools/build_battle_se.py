@@ -57,6 +57,11 @@ def used_cues():
                     c = cue_of(e.get('string'))
                     if c:
                         use[c] += 1
+    # default skill cut-in sounds the site plays (js/unitsprite.js CUT_SE: Arts / True Arts / Super Arts / PB / AB);
+    # the game picks them in native code, these are the bank's cut-in cues (NEEDS CONFIRMATION which one each type uses)
+    for c in ('se_battle_011_arts_shoot', 'se_battle_040_unit_call', 'se_battle_awakening_3_cutin',
+              'se_battle_phantombullet_cutin', 'se_battle_ab_cutin'):
+        use[c] += 1
     # skill cut-in sounds the unit battle scripts name (Magia Drive: SE = "SE_BATTLE_012_FULLARTS_SHOOT2")
     for d in ('Global', 'Japan'):
         for f in glob.glob(str(ROOT / 'dlc' / d / 'additional_lua' / 'unit' / '*.lua')):

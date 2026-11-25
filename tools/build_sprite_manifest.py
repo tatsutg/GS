@@ -139,8 +139,13 @@ def magia(units):
                 ev[m.group(1)] = 'in2'
             elif re.search(r'setAura\s*\(|"MD_in"', body):
                 ev[m.group(1)] = 'in'
+        # skill cut-in the script sets before / after Magia Drive (SURFACE_BOX_LIST): [voice slug, sound effect]
+        cut = {}
+        for m in re.finditer(r'\[self\.(beforeMD|afterMD)\]\s*=\s*\{(.*?)\}', lua, re.S):
+            v, se = re.search(r'VOICE\s*=\s*"VOICE_(\w+)"', m.group(2)), re.search(r'\bSE\s*=\s*"(SE_\w+)"', m.group(2))
+            cut[m.group(1)[:-2]] = [v.group(1).lower() if v else '', se.group(1).lower() if se else '']
         if ev:
-            out[uid] = [f.group(1), ev]
+            out[uid] = [f.group(1), ev, cut]
     return out
 
 
@@ -168,7 +173,7 @@ def main():
         print('  skipped', b)
     assert units.get('100016111', [None])[0] == 'idle', 'Clyde (100016111) should start with idle'
     assert 'skill3' in trans.get('101016411', [[]])[0] and trans['101016411'][1:] == ['101016411transef', '5'], 'Awoken Rayas trans'
-    assert md.get('102676212') == ['MD_2', {'md2Start': 'in'}], 'Awoken Rosetta Magia Drive'
+    assert md.get('102676212', [])[:2] == ['MD_2', {'md2Start': 'in'}] and md['102676212'][2]['before'] == ['fullarts_cutin_b_01', 'se_battle_012_fullarts_shoot2'], 'Awoken Rosetta Magia Drive'
     assert md.get('103446312', [0, {}])[1] == {'mdStart': 'in', 'md2Start': 'in2'}, 'Foliage Carver Rosetta Magia Unlimited'
     assert ef.get('100016111') == ['10001ef', '5'] and ef.get('100012111') == ['10001ef', '1'], 'Clyde effect prefixes'
 
