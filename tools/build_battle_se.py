@@ -57,6 +57,11 @@ def used_cues():
                     c = cue_of(e.get('string'))
                     if c:
                         use[c] += 1
+    # skill cut-in sounds the unit battle scripts name (Magia Drive: SE = "SE_BATTLE_012_FULLARTS_SHOOT2")
+    for d in ('Global', 'Japan'):
+        for f in glob.glob(str(ROOT / 'dlc' / d / 'additional_lua' / 'unit' / '*.lua')):
+            for m in re.finditer(r'\bSE\s*=\s*"(SE_[A-Z0-9_]+)"', Path(f).read_text(encoding='utf-8', errors='replace')):
+                use[m.group(1).lower()] += 1
     return use
 
 
