@@ -12,6 +12,9 @@ Output: dlc/Japan/unit/animation/sprite_manifest.json
             evolution_stage 1 with only "2-" moves: NEEDS CONFIRMATION that the game does the same).
         trans: units that transform in battle (Awoken Rayas …): the transformed body <unit id>trans with its own
             moves (True Arts can live only there) and its effects <unit id>transef + prefix (same rule as ef).
+        md: Magia Drive units (Knights of Blood …): {"<unit id>": ["MD_2", {"md2Start": "in"}]}. The unit's battle script
+            (additional_lua/unit/<unit id>.lua) puts the aura skeleton MD_n on the unit when a move fires the Spine event
+            "runScript_<event>": "in" = Magia Drive (MD_in, then MD_loop), "in2" = Magia Unlimited (MD_in2, then MD_loop2).
 
 The site plays the files straight from this folder with spine-ts 3.6 (js/unitsprite.js renames the 3.0-only
 mesh types the same way js/battlesim.js does), so nothing is converted here.
@@ -28,6 +31,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 ANIM = ROOT / 'dlc' / 'Japan' / 'unit' / 'animation'
 OUT = ANIM / 'sprite_manifest.json'
+LUA = [ROOT / 'dlc' / s / 'additional_lua' / 'unit' for s in ('Global', 'Japan')]
 DBS = [ROOT / 'dlc' / s / '_DATABASE' / 'others' / 'unit_master.csv' for s in ('Japan', 'Global')]
 
 # helper / clone / gallery animations nobody wants as a button
@@ -116,6 +120,30 @@ def trans_forms(units):
     return out
 
 
+def magia(units):
+    """unit id -> [aura file, {spine event: "in" | "in2"}] read from the unit's battle script."""
+    out = {}
+    for uid in units:
+        src = next((d / f'{uid}.lua' for d in LUA if (d / f'{uid}.lua').exists()), None)
+        if not src:
+            continue
+        lua = src.read_text(encoding='utf-8', errors='replace')
+        f = re.search(r'addOrbitSystemWithFile\(\s*"(MD_\d+)"', lua)
+        if not f:
+            continue
+        ev = {}
+        # each `if event.spineEvent == "x" then ... end` block of run(): what it starts
+        for m in re.finditer(r'spineEvent\s*==\s*"(\w+)"[^\n]*?\bthen(.*?)(?=\n\s*if\s+event\.spineEvent|\n\s*return|\nend)', lua, re.S):
+            body = m.group(2)
+            if re.search(r'setAura2|takeMD2|MD_in2', body):
+                ev[m.group(1)] = 'in2'
+            elif re.search(r'setAura\s*\(|"MD_in"', body):
+                ev[m.group(1)] = 'in'
+        if ev:
+            out[uid] = [f.group(1), ev]
+    return out
+
+
 def main():
     units, bad = {}, []
     for f in sorted(ANIM.glob('1' + '[0-9]' * 8 + '.json')):
@@ -133,12 +161,15 @@ def main():
             units[uid] = names
     ef = effects(units)
     trans = trans_forms(units)
-    OUT.write_text(json.dumps({'v': 2, 'units': units, 'ef': ef, 'trans': trans}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    print(f'{len(units)} units, {len(ef)} with effects, {len(trans)} transform -> {OUT.relative_to(ROOT)} ({OUT.stat().st_size // 1024} KB)')
+    md = magia(units)
+    OUT.write_text(json.dumps({'v': 2, 'units': units, 'ef': ef, 'trans': trans, 'md': md}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print(f'{len(units)} units, {len(ef)} with effects, {len(trans)} transform, {len(md)} Magia Drive -> {OUT.relative_to(ROOT)} ({OUT.stat().st_size // 1024} KB)')
     for b in bad:
         print('  skipped', b)
     assert units.get('100016111', [None])[0] == 'idle', 'Clyde (100016111) should start with idle'
     assert 'skill3' in trans.get('101016411', [[]])[0] and trans['101016411'][1:] == ['101016411transef', '5'], 'Awoken Rayas trans'
+    assert md.get('102676212') == ['MD_2', {'md2Start': 'in'}], 'Awoken Rosetta Magia Drive'
+    assert md.get('103446312', [0, {}])[1] == {'mdStart': 'in', 'md2Start': 'in2'}, 'Foliage Carver Rosetta Magia Unlimited'
     assert ef.get('100016111') == ['10001ef', '5'] and ef.get('100012111') == ['10001ef', '1'], 'Clyde effect prefixes'
 
 
