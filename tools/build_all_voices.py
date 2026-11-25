@@ -373,6 +373,7 @@ def main():
     if not a.only:
         json.dump({'units': manifest, 'subs': subs}, open(os.path.join(out, 'voices.json'), 'w', encoding='utf-8'),
                   ensure_ascii=False, separators=(',', ':'))
+        print('next: python -I tools/voice_subs_extra.py ' + out + '   (romaji + official skill names in the subtitles; needs cutlet)', file=sys.stderr)
     open(os.path.join(out, '_report.txt' if not a.only else '_report_only.txt'), 'w', encoding='utf-8').write('\n'.join(report))
 
 
