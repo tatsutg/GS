@@ -102,7 +102,7 @@ def kata_name(kata):
 
 
 # words the dictionary reads wrong or not at all (?? in the romaji): their reading, as the series / official name spells it
-READ = {'霊丸': 'Rei Gan', '闘舞': 'tōbu', '刀舞': 'tōbu', '爆根': 'bakkon', '天上天下': 'tenjō tenge', '邪王炎殺': 'jaō ensatsu', '炎殺': 'ensatsu'}
+READ = {'霊丸': 'Rei Gan', '闘舞': 'tōbu', '刀舞': 'tōbu', '爆根': 'bakkon', '天上天下': 'tenjō tenge', '邪王炎殺': 'jaō ensatsu', '炎殺': 'ensatsu', '鮮血更衣': 'senketsu kisaragi', '龍槌閃': 'ryūtsuisen', '龍巻閃': 'ryūkansen', 'ツヴァイ': 'tsuvai', 'フィーア': 'fīa', 'フュンフ': 'fyunfu', '飛天御剣流': 'hiten mitsurugi-ryū', '結跏趺斬': 'kekkafuzan', '捩摺': 'mojizuri', '玉響': 'tamayura', '炎斬剣': 'enzanken', '断砕牙': 'dansaiga', '蒼獅子': 'sōjishi', '水牙斬': 'suigazan', '流爪刃': 'ryūsōjin', '蒼流斬': 'sōryūzan', '炎断剣': 'endanken', '碧命剣': 'hekimeiken', '森精招来': 'shinsei shōrai', '神静剣': 'shinseiken', '氷竜爪': 'hyōryūsō', '彩刃斬': 'saijinzan', '双襲刃': 'sōshūjin', '疾風迅撃': 'shippū jingeki', '鳳翔烈破': 'hōshō reppa', '獣皇掌': 'jūkōshō', '炎突槍': 'entotsusō', '羅生天牙': 'rashō tenga', '襲牙': 'shūga', '牙狼': 'garō', '華厳裂斬肢': 'kegon retsuzanshi', '雪散華': 'sessanka', '場地さん': 'Baji-san', '干将・莫耶': 'Kanshō Bakuya', '風縫い': 'kazenui', '火法師': 'hibōshi', '遠坂凛': 'Tōsaka Rin', '三ツ星極制服': 'mitsuboshi gokuseifuku', '縛の装': 'shibari no sō', '我心開放': 'gashin kaihō', '闘殺法': 'tōsappō', 'ボルザンベル': 'boruzanberu', 'レイルザイデン': 'reiruzaiden', '半世紀': 'hanseiki', 'お何発': 'o-nanpatsu', '鳳蝶紋': 'agehamon', '死槍': 'shisō', '帝剣': 'teiken', '氷連波': 'hyōrenha', '忍法線斬行': 'ninpō senzangyō', '聖魔断業斬': 'seima dangōzan', '乱炎撃': 'ranengeki', '滅炎刹刃衝': 'metsuen setsujinshō'}
 
 
 def romaji(text):

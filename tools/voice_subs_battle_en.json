@@ -4,7 +4,10 @@
 "ああああ": "Aaaah!",
 "受け切れますか?": "Can you withstand this?",
 "はああああ": "Haaaah!",
-"氷なさい": "-",
+"氷なさい": [
+"凍りなさい!",
+"Freeze!"
+],
 "遊びは終わりにしようか!": "Shall we end the games?",
 "遊びは終わりにしようか": "Shall we end the games?",
 "僕の剣則についてこれるかな?": [
@@ -21,7 +24,10 @@
 ],
 "終焉の時よ、今、ここに!": "The hour of the end is here and now!",
 "レギュー": "Regyuu!",
-"レッツゴー!": "-",
+"レッツゴー!": [
+"レッツゴー!",
+"Let's go!"
+],
 "みーぎゅー": "Miigyuu!",
 "みぎゅー!": "Migyuu!",
 "もぎゅー!": "Mogyuu!",
@@ -113,9 +119,18 @@
 "ほえ面をかくな!",
 "Don't come crying to me!"
 ],
-"以上よく知れ!": "-",
-"イサギ役チビ": "-",
-"以上、ユクチリ!": "-",
+"以上よく知れ!": [
+"潔く散れ!",
+"Fall with dignity!"
+],
+"イサギ役チビ": [
+"潔く散れ!",
+"Fall with dignity!"
+],
+"以上、ユクチリ!": [
+"潔く散れ!",
+"Fall with dignity!"
+],
 "行くぞ、ジューダス!": "Let's go, Judas!",
 "私たちの前に立ったのが、運のツキだ!": "Standing in our way was your bad luck!",
 "ふおおおお": "Fuoooh!",
@@ -140,8 +155,14 @@
 "さあ、滅びるがいい!",
 "Now, perish!"
 ],
-"全ての生命に汚れよ!": "-",
-"全ての生命に汚れよ": "-",
+"全ての生命に汚れよ!": [
+"全ての生命に穢れよ!",
+"Let all life be defiled!"
+],
+"全ての生命に汚れよ": [
+"全ての生命に穢れよ!",
+"Let all life be defiled!"
+],
 "燃やされたいのかい!": "You want to get burned?",
 "全てをもう養し尽くす!": [
 "全てを燃やし尽くす!",
@@ -1086,7 +1107,10 @@
 "This single stroke cuts through everything!"
 ],
 "あだなす者を懲らしめる!": "I'll punish those who wrong us!",
-"滅炎占順衝": "-",
+"滅炎占順衝": [
+"滅炎刹刃衝!",
+"Vanishing Blaze \"Metsu-en\"!"
+],
 "参る": "Here I come.",
 "見極めてみろ!": "See if you can read it!",
 "情けはかけん": "I show no mercy.",
@@ -1164,7 +1188,10 @@
 "木っ端微塵だ!",
 "Smashed to smithereens!"
 ],
-"豊昇烈破": "-",
+"豊昇烈破": [
+"鳳翔烈破!",
+"Osho Reppa!"
+],
 "遊びは終わりだ。": "Playtime is over.",
 "泣いても許さねぇ!": "Crying won't save you!",
 "ぶっ殺してやる!": "I'll kill you!",
@@ -1172,7 +1199,10 @@
 "砕け散りやがれ!",
 "Shatter to pieces!"
 ],
-"玉揺らう!": "-",
+"玉揺らう!": [
+"玉響!",
+"Tamayura!"
+],
 "いざ参る": "Here I come.",
 "舞踊れ": "Dance.",
 "燃やし尽くそう!": "Let's burn it all!",
@@ -1184,7 +1214,10 @@
 "お覚悟!": "Prepare yourself!",
 "もらった!": "Got you!",
 "仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー 仮面ライダーファイヤー": "-",
-"持ち移り!": "-",
+"持ち移り!": [
+"捩摺!",
+"Mojizuri!"
+],
 "なんてシャキ!": [
 "なんてね!",
 "Just kidding!"
@@ -1485,7 +1518,10 @@
 "終わらせる": "I'll end it.",
 "美しく散れ!": "Fall beautifully!",
 "我が刃の慰めとなれ!": "Be the comfort of my blade!",
-"羅生天牙!": "-",
+"羅生天牙!": [
+"羅生天牙!",
+"Ethereal Fang!"
+],
 "決めます": "I'll finish this.",
 "滅殺": "Annihilate.",
 "避け切れるものなら": "If you can dodge it all,",
@@ -1634,7 +1670,10 @@
 "纏うは、アギト!",
 "I wear Agito!"
 ],
-"纏うは激凛": "-",
+"纏うは激凛": [
+"纏うは激凛。",
+"Clad in fierce frost."
+],
 "祝福の悲鳴を": "A scream of blessing.",
 "泣いておくれ": "Cry for me.",
 "贈り物を一つ": "A gift for you.",
@@ -1650,7 +1689,10 @@
 ],
 "蓬莱奥義:「血は沸き、燃える!」": "-",
 "蓬莱奥義": "-",
-"そして祈礼!": "-",
+"そして祈礼!": [
+"そして地霊!",
+"And now, spirits of the earth!"
+],
 "ひれ伏せ!": "Bow down!",
 "クソォォォォ": "Damn iiit!",
 "立ち上がれまい!": "You won't get up!",
@@ -1867,7 +1909,10 @@
 "いっけー!": "Go!",
 "さあ、召し上がれ!": "Now, dig in!",
 "おいしかったでしょ?": "Wasn't it delicious?",
-"ヤサミは禁止ね!": "-",
+"ヤサミは禁止ね!": [
+"休みは禁止ね!",
+"No breaks allowed!"
+],
 "炎帝権、一の方": [
 "炎帝拳、一の型",
 "Flame Emperor Fist, First Form."
@@ -2136,7 +2181,10 @@
 "その身に刻め": "Carve it into your body.",
 "滅びを穿て!": "Pierce with ruin!",
 "道を切り開け!": "Carve open the path!",
-"聖魔断業斬!": "-",
+"聖魔断業斬!": [
+"聖魔断業斬!",
+"Holy-Demon Karma Slash!"
+],
 "トリニダス・グローリア!": "Trinitas Gloria!",
 "光が満ちている": "The light is overflowing.",
 "月下の誓い": "A vow beneath the moon.",
@@ -2316,7 +2364,10 @@
 "カーマインの口づけ!": "Carmine's kiss!",
 "オンリーロンリーフラワー": "Only Lonely Flower.",
 "もう、大丈夫だから": "It's okay now.",
-"蜂を横にすると!": "-",
+"蜂を横にすると!": [
+"8を横にすると!",
+"Turn an 8 on its side!"
+],
 "タコは海の悪魔じゃない": "The octopus is no devil of the sea.",
 "過去、未来、現在": "Past, future, present.",
 "さあ行くよ!大海原へ!": "Let's go! To the open sea!",
@@ -2372,7 +2423,10 @@
 ],
 "フォレストコンチェルト": "Forest Concerto!",
 "スピリットシンフォニー": "Spirit Symphony!",
-"レイムバイト、バーンスクリーム": "-",
+"レイムバイト、バーンスクリーム": [
+"フレイムバイト、バーンスクリーム!",
+"Flame Bite, Burn Scream!"
+],
 "アレを舐めるなよ!": [
 "俺を舐めるなよ!",
 "Don't underestimate me!"
@@ -2422,11 +2476,17 @@
 "ミラージュスライサー": "Mirage Slicer!",
 "エンジェルアドベント": "Angel Advent!",
 "ライズアークエンジェル": "Rise Arch Angel!",
-"ドーリー": "-",
+"ドーリー": [
+"どーれ!",
+"Let's see!"
+],
 "ファントム・パレード": "Phantom Parade!",
 "ナイトメアカーニバル": "Nightmare Carnival!",
 "お!": "Oh!",
-"ウォー": "-",
+"ウォー": [
+"うおー!",
+"Uooh!"
+],
 "ぬおおおお": "Nuoooh!",
 "幻視に至る冥水": [
 "原始に至る命水!",
@@ -2474,7 +2534,10 @@
 "おとなしく調理されなさーい!": "Just be a good dish and get cooked!",
 "おとなしく調理されなさい": "Just be a good dish and get cooked.",
 "来てよかった": "Glad I came.",
-"必殺マジシリーズ": "-",
+"必殺マジシリーズ": [
+"必殺マジシリーズ!",
+"Killer Serious Series!"
+],
 "切り札を使うぜ": "I'm using my trump card.",
 "俺からは逃げられない": "You can't escape from me.",
 "ふん!": "Hmph!",
@@ -2515,7 +2578,10 @@
 "ドラゴンバスター!": "Dragon Buster!",
 "銘筆": "-",
 "数秒で十分だ": "A few seconds is enough.",
-"悔やむ!": "-",
+"悔やむ!": [
+"悔やめ!",
+"Regret it!"
+],
 "これでも喰らってな!": "Eat this!",
 "オーガフレイム!": "Ogre Flame!",
 "ヘルフレア!": "Hell Flare!",
@@ -2554,7 +2620,10 @@
 "You get to burning!": "You get to burning!",
 "これが私の本気!": "This is my true strength!",
 "この歌、聞いたことある?": "Have you heard this song?",
-"インターナルヒーロー!": "-",
+"インターナルヒーロー!": [
+"インターナルヒーロー!",
+"Internal Hero!"
+],
 "これが本当の、私!": "This is the real me!",
 "キツネ スピリット": [
 "キツネ・スピリット!",
@@ -2589,7 +2658,10 @@
 "くたばりやがれ!",
 "Drop dead!"
 ],
-"完璧によう": "-",
+"完璧によう": [
+"完璧によ!",
+"Perfect!"
+],
 "全部ぶっ潰したる": "I'll smash it all.",
 "よし!": "Alright!",
 "貴様を倒すためなら": "If it's to defeat you,",
@@ -2680,7 +2752,10 @@
 "叶うものなどない": "the Spirit of Fire.",
 "魂ごと燃えてしまえ": "Burn, soul and all.",
 "アースカフス、ストーンキャノン": "-",
-"シャンスター!": "-",
+"シャンスター!": [
+"チャンスだ!",
+"Here's my chance!"
+],
 "まずはマットドロップで!": "First, a mat drop!",
 "敵を打ち砕け!": "Shatter the enemy!",
 "急所を貫く!": "I'll pierce your vitals!",
@@ -2751,10 +2826,16 @@
 ],
 "ほら、終わった": "See, it's over.",
 "行くぞオラァァァァ": "Let's go, oraaah!",
-"大将が遠いぜ": "-",
+"大将が遠いぜ": [
+"大将が遠いぜ!",
+"The boss is still far off!"
+],
 "てやっ!": "Teya!",
 "てめえ!": "You bastard!",
-"バジサンの強さは?": "-",
+"バジサンの強さは?": [
+"場地さんの強さは!",
+"Baji-san's strength!"
+],
 "何してくれたんだ!": "What have you done!",
 "こんなもんじゃねえぞ!": "This isn't all I've got!",
 "このヤロォォォォ": "You bastaaard!",
@@ -2817,7 +2898,10 @@
 "クラスカード、セイバー、インストール": "Class Card: Saber, Install!",
 "全力の": "With all my might...",
 "え、くっそー": "Eh, dammit!",
-"グウェンテッド・ファイアー!": "-",
+"グウェンテッド・ファイアー!": [
+"クインテット・ファイアー!",
+"Quintett Feuer!"
+],
 "仮面ライダー": "-",
 "チャージ4倍、弾速最大": "Charge times four, maximum shot speed.",
 "クラスカード、ランサー、インクルード": "Class Card: Lancer, Include!",
@@ -2833,7 +2917,10 @@
 "Gae Bolg!"
 ],
 "ブレイカーゴルゴーン!": "Breaker Gorgon!",
-"ドレス・フェイク・ラインライブズ": "-",
+"ドレス・フェイク・ラインライブズ": [
+"トレース・フェイク・ナインライブズ!",
+"Trace: Fake Nine Lives!"
+],
 "だったらこんなのはどう?": "Then how about this?",
 "理由は知らない。でも、やり方は理解している": "I don't know why. But I understand how.",
 "まずはゴリ押しからの": "First, brute force, then...",
@@ -2847,7 +2934,10 @@
 "セット・サイン!": "Set, sign!",
 "1番から8番、直列起動!": "Numbers one through eight, series activation!",
 "コンパクトフルオープン": "Compact, full open!",
-"ローターシュテルヌ!": "-",
+"ローターシュテルヌ!": [
+"ローター・シュトゥルム!",
+"Roter Sturm!"
+],
 "ブチかましなさい!トールハンマー!": "Let 'em have it! Thor Hammer!",
 "まとめて吹っ飛ばして差し上げてよ!": "I'll blow you all away together!",
 "トレース、オン!": "Trace, on!",
@@ -2875,8 +2965,14 @@
 "カリバー!": "...calibur!",
 "このまま燃やす!": "I'll burn it just like this!",
 "触球、あらかぎ、爆墜": "-",
-"火法師バージョン": "-",
-"火の橋!": "-",
+"火法師バージョン": [
+"火法師拵え!",
+"Hibōshi Koshirae!"
+],
+"火の橋!": [
+"火の橋!",
+"Pyro Bridge!"
+],
 "風縫い、一晩!": "-",
 "打ち首の作法と同じ": "Same as the art of beheading.",
 "情も断りも": [
@@ -2903,7 +2999,10 @@
 "My god is me, too!"
 ],
 "なんだ、やっぱ殺せるじゃん": "Huh, so you can be killed after all.",
-"せいぜい一つで十分だ!": "-",
+"せいぜい一つで十分だ!": [
+"せいぜい一つで十分だ!",
+"One is plenty for you!"
+],
 "お前はもう": "You're already...",
 "神の怒りに": "In the wrath of the gods,",
 "逃がさねえよ": "You're not getting away.",
@@ -2955,7 +3054,10 @@
 "剣気、縮小": "-",
 "コンゴウケンキ、ヒヒイロ": "-",
 "赤、青、黄": "Red, blue, yellow.",
-"デュアルイン!": "-",
+"デュアルイン!": [
+"デュアルインパクト!",
+"Dual Impact!"
+],
 "三色混合、剣戟": "Three-color mix, swordplay!",
 "アッパー!": "Upper!",
 "インパクト!": "Impact!",
@@ -2969,7 +3071,10 @@
 "バースト!": "Burst!",
 "ヘルファイヤー!": "Hellfire!",
 "これより": "From here on,",
-"分かれは?": "-",
+"分かれは?": [
+"別れは?",
+"Any last farewells?"
+],
 "奉納で": "-",
 "挨拶と共にが": "-",
 "ウォール!": "Wall!",
@@ -2984,7 +3089,10 @@
 "いじめてくれたな!": "You've been picking on me!",
 "私より弱い": "You're weaker than me.",
 "シャードバックショット!": "Shard Buckshot!",
-"面倒くで!面倒くで!": "-",
+"面倒くで!面倒くで!": [
+"面、胴、小手!面、胴、小手!",
+"Men, Dou, Kote! Men, Dou, Kote!"
+],
 "お前の動きは読めている!": "I can read your moves!",
 "突きっ、突きっ、突きぃ！": "Tsuki, tsuki, tsukiii!",
 "いいデータが取れたよ": "I got some good data.",
@@ -2994,9 +3102,18 @@
 "狙い通り": "Just as planned.",
 "ハッキング成功!": "Hacking successful!",
 "まずは形から!": "Start with the form!",
-"三ッ星極征服、縛りのぞ!": "-",
-"自分で攻めて、自分で頂点に達する": "-",
-"我心開放の力!": "-",
+"三ッ星極征服、縛りのぞ!": [
+"三ツ星極制服、縛の装!",
+"Three-Star Goku Uniform: Binding Garb!"
+],
+"自分で攻めて、自分で頂点に達する": [
+"自分で攻めて、自分で頂点に達する!",
+"I attack on my own and reach the peak on my own!"
+],
+"我心開放の力!": [
+"我心開放の力!",
+"The power of Persona Unleashed!"
+],
 "あがけ、あがけ!": "Struggle, struggle!",
 "これぞ秘技、自縄自縛!": "This is my secret art: Self-Flagellation!",
 "少し大きいのをあげましょうか": "Shall I give you a bigger one?",
@@ -3034,7 +3151,10 @@
 "ナインライブズ、インサマー!": "Nine Lives, in Summer!",
 "おにーさん、花火すき?": "Mister, do you like fireworks?",
 "そんじゃ一発!": "Then here's one!",
-"水着フォイヤモドキ!": "-",
+"水着フォイヤモドキ!": [
+"水着フォイアもどき!",
+"Swimsuit Feuer... sort of!"
+],
 "アッハッハッハッハッ": "Ahahahaha!",
 "おっきな花火、うちあげよっか!": "Shall we launch a big firework?",
 "最大出力!": "Maximum output!",
@@ -3099,7 +3219,10 @@
 ],
 "いち、にー": "One, two.",
 "勝ったらボスが!": "If I win, the boss will",
-"一番なりなのです!": "-",
+"一番なりなのです!": [
+"一番乗りなのです!",
+"I'm first!"
+],
 "たくさん": "lots of",
 "なんにもする!": "-",
 "悪逆成敗!": "Evil, punished!",
@@ -3119,7 +3242,10 @@
 "願いましょう": "Let us pray.",
 "オーバードライブ!": "Overdrive!",
 "アライメントフィールド": "Alignment Field.",
-"ホーリー弁": "-",
+"ホーリー弁": [
+"ホーリーベル!",
+"Holy Bell!"
+],
 "この力": "This power,",
 "これで邪魔は入りません": "Now no one will interfere.",
 "奇跡はここに?": "A miracle, here?",
@@ -3154,15 +3280,27 @@
 "Turn to dust."
 ],
 "逃げて!": "Run!",
-"鬼天三剣龍": "-",
-"鬼天三重龍": "-",
+"鬼天三剣龍": [
+"飛天御剣流!",
+"Hiten Mitsurugi-ryu!"
+],
+"鬼天三重龍": [
+"飛天御剣流!",
+"Hiten Mitsurugi-ryu!"
+],
 "飛天満龍龍奥義": [
 "飛天御剣流奥義!",
 "Hiten Mitsurugi-ryu secret art!"
 ],
-"龍椎": "-",
+"龍椎": [
+"龍槌閃!",
+"Ryuutsuisen!"
+],
 "クズッ": "-",
-"アーマーかける!": "-",
+"アーマーかける!": [
+"天翔ける!",
+"Amakakeru!"
+],
 "閃!": "Flash!",
 "龍閃": "Ryusen.",
 "龍のひらめき": "The dragon's flash.",
@@ -3242,7 +3380,10 @@
 "片付けようか": "Let's clean up.",
 "さっさと終わらせようか": "Let's finish this quickly.",
 "ジュドラジルム": "Judradjim!",
-"ボルザンベル": "-",
+"ボルザンベル": [
+"ボルザンベル!",
+"Vollzanbel!"
+],
 "ゾルトラーク": "Zoltraak!",
 "対処します": "I'll handle it.",
 "こうします": "Like this.",
@@ -3267,7 +3408,10 @@
 "勝ち負けはほぼ運だね": "winning or losing is mostly luck.",
 "頭を使いすぎなんだよ": "You think too much.",
 "堂々と戦わないと": "You should fight fair and square.",
-"レイル・ザイデン": "-",
+"レイル・ザイデン": [
+"レイルザイデン!",
+"Reelseiden!"
+],
 "返せよ": "Give it back.",
 "ああ、鬱だ": "Ugh, how depressing.",
 "ターボババアの力かよ": "The Turbo Granny's power?",
@@ -3280,7 +3424,10 @@
 "これならクズ男!": "-",
 "これならクズ男、ブッ飛ばせるわい!": "With this I can blow that scumbag away!",
 "この勝負は": "This match...",
-"半世紀は!": "-",
+"半世紀は!": [
+"半世紀は…",
+"Fifty years..."
+],
 "ブッ飛ば!": [
 "ぶっ飛ばす!",
 "I'll blow you away!"
@@ -3292,13 +3439,19 @@
 "オーキューションに": "-",
 "やはり私は": "As I thought, I...",
 "アタックのチャンスは何度でも": "The chance to attack comes again and again!",
-"お何発も": "-",
+"お何発も": [
+"お何発も…",
+"Respectable repeated..."
+],
 "選ばれた": "Chosen.",
 "それがイオンなの": [
 "それがいい女なの",
 "That's what makes a good woman."
 ],
-"おブチ込む": "-",
+"おブチ込む": [
+"おブチ込む!",
+"...slams!"
+],
 "お存在": "-",
 "条件でしょ!": "That's the condition!",
 "ジュハハハハ": "Juhahahaha!",
@@ -3309,7 +3462,10 @@
 "遊びはムキに!",
 "Play to win!"
 ],
-"消してはれん": "-",
+"消してはれん": [
+"決して晴れん!",
+"It will never clear!"
+],
 "じゃのう!": "-",
 "なりたいんじゃ": "That's what I want to be!",
 "呪いの家": "A cursed house.",
@@ -3378,7 +3534,10 @@
 "この幻惑は霊魂に効く": "this illusion works on the soul.",
 "決して花をつけない桜が色づく時": "When the cherry tree that never blooms takes on color,",
 "真の反言と真の死が顕現するわ": "-",
-"蝶符、アゲハモンの死槍": "-",
+"蝶符、アゲハモンの死槍": [
+"蝶符「鳳蝶紋の死槍」!",
+"Butterfly Sign: Deadly Lance of the Swallowtail Crest!"
+],
 "パチンと一発": "One snap.",
 "クライマックスといこう!": "Let's go to the climax!",
 "フィナーレと行こう": "Let's head for the finale.",
@@ -3400,7 +3559,10 @@
 "うっへへっへっ": "Uhehehe!",
 "やりすぎたかもなのだ": "I might have overdone it.",
 "きらめく星々なのだ!": "Glittering stars!",
-"ドラゴスタリー": "-",
+"ドラゴスタリー": [
+"ドラゴスターズ!",
+"Drago Stars!"
+],
 "ハンターが…": "The hunter...",
 "お前のようなクズに…": "To trash like you...",
 "弱い者から": "From the weak,",
@@ -3424,7 +3586,10 @@
 "お好みの": "How would you",
 "総力をもって": "With all our strength,",
 "焼き加減は": "like it cooked?",
-"最終兵器の炎、総力をもって対応しましょう": "-",
+"最終兵器の炎、総力をもって対応しましょう": [
+"対応しましょう。",
+"Let us deal with this."
+],
 "ウェルダンで?": "Well done?",
 "今ここで、剣聖としての": "Here and now, as the Sword Saint,",
 "僕は化け物を狩る化け物": "I'm a monster that hunts monsters.",
@@ -3460,16 +3625,28 @@
 "絶縁状だと思って": "think of it as a letter cutting ties.",
 "大事なことは絶対に": "The important things, I'll never",
 "許してあげない!": "I won't forgive you!",
-"組み付けさせない!": "-",
+"組み付けさせない!": [
+"組み付けさせない!",
+"I won't let you grab me!"
+],
 "皇帝の遺志よ!": "The emperor's will!",
 "やってみる!": "I'll try!",
 "モンシャオケンや!": "-",
 "絶対に逃げない!": "I won't run, ever!",
 "この手に集え!": "Gather in my hand!",
 "因果を断て!": "Sever cause and effect!",
-"支配の定点、グランビス!": "-",
-"月光の定見、スカイライト!": "-",
-"コウモの経験ガークプリンガー!": "-",
+"支配の定点、グランビス!": [
+"支配の帝剣、グランヴィス!",
+"Imperial sword of dominion, Granvis!"
+],
+"月光の定見、スカイライト!": [
+"月光の帝剣、スカイライト!",
+"Imperial sword of moonlight, Sky Light!"
+],
+"コウモの経験ガークプリンガー!": [
+"降魔の帝剣、ダークブリンガー!",
+"Demon-subduing imperial sword, Dark Bringer!"
+],
 "セイバー!": "Saber!",
 "プリマエーテルの杖よ": "Staff of Prima Aether,",
 "きらめく星々よ": "glittering stars,",
@@ -3489,7 +3666,10 @@
 "我らが王に誓う": "I swear to our king.",
 "瞬きの剣": "The blink-of-an-eye sword.",
 "ガリュウ!": "-",
-"赤き血をもって、懐疑をなさん!": "-",
+"赤き血をもって、懐疑をなさん!": [
+"赤き血をもって、大義を成さん!",
+"With crimson blood, I shall fulfill our great cause!"
+],
 "マギアドライブ!": "Magia Drive!",
 "トレースオン": "Trace, on.",
 "忠告してやる": "Let me give you some advice.",
@@ -3613,7 +3793,10 @@
 "An opening! Break it!"
 ],
 "思うなよ!": "Don't think it!",
-"演算拳": "-",
+"演算拳": [
+"炎斬剣!",
+"Fire Slasher!"
+],
 "決める": "Finishing it.",
 "水泳連覇戦": [
 "双刃連破斬",
@@ -3642,7 +3825,10 @@
 "癒しを!": "Healing!",
 "これが俺の力だ": "This is my power.",
 "えぇぇぇぇ": "Eeeh!",
-"ね! だからね!": "-",
+"ね! だからね!": [
+"ね! だからね!",
+"See? I told you!"
+],
 "シャアシャアシャア": "-",
 "イェーイ!": "Yay!",
 "いやー": "Iyaa!",
@@ -3650,8 +3836,14 @@
 "うええええ": "-",
 "ブヤァァァァ": "-",
 "叩き潰す": "I'll smash you.",
-"ダンサリーガー!": "-",
-"残済が!": "-",
+"ダンサリーガー!": [
+"断砕牙!",
+"Shattering Fangs!"
+],
+"残済が!": [
+"断砕牙!",
+"Shattering Fangs!"
+],
 "うわっ": "Whoa!",
 "ホワーッ!": "Howaa!",
 "フォアーッ!": "Fwaa!",
@@ -3704,7 +3896,10 @@
 "うふふふふ": "Ufufufu.",
 "邪魔をしないで": "Don't get in my way.",
 "シャアアアアン": "-",
-"インチャクティッ!": "-",
+"インチャクティッ!": [
+"インジャスティス!",
+"Injustice!"
+],
 "ワーオーオーオーオ": "-",
 "はーりゃー!": "Haryaa!",
 "燃えてきたよ": "I'm getting fired up.",
@@ -3732,11 +3927,17 @@
 "一閃!",
 "One flash!"
 ],
-"クロスヘアグループ": "-",
+"クロスヘアグループ": [
+"クロスエアブロウ!",
+"Cross Gust!"
+],
 "出力を上げる": "Raising output.",
 "ひとりあかんわけ": "-",
 "敵を殲滅する": "Annihilating the enemy.",
-"青磁師の創始!": "-",
+"青磁師の創始!": [
+"蒼獅子の双矢!",
+"Twin Arrows of the Lion!"
+],
 "てああああ": "Teaaah!",
 "ぬああああ": "Nuaaah!",
 "そこをどけ!": "Get out of the way!",
@@ -3797,7 +3998,10 @@
 "ルミナスラッシュ!": "Luminous Slash!",
 "切り開く!": "I'll cut a path!",
 "こうなったら…": "If it's come to this...",
-"スイガザン": "-",
+"スイガザン": [
+"水牙斬!",
+"Water Fang Strike!"
+],
 "させるか!": "I won't let you!",
 "させるか": "I won't let you.",
 "やらせはしないわ!": "I won't let you!",
@@ -3839,14 +4043,20 @@
 "えいっ!": "Ei!",
 "冷たいのいくよ": "Here comes something cold.",
 "さあ、行くぞ!": "Now, let's go!",
-"例弁増減": "-",
+"例弁増減": [
+"レーヴェンザウゲン!",
+"Raven Saugen!"
+],
 "魔剣フェオーデよ、我らが敵の血を吸せる!": [
 "魔剣フェオデよ、我らが敵の血を吸え!",
 "Demon sword Feode, drink the blood of our foes!"
 ],
 "これで!": "With this!",
 "しつこい汚れにはこれです!": "This is for stubborn stains!",
-"リュウソウジン!": "-",
+"リュウソウジン!": [
+"流爪刃!",
+"Flowing Claw!"
+],
 "かわするか!": [
 "かわせるか!",
 "Can you dodge this!"
@@ -3883,7 +4093,10 @@
 "怪人とかぜ!": "-",
 "もう遅い": "Too late.",
 "丸見えなんだよ": "I can see right through you.",
-"か聞けそう": "-",
+"か聞けそう": [
+"かき消そう!",
+"I'll wipe you out!"
+],
 "届かん": "Can't reach.",
 "やけどじゃ済まないよ": "You'll get more than burns.",
 "焼き切る": "I'll burn through.",
@@ -3926,7 +4139,10 @@
 "There, this is it."
 ],
 "絶対逃がさない": "I absolutely won't let you escape.",
-"僧侶山": "-",
+"僧侶山": [
+"蒼流斬!",
+"Azure Slash!"
+],
 "ヘアー": "-",
 "さあ、受けてみよう!": [
 "さあ、受けてみよ!",
@@ -3935,7 +4151,10 @@
 "あはははは": "Ahahaha!",
 "死ね死ね死ねー": "Die, die, die!",
 "さあ行くよ": "Here we go.",
-"エンラン剣!": "-",
+"エンラン剣!": [
+"炎断剣!",
+"Fire Slasher!"
+],
 "ほらっ!": "There!",
 "叩ける!": [
 "砕ける!",
@@ -3974,7 +4193,10 @@
 "死毒の双魂": "Twin souls of deadly poison.",
 "ふはははは": "Fuhahaha!",
 "耐えられない": "You can't endure it.",
-"知れ!": "-",
+"知れ!": [
+"散れ!",
+"Scatter!"
+],
 "誇らしく死ね!": "Die proudly!",
 "てええええ いいええええ いい いい いい いい": "-",
 "愚かな主にしよう": "-",
@@ -3984,11 +4206,17 @@
 "死ね死ね死ね",
 "Die, die, die!"
 ],
-"壁明拳": "-",
+"壁明拳": [
+"碧命剣!",
+"Emerald Sword!"
+],
 "言葉知れ!": "-",
 "ギャラー": "-",
 "ミンチにしてやるぜ": "I'll make mincemeat of you.",
-"新生将来": "-",
+"新生将来": [
+"森精招来!",
+"Spirit's Invitation!"
+],
 "来たれ!": "Come!",
 "思いっきり": "With everything!",
 "てりゃああああ": "Teryaaah!",
@@ -4016,7 +4244,10 @@
 "見えるかしら?": "Can you see it?",
 "遅い遅い": "Too slow, too slow.",
 "一気に攻めるぞ": "Let's attack all at once.",
-"ブリッジショット": "-",
+"ブリッジショット": [
+"ブリッツショット!",
+"Bullet Shot!"
+],
 "そこだー!": "There!",
 "いけいけいけー!": "Go, go, go!",
 "うわっ!": "Whoa!",
@@ -4037,10 +4268,16 @@
 "それそれ": "There, there!",
 "さあ行くわよ": "Here I go.",
 "知れー!": "-",
-"新政権 除": "-",
+"新政権 除": [
+"神静剣・序!",
+"Silent Sword: Prelude!"
+],
 "それ": "There.",
 "そこも私の間合いです。": "That's within my range too.",
-"寝ると4": "-",
+"寝ると4": [
+"メルトフォール!",
+"Melt Fall!"
+],
 "んはははは": "Nhahaha!",
 "大地の怒りを": "The wrath of the earth!",
 "チェーン": [
@@ -4057,20 +4294,32 @@
 "セイヤー": "Seiya!",
 "両断!": "Cleave!",
 "ゼア": "-",
-"撃ち鳴らせ、かぶし!": "-",
+"撃ち鳴らせ、かぶし!": [
+"打ち鳴らせ、拳!",
+"Ring out, my fists!"
+],
 "軟弱ですね": "How feeble.",
 "くらえ": "Take this.",
 "せよっ!": "-",
-"恐竜そう": "-",
+"恐竜そう": [
+"氷竜爪!",
+"Icy Claws!"
+],
 "死ぬうううう": "-",
 "ラモール、ご挨拶して": "Lamort, say hello.",
 "へへへへ": "Hehehe.",
 "遅い": "Too slow.",
-"聖夜": "-",
+"聖夜": [
+"せいやー!",
+"Seiyaa!"
+],
 "力、力、アハハハハ": "Power, power, ahahaha!",
 "隙だらけだよ": "You're wide open.",
 "みんな頑張って": "Do your best, everyone.",
-"祭神山": "-",
+"祭神山": [
+"彩刃斬!",
+"Vivid Edge!"
+],
 "そりゃー": "Soryaa!",
 "受け切れるかしら": "Can you take it all?",
 "ウォーリャー!": "Woryaa!",
@@ -4080,11 +4329,17 @@
 "You won't escape."
 ],
 "耐えてみな!": "Try to endure this!",
-"あくれよ": "-",
+"あくれよ": [
+"アーク・フレア!",
+"Arc Flare!"
+],
 "邪魔なんだよな": "You're in my way.",
 "マイムヴェイル!": "Maimveil!",
 "はぁああああ": "Haaah!",
-"ご稼働!": "-",
+"ご稼働!": [
+"ご加護を!",
+"Divine protection!"
+],
 "それー": "Soree!",
 "元気になれ": "Feel better.",
 "ディバイン・フレア!": "Divine Flare!",
@@ -4092,9 +4347,15 @@
 "叩きれ": "-",
 "えへへ": "Ehehe.",
 "沈める": "I'll sink you.",
-"総集陣": "-",
+"総集陣": [
+"双襲刃!",
+"Double Slash \"So-shu-jin\"!"
+],
 "丸見えね!": "I can see everything!",
-"卵炎撃!": "-",
+"卵炎撃!": [
+"乱炎撃!",
+"Wild Flame Strike!"
+],
 "覚悟しろ!": "Prepare yourself!",
 "怖くなんか": "I'm not scared...",
 "せーよー!": "-",
@@ -4103,7 +4364,10 @@
 "外さんよ": "I won't miss.",
 "見切ってみろよ": "Try to see through this.",
 "ジェノサイドクロス!": "Genocide Cross!",
-"疾風伝1": "-",
+"疾風伝1": [
+"疾風迅撃!",
+"Gale Strike!"
+],
 "うおら!": "Uora!",
 "ドカーン": "Kaboom!",
 "邪魔です!": "You're in the way!",
@@ -4112,13 +4376,19 @@
 "とくと見よ": "Watch closely.",
 "ボコーン!": "Bam!",
 "わーたたたたー!": "Watatatata!",
-"縦横翔": "-",
+"縦横翔": [
+"獣皇掌!",
+"Jukosho!"
+],
 "うわぁ": "Whoa.",
 "アリャー!": "Aryaa!",
 "死にさらせ!": "Drop dead!",
 "かー": "Kaa!",
 "熱いぞ": "Hot!",
-"1のタッチ!": "-",
+"1のタッチ!": [
+"一ノ太刀!",
+"First Blade!"
+],
 "かわせまするか!": "Can you dodge this!",
 "逃しはせぬ": "I will not let you escape.",
 "はーっ!": "Haa!",
@@ -4132,10 +4402,16 @@
 "いやっ!": "Iya!",
 "外さん": "I won't miss.",
 "撃ち抜く!": "I'll shoot through!",
-"ドルビュランス": "-",
+"ドルビュランス": [
+"トルビュランス!",
+"Turbulence!"
+],
 "やー": "Yaa!",
 "きらめけ!": "Shine!",
-"エントスト!": "-",
+"エントスト!": [
+"炎突槍!",
+"Flaming Spear!"
+],
 "燃えるぞ!": "I'm burning!",
 "よー!": "Yoo!",
 "ふぅぅぅぅ": "-",
@@ -4176,11 +4452,23 @@
 "失敗!": "-",
 "あいっ": "-",
 "はい!": "Hai!",
-"つまい!": "-",
+"つまい!": [
+"ツヴァイ!",
+"Zwei!"
+],
 "招待!": "-",
-"フィア!": "-",
-"フェンス! これで!": "-",
-"ヘンス!": "-",
+"フィア!": [
+"フィーア!",
+"Vier!"
+],
+"フェンス! これで!": [
+"フュンフ! これで!",
+"Fünf! With this!"
+],
+"ヘンス!": [
+"フュンフ!",
+"Fünf!"
+],
 "快感": "What a rush.",
 "クハハハハッ": "Kuhahaha!",
 "甘い!": "Naive!",
@@ -4203,7 +4491,10 @@
 "せーお": "-",
 "捕らえた!": "Got you!",
 "そりゃー!": "Soryaa!",
-"シアリーヌージョ!": "-",
+"シアリーヌージョ!": [
+"チアリールージュ!",
+"Exuberant Rouge!"
+],
 "遅い!": "Too slow!",
 "隙だらけ!": "Wide open!",
 "V3!": "V3!",
@@ -4222,7 +4513,10 @@
 "浴びせる!": "Take it all!",
 "交差!": "Cross!",
 "縛れ!": "Bind!",
-"シューガ!": "-",
+"シューガ!": [
+"襲牙!",
+"Striking Fangs!"
+],
 "食いちぎる!": "I'll rip you apart!",
 "ホワー!": "Howaa!",
 "もっと熱く!": "Hotter!",
@@ -4232,7 +4526,10 @@
 "じゃーん!": "Ta-da!",
 "じゃじゃーん!": "Ta-da-da!",
 "言いたいわよ!": "-",
-"アシッタフラム!": "-",
+"アシッタフラム!": [
+"アシッド・フラム!",
+"Flamme Acide!"
+],
 "エンジンよ!": "-",
 "ナイチレ!": "-",
 "レボリューション": [
@@ -4275,13 +4572,19 @@
 "足元には気をつけろ": "Watch your step.",
 "切っちゃうよ": "I'll cut you.",
 "それそれー!": "There, there!",
-"ガロウ!": "-",
+"ガロウ!": [
+"牙狼!",
+"Garou!"
+],
 "ごめん、アソバセ": [
 "ごめんあそばせ",
 "Pardon me."
 ],
 "優雅にいきましょう": "Let's do this elegantly.",
-"ヒーロー!": "-",
+"ヒーロー!": [
+"ヒーロー!",
+"Hero!"
+],
 "はぁ!?": "Huh!?",
 "くああああ": "Kuaaah!",
 "ヘッ": "Heh.",
@@ -4397,7 +4700,10 @@
 ],
 "レガリアの恵み!": "Blessing of the Regalia!",
 "海の怒り!": "Wrath of the sea!",
-"委託しちゃおうっと!": "-",
+"委託しちゃおうっと!": [
+"委託しちゃおうっと!",
+"I'll just outsource this!"
+],
 "逮捕!": "You're under arrest!",
 "拘束します": "Restraining you.",
 "観念しなさい": "Give yourself up.",
@@ -4452,8 +4758,14 @@
 ],
 "イグニートジャベリン": "Ignite Javelin.",
 "イグニートジャベリン!": "Ignite Javelin!",
-"経験ウィンド": "-",
-"KKウィンドウ": "-",
+"経験ウィンド": [
+"K・Kウインド!",
+"K.K. Wind!"
+],
+"KKウィンドウ": [
+"K・Kウインド!",
+"K.K. Wind!"
+],
 "パニッシュライトニング": "Punish Lightning.",
 "ダークインビテーション": "Dark Invitation.",
 "ダークインビテーション!": "Dark Invitation!",
@@ -4480,14 +4792,23 @@
 "どうか": "Please...",
 "はい、どうぞ!": "Here you go!",
 "しつこい!": "Persistent!",
-"ドゥードゥ!": "-",
+"ドゥードゥ!": [
+"どうだ!",
+"How's that!"
+],
 "このっ!": "Why you!",
 "調子狂うわね": "You throw me off.",
 "消えなさい!": "Disappear!",
 "オラオラ?": "Ora ora?",
-"オーラヤ!": "-",
+"オーラヤ!": [
+"おらよ!",
+"There you go!"
+],
 "使っちまったぜ": "I used it up.",
-"ジャパンスラッシュ!": "-",
+"ジャパンスラッシュ!": [
+"ジャパンスラッシュ!",
+"Japan Slash!"
+],
 "止められるかしら?": "Can you stop it?",
 "どうだ": "How's that?",
 "ここからだ": "It starts here.",
@@ -4507,7 +4828,10 @@
 "終わりや!": "It's over!",
 "そうや!": "That's right!",
 "俺はしぶといぜ!": "I'm tough!",
-"カゴンドゥサンシ!": "-",
+"カゴンドゥサンシ!": [
+"華厳裂斬肢!",
+"Rose Whiplash!"
+],
 "スイッ!": "-",
 "楽にしてやるよ": "I'll put you out of your misery.",
 "喰らわしてやるぜ!": "I'll let you have it!",
@@ -4521,14 +4845,20 @@
 "くぅぅぅぅ": "-",
 "よいしょ!": "Heave!",
 "開くのよ": "Open.",
-"下がるかしら": "-",
+"下がるかしら": [
+"下がるかしら。",
+"Stand back, I suppose."
+],
 "出来立てだ!": "Fresh out of the oven!",
 "お待ち遠さま!": "Sorry for the wait!",
 "一緒にどうだ?": "Want some together?",
 "いただくのだ": "I'll have it.",
 "あげないぞ": "I won't give it to you.",
 "これは私のだ!": "This is mine!",
-"雪山家": "-",
+"雪山家": [
+"雪散華!",
+"Snow Flower Burst!"
+],
 "そーら!": "Soora!",
 "ほっ": "Ho.",
 "くらうのだ!": "Take this!",
@@ -4565,7 +4895,10 @@
 "ドリャー!": "Doryaa!",
 "殺す": "I'll kill you.",
 "邪魔。": "You're in the way.",
-"遠いテロ": "-",
+"遠いテロ": [
+"どいてろ!",
+"Out of my way!"
+],
 "どーけーーーー": [
 "どけーーー",
 "Out of the way!"
@@ -4584,7 +4917,10 @@
 "フロッ!": "-",
 "マキシマイズ・マジック・トゥルーダーク!": "Maximize Magic: True Dark!",
 "重い!": "Heavy!",
-"くっそね!": "-",
+"くっそね!": [
+"クソが!",
+"Worm!"
+],
 "死になさい": "Die.",
 "くたばり損ないが!": "You half-dead wretch!",
 "くらいなさい!": "Take this!",
@@ -4601,15 +4937,30 @@
 "私はね、何でもできるの!": "I can do anything, you know!",
 "遠慮なくぶっ飛ばしてあげる!": "I'll blow you away without holding back!",
 "セット!": "Set!",
-"ストレス、オン!": "-",
-"干渉化けや!": "-",
-"風ぬい誹謗師バージョン": "-",
+"ストレス、オン!": [
+"トレース・オン!",
+"Trace on!"
+],
+"干渉化けや!": [
+"干将・莫耶!",
+"Kanshou & Bakuya!"
+],
+"風ぬい誹謗師バージョン": [
+"風縫い 火法師拵え!",
+"Zephyr Weave!"
+],
 "仕留めます": "I'll finish you.",
 "冷静に。": "Stay calm.",
 "ここで切る!": "I'll cut here!",
-"忍法、千山弁!": "-",
+"忍法、千山弁!": [
+"忍法線斬行!",
+"Ninpo: Grim Garrote!"
+],
 "試してあげる。": "Let me test you.",
-"忍びは現実主義なの?": "-",
+"忍びは現実主義なの?": [
+"忍びは現実主義なの。",
+"Shinobi are realists."
+],
 "カモネギってやつだな": "A sitting duck, huh.",
 "ま、実戦あるのみ": "Well, only real combat will tell.",
 "よーし、これだ!": "Alright, this is it!",
@@ -4632,7 +4983,10 @@
 "ノーロボ": "-",
 "豪魔の巨腕!": "Giant arm of the great demon!",
 "痛いでしょ?": "That hurts, right?",
-"クリスタルだが!": "-",
+"クリスタルだが!": [
+"クリスタルダガー!",
+"Crystal Dagger!"
+],
 "それくらいにしてもらおうか。": "That's enough of that.",
 "気を抜くな": "Don't let your guard down.",
 "きええええ いや いや いや いや": "-",
@@ -4653,11 +5007,23 @@
 "ならば覚悟を決めなさい!": "Then prepare yourself!",
 "この瞬間を待っていた。": "I've been waiting for this moment.",
 "消し飛びなさい!": "Be blown away!",
-"シェーロに捧げますわ!": "-",
-"遠坂凛のように惨めに散れ!": "-",
-"先輩、私だけなのに!": "-",
+"シェーロに捧げますわ!": [
+"シェロに捧げますわ!",
+"I dedicate this to Shirou!"
+],
+"遠坂凛のように惨めに散れ!": [
+"遠坂凛のように惨めに散れ!",
+"Fall as miserably as Tohsaka Rin!"
+],
+"先輩、私だけなのに!": [
+"先輩、私だけなのに!",
+"Senpai, I'm the only one for you!"
+],
 "ひどいです先輩": "That's cruel, senpai.",
-"スライムソード": "-",
+"スライムソード": [
+"スライムソード!",
+"Slime Sword!"
+],
 "いいじゃないか": "Not bad.",
 "プレリュードは我が奏でよう": "I shall play the prelude.",
 "罪人には死の制裁を": "Death to sinners.",
@@ -4673,12 +5039,21 @@
 "神の祭拝を": "-",
 "来い来い!": "Come on, come on!",
 "運任せです": "Leaving it to luck.",
-"操作ポーランド": "-",
-"オラオレア!": "-",
+"操作ポーランド": [
+"闘殺法・乱舞!",
+"Killing Arts: Ranpu!"
+],
+"オラオレア!": [
+"オラオラ!",
+"Ora ora!"
+],
 "逃がしはしない!": "I won't let you escape!",
 "手加減はできない": "I can't hold back.",
 "黄泉で会いましょう": "See you in the underworld.",
-"龍観戦!": "-",
+"龍観戦!": [
+"龍巻閃!",
+"Ryuukansen!"
+],
 "剣は狂気、それが真実": "The sword is madness. That is the truth.",
 "次は貴様の首を飛ばす。": "Next, your head goes flying.",
 "俺のケンカ、邪魔すんな!": "Don't butt into my fight!",
@@ -4734,7 +5109,10 @@
 "目に焼き付けておきなさい": "Burn it into your eyes.",
 "手段は選ばない": "I won't be picky about methods.",
 "忠告は無駄だったようね": "Seems my warning was wasted.",
-"ろくん!": "-",
+"ろくん!": [
+"ロックオン!",
+"Lock on!"
+],
 "いい夢よ!": "Sweet dreams!",
 "風穴開けてあげるわ": "I'll blow a hole in you.",
 "ぶっ飛ばしてやる!": "I'll blow you away!",
@@ -4750,9 +5128,15 @@
 "読み通りね": "Just as I read it.",
 "飛んでけ!": "Fly away!",
 "いくぞー!": "Here we go!",
-"結果不断!": "-",
+"結果不断!": [
+"結跏趺斬!",
+"Lotus Posture Slash!"
+],
 "切って、切ります!": "I'll cut and cut!",
-"戦艇はお任せを!": "-",
+"戦艇はお任せを!": [
+"戦闘はお任せを!",
+"Leave the fighting to me!"
+],
 "じっとしててね": "Hold still, okay?",
 "ドレイト?": "-",
 "隠し玉だ!": "My secret weapon!",
@@ -4780,14 +5164,23 @@
 "もう怒ったから": "Now I'm angry.",
 "集中しなきゃ": "I have to focus.",
 "反省しなさい!": "Reflect on yourself!",
-"ちょっと痛いとも": "-",
+"ちょっと痛いとも": [
+"ちょっと痛いかも。",
+"This might hurt a little."
+],
 "撃ち抜く": "I'll shoot through.",
 "これで": "With this,",
 "倒す!": "I'll beat you!",
-"表霊派!": "-",
+"表霊派!": [
+"氷連波!",
+"Freeze Sweep!"
+],
 "ガブル!": "-",
 "はぁー?": "Huh?",
-"干渉馬鹿!": "-",
+"干渉馬鹿!": [
+"干将・莫耶!",
+"Kanshou & Bakuya!"
+],
 "なめんじゃねーぞ!": "Don't mess with me!",
 "くせえんだよクソ野郎": "You stink, you bastard.",
 "こんなクソ野郎が!": "Bastard like you!",
@@ -4806,5 +5199,26 @@
 "邪王炎殺黒龍波": [
 "炎殺黒龍波!",
 "Dragon of the Darkness Flame!"
+],
+"居合術 月寄りの太刀": [
+"居合術・月影の太刀!",
+"Moonlit Zen!"
+],
+"朧龍、衰山!": [
+"朧流・水斬!",
+"Haze Style: Water Slash!"
+],
+"そのパンは私のなんだよ!": "That bread is mine!",
+"刀舞落とし": [
+"達磨落とし!",
+"Daruma Otoshi!"
+],
+"刀舞、「焦熱地獄!」": [
+"焦熱地獄!",
+"Shonetsu Jigoku!"
+],
+"戦維喪失": [
+"鮮血更衣!",
+"Senketsu Kisaragi!"
 ]
 }
