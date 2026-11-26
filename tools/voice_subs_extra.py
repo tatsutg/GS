@@ -1,6 +1,7 @@
 """Voice subtitles, second pass over GS-voice voices.json (after build_all_voices.py):
 
-  1. ro: romaji (Hepburn with macrons, from UniDic's pronunciation) for every JP line that has none.
+  1. ro: romaji (Hepburn with macrons, from UniDic's pronunciation) for every JP line that has none
+     (every line with --redo-romaji, after the romaji rules change).
   2. Skill names: a line where the unit says one of its own skill names (Skill / Arts / True Arts / Super Arts,
      JP unit_master skill ids -> JP skill_master name) gets that skill's official English name (Global
      skill_master, else the site's JP-only translation in units.json) instead of a free translation.
@@ -25,9 +26,11 @@ def rows(region, name):
 # ---------------- romaji ----------------
 MAC = {'a': 'ā', 'i': 'ī', 'u': 'ū', 'e': 'ē', 'o': 'ō'}
 _cut = None
+_tag2 = None
 
 
 KATA = re.compile(r'^[ァ-ヺー]+$')
+_robo = {}   # katakana robot-speech word -> its hiragana reading, filled per line before the tokens are read
 _merge = {}   # id(token) -> romaji for a merged katakana run ('' for the run's later tokens)
 
 
@@ -68,6 +71,36 @@ def shout(text):
     return out[:1].upper() + out[1:]
 
 
+def robot(kata):
+    """Katakana that reads as a Japanese sentence (オレニハヒカリガ…) and not a loanword name (ジェイデスジェミニオン):
+    as hiragana it parses into real words. Under a third of the pieces may be junk (unknowns, symbols, interjections,
+    suffixes, 1-kana nouns): クナッタヨウダ (く + なった…) is a sentence, a name is mostly junk."""
+    import jaconv, fugashi
+    global _tag2
+    if _tag2 is None:
+        _tag2 = fugashi.Tagger()   # own tagger: re-running _cut.tagger frees the nodes romaji() is still reading
+    ws = [w for w in _tag2(jaconv.kata2hira(kata))]
+    bad = sum(w.is_unk or w.feature.pos1 in ('記号', '感動詞', '接尾辞') or (w.feature.pos1 == '名詞' and len(w.surface) == 1) for w in ws)
+    return bad * 3 < len(ws)
+
+
+_kname = None
+
+
+def kata_name(kata):
+    """A katakana skill / place name (ジェイデスジェミニオン, ロギズレイジ), not robot speech (キオクガカイフクシタ):
+    it has foreign-only kana (small ァィゥェォ, ヴ) or is part of a skill name in the game data."""
+    global _kname
+    if re.search(r'[ァィゥェォヴ]', kata):
+        return True
+    if _kname is None:
+        try:
+            _kname = {k for v in skill_names().values() for jp, _ in v for k in re.findall(r'[ァ-ヺー]{4,}', jp)}
+        except OSError:   # no game DB here
+            _kname = set()
+    return kata in _kname or any(kata in k for k in _kname)
+
+
 def romaji(text):
     """Hepburn romaji. Long vowels: UniDic's pron writes them as ー (容赦 ヨーシャ -> Yōsha, ルーン -> Rūn);
     えい stays ei (先生 sensei), verbs keep their u (思う omou). A katakana name the dictionary splits
@@ -83,10 +116,10 @@ def romaji(text):
             if id(w) in _merge:
                 return _merge[id(w)]
             f = w.feature
-            if w.is_unk and re.match(r'^[ァ-ヺ]{5,}$', w.surface):   # long unknown katakana, no ー: a sentence in
-                return _cut.romaji(jaconv.kata2hira(w.surface), capitalize=False)   # katakana (robot speech): read it as hiragana
+            if w.is_unk and w.surface in _robo:   # a sentence in katakana (robot speech): read as hiragana
+                return _robo[w.surface]
             if w.is_unk and re.match(r'^[ァ-ヺー・]+$', w.surface):   # unknown katakana word(s): ー is a long vowel
-                return ' '.join(long_kana((c, c) for c in jaconv.kata2hira(x)) for x in w.surface.split('・') if x)
+                return ' '.join(long_kana((c, c) for c in jaconv.kata2hira(x.rstrip('ッ'))) for x in w.surface.split('・') if x.rstrip('ッ'))
             if w.is_unk or not getattr(f, 'kana', None) or not getattr(f, 'pron', None) or w.surface in _cut.exceptions                     or f.pos1 == '補助記号' or (f.pos1 == '助詞' and f.pron in ('ワ', 'エ', 'オ')):
                 return base(w)
             k, p = jaconv.kata2hira(f.kana), jaconv.kata2hira(f.pron)
@@ -95,9 +128,30 @@ def romaji(text):
             return long_kana(zip(k, p))
         _cut.romaji_word = word
     if re.fullmatch(r'[ぁ-ゖァ-ヺー゛゙！!？?、。…\s]+', text) and re.search(r'([ぁ-ゖァ-ヺー])\1', text):
-        return shout(text)
-    words = list(_cut.tagger(cutlet.cutlet.normalize_text(text)))
-    _merge.clear()
+        out = ''   # per phrase: a drawn-out shout (はああああ) as one word, real words (ここ, いい) the normal way
+        for part in re.split(r'([^ぁ-ゖァ-ヺー]+)', text):
+            if not part:
+                continue
+            if not re.match(r'[ぁ-ゖァ-ヺー]', part):
+                out += re.sub(r'\s+', '', part.translate(str.maketrans({'！': '!', '？': '?', '、': ',', '。': '.', '…': '...', '゛': '', '゙': ''}))) + ' '
+                continue
+            drawn = (re.search(r'([ぁ-ゖァ-ヺ])\1\1|([ぁ-ゖァ-ヺ])\2ー|ーー|[ぁぃぅぇぉァィゥェォ]{2}|[ぁぃぅぇぉァィゥェォ]([あいうえおアイウエオ])\3', part)
+                     or (re.search(r'([ぁ-ゖァ-ヺ])\1', part) and not robot(part)))   # ここ / いい / まあ stay words
+            drawn = drawn and len(re.sub(r'(.{1,3}?)\1+', r'\1', re.sub(r'[ーぁぃぅぇぉァィゥェォっッ]', '', part))) <= 6   # a shout is short: きれーーにこなごなにするよ is a sentence
+            r = shout(part) if drawn else romaji_plain(part)
+            out += r if not out else r[:1].lower() + r[1:]
+        return re.sub(r' +([!?.,])', r'\1', out).strip()
+    return romaji_plain(text)
+
+
+def romaji_plain(text):
+    import cutlet, jaconv
+    _robo.clear()
+    _merge.clear()   # keyed by id(): stale ids from the last line can match new tokens
+    for w in [w.surface for w in _cut.tagger(cutlet.cutlet.normalize_text(text)) if w.is_unk]:
+        if re.match(r'^[ァ-ヺ]{5,}$', w) and not kata_name(w):   # long unknown katakana, no ー
+            _robo[w] = _cut.romaji(jaconv.kata2hira(w), capitalize=False)
+    words = list(_cut.tagger(cutlet.cutlet.normalize_text(text)))   # fresh: tagging again frees earlier nodes
     i = 0
     while i < len(words):   # runs of 2+ katakana nouns / unknowns: one word
         j = i
@@ -283,7 +337,9 @@ def merge_battle(subs, battle):
 def main():
     if sys.argv[1:2] == ['--snap']:
         return snap_battle(write=True)
-    gv = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(GS), 'GS-voice')
+    redo = '--redo-romaji' in sys.argv   # romaji rules changed: rebuild it for every clip, not only new ones
+    args = [a for a in sys.argv[1:] if a != '--redo-romaji']
+    gv = args[0] if args else os.path.join(os.path.dirname(GS), 'GS-voice')
     p = os.path.join(gv, 'voices.json')
     d = json.load(open(p, encoding='utf-8'))
     subs = d.get('subs', {})
@@ -294,7 +350,7 @@ def main():
     ro = 0
     for m in subs.values():
         for t in m.values():
-            if t.get('jp') and not t.get('ro'):
+            if t.get('jp') and (redo or not t.get('ro')):
                 t['ro'] = [romaji(x) for x in t['jp']]; ro += 1
     json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     rp = os.path.join(gv, '_skillname_report.txt')
