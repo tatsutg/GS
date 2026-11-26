@@ -101,7 +101,25 @@ def kata_name(kata):
     return kata in _kname or any(kata in k for k in _kname)
 
 
+# words the dictionary reads wrong or not at all (?? in the romaji): their reading, as the series / official name spells it
+READ = {'霊丸': 'Rei Gan', '闘舞': 'tōbu', '刀舞': 'tōbu', '爆根': 'bakkon', '天上天下': 'tenjō tenge', '邪王炎殺': 'jaō ensatsu'}
+
+
 def romaji(text):
+    """romaji_line() with READ words put in: each goes through as a Latin stand-in (zqa …) that the tagger leaves alone."""
+    keys = [k for k in READ if k in text]
+    if not keys:
+        return romaji_line(text)
+    tag = {k: 'zq' + chr(97 + i) for i, k in enumerate(keys)}
+    for k in keys:
+        text = text.replace(k, tag[k])
+    r = romaji_line(text)
+    for k in keys:
+        r = re.sub(tag[k], lambda m: READ[k][:1].upper() + READ[k][1:] if m.group()[0] == 'Z' else READ[k], r, flags=re.I)
+    return r
+
+
+def romaji_line(text):
     """Hepburn romaji. Long vowels: UniDic's pron writes them as ー (容赦 ヨーシャ -> Yōsha, ルーン -> Rūn);
     えい stays ei (先生 sensei), verbs keep their u (思う omou). A katakana name the dictionary splits
     (ヘリオルド -> heri + orudo) is read as one word (Heriorudo)."""
@@ -254,9 +272,26 @@ def jp_names():
         for c in cols:
             n = (jp.get(u.get(c)) or '').strip()
             e = en.get(core(n), '')
-            jp_parts = [x for x in re.split(r'[・：:『』「」\s]+', n) if x]
-            en_parts = [x for x in re.split(r'\s*[:"“”]\s*', e) if x]
-            cand = [(n, e)] + ([(x, en_parts[k] if len(en_parts) == len(jp_parts) else '') for k, x in enumerate(jp_parts)] if len(jp_parts) > 1 else [])
+            jp_sp = [m.span() for m in re.finditer(r'[^・：:『』「」\s]+', n)]
+            en_sp = [m.span() for m in re.finditer(r'[^:"“”]+', e) if m.group().strip()]
+            jp_parts = [n[a:z] for a, z in jp_sp]
+            # every run of parts (久遠・闘舞「天上天下」（未完成）-> 久遠・闘舞, 「天上天下」（未完成）…): one clip often says only
+            # some of a long name. The JP keeps the game's own marks between the parts (closing 」 / 』 kept with its part)
+            cand = [(n, e)]
+            if len(jp_parts) > 1:
+                for a in range(len(jp_sp)):
+                    for z in range(a + 1, len(jp_sp) + 1):
+                        if (a, z) == (0, len(jp_sp)):
+                            continue
+                        lo, hi = jp_sp[a][0], jp_sp[z - 1][1]
+                        while lo > 0 and n[lo - 1] in '「『':
+                            lo -= 1
+                        while hi < len(n) and n[hi] in '」』':
+                            hi += 1
+                        ep = e[en_sp[a][0]:en_sp[z - 1][1]].strip(' :') if len(en_sp) == len(jp_sp) else ''
+                        if ep.count('"') % 2:   # a quote opened (or closed) outside the run
+                            ep = ep.replace('"', '')
+                        cand.append((n[lo:hi] if z - a > 1 else jp_parts[a], ep))
             for x in cand:
                 if len(core(x[0])) >= 2 and all(y[0] != x[0] for y in out.setdefault(b, [])):
                     out[b].append(x)
@@ -294,25 +329,46 @@ def snap_battle(write=False):
                     v = tr[jp[i]]
                     jp[i], en[i] = (v[0], v[1]) if isinstance(v, list) else (jp[i], v)
                     continue
-                ln = key(line)
-                best = max(((SequenceMatcher(None, ln, key(j)).ratio(), j, e) for j, e in names.get(b, [])), default=(0, '', ''))
-                # A name of several parts said in full: the dictionary misreads invented kanji (紫凰 -> murasaki), so match the
-                # first part, then let the rest of the line pick between names that start the same (闇陣剣『怨』 / 『怨呪』)
-                multi = []
-                for j, e in names.get(b, []):
-                    parts = [x for x in re.split(r'[・：:『』「」\s]+', j) if x]
-                    p0 = key(parts[0])
-                    if len(parts) > 1 and len(ln) - len(p0) >= 2 and SequenceMatcher(None, ln[:len(p0)], p0).ratio() >= 0.8:
-                        multi.append((SequenceMatcher(None, ln[len(p0):], key(''.join(parts[1:]))).ratio(), j, e))
-                if multi:
-                    best = (1,) + max(multi)[1:]
-                if best[0] >= 0.8:
-                    tail = re.search(r'[！!？?。…]+$', line.strip())
-                    p = tail.group(0) if tail else '!'
-                    jp[i] = best[1] if re.search(r'[！!？?。…]$', best[1]) else best[1] + p
-                    if best[2]:
-                        en[i] = best[2] if re.search(r'[!?.]$', best[2]) else best[2] + p.replace('！', '!').replace('？', '?').replace('。', '.')
+                def snap(piece):   # -> (ratio, jp name, en name) of the closest name or run of name parts
+                    ln = key(piece)
+                    if len(ln) < 3:
+                        return (0, '', '')
+                    # ties: the longer name (a whole name over its first part)
+                    best = max(((SequenceMatcher(None, ln, key(j)).ratio(), len(j), j, e) for j, e in names.get(b, [])), default=(0, 0, '', ''))
+                    best = (best[0], best[2], best[3])
+                    # a name of several parts: the dictionary misreads invented kanji (紫凰 -> murasaki), so a close first part
+                    # plus a fair match of the rest also counts (闇陣剣『怨』 / 『怨呪』 picked by the rest)
+                    for j, e in names.get(b, []):
+                        parts = [x for x in re.split(r'[・：:『』「」\s]+', j) if x]
+                        p0 = key(parts[0])
+                        if len(parts) > 1 and len(ln) - len(p0) >= 2 and SequenceMatcher(None, ln[:len(p0)], p0).ratio() >= 0.8:
+                            r = SequenceMatcher(None, ln[len(p0):], key(''.join(parts[1:]))).ratio()
+                            if r >= 0.6 and 0.8 + r / 10 > best[0]:
+                                best = (0.8 + r / 10, j, e)
+                    return best if best[0] >= 0.8 else (0, '', '')
+                tail = re.search(r'[！!？?。…]+$', line.strip())
+                p = tail.group(0) if tail else '!'
+                pe = p.replace('！', '!').replace('？', '?').replace('。', '.')
+                end = lambda s, q: s if re.search(r'[！!？?。…!?.]$', s) else s + q
+                whole = snap(line)
+                if whole[0]:
+                    jp[i] = end(whole[1], p)
+                    if whole[2]:
+                        en[i] = end(whole[2], pe)
                     n += 1
+                    continue
+                # several names in one line (アインシュトラール、アンファングブリッター、…): each piece on its own; the
+                # line takes names only when every piece is one
+                pieces = [x for x in re.split(r'[、，,]\s*|\s+', core(line)) if x]
+                got = [snap(x) for x in pieces] if len(pieces) > 1 else []
+                if got and all(g[0] for g in got):
+                    jp[i] = end('、'.join(g[1] for g in got), p)
+                    if all(g[2] for g in got):
+                        en[i] = end(', '.join(g[2].rstrip('!?.') for g in got), pe)
+                    n += 1
+            for i, x in enumerate(jp):   # a snapped part of a name with no official English part: the map, keyed by the game's spelling
+                if not en[i] and isinstance(tr.get(x), str) and tr[x] != '-':
+                    en[i] = tr[x]
             t['jp'], t['en'] = jp, en
     if write:   # --snap: look at the result; the merge snaps in memory, so the raw transcription (with lp / ns) stays as it is
         json.dump(d, open(BATTLE, 'w', encoding='utf-8'), ensure_ascii=False, indent=0, sort_keys=True)
@@ -321,11 +377,17 @@ def snap_battle(write=False):
 
 
 def merge_battle(subs, battle):
-    """Add the Arts / True Arts / Super Arts lines; asr: 1 marks a machine transcription. Lines without English yet show JP / romaji only."""
+    """Add the Arts / True Arts / Super Arts lines; asr: 1 marks a machine transcription. Lines without English yet show JP / romaji only.
+    Earlier asr lines are replaced (the transcription or map changed); hand-written subs stay."""
     n = 0
     for b, m in battle.items():
         for s, t in m.items():
-            if s in subs.get(b, {}) or not t.get('jp'):
+            old = subs.get(b, {}).get(s)
+            if old is not None and not old.get('asr'):
+                continue
+            if not t.get('jp'):
+                if old is not None:
+                    del subs[b][s]   # line now dropped (weak, or '-' in the map)
                 continue
             e = {'jp': t['jp'], 'asr': 1}
             if t.get('en') and any(t['en']):

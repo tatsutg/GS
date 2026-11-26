@@ -6,15 +6,25 @@ with the unit's own JP skill names as the prompt (so called-out names are spelle
 tools/voice_subs_battle.json  {base: {slug: {"jp": [...], "asr": 1}}}  (resumable: done clips are skipped).
 English (en) is added to that file by hand / translation pass; tools/voice_subs_extra.py merges it into voices.json.
 
-Run with the whisper venv:  ~/.cache/watch/whisperx-venv/Scripts/python -I tools/voice_asr_arts.py [GS-voice dir]
+Run with the whisper venv:  ~/.cache/watch/whisperx-venv/Scripts/python -I tools/voice_asr_arts.py [GS-voice dir] [--noprompt] [--prefix skill]
 """
-import json, os, subprocess, sys
+import json, os, re, subprocess, sys
 
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 GS = os.path.dirname(HERE)
 OUT = os.path.join(HERE, 'voice_subs_battle.json')
+# --noprompt: second pass with no skill-name prompt, to voice_subs_battle_np.json. On unclear audio the prompted pass can
+# echo the prompt (Hiei's cut-in came out as his two skill names); voice_subs_extra.py compares the two.
+NOPROMPT = '--noprompt' in sys.argv
+if NOPROMPT:
+    sys.argv.remove('--noprompt')
+    OUT = os.path.join(HERE, 'voice_subs_battle_np.json')
+# --prefix skill: other clip kinds (Skill lines) instead of fullarts_*
+PREFIX = 'fullarts'
+if '--prefix' in sys.argv:
+    i = sys.argv.index('--prefix'); PREFIX = sys.argv[i + 1]; del sys.argv[i:i + 2]
 DB = os.path.join(GS, 'dlc', 'Japan', '_DATABASE', 'others', '{}.json')
 
 
@@ -54,7 +64,7 @@ def main():
         have = d['subs'].get(b, {})
         for _, sl in L:
             for s in ([sl] if isinstance(sl, str) else sl):
-                if s.startswith('fullarts') and s not in have and s not in done.get(b, {}) \
+                if re.match(PREFIX + r'(_|\d|$)', s) and (NOPROMPT or s not in have) and s not in done.get(b, {}) \
                         and os.path.exists(os.path.join(gv, b, s + '.m4a')):
                     jobs.append((b, s))
     print(f'{len(jobs)} clips to transcribe', flush=True)
@@ -63,7 +73,7 @@ def main():
     for i, (b, s) in enumerate(jobs):
         try:
             a = audio(os.path.join(gv, b, s + '.m4a'))
-            prompt = '、'.join(names.get(b, [])) or None
+            prompt = None if NOPROMPT else '、'.join(names.get(b, [])) or None
             segs, _ = m.transcribe(a, language='ja', beam_size=5, temperature=0, condition_on_previous_text=False,
                                    initial_prompt=prompt, vad_filter=False)
             segs = [x for x in segs if x.text.strip()]
