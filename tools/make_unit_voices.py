@@ -9,7 +9,7 @@ For each base unit:
     (e.g. True Arts names). Star levels = the unit's forms; a label with lines for several (Enhance) gets (N★).
   - one button per matched cue, as in game; a label used by several buttons is numbered (Skill 1, Skill 2 ...)
   - every line of a cue is extracted (the game picks one at random); the site cycles them per press
-Clips: JP voice banks (<VOICE_DIR>/<sheet>.acb) -> vgmstream -> AAC mono 48 kHz -> dlc/Japan/audio/voice/<base>/<slug>.m4a
+Clips: JP voice banks (<VOICE_DIR>/<sheet>.acb) -> vgmstream -> AAC mono 48 kHz -> GS-voice repo (next to this one) <base>/<slug>.m4a
 Prints the js/voices.js entry for each unit. With --subs: prints the subtitle block (unit_master comment text).
 """
 import glob
@@ -23,7 +23,7 @@ import tempfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VOICE_DIR = os.environ.get('GS_VOICE_DIR', r'G:\game data\JP GRAND SUMMONERS\dlc\audio\adx2\voice')
 VGM = os.environ.get('VGMSTREAM', r'C:\Users\noora\Downloads\Compressed\vgmstream-win64\vgmstream-cli.exe')
-OUT = os.path.join(ROOT, 'dlc', 'Japan', 'audio', 'voice')
+OUT = os.path.join(os.path.dirname(ROOT), 'GS-voice')   # all clips live in the GS-voice repo
 
 
 def load(region, name):
