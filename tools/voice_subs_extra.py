@@ -102,7 +102,7 @@ def kata_name(kata):
 
 
 # words the dictionary reads wrong or not at all (?? in the romaji): their reading, as the series / official name spells it
-READ = {'霊丸': 'Rei Gan', '闘舞': 'tōbu', '刀舞': 'tōbu', '爆根': 'bakkon', '天上天下': 'tenjō tenge', '邪王炎殺': 'jaō ensatsu'}
+READ = {'霊丸': 'Rei Gan', '闘舞': 'tōbu', '刀舞': 'tōbu', '爆根': 'bakkon', '天上天下': 'tenjō tenge', '邪王炎殺': 'jaō ensatsu', '炎殺': 'ensatsu'}
 
 
 def romaji(text):
