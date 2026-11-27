@@ -6,6 +6,7 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "s": {base: {"n": name, "el": element, "hp", "atk", "def", "r": rarity, "id": top unit id,
                "dl": attack delay s, "bp": break power, "at": attribute,
                "nh": hits in one normal attack from the attack1 animation (resetHitList + 1), 0 = unknown,
+               "rg": [range_min, range_max] unit_master attack range: the unit walks in until its target's HITBOX is this close,
                "sk": [skill, arts, true_arts, super_arts],
                "m": [mode name, seconds, icon id, activated by 1 arts / 2 true arts / 3 super arts] or 0}}
   "cr": [[type id, name, stone image (dlc path) or '', [[level label, rune id, effects], ...]], ...]  crests with a
@@ -15,13 +16,15 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
        boss = [unit_id, name, element, lv, hp, atk, def, break, attack delay s, skill %, skill chance %,
                arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9], size, race, [[hp %, skip], ...],
-               look, mechanics]
+               look, mechanics, resist, [range_min, range_max, weight]]
        ailment order: faint, poison, paralysis, seal, blind, disease, curse, freeze, burn
        size: enemy_master size, 1 unit-sized, 3 big boss (dragons, birds, fortresses)
        look: [[[sub skeleton, z order], ...], skin, setup animation] from the enemy / unit Lua start (0 none)
        hp markers: the diamonds on the HP bar, from the enemy Lua (addNumHpMarker); skip 1 = cyan marker
        mechanics: [[message, from the start 1 / later 0, [[rule, value], ...]], ...] the game's battle messages for the
                   enemy (tools/lua_boss_text.py: immunities to physical / magic / an element / critical ...), 0 none
+       range / weight (field 22): unit_master range_min / range_max (how close it gets to its target's HITBOX to attack)
+                  and enemy_master weight (10000 for big bosses: never pushed back)
        race: unit_master race, 1 Human, 2 Beast, 3 Spirit, 4 Giant, 5 Machine, 6 Dragon, 7 God, 8 Demon (0 none)
        resist (field 21): [[passive name, effects], ...] the enemy's passives (skill_relation_master relation_type 4)
                   with a damage-taken effect: 14 / 15 DEF, 21 DMG taken (script 2 physical, 3 magic, 14 attacker element,
@@ -218,7 +221,8 @@ for base, rec in units.items():
                    'r': 2 if 'ascension' in rar else 1 if 'awoken' in rar else 0, 'id': top,
                    'dl': round(num(u['attack_delay'], 300) / 100, 2), 'bp': num(u['break_power']),
                    'at': num(u['attribute']), 'sk': sks, 'm': mode, 'race': num(u.get('race')),
-                   'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top)}
+                   'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top),
+                   'rg': [num(u.get('range_min')), num(u.get('range_max'))]}
     uid_base[str(top)] = base
     for form in obj(rec.get('_forms')).values():
         fid = ''.join(c for c in str(obj(form).get('Unit ID') or '') if c.isdigit())
@@ -327,7 +331,8 @@ def boss_row(b):
             num(e.get('size'), 1), num(u.get('race')), hp_markers(num(e.get('id'))) if e else [],
             boss_look(num(e.get('id')) if e else 0, uid),
             TEXTS.mechanics([num(e.get('id')) if e else 0, uid], b.get('n') or '') or 0,
-            enemy_passives(num(e.get('id'))) if e else []]
+            enemy_passives(num(e.get('id'))) if e else [],
+            [num(u.get('range_min')), num(u.get('range_max')), num(e.get('weight'))]]
 
 
 quests = []
