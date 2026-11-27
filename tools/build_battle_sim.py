@@ -40,7 +40,8 @@ attribute: 1 physical, 2 magic. type (equips): 1 physical, 2 magical, 3 defense,
 
 A skill is 0 (none) or [damage %, break, element, attribute, CT s, arts cost, effects, flags, name]
   effects = [[type, target, seconds, value, chance %, icon, script, mode, animation,
-              script_value_1, script_value_2, script_value_3, group, priority, buff_type, script_value_4, script_value_5], ...] from skill_effect_master
+              script_value_1, script_value_2, script_value_3, group, priority, buff_type, script_value_4, script_value_5
+              (, stacks: max copies when the move's text says "(Stacks)" for it, see stack_mark)], ...] from skill_effect_master
     (what each script id checks: dlc/<Region>/additional_lua/other/skill_effect.lua, see js/battle-engine.js):
     target 1 self, 2 allies, 4 enemy, 5 one ally, 6 on hit; icon = condition_icon_<n>.png (0 none);
     mode: 0 always, 1 only during the unit's mode, -1 only outside it, k>=2 time x k/10 during the mode
@@ -175,11 +176,31 @@ def effect(e):
             num(e.get('priority')), num(e.get('buff_type')), num(e.get('script_value_4')), num(e.get('script_value_5'))]
 
 
+# "(Stacks)" / （重複あり） on a line of the move's text: casting the same move again adds another copy of that effect
+# (its own timer) instead of refreshing it. "MAX N Times" caps the copies; no cap in the text = 99.
+STACK_RE = re.compile(r'[(（][^)）]*(?:\bStacks\b|\bstacks\)|重複(?:あり|有り))')
+
+
+def stack_mark(desc, effects):
+    """append field 17 (max copies) to the timed effects a "(Stacks)" line names by its value (% or plain, e.g. Arts
+    gauge "by 3") and seconds. Lines without both (mode-only or scripted effects) are left as they are."""
+    for line in re.split(r'[\n。]', desc or ''):
+        if not STACK_RE.search(line) or re.search(r'not stack', line, re.I):
+            continue
+        mx = re.search(r'MAX (\d+) Times|最大(\d+)回', line)
+        cap = num(mx.group(1) or mx.group(2)) if mx else 99
+        for e in effects:
+            if len(e) == 17 and e[2] > 0 and re.search(rf'(?<!\d){abs(e[3])}(?!\d)', line) \
+                    and re.search(rf'(?<!\d){e[2]}\s*(?:s\b|秒)', line):
+                e.append(cap)
+
+
 def skill(sid, text='', lua=False):
     r = sm.get(num(sid))
     if not r:
         return 0
     effects = [effect(e) for e in sorted(fx.get(r['id'], []), key=lambda e: e['id'])]
+    stack_mark(r.get('description'), effects)
     flags = 0
     t = '' if lua else (text or '')       # units in battle_overrides.json: the Lua rules replace the text guesses
     if re.search(r'DMG when used during|状態のとき使用すると', t):
