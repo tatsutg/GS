@@ -176,8 +176,11 @@ def effect(e):
             num(e.get('priority')), num(e.get('buff_type')), num(e.get('script_value_4')), num(e.get('script_value_5'))]
 
 
-# "(Stacks)" / （重複あり） on a line of the move's text: casting the same move again adds another copy of that effect
-# (its own timer) instead of refreshing it. "MAX N Times" caps the copies; no cap in the text = 99.
+# Recasting a unit's move: skill_master.skill_group_id >= 0 = its effects are replaced (time refreshed); -1 = each cast
+# adds another copy of its group-0 timed effects (its own timer). The move's text then usually says "(Stacks)" /
+# （重複あり）; old units (Beast Fighter Wald, Diever Arts ATK +15% 15s) stack without saying it [CONFIRMED in game by
+# the user 2026-11-28, as is Lygor / Selia Skill (group 2013 / 2025) not stacking]. "MAX N Times" in the text caps
+# the copies; no cap = 99.
 STACK_RE = re.compile(r'[(（][^)）]*(?:\bStacks\b|\bstacks\)|重複(?:あり|有り))')
 
 
@@ -195,12 +198,18 @@ def stack_mark(desc, effects):
                 e.append(cap)
 
 
-def skill(sid, text='', lua=False):
+def skill(sid, text='', lua=False, move=False):
     r = sm.get(num(sid))
     if not r:
         return 0
     effects = [effect(e) for e in sorted(fx.get(r['id'], []), key=lambda e: e['id'])]
-    stack_mark(r.get('description'), effects)
+    if move and num(r.get('skill_group_id'), -1) < 0:
+        stack_mark(r.get('description'), effects)          # caps from the text first
+        for e in effects:
+            if len(e) == 17 and e[2] > 0 and not e[12]:
+                # "by 25% every time ... (MAX 125%)" / 「最大125%」: copies = cap / value
+                m = e[3] and re.search(rf'(?<!\d){abs(e[3])}%[^\n]*?(?:MAX |最大)(\d+)%', r.get('description') or '')
+                e.append(max(1, num(m.group(1)) // abs(e[3])) if m else 99)
     flags = 0
     t = '' if lua else (text or '')       # units in battle_overrides.json: the Lua rules replace the text guesses
     if re.search(r'DMG when used during|状態のとき使用すると', t):
@@ -246,7 +255,7 @@ for base, rec in units.items():
     rar = str(rec.get('Rarity') or '').lower()
     keys = ['Skill', 'Arts', 'True Arts', 'Super Arts']
     lua = base in overrides
-    sks = [skill(ids.get(k), rec.get(k + ' Detail'), lua) for k in keys]
+    sks = [skill(ids.get(k), rec.get(k + ' Detail'), lua, True) for k in keys]
     passives = []
     for k in sorted(x for x in ids if re.fullmatch(r'Passives \d+', x)):
         p = skill(ids.get(k))
