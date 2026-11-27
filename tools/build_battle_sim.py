@@ -131,7 +131,7 @@ CONST_KEYS = {'CONF_DAMAGE_CAP', 'CONF_DAMAGE_CRITICALPOINT', 'CONF_DEFENCE_CRIT
               'CONF_DoT_OFFSET_PvE', 'CONF_BOSS_RESISTCONDITION_REDUCE_PER_SEC'}
 um = {r['id']: r for r in load('unit_master.json')}
 # Limit Break "+" stats (unit_limitbreak_master buff_hp / buff_attack / buff_defence per base unit and LB level).
-# LB levels whose unit_limitbreak_exp_master rarity is 7 need Dream Awakening (is_fantasy_evo_max marks the first)
+# LB levels whose unit_limitbreak_exp_master rarity is 7 need a rarity 7 unit: Ascension, or Dream Awakening (is_fantasy_evo_max marks the first)
 lb_buff = {}
 for r in load('unit_limitbreak_master.json'):
     lb_buff[(str(r['base_unit_id']), num(r['limit_break_level']))] = [num(r['buff_hp']), num(r['buff_attack']), num(r['buff_defence'])]
@@ -147,7 +147,8 @@ def lb_stats(u, top):
     def at(n):
         ks = [k for (b, k) in lb_buff if b == base and k <= n]
         return lb_buff[(base, max(ks))] if ks else None
-    plain = [k for k, r in lv if r < 7]
+    # an LB level with rarity r is open to units of rarity >= r (Ascension units are rarity 7: War Hero Fen shows +1414 = LB7)
+    plain = [k for k, r in lv if r <= max(6, num(u.get('rarity')))]
     nd = at(max(plain)) if plain else at(99)
     dm = at(max(k for k, _ in lv)) if lv and str(top) in dream_units else None
     return [nd, dm if dm != nd else None]
