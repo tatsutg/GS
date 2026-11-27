@@ -6,6 +6,7 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "s": {base: {"n": name, "el": element, "hp", "atk", "def", "r": rarity, "id": top unit id,
                "dl": attack delay s, "bp": break power, "at": attribute,
                "nh": hits in one normal attack from the attack1 animation (resetHitList + 1), 0 = unknown,
+               "lb": [[hp, atk, def] Limit Break "+" stats at the top LB without Dream Awakening, same with it or null],
                "rg": [range_min, range_max] unit_master attack range: the unit walks in until its target's HITBOX is this close,
                "sk": [skill, arts, true_arts, super_arts],
                "m": [mode name, seconds, icon id, activated by 1 arts / 2 true arts / 3 super arts] or 0}}
@@ -129,6 +130,27 @@ CONST_KEYS = {'CONF_DAMAGE_CAP', 'CONF_DAMAGE_CRITICALPOINT', 'CONF_DEFENCE_CRIT
               'CONF_ELEMENT_WEAK', 'CONF_ELEMENT_RESIST', 'CONF_SPDROP_VALUE', 'CONF_SPDROP_DIV_ITEMDAMAGE',
               'CONF_DoT_OFFSET_PvE', 'CONF_BOSS_RESISTCONDITION_REDUCE_PER_SEC'}
 um = {r['id']: r for r in load('unit_master.json')}
+# Limit Break "+" stats (unit_limitbreak_master buff_hp / buff_attack / buff_defence per base unit and LB level).
+# LB levels whose unit_limitbreak_exp_master rarity is 7 need Dream Awakening (is_fantasy_evo_max marks the first)
+lb_buff = {}
+for r in load('unit_limitbreak_master.json'):
+    lb_buff[(str(r['base_unit_id']), num(r['limit_break_level']))] = [num(r['buff_hp']), num(r['buff_attack']), num(r['buff_defence'])]
+lb_levels = {}
+for r in load('../data1/unit_limitbreak_exp_master.json'):
+    lb_levels.setdefault(str(r['exp_id']), []).append((num(r['level']), num(r['rarity'])))
+dream_units = {str(r['unit_id']) for r in load('unit_fantasy_evo_master.json')}
+
+
+def lb_stats(u, top):
+    """[[hp, atk, def] at the top LB without Dream Awakening, same with it (or None)]"""
+    base, lv = str(u.get('base_unit_id')), lb_levels.get(str(u.get('limit_break_exp_id')), [])
+    def at(n):
+        ks = [k for (b, k) in lb_buff if b == base and k <= n]
+        return lb_buff[(base, max(ks))] if ks else None
+    plain = [k for k, r in lv if r < 7]
+    nd = at(max(plain)) if plain else at(99)
+    dm = at(max(k for k, _ in lv)) if lv and str(top) in dream_units else None
+    return [nd, dm if dm != nd else None]
 sm = {r['id']: r for r in load('skill_master.json')}
 fx = {}
 for e in load('skill_effect_master.json'):
@@ -222,7 +244,7 @@ for base, rec in units.items():
                    'dl': round(num(u['attack_delay'], 300) / 100, 2), 'bp': num(u['break_power']),
                    'at': num(u['attribute']), 'sk': sks, 'm': mode, 'race': num(u.get('race')),
                    'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top),
-                   'rg': [num(u.get('range_min')), num(u.get('range_max'))]}
+                   'rg': [num(u.get('range_min')), num(u.get('range_max'))], 'lb': lb_stats(u, top)}
     uid_base[str(top)] = base
     for form in obj(rec.get('_forms')).values():
         fid = ''.join(c for c in str(obj(form).get('Unit ID') or '') if c.isdigit())
