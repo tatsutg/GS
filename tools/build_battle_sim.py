@@ -181,6 +181,7 @@ def effect(e):
 # （重複あり）; old units (Beast Fighter Wald, Diever Arts ATK +15% 15s) stack without saying it [CONFIRMED in game by
 # the user 2026-11-28, as is Lygor / Selia Skill (group 2013 / 2025) not stacking]. "MAX N Times" in the text caps
 # the copies; no cap = 99.
+MOVE_ONLY = {8, 34, 64, 95, 122}
 STACK_RE = re.compile(r'[(（][^)）]*(?:\bStacks\b|\bstacks\)|重複(?:あり|有り))')
 
 
@@ -206,7 +207,9 @@ def skill(sid, text='', lua=False, move=False):
     if move and num(r.get('skill_group_id'), -1) < 0:
         stack_mark(r.get('description'), effects)          # caps from the text first
         for e in effects:
-            if len(e) == 17 and e[2] > 0 and not e[12]:
+            # effects that last only while the move plays (script 8 removed when the action ends, 64 True Arts crit,
+            # 95 / 34 / 122 conditions during the move) never stack [CONFIRMED in game: Marzex / Number 2 / Ifrit True Arts]
+            if len(e) == 17 and e[2] > 0 and not e[12] and e[6] not in MOVE_ONLY:
                 # "by 25% every time ... (MAX 125%)" / 「最大125%」: copies = cap / value
                 m = e[3] and re.search(rf'(?<!\d){abs(e[3])}%[^\n]*?(?:MAX |最大)(\d+)%', r.get('description') or '')
                 e.append(max(1, num(m.group(1)) // abs(e[3])) if m else 99)
