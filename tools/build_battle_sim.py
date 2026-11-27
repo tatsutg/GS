@@ -13,7 +13,9 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "cr": [[type id, name, stone image (dlc path) or '', [[level label, rune id, effects], ...]], ...]  crests with a
         damage effect (type 12 / 13 / 17 / 80 / 22 / 142 / boss 14 / 15 / 21 / 61-65)
   "e": {image_id: [name, type, hp, atk, def, ct_s, skill, [[passive name, effects], ...]]}   equips by picture id
-       (the site's equip ID); passive effects as a skill's, script 35 = only on the unit whose base is value 1
+       (the site's equip ID); passive effects as a skill's, script 35 = only on the unit whose base is value 1;
+       EV equips add an 8th field: the random 2nd ability pool rolled when crafted [[name, effects], ...]
+       (data2/skill_rand_relation_master, relation_id = base_item_id)
   "q": [[quest_id, dungeon, quest, difficulty, [boss, ...]], ...]
        boss = [unit_id, name, element, lv, hp, atk, def, break, attack delay s, skill %, skill chance %,
                arts %, arts gauge cost, arts per hit for units, attribute, [ailment resist % x9], size, race, [[hp %, skip], ...],
@@ -293,6 +295,17 @@ def equip_passives(iid):
     return out
 
 
+# EV equips: crafting rolls one random 2nd ability from a pool of 6 (relation_id = the item's base_item_id)
+rand_pool = {}
+_rr = os.path.join(os.path.dirname(OTHERS), 'data2', 'skill_rand_relation_master.json')
+if os.path.exists(_rr):
+    with open(_rr, encoding='utf-8') as f:
+        for rr in sorted(json.load(f), key=lambda x: num(x['id'])):
+            sid = num(rr['skill_id'])
+            eff = [effect(e) for e in sorted(fx.get(sid, []), key=lambda e: e['id'])]
+            if num(rr.get('relation_type')) == 1 and eff and sm.get(sid):
+                rand_pool.setdefault(num(rr['relation_id']), []).append([(sm[sid].get('name') or '').strip(), eff])
+
 equips = {}
 for r in load('item_master.json'):
     if num(r.get('is_material')) or not num(r.get('item_skill_id')):
@@ -301,6 +314,8 @@ for r in load('item_master.json'):
     row = [r.get('name') or '', num(r['type']), num(r['hitpoint']), num(r['offence']), num(r['defence']),
            round(num(r.get('min_limitbreak_cooltime') or r.get('max_limitbreak_cooltime')) / 100, 2),
            skill(r['item_skill_id']), equip_passives(num(r['id']))]
+    if rand_pool.get(num(r.get('base_item_id'))):
+        row.append(rand_pool[num(r['base_item_id'])])
     old = equips.get(img)
     if not old or row[2] + row[3] + row[4] >= old[2] + old[3] + old[4]:
         equips[img] = row
