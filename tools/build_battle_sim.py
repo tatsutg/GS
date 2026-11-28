@@ -206,6 +206,13 @@ def skill(sid, text='', lua=False, move=False):
     if not r:
         return 0
     effects = [effect(e) for e in sorted(fx.get(r['id'], []), key=lambda e: e['id'])]
+    # a move effect with no group of its own takes the move's skill_group_id, priority = its value: Awoken Vox True Arts
+    # CRI rate +100% (no group, move group 1024) and War Hero Fen True Arts CRI rate +100% (group 1024, priority 100)
+    # replace each other and reset the timer [CONFIRMED in game by the user 2026-11-29]
+    if move and num(r.get('skill_group_id'), -1) > 0:
+        for e in effects:
+            if not e[12]:
+                e[12], e[13] = num(r['skill_group_id']), e[13] or abs(e[3])
     if move and num(r.get('skill_group_id'), -1) < 0:
         stack_mark(r.get('description'), effects)          # caps from the text first
         for e in effects:
