@@ -315,7 +315,15 @@ def pgroup(sid):
     """[skill_group_id, priority] of an equip ability: a real group = "Only once" (one per group, the higher
     priority wins); -1 (no group) = copies stack, e.g. Attack Lv1 on two equips"""
     r = sm.get(sid) or {}
-    return [max(0, num(r.get('skill_group_id'), -1)), num(r.get('priority'))]
+    g = num(r.get('skill_group_id'), -1)
+    if g > 0:
+        return [g, num(r.get('priority'))]                    # one group per name, priority = rank x 10
+    # a few "Only once" abilities have no group (Critical Master, Break Master, BE Output...): players say same
+    # name = no stack, so they get the name without its rank as group, the rank as priority
+    if re.search(r'only once|1回のみ|重複なし|重複不可', str(r.get('description') or ''), re.I):
+        m = re.search(r'\s*Lv\.?\s*(\d+)\+?$', str(r.get('name') or ''))
+        return ['n:' + re.sub(r'\s*Lv\.?\s*\d+\+?$', '', str(r.get('name') or '')).strip(), num(m.group(1)) * 10 if m else 0]
+    return [0, 0]
 
 
 def equip_passives(iid):
