@@ -6,6 +6,7 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "s": {base: {"n": name, "el": element, "hp", "atk", "def", "r": rarity, "id": top unit id,
                "dl": attack delay s, "bp": break power, "at": attribute,
                "nh": hits in one normal attack from the attack1 animation (resetHitList + 1), 0 = unknown,
+               "mh": [skill, arts, true arts, super arts] hits the same way from skill1 / 2 / 3 / 5 (see move_hits), 0 = unknown,
                "lb": [[hp, atk, def] Limit Break "+" stats at the top LB without Dream Awakening, same with it or null],
                "rg": [range_min, range_max] unit_master attack range: the unit walks in until its target's HITBOX is this close,
                "sk": [skill, arts, true_arts, super_arts],
@@ -102,6 +103,35 @@ def normal_hits(uid):
     if not ev or any(str(e.get('string') or 'resethitlist').lower() != 'resethitlist' for e in ev):
         return 0
     return len(ev) + 1
+
+
+def move_hits(uid):
+    """[skill, arts, true arts, super arts] hits, read like normal_hits from skill1 / skill2 / skill3 / skill5 (or the
+    first variant with Hit events: skill3b, skill3_1, skill3-library). 0 = unknown: no Hit events, Hit events with
+    other strings, or orbits (addOrbitSystem) that hit on their own. Checked in game: Awoken Vox True Arts skill3b
+    6 resets = 7 hits, 131,657 a hit x 7 = calc 921,618 (2026-11-29)."""
+    f = os.path.join(ANIM_DIR, f'{uid}.json')
+    if not os.path.exists(f):
+        return [0, 0, 0, 0]
+    try:
+        with open(f, encoding='utf-8') as h:
+            an = json.load(h).get('animations', {})
+    except (OSError, ValueError):
+        return [0, 0, 0, 0]
+    out = []
+    for base in ('skill1', 'skill2', 'skill3', 'skill5'):
+        n = 0
+        for name in (base, base + 'b', base + '_1', base + '-library'):
+            ev = (an.get(name) or {}).get('events', [])
+            hits = [e for e in ev if e.get('name') == 'Hit']
+            if not hits:
+                continue
+            if all(str(e.get('string') or 'resethitlist').lower() == 'resethitlist' for e in hits) \
+                    and not any('orbit' in str(e.get('string') or '').lower() for e in ev):
+                n = len(hits) + 1
+            break
+        out.append(n)
+    return out
 
 
 def load(name):
@@ -288,7 +318,7 @@ for base, rec in units.items():
                    'r': 2 if 'ascension' in rar else 1 if 'awoken' in rar else 0, 'id': top,
                    'dl': round(num(u['attack_delay'], 300) / 100, 2), 'bp': num(u['break_power']),
                    'at': num(u['attribute']), 'sk': sks, 'm': mode, 'race': num(u.get('race')),
-                   'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top),
+                   'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top), 'mh': move_hits(top),
                    'rg': [num(u.get('range_min')), num(u.get('range_max'))], 'lb': lb_stats(u, top)}
     uid_base[str(top)] = base
     for form in obj(rec.get('_forms')).values():
