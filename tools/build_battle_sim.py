@@ -87,7 +87,9 @@ ANIM_DIR = os.path.join(GS, 'dlc', 'Japan', 'unit', 'animation')
 def normal_hits(uid):
     """hits in one normal attack, read from the unit's attack1 animation: each "Hit" event "resetHitList" lets the
     hitbox hit again, so hits = resets + 1. 0 = not readable this way (no resets, other Hit events, shots):
-    the calculator then shows the swing total only. Checked in game for Awoken Vox only (2 resets, 3 hits)."""
+    the calculator then shows the swing total only. Checked in game for Awoken Vox only (2 resets, 3 hits).
+    A "Hit" event with no string counts the same: Awoken Emperor Isliid 13 events = 14 hits (32.1 % a hit, game 135),
+    Isliid, Human Pinnacle 2 events = 3 hits (150 %, game 714), checked in game 2026-11-28."""
     f = os.path.join(ANIM_DIR, f'{uid}.json')
     if not os.path.exists(f):
         return 0
@@ -97,7 +99,7 @@ def normal_hits(uid):
     except (OSError, ValueError):
         return 0
     ev = [e for e in a.get('events', []) if e.get('name') == 'Hit']
-    if not ev or any(str(e.get('string') or '').lower() != 'resethitlist' for e in ev):
+    if not ev or any(str(e.get('string') or 'resethitlist').lower() != 'resethitlist' for e in ev):
         return 0
     return len(ev) + 1
 
