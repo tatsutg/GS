@@ -6,6 +6,9 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
   "s": {base: {"n": name, "el": element, "hp", "atk", "def", "r": rarity, "id": top unit id,
                "dl": attack delay s, "bp": break power, "at": attribute,
                "nh": hits in one normal attack from the attack1 animation (resetHitList + 1), 0 = unknown,
+               "ad": attack1 animation length s (see attack_secs), 0 = unknown,
+               "tf": transform form or absent: {"n": mode name, "secs", "sk": [skill, arts, true arts, 0] (0 = none),
+                     "nh", "ad", "mh" read from <unit id>trans.json},
                "mh": [skill, arts, true arts, super arts] hits the same way from skill1 / 2 / 3 / 5 (see move_hits), 0 = unknown,
                "lb": [[hp, atk, def] Limit Break "+" stats at the top LB without Dream Awakening, same with it or null],
                "rg": [range_min, range_max] unit_master attack range: the unit walks in until its target's HITBOX is this close,
@@ -103,6 +106,32 @@ def normal_hits(uid):
     if not ev or any(str(e.get('string') or 'resethitlist').lower() != 'resethitlist' for e in ev):
         return 0
     return len(ev) + 1
+
+
+def attack_secs(uid):
+    """length (s) of the unit's attack1 animation: the last keyframe or event time. A normal attack can't end before
+    its swing does, so the calculator's rate uses max(attack delay, this). Checked in game 2026-11-28: Awoken Rayas
+    dl 2.0 s, swing 2.4666 s, 5 hits: 2.4666 x 100 / 5 = 49.3 % a hit = 197 (game 197; dl alone gave 160). Awoken Vox
+    (swing 1.5 < dl 2.0) and both Isliids (swing 2.5 < dl 4.5) keep their dl rate, as checked before."""
+    f = os.path.join(ANIM_DIR, f'{uid}.json')
+    if not os.path.exists(f):
+        return 0
+    try:
+        with open(f, encoding='utf-8') as h:
+            a = json.load(h).get('animations', {}).get('attack1') or {}
+    except (OSError, ValueError):
+        return 0
+    m, todo = 0.0, [a]
+    while todo:
+        x = todo.pop()
+        if isinstance(x, dict):
+            t = x.get('time')
+            if isinstance(t, (int, float)):
+                m = max(m, t)
+            todo.extend(x.values())
+        elif isinstance(x, list):
+            todo.extend(x)
+    return round(m, 4)
 
 
 def move_hits(uid):
@@ -318,8 +347,16 @@ for base, rec in units.items():
                    'r': 2 if 'ascension' in rar else 1 if 'awoken' in rar else 0, 'id': top,
                    'dl': round(num(u['attack_delay'], 300) / 100, 2), 'bp': num(u['break_power']),
                    'at': num(u['attribute']), 'sk': sks, 'm': mode, 'race': num(u.get('race')),
-                   'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top), 'mh': move_hits(top),
+                   'lv': num(u.get('level_max')), 'p': passives, 'nh': normal_hits(top), 'ad': attack_secs(top), 'mh': move_hits(top),
                    'rg': [num(u.get('range_min')), num(u.get('range_max'))], 'lb': lb_stats(u, top)}
+    # transform (unit_master trans_*: Awoken Rayas Ex-Force, Awoken Emi, Awoken Groitz): own moves, own swing / hits
+    # from <unit id>trans.json; a 0 move id = no such move while transformed
+    if num(u.get('trans_skill_id')) > 0:
+        tsk = [skill(u.get(k), '', lua, True) if num(u.get(k)) > 0 else 0
+               for k in ('trans_skill_id', 'trans_arts_id', 'trans_true_arts_id')] + [0]
+        tid = f'{top}trans'
+        stats[base]['tf'] = {'n': mode[0] if mode else 'Transform', 'secs': num(u.get('trans_time')), 'sk': tsk,
+                             'nh': normal_hits(tid), 'ad': attack_secs(tid), 'mh': move_hits(tid)}
     uid_base[str(top)] = base
     for form in obj(rec.get('_forms')).values():
         fid = ''.join(c for c in str(obj(form).get('Unit ID') or '') if c.isdigit())
