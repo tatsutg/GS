@@ -12,7 +12,7 @@ Build dlc/<Region>/_DATABASE/others/battle_sim.json for the website's Simulator 
                "m": [mode name, seconds, icon id, activated by 1 arts / 2 true arts / 3 super arts] or 0}}
   "cr": [[type id, name, stone image (dlc path) or '', [[level label, rune id, effects], ...]], ...]  crests with a
         damage effect (type 12 / 13 / 17 / 80 / 22 / 142 / boss 14 / 15 / 21 / 61-65)
-  "e": {image_id: [name, type, hp, atk, def, ct_s, skill, [[passive name, effects], ...]]}   equips by picture id
+  "e": {image_id: [name, type, hp, atk, def, ct_s, skill, [[passive name, effects, group, priority], ...]]}   equips by picture id
        (the site's equip ID); passive effects as a skill's, script 35 = only on the unit whose base is value 1;
        EV equips add an 8th field: the random 2nd ability pool rolled when crafted [[name, effects], ...]
        (data2/skill_rand_relation_master, relation_id = base_item_id)
@@ -311,6 +311,13 @@ def enemy_passives(eid):
     return out
 
 
+def pgroup(sid):
+    """[skill_group_id, priority] of an equip ability: a real group = "Only once" (one per group, the higher
+    priority wins); -1 (no group) = copies stack, e.g. Attack Lv1 on two equips"""
+    r = sm.get(sid) or {}
+    return [max(0, num(r.get('skill_group_id'), -1)), num(r.get('priority'))]
+
+
 def equip_passives(iid):
     best = {}
     for sid in sorted(ability_rel.get(iid, [])):
@@ -324,7 +331,7 @@ def equip_passives(iid):
     for sid in best.values():
         eff = [effect(e) for e in sorted(fx.get(sid, []), key=lambda e: e['id'])]
         if eff:
-            out.append([sm[sid].get('name') or '', eff])
+            out.append([sm[sid].get('name') or '', eff] + pgroup(sid))
     return out
 
 
@@ -337,7 +344,7 @@ if os.path.exists(_rr):
             sid = num(rr['skill_id'])
             eff = [effect(e) for e in sorted(fx.get(sid, []), key=lambda e: e['id'])]
             if num(rr.get('relation_type')) == 1 and eff and sm.get(sid):
-                rand_pool.setdefault(num(rr['relation_id']), []).append([(sm[sid].get('name') or '').strip(), eff])
+                rand_pool.setdefault(num(rr['relation_id']), []).append([(sm[sid].get('name') or '').strip(), eff] + pgroup(sid))
 
 equips = {}
 for r in load('item_master.json'):
